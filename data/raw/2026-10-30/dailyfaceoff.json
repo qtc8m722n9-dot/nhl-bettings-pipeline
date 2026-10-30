@@ -3,14 +3,14 @@
   "side": "home",
   "team_name": "Vegas Golden Knights",
   "goalie": "Adin Hill",
-  "status": null,
+  "status": "Unconfirmed",
   "updated": "2026-10-30"
  },
  {
   "side": "away",
   "team_name": "New Jersey Devils",
   "goalie": "Connor Hellebuyck",
-  "status": null,
+  "status": "Unconfirmed",
   "updated": "2026-10-30"
  },
  {
@@ -24,21 +24,21 @@
   "side": "away",
   "team_name": "Winnipeg Jets",
   "goalie": "Nico Daws",
-  "status": null,
+  "status": "Unconfirmed",
   "updated": "2026-10-30"
  },
  {
   "side": "home",
   "team_name": "Calgary Flames",
   "goalie": "Dustin Wolf",
-  "status": null,
+  "status": "Unconfirmed",
   "updated": "2026-10-30"
  },
  {
   "side": "away",
   "team_name": "Seattle Kraken",
   "goalie": "Joey Daccord",
-  "status": null,
+  "status": "Unconfirmed",
   "updated": "2026-10-30"
  }
 ]
