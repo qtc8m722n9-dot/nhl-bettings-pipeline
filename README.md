@@ -5,7 +5,7 @@ Judged on closing line value (CLV) first, profit second. No real money until a m
 
 ## Status
 - [x] Step 1 – daily data pull (schedule, rest, standings, MoneyPuck xG/GSAx, DailyFaceoff goalies, ESPN injuries)
-- [ ] Step 2 – odds (The Odds API incl. Pinnacle reference, Kalshi, Underdog)
+- [x] Step 2 – odds: Pinnacle + US books (main, 1P, props), Underdog & PrizePicks props via The Odds API, Kalshi game markets via its public API
 - [ ] Step 3 – methods (6, each picks 4 bets/entries per night)
 - [ ] Step 4 – paper-bet log, CLV, weekly summary, dashboard
 

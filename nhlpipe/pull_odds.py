@@ -18,7 +18,7 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
-from . import kalshi, nhl_api, odds_api, underdog
+from . import kalshi, nhl_api, odds_api
 
 ET = ZoneInfo("America/New_York")
 ROOT = Path(__file__).resolve().parent.parent / "data" / "odds"
@@ -112,21 +112,12 @@ def run(mode: str = "main", probe: bool = False) -> None:
         status["books_seen"] = sorted(df["book"].unique().tolist())
         status["markets_seen"] = sorted(df["market"].unique().tolist())
 
-    # --- Kalshi (public, no key) ------------------------------------------
-    series = _try(status, "kalshi_series", kalshi.nhl_series) or []
-    status["kalshi_nhl_series"] = [s["ticker"] for s in series]
-    if series:
-        km = _try(status, "kalshi_markets", lambda: kalshi.open_markets([s["ticker"] for s in series])) or []
-        if km:
-            pd.DataFrame(km).assign(snapshot_et=snap).to_csv(out / "kalshi.csv", index=False)
-        status["kalshi_markets"] = len(km)
-
-    # --- Underdog fallback probe ------------------------------------------
-    ud = _try(status, "underdog", underdog.nhl_lines)
-    if ud is not None:
-        status["underdog_nhl_lines"] = len(ud)
-        if ud:
-            pd.DataFrame(ud).assign(snapshot_et=snap).to_csv(out / "underdog.csv", index=False)
+    # --- Kalshi game markets (public, no key, no credits) -----------------
+    # Underdog/PrizePicks come through The Odds API above.
+    km = _try(status, "kalshi_markets", lambda: kalshi.open_markets(kalshi.GAME_SERIES)) or []
+    if km:
+        pd.DataFrame(km).assign(snapshot_et=snap).to_csv(out / "kalshi.csv", index=False)
+    status["kalshi_markets"] = len(km)
 
     (out / "status.json").write_text(json.dumps(status, indent=1))
     print(json.dumps(status, indent=1))

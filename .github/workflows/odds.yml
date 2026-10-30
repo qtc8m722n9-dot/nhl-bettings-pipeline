@@ -11,14 +11,6 @@ on:
         description: "Probe exchange / pick'em coverage (true/false)"
         default: "false"
         required: false
-  push:
-    branches: [main]
-    paths:
-      - "nhlpipe/odds_api.py"
-      - "nhlpipe/kalshi.py"
-      - "nhlpipe/underdog.py"
-      - "nhlpipe/pull_odds.py"
-      - ".github/workflows/odds.yml"
 
 permissions:
   contents: write
@@ -44,7 +36,7 @@ jobs:
         run: |
           MODE="${{ github.event.inputs.mode || 'full' }}"
           PROBE=""
-          if [ "${{ github.event_name }}" = "push" ] || [ "${{ github.event.inputs.probe }}" = "true" ]; then PROBE="--probe"; fi
+          if [ "${{ github.event.inputs.probe }}" = "true" ]; then PROBE="--probe"; fi
           python -m nhlpipe.pull_odds "$MODE" $PROBE
       - name: Commit data
         run: |

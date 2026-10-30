@@ -35,6 +35,20 @@ def nhl_series() -> list[dict]:
     return keep
 
 
+# Single-game series (found 2026-10-30). Futures/awards are skipped.
+GAME_SERIES = [
+    "KXNHLGAME",       # moneyline
+    "KXNHLSPREAD",     # puck line
+    "KXNHLTOTAL",      # game total
+    "KXNHLTEAMTOTAL",  # team total
+    "KXNHL1P", "KXNHL1PTOTAL", "KXNHL1PSPREAD", "KXNHL1PBTTS",  # first period
+    "KXNHLGOAL", "KXNHLANYGOAL", "KXNHLFIRSTGOAL",               # goalscorer
+    "KXNHLPTS", "KXNHLAST",                                      # points, assists
+    "KXNHLSAVES", "KXNHLSAVE",                                   # goalie saves
+    "KXNHLOT",                                                   # goes to OT
+]
+
+
 def _price(m: dict, side: str) -> float | None:
     """Dollar price for 'yes_bid'/'yes_ask'; handles old cents fields too."""
     v = m.get(f"{side}_dollars")
@@ -63,8 +77,8 @@ def open_markets(series_tickers: list[str]) -> list[dict]:
                     "no_bid": _price(m, "no_bid"),
                     "no_ask": _price(m, "no_ask"),
                     "last_price": _price(m, "last_price"),
-                    "volume": m.get("volume"),
-                    "open_interest": m.get("open_interest"),
+                    "volume": m.get("volume_fp", m.get("volume")),
+                    "open_interest": m.get("open_interest_fp", m.get("open_interest")),
                 }
             )
     return rows

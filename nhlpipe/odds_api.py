@@ -11,10 +11,11 @@ from .http import get
 
 BASE = "https://api.the-odds-api.com/v4/sports/icehockey_nhl"
 
-# Pinnacle = sharp reference. The rest are the most liquid US books for
-# consensus prices on props, where Pinnacle often has no market.
-BOOKS = "pinnacle,draftkings,fanduel,betmgm,williamhill_us,betrivers,fanatics,espnbet"
-# Exchanges / pick'em apps to probe (coverage not guaranteed).
+# Pinnacle = sharp reference (has main lines AND most props).
+# DK/FD/MGM/ESPN = consensus for props. Underdog/PrizePicks/Kalshi = where
+# Evan would actually play. Max 10 books = 1 credit per market.
+BOOKS = "pinnacle,draftkings,fanduel,betmgm,williamhill_us,betrivers,espnbet,underdog,prizepicks,kalshi"
+# Coverage confirmed 2026-10-30: kalshi=h2h, underdog/prizepicks=points+SOG.
 PROBE_BOOKS = ["kalshi", "underdog", "prizepicks"]
 
 MAIN_MARKETS = ["h2h", "spreads", "totals"]
