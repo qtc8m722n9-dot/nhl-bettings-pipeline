@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: repo-writes
+  group: odds
   cancel-in-progress: false
 
 jobs:
@@ -45,5 +45,4 @@ jobs:
           git add data
           git diff --cached --quiet && exit 0
           git commit -m "odds: snapshot $(TZ=America/New_York date +%F_%H%M)"
-          git pull --rebase origin main
-          git push
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
