@@ -89,19 +89,27 @@
  },
  {
   "team_name": "Calgary Flames",
+  "player": "Connor Zary",
+  "position": "C",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-10-30T16:44Z"
+ },
+ {
+  "team_name": "Calgary Flames",
   "player": "Brennan Othmann",
   "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-10-29T02:05Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-10-30T16:38Z"
  },
  {
   "team_name": "Calgary Flames",
   "player": "Devin Cooley",
   "position": "G",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-10-29T02:02Z"
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-10-30T16:32Z"
  },
  {
   "team_name": "Calgary Flames",
@@ -390,6 +398,14 @@
   "status": "Injured Reserve",
   "detail": "Jenik (undisclosed) was placed on non-roster injured reserve by Los Angeles on Thursday, per Zach Dooley of LA Kings Insider.",
   "date": "2026-09-24T19:45Z"
+ },
+ {
+  "team_name": "Minnesota Wild",
+  "player": "Joel Eriksson Ek",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-10-30T16:32Z"
  },
  {
   "team_name": "Minnesota Wild",
