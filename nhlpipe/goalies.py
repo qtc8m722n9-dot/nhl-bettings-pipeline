@@ -56,12 +56,14 @@ def starters(day: date) -> tuple[list[dict], dict]:
                     "side": side,
                     "team_name": _pick(g, f"{side}TeamName", f"{side}_team_name"),
                     "goalie": _pick(g, f"{side}GoalieName", f"{side}_goalie_name"),
+                    # DailyFaceoff leaves this blank until there is news.
                     "status": _pick(
                         g,
                         f"{side}NewsStrengthName",
                         f"{side}_news_strength_name",
                         f"{side}GoalieStatus",
-                    ),
+                    )
+                    or "Unconfirmed",
                     "updated": _pick(g, f"{side}NewsCreatedAt", "updatedAt", "date"),
                 }
             )
