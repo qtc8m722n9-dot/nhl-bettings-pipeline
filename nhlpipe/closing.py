@@ -13,7 +13,7 @@ CLV (computed at grading):
   fair CLV  = close_fair - cost at pick time   (main yardstick)
   venue CLV = close_mid  - price at pick time  (Kalshi only)
 
-Usage: python -m nhlpipe.closing [--dry]
+Usage: python -m nhlpipe.closing [--dry] [--all]
 Writes data/closing/<date>.csv
 """
 import sys
@@ -49,7 +49,7 @@ def _starts(slate: pd.DataFrame) -> dict[str, datetime]:
     return out
 
 
-def run(dry: bool = False) -> None:
+def run(dry: bool = False, all_games: bool = False) -> None:
     now = datetime.now(timezone.utc)
     day = now.astimezone(ET).date()
     pp = DATA / "picks" / f"{day.isoformat()}.csv"
@@ -64,7 +64,7 @@ def run(dry: bool = False) -> None:
     wanted = cands[cands["cand_id"].isin(_picked_cands(picks))]
     due = {
         gk for gk, t in starts.items()
-        if 0 < (t - now).total_seconds() / 60 <= WINDOW_MIN
+        if 0 < (t - now).total_seconds() / 60 <= (24 * 60 if all_games else WINDOW_MIN)
     }
     todo = wanted[wanted["game_key"].isin(due)]
     print(f"{now.astimezone(ET):%H:%M} ET  games due: {sorted(due) or 'none'}  bets to close: {len(todo)}")
@@ -133,4 +133,5 @@ def run(dry: bool = False) -> None:
 
 
 if __name__ == "__main__":
-    run(dry="--dry" in sys.argv)
+    # --all: test mode, snapshot every not-yet-started picked game now
+    run(dry="--dry" in sys.argv, all_games="--all" in sys.argv)

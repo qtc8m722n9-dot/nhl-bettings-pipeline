@@ -5,6 +5,10 @@ name: Closing prices
 # the 2,000 free Actions minutes/month for private repos.
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "nhlpipe/closing.py"
   schedule:
     - cron: "5,25,45 16-23 * * *"
     - cron: "5,25,45 0-4 * * *"
@@ -30,7 +34,8 @@ jobs:
           cache: pip
       - run: pip install -q -r requirements.txt
       - name: Capture closing prices
-        run: python -m nhlpipe.closing
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then python -m nhlpipe.closing --all; else python -m nhlpipe.closing; fi
       - name: Commit data
         run: |
           git config user.name "nhl-pipeline-bot"
