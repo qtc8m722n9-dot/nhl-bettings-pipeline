@@ -161,6 +161,14 @@
  },
  {
   "team_name": "Colorado Avalanche",
+  "player": "Logan O'Connor",
+  "position": "RW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-10-30T17:14Z"
+ },
+ {
+  "team_name": "Colorado Avalanche",
   "player": "Josh Manson",
   "position": "D",
   "status": "Out",
@@ -766,6 +774,14 @@
   "status": "Injured Reserve",
   "detail": "O'Brien (lower body) was placed on non-roster injured reserve Wednesday.",
   "date": "2026-10-01T00:06Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
+  "player": "Colton Parayko",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-10-30T17:10Z"
  },
  {
   "team_name": "St. Louis Blues",
