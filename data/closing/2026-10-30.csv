@@ -1,3 +1,9 @@
 cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,close_fair,close_fair_source
 kalshi|NJD@VGK|player_points|nico hischier|1.5|no,NJD@VGK,2026-10-30T17:21:32-04:00,38.5,0.81,0.83,0.8200000000000001,,
 kalshi|NJD@VGK|team_total|VGK|1.5|yes,NJD@VGK,2026-10-30T17:21:32-04:00,38.5,0.81,0.83,0.8200000000000001,,
+kalshi|WPG@FLA|spread|FLA|1.5|yes,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,0.45,0.46,0.455,0.4474963351593242,pinnacle
+kalshi|WPG@FLA|spread|FLA|1.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,0.54,0.55,0.545,0.5525036648406758,pinnacle
+prizepicks|WPG@FLA|player_sog|matthew tkachuk|2.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,,,,0.5040451438048623,pinnacle
+underdog|WPG@FLA|player_points|gabriel vilardi|0.5|yes,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,,,,0.4951076320939334,pinnacle
+prizepicks|WPG@FLA|player_sog|carter verhaeghe|2.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,,,,0.5302041802585478,pinnacle
+kalshi|WPG@FLA|spread|FLA|2.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,0.67,0.68,0.675,,
