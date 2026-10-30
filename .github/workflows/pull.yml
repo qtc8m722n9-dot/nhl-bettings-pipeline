@@ -1,0 +1,47 @@
+name: Daily data pull
+
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Date to pull (YYYY-MM-DD, blank = today ET)"
+        required: false
+  push:
+    branches: [main]
+    paths:
+      - "nhlpipe/**"
+      - ".github/workflows/pull.yml"
+  schedule:
+    # 10:30 and 13:30 ET (UTC-4 during EDT; shift by 1h after Nov 1 DST end)
+    - cron: "30 14 * * *"
+    - cron: "30 17 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-pull
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Pull data
+        run: python -m nhlpipe.pull_daily ${{ github.event.inputs.day }}
+      - name: Commit data
+        run: |
+          git config user.name "nhl-pipeline-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "data: pull $(TZ=America/New_York date +%F_%H%M)"
+          git pull --rebase origin main
+          git push
