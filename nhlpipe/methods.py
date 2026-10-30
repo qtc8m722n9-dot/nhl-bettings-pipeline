@@ -34,7 +34,8 @@ def _edge_ok(d: pd.DataFrame) -> pd.Series:
 
 
 def _market_key(r) -> str:
-    return r["cand_id"].rsplit("|", 1)[0]
+    """Same bet regardless of venue or side (no both sides, no duplicates across apps)."""
+    return r["cand_id"].split("|", 1)[1].rsplit("|", 1)[0]
 
 
 def _take(df: pd.DataFrame, order_col: str, ascending=False) -> pd.DataFrame:

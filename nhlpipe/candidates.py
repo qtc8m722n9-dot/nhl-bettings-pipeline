@@ -176,8 +176,14 @@ def build(slate: pd.DataFrame, odds: pd.DataFrame, km: pd.DataFrame, day) -> pd.
         return df
     df["player_key"] = df["player"].map(lambda p: norm(p) if isinstance(p, str) else None)
     df["selection"] = [describe(r) for r in df.to_dict("records")]
+    def _who(r) -> str:
+        # NaN is truthy, so test types explicitly (bug fixed 2026-10-30)
+        if isinstance(r.get("team"), str):
+            return r["team"]
+        return r["player_key"] if isinstance(r.get("player_key"), str) else ""
+
     df["cand_id"] = [
-        f"{r['venue']}|{r['game_key']}|{r['market']}|{r['team'] or r['player_key'] or ''}|{r['line']}|{r['side']}"
+        f"{r['venue']}|{r['game_key']}|{r['market']}|{_who(r)}|{r['line']}|{r['side']}"
         for r in df.to_dict("records")
     ]
     # keep the cheapest venue for identical bets
