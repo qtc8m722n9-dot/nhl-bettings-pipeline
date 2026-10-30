@@ -82,3 +82,15 @@ def open_markets(series_tickers: list[str]) -> list[dict]:
                 }
             )
     return rows
+
+
+def market_quote(ticker: str) -> dict:
+    """Current bid/ask for one market (used for closing prices)."""
+    m = get_json(f"{BASE}/markets/{ticker}").get("market", {})
+    return {
+        "yes_bid": _price(m, "yes_bid"),
+        "yes_ask": _price(m, "yes_ask"),
+        "no_bid": _price(m, "no_bid"),
+        "no_ask": _price(m, "no_ask"),
+        "status": m.get("status"),
+    }

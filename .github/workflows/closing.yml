@@ -1,0 +1,42 @@
+name: Closing prices
+
+# Every 20 min through game hours (12:00-23:59 ET). Exits quickly when no
+# picked game starts within 40 minutes. ~40 runs/day x <1 min each fits in
+# the 2,000 free Actions minutes/month for private repos.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5,25,45 16-23 * * *"
+    - cron: "5,25,45 0-4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Capture closing prices
+        run: python -m nhlpipe.closing
+      - name: Commit data
+        run: |
+          git config user.name "nhl-pipeline-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "closing: $(TZ=America/New_York date +%F_%H%M)"
+          git pull --rebase origin main
+          git push

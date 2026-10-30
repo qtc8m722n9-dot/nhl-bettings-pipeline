@@ -7,7 +7,7 @@ Judged on closing line value (CLV) first, profit second. No real money until a m
 - [x] Step 1 – daily data pull (schedule, rest, standings, MoneyPuck xG/GSAx, DailyFaceoff goalies, ESPN injuries)
 - [x] Step 2 – odds: Pinnacle + US books (main, 1P, props), Underdog & PrizePicks props via The Odds API, Kalshi game markets via its public API
 - [x] Step 3 – 7 methods (B0 random, C1 chalk, M1 sharp price, M2 goalie news, M3 xG model, M4 shots model, M5 pick'em entries), locked daily by the "Pick lock" workflow
-- [ ] Step 4 – paper-bet log, CLV, weekly summary, dashboard
+- [~] Step 4 – closing prices captured before each game ("Closing prices" workflow). Still to build: grading, CLV + profit scoreboard, weekly summary, dashboard
 
 ## Layout
 ```
