@@ -1,0 +1,44 @@
+[
+ {
+  "side": "home",
+  "team_name": "Vegas Golden Knights",
+  "goalie": "Adin Hill",
+  "status": null,
+  "updated": "2026-10-30"
+ },
+ {
+  "side": "away",
+  "team_name": "New Jersey Devils",
+  "goalie": "Connor Hellebuyck",
+  "status": null,
+  "updated": "2026-10-30"
+ },
+ {
+  "side": "home",
+  "team_name": "Florida Panthers",
+  "goalie": "Akira Schmid",
+  "status": "Confirmed",
+  "updated": "2026-10-30T14:42:40.075Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Winnipeg Jets",
+  "goalie": "Nico Daws",
+  "status": null,
+  "updated": "2026-10-30"
+ },
+ {
+  "side": "home",
+  "team_name": "Calgary Flames",
+  "goalie": "Dustin Wolf",
+  "status": null,
+  "updated": "2026-10-30"
+ },
+ {
+  "side": "away",
+  "team_name": "Seattle Kraken",
+  "goalie": "Joey Daccord",
+  "status": null,
+  "updated": "2026-10-30"
+ }
+]

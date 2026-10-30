@@ -1,0 +1,35 @@
+[
+ {
+  "game_id": 2026020214,
+  "start_utc": "2026-10-30T22:00:00Z",
+  "game_state": "FUT",
+  "home": "VGK",
+  "away": "NJD",
+  "home_name": "Vegas Golden Knights",
+  "away_name": "New Jersey Devils",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020215,
+  "start_utc": "2026-10-30T23:00:00Z",
+  "game_state": "FUT",
+  "home": "FLA",
+  "away": "WPG",
+  "home_name": "Florida Panthers",
+  "away_name": "Winnipeg Jets",
+  "home_b2b": false,
+  "away_b2b": true
+ },
+ {
+  "game_id": 2026020216,
+  "start_utc": "2026-10-31T00:00:00Z",
+  "game_state": "FUT",
+  "home": "CGY",
+  "away": "SEA",
+  "home_name": "Calgary Flames",
+  "away_name": "Seattle Kraken",
+  "home_b2b": false,
+  "away_b2b": false
+ }
+]
