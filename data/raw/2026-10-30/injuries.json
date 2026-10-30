@@ -217,11 +217,27 @@
  },
  {
   "team_name": "Detroit Red Wings",
+  "player": "Mason Appleton",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Head coach Todd McLellan said Friday that Appleton (undisclosed) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
+  "date": "2026-10-30T16:12Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
+  "player": "Marco Kasper",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Head coach Todd McLellan said Friday that Kasper (upper body) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
+  "date": "2026-10-30T16:10Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
   "player": "Albert Johansson",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-10-30T13:17Z"
+  "status": "Out",
+  "detail": "Head coach Todd McLellan said Friday that Johansson (undisclosed) will miss at least three more games, Ansar Khan of MLive.com reports.",
+  "date": "2026-10-30T16:07Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -238,22 +254,6 @@
   "status": "Injured Reserve",
   "detail": "Edvinsson (contract dispute) is on the Red Wings' injured, non-roster list, per the NHL media site Wednesday.",
   "date": "2026-10-14T15:15Z"
- },
- {
-  "team_name": "Detroit Red Wings",
-  "player": "Mason Appleton",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-06T21:08Z"
- },
- {
-  "team_name": "Detroit Red Wings",
-  "player": "Marco Kasper",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Kasper (upper body) has been given a week-to-week timetable for return.",
-  "date": "2026-10-06T15:39Z"
  },
  {
   "team_name": "Edmonton Oilers",
