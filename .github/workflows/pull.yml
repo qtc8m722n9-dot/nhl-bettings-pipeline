@@ -6,11 +6,6 @@ on:
       day:
         description: "Date to pull (YYYY-MM-DD, blank = today ET)"
         required: false
-  push:
-    branches: [main]
-    paths:
-      - "nhlpipe/**"
-      - ".github/workflows/pull.yml"
   schedule:
     # 10:30 and 13:30 ET (UTC-4 during EDT; shift by 1h after Nov 1 DST end)
     - cron: "30 14 * * *"
@@ -43,4 +38,10 @@ jobs:
           git add data
           git diff --cached --quiet && exit 0
           git commit -m "data: pull $(TZ=America/New_York date +%F_%H%M)"
-          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+          # Same-file clashes (e.g. two runs writing today's slate): keep this run's copy.
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          echo "push failed after 4 attempts"; exit 1
