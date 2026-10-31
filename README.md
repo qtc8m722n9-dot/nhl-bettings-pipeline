@@ -11,6 +11,15 @@ Judged on closing line value (CLV) first, profit second. No real money until a m
   - "Closing prices" sleeps until ~10 min before each picked game and snapshots it once (sharp fair close via The Odds API, Kalshi quote)
   - "Grade & scoreboard" (each morning) grades every past slate from NHL API boxscores, replaces Kalshi closes with the exact 1-minute candle at listed start, and rewrites **[data/scoreboard.md](data/scoreboard.md)** (+ `data/scoreboard.csv`)
 - [ ] Step 5 – weekly summary, dashboard
+- [~] Backtest 2025-26 (M1, M3, M4) – `nhlpipe/backtest/`, run from Actions → "Backtest (manual)"; results in `data/backtest/report.md`
+
+## Backtest
+`nhlpipe/backtest/` replays the 2025-26 regular season with The Odds API historical archive
+(13:50 ET pick snapshot, closing snapshot ~2 min before each game) and point-in-time stats
+(MoneyPuck game logs and NHL box scores dated before each pick date). The live methods in
+`nhlpipe/methods.py` and models in `nhlpipe/models.py` are used unchanged. Every external pull is cached
+under `data/backtest/` and never repeated; Odds API credits are logged in `data/backtest/odds/ledger.csv`.
+Actions → "Backtest (manual)": task `pull` / `run` with `START END`, then `report`.
 
 ## Scoreboard
 Open [data/scoreboard.md](data/scoreboard.md) on GitHub. Per method, singles and parlays/entries separate, last 7 days and season:
