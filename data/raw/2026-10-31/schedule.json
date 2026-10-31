@@ -2,7 +2,7 @@
  {
   "game_id": 2026020217,
   "start_utc": "2026-10-31T17:00:00Z",
-  "game_state": "FUT",
+  "game_state": "LIVE",
   "home": "BOS",
   "away": "CHI",
   "home_name": "Boston Bruins",
@@ -13,7 +13,7 @@
  {
   "game_id": 2026020218,
   "start_utc": "2026-10-31T17:00:00Z",
-  "game_state": "FUT",
+  "game_state": "LIVE",
   "home": "DET",
   "away": "STL",
   "home_name": "Detroit Red Wings",
@@ -24,7 +24,7 @@
  {
   "game_id": 2026020219,
   "start_utc": "2026-10-31T18:00:00Z",
-  "game_state": "FUT",
+  "game_state": "PRE",
   "home": "NSH",
   "away": "TBL",
   "home_name": "Nashville Predators",
@@ -35,7 +35,7 @@
  {
   "game_id": 2026020220,
   "start_utc": "2026-10-31T18:00:00Z",
-  "game_state": "FUT",
+  "game_state": "PRE",
   "home": "NYI",
   "away": "EDM",
   "home_name": "New York Islanders",

@@ -1,20 +1,6 @@
 [
  {
   "side": "home",
-  "team_name": "Boston Bruins",
-  "goalie": "Michael DiPietro",
-  "status": "Confirmed",
-  "updated": "2026-10-31T15:41:40.840Z"
- },
- {
-  "side": "away",
-  "team_name": "Chicago Blackhawks",
-  "goalie": "Arvid Soderblom",
-  "status": "Unconfirmed",
-  "updated": "2026-10-31"
- },
- {
-  "side": "home",
   "team_name": "Detroit Red Wings",
   "goalie": "John Gibson",
   "status": "Confirmed",
@@ -24,15 +10,29 @@
   "side": "away",
   "team_name": "St Louis Blues",
   "goalie": "Joel Hofer",
-  "status": "Unconfirmed",
-  "updated": "2026-10-31"
+  "status": "Confirmed",
+  "updated": "2026-10-31T16:50:29.265Z"
+ },
+ {
+  "side": "home",
+  "team_name": "Boston Bruins",
+  "goalie": "Michael DiPietro",
+  "status": "Confirmed",
+  "updated": "2026-10-31T15:41:40.840Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Chicago Blackhawks",
+  "goalie": "Arvid Soderblom",
+  "status": "Confirmed",
+  "updated": "2026-10-31T16:31:11.242Z"
  },
  {
   "side": "home",
   "team_name": "New York Islanders",
   "goalie": "Ilya Sorokin",
-  "status": "Unconfirmed",
-  "updated": "2026-10-31"
+  "status": "Confirmed",
+  "updated": "2026-10-31T16:46:04.922Z"
  },
  {
   "side": "away",
@@ -45,22 +45,22 @@
   "side": "home",
   "team_name": "Nashville Predators",
   "goalie": "Justus Annunen",
-  "status": "Unconfirmed",
-  "updated": "2026-10-31"
+  "status": "Confirmed",
+  "updated": "2026-10-31T17:31:44.327Z"
  },
  {
   "side": "away",
   "team_name": "Tampa Bay Lightning",
   "goalie": "Andrei Vasilevskiy",
-  "status": "Unconfirmed",
-  "updated": "2026-10-31"
+  "status": "Confirmed",
+  "updated": "2026-10-31T17:31:15.309Z"
  },
  {
   "side": "home",
   "team_name": "San Jose Sharks",
-  "goalie": "Yaroslav Askarov",
-  "status": "Unconfirmed",
-  "updated": "2026-10-31"
+  "goalie": "Alex Nedeljkovic",
+  "status": "Confirmed",
+  "updated": "2026-10-31T17:43:30.492Z"
  },
  {
   "side": "away",
@@ -94,8 +94,8 @@
   "side": "away",
   "team_name": "Pittsburgh Penguins",
   "goalie": "Sergei Murashov",
-  "status": "Unconfirmed",
-  "updated": "2026-10-31"
+  "status": "Confirmed",
+  "updated": "2026-10-31T16:16:08.395Z"
  },
  {
   "side": "home",
@@ -122,15 +122,15 @@
   "side": "away",
   "team_name": "Columbus Blue Jackets",
   "goalie": "Jet Greaves",
-  "status": "Unconfirmed",
-  "updated": "2026-10-31"
+  "status": "Confirmed",
+  "updated": "2026-10-31T17:47:14.165Z"
  },
  {
   "side": "home",
   "team_name": "Colorado Avalanche",
   "goalie": "Mackenzie Blackwood",
-  "status": "Unconfirmed",
-  "updated": "2026-10-31"
+  "status": "Confirmed",
+  "updated": "2026-10-31T17:09:20.073Z"
  },
  {
   "side": "away",
