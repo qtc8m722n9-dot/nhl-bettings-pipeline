@@ -1,0 +1,11 @@
+key check: {'x-requests-remaining': '100000', 'x-requests-used': '0', 'x-requests-last': '0'}
+espn 401892611 NJ @ VGK
+espn 401892612 WPG @ FLA
+espn 401892613 SEA @ CGY
+NJD@VGK 2026-10-30T21:21:32Z 13 events
+   New Jersey Devils @ Vegas Golden Knights snapshot 2026-10-30T21:20:36Z books ['draftkings', 'betmgm', 'fanduel', 'espnbet', 'pinnacle']
+SEA@CGY 2026-10-30T23:57:04Z 13 events
+   Seattle Kraken @ Calgary Flames snapshot 2026-10-30T23:55:36Z books ['draftkings', 'betmgm', 'espnbet', 'fanduel', 'pinnacle']
+WPG@FLA 2026-10-30T22:40:21Z 13 events
+   Winnipeg Jets @ Florida Panthers snapshot 2026-10-30T22:35:36Z books ['draftkings', 'betmgm', 'fanduel', 'espnbet', 'pinnacle']
+credits: {'credits': 153, 'calls': 6, 'cached': 0} {'x-requests-remaining': '99847', 'x-requests-used': '153', 'x-requests-last': '50'}
