@@ -1,7 +1,4 @@
 pulled_utc,kind,date,detail,credits_last,remaining
-2026-10-31T14:18:27+00:00,events,2026-10-30T21:21:32Z,events,1,99999
-2026-10-31T14:18:28+00:00,event,2026-10-30T21:21:32Z,5c712e15e1cd4b9283b4bf410fb334f4 h2h spreads totals player_points player_shots_on_goal,50,99949
-2026-10-31T14:18:30+00:00,events,2026-10-30T23:57:04Z,events,1,99948
-2026-10-31T14:18:32+00:00,event,2026-10-30T23:57:04Z,026d37181dd4ace0df7565d9b208ce7e h2h spreads totals player_points player_shots_on_goal,50,99898
-2026-10-31T14:18:33+00:00,events,2026-10-30T22:40:21Z,events,1,99897
-2026-10-31T14:18:35+00:00,event,2026-10-30T22:40:21Z,a536736a6da269d2e10edbdb27a789bd h2h spreads totals player_points player_shots_on_goal,50,99847
+2026-10-31T14:19:00+00:00,events,2025-12-02T18:50:00Z,events,1,99846
+2026-10-31T14:19:01+00:00,featured,2025-12-02T18:50:00Z,h2h spreads totals,30,99816
+2026-10-31T14:19:03+00:00,event,2025-12-02T18:50:00Z,08797dcbc233c3f8b06cb286e71c4de6 player_shots_on_goal player_points,20,99796
