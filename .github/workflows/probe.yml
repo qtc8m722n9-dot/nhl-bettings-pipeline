@@ -2,19 +2,20 @@ name: probe (temp)
 on:
   push:
     branches: [step4-grading]
-    paths: ["probe.py", ".github/workflows/probe.yml"]
+    paths: ["probe.py", ".github/workflows/probe.yml", "nhlpipe/**"]
 permissions:
   contents: write
 jobs:
   p:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
-      - run: pip install -q pandas requests
-      - run: python probe.py
+      - run: pip install -q -r requirements.txt
+      - run: python -m nhlpipe.grade 2026-10-30 2>&1 | tee probe_log.txt
+      - run: python -m nhlpipe.closing --plan 2>&1 | tee -a probe_log.txt
       - run: |
           git config user.name bot; git config user.email actions@users.noreply.github.com
-          git add -f probe_out; git commit -qm "probe output"; git push
+          git add -f data probe_log.txt; git commit -qm "probe: test grade" || true; git push

@@ -1,17 +1,27 @@
 name: Closing prices
 
-# Every 20 min through game hours (12:00-23:59 ET). Exits quickly when no
-# picked game starts within 40 minutes. ~40 runs/day x <1 min each fits in
-# the 2,000 free Actions minutes/month for private repos.
+# Fires ~28 min before each :00 / :30 ET start slot (cron is UTC; the hours
+# cover both EDT and EST). The job sleeps until ~10 min before each picked
+# game and snapshots it once, then exits when nothing starts within 30 min.
+# GitHub often starts scheduled runs 10-20 min late, which this absorbs.
+# Weekdays only cover evening slots; Sat/Sun also cover afternoons.
+# ~16 short runs/day plus a few minutes of sleep per start slot.
+# Kalshi closes are made exact later by the grading job (1-min candles).
 on:
   workflow_dispatch:
+    inputs:
+      all:
+        description: "Snapshot every not-yet-started picked game now (spends Odds API credits)"
+        default: "false"
+        required: false
   push:
     branches: [main]
     paths:
       - "nhlpipe/closing.py"
   schedule:
-    - cron: "5,25,45 16-23 * * *"
-    - cron: "5,25,45 0-4 * * *"
+    - cron: "2,32 21-23 * * *"      # 6:00-8:00 PM ET slots
+    - cron: "2,32 0-3 * * *"        # 8:00-10:30 PM ET slots
+    - cron: "2,32 15-21 * * 0,6"    # Sat/Sun afternoon slots
 
 permissions:
   contents: write
@@ -23,7 +33,7 @@ concurrency:
 jobs:
   close:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 50
     env:
       ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
     steps:
@@ -35,7 +45,9 @@ jobs:
       - run: pip install -q -r requirements.txt
       - name: Capture closing prices
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then python -m nhlpipe.closing --all; else python -m nhlpipe.closing; fi
+          # push = code change: print the plan only (no Odds API credits spent)
+          if [ "${{ github.event_name }}" = "push" ]; then python -m nhlpipe.closing --plan
+          elif [ "${{ github.event.inputs.all }}" = "true" ]; then python -m nhlpipe.closing --all; else python -m nhlpipe.closing; fi
       - name: Commit data
         run: |
           git config user.name "nhl-pipeline-bot"
