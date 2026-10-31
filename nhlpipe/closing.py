@@ -11,10 +11,13 @@ A game is snapshotted once FINAL_MIN or less before start (one Odds API call
 per game), so credits aren't spent twice. A late or dropped GitHub cron run
 can still miss a game; the fair close is then missing for it.
 
-Kalshi backfill (python -m nhlpipe.closing --backfill YYYY-MM-DD), run by the
-morning grading job: replaces close_bid/ask/mid for every Kalshi bet with the
-last 1-minute Kalshi candle at or before the listed start, so Kalshi CLV is
-exact no matter when the live snapshot ran.
+Backfill (python -m nhlpipe.closing --backfill YYYY-MM-DD), run by the
+morning grading job, makes the close exact no matter when (or whether) the
+live snapshot ran:
+  Kalshi: close_bid/ask/mid from the last 1-minute candle at or before the
+          listed start
+  fair:   close_fair from The Odds API historical archive, last snapshot
+          ~2 min before the listed start (fair_close_from = archive)
 
 CLV (computed at grading):
   fair CLV   = close_fair - cost at pick time   (main yardstick)
@@ -231,6 +234,94 @@ def _candle_quote(ticker: str, start: datetime) -> tuple[float, float, int] | No
 
 
 def backfill(day: date) -> None:
+    """Morning backfill: exact Kalshi closes (candles) and archived sharp closes."""
+    backfill_kalshi(day)
+    try:
+        backfill_fair(day)
+    except Exception as e:  # noqa: BLE001
+        print(odds_api.scrub(f"fair backfill failed: {e}"))
+
+
+# --- sharp close from The Odds API historical archive ---------------------------
+# GitHub often starts scheduled runs late or skips them, so the live snapshot can
+# miss a game. The archive has every game's odds at 5-minute snapshots, so the
+# morning job reads the last snapshot ~ARCHIVE_LEAD before the listed start.
+# Cost: 1 credit (events) + 10 per market per game; responses cached forever.
+ARCHIVE_LEAD = timedelta(minutes=2)
+HIST = "https://api.the-odds-api.com/v4/historical/sports/icehockey_nhl"
+
+
+def _hist(path: str, params: dict, cache: Path) -> dict:
+    import gzip
+    import json
+    import os
+
+    from .http import get
+    if cache.exists():
+        return json.loads(gzip.decompress(cache.read_bytes()))
+    key = os.environ.get("ODDS_API_KEY", "").strip()
+    r = get(f"{HIST}{path}", params={**params, "apiKey": key, "dateFormat": "iso", "oddsFormat": "american"}, timeout=60)
+    data = r.json()
+    cache.parent.mkdir(parents=True, exist_ok=True)
+    cache.write_bytes(gzip.compress(json.dumps(data).encode()))
+    odds_api.USAGE.update({k: r.headers.get(k) for k in ("x-requests-remaining", "x-requests-used", "x-requests-last")})
+    return data
+
+
+def backfill_fair(day: date) -> None:
+    loaded = _load_day(day)
+    if loaded is None:
+        return
+    wanted, starts = loaded
+    path = _closing_path(day)
+    old = pd.read_csv(path) if path.exists() else pd.DataFrame(columns=["cand_id"])
+    done = set(old.loc[old["fair_close_from"] == "archive", "cand_id"]) if "fair_close_from" in old else set()
+    todo = wanted[wanted["market"].isin(list(fair.BOOK_MARKET)) & ~wanted["cand_id"].isin(done)]
+    if todo.empty:
+        print(f"{day}: archived sharp closes already in place")
+        return
+    tmap = nhl_api.team_name_map([], nhl_api.standings(day))
+    raw = DATA / "closing" / "archive" / day.isoformat()
+    out = []
+    for gk, grp in todo.groupby("game_key"):
+        start = starts.get(gk)
+        if start is None:
+            continue
+        iso = (start - ARCHIVE_LEAD).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        evs = _hist("/events", {"date": iso}, raw / f"events_{iso.replace(':', '')}.json.gz").get("data", [])
+        ev = next((e for e in evs if f"{nhl_api.lookup_team(e['away_team'], tmap)}@{nhl_api.lookup_team(e['home_team'], tmap)}" == gk), None)
+        if ev is None:
+            print(f"{gk}: not in archive at {iso}")
+            continue
+        need = sorted({fair.BOOK_MARKET[m] for m in grp["market"]})
+        d = _hist(f"/events/{ev['id']}/odds", {"date": iso, "markets": ",".join(need), "bookmakers": CLOSE_BOOKS},
+                  raw / f"{gk.replace('@', '_at_')}_{'_'.join(need)}.json.gz")
+        snap = d.get("timestamp")
+        rows = odds_api.flatten(d.get("data") or {}, snap)
+        table = {}
+        if rows:
+            od = pd.DataFrame(rows)
+            od["home"] = od["home_name"].map(lambda n: nhl_api.lookup_team(n, tmap))
+            od["away"] = od["away_name"].map(lambda n: nhl_api.lookup_team(n, tmap))
+            od["implied_prob"] = od["price_american"].map(american_to_prob)
+            table = fair.lookup_table(fair.devig(od))
+        mins = round((start - datetime.fromisoformat(snap.replace("Z", "+00:00"))).total_seconds() / 60, 1) if snap else None
+        for c in grp.to_dict("records"):
+            p, src = fair.fair_prob(c, table) if table else (None, None)
+            prev = old[old["cand_id"] == c["cand_id"]]
+            rec = prev.iloc[0].to_dict() if len(prev) else {"cand_id": c["cand_id"], "game_key": gk}
+            if p is not None:
+                rec.update(close_fair=p, close_fair_source=src)
+            rec.update(fair_close_from="archive" if p is not None else rec.get("fair_close_from", "none"),
+                       fair_close_snapshot=snap, fair_close_min_before=mins)
+            out.append(rec)
+    if out:
+        _save(day, pd.DataFrame(out))
+    n = sum(1 for r in out if r.get("fair_close_from") == "archive")
+    print(f"{day}: archived sharp closes for {n} bet(s), odds api {odds_api.USAGE}")
+
+
+def backfill_kalshi(day: date) -> None:
     loaded = _load_day(day)
     if loaded is None:
         print(f"No picks for {day}.")
