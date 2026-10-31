@@ -1,32 +1,10 @@
 # NHL paper-betting scoreboard
 
-Updated 2026-10-31 09:59 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
+Updated 2026-10-31 10:20 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
 
-## Last 7 days (Oct 24 – Oct 30)
+Trial period starts Oct 31; no trial slate graded yet.
 
-### Singles
-
-| Method | Bets | W-L | Win % | Units | ROI | Avg fair CLV, pp (n) | Avg Kalshi CLV, pp (n) | Beat close (n) | Void |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| B0_random | 4 | 1-3 | 25% | -1.91 | -47.6% | -4.0 (4) | -1.2 (3) | 0% (4) | 0 |
-| C1_chalk | 4 | 3-1 | 75% | -0.47 | -11.7% | – | +0.5 (4) | 50% (4) | 0 |
-| M2_goalie_news | 2 | 2-0 | 100% | +0.79 | 39.5% | – | +0.0 (2) | 50% (2) | 0 |
-| M3_xg_model | 4 | 2-2 | 50% | -1.21 | -30.3% | -1.5 (1) | -0.5 (4) | 25% (4) | 0 |
-| M4_shots_model | 3 | 2-1 | 67% | +0.46 | 15.3% | -6.5 (3) | – | 0% (3) | 0 |
-
-## Season (Oct 30 – Oct 30, 1 slates)
-
-### Singles
-
-| Method | Bets | W-L | Win % | Units | ROI | Avg fair CLV, pp (n) | Avg Kalshi CLV, pp (n) | Beat close (n) | Void |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| B0_random | 4 | 1-3 | 25% | -1.91 | -47.6% | -4.0 (4) | -1.2 (3) | 0% (4) | 0 |
-| C1_chalk | 4 | 3-1 | 75% | -0.47 | -11.7% | – | +0.5 (4) | 50% (4) | 0 |
-| M2_goalie_news | 2 | 2-0 | 100% | +0.79 | 39.5% | – | +0.0 (2) | 50% (2) | 0 |
-| M3_xg_model | 4 | 2-2 | 50% | -1.21 | -30.3% | -1.5 (1) | -0.5 (4) | 25% (4) | 0 |
-| M4_shots_model | 3 | 2-1 | 67% | +0.46 | 15.3% | -6.5 (3) | – | 0% (3) | 0 |
-
-## Latest slate: Fri Oct 30
+## Latest slate: Fri Oct 30 (pre-trial, old rules: not in the tables above)
 
 | Method | Pick | Cost | Result | Units | Fair CLV | Kalshi CLV | Detail |
 |---|---|--:|---|--:|--:|--:|---|

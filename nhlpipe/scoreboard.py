@@ -6,7 +6,7 @@ Windows: "Last 7 days" (7 slate dates ending on the latest graded date) and
 "Season" (everything graded). Singles and parlays / pick'em entries are
 scored separately.
 """
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -18,6 +18,10 @@ ET = ZoneInfo("America/New_York")
 DATA = Path(__file__).resolve().parent.parent / "data"
 BUCKETS = {"single": "Singles", "parlay": "Parlays (3-leg) & pick'em entries (2-pick)"}
 SETTLED = {"win", "loss"}
+# Pre-registered rules (methods.py) took effect for slates from this date. Earlier
+# slates were locked under the old rules (e.g. 2 picks per game) and are kept
+# out of the windows below; their grades stay in data/graded/.
+TRIAL_START = date(2026, 10, 31)
 
 
 def load() -> pd.DataFrame:
@@ -90,12 +94,17 @@ def build() -> pd.DataFrame:
     if df.empty:
         md_path.write_text("# NHL paper-betting scoreboard\n\nNothing graded yet.\n")
         return df
-    last = max(df["date"])
-    windows = {
-        f"Last 7 days ({last - timedelta(days=6):%b %d} – {last:%b %d})": df[df["date"] > last - timedelta(days=7)],
-        f"Season ({min(df['date']):%b %d} – {last:%b %d}, {df['date'].nunique()} slates)": df,
-    }
-    methods = [m for m in METHODS if m in set(df["method"])] + sorted(set(df["method"]) - set(METHODS))
+    all_df = df
+    df = df[df["date"] >= TRIAL_START]
+    last = max(all_df["date"])
+    windows = {}
+    if not df.empty:
+        tl = max(df["date"])
+        windows = {
+            f"Last 7 days ({tl - timedelta(days=6):%b %d} – {tl:%b %d})": df[df["date"] > tl - timedelta(days=7)],
+            f"Season ({min(df['date']):%b %d} – {tl:%b %d}, {df['date'].nunique()} slates)": df,
+        }
+    methods = [m for m in METHODS if m in set(all_df["method"])] + sorted(set(all_df["method"]) - set(METHODS))
     rows, md = [], [
         "# NHL paper-betting scoreboard",
         "",
@@ -103,6 +112,8 @@ def build() -> pd.DataFrame:
         "judged on CLV first, profit second.",
         "",
     ]
+    if not windows:
+        md += [f"Trial period starts {TRIAL_START:%b %d}; no trial slate graded yet.", ""]
     for wname, wdf in windows.items():
         md += [f"## {wname}", ""]
         for bkey, bname in BUCKETS.items():
@@ -119,15 +130,16 @@ def build() -> pd.DataFrame:
                 trows.append(st)
             md += [f"### {bname}", ""] + _table(trows) + [""]
 
-    latest = df[df["date"] == last].sort_values(["method", "bucket", "pick_no"], ascending=[True, False, True])
-    md += [f"## Latest slate: {last:%a %b %d}", "", "| Method | Pick | Cost | Result | Units | Fair CLV | Kalshi CLV | Detail |", "|---|---|--:|---|--:|--:|--:|---|"]
+    latest = all_df[all_df["date"] == last].sort_values(["method", "bucket", "pick_no"], ascending=[True, False, True])
+    pre = " (pre-trial, old rules: not in the tables above)" if last < TRIAL_START else ""
+    md += [f"## Latest slate: {last:%a %b %d}{pre}", "", "| Method | Pick | Cost | Result | Units | Fair CLV | Kalshi CLV | Detail |", "|---|---|--:|---|--:|--:|--:|---|"]
     for r in latest.to_dict("records"):
         res = r["result"] + (f" ({r['legs_result']})" if isinstance(r.get("legs_result"), str) else "")
         f = lambda x: "–" if pd.isna(x) else f"{x * 100:+.1f}"  # noqa: E731
         u = "–" if pd.isna(r["profit"]) else f"{r['profit']:+.2f}"
         md.append(f"| {r['method']} | {r['selection']} | {r['cost']:.3f} | {res} | {u} | {f(r['fair_clv'])} | {f(r['kalshi_clv'])} | {r['detail']} |")
 
-    open_ = df[df["result"].isin(["pending", "error"])]
+    open_ = all_df[all_df["result"].isin(["pending", "error"])]
     md += [
         "",
         "## Notes",
