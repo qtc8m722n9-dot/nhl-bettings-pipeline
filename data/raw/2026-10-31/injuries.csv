@@ -44,7 +44,6 @@ Florida Panthers,Brad Marchand,LW,Injured Reserve,"Marchand (leg) has started sk
 Florida Panthers,Aleksander Barkov,C,Injured Reserve,"Barkov (lower body) resumed skating Wednesday, George Richards of Florida Hockey Now reports.",2026-10-29T16:13Z,FLA,True
 Florida Panthers,Jacob Markstrom,G,Injured Reserve,ir,2026-10-20T21:23Z,FLA,True
 Florida Panthers,Jonah Gadjovich,LW,Injured Reserve,"Gadjovich (upper body) is out indefinitely, the team announced Thursday.",2026-09-17T20:53Z,FLA,True
-Los Angeles Kings,Brandt Clarke,D,Day-To-Day,day-to-day,2026-10-30T04:12Z,LAK,False
 Los Angeles Kings,Mats Zuccarello,RW,Injured Reserve,"Zuccarello (upper body) is regarded as week-to-week, Zach Dooley of the Kings' official site reports Thursday.",2026-10-29T18:43Z,LAK,True
 Los Angeles Kings,Kevin Fiala,LW,Injured Reserve,"Head coach Peter Laviolette said Thursday that Fiala (lower leg) remains on a week-to-week timeline, Zach Dooley of the Kings' official site reports.",2026-10-29T18:42Z,LAK,True
 Los Angeles Kings,Alex Turcotte,C,Injured Reserve,ir,2026-10-10T18:09Z,LAK,True
@@ -56,9 +55,9 @@ Minnesota Wild,Brock Faber,D,Injured Reserve,"Faber (skull) has cleared his retu
 Minnesota Wild,Filip Gustavsson,G,Injured Reserve,"Head coach John Hynes said Sunday that Gustavsson (hip) is slated to miss at least another month, Dylan Loucks of The Hockey News reports.",2026-10-18T21:23Z,MIN,True
 Minnesota Wild,Marcus Foligno,LW,Injured Reserve,ir,2026-10-12T22:12Z,MIN,True
 Minnesota Wild,Nick Foligno,LW,Injured Reserve,ir,2026-10-09T15:50Z,MIN,True
-Montreal Canadiens,Mike Matheson,D,Day-To-Day,day-to-day,2026-10-30T13:17Z,MTL,False
+Montreal Canadiens,Mike Matheson,D,Out,"Matheson (lower body) is expected to miss two weeks, Renaud Lavoie of TVA Sports reports Saturday.",2026-10-31T15:31Z,MTL,True
+Montreal Canadiens,Sam Montembeault,G,Injured Reserve,"Montembeault (lower body) is considered day-to-day, according to Renaud Lavoie of TVA Sports on Saturday.",2026-10-31T15:25Z,MTL,True
 Montreal Canadiens,Nick Suzuki,C,Out,out,2026-10-22T15:30Z,MTL,True
-Montreal Canadiens,Sam Montembeault,G,Injured Reserve,ir,2026-10-10T21:20Z,MTL,True
 Montreal Canadiens,Ivan Demidov,RW,Injured Reserve,"Demidov (lower body) was placed on injured reserve by the Canadiens on Tuesday, per the NHL media site.",2026-10-06T21:16Z,MTL,True
 Montreal Canadiens,Bryce Pickford,D,Injured Reserve,ir-nr,2026-09-29T16:39Z,MTL,True
 Montreal Canadiens,Lucas Condotta,LW,Injured Reserve,ir-nr,2026-09-29T16:38Z,MTL,True
@@ -69,6 +68,8 @@ New York Islanders,Matias Maccelli,LW,Injured Reserve,Maccelli (lower body) was 
 New York Islanders,Calum Ritchie,C,Injured Reserve,ir,2026-10-26T17:28Z,NYI,True
 New York Islanders,Alexander Romanov,D,Injured Reserve,ir,2026-10-19T13:56Z,NYI,True
 New York Islanders,Mathew Barzal,C,Injured Reserve,"Barzal (knee) will not join the Islanders for their two-game road trip, Andrew Gross of Newsday reports Thursday.",2026-10-15T16:57Z,NYI,True
+New York Rangers,Braden Schneider,D,Day-To-Day,day-to-day,2026-10-31T15:15Z,NYR,False
+New York Rangers,Sean Durzi,D,Day-To-Day,day-to-day,2026-10-31T15:03Z,NYR,False
 New York Rangers,Eeli Tolvanen,RW,Day-To-Day,"Tolvanen didn't participate in Friday's practice session due to personal reasons, Vince Z. Mercogliano of The Athletic reports.",2026-10-30T15:21Z,NYR,False
 New York Rangers,James Reimer,G,Day-To-Day,"Reimer (upper body) was tagged as day-to-day Tuesday, per Vince Z. Mercogliano of The Athletic.",2026-10-27T16:31Z,NYR,False
 New York Rangers,Igor Shesterkin,G,Injured Reserve,"Shesterkin will require surgery and a lengthy rehab process to address his season-ending right knee injury, Vince Z. Mercogliano of The Athletic reports Sunday.",2026-10-11T21:06Z,NYR,True
@@ -108,7 +109,6 @@ Tampa Bay Lightning,Zemgus Girgensons,C,Day-To-Day,day-to-day,2026-10-30T13:17Z,
 Tampa Bay Lightning,Yanni Gourde,C,Injured Reserve,Gourde (hip) was placed on the injured non-roster list Monday.,2026-09-28T19:18Z,TBL,True
 Toronto Maple Leafs,Kirill Marchenko,RW,Injured Reserve,ir,2026-10-29T17:28Z,TOR,True
 Toronto Maple Leafs,Miles Wood,LW,Injured Reserve,"Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",2026-10-29T00:11Z,TOR,True
-Toronto Maple Leafs,Chris Tanev,D,Injured Reserve,"The Maple Leafs announced Wednesday that Tanev (upper body) has been upgraded to day-to-day, Mark Masters of TSN reports.",2026-10-28T18:30Z,TOR,True
 Toronto Maple Leafs,Nick Blankenburg,D,Injured Reserve,"Blankenburg (undisclosed) was placed on injured reserve by the Maple Leafs on Friday, David Alter of The Hockey News reports.",2026-10-23T15:29Z,TOR,True
 Toronto Maple Leafs,Marshall Rifai,D,Injured Reserve,ir,2026-10-23T02:22Z,TOR,True
 Toronto Maple Leafs,John Tavares,C,Injured Reserve,ir,2026-10-17T20:19Z,TOR,True

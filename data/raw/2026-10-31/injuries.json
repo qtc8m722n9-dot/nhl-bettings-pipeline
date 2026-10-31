@@ -361,14 +361,6 @@
  },
  {
   "team_name": "Los Angeles Kings",
-  "player": "Brandt Clarke",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-10-30T04:12Z"
- },
- {
-  "team_name": "Los Angeles Kings",
   "player": "Mats Zuccarello",
   "position": "RW",
   "status": "Injured Reserve",
@@ -459,9 +451,17 @@
   "team_name": "Montreal Canadiens",
   "player": "Mike Matheson",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-10-30T13:17Z"
+  "status": "Out",
+  "detail": "Matheson (lower body) is expected to miss two weeks, Renaud Lavoie of TVA Sports reports Saturday.",
+  "date": "2026-10-31T15:31Z"
+ },
+ {
+  "team_name": "Montreal Canadiens",
+  "player": "Sam Montembeault",
+  "position": "G",
+  "status": "Injured Reserve",
+  "detail": "Montembeault (lower body) is considered day-to-day, according to Renaud Lavoie of TVA Sports on Saturday.",
+  "date": "2026-10-31T15:25Z"
  },
  {
   "team_name": "Montreal Canadiens",
@@ -470,14 +470,6 @@
   "status": "Out",
   "detail": "out",
   "date": "2026-10-22T15:30Z"
- },
- {
-  "team_name": "Montreal Canadiens",
-  "player": "Sam Montembeault",
-  "position": "G",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-10T21:20Z"
  },
  {
   "team_name": "Montreal Canadiens",
@@ -558,6 +550,22 @@
   "status": "Injured Reserve",
   "detail": "Barzal (knee) will not join the Islanders for their two-game road trip, Andrew Gross of Newsday reports Thursday.",
   "date": "2026-10-15T16:57Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Braden Schneider",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-10-31T15:15Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Sean Durzi",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-10-31T15:03Z"
  },
  {
   "team_name": "New York Rangers",
@@ -870,14 +878,6 @@
   "status": "Injured Reserve",
   "detail": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",
   "date": "2026-10-29T00:11Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Chris Tanev",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "The Maple Leafs announced Wednesday that Tanev (upper body) has been upgraded to day-to-day, Mark Masters of TSN reports.",
-  "date": "2026-10-28T18:30Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
