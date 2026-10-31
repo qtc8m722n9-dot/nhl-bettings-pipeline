@@ -9,7 +9,10 @@ on:
         default: "false"
         required: false
   schedule:
-    - cron: "50 17 * * *"   # 12:50 ET (EST, from Nov 2) / 1:50 ET (EDT)
+    # Weekdays: games start ~7 PM, so lock after morning skates and goalie news.
+    - cron: "50 17 * * 1-5"   # 1:50 PM EDT / 12:50 PM EST
+    # Weekends: first games ~1 PM, so lock before them.
+    - cron: "30 15 * * 0,6"   # 11:30 AM EDT / 10:30 AM EST
 
 permissions:
   contents: write
