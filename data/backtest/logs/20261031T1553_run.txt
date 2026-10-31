@@ -1,0 +1,256 @@
+2025-10-15: 4 games, 1360 candidates, 10 bets {'win': 8, 'loss': 2} units +9.50  credits {'credits': 140, 'calls': 6, 'cached': 5}
+2025-10-16: 11 games, 3644 candidates, 25 bets {'win': 14, 'loss': 11} units +6.47  credits {'credits': 480, 'calls': 21, 'cached': 17}
+2025-10-17: 4 games, 1218 candidates, 7 bets {'loss': 6, 'win': 1} units -5.17  credits {'credits': 620, 'calls': 27, 'cached': 22}
+2025-10-18: 12 games, 3896 candidates, 26 bets {'win': 17, 'loss': 9} units +7.12  credits {'credits': 980, 'calls': 43, 'cached': 35}
+2025-10-19: 3 games, 932 candidates, 8 bets {'win': 5, 'loss': 3} units +1.76  credits {'credits': 1100, 'calls': 48, 'cached': 39}
+2025-10-20: 5 games, 1176 candidates, 11 bets {'win': 6, 'loss': 4, 'void': 1} units +4.08  credits {'credits': 1320, 'calls': 57, 'cached': 45}
+2025-10-21: 10 games, 3352 candidates, 24 bets {'win': 15, 'loss': 9} units +4.78  credits {'credits': 1640, 'calls': 71, 'cached': 56}
+2025-10-22: 3 games, 1026 candidates, 8 bets {'loss': 6, 'win': 2} units -5.16  credits {'credits': 1790, 'calls': 77, 'cached': 60}
+2025-10-23: 12 games, 3894 candidates, 25 bets {'loss': 13, 'win': 12} units +2.66  credits {'credits': 2150, 'calls': 93, 'cached': 73}
+2025-10-24: 4 games, 1364 candidates, 9 bets {'loss': 7, 'win': 2} units -5.67  credits {'credits': 2290, 'calls': 99, 'cached': 78}
+2025-10-25: 12 games, 4270 candidates, 25 bets {'win': 16, 'loss': 9} units +8.08  credits {'credits': 2680, 'calls': 116, 'cached': 91}
+2025-10-26: 7 games, 2318 candidates, 17 bets {'win': 9, 'loss': 7, 'void': 1} units +6.46  credits {'credits': 2940, 'calls': 127, 'cached': 99}
+2025-10-27: 2 games, 624 candidates, 4 bets {'win': 2, 'loss': 2} units -0.22  credits {'credits': 3040, 'calls': 131, 'cached': 102}
+2025-10-28: 16 games, 5164 candidates, 32 bets {'loss': 18, 'win': 14} units -5.83  credits {'credits': 3690, 'calls': 158, 'cached': 119}
+2025-10-29: 1 games, 332 candidates, 2 bets {'loss': 1, 'void': 1} units -1.00  credits {'credits': 3740, 'calls': 160, 'cached': 121}
+2025-10-30: 11 games, 2888 candidates, 25 bets {'win': 14, 'loss': 11} units +4.89  credits {'credits': 4140, 'calls': 177, 'cached': 133}
+2025-10-31: 3 games, 1066 candidates, 6 bets {'loss': 3, 'win': 3} units -0.51  credits {'credits': 4260, 'calls': 182, 'cached': 137}
+2025-11-01: 12 games, 4402 candidates, 25 bets {'loss': 14, 'win': 11} units +0.01  credits {'credits': 4650, 'calls': 199, 'cached': 150}
+2025-11-02: 5 games, 1928 candidates, 12 bets {'win': 7, 'loss': 5} units +1.92  credits {'credits': 4870, 'calls': 208, 'cached': 156}
+2025-11-03: 4 games, 1298 candidates, 9 bets {'loss': 7, 'win': 2} units -5.65  credits {'credits': 5040, 'calls': 215, 'cached': 161}
+2025-11-04: 10 games, 3370 candidates, 23 bets {'win': 12, 'loss': 11} units +1.78  credits {'credits': 5390, 'calls': 230, 'cached': 172}
+2025-11-05: 5 games, 1584 candidates, 12 bets {'win': 7, 'loss': 5} units +1.05  credits {'credits': 5610, 'calls': 239, 'cached': 178}
+2025-11-06: 9 games, 2752 candidates, 22 bets {'win': 12, 'loss': 10} units +1.66  credits {'credits': 5910, 'calls': 252, 'cached': 188}
+2025-11-07: 4 games, 1200 candidates, 10 bets {'win': 9, 'loss': 1} units +17.47  credits {'credits': 6080, 'calls': 259, 'cached': 193}
+2025-11-08: 11 games, 3498 candidates, 25 bets {'win': 14, 'loss': 11} units +5.60  credits {'credits': 6390, 'calls': 273, 'cached': 205}
+2025-11-09: 7 games, 2234 candidates, 15 bets {'loss': 9, 'win': 6} units -2.22  credits {'credits': 6620, 'calls': 283, 'cached': 213}
+2025-11-10: 4 games, 1296 candidates, 9 bets {'loss': 7, 'win': 2} units -5.90  credits {'credits': 6790, 'calls': 290, 'cached': 218}
+2025-11-11: 9 games, 2520 candidates, 21 bets {'loss': 11, 'win': 10} units -3.54  credits {'credits': 7090, 'calls': 303, 'cached': 228}
+2025-11-12: 4 games, 1152 candidates, 10 bets {'win': 5, 'loss': 5} units -0.89  credits {'credits': 7290, 'calls': 311, 'cached': 233}
+2025-11-13: 10 games, 3048 candidates, 23 bets {'win': 14, 'loss': 9} units +9.90  credits {'credits': 7610, 'calls': 325, 'cached': 244}
+2025-11-14: 4 games, 1350 candidates, 9 bets {'win': 7, 'loss': 2} units +6.11  credits {'credits': 7780, 'calls': 332, 'cached': 249}
+2025-11-15: 13 games, 3992 candidates, 28 bets {'loss': 14, 'win': 13, 'void': 1} units -3.31  credits {'credits': 8160, 'calls': 349, 'cached': 263}
+2025-11-16: 4 games, 1280 candidates, 7 bets {'loss': 4, 'win': 3} units -1.52  credits {'credits': 8300, 'calls': 355, 'cached': 268}
+2025-11-17: 6 games, 1898 candidates, 14 bets {'loss': 8, 'win': 6} units -2.36  credits {'credits': 8480, 'calls': 363, 'cached': 275}
+2025-11-18: 8 games, 2222 candidates, 20 bets {'loss': 13, 'win': 7} units -8.37  credits {'credits': 8760, 'calls': 375, 'cached': 284}
+2025-11-19: 4 games, 1262 candidates, 10 bets {'win': 7, 'loss': 3} units +5.30  credits {'credits': 8960, 'calls': 383, 'cached': 289}
+2025-11-20: 12 games, 3508 candidates, 25 bets {'loss': 16, 'win': 9} units -8.25  credits {'credits': 9350, 'calls': 400, 'cached': 302}
+2025-11-21: 4 games, 1142 candidates, 10 bets {'loss': 6, 'win': 4} units -2.55  credits {'credits': 9520, 'calls': 407, 'cached': 307}
+2025-11-22: 11 games, 3452 candidates, 22 bets {'loss': 15, 'win': 7} units -8.26  credits {'credits': 9830, 'calls': 421, 'cached': 319}
+2025-11-23: 5 games, 1646 candidates, 10 bets {'win': 7, 'loss': 3} units +5.14  credits {'credits': 10020, 'calls': 429, 'cached': 325}
+2025-11-24: 7 games, 2162 candidates, 17 bets {'win': 13, 'loss': 4} units +15.23  credits {'credits': 10250, 'calls': 439, 'cached': 333}
+2025-11-25: 1 games, 284 candidates, 2 bets {'win': 2} units +1.80  credits {'credits': 10300, 'calls': 441, 'cached': 335}
+2025-11-26: 15 games, 4422 candidates, 28 bets {'loss': 16, 'win': 12} units -5.27  credits {'credits': 10720, 'calls': 460, 'cached': 351}
+2025-11-28: 13 games, 4530 candidates, 29 bets {'win': 19, 'loss': 10} units +4.54  credits {'credits': 11130, 'calls': 478, 'cached': 365}
+2025-11-29: 11 games, 3348 candidates, 24 bets {'win': 12, 'loss': 12} units -3.04  credits {'credits': 11470, 'calls': 493, 'cached': 377}
+2025-11-30: 3 games, 1194 candidates, 6 bets {'win': 6} units +9.06  credits {'credits': 11590, 'calls': 498, 'cached': 381}
+2025-12-01: 5 games, 1426 candidates, 12 bets {'win': 6, 'loss': 6} units +0.09  credits {'credits': 11590, 'calls': 498, 'cached': 396}
+2025-12-02: 10 games, 2898 candidates, 23 bets {'win': 14, 'loss': 8, 'void': 1} units +5.40  credits {'credits': 11590, 'calls': 498, 'cached': 422}
+2025-12-03: 5 games, 1470 candidates, 11 bets {'loss': 7, 'win': 3, 'void': 1} units -4.98  credits {'credits': 11590, 'calls': 498, 'cached': 436}
+2025-12-04: 10 games, 3098 candidates, 23 bets {'win': 13, 'loss': 10} units +2.12  credits {'credits': 11590, 'calls': 498, 'cached': 461}
+2025-12-05: 5 games, 1508 candidates, 10 bets {'loss': 9, 'win': 1} units -7.80  credits {'credits': 11590, 'calls': 498, 'cached': 475}
+2025-12-06: 11 games, 3396 candidates, 23 bets {'loss': 12, 'win': 11} units +3.04  credits {'credits': 11590, 'calls': 498, 'cached': 502}
+2025-12-07: 7 games, 2436 candidates, 15 bets {'loss': 12, 'win': 3} units -7.98  credits {'credits': 11590, 'calls': 498, 'cached': 521}
+2025-12-08: 5 games, 1566 candidates, 11 bets {'win': 7, 'loss': 4} units +8.39  credits {'credits': 11780, 'calls': 506, 'cached': 527}
+2025-12-09: 10 games, 2610 candidates, 23 bets {'win': 12, 'loss': 11} units +6.09  credits {'credits': 12100, 'calls': 520, 'cached': 538}
+2025-12-10: 4 games, 1286 candidates, 10 bets {'win': 6, 'loss': 4} units +1.85  credits {'credits': 12300, 'calls': 528, 'cached': 543}
+2025-12-11: 13 games, 3616 candidates, 29 bets {'loss': 20, 'win': 9} units -11.83  credits {'credits': 12710, 'calls': 546, 'cached': 557}
+2025-12-12: 2 games, 586 candidates, 3 bets {'loss': 2, 'win': 1} units -1.57  credits {'credits': 12780, 'calls': 549, 'cached': 560}
+2025-12-13: 12 games, 3876 candidates, 24 bets {'win': 13, 'loss': 11} units +7.05  credits {'credits': 13230, 'calls': 568, 'cached': 573}
+2025-12-14: 5 games, 1684 candidates, 11 bets {'win': 7, 'loss': 4} units +5.04  credits {'credits': 13450, 'calls': 577, 'cached': 579}
+2025-12-15: 5 games, 1492 candidates, 11 bets {'loss': 6, 'win': 5} units -2.94  credits {'credits': 13640, 'calls': 585, 'cached': 585}
+2025-12-16: 10 games, 2616 candidates, 22 bets {'loss': 13, 'win': 9} units -6.44  credits {'credits': 13930, 'calls': 598, 'cached': 596}
+2025-12-17: 5 games, 1516 candidates, 10 bets {'win': 5, 'loss': 5} units -1.79  credits {'credits': 14100, 'calls': 605, 'cached': 602}
+2025-12-18: 10 games, 2894 candidates, 22 bets {'loss': 15, 'win': 7} units -8.32  credits {'credits': 14400, 'calls': 618, 'cached': 613}
+2025-12-19: 5 games, 1580 candidates, 10 bets {'loss': 8, 'win': 2} units -6.60  credits {'credits': 14590, 'calls': 626, 'cached': 619}
+2025-12-20: 11 games, 3314 candidates, 22 bets {'loss': 15, 'win': 7} units -9.97  credits {'credits': 14900, 'calls': 640, 'cached': 631}
+2025-12-21: 8 games, 2530 candidates, 20 bets {'win': 10, 'loss': 10} units +1.12  credits {'credits': 15150, 'calls': 651, 'cached': 640}
+2025-12-22: 4 games, 1210 candidates, 9 bets {'loss': 6, 'win': 3} units -3.71  credits {'credits': 15320, 'calls': 658, 'cached': 645}
+2025-12-23: 13 games, 3844 candidates, 29 bets {'loss': 15, 'win': 14} units -3.53  credits {'credits': 15760, 'calls': 677, 'cached': 659}
+2025-12-27: 13 games, 3944 candidates, 26 bets {'win': 15, 'loss': 11} units +2.18  credits {'credits': 16170, 'calls': 695, 'cached': 673}
+2025-12-28: 5 games, 1584 candidates, 11 bets {'win': 9, 'loss': 2} units +8.46  credits {'credits': 16360, 'calls': 703, 'cached': 679}
+2025-12-29: 11 games, 3378 candidates, 24 bets {'loss': 15, 'win': 8, 'void': 1} units -7.53  credits {'credits': 16730, 'calls': 719, 'cached': 691}
+2025-12-30: 5 games, 1406 candidates, 11 bets {'win': 6, 'loss': 4, 'void': 1} units +1.63  credits {'credits': 16900, 'calls': 726, 'cached': 697}
+2025-12-31: 9 games, 3110 candidates, 20 bets {'win': 10, 'loss': 10} units -0.91  credits {'credits': 17260, 'calls': 741, 'cached': 707}
+2026-01-01: 7 games, 2098 candidates, 14 bets {'loss': 9, 'win': 5} units -6.11  credits {'credits': 17500, 'calls': 751, 'cached': 715}
+2026-01-02: 4 games, 1282 candidates, 9 bets {'loss': 5, 'win': 4} units -2.48  credits {'credits': 17670, 'calls': 758, 'cached': 720}
+2026-01-03: 12 games, 4170 candidates, 24 bets {'win': 13, 'loss': 11} units +5.25  credits {'credits': 18060, 'calls': 775, 'cached': 733}
+2026-01-04: 5 games, 1950 candidates, 10 bets {'win': 6, 'loss': 4} units +3.41  credits {'credits': 18250, 'calls': 783, 'cached': 739}
+2026-01-05: 5 games, 1524 candidates, 11 bets {'loss': 6, 'win': 5} units -3.59  credits {'credits': 18440, 'calls': 791, 'cached': 745}
+2026-01-06: 10 games, 3138 candidates, 22 bets {'loss': 13, 'win': 9} units -6.37  credits {'credits': 18760, 'calls': 805, 'cached': 756}
+2026-01-07: 5 games, 1558 candidates, 11 bets {'win': 9, 'loss': 2} units +9.21  credits {'credits': 18980, 'calls': 814, 'cached': 762}
+2026-01-08: 12 games, 3754 candidates, 24 bets {'loss': 15, 'win': 9} units -6.68  credits {'credits': 19340, 'calls': 830, 'cached': 775}
+2026-01-09: 3 games, 894 candidates, 5 bets {'win': 3, 'loss': 2} units +0.58  credits {'credits': 19430, 'calls': 834, 'cached': 779}
+2026-01-10: 13 games, 4278 candidates, 29 bets {'loss': 17, 'win': 11, 'void': 1} units -7.41  credits {'credits': 19840, 'calls': 852, 'cached': 793}
+2026-01-11: 5 games, 1644 candidates, 10 bets {'win': 6, 'loss': 4} units +0.17  credits {'credits': 20010, 'calls': 859, 'cached': 799}
+2026-01-12: 9 games, 2762 candidates, 20 bets {'loss': 13, 'win': 7} units -6.90  credits {'credits': 20310, 'calls': 872, 'cached': 809}
+2026-01-13: 10 games, 2980 candidates, 21 bets {'loss': 12, 'win': 9} units -3.02  credits {'credits': 20610, 'calls': 885, 'cached': 820}
+2026-01-14: 4 games, 1262 candidates, 10 bets {'loss': 7, 'win': 3} units -5.52  credits {'credits': 20780, 'calls': 892, 'cached': 825}
+2026-01-15: 10 games, 3014 candidates, 22 bets {'loss': 13, 'win': 9} units -2.90  credits {'credits': 21100, 'calls': 906, 'cached': 836}
+2026-01-16: 5 games, 1416 candidates, 12 bets {'win': 6, 'loss': 5, 'void': 1} units +5.29  credits {'credits': 21320, 'calls': 915, 'cached': 842}
+2026-01-17: 11 games, 3578 candidates, 24 bets {'loss': 18, 'win': 6} units -4.75  credits {'credits': 21640, 'calls': 929, 'cached': 854}
+2026-01-18: 3 games, 1040 candidates, 8 bets {'loss': 6, 'win': 2} units -3.73  credits {'credits': 21790, 'calls': 935, 'cached': 858}
+2026-01-19: 9 games, 2846 candidates, 20 bets {'loss': 14, 'win': 6} units -9.80  credits {'credits': 22150, 'calls': 950, 'cached': 868}
+2026-01-20: 8 games, 2372 candidates, 18 bets {'loss': 13, 'win': 5} units -8.59  credits {'credits': 22430, 'calls': 962, 'cached': 877}
+2026-01-21: 6 games, 1740 candidates, 12 bets {'win': 6, 'loss': 6} units -1.12  credits {'credits': 22650, 'calls': 971, 'cached': 884}
+2026-01-22: 8 games, 2390 candidates, 20 bets {'win': 12, 'loss': 8} units +2.11  credits {'credits': 22930, 'calls': 983, 'cached': 893}
+2026-01-23: 8 games, 2374 candidates, 19 bets {'loss': 13, 'win': 6} units -7.69  credits {'credits': 23210, 'calls': 995, 'cached': 902}
+2026-01-24: 7 games, 2200 candidates, 14 bets {'win': 7, 'loss': 7} units -1.90  credits {'credits': 23410, 'calls': 1004, 'cached': 910}
+2026-01-25: 5 games, 1824 candidates, 12 bets {'loss': 7, 'win': 5} units -1.94  credits {'credits': 23660, 'calls': 1014, 'cached': 916}
+2026-01-26: 4 games, 1116 candidates, 10 bets {'loss': 7, 'win': 3} units -4.77  credits {'credits': 23830, 'calls': 1021, 'cached': 921}
+2026-01-27: 10 games, 3220 candidates, 22 bets {'win': 11, 'loss': 11} units -2.14  credits {'credits': 24120, 'calls': 1034, 'cached': 932}
+2026-01-28: 3 games, 1002 candidates, 8 bets {'loss': 5, 'win': 3} units -2.64  credits {'credits': 24240, 'calls': 1039, 'cached': 936}
+2026-01-29: 15 games, 4606 candidates, 33 bets {'loss': 20, 'win': 13} units -9.11  credits {'credits': 24670, 'calls': 1058, 'cached': 952}
+2026-01-30: 1 games, 300 candidates, 2 bets {'loss': 1, 'win': 1} units -0.22  credits {'credits': 24720, 'calls': 1060, 'cached': 954}
+2026-01-31: 12 games, 4266 candidates, 26 bets {'loss': 15, 'win': 11} units -6.54  credits {'credits': 25140, 'calls': 1078, 'cached': 967}
+2026-02-01: 3 games, 1170 candidates, 8 bets {'loss': 6, 'win': 2} units -4.99  credits {'credits': 25290, 'calls': 1084, 'cached': 971}
+2026-02-02: 10 games, 3022 candidates, 22 bets {'win': 11, 'loss': 11} units -1.34  credits {'credits': 25700, 'calls': 1101, 'cached': 982}
+2026-02-03: 7 games, 2422 candidates, 17 bets {'loss': 11, 'win': 6} units -2.21  credits {'credits': 25960, 'calls': 1112, 'cached': 990}
+2026-02-04: 10 games, 3254 candidates, 20 bets {'loss': 10, 'win': 10} units -0.29  credits {'credits': 26280, 'calls': 1126, 'cached': 1001}
+2026-02-05: 7 games, 2272 candidates, 15 bets {'loss': 8, 'win': 7} units +4.24  credits {'credits': 26540, 'calls': 1137, 'cached': 1009}
+2026-02-25: 8 games, 2306 candidates, 19 bets {'loss': 9, 'win': 9, 'void': 1} units -0.84  credits {'credits': 26850, 'calls': 1150, 'cached': 1018}
+2026-02-26: 12 games, 3606 candidates, 28 bets {'loss': 18, 'win': 10} units -8.75  credits {'credits': 27240, 'calls': 1167, 'cached': 1031}
+2026-02-27: 4 games, 1404 candidates, 9 bets {'win': 5, 'loss': 4} units +2.33  credits {'credits': 27380, 'calls': 1173, 'cached': 1036}
+2026-02-28: 12 games, 4006 candidates, 26 bets {'loss': 18, 'win': 8} units -5.03  credits {'credits': 27770, 'calls': 1190, 'cached': 1049}
+2026-03-01: 5 games, 1918 candidates, 11 bets {'win': 8, 'loss': 3} units +7.28  credits {'credits': 27990, 'calls': 1199, 'cached': 1055}
+2026-03-02: 6 games, 2098 candidates, 13 bets {'loss': 8, 'win': 5} units -3.62  credits {'credits': 28200, 'calls': 1208, 'cached': 1062}
+2026-03-03: 11 games, 3520 candidates, 22 bets {'win': 12, 'loss': 10} units +8.68  credits {'credits': 28570, 'calls': 1224, 'cached': 1074}
+2026-03-04: 5 games, 1410 candidates, 12 bets {'loss': 8, 'win': 4} units -4.10  credits {'credits': 28760, 'calls': 1232, 'cached': 1080}
+2026-03-05: 8 games, 2334 candidates, 20 bets {'win': 10, 'loss': 9, 'void': 1} units +1.12  credits {'credits': 29040, 'calls': 1244, 'cached': 1089}
+2026-03-06: 7 games, 2122 candidates, 13 bets {'loss': 8, 'win': 5} units -3.76  credits {'credits': 29270, 'calls': 1254, 'cached': 1097}
+2026-03-07: 10 games, 3378 candidates, 24 bets {'loss': 14, 'win': 10} units -5.09  credits {'credits': 29590, 'calls': 1268, 'cached': 1108}
+2026-03-08: 7 games, 2584 candidates, 14 bets {'loss': 11, 'win': 3} units -8.88  credits {'credits': 29840, 'calls': 1278, 'cached': 1116}
+2026-03-09: 5 games, 1548 candidates, 11 bets {'win': 6, 'loss': 5} units -0.67  credits {'credits': 30060, 'calls': 1287, 'cached': 1122}
+2026-03-10: 13 games, 4300 candidates, 26 bets {'loss': 16, 'win': 10} units -7.24  credits {'credits': 30530, 'calls': 1307, 'cached': 1136}
+2026-03-11: 2 games, 628 candidates, 3 bets {'loss': 2, 'win': 1} units -0.85  credits {'credits': 30600, 'calls': 1310, 'cached': 1139}
+2026-03-12: 14 games, 4270 candidates, 31 bets {'win': 18, 'loss': 13} units +4.26  credits {'credits': 31000, 'calls': 1328, 'cached': 1154}
+2026-03-13: 2 games, 636 candidates, 4 bets {'win': 3, 'void': 1} units +2.31  credits {'credits': 31100, 'calls': 1332, 'cached': 1157}
+2026-03-14: 13 games, 4648 candidates, 30 bets {'win': 20, 'loss': 10} units +25.91  credits {'credits': 31600, 'calls': 1353, 'cached': 1171}
+2026-03-15: 6 games, 2138 candidates, 14 bets {'win': 9, 'loss': 5} units +6.43  credits {'credits': 31870, 'calls': 1364, 'cached': 1178}
+2026-03-16: 5 games, 1650 candidates, 12 bets {'win': 6, 'loss': 6} units -0.53  credits {'credits': 32060, 'calls': 1372, 'cached': 1184}
+2026-03-17: 9 games, 2800 candidates, 20 bets {'win': 10, 'loss': 10} units +0.78  credits {'credits': 32330, 'calls': 1384, 'cached': 1194}
+2026-03-18: 6 games, 1982 candidates, 14 bets {'win': 9, 'loss': 5} units +6.33  credits {'credits': 32600, 'calls': 1395, 'cached': 1201}
+2026-03-19: 11 games, 3514 candidates, 25 bets {'win': 14, 'loss': 10, 'void': 1} units +4.89  credits {'credits': 32970, 'calls': 1411, 'cached': 1213}
+2026-03-20: 5 games, 1778 candidates, 12 bets {'win': 7, 'loss': 5} units +1.28  credits {'credits': 33190, 'calls': 1420, 'cached': 1219}
+2026-03-21: 10 games, 3866 candidates, 24 bets {'loss': 17, 'win': 7} units -11.07  credits {'credits': 33570, 'calls': 1436, 'cached': 1230}
+2026-03-22: 7 games, 2506 candidates, 17 bets {'loss': 9, 'win': 8} units -1.13  credits {'credits': 33800, 'calls': 1446, 'cached': 1238}
+2026-03-23: 1 games, 372 candidates, 2 bets {'win': 2} units +1.72  credits {'credits': 33850, 'calls': 1448, 'cached': 1240}
+2026-03-24: 15 games, 4548 candidates, 30 bets {'win': 15, 'loss': 15} units -0.00  credits {'credits': 34300, 'calls': 1468, 'cached': 1256}
+2026-03-25: 2 games, 678 candidates, 4 bets {'loss': 2, 'win': 2} units +0.00  credits {'credits': 34370, 'calls': 1471, 'cached': 1259}
+2026-03-26: 13 games, 4146 candidates, 26 bets {'win': 17, 'loss': 9} units +10.81  credits {'credits': 34730, 'calls': 1487, 'cached': 1273}
+2026-03-27: 2 games, 580 candidates, 4 bets {'win': 2, 'loss': 2} units -0.73  credits {'credits': 34800, 'calls': 1490, 'cached': 1276}
+2026-03-28: 13 games, 4868 candidates, 30 bets {'loss': 18, 'win': 12} units -8.34  credits {'credits': 35300, 'calls': 1511, 'cached': 1290}
+2026-03-29: 5 games, 1990 candidates, 11 bets {'loss': 6, 'win': 5} units -2.75  credits {'credits': 35460, 'calls': 1518, 'cached': 1296}
+2026-03-30: 5 games, 1604 candidates, 12 bets {'loss': 9, 'win': 3} units -6.31  credits {'credits': 35650, 'calls': 1526, 'cached': 1302}
+2026-03-31: 10 games, 3172 candidates, 24 bets {'win': 13, 'loss': 11} units +1.51  credits {'credits': 35970, 'calls': 1540, 'cached': 1313}
+2026-04-01: 3 games, 982 candidates, 8 bets {'win': 4, 'loss': 4} units -0.61  credits {'credits': 36090, 'calls': 1545, 'cached': 1317}
+2026-04-02: 14 games, 4374 candidates, 30 bets {'loss': 20, 'win': 10} units -11.63  credits {'credits': 36520, 'calls': 1564, 'cached': 1332}
+2026-04-03: 2 games, 618 candidates, 4 bets {'win': 2, 'loss': 2} units +0.38  credits {'credits': 36620, 'calls': 1568, 'cached': 1335}
+2026-04-04: 13 games, 3960 candidates, 25 bets {'loss': 14, 'win': 11} units -2.98  credits {'credits': 36970, 'calls': 1584, 'cached': 1349}
+2026-04-05: 6 games, 2250 candidates, 14 bets {'win': 10, 'loss': 4} units +10.28  credits {'credits': 37220, 'calls': 1594, 'cached': 1356}
+2026-04-06: 4 games, 1188 candidates, 9 bets {'win': 6, 'loss': 2, 'void': 1} units +9.37  credits {'credits': 37390, 'calls': 1601, 'cached': 1361}
+2026-04-07: 11 games, 3532 candidates, 22 bets {'loss': 11, 'win': 10, 'void': 1} units -2.43  credits {'credits': 37730, 'calls': 1616, 'cached': 1373}
+2026-04-08: 3 games, 988 candidates, 9 bets {'loss': 7, 'win': 2} units -5.15  credits {'credits': 37880, 'calls': 1622, 'cached': 1377}
+2026-04-09: 14 games, 4460 candidates, 27 bets {'win': 16, 'loss': 11} units +12.80  credits {'credits': 38370, 'calls': 1643, 'cached': 1392}
+2026-04-11: 13 games, 4584 candidates, 29 bets {'loss': 16, 'win': 13} units -6.00  credits {'credits': 38780, 'calls': 1661, 'cached': 1406}
+2026-04-12: 6 games, 2080 candidates, 13 bets {'loss': 7, 'win': 6} units -1.47  credits {'credits': 39020, 'calls': 1671, 'cached': 1413}
+2026-04-13: 10 games, 2656 candidates, 22 bets {'loss': 12, 'win': 9, 'void': 1} units +6.40  credits {'credits': 39400, 'calls': 1687, 'cached': 1424}
+2026-04-14: 9 games, 2398 candidates, 20 bets {'win': 17, 'loss': 3} units +24.37  credits {'credits': 39700, 'calls': 1700, 'cached': 1434}
+2026-04-15: 6 games, 1446 candidates, 16 bets {'loss': 11, 'win': 5} units -5.24  credits {'credits': 39940, 'calls': 1710, 'cached': 1441}
+2026-04-16: 6 games, 1554 candidates, 16 bets {'win': 8, 'loss': 7, 'void': 1} units +5.67  credits {'credits': 40180, 'calls': 1720, 'cached': 1448}
+projected starter correct 1511/2416
+credits: {'credits': 40180, 'calls': 1720, 'cached': 1448} {'x-requests-remaining': '27998', 'x-requests-used': '72002', 'x-requests-last': '20'}
+# Backtest 2025-26 · 2025-10-15 – 2026-04-16 (160 slates)
+
+Flat 1 unit. ROI and CLV with 95% intervals from resampling whole slates. CLV = Pinnacle no-vig close − cost paid, in percentage points.
+
+## Singles
+
+| Method | Bets | W-L | Units | ROI (95% CI) | CLV vs Pinnacle (95% CI) | Beat close | n CLV | Void |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|
+| M1_sharp_price | 8 | 4-4 | +1.12 | +14.0% (-68.8%, +91.4%) | +3.02% (+2.04%, +4.13%) | 100% | 8 | 0 |
+| M3_xg_model | 993 | 601-392 | +25.00 | +2.5% (-3.1%, +8.3%) | -1.61% (-1.74%, -1.50%) | 10% | 847 | 0 |
+| M4_shots_model | 1176 | 578-598 | -57.07 | -4.9% (-10.6%, +1.2%) | -2.17% (-2.29%, -2.04%) | 9% | 1056 | 18 |
+
+## 3-leg parlays
+
+| Method | Bets | W-L | Units | ROI (95% CI) | CLV vs Pinnacle (95% CI) | Beat close | n CLV | Void |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|
+| M3_xg_model | 226 | 50-176 | +10.13 | +4.5% (-20.8%, +29.0%) | -1.66% (-1.81%, -1.52%) | 1% | 151 | 0 |
+| M4_shots_model | 240 | 32-208 | -9.69 | -4.0% (-34.9%, +29.7%) | -1.65% (-1.79%, -1.49%) | 4% | 171 | 0 |
+
+## Singles by month
+
+| Method | Month | Bets | Units | ROI | CLV vs Pinnacle |
+|---|---|--:|--:|--:|--:|
+| M1_sharp_price | 2025-10 | 1 | +1.36 | +136.0% | +1.64% |
+| M1_sharp_price | 2025-11 | 1 | -1.00 | -100.0% | +1.48% |
+| M1_sharp_price | 2025-12 | 1 | +1.50 | +150.0% | +6.01% |
+| M1_sharp_price | 2026-01 | 2 | -0.39 | -19.7% | +3.98% |
+| M1_sharp_price | 2026-02 | 2 | +0.65 | +32.5% | +1.85% |
+| M1_sharp_price | 2026-04 | 1 | -1.00 | -100.0% | +3.33% |
+| M3_xg_model | 2025-10 | 99 | +20.63 | +20.8% | -1.58% |
+| M3_xg_model | 2025-11 | 177 | +11.25 | +6.4% | -1.40% |
+| M3_xg_model | 2025-12 | 176 | -2.74 | -1.6% | -1.59% |
+| M3_xg_model | 2026-01 | 186 | -6.73 | -3.6% | -1.74% |
+| M3_xg_model | 2026-02 | 59 | -9.15 | -15.5% | -1.85% |
+| M3_xg_model | 2026-03 | 200 | +16.45 | +8.2% | -1.58% |
+| M3_xg_model | 2026-04 | 96 | -4.71 | -4.9% | -1.75% |
+| M4_shots_model | 2025-10 | 117 | -7.23 | -6.2% | -2.80% |
+| M4_shots_model | 2025-11 | 214 | +10.08 | +4.7% | -2.18% |
+| M4_shots_model | 2025-12 | 211 | -27.08 | -12.8% | -2.08% |
+| M4_shots_model | 2026-01 | 221 | -40.06 | -18.1% | -2.04% |
+| M4_shots_model | 2026-02 | 71 | -11.79 | -16.6% | -2.34% |
+| M4_shots_model | 2026-03 | 227 | +2.74 | +1.2% | -2.06% |
+| M4_shots_model | 2026-04 | 115 | +16.26 | +14.1% | -2.04% |
+
+## Singles by venue and market
+
+| Method | Venue | Market | Bets | Units | ROI | CLV |
+|---|---|---|--:|--:|--:|--:|
+| M1_sharp_price | betmgm | player_points | 1 | +1.65 | +165.0% | +1.37% |
+| M1_sharp_price | betrivers | player_sog | 4 | +0.11 | +2.7% | +3.86% |
+| M1_sharp_price | espnbet | player_points | 2 | -2.00 | -100.0% | +2.83% |
+| M1_sharp_price | fanduel | player_sog | 1 | +1.36 | +136.0% | +1.64% |
+| M3_xg_model | betmgm | ml | 13 | -1.57 | -12.1% | -2.03% |
+| M3_xg_model | betmgm | spread | 233 | +31.25 | +13.4% | -1.38% |
+| M3_xg_model | betmgm | total | 24 | -10.86 | -45.2% | -2.22% |
+| M3_xg_model | betrivers | ml | 17 | +5.81 | +34.2% | -1.57% |
+| M3_xg_model | betrivers | spread | 34 | +5.31 | +15.6% | -2.23% |
+| M3_xg_model | betrivers | total | 19 | +1.73 | +9.1% | -1.87% |
+| M3_xg_model | draftkings | ml | 13 | +2.15 | +16.5% | -1.93% |
+| M3_xg_model | draftkings | spread | 21 | +8.03 | +38.2% | -2.32% |
+| M3_xg_model | draftkings | total | 49 | -2.02 | -4.1% | -1.73% |
+| M3_xg_model | espnbet | ml | 20 | +0.05 | +0.3% | -1.25% |
+| M3_xg_model | espnbet | spread | 74 | -1.16 | -1.6% | -1.57% |
+| M3_xg_model | espnbet | total | 79 | -9.23 | -11.7% | -1.45% |
+| M3_xg_model | fanduel | ml | 25 | -5.02 | -20.1% | -1.89% |
+| M3_xg_model | fanduel | spread | 52 | -2.74 | -5.3% | -1.93% |
+| M3_xg_model | fanduel | total | 39 | +10.79 | +27.7% | -1.41% |
+| M3_xg_model | kalshi | ml | 5 | +2.96 | +59.1% | -2.80% |
+| M3_xg_model | kalshi | spread | 56 | -0.94 | -1.7% | -1.87% |
+| M3_xg_model | kalshi | total | 28 | +0.56 | +2.0% | -2.15% |
+| M3_xg_model | williamhill_us | ml | 26 | +0.56 | +2.1% | -1.31% |
+| M3_xg_model | williamhill_us | spread | 114 | -0.60 | -0.5% | -1.38% |
+| M3_xg_model | williamhill_us | total | 52 | -10.06 | -19.3% | -1.27% |
+| M4_shots_model | betmgm | player_sog | 110 | -5.97 | -5.4% | -2.32% |
+| M4_shots_model | betrivers | player_sog | 149 | -11.58 | -7.8% | -1.09% |
+| M4_shots_model | draftkings | player_sog | 228 | +20.95 | +9.2% | -2.34% |
+| M4_shots_model | espnbet | player_sog | 383 | -38.55 | -10.1% | -2.24% |
+| M4_shots_model | fanduel | player_sog | 228 | -9.05 | -4.0% | -1.95% |
+| M4_shots_model | prizepicks | player_sog | 7 | -1.81 | -25.9% | -7.06% |
+| M4_shots_model | underdog | player_sog | 3 | +2.19 | +73.0% | -6.80% |
+| M4_shots_model | williamhill_us | player_sog | 68 | -13.26 | -19.5% | -2.99% |
+
+Projected starting goalie matched the actual starter in 1511/2416 team-games (2025-10-15..2026-04-16).
+
+## Leak checks
+
+- pick odds snapshot after 13:50 ET: 0
+- pick odds snapshot at/after its game's start (any leg): 0
+- closing snapshot at/after its game's start (any leg): 0
+- bets with no closing snapshot: 0
+- closing snapshot lead, minutes before start (min / median): 2.4 / 4.4
+- MoneyPuck team data dated on/after pick date: 0
+- goalie data dated on/after pick date: 0
+- box-score data dated on/after pick date: 0
