@@ -178,7 +178,8 @@ def candidates(od: pd.DataFrame, game_keys: set[str]) -> pd.DataFrame:
         f"{r['venue']}|{r['game_key']}|{r['market']}|{r['team'] if isinstance(r['team'], str) else (r['player_key'] or '')}|{r['line']}|{r['side']}"
         for r in df.to_dict("records")
     ]
-    return df.sort_values("cost").drop_duplicates("cand_id").reset_index(drop=True)
+    # deterministic order: books at the same price tie-break by name, every run
+    return df.sort_values(["cost", "cand_id"], kind="mergesort").drop_duplicates("cand_id").reset_index(drop=True)
 
 
 def _tables(od: pd.DataFrame) -> tuple[dict, dict]:
