@@ -1,0 +1,10 @@
+2025-12-01: no candidates
+2025-12-02: no candidates
+2025-12-03: no candidates
+2025-12-04: no candidates
+2025-12-05: no candidates
+2025-12-06: no candidates
+2025-12-07: no candidates
+projected starter correct 66/106
+credits: {'credits': 0, 'calls': 0, 'cached': 60} {}
+no bets yet
