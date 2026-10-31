@@ -1,6 +1,6 @@
 # NHL paper-betting scoreboard
 
-Updated 2026-10-31 10:20 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
+Updated 2026-10-31 12:47 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
 
 Trial period starts Oct 31; no trial slate graded yet.
 
