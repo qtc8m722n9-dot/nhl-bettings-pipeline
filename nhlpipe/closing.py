@@ -1,23 +1,32 @@
 """Closing-price capture for closing line value (CLV).
 
-Runs every ~15 min during game hours. For each game with locked picks that
-starts within WINDOW_MIN minutes, it records, for every picked bet (and
-every leg of a pick'em entry):
-  close_bid / close_ask / close_mid   the venue's price now (Kalshi only)
+Live capture (python -m nhlpipe.closing), run by the "Closing prices"
+workflow ~25 min before each :00 / :30 start slot. For each game with locked
+picks, the job sleeps until ~TARGET_MIN minutes before the listed start and
+then records, for every picked bet (and every parlay / pick'em leg):
+  close_bid / close_ask / close_mid   Kalshi quote now (Kalshi bets only)
   close_fair, close_fair_source       sharp no-vig probability now
                                       (Pinnacle, else book consensus)
-Later snapshots overwrite earlier ones, so the stored value is the last one
-taken before puck drop.
+A game is snapshotted once FINAL_MIN or less before start (one Odds API call
+per game), so credits aren't spent twice. A late or dropped GitHub cron run
+can still miss a game; the fair close is then missing for it.
+
+Kalshi backfill (python -m nhlpipe.closing --backfill YYYY-MM-DD), run by the
+morning grading job: replaces close_bid/ask/mid for every Kalshi bet with the
+last 1-minute Kalshi candle at or before the listed start, so Kalshi CLV is
+exact no matter when the live snapshot ran.
 
 CLV (computed at grading):
-  fair CLV  = close_fair - cost at pick time   (main yardstick)
-  venue CLV = close_mid  - price at pick time  (Kalshi only)
+  fair CLV   = close_fair - cost at pick time   (main yardstick)
+  Kalshi CLV = close_mid  - price at pick time  (Kalshi only)
 
-Usage: python -m nhlpipe.closing [--dry] [--all]
+Usage: python -m nhlpipe.closing [--plan] [--all]
+       python -m nhlpipe.closing --backfill YYYY-MM-DD
 Writes data/closing/<date>.csv
 """
 import sys
-from datetime import datetime, timezone
+import time
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -28,7 +37,10 @@ from .pull_odds import american_to_prob
 
 ET = ZoneInfo("America/New_York")
 DATA = Path(__file__).resolve().parent.parent / "data"
-WINDOW_MIN = 40
+TARGET_MIN = 10    # aim for the final snapshot this many minutes before listed start
+FINAL_MIN = 12     # a snapshot this close (or closer) to start is final
+HORIZON_MIN = 30   # sleep-and-wait for games starting within this many minutes
+MAX_RUN_MIN = 40   # never keep one Actions job alive longer than this (billed minutes)
 CLOSE_BOOKS = "pinnacle,draftkings,fanduel,betmgm,espnbet"
 
 
@@ -49,29 +61,44 @@ def _starts(slate: pd.DataFrame) -> dict[str, datetime]:
     return out
 
 
-def run(dry: bool = False, all_games: bool = False) -> None:
-    now = datetime.now(timezone.utc)
-    day = now.astimezone(ET).date()
+def _load_day(day: date):
     pp = DATA / "picks" / f"{day.isoformat()}.csv"
     if not pp.exists():
-        print(f"No picks for {day}; nothing to close.")
-        return
+        return None
     picks = pd.read_csv(pp)
     cands = pd.read_csv(DATA / "picks" / f"{day.isoformat()}_candidates.csv.gz")
     slate = pd.read_csv(DATA / "slates" / f"{day.isoformat()}.csv")
-    starts = _starts(slate)
-
     wanted = cands[cands["cand_id"].isin(_picked_cands(picks))]
-    due = {
-        gk for gk, t in starts.items()
-        if 0 < (t - now).total_seconds() / 60 <= (24 * 60 if all_games else WINDOW_MIN)
-    }
-    todo = wanted[wanted["game_key"].isin(due)]
-    print(f"{now.astimezone(ET):%H:%M} ET  games due: {sorted(due) or 'none'}  bets to close: {len(todo)}")
-    if todo.empty or dry:
-        return
+    return wanted, _starts(slate)
 
-    # --- sharp fair prices for due games ------------------------------------
+
+def _closing_path(day: date) -> Path:
+    return DATA / "closing" / f"{day.isoformat()}.csv"
+
+
+def _save(day: date, new: pd.DataFrame) -> pd.DataFrame:
+    path = _closing_path(day)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists():
+        old = pd.read_csv(path)
+        new = pd.concat([old[~old["cand_id"].isin(new["cand_id"])], new], ignore_index=True)
+    new.to_csv(path, index=False)
+    return new
+
+
+def _final_games(day: date) -> set[str]:
+    """Games that already have a snapshot taken FINAL_MIN or less before start."""
+    path = _closing_path(day)
+    if not path.exists():
+        return set()
+    c = pd.read_csv(path)
+    if "min_before_start" not in c:
+        return set()
+    return set(c.loc[c["min_before_start"].between(0, FINAL_MIN), "game_key"])
+
+
+def _capture(day: date, todo: pd.DataFrame, starts: dict, games: set[str]) -> None:
+    now = datetime.now(timezone.utc)
     stand = nhl_api.standings(day)
     tmap = nhl_api.team_name_map([], stand)
     rows = []
@@ -84,12 +111,16 @@ def run(dry: bool = False, all_games: bool = False) -> None:
         away = nhl_api.lookup_team(ev.get("away_team"), tmap)
         home = nhl_api.lookup_team(ev.get("home_team"), tmap)
         gk = f"{away}@{home}"
-        if gk not in due:
+        if gk not in games:
             continue
         need = sorted({fair.BOOK_MARKET[m] for m in todo[todo["game_key"] == gk]["market"] if m in fair.BOOK_MARKET})
         if not need:
             continue
-        data, errs = odds_api.event_odds(ev["id"], need, bookmakers=CLOSE_BOOKS)
+        try:
+            data, errs = odds_api.event_odds(ev["id"], need, bookmakers=CLOSE_BOOKS)
+        except Exception as e:  # noqa: BLE001
+            print(odds_api.scrub(f"odds failed for {gk}: {e}"))
+            continue
         if errs:
             print("rejected:", list(errs))
         rows += odds_api.flatten(data, now.astimezone(ET).isoformat(timespec="seconds")) if data else []
@@ -101,9 +132,8 @@ def run(dry: bool = False, all_games: bool = False) -> None:
         od["implied_prob"] = od["price_american"].map(american_to_prob)
         table = fair.lookup_table(fair.devig(od))
 
-    # --- per bet ---------------------------------------------------------------
     out = []
-    for c in todo.to_dict("records"):
+    for c in todo[todo["game_key"].isin(games)].to_dict("records"):
         rec = {
             "cand_id": c["cand_id"],
             "game_key": c["game_key"],
@@ -115,23 +145,127 @@ def run(dry: bool = False, all_games: bool = False) -> None:
                 q = kalshi.market_quote(c["ticker"])
                 bid, ask = q[f"{c['side']}_bid"], q[f"{c['side']}_ask"]
                 rec.update(close_bid=bid, close_ask=ask, close_mid=(bid + ask) / 2 if bid is not None and ask is not None else None)
+                rec["kalshi_close_source"] = "live"
             except Exception as e:  # noqa: BLE001
                 rec["note"] = f"kalshi: {e}"[:120]
         p, src = fair.fair_prob(c, table) if table else (None, None)
         rec.update(close_fair=p, close_fair_source=src)
         out.append(rec)
-
-    path = DATA / "closing" / f"{day.isoformat()}.csv"
-    path.parent.mkdir(parents=True, exist_ok=True)
-    new = pd.DataFrame(out)
-    if path.exists():
-        old = pd.read_csv(path)
-        new = pd.concat([old[~old["cand_id"].isin(new["cand_id"])], new], ignore_index=True)
-    new.to_csv(path, index=False)
-    print(new.tail(len(out)).to_string(index=False))
+    if out:
+        new = _save(day, pd.DataFrame(out))
+        print(new.tail(len(out)).to_string(index=False))
     print("odds api:", odds_api.USAGE)
 
 
+def run(plan: bool = False, all_games: bool = False) -> None:
+    """Sleep until ~TARGET_MIN before each due game, snapshot it, repeat; exit when nothing is near."""
+    t0 = datetime.now(timezone.utc)
+    day = t0.astimezone(ET).date()
+    loaded = _load_day(day)
+    if loaded is None:
+        print(f"No picks for {day}; nothing to close.")
+        return
+    wanted, starts = loaded
+    picked_games = set(wanted["game_key"])
+    if all_games:  # test mode: snapshot every not-yet-started picked game now
+        games = {g for g in picked_games if g in starts and starts[g] > t0}
+        print(f"--all: snapshotting {sorted(games)}")
+        if games and not plan:
+            _capture(day, wanted, starts, games)
+        return
+    while True:
+        now = datetime.now(timezone.utc)
+        done = _final_games(day)
+        mins = {
+            g: (starts[g] - now).total_seconds() / 60
+            for g in picked_games - done if g in starts and starts[g] > now
+        }
+        due = {g for g, m in mins.items() if m <= FINAL_MIN}
+        soon = {g: m for g, m in mins.items() if FINAL_MIN < m <= HORIZON_MIN}
+        print(f"{now.astimezone(ET):%H:%M:%S} ET  due now: {sorted(due) or '-'}  "
+              f"next: {', '.join(f'{g} in {m:.0f}m' for g, m in sorted(soon.items(), key=lambda x: x[1])) or '-'}")
+        if due:
+            if plan:
+                print("  (plan only: would snapshot now)")
+                return
+            _capture(day, wanted, starts, due)
+            continue
+        if not soon:
+            return
+        wake = min(starts[g] for g in soon) - timedelta(minutes=TARGET_MIN)
+        if (wake - t0).total_seconds() / 60 > MAX_RUN_MIN:
+            print("  next snapshot is past this job's time budget; leaving it to the next run")
+            return
+        wait = max(0.0, (wake - now).total_seconds())
+        print(f"  sleeping {wait / 60:.1f} min until {wake.astimezone(ET):%H:%M} ET")
+        if plan:
+            return
+        time.sleep(wait)
+
+
+# --- exact Kalshi close from 1-minute candles ---------------------------------
+def _candle_quote(ticker: str, start: datetime) -> tuple[float, float, int] | None:
+    """(yes_bid, yes_ask, minutes before start) from the last candle ending at or before `start`."""
+    series = ticker.split("-")[0]
+    st = int(start.timestamp())
+    params = {"start_ts": st - 45 * 60, "end_ts": st, "period_interval": 1}
+    candles = []
+    for path in (f"/series/{series}/markets/{ticker}/candlesticks", f"/historical/markets/{ticker}/candlesticks"):
+        try:
+            candles = kalshi.get_json(f"{kalshi.BASE}{path}", params).get("candlesticks", [])
+        except Exception:  # noqa: BLE001
+            continue
+        if candles:
+            break
+    best = None
+    for c in candles:
+        end = int(c.get("end_period_ts", 0))
+        bid = (c.get("yes_bid") or {}).get("close_dollars")
+        ask = (c.get("yes_ask") or {}).get("close_dollars")
+        if end <= st and bid not in (None, "") and ask not in (None, ""):
+            if best is None or end > best[2]:
+                best = (float(bid), float(ask), end)
+    if best is None:
+        return None
+    return best[0], best[1], round((st - best[2]) / 60)
+
+
+def backfill(day: date) -> None:
+    loaded = _load_day(day)
+    if loaded is None:
+        print(f"No picks for {day}.")
+        return
+    wanted, starts = loaded
+    path = _closing_path(day)
+    old = pd.read_csv(path) if path.exists() else pd.DataFrame(columns=["cand_id"])
+    done = set(old.loc[old["kalshi_close_source"] == "candle", "cand_id"]) if "kalshi_close_source" in old else set()
+    out = []
+    k = wanted[(wanted["venue"] == "kalshi") & wanted["ticker"].notna() & ~wanted["cand_id"].isin(done)]
+    for c in k.to_dict("records"):
+        start = starts.get(c["game_key"])
+        if start is None:
+            continue
+        q = _candle_quote(c["ticker"], start)
+        if q is None:
+            print(f"no candle: {c['ticker']}")
+            continue
+        yb, ya, mb = q
+        bid, ask = (yb, ya) if c["side"] == "yes" else (round(1 - ya, 4), round(1 - yb, 4))
+        prev = old[old["cand_id"] == c["cand_id"]]
+        rec = prev.iloc[0].to_dict() if len(prev) else {"cand_id": c["cand_id"], "game_key": c["game_key"]}
+        rec.update(close_bid=bid, close_ask=ask, close_mid=(bid + ask) / 2,
+                   kalshi_close_source="candle", kalshi_close_min_before=mb)
+        out.append(rec)
+    if out:
+        _save(day, pd.DataFrame(out))
+    print(f"{day}: Kalshi candle closes for {len(out)} bet(s)")
+
+
 if __name__ == "__main__":
-    # --all: test mode, snapshot every not-yet-started picked game now
-    run(dry="--dry" in sys.argv, all_games="--all" in sys.argv)
+    a = sys.argv[1:]
+    if "--backfill" in a:
+        backfill(date.fromisoformat(a[a.index("--backfill") + 1]))
+    else:
+        # --plan: print what would happen, no API calls. --all: snapshot every
+        # not-yet-started picked game now (test mode).
+        run(plan="--plan" in a or "--dry" in a, all_games="--all" in a)
