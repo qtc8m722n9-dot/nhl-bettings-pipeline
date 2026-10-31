@@ -1,6 +1,6 @@
 # NHL paper-betting scoreboard
 
-Updated 2026-10-31 12:47 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
+Updated 2026-10-31 14:42 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
 
 Trial period starts Oct 31; no trial slate graded yet.
 
@@ -9,7 +9,7 @@ Trial period starts Oct 31; no trial slate graded yet.
 | Method | Pick | Cost | Result | Units | Fair CLV | Kalshi CLV | Detail |
 |---|---|--:|---|--:|--:|--:|---|
 | B0_random | Vince Dunn Over 0.5 points | 0.507 | loss | -1.00 | -2.2 | -3.0 | Vince Dunn 0 points |
-| B0_random | FLA -1.5 | 0.477 | win | +1.09 | -3.0 | -0.5 | WPG 2-5 FLA |
+| B0_random | FLA -1.5 | 0.477 | win | +1.09 | -1.9 | -0.5 | WPG 2-5 FLA |
 | B0_random | Gabriel Vilardi Over 0.5 points | 0.578 | loss | -1.00 | -8.3 | – | Gabriel Vilardi 0 points |
 | B0_random | Game Under 6.5 | 0.537 | loss | -1.00 | -2.4 | +0.0 | SEA 2-6 CGY |
 | C1_chalk | VGK Over 1.5 | 0.849 | win | +0.18 | – | -2.5 | NJD 5-2 VGK |
@@ -21,7 +21,7 @@ Trial period starts Oct 31; no trial slate graded yet.
 | M3_xg_model | SEA not to win by 3+ | 0.821 | win | +0.22 | – | -0.5 | SEA 2-6 CGY |
 | M3_xg_model | FLA not to win by 3+ | 0.705 | loss | -1.00 | – | -1.5 | WPG 2-5 FLA |
 | M3_xg_model | CGY Over 2.5 | 0.636 | win | +0.57 | – | +0.5 | SEA 2-6 CGY |
-| M3_xg_model | FLA not to win by 2+ | 0.567 | loss | -1.00 | -1.5 | -0.5 | WPG 2-5 FLA |
+| M3_xg_model | FLA not to win by 2+ | 0.567 | loss | -1.00 | -2.6 | -0.5 | WPG 2-5 FLA |
 | M4_shots_model | Carter Verhaeghe Under 2.5 shots | 0.578 | loss | -1.00 | -4.8 | – | Carter Verhaeghe 3 sog |
 | M4_shots_model | Matthew Tkachuk Under 2.5 shots | 0.578 | win | +0.73 | -7.4 | – | Matthew Tkachuk 2 sog |
 | M4_shots_model | Ryan Strome Over 1.5 shots | 0.578 | win | +0.73 | -7.3 | – | Ryan Strome 2 sog |

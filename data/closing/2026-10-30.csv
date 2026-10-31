@@ -1,16 +1,16 @@
-cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,close_fair,close_fair_source,kalshi_close_source,kalshi_close_min_before
-prizepicks|WPG@FLA|player_sog|matthew tkachuk|2.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,,,,0.5040451438048623,pinnacle,,
-underdog|WPG@FLA|player_points|gabriel vilardi|0.5|yes,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,,,,0.4951076320939334,pinnacle,,
-prizepicks|WPG@FLA|player_sog|carter verhaeghe|2.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,,,,0.5302041802585478,pinnacle,,
-prizepicks|SEA@CGY|player_sog|ryan strome|1.5|yes,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,,,,0.5048923679060665,pinnacle,,
-kalshi|WPG@FLA|spread|FLA|1.5|yes,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,0.45,0.46,0.455,0.4474963351593242,pinnacle,candle,0.0
-kalshi|SEA@CGY|player_points|vince dunn|0.5|yes,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.44,0.48,0.45999999999999996,0.48581617766250607,pinnacle,candle,0.0
-kalshi|SEA@CGY|total||6.5|no,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.51,0.53,0.52,0.5137614678899082,pinnacle,candle,0.0
-kalshi|WPG@FLA|spread|FLA|1.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,0.54,0.55,0.545,0.5525036648406758,pinnacle,candle,0.0
-kalshi|SEA@CGY|team_total|CGY|2.5|yes,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.62,0.63,0.625,,,candle,1.0
-kalshi|WPG@FLA|spread|FLA|2.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,0.67,0.68,0.675,,,candle,0.0
-kalshi|SEA@CGY|spread|SEA|2.5|no,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.8,0.81,0.805,,,candle,0.0
-kalshi|NJD@VGK|player_points|nico hischier|1.5|no,NJD@VGK,2026-10-30T17:21:32-04:00,38.5,0.83,0.89,0.86,,,candle,1.0
-kalshi|SEA@CGY|player_goals|berkly catton|0.5|no,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.81,0.85,0.8300000000000001,,,candle,0.0
-kalshi|NJD@VGK|team_total|VGK|1.5|yes,NJD@VGK,2026-10-30T17:21:32-04:00,38.5,0.81,0.82,0.815,,,candle,0.0
-kalshi|SEA@CGY|player_goals|ryan strome|0.5|no,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.84,0.91,0.875,,,candle,0.0
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,close_fair,close_fair_source,kalshi_close_source,kalshi_close_min_before,fair_close_from,fair_close_snapshot,fair_close_min_before
+kalshi|SEA@CGY|team_total|CGY|2.5|yes,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.62,0.63,0.625,,,candle,1.0,,,
+kalshi|SEA@CGY|player_goals|berkly catton|0.5|no,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.81,0.85,0.8300000000000001,,,candle,0.0,,,
+kalshi|NJD@VGK|team_total|VGK|1.5|yes,NJD@VGK,2026-10-30T17:21:32-04:00,38.5,0.81,0.82,0.815,,,candle,0.0,,,
+kalshi|SEA@CGY|player_goals|ryan strome|0.5|no,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.84,0.91,0.875,,,candle,0.0,,,
+kalshi|NJD@VGK|player_points|nico hischier|1.5|no,NJD@VGK,2026-10-30T17:21:32-04:00,38.5,0.83,0.89,0.86,,,candle,1.0,none,2026-10-30T21:55:36Z,4.4
+kalshi|SEA@CGY|player_points|vince dunn|0.5|yes,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.44,0.48,0.45999999999999996,0.48581617766250607,pinnacle,candle,0.0,archive,2026-10-30T23:55:36Z,4.4
+kalshi|SEA@CGY|total||6.5|no,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.51,0.53,0.52,0.5137614678899082,pinnacle,candle,0.0,archive,2026-10-30T23:55:36Z,4.4
+prizepicks|SEA@CGY|player_sog|ryan strome|1.5|yes,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,,,,0.5048923679060665,pinnacle,,,archive,2026-10-30T23:55:36Z,4.4
+kalshi|SEA@CGY|spread|SEA|2.5|no,SEA@CGY,2026-10-30T19:57:04-04:00,2.9,0.8,0.81,0.805,,,candle,0.0,none,2026-10-30T23:55:36Z,4.4
+kalshi|WPG@FLA|spread|FLA|1.5|yes,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,0.45,0.46,0.455,0.45830629461388717,pinnacle,candle,0.0,archive,2026-10-30T22:55:36Z,4.4
+kalshi|WPG@FLA|spread|FLA|1.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,0.54,0.55,0.545,0.5416937053861128,pinnacle,candle,0.0,archive,2026-10-30T22:55:36Z,4.4
+prizepicks|WPG@FLA|player_sog|matthew tkachuk|2.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,,,,0.5040451438048623,pinnacle,,,archive,2026-10-30T22:55:36Z,4.4
+underdog|WPG@FLA|player_points|gabriel vilardi|0.5|yes,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,,,,0.4951076320939334,pinnacle,,,archive,2026-10-30T22:55:36Z,4.4
+prizepicks|WPG@FLA|player_sog|carter verhaeghe|2.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,,,,0.5302041802585478,pinnacle,,,archive,2026-10-30T22:55:36Z,4.4
+kalshi|WPG@FLA|spread|FLA|2.5|no,WPG@FLA,2026-10-30T18:40:21-04:00,19.6,0.67,0.68,0.675,,,candle,0.0,none,2026-10-30T22:55:36Z,4.4
