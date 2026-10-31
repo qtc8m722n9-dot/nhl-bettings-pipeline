@@ -27,7 +27,7 @@ from .. import fair, grade, methods, models
 from ..candidates import describe, kalshi_fee
 from ..methods import PICKEM_2_PAYOUT
 from ..names import norm
-from ..nhl_api import lookup_team, team_name_map
+from ..nhl_api import lookup_team
 from ..odds_api import flatten
 from ..pull_odds import american_to_prob
 from . import mpdata, nhldata, oddshist
@@ -40,6 +40,19 @@ PICKEM = {"underdog", "prizepicks"}
 PICK_TIME = time(13, 50)
 CLOSE_LEAD = timedelta(minutes=2)
 PROP_BOOK_MARKETS = {"player_shots_on_goal": "player_sog", "player_points": "player_points"}
+# Odds API team names -> NHL abbrev (the NHL score feed has no full names)
+TEAM_NAMES = {
+    "Anaheim Ducks": "ANA", "Boston Bruins": "BOS", "Buffalo Sabres": "BUF", "Carolina Hurricanes": "CAR",
+    "Columbus Blue Jackets": "CBJ", "Calgary Flames": "CGY", "Chicago Blackhawks": "CHI", "Colorado Avalanche": "COL",
+    "Dallas Stars": "DAL", "Detroit Red Wings": "DET", "Edmonton Oilers": "EDM", "Florida Panthers": "FLA",
+    "Los Angeles Kings": "LAK", "Minnesota Wild": "MIN", "Montreal Canadiens": "MTL", "New Jersey Devils": "NJD",
+    "Nashville Predators": "NSH", "New York Islanders": "NYI", "New York Rangers": "NYR", "Ottawa Senators": "OTT",
+    "Philadelphia Flyers": "PHI", "Pittsburgh Penguins": "PIT", "Seattle Kraken": "SEA", "San Jose Sharks": "SJS",
+    "St Louis Blues": "STL", "Tampa Bay Lightning": "TBL", "Toronto Maple Leafs": "TOR", "Utah Mammoth": "UTA",
+    "Utah Hockey Club": "UTA", "Vancouver Canucks": "VAN", "Vegas Golden Knights": "VGK", "Winnipeg Jets": "WPG",
+    "Washington Capitals": "WSH",
+}
+TMAP = {norm(k): v for k, v in TEAM_NAMES.items()}
 RUN = {"M1_sharp_price": methods.m1_sharp, "M3_xg_model": methods.m3_xg, "M4_shots_model": methods.m4_shots}
 
 
@@ -212,10 +225,13 @@ def run(start: str, end: str) -> None:
     for pid, p in names.items():
         for t in p["teams"]:
             grade._rosters.setdefault(t, set()).add(norm(p["name"]))
+    for r in recs.values():  # anyone who dressed for a team this season (used only to grade scratches as void)
+        for g in r["games"]:
+            for s in g["skaters"]:
+                grade._rosters.setdefault(s["team"], set()).add(norm(s["name"]))
     season = Season(recs, pd.read_csv(mpdata.ROOT / f"teams_{mpdata.SEASON}.csv.gz"),
                     pd.read_csv(mpdata.ROOT / f"goalies_{mpdata.SEASON}.csv.gz"))
-    all_games = [g for r in recs.values() for g in r["games"]]
-    tmap = team_name_map(all_games, [])
+    tmap = TMAP
     goalie_acc = []
     for d in days:
         rec = recs.get(d.isoformat())
@@ -241,6 +257,9 @@ def run(start: str, end: str) -> None:
         evs = _slate_events(feat, d, t_pick)
         props = [oddshist.event_odds(ev["id"], _iso(t_pick)) for ev in evs]
         od = odds_frame([feat] + props, tmap)
+        unmapped = sorted(set(od.loc[od["home"].isna(), "home_name"]) | set(od.loc[od["away"].isna(), "away_name"])) if len(od) else []
+        if unmapped:
+            print(f"{d}: unmapped team names {unmapped}")
         gks = {f"{g['away']}@{g['home']}" for g in sched}
         c = candidates(od, gks)
         if c.empty:

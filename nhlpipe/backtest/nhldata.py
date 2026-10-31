@@ -11,6 +11,7 @@ the pick date (see features.py); results are only read when grading.
 """
 import gzip
 import json
+import re
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -116,15 +117,46 @@ def pull(start: date, end: date) -> None:
         r = day(d, names)
         print(f"nhl {d}: {len(r['games'])} games")
         d += timedelta(days=1)
+    fill_names(load_range(start, end, fix_names=False))
 
 
-def load_range(start: date, end: date) -> dict[str, dict]:
+ABBREV = re.compile(r"^[A-Z]\. ")
+
+
+def extra_names() -> dict[str, str]:
+    p = ROOT / "extra_names.json.gz"
+    return _rw(p) if p.exists() else {}
+
+
+def fill_names(recs: dict) -> None:
+    """Full names for players missing from the season rosters (one call each, cached)."""
+    extra = extra_names()
+    need = {s["pid"] for r in recs.values() for g in r["games"] for s in g["skaters"] + g["goalies"]
+            if ABBREV.match(s["name"]) and s["pid"] not in extra}
+    for pid in sorted(need):
+        try:
+            p = get_json(f"{BASE}/player/{pid}/landing")
+            extra[pid] = f"{p['firstName']['default']} {p['lastName']['default']}"
+        except Exception as e:  # noqa: BLE001
+            print(f"player {pid}: {e}")
+    if need:
+        _rw(ROOT / "extra_names.json.gz", extra)
+    print(f"full names filled for {len(need)} players")
+
+
+def load_range(start: date, end: date, fix_names: bool = True) -> dict[str, dict]:
     """date -> day record, cached files only (no network)."""
+    extra = extra_names() if fix_names else {}
     out = {}
     d = start
     while d <= end:
         p = ROOT / "days" / f"{d.isoformat()}.json.gz"
         if p.exists():
-            out[d.isoformat()] = _rw(p)
+            rec = _rw(p)
+            for g in rec["games"]:
+                for s in g["skaters"] + g["goalies"]:
+                    if s["pid"] in extra:
+                        s["name"] = extra[s["pid"]]
+            out[d.isoformat()] = rec
         d += timedelta(days=1)
     return out
