@@ -99,3 +99,86 @@ def main(day: str) -> None:
 
 if __name__ == "__main__":
     main(sys.argv[1])
+
+
+# ---- backtest spot check (ESPN, independent of the NHL API and nhlpipe.grade) ----
+SPOT = ROOT / "backtest" / "audit" / "spot"
+ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl"
+
+
+def sample_bets(n: int = 20, seed: int = 2026) -> pd.DataFrame:
+    files = sorted((ROOT / "backtest" / "bets").glob("*.csv"))
+    b = pd.concat([pd.read_csv(f) for f in files], ignore_index=True)
+    b = b[b["result"].isin(["win", "loss", "void"])]
+    return b.sample(n=min(n, len(b)), random_state=seed)
+
+
+def legs_of(cand_id: str) -> list[dict]:
+    ids = cand_id.split("|", 1)[1].split("||") if cand_id.startswith("parlay|") else [cand_id]
+    out = []
+    for x in ids:
+        venue, gk, market, who, line, side = x.split("|")
+        out.append({"cand_id": x, "game_key": gk, "market": market, "side": side,
+                    "line": float(line) if line not in ("", "None", "nan") else None,
+                    "team": who if who.isupper() else None, "player": who if not who.isupper() else None})
+    return out
+
+
+def fetch_spot(n: int = 20, seed: int = 2026) -> None:
+    """Network part (runs on Actions): ESPN box scores for the sampled bets' games."""
+    from ..http import get_json
+    s = sample_bets(n, seed)
+    for d in sorted(s["date"].unique()):
+        sb = get_json(f"{ESPN_BASE}/scoreboard", {"dates": d.replace("-", "")})
+        (SPOT / d).mkdir(parents=True, exist_ok=True)
+        (SPOT / d / "scoreboard.json").write_text(json.dumps(sb))
+        want = {lg["game_key"] for cid in s.loc[s["date"] == d, "cand_id"] for lg in legs_of(cid)}
+        for ev in sb.get("events", []):
+            comp = ev["competitions"][0]["competitors"]
+            ab = {c["homeAway"]: ESPN_AB.get(c["team"]["abbreviation"], c["team"]["abbreviation"]) for c in comp}
+            if f"{ab['away']}@{ab['home']}" in want:
+                summ = get_json(f"{ESPN_BASE}/summary", {"event": ev["id"]})
+                (SPOT / d / f"summary_{ev['id']}.json").write_text(json.dumps(summ))
+    print(f"ESPN box scores saved for {len(s)} sampled bets")
+
+
+def eval_spot(n: int = 20, seed: int = 2026) -> pd.DataFrame:
+    s = sample_bets(n, seed)
+    rows = []
+    for r in s.to_dict("records"):
+        games = {}
+        for f in glob.glob(str(SPOT / r["date"] / "summary_*.json")):
+            games.update(_espn_one(json.load(open(f))))
+        res = []
+        for lg in legs_of(r["cand_id"]):
+            g = games.get(lg["game_key"])
+            if g is None:
+                res.append(("NO ESPN GAME", lg["game_key"]))
+                continue
+            res.append(check(lg, g))
+        outcomes = [x[0] for x in res]
+        if any(o not in ("win", "loss") for o in outcomes):
+            espn = "void" if all(o == "NOT FOUND" for o in outcomes) and len(outcomes) == 1 else "CHECK"
+        else:
+            espn = "loss" if "loss" in outcomes else "win"
+        rows.append({"date": r["date"], "method": r["method"], "selection": r["selection"][:60], "ours": r["result"],
+                     "espn": espn, "espn_detail": "; ".join(x[1] for x in res), "match": espn == r["result"]})
+    return pd.DataFrame(rows)
+
+
+def _espn_one(s: dict) -> dict:
+    comp = s["header"]["competitions"][0]
+    teams = {}
+    for c in comp["competitors"]:
+        ab = ESPN_AB.get(c["team"]["abbreviation"], c["team"]["abbreviation"])
+        teams[c["homeAway"]] = (ab, int(c["score"]), int(c["linescores"][0]["displayValue"]))
+    players = {}
+    for t in s["boxscore"]["players"]:
+        for grp in t["statistics"]:
+            if grp["name"] == "goalies":
+                continue
+            for a in grp["athletes"]:
+                st = dict(zip(grp["keys"], a["stats"]))
+                players[_plain(a["athlete"]["displayName"])] = {"g": int(st["goals"]), "a": int(st["assists"]),
+                                                                "sog": int(st["shotsTotal"]), "toi": st["timeOnIce"]}
+    return {f"{teams['away'][0]}@{teams['home'][0]}": {"home": teams["home"], "away": teams["away"], "players": players}}

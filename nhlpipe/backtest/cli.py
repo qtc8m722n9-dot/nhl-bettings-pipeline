@@ -99,12 +99,32 @@ def probe() -> None:
     print("credits:", oddshist.SPENT, oddshist.LAST_HEADERS)
 
 
+def season_schedule() -> None:
+    """Whole 2025-26 regular-season schedule (free NHL API), for the credit estimate."""
+    from .nhldata import ROOT as NHL, SEASON_END, SEASON_START
+    games, d = {}, SEASON_START
+    while d <= SEASON_END:
+        for wk in get_json(f"https://api-web.nhle.com/v1/schedule/{d.isoformat()}").get("gameWeek", []):
+            for g in wk.get("games", []):
+                if g.get("gameType") == 2:
+                    games[g["id"]] = {"date": wk["date"], "start_utc": g["startTimeUTC"],
+                                      "home": g["homeTeam"]["abbrev"], "away": g["awayTeam"]["abbrev"]}
+        d += timedelta(days=7)
+    _save(NHL / "season_schedule.json", list(games.values()))
+    print(f"{len(games)} regular-season games")
+
+
 def main(argv: list[str]) -> None:
     task, args = argv[0], argv[1:]
     if task == "audit":
         audit()
     elif task == "probe":
         probe()
+    elif task == "schedule":
+        season_schedule()
+    elif task == "spot":
+        from .audit_check import fetch_spot
+        fetch_spot(*map(int, args))
     elif task in ("pull", "run", "report"):
         from . import pipeline
         getattr(pipeline, task)(*args)

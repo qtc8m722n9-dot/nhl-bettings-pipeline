@@ -93,12 +93,18 @@ def pull(start: str, end: str) -> None:
 
 
 # ----------------------------------------------------------- odds frames --
-def odds_frame(responses: list[dict], tmap: dict) -> pd.DataFrame:
+def odds_frame(responses: list, tmap: dict) -> pd.DataFrame:
+    """responses: archive responses, or (response, allowed event ids) pairs so a
+    game is only read from the snapshot taken for it (a featured snapshot also
+    lists later games, and mixing two snapshots of one market breaks the de-vig)."""
     rows = []
-    for resp in responses:
+    for item in responses:
+        resp, allowed = item if isinstance(item, tuple) else (item, None)
         data = resp.get("data")
         evs = data if isinstance(data, list) else ([data] if isinstance(data, dict) else [])
         for ev in evs:
+            if allowed is not None and ev.get("id") not in allowed:
+                continue
             for r in flatten(ev, resp.get("timestamp")):
                 r["snap_ts"] = resp.get("timestamp")
                 rows.append(r)
@@ -279,10 +285,11 @@ def run(start: str, end: str) -> None:
         close_resp = []
         for ct, grp in lc.groupby("commence_utc"):
             t_close = _iso(_utc(ct) - CLOSE_LEAD)
-            if (~grp["market"].isin(methods.PROP_MARKETS)).any():
-                close_resp.append(oddshist.featured(t_close))
+            main_ev = set(grp.loc[~grp["market"].isin(methods.PROP_MARKETS), "event_id"])
+            if main_ev:
+                close_resp.append((oddshist.featured(t_close), main_ev))
             for eid in sorted(grp.loc[grp["market"].isin(methods.PROP_MARKETS), "event_id"].unique()):
-                close_resp.append(oddshist.event_odds(eid, t_close))
+                close_resp.append((oddshist.event_odds(eid, t_close), {eid}))
         cod = odds_frame(close_resp, tmap)
         ctab, ptab = _tables(cod)
         close_ts = {}
