@@ -1,0 +1,9 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|BUF@LAK|team_total|LAK|4.5|yes,BUF@LAK,2026-10-31T15:50:00-04:00,10.0,0.16,0.19,0.175,live,,
+kalshi|BUF@LAK|team_total|BUF|4.5|yes,BUF@LAK,2026-10-31T15:50:00-04:00,10.0,0.22,0.25,0.235,live,,
+underdog|OTT@SJS|player_sog|dylan cozens|2.5|no,OTT@SJS,2026-10-31T15:50:00-04:00,10.0,,,,,0.5322580645161291,pinnacle
+prizepicks|BUF@LAK|player_sog|noah ostlund|1.5|yes,BUF@LAK,2026-10-31T15:50:00-04:00,10.0,,,,,0.5080942166821806,pinnacle
+kalshi|OTT@SJS|spread|OTT|1.5|no,OTT@SJS,2026-10-31T15:50:00-04:00,10.0,0.64,0.66,0.65,live,0.6474377745241582,pinnacle
+kalshi|OTT@SJS|team_total|SJS|1.5|yes,OTT@SJS,2026-10-31T15:50:00-04:00,10.0,0.8,0.81,0.805,live,,
+kalshi|BUF@LAK|total||8.5|no,BUF@LAK,2026-10-31T15:50:00-04:00,10.0,0.82,0.83,0.825,live,,
+kalshi|OTT@SJS|player_goals|stephen halliday|0.5|no,OTT@SJS,2026-10-31T15:50:00-04:00,10.0,0.82,0.84,0.83,live,,
