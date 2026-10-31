@@ -337,6 +337,10 @@ def run(start: str, end: str) -> None:
                 "close_fair": cf, "clv_fair": None if cf is None else cf - r["cost"],
                 "close_pinnacle": cp, "clv_pinnacle": None if cp is None else cp - r["cost"],
                 "pick_snap_ts": max(b["snap_ts"] for b in base),
+                # per leg: minutes from snapshot to that leg's own start (must be > 0)
+                "pick_lead_min": min((_utc(b["commence_utc"]) - _utc(b["snap_ts"])).total_seconds() / 60 for b in base),
+                "close_lead_min": min(((_utc(b["commence_utc"]) - _utc(close_ts[b["event_id"]])).total_seconds() / 60)
+                                      if close_ts.get(b["event_id"]) else np.nan for b in base),
                 "first_commence_utc": min(b["commence_utc"] for b in base),
                 "close_snap_ts": max((close_ts.get(b["event_id"]) or "") for b in base) or None,
                 "feat_mp_max": asof["mp_max_gamedate"], "feat_box_max": asof["box_max_date"],
@@ -438,9 +442,11 @@ def leak_check(b: pd.DataFrame) -> dict:
     pick_lim = [pick_dt(d.date()).astimezone(timezone.utc) for d in day]
     return {
         "pick odds snapshot after 13:50 ET": int((ts > pd.Series(pick_lim, index=b.index)).sum()),
-        "pick odds snapshot at/after first game start": int((ts >= st).sum()),
-        "closing snapshot at/after game start": int((cs >= st).sum()),
-        "bets with no closing snapshot": int(cs.isna().sum()),
+        "pick odds snapshot at/after its game's start (any leg)": int((b["pick_lead_min"] <= 0).sum()),
+        "closing snapshot at/after its game's start (any leg)": int((b["close_lead_min"] <= 0).sum()),
+        "bets with no closing snapshot": int(b["close_lead_min"].isna().sum()),
+        "closing snapshot lead, minutes before start (min / median)":
+            f"{b['close_lead_min'].min():.1f} / {b['close_lead_min'].median():.1f}",
         "MoneyPuck team data dated on/after pick date": int((b["feat_mp_max"].astype(str) >= b["date"].str.replace("-", "")).sum()),
         "goalie data dated on/after pick date": int((b["feat_goalie_max"].astype(str) >= b["date"].str.replace("-", "")).sum()),
         "box-score data dated on/after pick date": int((b["feat_box_max"].astype(str) >= b["date"]).sum()),
