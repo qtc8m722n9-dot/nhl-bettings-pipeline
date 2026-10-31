@@ -1,0 +1,72 @@
+nhl 2025-10-07: 3 games
+nhl 2025-10-08: 4 games
+nhl 2025-10-09: 14 games
+nhl 2025-10-10: 0 games
+nhl 2025-10-11: 16 games
+nhl 2025-10-12: 1 games
+nhl 2025-10-13: 10 games
+nhl 2025-10-14: 8 games
+nhl 2025-10-15: 4 games
+nhl 2025-10-16: 11 games
+nhl 2025-10-17: 4 games
+nhl 2025-10-18: 13 games
+nhl 2025-10-19: 4 games
+nhl 2025-10-20: 5 games
+nhl 2025-10-21: 10 games
+nhl 2025-10-22: 3 games
+nhl 2025-10-23: 12 games
+nhl 2025-10-24: 4 games
+nhl 2025-10-25: 13 games
+nhl 2025-10-26: 8 games
+nhl 2025-10-27: 2 games
+nhl 2025-10-28: 16 games
+nhl 2025-10-29: 1 games
+nhl 2025-10-30: 11 games
+nhl 2025-10-31: 3 games
+nhl 2025-11-01: 13 games
+nhl 2025-11-02: 5 games
+nhl 2025-11-03: 4 games
+nhl 2025-11-04: 10 games
+nhl 2025-11-05: 5 games
+nhl 2025-11-06: 9 games
+nhl 2025-11-07: 4 games
+nhl 2025-11-08: 13 games
+nhl 2025-11-09: 8 games
+nhl 2025-11-10: 4 games
+nhl 2025-11-11: 9 games
+nhl 2025-11-12: 4 games
+nhl 2025-11-13: 10 games
+nhl 2025-11-14: 4 games
+nhl 2025-11-15: 13 games
+nhl 2025-11-16: 5 games
+nhl 2025-11-17: 6 games
+nhl 2025-11-18: 8 games
+nhl 2025-11-19: 4 games
+nhl 2025-11-20: 12 games
+nhl 2025-11-21: 4 games
+nhl 2025-11-22: 12 games
+nhl 2025-11-23: 6 games
+nhl 2025-11-24: 7 games
+nhl 2025-11-25: 1 games
+nhl 2025-11-26: 15 games
+nhl 2025-11-27: 0 games
+nhl 2025-11-28: 15 games
+nhl 2025-11-29: 11 games
+nhl 2025-11-30: 4 games
+nhl 2025-12-01: 5 games
+nhl 2025-12-02: 10 games
+nhl 2025-12-03: 5 games
+nhl 2025-12-04: 10 games
+nhl 2025-12-05: 5 games
+nhl 2025-12-06: 12 games
+nhl 2025-12-07: 8 games
+MoneyPuck goalie 8477574: 404 Client Error: Not Found for url: https://moneypuck.com/moneypuck/playerData/careers/gameByGame/regular/goalies/8477574.csv
+MoneyPuck goalie 8482484: 404 Client Error: Not Found for url: https://moneypuck.com/moneypuck/playerData/careers/gameByGame/regular/goalies/8482484.csv
+odds 2025-12-01: 5 games at pick time  credits so far {'credits': 130, 'calls': 6, 'cached': 0}
+odds 2025-12-02: 10 games at pick time  credits so far {'credits': 310, 'calls': 15, 'cached': 2}
+odds 2025-12-03: 5 games at pick time  credits so far {'credits': 440, 'calls': 21, 'cached': 2}
+odds 2025-12-04: 10 games at pick time  credits so far {'credits': 670, 'calls': 32, 'cached': 2}
+odds 2025-12-05: 5 games at pick time  credits so far {'credits': 800, 'calls': 38, 'cached': 2}
+odds 2025-12-06: 11 games at pick time  credits so far {'credits': 1050, 'calls': 50, 'cached': 2}
+odds 2025-12-07: 7 games at pick time  credits so far {'credits': 1220, 'calls': 58, 'cached': 2}
+credits: {'credits': 1220, 'calls': 58, 'cached': 2} {'x-requests-remaining': '98576', 'x-requests-used': '1424', 'x-requests-last': '20'}
