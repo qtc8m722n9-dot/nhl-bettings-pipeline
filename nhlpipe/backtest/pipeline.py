@@ -420,6 +420,11 @@ def report(*_args) -> None:
                       f"{_share(r['beat_close'])} | {r['n_clv']} | {r['voids']} |")
         md.append("")
     sg = b[b["bucket"] == "single"]
+    md += ["## Singles by month", "", "| Method | Month | Bets | Units | ROI | CLV vs Pinnacle |", "|---|---|--:|--:|--:|--:|"]
+    for (m, mo), g in sg.assign(month=sg["date"].str[:7]).groupby(["method", "month"]):
+        st = g[g["result"].isin(["win", "loss"])]
+        md.append(f"| {m} | {mo} | {len(st)} | {st['profit'].sum():+.2f} | {f(st['profit'].mean())} | {f(g['clv_pinnacle'].mean(), 2)} |")
+    md += [""]
     md += ["## Singles by venue and market", "", "| Method | Venue | Market | Bets | Units | ROI | CLV |", "|---|---|---|--:|--:|--:|--:|"]
     for (m, v, mk), g in sg.groupby(["method", "venue", "market"]):
         st = g[g["result"].isin(["win", "loss"])]
