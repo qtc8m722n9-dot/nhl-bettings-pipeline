@@ -1,0 +1,4 @@
+2026-10-30: Kalshi candle closes for 11 bet(s)
+2026-10-30: graded 17 picks {'win': 10, 'loss': 7}  units -2.33
+Wrote data/scoreboard.md and data/scoreboard.csv
+No picks for 2026-10-31; nothing to close.
