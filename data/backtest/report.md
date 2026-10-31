@@ -50,9 +50,10 @@ Projected starting goalie matched the actual starter in 66/106 team-games (2025-
 ## Leak checks
 
 - pick odds snapshot after 13:50 ET: 0
-- pick odds snapshot at/after first game start: 0
-- closing snapshot at/after game start: 19
+- pick odds snapshot at/after its game's start (any leg): 0
+- closing snapshot at/after its game's start (any leg): 0
 - bets with no closing snapshot: 0
+- closing snapshot lead, minutes before start (min / median): 4.4 / 4.4
 - MoneyPuck team data dated on/after pick date: 0
 - goalie data dated on/after pick date: 0
 - box-score data dated on/after pick date: 0
