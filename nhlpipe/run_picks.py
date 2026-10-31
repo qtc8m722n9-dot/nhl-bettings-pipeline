@@ -108,6 +108,8 @@ def run(day: date, force: bool = False) -> pd.DataFrame:
         if res is None or res.empty:
             continue
         res = res.copy()
+        if name != "M5_pickem_entries":  # entries already are 2-pick parlays
+            res = pd.concat([res, methods.parlays(res)], ignore_index=True)
         res["method"] = name
         res["pick_no"] = range(1, len(res) + 1)
         frames.append(res)

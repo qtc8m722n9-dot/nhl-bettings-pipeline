@@ -8,15 +8,6 @@ on:
         description: "Re-generate picks even if already locked (true/false)"
         default: "false"
         required: false
-  push:
-    branches: [main]
-    paths:
-      - "nhlpipe/methods.py"
-      - "nhlpipe/models.py"
-      - "nhlpipe/fair.py"
-      - "nhlpipe/candidates.py"
-      - "nhlpipe/run_picks.py"
-      - ".github/workflows/picks.yml"
   schedule:
     - cron: "50 17 * * *"   # 12:50 ET (EST, from Nov 2) / 1:50 ET (EDT)
 

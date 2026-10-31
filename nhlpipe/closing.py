@@ -36,7 +36,7 @@ def _picked_cands(picks: pd.DataFrame) -> set[str]:
     ids = set(picks["cand_id"].dropna())
     for legs in picks["legs"].dropna():
         ids |= set(str(legs).split("||"))
-    return {i for i in ids if not i.startswith("entry|")}
+    return {i for i in ids if not i.startswith(("entry|", "parlay|"))}
 
 
 def _starts(slate: pd.DataFrame) -> dict[str, datetime]:

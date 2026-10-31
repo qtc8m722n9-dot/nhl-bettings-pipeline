@@ -1,8 +1,13 @@
-"""The 7 methods. Each returns up to 4 picks from tonight's candidates.
+"""The 7 methods.
 
-Pre-registered rules (do not change mid test period):
-  - flat 1 unit per pick / entry
-  - max 4 picks per method per night, max 2 per game
+Pre-registered rules (do not change mid test period). Updated 2026-10-30,
+before the trial period started, to collect data faster:
+  - flat 1 unit per pick / parlay / entry
+  - singles: every bet that clears the edge bar, max 1 per game (cap 16)
+    (B0 random and C1 chalk: one per game, so they stay fair baselines)
+  - parlays: each method also builds up to 2 three-leg parlays from its
+    top singles, every leg from a different game; tracked separately
+  - M5: up to 6 two-pick pick'em entries
   - never both sides of the same market
   - minimum edge: 2.5% on game markets, 4% on player props
 """
@@ -10,8 +15,11 @@ import random
 
 import pandas as pd
 
-MAX_PICKS = 4
-MAX_PER_GAME = 2
+MAX_PICKS = 16
+MAX_PER_GAME = 1
+MAX_ENTRIES = 6
+PARLAY_LEGS = 3
+MAX_PARLAYS = 2
 EDGE_GAME = 0.025
 EDGE_PROP = 0.04
 # Edges this large are almost always a model or data error, not a real price gap.
@@ -94,7 +102,7 @@ def m4_shots(c: pd.DataFrame, day) -> pd.DataFrame:
 
 
 def m5_entries(c: pd.DataFrame, day) -> pd.DataFrame:
-    """Four 2-pick entries from the best pick'em legs (sharp price or shots model)."""
+    """Up to 6 two-pick entries from the best pick'em legs (sharp price or shots model)."""
     d = c[c["venue"].isin(["underdog", "prizepicks"])].copy()
     d["est_prob"] = d["fair_prob"].fillna(d["sog_prob"])
     d["est_source"] = d["fair_source"].where(d["fair_prob"].notna(), "sog_model")
@@ -110,7 +118,7 @@ def m5_entries(c: pd.DataFrame, day) -> pd.DataFrame:
             continue
         legs.append(r)
         seen_players.add(r["player_key"])
-        if len(legs) == MAX_PICKS * 2:
+        if len(legs) == MAX_ENTRIES * 2:
             break
     entries = []
     for i in range(0, len(legs) - 1, 2):
@@ -138,6 +146,47 @@ def m5_entries(c: pd.DataFrame, day) -> pd.DataFrame:
             }
         )
     return pd.DataFrame(entries)
+
+
+def parlays(singles: pd.DataFrame) -> pd.DataFrame:
+    """Up to 2 three-leg parlays from a method's singles, in the method's own order.
+
+    Singles are already one per game, so legs never share a game. Priced as
+    the product of leg prices (what a combo / pick'em pays, roughly)."""
+    if singles is None or len(singles) < PARLAY_LEGS:
+        return pd.DataFrame()
+    rows = singles.to_dict("records")
+    out = []
+    for k in range(MAX_PARLAYS):
+        legs = rows[k * PARLAY_LEGS:(k + 1) * PARLAY_LEGS]
+        if len(legs) < PARLAY_LEGS:
+            break
+        cost = 1.0
+        est = 1.0
+        for leg in legs:
+            cost *= leg["cost"]
+            est = None if est is None or leg.get("est_prob") is None or pd.isna(leg.get("est_prob")) else est * leg["est_prob"]
+        venues = {leg["venue"] for leg in legs}
+        out.append(
+            {
+                "cand_id": "parlay|" + "||".join(leg["cand_id"] for leg in legs),
+                "game_key": " + ".join(leg["game_key"] for leg in legs),
+                "venue": venues.pop() if len(venues) == 1 else "mixed",
+                "market": f"parlay_{PARLAY_LEGS}",
+                "selection": "  +  ".join(leg["selection"] for leg in legs),
+                "side": "yes",
+                "line": None, "team": None, "ticker": None,
+                "player": None,
+                "price": cost,
+                "cost": cost,
+                "american": round((1 / cost - 1) * 100),
+                "est_prob": est,
+                "est_source": "product_of_legs",
+                "edge": None if est is None else est - cost,
+                "legs": "||".join(leg["cand_id"] for leg in legs),
+            }
+        )
+    return pd.DataFrame(out)
 
 
 METHODS = {
