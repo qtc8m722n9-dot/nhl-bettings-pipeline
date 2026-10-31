@@ -1,0 +1,63 @@
+name: Backtest (manual)
+
+# Manual jobs for the 2025-26 backtest and audits. Every external pull is
+# cached under data/backtest/ and never repeated; Odds API credits are logged
+# in data/backtest/odds/ledger.csv and capped by max_credits per run.
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "audit | probe | pull | run | report"
+        required: true
+      args:
+        description: "arguments, e.g. 2025-12-01 2025-12-07"
+        required: false
+        default: ""
+      max_credits:
+        description: "Odds API credit cap for this run"
+        required: false
+        default: "500"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backtest
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      MAX_CREDITS: ${{ github.event.inputs.max_credits }}
+      TASK: ${{ github.event.inputs.task }}
+      ARGS: ${{ github.event.inputs.args }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Run
+        run: |
+          mkdir -p data/backtest/logs
+          LOG="data/backtest/logs/$(date -u +%Y%m%dT%H%M)_${TASK}.txt"
+          python -m nhlpipe.backtest.cli "$TASK" $ARGS 2>&1 | tee "$LOG"
+          exit ${PIPESTATUS[0]}
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "nhl-pipeline-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/backtest
+          git diff --cached --quiet && exit 0
+          git commit -m "backtest: ${TASK} ${ARGS}"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          echo "push failed"; exit 1
