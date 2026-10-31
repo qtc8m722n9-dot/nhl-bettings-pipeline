@@ -155,9 +155,9 @@
   "team_name": "Chicago Blackhawks",
   "player": "Bowen Byram",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-10-30T13:17Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-10-31T15:50Z"
  },
  {
   "team_name": "Colorado Avalanche",
@@ -803,9 +803,9 @@
   "team_name": "St. Louis Blues",
   "player": "Colton Parayko",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "Parayko didn't practice Friday due to an upper-body injury but is considered probable for Saturday's game against the Red Wings, Lou Korac of NHL.com reports.",
-  "date": "2026-10-30T17:46Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-10-31T15:57Z"
  },
  {
   "team_name": "St. Louis Blues",
