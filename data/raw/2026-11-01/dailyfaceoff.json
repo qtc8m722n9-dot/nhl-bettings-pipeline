@@ -3,8 +3,8 @@
   "side": "home",
   "team_name": "Carolina Hurricanes",
   "goalie": "Pyotr Kochetkov",
-  "status": "Unconfirmed",
-  "updated": "2026-11-01"
+  "status": "Confirmed",
+  "updated": "2026-11-01T15:59:00.069Z"
  },
  {
   "side": "away",
@@ -45,8 +45,8 @@
   "side": "home",
   "team_name": "New York Rangers",
   "goalie": "Dylan Garand",
-  "status": "Unconfirmed",
-  "updated": "2026-11-01"
+  "status": "Confirmed",
+  "updated": "2026-11-01T15:39:47.420Z"
  },
  {
   "side": "away",
