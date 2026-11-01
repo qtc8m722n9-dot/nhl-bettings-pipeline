@@ -35,7 +35,7 @@ from zoneinfo import ZoneInfo
 import pandas as pd
 
 from . import closing, results, scoreboard
-from .methods import PICKEM_2_PAYOUT
+from .methods import PICKEM_2_PAYOUT, split_legs
 from .names import norm
 
 ET = ZoneInfo("America/New_York")
@@ -175,7 +175,7 @@ def grade_day(day: date, backfill: bool = True) -> pd.DataFrame | None:
         rec = {k: r.get(k) for k in ("date", "method", "pick_no", "venue", "game_key", "market", "selection", "cand_id")}
         rec.update(price=price, cost=cost, stake=stake)
         if cid.startswith(("parlay|", "entry|")):
-            legs = [leg(x) for x in str(r["legs"]).split("||")]
+            legs = [leg(x) for x in split_legs(r["legs"])]
             graded = [grade_leg(lg, res) for lg in legs]
             res_list = [x[0] for x in graded]
             rec["bucket"] = "parlay"

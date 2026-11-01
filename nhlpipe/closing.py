@@ -36,6 +36,7 @@ from zoneinfo import ZoneInfo
 import pandas as pd
 
 from . import fair, kalshi, nhl_api, odds_api
+from .methods import split_legs
 from .pull_odds import american_to_prob
 
 ET = ZoneInfo("America/New_York")
@@ -50,7 +51,7 @@ CLOSE_BOOKS = "pinnacle,draftkings,fanduel,betmgm,espnbet"
 def _picked_cands(picks: pd.DataFrame) -> set[str]:
     ids = set(picks["cand_id"].dropna())
     for legs in picks["legs"].dropna():
-        ids |= set(str(legs).split("||"))
+        ids |= set(split_legs(legs))
     return {i for i in ids if not i.startswith(("entry|", "parlay|"))}
 
 

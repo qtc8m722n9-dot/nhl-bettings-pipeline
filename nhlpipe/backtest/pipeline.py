@@ -25,7 +25,7 @@ import pandas as pd
 
 from .. import fair, grade, methods, models
 from ..candidates import describe, kalshi_fee
-from ..methods import PICKEM_2_PAYOUT
+from ..methods import PICKEM_2_PAYOUT, split_legs
 from ..names import norm
 from ..nhl_api import lookup_team
 from ..odds_api import flatten
@@ -300,7 +300,7 @@ def run(start: str, end: str) -> None:
         # closing: pull only what was picked
         legs_all = set()
         for r in picks.to_dict("records"):
-            legs_all |= set(str(r["legs"]).split("||")) if isinstance(r.get("legs"), str) else {r["cand_id"]}
+            legs_all |= set(split_legs(r["legs"])) if isinstance(r.get("legs"), str) else {r["cand_id"]}
         lc = cidx.loc[sorted(legs_all)]
         close_resp = []
         for ct, grp in lc.groupby("commence_utc"):
@@ -323,7 +323,7 @@ def run(start: str, end: str) -> None:
         res_d = results_dict(rec)
         rows = []
         for r in picks.to_dict("records"):
-            legs = [cidx.loc[x].to_dict() | {"cand_id": x} for x in str(r["legs"]).split("||")] if isinstance(r.get("legs"), str) else []
+            legs = [cidx.loc[x].to_dict() | {"cand_id": x} for x in split_legs(r["legs"])] if isinstance(r.get("legs"), str) else []
             base = legs or [cidx.loc[r["cand_id"]].to_dict() | {"cand_id": r["cand_id"]}]
             cl = [closes(b["cand_id"]) for b in base]
             cf = None if any(x[0] is None for x in cl) else float(np.prod([x[0] for x in cl]))

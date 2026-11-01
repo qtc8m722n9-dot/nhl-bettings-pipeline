@@ -12,6 +12,7 @@ before the trial period started, to collect data faster:
   - minimum edge: 2.5% on game markets, 4% on player props
 """
 import random
+import re
 
 import pandas as pd
 
@@ -27,6 +28,19 @@ MAX_EDGE_GAME = 0.10
 MAX_EDGE_PROP = 0.15
 PROP_MARKETS = {"player_points", "player_goals", "player_sog"}
 PICKEM_2_PAYOUT = 3.0  # Underdog / PrizePicks standard 2-pick power play
+
+
+_LEG_SPLIT = re.compile(r"\|\|(?=[a-z0-9_]+\|[A-Z]+@[A-Z]+\|)")
+
+
+def split_legs(s) -> list[str]:
+    """Split a parlay/entry 'legs' string on '||'.
+
+    A leg id can itself contain '||' (empty team/player slot, e.g. game totals:
+    'kalshi|BUF@LAK|total||8.5|no'), so only split where the next leg starts
+    ('venue|AWAY@HOME|'). Fixed 2026-11-01.
+    """
+    return _LEG_SPLIT.split(str(s)) if isinstance(s, str) and s else []
 
 
 def _min_edge(market: str) -> float:

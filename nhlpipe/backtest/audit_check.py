@@ -14,6 +14,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from nhlpipe.methods import split_legs
+
 ROOT = Path(__file__).resolve().parents[2] / "data"
 ESPN_AB = {"NJ": "NJD", "LA": "LAK", "SJ": "SJS", "TB": "TBL", "UTAH": "UTA", "WSH": "WSH"}
 
@@ -114,7 +116,7 @@ def sample_bets(n: int = 20, seed: int = 2026) -> pd.DataFrame:
 
 
 def legs_of(cand_id: str) -> list[dict]:
-    ids = cand_id.split("|", 1)[1].split("||") if cand_id.startswith("parlay|") else [cand_id]
+    ids = split_legs(cand_id.split("|", 1)[1]) if cand_id.startswith("parlay|") else [cand_id]
     out = []
     for x in ids:
         venue, gk, market, who, line, side = x.split("|")
