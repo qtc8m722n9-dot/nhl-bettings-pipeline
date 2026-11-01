@@ -1,0 +1,72 @@
+[
+ {
+  "side": "home",
+  "team_name": "Carolina Hurricanes",
+  "goalie": "Pyotr Kochetkov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-01"
+ },
+ {
+  "side": "away",
+  "team_name": "Winnipeg Jets",
+  "goalie": "Stuart Skinner",
+  "status": "Unconfirmed",
+  "updated": "2026-11-01"
+ },
+ {
+  "side": "home",
+  "team_name": "Washington Capitals",
+  "goalie": "Logan Thompson",
+  "status": "Unconfirmed",
+  "updated": "2026-11-01"
+ },
+ {
+  "side": "away",
+  "team_name": "Minnesota Wild",
+  "goalie": "Jesper Wallstedt",
+  "status": "Confirmed",
+  "updated": "2026-10-31T15:56:01.945Z"
+ },
+ {
+  "side": "home",
+  "team_name": "Philadelphia Flyers",
+  "goalie": "Dan Vladar",
+  "status": "Unconfirmed",
+  "updated": "2026-11-01"
+ },
+ {
+  "side": "away",
+  "team_name": "Utah Mammoth",
+  "goalie": "Karel Vejmelka",
+  "status": "Unconfirmed",
+  "updated": "2026-11-01"
+ },
+ {
+  "side": "home",
+  "team_name": "New York Rangers",
+  "goalie": "Dylan Garand",
+  "status": "Unconfirmed",
+  "updated": "2026-11-01"
+ },
+ {
+  "side": "away",
+  "team_name": "Edmonton Oilers",
+  "goalie": "Matt Tomkins",
+  "status": "Confirmed",
+  "updated": "2026-10-31T20:58:04.409Z"
+ },
+ {
+  "side": "home",
+  "team_name": "Anaheim Ducks",
+  "goalie": "Laurent Brossoit",
+  "status": "Confirmed",
+  "updated": "2026-10-31T19:08:20.248Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Ottawa Senators",
+  "goalie": "Jonas Johansson",
+  "status": "Unconfirmed",
+  "updated": "2026-11-01"
+ }
+]
