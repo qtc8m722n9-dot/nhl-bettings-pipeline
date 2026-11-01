@@ -1,0 +1,4 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|UTA@PHI|total||6.5|yes,UTA@PHI,2026-11-01T15:50:00-05:00,10.0,0.43,0.44,0.435,live,0.4466663959404653,consensus
+kalshi|UTA@PHI|p1_result|UTA|nan|no,UTA@PHI,2026-11-01T15:50:00-05:00,10.0,0.6,0.61,0.605,live,,
+kalshi|UTA@PHI|total||8.5|no,UTA@PHI,2026-11-01T15:50:00-05:00,10.0,0.82,0.83,0.825,live,,
