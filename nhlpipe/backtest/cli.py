@@ -120,6 +120,9 @@ def main(argv: list[str]) -> None:
         audit()
     elif task == "probe":
         probe()
+    elif task == "live_audit":
+        from .live_audit import fetch
+        fetch(*args)
     elif task == "verify":  # ESPN box scores for 20 random bets + season schedule for the credit estimate
         from .audit_check import fetch_spot
         fetch_spot(20)
