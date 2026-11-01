@@ -1,0 +1,106 @@
+{
+ "KXNHL1PTOTAL-26OCT31CHIBOS-1": {
+  "status": "finalized",
+  "result": "yes"
+ },
+ "KXNHL1PTOTAL-26OCT31TBNSH-1": {
+  "status": "finalized",
+  "result": "yes"
+ },
+ "KXNHLGOAL-26OCT31CBJDAL-CBJZWERENSKI8-1": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLGOAL-26OCT31CBJDAL-DALJROBERTSON21-1": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLGOAL-26OCT31CHIBOS-CHIPKANE88-1": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLGOAL-26OCT31OTTSJ-OTTSHALLIDAY34-1": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLGOAL-26OCT31PITMTL-PITBKINDEL81-1": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLGOAL-26OCT31PITMTL-PITRRAKELL67-1": {
+  "status": "finalized",
+  "result": "yes"
+ },
+ "KXNHLGOAL-26OCT31STLDET-STLCMCMICHAEL77-1": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLGOAL-26OCT31TORVAN-VANDOCONNOR18-1": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLPTS-26OCT31CGYCOL-COLSMALINSKI70-1": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLPTS-26OCT31STLDET-STLRTHOMAS18-2": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLPTS-26OCT31TBNSH-NSHSSTAMKOS91-2": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLSPREAD-26OCT31CBJDAL-CBJ3": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLSPREAD-26OCT31EDMNYI-EDM3": {
+  "status": "finalized",
+  "result": "yes"
+ },
+ "KXNHLSPREAD-26OCT31EDMNYI-NYI3": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLSPREAD-26OCT31OTTSJ-OTT2": {
+  "status": "finalized",
+  "result": "yes"
+ },
+ "KXNHLSPREAD-26OCT31STLDET-STL3": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLSPREAD-26OCT31TBNSH-TB3": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLTEAMTOTAL-26OCT31BUFLA-BUF5": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLTEAMTOTAL-26OCT31BUFLA-LA5": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLTEAMTOTAL-26OCT31CGYCOL-CGY3": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLTEAMTOTAL-26OCT31CGYCOL-COL3": {
+  "status": "finalized",
+  "result": "yes"
+ },
+ "KXNHLTEAMTOTAL-26OCT31OTTSJ-SJ2": {
+  "status": "finalized",
+  "result": "no"
+ },
+ "KXNHLTEAMTOTAL-26OCT31PITMTL-PIT4": {
+  "status": "finalized",
+  "result": "yes"
+ },
+ "KXNHLTOTAL-26OCT31BUFLA-9": {
+  "status": "finalized",
+  "result": "no"
+ }
+}
