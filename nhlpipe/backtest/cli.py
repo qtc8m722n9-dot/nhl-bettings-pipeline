@@ -114,12 +114,44 @@ def season_schedule() -> None:
     print(f"{len(games)} regular-season games")
 
 
+def probe2() -> None:
+    """Free endpoints for game-level skater usage (PP TOI, shot attempts)."""
+    out = AUDIT.parent / "probe2"
+    out.mkdir(parents=True, exist_ok=True)
+    S = "https://api.nhle.com/stats/rest/en/skater"
+    exp = "gameTypeId=2 and seasonId=20252026 and gameDate>='2025-12-02' and gameDate<='2025-12-02'"
+    for rep in ("timeonice", "realtime", "summary", "powerplay", "shottype", "scoringpergame", "puckPossessions"):
+        try:
+            d = get_json(f"{S}/{rep}", {"isAggregate": "false", "isGame": "true", "start": 0, "limit": 3, "cayenneExp": exp})
+            _save(out / f"nhlstats_{rep}.json", d)
+            print(rep, d.get("total"), list((d.get("data") or [{}])[0].keys()))
+        except Exception as e:  # noqa: BLE001
+            print(rep, "FAILED", e)
+    try:
+        txt = get("https://moneypuck.com/moneypuck/playerData/careers/gameByGame/regular/skaters/8478402.csv", timeout=60).text
+        lines = txt.splitlines()
+        print("mp skater cols", lines[0])
+        print("mp seasons", sorted({l.split(",")[1] for l in lines[1:]}))
+    except Exception as e:  # noqa: BLE001
+        print("mp skater FAILED", e)
+    for url in ("https://moneypuck.com/moneypuck/playerData/seasonSummary/2024/regular/skaters.csv",
+                "https://moneypuck.com/moneypuck/playerData/careers/gameByGame/all_teams.csv",
+                "https://moneypuck.com/moneypuck/playerData/games/2025/2025020001.csv"):
+        try:
+            r = get(url, timeout=60)
+            print(url, "OK", len(r.content), r.text.splitlines()[0][:200])
+        except Exception as e:  # noqa: BLE001
+            print(url, "FAILED", str(e)[:120])
+
+
 def main(argv: list[str]) -> None:
     task, args = argv[0], argv[1:]
     if task == "audit":
         audit()
     elif task == "probe":
         probe()
+    elif task == "probe2":
+        probe2()
     elif task == "live_audit":
         from .live_audit import fetch
         fetch(*args)
