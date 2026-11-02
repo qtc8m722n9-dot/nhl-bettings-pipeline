@@ -26,7 +26,8 @@ from ..http import get, get_json
 
 ROOT = Path(__file__).resolve().parents[2] / "data" / "shots2"
 STATS = "https://api.nhle.com/stats/rest/en/skater"
-REPORTS = ["summary", "timeonice", "realtime", "powerplay", "puckPossessions"]
+REPORTS = ["summary", "timeonice", "realtime", "powerplay"]
+THREADS = 6
 SORT = '[{"property":"gameDate","direction":"ASC"},{"property":"playerId","direction":"ASC"}]'
 
 
@@ -60,37 +61,53 @@ def schedule(season: str) -> list[dict]:
     return gl
 
 
-def _report(season: str, rep: str, d0: date, d1: date) -> list[dict]:
-    exp = f"gameTypeId=2 and seasonId={season} and gameDate>='{d0}' and gameDate<='{d1}'"
+def _report(season: str, rep: str, d: date) -> list[dict]:
+    """One day of one report, 100 rows a page (big pages time out on this API)."""
+    import time
+    exp = f"gameTypeId=2 and seasonId={season} and gameDate='{d}'"
     rows, start = [], 0
     while True:
-        d = get_json(f"{STATS}/{rep}", {"isAggregate": "false", "isGame": "true", "start": start, "limit": 1000,
-                                        "sort": SORT, "cayenneExp": exp})
-        page = d.get("data", [])
+        for attempt in range(6):
+            try:
+                resp = get_json(f"{STATS}/{rep}", {"isAggregate": "false", "isGame": "true", "start": start, "limit": 100,
+                                                   "sort": SORT, "cayenneExp": exp})
+                break
+            except Exception as e:  # noqa: BLE001  (522s and resets: back off and retry)
+                if attempt == 5:
+                    raise
+                time.sleep(5 * (attempt + 1))
+        page = resp.get("data", [])
         rows += page
         start += len(page)
-        if not page or start >= d.get("total", 0):
+        if not page or start >= resp.get("total", 0):
             return rows
 
 
 def pull_stats(season: str) -> None:
+    from concurrent.futures import ThreadPoolExecutor
     games = schedule(season)
     if not games:
         return
-    dates = sorted({g["date"] for g in games})
-    d0 = date.fromisoformat(dates[0])
-    last = date.fromisoformat(dates[-1])
     today = datetime.now(timezone.utc).date()
-    while d0 <= last and d0 < today:
-        d1 = min(d0 + timedelta(days=6), last)
+    days = sorted({date.fromisoformat(g["date"]) for g in games if date.fromisoformat(g["date"]) < today})
+    jobs = []
+    for d in days:
         for rep in REPORTS:
-            path = ROOT / "nhlstats" / season / rep / f"{d0}_{d1}.json.gz"
-            final = d1 < today - timedelta(days=2)
-            if path.exists() and final:
+            path = ROOT / "nhlstats" / season / rep / f"{d}.json.gz"
+            if path.exists() and d < today - timedelta(days=2):
                 continue
-            _rw(path, _report(season, rep, d0, d1))
-        print(f"{season} {d0}..{d1} done")
-        d0 = d1 + timedelta(days=1)
+            jobs.append((d, rep, path))
+
+    def one(job):
+        d, rep, path = job
+        _rw(path, _report(season, rep, d))
+        return d
+
+    with ThreadPoolExecutor(THREADS) as ex:
+        for i, d in enumerate(ex.map(one, jobs)):
+            if i % 100 == 0:
+                print(f"{season}: {i}/{len(jobs)} day-reports ({d})", flush=True)
+    print(f"{season}: done, {len(jobs)} day-reports pulled", flush=True)
 
 
 def pull_mp_teams(min_season: int = 2022) -> None:
