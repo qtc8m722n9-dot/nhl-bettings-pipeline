@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/work/nhl-bettings-pipeline/nhl-bettings-pipeline/nhlpipe/backtest/cli.py", line 180, in <module>
+    main(sys.argv[1:])
+  File "/home/runner/work/nhl-bettings-pipeline/nhl-bettings-pipeline/nhlpipe/backtest/cli.py", line 156, in main
+    s2.pull_stats(season)
+  File "/home/runner/work/nhl-bettings-pipeline/nhl-bettings-pipeline/nhlpipe/shots2/pull.py", line 91, in pull_stats
+    _rw(path, _report(season, rep, d0, d1))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/nhl-bettings-pipeline/nhl-bettings-pipeline/nhlpipe/shots2/pull.py", line 67, in _report
+    d = get_json(f"{STATS}/{rep}", {"isAggregate": "false", "isGame": "true", "start": start, "limit": 1000,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/nhl-bettings-pipeline/nhl-bettings-pipeline/nhlpipe/http.py", line 41, in get_json
+    return get(url, params=params).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/nhl-bettings-pipeline/nhl-bettings-pipeline/nhlpipe/http.py", line 36, in get
+    r.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 522 Server Error: <none> for url: https://api.nhle.com/stats/rest/en/skater/realtime?isAggregate=false&isGame=true&start=0&limit=1000&sort=%5B%7B%22property%22%3A%22gameDate%22%2C%22direction%22%3A%22ASC%22%7D%2C%7B%22property%22%3A%22playerId%22%2C%22direction%22%3A%22ASC%22%7D%5D&cayenneExp=gameTypeId%3D2+and+seasonId%3D20222023+and+gameDate%3E%3D%272022-11-04%27+and+gameDate%3C%3D%272022-11-10%27
+20222023 2022-10-07..2022-10-13 done
+20222023 2022-10-14..2022-10-20 done
+20222023 2022-10-21..2022-10-27 done
+20222023 2022-10-28..2022-11-03 done
