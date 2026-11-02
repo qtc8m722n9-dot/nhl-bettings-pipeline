@@ -136,27 +136,49 @@ def schedule_frame(games: list[dict]) -> pd.DataFrame:
 
 
 def team_frame(mp: pd.DataFrame, cutoff: date) -> pd.DataFrame:
-    """Decayed team rates (all situations) from MoneyPuck team-game logs, prior games only."""
+    """Each team's decayed rates *after* each of its games (MoneyPuck team logs, all situations).
+
+    Rows are keyed by (team, date of that game); attach to a later game with
+    team_asof(), which takes the last state dated strictly before the game, so
+    nothing from the game itself (or the same day) is used, and it works live
+    before tonight's game has a row."""
     a = mp[mp["situation"] == "all"].copy()
     a["date"] = pd.to_datetime(a["gameDate"].astype(str)).dt.date
     a = a.sort_values(["playerTeam", "date"]).reset_index(drop=True)
     a["mins"] = a["iceTime"] / 60
     a["_one"] = 1.0
     g = "playerTeam"
-    W = _grouped_decay(a, g, "_one", TEAM_HL)
-    M = _grouped_decay(a, g, "mins", TEAM_HL)
-    out = a[["gameId", "playerTeam", "date"]].rename(columns={"playerTeam": "team"}).copy()
+
+    def after(col):  # decayed sum including this game = before-sum * d + x
+        d = 0.5 ** (1.0 / TEAM_HL)
+        return _grouped_decay(a, g, col, TEAM_HL) * d + a[col].to_numpy()
+
+    pri = a[a["date"] < cutoff]
+    M = after("mins")
+    out = a[["playerTeam", "date"]].rename(columns={"playerTeam": "team"}).copy()
     for col, name in (("shotAttemptsFor", "cf60"), ("shotAttemptsAgainst", "ca60"),
                       ("shotsOnGoalFor", "sf60"), ("shotsOnGoalAgainst", "sa60"), ("penaltiesFor", "pen60")):
-        N = _grouped_decay(a, g, col, TEAM_HL)
-        pri = a[a["date"] < cutoff]
         lg = pri[col].sum() / (pri["mins"].sum() / 60)  # league rate from games before the cutoff only
-        out[name] = (N + lg * TEAM_PRIOR_GP) / ((M + TEAM_PRIOR_GP * 60) / 60)
+        out[name] = (after(col) + lg * TEAM_PRIOR_GP) / ((M + TEAM_PRIOR_GP * 60) / 60)
         out[name + "_lg"] = lg
-    XF = _grouped_decay(a, g, "xGoalsFor", TEAM_HL)
-    XA = _grouped_decay(a, g, "xGoalsAgainst", TEAM_HL)
+    XF, XA = after("xGoalsFor"), after("xGoalsAgainst")
     out["xg_share"] = (XF + 2.5 * TEAM_PRIOR_GP) / (XF + XA + 5.0 * TEAM_PRIOR_GP)
-    out["team_gp"] = W
+    out["team_gp"] = after("_one")
+    return out
+
+
+def team_asof(rows: pd.DataFrame, tm: pd.DataFrame, team_col: str, cols: list[str], prefix: str = "") -> pd.DataFrame:
+    """Attach each team's last post-game state dated strictly before rows.date."""
+    left = rows[["date", team_col]].copy()
+    left["_i"] = np.arange(len(rows))
+    left["_d"] = pd.to_datetime(left["date"])
+    right = tm.rename(columns={"team": team_col}).copy()
+    right["_d"] = pd.to_datetime(right["date"])
+    m = pd.merge_asof(left.sort_values("_d"), right.drop(columns="date").sort_values("_d"), on="_d", by=team_col,
+                      allow_exact_matches=False, direction="backward").sort_values("_i")
+    out = rows.copy()
+    for c in cols:
+        out[prefix + c] = m[c].to_numpy()
     return out
 
 
@@ -191,10 +213,8 @@ def build(stats: pd.DataFrame, games: list[dict], mp: pd.DataFrame, cutoff: date
     s = s.merge(sch[["gameId", "teamAbbrev", "opp", "home", "rest_days", "b2b", "tz_shift", "road_trip",
                      "opp_rest_days", "opp_b2b"]], on=["gameId", "teamAbbrev"], how="left")
     tm = team_frame(mp, cutoff)
-    own = tm.rename(columns={"team": "teamAbbrev"})[["gameId", "teamAbbrev", "cf60", "cf60_lg", "xg_share", "team_gp"]]
-    opp = tm.rename(columns={"team": "opp"})[["gameId", "opp", "ca60", "ca60_lg", "xg_share", "pen60", "pen60_lg"]] \
-        .rename(columns={"xg_share": "opp_xg_share"})
-    s = s.merge(own, on=["gameId", "teamAbbrev"], how="left").merge(opp, on=["gameId", "opp"], how="left")
+    s = team_asof(s, tm, "teamAbbrev", ["cf60", "cf60_lg", "xg_share", "team_gp"])
+    s = team_asof(s, tm.rename(columns={"xg_share": "opp_xg_share"}), "opp", ["ca60", "ca60_lg", "opp_xg_share", "pen60", "pen60_lg"])
     s["opp_sa_ratio"] = s["ca60"] / s["ca60_lg"]
     s["team_ca_ratio"] = s["cf60"] / s["cf60_lg"]
     s["xg_edge"] = s["xg_share"] - s["opp_xg_share"]

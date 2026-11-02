@@ -43,9 +43,9 @@ def load() -> pd.DataFrame:
     s = features.add_h2h(s, "mu_base")
     s["season"] = s["gameId"] // 1_000_000
     s["key"] = s["skaterFullName"].map(norm)
-    sch = pd.DataFrame(games)[["game_id", "home", "away"]].rename(columns={"game_id": "gameId"})
+    sch = pd.DataFrame(games)[["game_id", "home", "away"]].rename(columns={"game_id": "gameId", "home": "g_home", "away": "g_away"})
     s = s.merge(sch, on="gameId", how="left")
-    s["game_key"] = s["away"] + "@" + s["home"]
+    s["game_key"] = s["g_away"] + "@" + s["g_home"]
     return s
 
 

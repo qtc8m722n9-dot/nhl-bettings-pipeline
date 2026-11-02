@@ -22,7 +22,7 @@ FEATURES = [
 ]
 
 
-def design(s: pd.DataFrame) -> pd.DataFrame:
+def design(s: pd.DataFrame, fill: dict | None = None) -> pd.DataFrame:
     x = pd.DataFrame(index=s.index)
     x["log_mu_base"] = np.log(s["mu_base"].clip(lower=0.05))
     for c in ("F", "ev_toi", "pp_toi", "sh_toi", "on_net", "ev_att60", "pp_att60", "oz_start", "home", "b2b",
@@ -36,8 +36,7 @@ def design(s: pd.DataFrame) -> pd.DataFrame:
     x["h2h_resid"] = s["h2h_resid"].fillna(0).clip(-2, 2)
     x["log_n_prior"] = np.log1p(s["n_prior"].clip(upper=300))
     x["missing_toi"] = np.log1p(pd.to_numeric(s["missing_toi"], errors="coerce").clip(0, 60))
-    med = {c: x[c].median() for c in x.columns}
-    return x.fillna(med)
+    return x.fillna(fill if fill is not None else {c: x[c].median() for c in x.columns})
 
 
 class ShotsModel:
@@ -51,7 +50,9 @@ class ShotsModel:
         self.alpha = 0.0
 
     def fit(self, s: pd.DataFrame) -> "ShotsModel":
-        X = design(s)[FEATURES]
+        raw = design(s)
+        self.fill = {c: float(raw[c].median()) for c in raw.columns}  # training medians, reused at predict time
+        X = design(s, self.fill)[FEATURES]
         mu0 = s["mu_base"].clip(lower=0.05).to_numpy()
         y = s["shots"].to_numpy()
         if self.kind == "glm":
@@ -63,7 +64,7 @@ class ShotsModel:
         return self
 
     def predict_mean(self, s: pd.DataFrame) -> np.ndarray:
-        X = design(s)[FEATURES]
+        X = design(s, self.fill)[FEATURES]
         return np.clip(self.m.predict(X), 0.05, 20) * s["mu_base"].clip(lower=0.05).to_numpy()
 
     def p_over(self, mu: np.ndarray, line: np.ndarray) -> np.ndarray:
