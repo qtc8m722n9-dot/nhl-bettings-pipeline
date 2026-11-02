@@ -155,6 +155,22 @@ def main(argv: list[str]) -> None:
         for season in args:
             s2.pull_stats(season)
         s2.pull_mp_teams()
+    elif task == "probe3":
+        import time as _t
+        for url in ["https://moneypuck.com/moneypuck/playerData/careers/gameByGame/all_skaters.csv",
+                    "https://moneypuck.com/moneypuck/playerData/careers/gameByGame/all_players.csv",
+                    "https://moneypuck.com/moneypuck/playerData/careers/gameByGame/regular/all_skaters.csv",
+                    "https://moneypuck.com/moneypuck/playerData/seasonSummary/2024/regular/skaters.csv"]:
+            t0 = _t.time()
+            try:
+                r = get(url, timeout=300)
+                print(url, "OK", len(r.content), round(_t.time() - t0, 1), "s", r.text[:150].replace("\n", " | "))
+            except Exception as e:  # noqa: BLE001
+                print(url, "FAILED", str(e)[:100])
+        t0 = _t.time()
+        d = get_json("https://api.nhle.com/stats/rest/en/skater/summary", {"isAggregate": "false", "isGame": "true", "start": 0, "limit": 100,
+                     "cayenneExp": "gameTypeId=2 and seasonId=20232024 and gameDate='2023-11-02'"})
+        print("nhl stats 100 rows", round(_t.time() - t0, 1), "s total", d.get("total"))
     elif task == "probe2":
         probe2()
     elif task == "live_audit":
