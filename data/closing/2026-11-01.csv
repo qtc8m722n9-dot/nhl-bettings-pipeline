@@ -1,12 +1,18 @@
-cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
-kalshi|UTA@PHI|total||6.5|yes,UTA@PHI,2026-11-01T15:50:00-05:00,10.0,0.43,0.44,0.435,live,0.4466663959404653,consensus
-kalshi|UTA@PHI|p1_result|UTA|nan|no,UTA@PHI,2026-11-01T15:50:00-05:00,10.0,0.6,0.61,0.605,live,,
-kalshi|UTA@PHI|total||8.5|no,UTA@PHI,2026-11-01T15:50:00-05:00,10.0,0.82,0.83,0.825,live,,
-kalshi|EDM@NYR|team_total|EDM|2.5|no,EDM@NYR,2026-11-01T17:50:00-05:00,10.0,0.36,0.38,0.37,live,,
-prizepicks|EDM@NYR|player_sog|adam fox|1.5|no,EDM@NYR,2026-11-01T17:50:00-05:00,10.0,,,,,0.521186440677966,pinnacle
-kalshi|EDM@NYR|team_total|EDM|4.5|no,EDM@NYR,2026-11-01T17:50:00-05:00,10.0,0.76,0.77,0.765,live,,
-kalshi|EDM@NYR|player_goals|kasperi kapanen|0.5|no,EDM@NYR,2026-11-01T17:50:00-05:00,10.0,0.82,0.84,0.83,live,,
-kalshi|OTT@ANA|player_points|dylan cozens|1.5|yes,OTT@ANA,2026-11-01T19:50:00-05:00,10.0,0.14,0.19,0.165,live,,
-kalshi|OTT@ANA|team_total|OTT|3.5|no,OTT@ANA,2026-11-01T19:50:00-05:00,10.0,0.52,0.53,0.525,live,,
-prizepicks|OTT@ANA|player_sog|cutter gauthier|3.5|no,OTT@ANA,2026-11-01T19:50:00-05:00,10.0,,,,,0.4561503960301555,pinnacle
-kalshi|OTT@ANA|player_goals|claude giroux|0.5|no,OTT@ANA,2026-11-01T19:50:00-05:00,10.0,0.81,0.83,0.8200000000000001,live,,
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source,kalshi_close_min_before,fair_close_from,fair_close_snapshot,fair_close_min_before
+kalshi|WPG@CAR|player_goals|logan stankoven|0.5|yes,WPG@CAR,,,0.28,0.29,0.28500000000000003,candle,,,1.0,,,
+kalshi|EDM@NYR|team_total|EDM|2.5|no,EDM@NYR,2026-11-01T17:50:00-05:00,10.0,0.37,0.38,0.375,candle,,,1.0,,,
+kalshi|OTT@ANA|team_total|OTT|3.5|no,OTT@ANA,2026-11-01T19:50:00-05:00,10.0,0.52,0.53,0.525,candle,,,0.0,,,
+kalshi|EDM@NYR|team_total|EDM|4.5|no,EDM@NYR,2026-11-01T17:50:00-05:00,10.0,0.76,0.77,0.765,candle,,,0.0,,,
+kalshi|WPG@CAR|team_total|CAR|5.5|no,WPG@CAR,,,0.82,0.83,0.825,candle,,,2.0,,,
+kalshi|EDM@NYR|player_goals|kasperi kapanen|0.5|no,EDM@NYR,2026-11-01T17:50:00-05:00,10.0,0.82,0.84,0.83,candle,,,0.0,,,
+kalshi|OTT@ANA|player_goals|claude giroux|0.5|no,OTT@ANA,2026-11-01T19:50:00-05:00,10.0,0.81,0.85,0.8300000000000001,candle,,,0.0,,,
+kalshi|MIN@WSH|player_goals|pierre luc dubois|0.5|no,MIN@WSH,,,0.82,0.83,0.825,candle,,,0.0,,,
+prizepicks|EDM@NYR|player_sog|adam fox|1.5|no,EDM@NYR,2026-11-01T17:50:00-05:00,10.0,,,,,0.521186440677966,pinnacle,,archive,2026-11-01T22:55:36Z,4.4
+kalshi|MIN@WSH|spread|MIN|1.5|no,MIN@WSH,,,0.69,0.7,0.695,candle,0.6943749404767059,pinnacle,0.0,archive,2026-11-01T20:25:36Z,4.4
+kalshi|MIN@WSH|spread|WSH|2.5|no,MIN@WSH,,,0.82,0.83,0.825,candle,,,0.0,none,2026-11-01T20:25:36Z,4.4
+kalshi|OTT@ANA|player_points|dylan cozens|1.5|yes,OTT@ANA,2026-11-01T19:50:00-05:00,10.0,0.12,0.18,0.15,candle,,,0.0,none,2026-11-02T00:55:36Z,4.4
+prizepicks|OTT@ANA|player_sog|cutter gauthier|3.5|no,OTT@ANA,2026-11-01T19:50:00-05:00,10.0,,,,,0.4561503960301555,pinnacle,,archive,2026-11-02T00:55:36Z,4.4
+kalshi|UTA@PHI|total||6.5|yes,UTA@PHI,2026-11-01T15:50:00-05:00,10.0,0.43,0.44,0.435,candle,0.4466663959404653,consensus,0.0,archive,2026-11-01T20:55:36Z,4.4
+kalshi|UTA@PHI|p1_result|UTA|nan|no,UTA@PHI,2026-11-01T15:50:00-05:00,10.0,0.6,0.61,0.605,candle,,,1.0,none,2026-11-01T20:55:36Z,4.4
+kalshi|UTA@PHI|total||8.5|no,UTA@PHI,2026-11-01T15:50:00-05:00,10.0,0.82,0.84,0.83,candle,,,0.0,none,2026-11-01T20:55:36Z,4.4
+kalshi|WPG@CAR|spread|CAR|2.5|no,WPG@CAR,,,0.63,0.64,0.635,candle,,,0.0,none,2026-11-01T17:55:36Z,4.4
