@@ -34,7 +34,8 @@ def design(s: pd.DataFrame) -> pd.DataFrame:
     x["log_team_ca"] = np.log(s["team_ca_ratio"]).clip(-0.4, 0.4)
     x["log_opp_pen"] = np.log(s["opp_pen_ratio"]).clip(-0.6, 0.6)
     x["h2h_resid"] = s["h2h_resid"].fillna(0).clip(-2, 2)
-    x["log_n_prior"] = np.log1p(s["n_prior"])
+    x["log_n_prior"] = np.log1p(s["n_prior"].clip(upper=300))
+    x["missing_toi"] = np.log1p(pd.to_numeric(s["missing_toi"], errors="coerce").clip(0, 60))
     med = {c: x[c].median() for c in x.columns}
     return x.fillna(med)
 

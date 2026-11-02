@@ -125,7 +125,7 @@ def calib(p, y, bins=(0, .2, .3, .4, .5, .6, .7, .8, 1)) -> list[str]:
 def run() -> None:
     md = ["# Shots model v2 backtest", ""]
     s = load()
-    s = s[s["n_prior"] >= 1]
+    s = s[(s["n_prior"] >= 1) & s["mu_base"].notna()]  # a player's first game has no history: never bet
     tr1, va = s[s["season"] == 2023], s[s["season"] == 2024]
     md += ["## 1. Validation (fit 2023-24, score 2024-25 skater-games)", "",
            "| Model | NB log score / game | Poisson dev. | Mean pred | Mean actual |", "|---|--:|--:|--:|--:|"]
