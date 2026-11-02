@@ -25,19 +25,19 @@
  },
  {
   "team_name": "Buffalo Sabres",
-  "player": "Jiri Kulich",
-  "position": "C",
+  "player": "Zach Benson",
+  "position": "LW",
   "status": "Day-To-Day",
   "detail": "day-to-day",
-  "date": "2026-11-01T13:42Z"
+  "date": "2026-11-02T17:29Z"
  },
  {
   "team_name": "Buffalo Sabres",
   "player": "Konsta Helenius",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-01T13:42Z"
+  "status": "Out",
+  "detail": "Helenius (upper body) is week-to-week, according to Matthew Fairburn of The Athletic on Monday.",
+  "date": "2026-11-02T17:29Z"
  },
  {
   "team_name": "Buffalo Sabres",
@@ -147,9 +147,9 @@
   "team_name": "Chicago Blackhawks",
   "player": "Bowen Byram",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-01T13:42Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-02T17:40Z"
  },
  {
   "team_name": "Colorado Avalanche",
@@ -174,14 +174,6 @@
   "status": "Injured Reserve",
   "detail": "ir-lt",
   "date": "2026-10-23T21:39Z"
- },
- {
-  "team_name": "Dallas Stars",
-  "player": "Radek Faksa",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-01T13:42Z"
  },
  {
   "team_name": "Dallas Stars",
@@ -337,14 +329,6 @@
  },
  {
   "team_name": "Florida Panthers",
-  "player": "Jacob Markstrom",
-  "position": "G",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-20T21:23Z"
- },
- {
-  "team_name": "Florida Panthers",
   "player": "Jonah Gadjovich",
   "position": "LW",
   "status": "Injured Reserve",
@@ -444,8 +428,8 @@
   "player": "Kirby Dach",
   "position": "C",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-01T13:42Z"
+  "detail": "Dach (illness) won't participate in Monday's practice.",
+  "date": "2026-11-02T15:22Z"
  },
  {
   "team_name": "Montreal Canadiens",
@@ -494,6 +478,14 @@
   "status": "Injured Reserve",
   "detail": "ir-nr",
   "date": "2026-09-29T16:38Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
+  "player": "Evan Rodrigues",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "Rodrigues (illness) is questionable for Tuesday's matchup against Edmonton, per Amanda Stein of the Devils' official site.",
+  "date": "2026-11-02T18:01Z"
  },
  {
   "team_name": "New Jersey Devils",
@@ -649,19 +641,27 @@
  },
  {
   "team_name": "Pittsburgh Penguins",
-  "player": "Justin Brazeau",
-  "position": "RW",
+  "player": "Evgeni Malkin",
+  "position": "C",
   "status": "Day-To-Day",
   "detail": "day-to-day",
-  "date": "2026-11-02T15:04Z"
+  "date": "2026-11-02T15:57Z"
+ },
+ {
+  "team_name": "Pittsburgh Penguins",
+  "player": "Kaedan Korczak",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-02T15:52Z"
  },
  {
   "team_name": "Pittsburgh Penguins",
   "player": "Elmer Soderblom",
   "position": "LW",
   "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-28T19:55Z"
+  "detail": "Soderblom (upper body) is week-to-week, per Penguins PR on Monday.",
+  "date": "2026-11-02T15:52Z"
  },
  {
   "team_name": "Pittsburgh Penguins",
@@ -803,9 +803,9 @@
   "team_name": "Tampa Bay Lightning",
   "player": "Zemgus Girgensons",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-01T13:42Z"
+  "status": "Out",
+  "detail": "Girgensons (lower body) won't play against Detroit on Tuesday, per Lightning reporter Gabby Shirley.",
+  "date": "2026-11-02T17:13Z"
  },
  {
   "team_name": "Tampa Bay Lightning",
