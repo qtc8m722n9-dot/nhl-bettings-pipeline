@@ -150,6 +150,11 @@ def main(argv: list[str]) -> None:
         audit()
     elif task == "probe":
         probe()
+    elif task == "shots2_pull":
+        from ..shots2 import pull as s2
+        for season in args:
+            s2.pull_stats(season)
+        s2.pull_mp_teams()
     elif task == "probe2":
         probe2()
     elif task == "live_audit":
