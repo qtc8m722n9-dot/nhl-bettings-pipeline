@@ -1,0 +1,58 @@
+[
+ {
+  "side": "home",
+  "team_name": "Florida Panthers",
+  "goalie": "Akira Schmid",
+  "status": "Unconfirmed",
+  "updated": "2026-11-02"
+ },
+ {
+  "side": "away",
+  "team_name": "Detroit Red Wings",
+  "goalie": "Daniil Tarasov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-02"
+ },
+ {
+  "side": "home",
+  "team_name": "Boston Bruins",
+  "goalie": "Jeremy Swayman",
+  "status": "Unconfirmed",
+  "updated": "2026-11-02"
+ },
+ {
+  "side": "away",
+  "team_name": "Vegas Golden Knights",
+  "goalie": "Carter Hart",
+  "status": "Unconfirmed",
+  "updated": "2026-11-02"
+ },
+ {
+  "side": "home",
+  "team_name": "Chicago Blackhawks",
+  "goalie": "Spencer Knight",
+  "status": "Unconfirmed",
+  "updated": "2026-11-02"
+ },
+ {
+  "side": "away",
+  "team_name": "Colorado Avalanche",
+  "goalie": "Mackenzie Blackwood",
+  "status": "Unconfirmed",
+  "updated": "2026-11-02"
+ },
+ {
+  "side": "home",
+  "team_name": "San Jose Sharks",
+  "goalie": "Yaroslav Askarov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-02"
+ },
+ {
+  "side": "away",
+  "team_name": "Calgary Flames",
+  "goalie": "Dustin Wolf",
+  "status": "Unconfirmed",
+  "updated": "2026-11-02"
+ }
+]

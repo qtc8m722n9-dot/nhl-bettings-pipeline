@@ -1,0 +1,46 @@
+[
+ {
+  "game_id": 2026020232,
+  "start_utc": "2026-11-03T00:00:00Z",
+  "game_state": "FUT",
+  "home": "BOS",
+  "away": "VGK",
+  "home_name": "Boston Bruins",
+  "away_name": "Vegas Golden Knights",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020233,
+  "start_utc": "2026-11-03T00:00:00Z",
+  "game_state": "FUT",
+  "home": "FLA",
+  "away": "DET",
+  "home_name": "Florida Panthers",
+  "away_name": "Detroit Red Wings",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020234,
+  "start_utc": "2026-11-03T01:00:00Z",
+  "game_state": "FUT",
+  "home": "CHI",
+  "away": "COL",
+  "home_name": "Chicago Blackhawks",
+  "away_name": "Colorado Avalanche",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020235,
+  "start_utc": "2026-11-03T02:00:00Z",
+  "game_state": "FUT",
+  "home": "SJS",
+  "away": "CGY",
+  "home_name": "San Jose Sharks",
+  "away_name": "Calgary Flames",
+  "home_b2b": false,
+  "away_b2b": false
+ }
+]
