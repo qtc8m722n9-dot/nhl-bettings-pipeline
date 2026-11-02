@@ -985,6 +985,14 @@
  },
  {
   "team_name": "Winnipeg Jets",
+  "player": "Dawson Mercer",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-02T18:22Z"
+ },
+ {
+  "team_name": "Winnipeg Jets",
   "player": "Cole Koepke",
   "position": "LW",
   "status": "Day-To-Day",
