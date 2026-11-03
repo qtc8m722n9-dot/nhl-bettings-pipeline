@@ -1,15 +1,15 @@
-cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
-kalshi|VGK@BOS|team_total|VGK|4.5|yes,VGK@BOS,2026-11-02T18:58:49-05:00,1.2,0.21,0.23,0.22,live,,
-kalshi|DET@FLA|team_total|DET|3.5|yes,DET@FLA,2026-11-02T18:58:49-05:00,1.2,0.26,0.27,0.265,live,,
-kalshi|DET@FLA|spread|FLA|2.5|no,DET@FLA,2026-11-02T18:58:49-05:00,1.2,0.73,0.74,0.735,live,,
-kalshi|VGK@BOS|spread|VGK|2.5|no,VGK@BOS,2026-11-02T18:58:49-05:00,1.2,0.8,0.82,0.81,live,,
-kalshi|DET@FLA|player_points|seth jones|1.5|no,DET@FLA,2026-11-02T18:58:49-05:00,1.2,0.81,0.82,0.815,live,,
-kalshi|VGK@BOS|team_total|VGK|1.5|yes,VGK@BOS,2026-11-02T18:58:49-05:00,1.2,0.81,0.84,0.825,live,,
-kalshi|COL@CHI|player_points|tyler bertuzzi|0.5|yes,COL@CHI,2026-11-02T19:50:00-05:00,10.0,0.42,0.44,0.43,live,0.4231448906470388,pinnacle
-kalshi|COL@CHI|spread|COL|1.5|no,COL@CHI,2026-11-02T19:50:00-05:00,10.0,0.55,0.56,0.555,live,0.535484408523757,pinnacle
-underdog|COL@CHI|player_sog|sam malinski|1.5|no,COL@CHI,2026-11-02T19:50:00-05:00,10.0,,,,,0.4656926428557152,pinnacle
-kalshi|COL@CHI|player_points|artturi lehkonen|1.5|no,COL@CHI,2026-11-02T19:50:00-05:00,10.0,0.79,0.81,0.8,live,,
-kalshi|CGY@SJS|total||7.5|yes,CGY@SJS,2026-11-02T20:50:29-05:00,9.5,0.27,0.28,0.275,live,,
-prizepicks|CGY@SJS|player_sog|michael kesselring|1.5|no,CGY@SJS,2026-11-02T20:50:29-05:00,9.5,,,,,,
-kalshi|CGY@SJS|player_goals|collin graf|0.5|no,CGY@SJS,2026-11-02T20:50:29-05:00,9.5,0.82,0.83,0.825,live,,
-kalshi|CGY@SJS|player_goals|aydar suniev|0.5|no,CGY@SJS,2026-11-02T20:50:29-05:00,9.5,0.8,0.81,0.805,live,,
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source,kalshi_close_min_before,fair_close_from,fair_close_snapshot,fair_close_min_before
+kalshi|VGK@BOS|team_total|VGK|4.5|yes,VGK@BOS,2026-11-02T18:58:49-05:00,1.2,0.21,0.23,0.22,candle,,,2.0,,,
+kalshi|DET@FLA|team_total|DET|3.5|yes,DET@FLA,2026-11-02T18:58:49-05:00,1.2,0.26,0.28,0.27,candle,,,0.0,,,
+kalshi|VGK@BOS|team_total|VGK|1.5|yes,VGK@BOS,2026-11-02T18:58:49-05:00,1.2,0.81,0.84,0.825,candle,,,0.0,,,
+kalshi|CGY@SJS|player_goals|collin graf|0.5|no,CGY@SJS,2026-11-02T20:50:29-05:00,9.5,0.82,0.83,0.825,candle,,,6.0,,,
+kalshi|CGY@SJS|player_goals|aydar suniev|0.5|no,CGY@SJS,2026-11-02T20:50:29-05:00,9.5,0.8,0.81,0.805,candle,,,0.0,,,
+kalshi|CGY@SJS|total||7.5|yes,CGY@SJS,2026-11-02T20:50:29-05:00,9.5,0.27,0.28,0.275,candle,,,0.0,none,2026-11-03T01:55:36Z,4.4
+prizepicks|CGY@SJS|player_sog|michael kesselring|1.5|no,CGY@SJS,2026-11-02T20:50:29-05:00,9.5,,,,,,,,none,2026-11-03T01:55:36Z,4.4
+kalshi|COL@CHI|player_points|tyler bertuzzi|0.5|yes,COL@CHI,2026-11-02T19:50:00-05:00,10.0,0.41,0.44,0.425,candle,0.4148934804922928,pinnacle,0.0,archive,2026-11-03T00:55:36Z,4.4
+kalshi|COL@CHI|spread|COL|1.5|no,COL@CHI,2026-11-02T19:50:00-05:00,10.0,0.55,0.56,0.555,candle,0.5370677059188032,pinnacle,0.0,archive,2026-11-03T00:55:36Z,4.4
+underdog|COL@CHI|player_sog|sam malinski|1.5|no,COL@CHI,2026-11-02T19:50:00-05:00,10.0,,,,,0.4620746575872202,pinnacle,,archive,2026-11-03T00:55:36Z,4.4
+kalshi|COL@CHI|player_points|artturi lehkonen|1.5|no,COL@CHI,2026-11-02T19:50:00-05:00,10.0,0.77,0.8,0.785,candle,,,0.0,none,2026-11-03T00:55:36Z,4.4
+kalshi|DET@FLA|spread|FLA|2.5|no,DET@FLA,2026-11-02T18:58:49-05:00,1.2,0.73,0.74,0.735,candle,,,0.0,none,2026-11-02T23:55:36Z,4.4
+kalshi|DET@FLA|player_points|seth jones|1.5|no,DET@FLA,2026-11-02T18:58:49-05:00,1.2,0.8,0.82,0.81,candle,,,0.0,none,2026-11-02T23:55:36Z,4.4
+kalshi|VGK@BOS|spread|VGK|2.5|no,VGK@BOS,2026-11-02T18:58:49-05:00,1.2,0.8,0.81,0.805,candle,,,0.0,none,2026-11-02T23:55:36Z,4.4
