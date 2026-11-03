@@ -5,3 +5,7 @@ kalshi|DET@FLA|spread|FLA|2.5|no,DET@FLA,2026-11-02T18:58:49-05:00,1.2,0.73,0.74
 kalshi|VGK@BOS|spread|VGK|2.5|no,VGK@BOS,2026-11-02T18:58:49-05:00,1.2,0.8,0.82,0.81,live,,
 kalshi|DET@FLA|player_points|seth jones|1.5|no,DET@FLA,2026-11-02T18:58:49-05:00,1.2,0.81,0.82,0.815,live,,
 kalshi|VGK@BOS|team_total|VGK|1.5|yes,VGK@BOS,2026-11-02T18:58:49-05:00,1.2,0.81,0.84,0.825,live,,
+kalshi|COL@CHI|player_points|tyler bertuzzi|0.5|yes,COL@CHI,2026-11-02T19:50:00-05:00,10.0,0.42,0.44,0.43,live,0.4231448906470388,pinnacle
+kalshi|COL@CHI|spread|COL|1.5|no,COL@CHI,2026-11-02T19:50:00-05:00,10.0,0.55,0.56,0.555,live,0.535484408523757,pinnacle
+underdog|COL@CHI|player_sog|sam malinski|1.5|no,COL@CHI,2026-11-02T19:50:00-05:00,10.0,,,,,0.4656926428557152,pinnacle
+kalshi|COL@CHI|player_points|artturi lehkonen|1.5|no,COL@CHI,2026-11-02T19:50:00-05:00,10.0,0.79,0.81,0.8,live,,
