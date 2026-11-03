@@ -1,0 +1,2 @@
+plain Calgary Flames @ San Jose Sharks {'pinnacle': {'player_points': 32, 'player_shots_on_goal': 34}} {'x-requests-remaining': '99478', 'x-requests-used': '522', 'x-requests-last': '2'}
+mult Calgary Flames @ San Jose Sharks {'pinnacle': {'player_points': 32, 'player_shots_on_goal': 34}} {'x-requests-remaining': '99476', 'x-requests-used': '524', 'x-requests-last': '2'}
