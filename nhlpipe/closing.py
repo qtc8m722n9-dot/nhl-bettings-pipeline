@@ -65,15 +65,19 @@ def _starts(slate: pd.DataFrame) -> dict[str, datetime]:
     return out
 
 
-def _load_day(day: date):
+def _load_day(day: date, scope: str = "picked"):
+    """scope 'picked': picked bets and legs. 'shadow' (morning backfill, from 2026-11-04): also every
+    candidate with a fair price, so every priced line can be graded against its close (data/shadow/)."""
     pp = DATA / "picks" / f"{day.isoformat()}.csv"
     if not pp.exists():
         return None
     picks = pd.read_csv(pp)
     cands = pd.read_csv(DATA / "picks" / f"{day.isoformat()}_candidates.csv.gz")
     slate = pd.read_csv(DATA / "slates" / f"{day.isoformat()}.csv")
-    wanted = cands[cands["cand_id"].isin(_picked_cands(picks))]
-    return wanted, _starts(slate)
+    keep = cands["cand_id"].isin(_picked_cands(picks))
+    if scope == "shadow" and "fair_prob" in cands:
+        keep |= cands["fair_prob"].notna()
+    return cands[keep], _starts(slate)
 
 
 def _closing_path(day: date) -> Path:
@@ -249,6 +253,7 @@ def backfill(day: date) -> None:
 # morning job reads the last snapshot ~ARCHIVE_LEAD before the listed start.
 # Cost: 1 credit (events) + 10 per market per game; responses cached forever.
 ARCHIVE_LEAD = timedelta(minutes=2)
+SCOPE = "shadow"  # backfill closes for every fair-priced candidate (~50 credits per game), not only bets
 HIST = "https://api.the-odds-api.com/v4/historical/sports/icehockey_nhl"
 
 
@@ -270,7 +275,7 @@ def _hist(path: str, params: dict, cache: Path) -> dict:
 
 
 def backfill_fair(day: date) -> None:
-    loaded = _load_day(day)
+    loaded = _load_day(day, SCOPE)
     if loaded is None:
         return
     wanted, starts = loaded
@@ -323,7 +328,7 @@ def backfill_fair(day: date) -> None:
 
 
 def backfill_kalshi(day: date) -> None:
-    loaded = _load_day(day)
+    loaded = _load_day(day, SCOPE)
     if loaded is None:
         print(f"No picks for {day}.")
         return

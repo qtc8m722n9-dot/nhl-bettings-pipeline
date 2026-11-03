@@ -1,0 +1,1113 @@
+cand_id,game_key,venue,market,team,player,line,side,price,cost,fair_prob,fair_source,model_prob,sog_prob,result,detail,close_fair,close_mid,close_bid,close_ask,date,y
+kalshi|CGY@SJS|total||1.5|no,CGY@SJS,kalshi,total,,,1.5,no,0.02,0.021372,,,0.0115499999999999,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|andreas englund|0.5|yes,DET@FLA,kalshi,player_goals,,Andreas Englund,0.5,yes,0.02,0.021372,,,,,loss,Andreas Englund 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|total||1.5|no,COL@CHI,kalshi,total,,,1.5,no,0.02,0.021372,,,0.01595,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||1.5|no,DET@FLA,kalshi,total,,,1.5,no,0.02,0.021372,,,0.0237,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|david pastrnak|2.5|yes,VGK@BOS,kalshi,player_goals,,David Pastrnak,2.5,yes,0.02,0.021372,,,,,loss,David Pastrnak 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|fraser minten|1.5|yes,VGK@BOS,kalshi,player_goals,,Fraser Minten,1.5,yes,0.03,0.0320369999999999,,,,,loss,Fraser Minten 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||1.5|no,VGK@BOS,kalshi,total,,,1.5,no,0.03,0.0320369999999999,,,0.0183499999999999,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|james hagens|1.5|yes,VGK@BOS,kalshi,player_goals,,James Hagens,1.5,yes,0.03,0.0320369999999999,,,,,loss,James Hagens 1 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|yegor sharangovich|1.5|yes,CGY@SJS,kalshi,player_goals,,Yegor Sharangovich,1.5,yes,0.03,0.0320369999999999,,,,,loss,Yegor Sharangovich 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|zach whitecloud|0.5|yes,CGY@SJS,kalshi,player_goals,,Zach Whitecloud,0.5,yes,0.03,0.0320369999999999,,,,,loss,Zach Whitecloud 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|t j hughes|1.5|yes,COL@CHI,kalshi,player_goals,,T.J. Hughes,1.5,yes,0.03,0.0320369999999999,,,,,loss,T.J. Hughes 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|brett howden|1.5|yes,VGK@BOS,kalshi,player_goals,,Brett Howden,1.5,yes,0.03,0.0320369999999999,,,,,loss,Brett Howden 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|tyler bertuzzi|1.5|yes,COL@CHI,kalshi,player_goals,,Tyler Bertuzzi,1.5,yes,0.03,0.0320369999999999,,,,,loss,Tyler Bertuzzi 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|jaden schwartz|1.5|yes,COL@CHI,kalshi,player_goals,,Jaden Schwartz,1.5,yes,0.03,0.0320369999999999,,,,,win,Jaden Schwartz 2 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|william karlsson|1.5|yes,VGK@BOS,kalshi,player_goals,,William Karlsson,1.5,yes,0.03,0.0320369999999999,,,,,loss,William Karlsson 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|trevor connelly|1.5|yes,VGK@BOS,kalshi,player_goals,,Trevor Connelly,1.5,yes,0.04,0.042688,,,,,loss,Trevor Connelly 1 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||2.5|no,VGK@BOS,kalshi,total,,,2.5,no,0.04,0.042688,,,0.0383499999999999,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|jj peterka|1.5|yes,VGK@BOS,kalshi,player_goals,,JJ Peterka,1.5,yes,0.04,0.042688,,,,,loss,JJ Peterka 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|nazem kadri|1.5|yes,COL@CHI,kalshi,player_goals,,Nazem Kadri,1.5,yes,0.04,0.042688,,,,,win,Nazem Kadri 2 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|noah juulsen|0.5|yes,COL@CHI,kalshi,player_goals,,Noah Juulsen,0.5,yes,0.04,0.042688,,,,,loss,Noah Juulsen 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|lucas raymond|1.5|yes,DET@FLA,kalshi,player_goals,,Lucas Raymond,1.5,yes,0.04,0.042688,,,,,loss,Lucas Raymond 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|radko gudas|0.5|yes,DET@FLA,kalshi,player_goals,,Radko Gudas,0.5,yes,0.04,0.042688,,,,,loss,Radko Gudas 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|total||2.5|no,CGY@SJS,kalshi,total,,,2.5,no,0.04,0.042688,,,0.0291,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|ivan barbashev|1.5|yes,VGK@BOS,kalshi,player_goals,,Ivan Barbashev,1.5,yes,0.04,0.042688,,,,,loss,Ivan Barbashev 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|roman kantserov|1.5|yes,COL@CHI,kalshi,player_goals,,Roman Kantserov,1.5,yes,0.04,0.042688,,,,,loss,Roman Kantserov 1 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|ivar stenberg|1.5|yes,CGY@SJS,kalshi,player_goals,,Ivar Stenberg,1.5,yes,0.04,0.042688,,,,,loss,Ivar Stenberg 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|ben chiarot|0.5|yes,DET@FLA,kalshi,player_goals,,Ben Chiarot,0.5,yes,0.04,0.042688,,,,,loss,Ben Chiarot 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|joel farabee|1.5|yes,CGY@SJS,kalshi,player_goals,,Joel Farabee,1.5,yes,0.04,0.042688,,,,,loss,Joel Farabee 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|anton lundell|1.5|yes,DET@FLA,kalshi,player_goals,,Anton Lundell,1.5,yes,0.04,0.042688,,,,,loss,Anton Lundell 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|total||2.5|no,COL@CHI,kalshi,total,,,2.5,no,0.04,0.042688,,,0.0364999999999999,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|kevin bahl|0.5|yes,CGY@SJS,kalshi,player_goals,,Kevin Bahl,0.5,yes,0.04,0.042688,,,,,loss,Kevin Bahl 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|sam bennett|1.5|yes,DET@FLA,kalshi,player_goals,,Sam Bennett,1.5,yes,0.04,0.042688,,,,,loss,Sam Bennett 1 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|mason marchment|1.5|yes,CGY@SJS,kalshi,player_goals,,Mason Marchment,1.5,yes,0.04,0.042688,,,,,loss,Mason Marchment 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|anton frondell|1.5|yes,COL@CHI,kalshi,player_goals,,Anton Frondell,1.5,yes,0.04,0.042688,,,,,loss,Anton Frondell 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|anton johansson|0.5|yes,DET@FLA,kalshi,player_goals,,Anton Johansson,0.5,yes,0.04,0.042688,,,,,loss,Anton Johansson 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|cale makar|1.5|yes,COL@CHI,kalshi,player_goals,,Cale Makar,1.5,yes,0.04,0.042688,,,,,loss,Cale Makar 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|tyler toffoli|1.5|yes,CGY@SJS,kalshi,player_goals,,Tyler Toffoli,1.5,yes,0.04,0.042688,,,,,loss,Tyler Toffoli 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|emmitt finnie|1.5|yes,DET@FLA,kalshi,player_goals,,Emmitt Finnie,1.5,yes,0.04,0.042688,,,,,loss,Emmitt Finnie 1 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|gabriel landeskog|1.5|yes,COL@CHI,kalshi,player_goals,,Gabriel Landeskog,1.5,yes,0.04,0.042688,,,,,loss,Gabriel Landeskog 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|jonathan aspirot|0.5|yes,VGK@BOS,kalshi,player_goals,,Jonathan Aspirot,0.5,yes,0.05,0.053325,,,,,loss,Jonathan Aspirot 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|matvei gridin|1.5|yes,CGY@SJS,kalshi,player_goals,,Matvei Gridin,1.5,yes,0.05,0.053325,,,,,loss,Matvei Gridin 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|william borgen|0.5|yes,VGK@BOS,kalshi,player_goals,,William Borgen,0.5,yes,0.05,0.053325,,,,,loss,Will Borgen 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|elias lindholm|1.5|yes,VGK@BOS,kalshi,player_goals,,Elias Lindholm,1.5,yes,0.05,0.053325,,,,,loss,Elias Lindholm 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|viktor arvidsson|1.5|yes,DET@FLA,kalshi,player_goals,,Viktor Arvidsson,1.5,yes,0.05,0.053325,,,,,loss,Viktor Arvidsson 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|wyatt kaiser|0.5|yes,COL@CHI,kalshi,player_goals,,Wyatt Kaiser,0.5,yes,0.05,0.053325,,,,,win,Wyatt Kaiser 1 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|mitch marner|1.5|yes,VGK@BOS,kalshi,player_goals,,Mitch Marner,1.5,yes,0.05,0.053325,,,,,loss,Mitch Marner 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|brett kulak|0.5|yes,COL@CHI,kalshi,player_goals,,Brett Kulak,0.5,yes,0.05,0.053325,,,,,loss,Brett Kulak 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|jeremy lauzon|0.5|yes,VGK@BOS,kalshi,player_goals,,Jeremy Lauzon,0.5,yes,0.05,0.053325,,,,,loss,Jeremy Lauzon 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|nikita zadorov|0.5|yes,VGK@BOS,kalshi,player_goals,,Nikita Zadorov,0.5,yes,0.05,0.053325,,,,,loss,Nikita Zadorov 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|morgan frost|1.5|yes,CGY@SJS,kalshi,player_goals,,Morgan Frost,1.5,yes,0.05,0.053325,,,,,loss,Morgan Frost 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|ethan del mastro|0.5|yes,COL@CHI,kalshi,player_goals,,Ethan Del Mastro,0.5,yes,0.05,0.053325,,,,,loss,Ethan Del Mastro 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|ian cole|0.5|yes,COL@CHI,kalshi,player_goals,,Ian Cole,0.5,yes,0.05,0.053325,,,,,loss,Ian Cole 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||2.5|no,DET@FLA,kalshi,total,,,2.5,no,0.05,0.053325,,,0.0518999999999999,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|CHI|5.5|yes,COL@CHI,kalshi,team_total,CHI,,5.5,yes,0.05,0.053325,,,0.0805,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|DET|5.5|yes,DET@FLA,kalshi,team_total,DET,,5.5,yes,0.05,0.053325,,,0.06165,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|pavel zacha|1.5|yes,VGK@BOS,kalshi,player_goals,,Pavel Zacha,1.5,yes,0.05,0.053325,,,,,loss,Pavel Zacha 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|tomas hertl|1.5|yes,VGK@BOS,kalshi,player_goals,,Tomas Hertl,1.5,yes,0.05,0.053325,,,,,loss,Tomas Hertl 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|alex debrincat|1.5|yes,DET@FLA,kalshi,player_goals,,Alex DeBrincat,1.5,yes,0.06,0.063948,,,,,loss,Alex DeBrincat 1 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|niko mikkola|0.5|yes,DET@FLA,kalshi,player_goals,,Niko Mikkola,0.5,yes,0.06,0.063948,,,,,loss,Niko Mikkola 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|noah hanifin|0.5|yes,VGK@BOS,kalshi,player_goals,,Noah Hanifin,0.5,yes,0.06,0.063948,,,,,loss,Noah Hanifin 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|matt coronato|1.5|yes,CGY@SJS,kalshi,player_goals,,Matt Coronato,1.5,yes,0.06,0.063948,,,,,loss,Matt Coronato 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|jake middleton|0.5|yes,CGY@SJS,kalshi,player_goals,,Jake Middleton,0.5,yes,0.06,0.063948,,,,,loss,Jake Middleton 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|morgan geekie|1.5|yes,VGK@BOS,kalshi,player_goals,,Morgan Geekie,1.5,yes,0.06,0.063948,,,,,loss,Morgan Geekie 1 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|seth jones|2.5|yes,DET@FLA,kalshi,player_points,,Seth Jones,2.5,yes,0.06,0.063948,,,,,loss,Seth Jones 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|brock nelson|1.5|yes,COL@CHI,kalshi,player_goals,,Brock Nelson,1.5,yes,0.06,0.063948,,,,,loss,Brock Nelson 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|brayden mcnabb|0.5|yes,VGK@BOS,kalshi,player_goals,,Brayden McNabb,0.5,yes,0.06,0.063948,,,,,loss,Brayden McNabb 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|connor bedard|1.5|yes,COL@CHI,kalshi,player_goals,,Connor Bedard,1.5,yes,0.06,0.063948,,,,,loss,Connor Bedard 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|lucas raymond|2.5|yes,DET@FLA,kalshi,player_points,,Lucas Raymond,2.5,yes,0.06,0.063948,,,,,loss,Lucas Raymond 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|carter verhaeghe|1.5|yes,DET@FLA,kalshi,player_goals,,Carter Verhaeghe,1.5,yes,0.06,0.063948,,,,,loss,Carter Verhaeghe 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|will smith|1.5|yes,CGY@SJS,kalshi,player_goals,,Will Smith,1.5,yes,0.06,0.063948,,,,,loss,Will Smith 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|dylan coghlan|0.5|yes,VGK@BOS,kalshi,player_goals,,Dylan Coghlan,0.5,yes,0.06,0.063948,,,,,loss,Dylan Coghlan 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|michael kesselring|0.5|yes,CGY@SJS,kalshi,player_goals,,Michael Kesselring,0.5,yes,0.06,0.063948,,,,,loss,Michael Kesselring 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|nolan allan|0.5|yes,CGY@SJS,kalshi,player_goals,,Nolan Allan,0.5,yes,0.06,0.063948,,,,,loss,Nolan Allan 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|sam dickinson|0.5|yes,CGY@SJS,kalshi,player_goals,,Sam Dickinson,0.5,yes,0.06,0.063948,,,,,win,Sam Dickinson 1 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|martin necas|1.5|yes,COL@CHI,kalshi,player_goals,,Martin Necas,1.5,yes,0.07,0.074557,,,,,loss,Martin Necas 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|yan kuznetsov|0.5|yes,CGY@SJS,kalshi,player_goals,,Yan Kuznetsov,0.5,yes,0.07,0.074557,,,,,loss,Yan Kuznetsov 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|cole smith|0.5|yes,COL@CHI,kalshi,player_goals,,Cole Smith,0.5,yes,0.07,0.074557,,,,,loss,Cole Smith 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|david pastrnak|3.5|yes,VGK@BOS,kalshi,player_points,,David Pastrnak,3.5,yes,0.07,0.074557,,,,,loss,David Pastrnak 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|joel farabee|2.5|yes,CGY@SJS,kalshi,player_points,,Joel Farabee,2.5,yes,0.07,0.074557,,,,,loss,Joel Farabee 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|jacob trouba|1.5|yes,CGY@SJS,kalshi,player_points,,Jacob Trouba,1.5,yes,0.07,0.074557,,,,,loss,Jacob Trouba 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|simon nemec|1.5|yes,CGY@SJS,kalshi,player_points,,Simon Nemec,1.5,yes,0.07,0.074557,,,,,loss,Simon Nemec 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|pavel zacha|2.5|yes,VGK@BOS,kalshi,player_points,,Pavel Zacha,2.5,yes,0.07,0.074557,,,,,loss,Pavel Zacha 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|darnell nurse|0.5|yes,CGY@SJS,kalshi,player_goals,,Darnell Nurse,0.5,yes,0.07,0.074557,,,,,loss,Darnell Nurse 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|macklin celebrini|3.5|yes,CGY@SJS,kalshi,player_points,,Macklin Celebrini,3.5,yes,0.07,0.074557,,,,,loss,Macklin Celebrini 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|jack eichel|1.5|yes,VGK@BOS,kalshi,player_goals,,Jack Eichel,1.5,yes,0.07,0.074557,,,,,loss,Jack Eichel 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|gustav forsling|1.5|yes,DET@FLA,kalshi,player_points,,Gustav Forsling,1.5,yes,0.07,0.074557,,,,,loss,Gustav Forsling 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|michael kesselring|1.5|yes,CGY@SJS,kalshi,player_points,,Michael Kesselring,1.5,yes,0.07,0.074557,,,,,loss,Michael Kesselring 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|justin faulk|1.5|yes,DET@FLA,kalshi,player_points,,Justin Faulk,1.5,yes,0.07,0.074557,,,,,win,Justin Faulk 2 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|artyom levshunov|0.5|yes,COL@CHI,kalshi,player_goals,,Artyom Levshunov,0.5,yes,0.07,0.074557,,,,,loss,Artyom Levshunov 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|alex vlasic|0.5|yes,COL@CHI,kalshi,player_goals,,Alex Vlasic,0.5,yes,0.07,0.074557,,,,,loss,Alex Vlasic 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|artturi lehkonen|1.5|yes,COL@CHI,kalshi,player_goals,,Artturi Lehkonen,1.5,yes,0.07,0.074557,,,,,loss,Artturi Lehkonen 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|sam malinski|0.5|yes,COL@CHI,kalshi,player_goals,,Sam Malinski,0.5,yes,0.07,0.074557,,,,,loss,Sam Malinski 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|carter mazur|0.5|yes,DET@FLA,kalshi,player_goals,,Carter Mazur,0.5,yes,0.07,0.074557,,,,,win,Carter Mazur 1 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|brent burns|0.5|yes,COL@CHI,kalshi,player_goals,,Brent Burns,0.5,yes,0.07,0.074557,,,,,loss,Brent Burns 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|mark stone|1.5|yes,VGK@BOS,kalshi,player_goals,,Mark Stone,1.5,yes,0.07,0.074557,,,,,loss,Mark Stone 1 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|keegan kolesar|0.5|yes,DET@FLA,kalshi,player_goals,,Keegan Kolesar,0.5,yes,0.07,0.074557,,,,,loss,Keegan Kolesar 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|noah hanifin|1.5|yes,VGK@BOS,kalshi,player_points,,Noah Hanifin,1.5,yes,0.07,0.074557,,,,,loss,Noah Hanifin 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|hampus lindholm|0.5|yes,VGK@BOS,kalshi,player_goals,,Hampus Lindholm,0.5,yes,0.07,0.074557,,,,,loss,Hampus Lindholm 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|matthew tkachuk|1.5|yes,DET@FLA,kalshi,player_goals,,Matthew Tkachuk,1.5,yes,0.07,0.074557,,,,,loss,Matthew Tkachuk 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|gustav forsling|0.5|yes,DET@FLA,kalshi,player_goals,,Gustav Forsling,0.5,yes,0.08,0.085152,,,,,loss,Gustav Forsling 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|sam rinzel|0.5|yes,COL@CHI,kalshi,player_goals,,Sam Rinzel,0.5,yes,0.08,0.085152,,,,,loss,Sam Rinzel 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|sam reinhart|1.5|yes,DET@FLA,kalshi,player_goals,,Sam Reinhart,1.5,yes,0.08,0.085152,,,,,loss,Sam Reinhart 1 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|braeden bowman|1.5|yes,VGK@BOS,kalshi,player_points,,Braeden Bowman,1.5,yes,0.08,0.085152,,,,,loss,Braeden Bowman 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|sam malinski|1.5|yes,COL@CHI,kalshi,player_points,,Sam Malinski,1.5,yes,0.08,0.085152,,,,,loss,Sam Malinski 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|hampus lindholm|1.5|yes,VGK@BOS,kalshi,player_points,,Hampus Lindholm,1.5,yes,0.08,0.085152,,,,,loss,Hampus Lindholm 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|alex debrincat|2.5|yes,DET@FLA,kalshi,player_points,,Alex DeBrincat,2.5,yes,0.08,0.085152,,,,,loss,Alex DeBrincat 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|matt coronato|2.5|yes,CGY@SJS,kalshi,player_points,,Matt Coronato,2.5,yes,0.08,0.085152,,,,,loss,Matt Coronato 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|carter verhaeghe|2.5|yes,DET@FLA,kalshi,player_points,,Carter Verhaeghe,2.5,yes,0.08,0.085152,,,,,loss,Carter Verhaeghe 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|will smith|2.5|yes,CGY@SJS,kalshi,player_points,,Will Smith,2.5,yes,0.08,0.085152,,,,,loss,Will Smith 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|rasmus andersson|1.5|yes,VGK@BOS,kalshi,player_points,,Rasmus Andersson,1.5,yes,0.08,0.085152,,,,,loss,Rasmus Andersson 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|nic dowd|0.5|yes,VGK@BOS,kalshi,player_goals,,Nic Dowd,0.5,yes,0.08,0.085152,,,,,loss,Nic Dowd 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|artturi lehkonen|2.5|yes,COL@CHI,kalshi,player_points,,Artturi Lehkonen,2.5,yes,0.08,0.085152,,,,,loss,Artturi Lehkonen 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||9.5|yes,DET@FLA,kalshi,total,,,9.5,yes,0.08,0.085152,,,0.0601,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|sheldon dries|0.5|yes,DET@FLA,kalshi,player_goals,,Sheldon Dries,0.5,yes,0.08,0.085152,,,,,loss,Sheldon Dries 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|collin graf|1.5|yes,CGY@SJS,kalshi,player_points,,Collin Graf,1.5,yes,0.08,0.085152,,,,,loss,Collin Graf 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|aaron ekblad|0.5|yes,DET@FLA,kalshi,player_goals,,Aaron Ekblad,0.5,yes,0.09,0.095733,,,,,win,Aaron Ekblad 1 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|cole schwindt|0.5|yes,DET@FLA,kalshi,player_goals,,Cole Schwindt,0.5,yes,0.09,0.095733,,,,,loss,Cole Schwindt 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|casey mittelstadt|1.5|yes,VGK@BOS,kalshi,player_points,,Casey Mittelstadt,1.5,yes,0.09,0.095733,,,,,loss,Casey Mittelstadt 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|sam reinhart|2.5|yes,DET@FLA,kalshi,player_points,,Sam Reinhart,2.5,yes,0.09,0.095733,,,,,loss,Sam Reinhart 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|bokondji imama|0.5|yes,DET@FLA,kalshi,player_goals,,Bokondji Imama,0.5,yes,0.09,0.095733,,,,,loss,Bokondji Imama 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|tanner jeannot|0.5|yes,VGK@BOS,kalshi,player_goals,,Tanner Jeannot,0.5,yes,0.09,0.095733,,,,,loss,Tanner Jeannot 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|mason lohrei|0.5|yes,VGK@BOS,kalshi,player_goals,,Mason Lohrei,0.5,yes,0.09,0.095733,,,,,loss,Mason Lohrei 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|jacob trouba|0.5|yes,CGY@SJS,kalshi,player_goals,,Jacob Trouba,0.5,yes,0.09,0.095733,,,,,loss,Jacob Trouba 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|frank nazar|1.5|yes,COL@CHI,kalshi,player_points,,Frank Nazar,1.5,yes,0.09,0.095733,,,,,loss,Frank Nazar 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|garnet hathaway|0.5|yes,DET@FLA,kalshi,player_goals,,Garnet Hathaway,0.5,yes,0.09,0.095733,,,,,loss,Garnet Hathaway 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|CGY|5.5|yes,CGY@SJS,kalshi,team_total,CGY,,5.5,yes,0.09,0.095733,,,0.0949,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|COL@CHI|spread|CHI|2.5|yes,COL@CHI,kalshi,spread,CHI,,2.5,yes,0.09,0.095733,,,0.12035,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|aaron ekblad|1.5|yes,DET@FLA,kalshi,player_points,,Aaron Ekblad,1.5,yes,0.09,0.095733,,,,,loss,Aaron Ekblad 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|shea theodore|1.5|yes,VGK@BOS,kalshi,player_points,,Shea Theodore,1.5,yes,0.09,0.095733,,,,,loss,Shea Theodore 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|justin faulk|0.5|yes,DET@FLA,kalshi,player_goals,,Justin Faulk,0.5,yes,0.09,0.095733,,,,,win,Justin Faulk 1 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|mark stone|2.5|yes,VGK@BOS,kalshi,player_points,,Mark Stone,2.5,yes,0.09,0.095733,,,,,loss,Mark Stone 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|VGK|5.5|yes,VGK@BOS,kalshi,team_total,VGK,,5.5,yes,0.1,0.1063,,,0.08065,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|BOS|5.5|yes,VGK@BOS,kalshi,team_total,BOS,,5.5,yes,0.1,0.1063,,,0.10395,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|dmitry orlov|0.5|yes,CGY@SJS,kalshi,player_goals,,Dmitry Orlov,0.5,yes,0.1,0.1063,,,,,loss,Dmitry Orlov 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|lars eller|1.5|yes,DET@FLA,kalshi,player_points,,Lars Eller,1.5,yes,0.1,0.1063,,,,,loss,Lars Eller 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|t j hughes|1.5|yes,COL@CHI,kalshi,player_points,,T.J. Hughes,1.5,yes,0.1,0.1063,,,,,win,T.J. Hughes 2 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|david pastrnak|1.5|yes,VGK@BOS,kalshi,player_goals,,David Pastrnak,1.5,yes,0.1,0.1063,,,,,loss,David Pastrnak 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|barclay goodrow|0.5|yes,CGY@SJS,kalshi,player_goals,,Barclay Goodrow,0.5,yes,0.1,0.1063,,,,,loss,Barclay Goodrow 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|rasmus andersson|0.5|yes,VGK@BOS,kalshi,player_goals,,Rasmus Andersson,0.5,yes,0.1,0.1063,,,,,loss,Rasmus Andersson 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|total||9.5|yes,CGY@SJS,kalshi,total,,,9.5,yes,0.1,0.1063,,,0.11245,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|mark kastelic|0.5|yes,VGK@BOS,kalshi,player_goals,,Mark Kastelic,0.5,yes,0.1,0.1063,,,,,loss,Mark Kastelic 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|total||9.5|yes,COL@CHI,kalshi,total,,,9.5,yes,0.1,0.1063,,,0.09525,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|brady tkachuk|1.5|yes,DET@FLA,kalshi,player_goals,,Brady Tkachuk,1.5,yes,0.1,0.1063,,,,,loss,Brady Tkachuk 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|brady tkachuk|2.5|yes,DET@FLA,kalshi,player_points,,Brady Tkachuk,2.5,yes,0.1,0.1063,,,,,loss,Brady Tkachuk 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|fraser minten|1.5|yes,VGK@BOS,kalshi,player_points,,Fraser Minten,1.5,yes,0.1,0.1063,,,,,loss,Fraser Minten 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|zack ostapchuk|0.5|yes,CGY@SJS,kalshi,player_goals,,Zack Ostapchuk,0.5,yes,0.1,0.1063,,,,,loss,Zack Ostapchuk 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|michael misa|1.5|yes,CGY@SJS,kalshi,player_points,,Michael Misa,1.5,yes,0.1,0.1063,,,,,loss,Michael Misa 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|eetu luostarinen|1.5|yes,DET@FLA,kalshi,player_points,,Eetu Luostarinen,1.5,yes,0.1,0.1063,,,,,loss,Eetu Luostarinen 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|ty dellandrea|0.5|yes,CGY@SJS,kalshi,player_goals,,Ty Dellandrea,0.5,yes,0.1,0.1063,,,,,error,Ty Dellandrea not matched to boxscore,,,,,2026-11-02,
+kalshi|VGK@BOS|player_points|william karlsson|1.5|yes,VGK@BOS,kalshi,player_points,,William Karlsson,1.5,yes,0.1,0.1063,,,,,loss,William Karlsson 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||9.5|yes,VGK@BOS,kalshi,total,,,9.5,yes,0.1,0.1063,,,0.0839,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|nathan mackinnon|3.5|yes,COL@CHI,kalshi,player_points,,Nathan MacKinnon,3.5,yes,0.1,0.1063,,,,,loss,Nathan MacKinnon 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|kiefer sherwood|1.5|yes,CGY@SJS,kalshi,player_points,,Kiefer Sherwood,1.5,yes,0.1,0.1063,,,,,loss,Kiefer Sherwood 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|jonas rondbjerg|0.5|yes,VGK@BOS,kalshi,player_goals,,Jonas Rondbjerg,0.5,yes,0.1,0.1063,,,,,loss,Jonas Rondbjerg 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|marc gatcomb|0.5|yes,VGK@BOS,kalshi,player_goals,,Marc Gatcomb,0.5,yes,0.1,0.1063,,,,,loss,Marc Gatcomb 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|matthew poitras|0.5|yes,VGK@BOS,kalshi,player_goals,,Matthew Poitras,0.5,yes,0.11,0.116853,,,,,loss,Matthew Poitras 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|connor bedard|2.5|yes,COL@CHI,kalshi,player_points,,Connor Bedard,2.5,yes,0.11,0.116853,,,,,loss,Connor Bedard 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|mitch marner|2.5|yes,VGK@BOS,kalshi,player_points,,Mitch Marner,2.5,yes,0.11,0.116853,,,,,loss,Mitch Marner 2 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|j t compher|0.5|yes,DET@FLA,kalshi,player_goals,,J.T. Compher,0.5,yes,0.11,0.116853,,,,,loss,J.T. Compher 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|fedor svechkov|0.5|yes,COL@CHI,kalshi,player_goals,,Fedor Svechkov,0.5,yes,0.11,0.116853,,,,,loss,Fedor Svechkov 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|shea theodore|0.5|yes,VGK@BOS,kalshi,player_goals,,Shea Theodore,0.5,yes,0.11,0.116853,,,,,loss,Shea Theodore 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|andrew copp|1.5|yes,DET@FLA,kalshi,player_points,,Andrew Copp,1.5,yes,0.11,0.116853,,,,,win,Andrew Copp 2 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|mikael backlund|1.5|yes,CGY@SJS,kalshi,player_points,,Mikael Backlund,1.5,yes,0.11,0.116853,,,,,loss,Mikael Backlund 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|zayne parekh|1.5|yes,CGY@SJS,kalshi,player_points,,Zayne Parekh,1.5,yes,0.11,0.116853,,,,,loss,Zayne Parekh 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|simon nemec|0.5|yes,CGY@SJS,kalshi,player_goals,,Simon Nemec,0.5,yes,0.11,0.116853,,,,,loss,Simon Nemec 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|total||3.5|no,COL@CHI,kalshi,total,,,3.5,no,0.11,0.116853,,,0.1425499999999999,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|anton frondell|1.5|yes,COL@CHI,kalshi,player_points,,Anton Frondell,1.5,yes,0.11,0.116853,,,,,loss,Anton Frondell 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|macklin celebrini|1.5|yes,CGY@SJS,kalshi,player_goals,,Macklin Celebrini,1.5,yes,0.11,0.116853,,,,,loss,Macklin Celebrini 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|SJS|5.5|yes,CGY@SJS,kalshi,team_total,SJS,,5.5,yes,0.11,0.116853,,,0.12765,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|yegor sharangovich|1.5|yes,CGY@SJS,kalshi,player_points,,Yegor Sharangovich,1.5,yes,0.11,0.116853,,,,,loss,Yegor Sharangovich 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|jaden schwartz|1.5|yes,COL@CHI,kalshi,player_points,,Jaden Schwartz,1.5,yes,0.11,0.116853,,,,,win,Jaden Schwartz 2 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|martin necas|2.5|yes,COL@CHI,kalshi,player_points,,Martin Necas,2.5,yes,0.11,0.116853,,,,,loss,Martin Necas 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|COL|1.5|no,COL@CHI,kalshi,team_total,COL,,1.5,no,0.11,0.116853,,,0.153,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|james hagens|1.5|yes,VGK@BOS,kalshi,player_points,,James Hagens,1.5,yes,0.12,0.127392,,,,,loss,James Hagens 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|spread|DET|2.5|yes,DET@FLA,kalshi,spread,DET,,2.5,yes,0.12,0.127392,,,0.12475,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|gabriel landeskog|1.5|yes,COL@CHI,kalshi,player_points,,Gabriel Landeskog,1.5,yes,0.12,0.127392,,,,,loss,Gabriel Landeskog 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|moritz seider|0.5|yes,DET@FLA,kalshi,player_goals,,Moritz Seider,0.5,yes,0.12,0.127392,,,,,loss,Moritz Seider 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|jack eichel|2.5|yes,VGK@BOS,kalshi,player_points,,Jack Eichel,2.5,yes,0.12,0.127392,,,,,loss,Jack Eichel 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|FLA|5.5|yes,DET@FLA,kalshi,team_total,FLA,,5.5,yes,0.12,0.127392,,,0.0798,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|michael brandsegg nygard|1.5|yes,DET@FLA,kalshi,player_points,,Michael Brandsegg-Nygård,1.5,yes,0.12,0.127392,,,,,win,Michael Brandsegg-Nygård 2 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|andrew mangiapane|0.5|yes,COL@CHI,kalshi,player_goals,,Andrew Mangiapane,0.5,yes,0.12,0.127392,,,,,loss,Andrew Mangiapane 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|teuvo teravainen|0.5|yes,COL@CHI,kalshi,player_goals,,Teuvo Teravainen,0.5,yes,0.12,0.127392,,,,,loss,Teuvo Teravainen 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|matthew tkachuk|2.5|yes,DET@FLA,kalshi,player_points,,Matthew Tkachuk,2.5,yes,0.12,0.127392,,,,,loss,Matthew Tkachuk 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|michael rasmussen|0.5|yes,DET@FLA,kalshi,player_goals,,Michael Rasmussen,0.5,yes,0.12,0.127392,,,,,loss,Michael Rasmussen 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|cale makar|2.5|yes,COL@CHI,kalshi,player_points,,Cale Makar,2.5,yes,0.12,0.127392,,,,,loss,Cale Makar 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|jonathan castagna|0.5|yes,CGY@SJS,kalshi,player_goals,,Jonathan Castagna,0.5,yes,0.13,0.137917,,,,,loss,Jonathan Castagna 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||3.5|no,VGK@BOS,kalshi,total,,,3.5,no,0.13,0.137917,,,0.1463999999999999,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|david pastrnak|2.5|yes,VGK@BOS,kalshi,player_points,,David Pastrnak,2.5,yes,0.13,0.137917,,,,,loss,David Pastrnak 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|nathan mackinnon|1.5|yes,COL@CHI,kalshi,player_goals,,Nathan MacKinnon,1.5,yes,0.13,0.137917,,,,,loss,Nathan MacKinnon 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|total||3.5|no,CGY@SJS,kalshi,total,,,3.5,no,0.13,0.137917,,,0.1226,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|anton lundell|1.5|yes,DET@FLA,kalshi,player_points,,Anton Lundell,1.5,yes,0.13,0.137917,,,,,loss,Anton Lundell 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|CHI|4.5|yes,COL@CHI,kalshi,team_total,CHI,,4.5,yes,0.13,0.137917,,,0.18285,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|DET|4.5|yes,DET@FLA,kalshi,team_total,DET,,4.5,yes,0.13,0.137917,,,0.1506,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|devon toews|1.5|yes,COL@CHI,kalshi,player_points,,Devon Toews,1.5,yes,0.13,0.137917,,,,,win,Devon Toews 2 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|tyler bertuzzi|1.5|yes,COL@CHI,kalshi,player_points,,Tyler Bertuzzi,1.5,yes,0.13,0.137917,,,,,loss,Tyler Bertuzzi 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|roman kantserov|1.5|yes,COL@CHI,kalshi,player_points,,Roman Kantserov,1.5,yes,0.13,0.137917,,,,,loss,Roman Kantserov 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|oliver moore|0.5|yes,COL@CHI,kalshi,player_goals,,Oliver Moore,0.5,yes,0.13,0.137917,,,,,loss,Oliver Moore 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|ivan barbashev|1.5|yes,VGK@BOS,kalshi,player_points,,Ivan Barbashev,1.5,yes,0.13,0.137917,,,,,loss,Ivan Barbashev 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|ryan greene|0.5|yes,COL@CHI,kalshi,player_goals,,Ryan Greene,0.5,yes,0.13,0.137917,,,,,loss,Ryan Greene 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|devon toews|0.5|yes,COL@CHI,kalshi,player_goals,,Devon Toews,0.5,yes,0.13,0.137917,,,,,win,Devon Toews 1 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|jj peterka|1.5|yes,VGK@BOS,kalshi,player_points,,JJ Peterka,1.5,yes,0.14,0.148428,,,,,loss,JJ Peterka 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|martin pospisil|0.5|yes,CGY@SJS,kalshi,player_goals,,Martin Pospisil,0.5,yes,0.14,0.148428,,,,,loss,Martin Pospisil 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|zayne parekh|0.5|yes,CGY@SJS,kalshi,player_goals,,Zayne Parekh,0.5,yes,0.14,0.148428,,,,,loss,Zayne Parekh 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|adam klapka|0.5|yes,CGY@SJS,kalshi,player_goals,,Adam Klapka,0.5,yes,0.14,0.148428,,,,,win,Adam Klapka 1 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|seth jones|0.5|yes,DET@FLA,kalshi,player_goals,,Seth Jones,0.5,yes,0.14,0.148428,,,,,loss,Seth Jones 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|lars eller|0.5|yes,DET@FLA,kalshi,player_goals,,Lars Eller,0.5,yes,0.14,0.148428,,,,,loss,Lars Eller 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|FLA|1.5|no,DET@FLA,kalshi,team_total,FLA,,1.5,no,0.14,0.148428,,,0.1997,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|marat khusnutdinov|0.5|yes,VGK@BOS,kalshi,player_goals,,Marat Khusnutdinov,0.5,yes,0.14,0.148428,,,,,loss,Marat Khusnutdinov 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|charlie mcavoy|0.5|yes,VGK@BOS,kalshi,player_goals,,Charlie McAvoy,0.5,yes,0.14,0.148428,,,,,loss,Charlie McAvoy 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|trevor connelly|1.5|yes,VGK@BOS,kalshi,player_points,,Trevor Connelly,1.5,yes,0.14,0.148428,,,,,loss,Trevor Connelly 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|parker kelly|0.5|yes,COL@CHI,kalshi,player_goals,,Parker Kelly,0.5,yes,0.14,0.148428,,,,,loss,Parker Kelly 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|brock nelson|1.5|yes,COL@CHI,kalshi,player_points,,Brock Nelson,1.5,yes,0.15,0.1589249999999999,,,,,loss,Brock Nelson 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|dmitry orlov|1.5|yes,CGY@SJS,kalshi,player_points,,Dmitry Orlov,1.5,yes,0.15,0.1589249999999999,,,,,loss,Dmitry Orlov 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|braeden bowman|0.5|yes,VGK@BOS,kalshi,player_goals,,Braeden Bowman,0.5,yes,0.15,0.1589249999999999,,,,,loss,Braeden Bowman 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|emmitt finnie|1.5|yes,DET@FLA,kalshi,player_points,,Emmitt Finnie,1.5,yes,0.15,0.1589249999999999,,,,,loss,Emmitt Finnie 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||3.5|no,DET@FLA,kalshi,total,,,3.5,no,0.16,0.169408,,,0.19065,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|COL|5.5|yes,COL@CHI,kalshi,team_total,COL,,5.5,yes,0.16,0.169408,,,0.1201,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|moritz seider|1.5|yes,DET@FLA,kalshi,player_points,,Moritz Seider,1.5,yes,0.16,0.169408,,,,,win,Moritz Seider 2 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|sam bennett|1.5|yes,DET@FLA,kalshi,player_points,,Sam Bennett,1.5,yes,0.16,0.169408,,,,,loss,Sam Bennett 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|nicolas roy|0.5|yes,COL@CHI,kalshi,player_goals,,Nicolas Roy,0.5,yes,0.16,0.169408,,,,,loss,Nicolas Roy 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|tomas hertl|1.5|yes,VGK@BOS,kalshi,player_points,,Tomas Hertl,1.5,yes,0.16,0.169408,,,,,loss,Tomas Hertl 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|casey mittelstadt|0.5|yes,VGK@BOS,kalshi,player_goals,,Casey Mittelstadt,0.5,yes,0.16,0.169408,,,,,loss,Casey Mittelstadt 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|eetu luostarinen|0.5|yes,DET@FLA,kalshi,player_goals,,Eetu Luostarinen,0.5,yes,0.16,0.169408,,,,,loss,Eetu Luostarinen 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|spread|CHI|1.5|yes,COL@CHI,kalshi,spread,CHI,,1.5,yes,0.16,0.169408,,,0.2183,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|p1_total||0.5|no,VGK@BOS,kalshi,p1_total,,,0.5,no,0.17,0.179877,,,0.1605499999999999,,loss,1P 0-1,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|andrew copp|0.5|yes,DET@FLA,kalshi,player_goals,,Andrew Copp,0.5,yes,0.17,0.179877,,,,,loss,Andrew Copp 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|macklin celebrini|2.5|yes,CGY@SJS,kalshi,player_points,,Macklin Celebrini,2.5,yes,0.17,0.179877,,,,,loss,Macklin Celebrini 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|ivar stenberg|1.5|yes,CGY@SJS,kalshi,player_points,,Ivar Stenberg,1.5,yes,0.17,0.179877,,,,,loss,Ivar Stenberg 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|viktor arvidsson|1.5|yes,DET@FLA,kalshi,player_points,,Viktor Arvidsson,1.5,yes,0.17,0.179877,,,,,loss,Viktor Arvidsson 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||8.5|yes,DET@FLA,kalshi,total,,,8.5,yes,0.17,0.179877,,,0.13905,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|SJS|1.5|no,CGY@SJS,kalshi,team_total,SJS,,1.5,no,0.17,0.179877,,,0.1442999999999999,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|elias lindholm|1.5|yes,VGK@BOS,kalshi,player_points,,Elias Lindholm,1.5,yes,0.17,0.179877,,,,,loss,Elias Lindholm 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|spread|CGY|2.5|yes,CGY@SJS,kalshi,spread,CGY,,2.5,yes,0.17,0.179877,,,0.12975,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|mason marchment|1.5|yes,CGY@SJS,kalshi,player_points,,Mason Marchment,1.5,yes,0.18,0.190332,,,,,loss,Mason Marchment 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|michael brandsegg nygard|0.5|yes,DET@FLA,kalshi,player_goals,,Michael Brandsegg-Nygård,0.5,yes,0.18,0.190332,,,,,win,Michael Brandsegg-Nygård 1 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|p1_total||0.5|no,CGY@SJS,kalshi,p1_total,,,0.5,no,0.18,0.190332,,,0.15115,,loss,1P 1-0,,,,,2026-11-02,0.0
+kalshi|COL@CHI|p1_total||0.5|no,COL@CHI,kalshi,p1_total,,,0.5,no,0.18,0.190332,,,0.1607499999999999,,loss,1P 2-2,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|jaden schwartz|0.5|yes,COL@CHI,kalshi,player_goals,,Jaden Schwartz,0.5,yes,0.18,0.190332,,,,,win,Jaden Schwartz 2 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|tyler toffoli|1.5|yes,CGY@SJS,kalshi,player_points,,Tyler Toffoli,1.5,yes,0.18,0.190332,,,,,loss,Tyler Toffoli 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|michael misa|0.5|yes,CGY@SJS,kalshi,player_goals,,Michael Misa,0.5,yes,0.18,0.190332,,,,,loss,Michael Misa 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|charlie mcavoy|1.5|yes,VGK@BOS,kalshi,player_points,,Charlie McAvoy,1.5,yes,0.18,0.190332,,,,,loss,Charlie McAvoy 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|frank nazar|0.5|yes,COL@CHI,kalshi,player_goals,,Frank Nazar,0.5,yes,0.18,0.190332,,,,,loss,Frank Nazar 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|morgan frost|1.5|yes,CGY@SJS,kalshi,player_points,,Morgan Frost,1.5,yes,0.18,0.190332,,,,,loss,Morgan Frost 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|ryan donato|0.5|yes,COL@CHI,kalshi,player_goals,,Ryan Donato,0.5,yes,0.18,0.190332,,,,,loss,Ryan Donato 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|VGK|1.5|no,VGK@BOS,kalshi,team_total,VGK,,1.5,no,0.18,0.190332,,,0.2036,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|morgan geekie|1.5|yes,VGK@BOS,kalshi,player_points,,Morgan Geekie,1.5,yes,0.18,0.190332,,,,,loss,Morgan Geekie 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|collin graf|0.5|yes,CGY@SJS,kalshi,player_goals,,Collin Graf,0.5,yes,0.18,0.190332,,,,,loss,Collin Graf 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|patrick kane|1.5|yes,COL@CHI,kalshi,player_points,,Patrick Kane,1.5,yes,0.18,0.190332,,,,,loss,Patrick Kane 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|yegor sharangovich|0.5|yes,CGY@SJS,kalshi,player_goals,,Yegor Sharangovich,0.5,yes,0.18,0.190332,,,,,loss,Yegor Sharangovich 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|spread|BOS|2.5|yes,VGK@BOS,kalshi,spread,BOS,,2.5,yes,0.18,0.190332,,,0.1758,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|brett howden|0.5|yes,VGK@BOS,kalshi,player_goals,,Brett Howden,0.5,yes,0.19,0.200773,,,,,loss,Brett Howden 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|p1_total||0.5|no,DET@FLA,kalshi,p1_total,,,0.5,no,0.19,0.200773,,,0.1909499999999999,,loss,1P 1-1,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|nazem kadri|1.5|yes,COL@CHI,kalshi,player_points,,Nazem Kadri,1.5,yes,0.19,0.200773,,,,,win,Nazem Kadri 2 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|pavel zacha|1.5|yes,VGK@BOS,kalshi,player_points,,Pavel Zacha,1.5,yes,0.19,0.200773,,,,,loss,Pavel Zacha 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|BOS|1.5|no,VGK@BOS,kalshi,team_total,BOS,,1.5,no,0.19,0.200773,,,0.17005,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|matvei gridin|1.5|yes,CGY@SJS,kalshi,player_points,,Matvei Gridin,1.5,yes,0.19,0.200773,,,,,loss,Matvei Gridin 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||8.5|yes,VGK@BOS,kalshi,total,,,8.5,yes,0.19,0.200773,,,0.18135,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|james hagens|0.5|yes,VGK@BOS,kalshi,player_goals,,James Hagens,0.5,yes,0.19,0.200773,,,,,win,James Hagens 1 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|fraser minten|0.5|yes,VGK@BOS,kalshi,player_goals,,Fraser Minten,0.5,yes,0.19,0.200773,,,,,loss,Fraser Minten 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|ryan strome|0.5|yes,CGY@SJS,kalshi,player_goals,,Ryan Strome,0.5,yes,0.19,0.200773,,,,,loss,Ryan Strome 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|seth jones|1.5|yes,DET@FLA,kalshi,player_points,,Seth Jones,1.5,yes,0.19,0.200773,,,,,loss,Seth Jones 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|aydar suniev|0.5|yes,CGY@SJS,kalshi,player_goals,,Aydar Suniev,0.5,yes,0.19,0.200773,,,,,loss,Aydar Suniev 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|william karlsson|0.5|yes,VGK@BOS,kalshi,player_goals,,William Karlsson,0.5,yes,0.2,0.2112,,,,,loss,William Karlsson 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|CGY|1.5|no,CGY@SJS,kalshi,team_total,CGY,,1.5,no,0.2,0.2112,,,0.18405,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|spread|VGK|2.5|yes,VGK@BOS,kalshi,spread,VGK,,2.5,yes,0.2,0.2112,,,0.128,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|CGY@SJS|total||8.5|yes,CGY@SJS,kalshi,total,,,8.5,yes,0.2,0.2112,,,0.22405,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|spread|DET|1.5|yes,DET@FLA,kalshi,spread,DET,,1.5,yes,0.2,0.2112,,,0.2331,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||8.5|yes,COL@CHI,kalshi,total,,,8.5,yes,0.2,0.2112,,,0.2003,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|nathan mackinnon|2.5|yes,COL@CHI,kalshi,player_points,,Nathan MacKinnon,2.5,yes,0.2,0.2112,,,,,loss,Nathan MacKinnon 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|trevor connelly|0.5|yes,VGK@BOS,kalshi,player_goals,,Trevor Connelly,0.5,yes,0.21,0.221613,,,,,win,Trevor Connelly 1 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||4.5|no,COL@CHI,kalshi,total,,,4.5,no,0.21,0.221613,,,0.2228,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|matt coronato|1.5|yes,CGY@SJS,kalshi,player_points,,Matt Coronato,1.5,yes,0.21,0.221613,,,,,loss,Matt Coronato 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|total||4.5|no,CGY@SJS,kalshi,total,,,4.5,no,0.21,0.221613,,,0.19355,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|mikael backlund|0.5|yes,CGY@SJS,kalshi,player_goals,,Mikael Backlund,0.5,yes,0.21,0.221613,,,,,loss,Mikael Backlund 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|joel farabee|1.5|yes,CGY@SJS,kalshi,player_points,,Joel Farabee,1.5,yes,0.21,0.221613,,,,,loss,Joel Farabee 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|CGY|4.5|yes,CGY@SJS,kalshi,team_total,CGY,,4.5,yes,0.21,0.221613,,,0.2074,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|patrick kane|0.5|yes,COL@CHI,kalshi,player_goals,,Patrick Kane,0.5,yes,0.21,0.221613,,,,,loss,Patrick Kane 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|artturi lehkonen|1.5|yes,COL@CHI,kalshi,player_points,,Artturi Lehkonen,1.5,yes,0.21,0.221613,,,,,loss,Artturi Lehkonen 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|anton frondell|0.5|yes,COL@CHI,kalshi,player_goals,,Anton Frondell,0.5,yes,0.21,0.221613,,,,,loss,Anton Frondell 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|BOS|4.5|yes,VGK@BOS,kalshi,team_total,BOS,,4.5,yes,0.22,0.232012,,,0.2212,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||4.5|no,VGK@BOS,kalshi,total,,,4.5,no,0.22,0.232012,,,0.2290999999999999,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|tyler bertuzzi|0.5|yes,COL@CHI,kalshi,player_goals,,Tyler Bertuzzi,0.5,yes,0.22,0.232012,,,,,loss,Tyler Bertuzzi 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|t j hughes|0.5|yes,COL@CHI,kalshi,player_goals,,T.J. Hughes,0.5,yes,0.22,0.232012,,,,,loss,T.J. Hughes 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|kiefer sherwood|0.5|yes,CGY@SJS,kalshi,player_goals,,Kiefer Sherwood,0.5,yes,0.22,0.232012,,,,,loss,Kiefer Sherwood 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|spread|SJS|2.5|yes,CGY@SJS,kalshi,spread,SJS,,2.5,yes,0.22,0.232012,,,0.18545,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|zach whitecloud|0.5|yes,CGY@SJS,kalshi,player_points,,Zach Whitecloud,0.5,yes,0.22,0.232012,,,,,loss,Zach Whitecloud 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|gabriel landeskog|0.5|yes,COL@CHI,kalshi,player_goals,,Gabriel Landeskog,0.5,yes,0.23,0.242397,,,,,loss,Gabriel Landeskog 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|ivan barbashev|0.5|yes,VGK@BOS,kalshi,player_goals,,Ivan Barbashev,0.5,yes,0.23,0.242397,,,,,loss,Ivan Barbashev 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|anton lundell|0.5|yes,DET@FLA,kalshi,player_goals,,Anton Lundell,0.5,yes,0.23,0.242397,,,,,loss,Anton Lundell 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|lucas raymond|1.5|yes,DET@FLA,kalshi,player_points,,Lucas Raymond,1.5,yes,0.23,0.242397,,,,,loss,Lucas Raymond 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||7.5|yes,DET@FLA,kalshi,total,,,7.5,yes,0.23,0.242397,,,0.20655,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|carter verhaeghe|1.5|yes,DET@FLA,kalshi,player_points,,Carter Verhaeghe,1.5,yes,0.23,0.242397,,,,,loss,Carter Verhaeghe 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|emmitt finnie|0.5|yes,DET@FLA,kalshi,player_goals,,Emmitt Finnie,0.5,yes,0.24,0.252768,,,,,win,Emmitt Finnie 1 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|nathan mackinnon|0.5|no,COL@CHI,kalshi,player_points,,Nathan MacKinnon,0.5,no,0.24,0.252768,,,,,loss,Nathan MacKinnon 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|cale makar|0.5|yes,COL@CHI,kalshi,player_goals,,Cale Makar,0.5,yes,0.24,0.252768,,,,,loss,Cale Makar 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|will smith|1.5|yes,CGY@SJS,kalshi,player_points,,Will Smith,1.5,yes,0.24,0.252768,,,,,loss,Will Smith 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|kevin bahl|0.5|yes,CGY@SJS,kalshi,player_points,,Kevin Bahl,0.5,yes,0.24,0.252768,,,,,loss,Kevin Bahl 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|VGK|4.5|yes,VGK@BOS,kalshi,team_total,VGK,,4.5,yes,0.24,0.252768,,,0.1782,,loss,VGK 2-3 BOS (SO),,0.22,0.21,0.23,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|mason marchment|0.5|yes,CGY@SJS,kalshi,player_goals,,Mason Marchment,0.5,yes,0.24,0.252768,,,,,loss,Mason Marchment 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|elias lindholm|0.5|yes,VGK@BOS,kalshi,player_goals,,Elias Lindholm,0.5,yes,0.25,0.263125,,,,,loss,Elias Lindholm 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|tyler toffoli|0.5|yes,CGY@SJS,kalshi,player_goals,,Tyler Toffoli,0.5,yes,0.25,0.263125,,,,,loss,Tyler Toffoli 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|mitch marner|0.5|yes,VGK@BOS,kalshi,player_goals,,Mitch Marner,0.5,yes,0.25,0.263125,,,,,loss,Mitch Marner 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|roman kantserov|0.5|yes,COL@CHI,kalshi,player_goals,,Roman Kantserov,0.5,yes,0.25,0.263125,,,,,win,Roman Kantserov 1 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|p1_total||2.5|yes,DET@FLA,kalshi,p1_total,,,2.5,yes,0.25,0.263125,,,0.23675,,loss,1P 1-1,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|ivar stenberg|0.5|yes,CGY@SJS,kalshi,player_goals,,Ivar Stenberg,0.5,yes,0.25,0.263125,,,,,loss,Ivar Stenberg 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||4.5|no,DET@FLA,kalshi,total,,,4.5,no,0.25,0.263125,,,0.2847499999999999,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|SJS|4.5|yes,CGY@SJS,kalshi,team_total,SJS,,4.5,yes,0.25,0.263125,,,0.2602,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|jj peterka|0.5|yes,VGK@BOS,kalshi,player_goals,,JJ Peterka,0.5,yes,0.26,0.273468,,,,,loss,JJ Peterka 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|alex debrincat|1.5|yes,DET@FLA,kalshi,player_points,,Alex DeBrincat,1.5,yes,0.26,0.273468,,,,,loss,Alex DeBrincat 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|sam bennett|0.5|yes,DET@FLA,kalshi,player_goals,,Sam Bennett,0.5,yes,0.26,0.273468,,,,,win,Sam Bennett 1 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|joel farabee|0.5|yes,CGY@SJS,kalshi,player_goals,,Joel Farabee,0.5,yes,0.26,0.273468,,,,,loss,Joel Farabee 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||7.5|yes,VGK@BOS,kalshi,total,,,7.5,yes,0.26,0.273468,,,0.25745,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|matvei gridin|0.5|yes,CGY@SJS,kalshi,player_goals,,Matvei Gridin,0.5,yes,0.26,0.273468,,,,,loss,Matvei Gridin 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|hampus lindholm|0.5|yes,VGK@BOS,kalshi,player_points,,Hampus Lindholm,0.5,yes,0.26,0.273468,0.2865892491768181,pinnacle,,,loss,Hampus Lindholm 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|COL|2.5|no,COL@CHI,kalshi,team_total,COL,,2.5,no,0.26,0.273468,,,0.34135,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|mitch marner|1.5|yes,VGK@BOS,kalshi,player_points,,Mitch Marner,1.5,yes,0.26,0.273468,,,,,win,Mitch Marner 2 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|tomas hertl|0.5|yes,VGK@BOS,kalshi,player_goals,,Tomas Hertl,0.5,yes,0.26,0.273468,,,,,loss,Tomas Hertl 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|morgan frost|0.5|yes,CGY@SJS,kalshi,player_goals,,Morgan Frost,0.5,yes,0.26,0.273468,,,,,loss,Morgan Frost 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|michael kesselring|0.5|yes,CGY@SJS,kalshi,player_points,,Michael Kesselring,0.5,yes,0.27,0.283797,,,,,loss,Michael Kesselring 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|brock nelson|0.5|yes,COL@CHI,kalshi,player_goals,,Brock Nelson,0.5,yes,0.27,0.283797,,,,,loss,Brock Nelson 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|pavel zacha|0.5|yes,VGK@BOS,kalshi,player_goals,,Pavel Zacha,0.5,yes,0.27,0.283797,,,,,loss,Pavel Zacha 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|lucas raymond|0.5|yes,DET@FLA,kalshi,player_goals,,Lucas Raymond,0.5,yes,0.27,0.283797,,,,,loss,Lucas Raymond 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|mark stone|1.5|yes,VGK@BOS,kalshi,player_points,,Mark Stone,1.5,yes,0.27,0.283797,,,,,loss,Mark Stone 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|FLA|4.5|yes,DET@FLA,kalshi,team_total,FLA,,4.5,yes,0.27,0.283797,,,0.181,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|COL@CHI|p1_result|CHI|nan|yes,COL@CHI,kalshi,p1_result,CHI,,,yes,0.27,0.283797,,,0.30225,,loss,1P COL 2-2 CHI,,,,,2026-11-02,0.0
+kalshi|DET@FLA|spread|FLA|2.5|yes,DET@FLA,kalshi,spread,FLA,,2.5,yes,0.27,0.283797,,,0.15675,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|total||7.5|yes,CGY@SJS,kalshi,total,,,7.5,yes,0.27,0.283797,,,0.31155,,loss,CGY 2-1 SJS,,0.275,0.27,0.28,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|brayden mcnabb|0.5|yes,VGK@BOS,kalshi,player_points,,Brayden McNabb,0.5,yes,0.27,0.283797,,,,,loss,Brayden McNabb 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|brady tkachuk|1.5|yes,DET@FLA,kalshi,player_points,,Brady Tkachuk,1.5,yes,0.27,0.283797,,,,,loss,Brady Tkachuk 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|sam reinhart|1.5|yes,DET@FLA,kalshi,player_points,,Sam Reinhart,1.5,yes,0.27,0.283797,,,,,loss,Sam Reinhart 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|spread|CGY|1.5|yes,CGY@SJS,kalshi,spread,CGY,,1.5,yes,0.27,0.283797,,,0.23755,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|spread|BOS|1.5|yes,VGK@BOS,kalshi,spread,BOS,,1.5,yes,0.28,0.294112,,,0.29815,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|COL@CHI|p1_total||2.5|yes,COL@CHI,kalshi,p1_total,,,2.5,yes,0.28,0.294112,,,0.2838,,win,1P 2-2,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|p1_total||2.5|yes,VGK@BOS,kalshi,p1_total,,,2.5,yes,0.28,0.294112,,,0.2774,,loss,1P 0-1,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|nazem kadri|0.5|yes,COL@CHI,kalshi,player_goals,,Nazem Kadri,0.5,yes,0.28,0.294112,,,,,win,Nazem Kadri 2 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|team_total|DET|1.5|no,DET@FLA,kalshi,team_total,DET,,1.5,no,0.28,0.294112,,,0.23295,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|viktor arvidsson|0.5|yes,DET@FLA,kalshi,player_goals,,Viktor Arvidsson,0.5,yes,0.28,0.294112,,,,,loss,Viktor Arvidsson 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|p1_total||2.5|yes,CGY@SJS,kalshi,p1_total,,,2.5,yes,0.28,0.294112,,,0.2989,,loss,1P 1-0,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|connor bedard|1.5|yes,COL@CHI,kalshi,player_points,,Connor Bedard,1.5,yes,0.28,0.294112,,,,,loss,Connor Bedard 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|DET|3.5|yes,DET@FLA,kalshi,team_total,DET,,3.5,yes,0.28,0.294112,,,0.31495,,win,DET 5-3 FLA,,0.27,0.26,0.28,2026-11-02,1.0
+kalshi|COL@CHI|total||7.5|yes,COL@CHI,kalshi,total,,,7.5,yes,0.28,0.294112,,,0.28105,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|morgan geekie|0.5|yes,VGK@BOS,kalshi,player_goals,,Morgan Geekie,0.5,yes,0.28,0.294112,,,,,win,Morgan Geekie 1 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|p1_result|DET|nan|yes,DET@FLA,kalshi,p1_result,DET,,,yes,0.29,0.304413,,,0.31425,,loss,1P DET 1-1 FLA,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|CHI|3.5|yes,COL@CHI,kalshi,team_total,CHI,,3.5,yes,0.29,0.304413,,,0.35635,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|CHI|1.5|no,COL@CHI,kalshi,team_total,CHI,,1.5,no,0.29,0.304413,,,0.2109999999999999,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|gustav forsling|0.5|yes,DET@FLA,kalshi,player_points,,Gustav Forsling,0.5,yes,0.29,0.304413,0.2974347633790358,consensus,,,loss,Gustav Forsling 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|noah hanifin|0.5|yes,VGK@BOS,kalshi,player_points,,Noah Hanifin,0.5,yes,0.29,0.304413,,,,,win,Noah Hanifin 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|cale makar|1.5|yes,COL@CHI,kalshi,player_points,,Cale Makar,1.5,yes,0.3,0.3147,0.2922791118028794,consensus,,,loss,Cale Makar 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|spread|VGK|1.5|yes,VGK@BOS,kalshi,spread,VGK,,1.5,yes,0.3,0.3147,0.2961596348982861,pinnacle,0.23355,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|matt coronato|0.5|yes,CGY@SJS,kalshi,player_goals,,Matt Coronato,0.5,yes,0.3,0.3147,,,,,loss,Matt Coronato 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|rasmus andersson|0.5|yes,VGK@BOS,kalshi,player_points,,Rasmus Andersson,0.5,yes,0.3,0.3147,,,,,loss,Rasmus Andersson 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|mark stone|0.5|yes,VGK@BOS,kalshi,player_goals,,Mark Stone,0.5,yes,0.3,0.3147,,,,,win,Mark Stone 1 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|jack eichel|0.5|yes,VGK@BOS,kalshi,player_goals,,Jack Eichel,0.5,yes,0.31,0.324973,,,,,loss,Jack Eichel 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|macklin celebrini|0.5|no,CGY@SJS,kalshi,player_points,,Macklin Celebrini,0.5,no,0.31,0.324973,,,,,win,Macklin Celebrini 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|will smith|0.5|yes,CGY@SJS,kalshi,player_goals,,Will Smith,0.5,yes,0.31,0.324973,,,,,loss,Will Smith 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|david pastrnak|0.5|no,VGK@BOS,kalshi,player_points,,David Pastrnak,0.5,no,0.31,0.324973,0.2976408768712881,consensus,,,loss,David Pastrnak 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|carter verhaeghe|0.5|yes,DET@FLA,kalshi,player_goals,,Carter Verhaeghe,0.5,yes,0.32,0.335232,,,,,loss,Carter Verhaeghe 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|jack eichel|0.5|no,VGK@BOS,kalshi,player_points,,Jack Eichel,0.5,no,0.32,0.335232,0.3303732313443824,consensus,,,win,Jack Eichel 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|braeden bowman|0.5|yes,VGK@BOS,kalshi,player_points,,Braeden Bowman,0.5,yes,0.33,0.345477,,,,,loss,Braeden Bowman 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|matthew tkachuk|0.5|yes,DET@FLA,kalshi,player_goals,,Matthew Tkachuk,0.5,yes,0.33,0.345477,,,,,loss,Matthew Tkachuk 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|p1_result|TIE|nan|yes,DET@FLA,kalshi,p1_result,TIE,,,yes,0.33,0.345477,,,0.34655,,win,1P DET 1-1 FLA,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|p1_result|CGY|nan|yes,CGY@SJS,kalshi,p1_result,CGY,,,yes,0.33,0.345477,,,0.3104,,win,1P CGY 1-0 SJS,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|spread|SJS|1.5|yes,CGY@SJS,kalshi,spread,SJS,,1.5,yes,0.33,0.345477,0.324260587599489,pinnacle,0.30995,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|matthew tkachuk|1.5|yes,DET@FLA,kalshi,player_points,,Matthew Tkachuk,1.5,yes,0.33,0.345477,,,,,loss,Matthew Tkachuk 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|spread|COL|2.5|yes,COL@CHI,kalshi,spread,COL,,2.5,yes,0.33,0.345477,,,0.1934,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|connor bedard|0.5|yes,COL@CHI,kalshi,player_goals,,Connor Bedard,0.5,yes,0.33,0.345477,,,,,loss,Connor Bedard 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|justin faulk|0.5|yes,DET@FLA,kalshi,player_points,,Justin Faulk,0.5,yes,0.33,0.345477,0.3281719436098913,pinnacle,,,win,Justin Faulk 2 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|sam malinski|0.5|yes,COL@CHI,kalshi,player_points,,Sam Malinski,0.5,yes,0.34,0.355708,0.3372052249038078,consensus,,,win,Sam Malinski 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|p1_result|TIE|nan|yes,CGY@SJS,kalshi,p1_result,TIE,,,yes,0.34,0.355708,,,0.31915,,loss,1P CGY 1-0 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|jack eichel|1.5|yes,VGK@BOS,kalshi,player_points,,Jack Eichel,1.5,yes,0.34,0.355708,0.3346265761396702,pinnacle,,,loss,Jack Eichel 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|p1_result|BOS|nan|yes,VGK@BOS,kalshi,p1_result,BOS,,,yes,0.34,0.355708,,,0.354,,win,1P VGK 0-1 BOS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|p1_result|TIE|nan|yes,COL@CHI,kalshi,p1_result,TIE,,,yes,0.34,0.355708,,,0.32705,,win,1P COL 2-2 CHI,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|martin necas|0.5|no,COL@CHI,kalshi,player_points,,Martin Necas,0.5,no,0.34,0.355708,0.3315011050036833,pinnacle,,,win,Martin Necas 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|martin necas|0.5|yes,COL@CHI,kalshi,player_goals,,Martin Necas,0.5,yes,0.34,0.355708,,,,,loss,Martin Necas 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|p1_result|TIE|nan|yes,VGK@BOS,kalshi,p1_result,TIE,,,yes,0.34,0.355708,,,0.32605,,loss,1P VGK 0-1 BOS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|FLA|2.5|no,DET@FLA,kalshi,team_total,FLA,,2.5,no,0.34,0.355708,,,0.41835,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|martin necas|1.5|yes,COL@CHI,kalshi,player_points,,Martin Necas,1.5,yes,0.34,0.355708,,,,,loss,Martin Necas 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|ml|COL|nan|no,COL@CHI,kalshi,ml,COL,,,no,0.34,0.355708,0.3313046548823297,pinnacle,0.44065,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|COL@CHI|ml|CHI|nan|yes,COL@CHI,kalshi,ml,CHI,,,yes,0.34,0.355708,0.3313046548823297,pinnacle,0.44065,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|jacob trouba|0.5|yes,CGY@SJS,kalshi,player_points,,Jacob Trouba,0.5,yes,0.35,0.365925,0.3738433066008637,pinnacle,,,win,Jacob Trouba 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|artturi lehkonen|0.5|yes,COL@CHI,kalshi,player_goals,,Artturi Lehkonen,0.5,yes,0.35,0.365925,,,,,loss,Artturi Lehkonen 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|aaron ekblad|0.5|yes,DET@FLA,kalshi,player_points,,Aaron Ekblad,0.5,yes,0.35,0.365925,0.3768844221105528,pinnacle,,,win,Aaron Ekblad 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|COL|4.5|yes,COL@CHI,kalshi,team_total,COL,,4.5,yes,0.35,0.365925,,,0.24775,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|p1_result|VGK|nan|yes,VGK@BOS,kalshi,p1_result,VGK,,,yes,0.35,0.365925,,,0.31995,,loss,1P VGK 0-1 BOS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|alex debrincat|0.5|yes,DET@FLA,kalshi,player_goals,,Alex DeBrincat,0.5,yes,0.35,0.365925,,,,,win,Alex DeBrincat 1 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|collin graf|0.5|yes,CGY@SJS,kalshi,player_points,,Collin Graf,0.5,yes,0.36,0.3761279999999999,0.408482008770349,pinnacle,,,loss,Collin Graf 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|matthew tkachuk|0.5|no,DET@FLA,kalshi,player_points,,Matthew Tkachuk,0.5,no,0.37,0.386317,0.3333333333333332,pinnacle,,,loss,Matthew Tkachuk 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|SJS|2.5|no,CGY@SJS,kalshi,team_total,SJS,,2.5,no,0.37,0.386317,,,0.33225,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|casey mittelstadt|0.5|yes,VGK@BOS,kalshi,player_points,,Casey Mittelstadt,0.5,yes,0.37,0.386317,0.3593176026739915,consensus,,,loss,Casey Mittelstadt 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|simon nemec|0.5|yes,CGY@SJS,kalshi,player_points,,Simon Nemec,0.5,yes,0.37,0.386317,0.3637800583442777,pinnacle,,,loss,Simon Nemec 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|p1_result|SJS|nan|yes,CGY@SJS,kalshi,p1_result,SJS,,,yes,0.37,0.386317,,,0.37045,,loss,1P CGY 1-0 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|mitch marner|0.5|no,VGK@BOS,kalshi,player_points,,Mitch Marner,0.5,no,0.37,0.386317,0.3581895148160208,pinnacle,,,loss,Mitch Marner 2 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|cale makar|0.5|no,COL@CHI,kalshi,player_points,,Cale Makar,0.5,no,0.37,0.386317,0.3730886850152906,pinnacle,,,loss,Cale Makar 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|lars eller|0.5|yes,DET@FLA,kalshi,player_points,,Lars Eller,0.5,yes,0.37,0.386317,0.3925197560964413,consensus,,,win,Lars Eller 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|david pastrnak|1.5|yes,VGK@BOS,kalshi,player_points,,David Pastrnak,1.5,yes,0.37,0.386317,0.3532110091743119,consensus,,,loss,David Pastrnak 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|andrew copp|0.5|yes,DET@FLA,kalshi,player_points,,Andrew Copp,0.5,yes,0.38,0.396492,0.3813450141716052,pinnacle,,,win,Andrew Copp 2 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|sam reinhart|0.5|yes,DET@FLA,kalshi,player_goals,,Sam Reinhart,0.5,yes,0.38,0.396492,,,,,win,Sam Reinhart 1 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|david pastrnak|0.5|yes,VGK@BOS,kalshi,player_goals,,David Pastrnak,0.5,yes,0.38,0.396492,,,,,loss,David Pastrnak 0 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|fraser minten|0.5|yes,VGK@BOS,kalshi,player_points,,Fraser Minten,0.5,yes,0.38,0.396492,0.3866317169069462,pinnacle,,,loss,Fraser Minten 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|eetu luostarinen|0.5|yes,DET@FLA,kalshi,player_points,,Eetu Luostarinen,0.5,yes,0.38,0.396492,,,,,loss,Eetu Luostarinen 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|brady tkachuk|0.5|yes,DET@FLA,kalshi,player_goals,,Brady Tkachuk,0.5,yes,0.39,0.406653,,,,,loss,Brady Tkachuk 0 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|yegor sharangovich|0.5|yes,CGY@SJS,kalshi,player_points,,Yegor Sharangovich,0.5,yes,0.39,0.406653,0.385246712109792,consensus,,,loss,Yegor Sharangovich 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|CGY|3.5|yes,CGY@SJS,kalshi,team_total,CGY,,3.5,yes,0.39,0.406653,,,0.38755,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|connor bedard|0.5|no,COL@CHI,kalshi,player_points,,Connor Bedard,0.5,no,0.39,0.406653,0.3730886850152906,pinnacle,,,loss,Connor Bedard 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|frank nazar|0.5|yes,COL@CHI,kalshi,player_points,,Frank Nazar,0.5,yes,0.39,0.406653,0.3817534778388871,pinnacle,,,loss,Frank Nazar 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|mark stone|0.5|no,VGK@BOS,kalshi,player_points,,Mark Stone,0.5,no,0.39,0.406653,0.3982930298719772,pinnacle,,,loss,Mark Stone 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|ml|DET|nan|yes,DET@FLA,kalshi,ml,DET,,,yes,0.39,0.406653,0.3808517736016902,pinnacle,0.46815,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|DET@FLA|ml|FLA|nan|no,DET@FLA,kalshi,ml,FLA,,,no,0.39,0.406653,0.3808517736016902,pinnacle,0.4681499999999999,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|DET@FLA|spread|FLA|1.5|yes,DET@FLA,kalshi,spread,FLA,,1.5,yes,0.39,0.406653,0.3929417651473899,pinnacle,0.28,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|shea theodore|0.5|yes,VGK@BOS,kalshi,player_points,,Shea Theodore,0.5,yes,0.39,0.406653,0.3817534778388871,pinnacle,,,loss,Shea Theodore 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|VGK|2.5|no,VGK@BOS,kalshi,team_total,VGK,,2.5,no,0.39,0.406653,,,0.4268999999999999,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|VGK@BOS|team_total|BOS|3.5|yes,VGK@BOS,kalshi,team_total,BOS,,3.5,yes,0.4,0.4168,,,0.40355,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|BOS|2.5|no,VGK@BOS,kalshi,team_total,BOS,,2.5,no,0.4,0.4168,,,0.36955,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|michael misa|0.5|yes,CGY@SJS,kalshi,player_points,,Michael Misa,0.5,yes,0.4,0.4168,0.4034582132564841,pinnacle,,,loss,Michael Misa 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|william karlsson|0.5|yes,VGK@BOS,kalshi,player_points,,William Karlsson,0.5,yes,0.4,0.4168,0.3817534778388871,pinnacle,,,loss,William Karlsson 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|p1_result|FLA|nan|yes,DET@FLA,kalshi,p1_result,FLA,,,yes,0.4,0.4168,,,0.3392,,loss,1P DET 1-1 FLA,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|macklin celebrini|1.5|yes,CGY@SJS,kalshi,player_points,,Macklin Celebrini,1.5,yes,0.4,0.4168,0.3817534778388871,pinnacle,,,loss,Macklin Celebrini 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|t j hughes|0.5|yes,COL@CHI,kalshi,player_points,,T.J. Hughes,0.5,yes,0.4,0.4168,0.3959708232025009,pinnacle,,,win,T.J. Hughes 2 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|michael brandsegg nygard|0.5|yes,DET@FLA,kalshi,player_points,,Michael Brandsegg-Nygård,0.5,yes,0.4,0.4168,0.4170324846356453,pinnacle,,,win,Michael Brandsegg-Nygård 2 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|james hagens|0.5|yes,VGK@BOS,kalshi,player_points,,James Hagens,0.5,yes,0.41,0.426933,,,,,win,James Hagens 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|zayne parekh|0.5|yes,CGY@SJS,kalshi,player_points,,Zayne Parekh,0.5,yes,0.41,0.426933,0.4323499491353001,pinnacle,,,loss,Zayne Parekh 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|kiefer sherwood|0.5|yes,CGY@SJS,kalshi,player_points,,Kiefer Sherwood,0.5,yes,0.41,0.426933,0.408482008770349,pinnacle,,,win,Kiefer Sherwood 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|macklin celebrini|0.5|yes,CGY@SJS,kalshi,player_goals,,Macklin Celebrini,0.5,yes,0.41,0.426933,,,,,loss,Macklin Celebrini 0 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|brady tkachuk|0.5|no,DET@FLA,kalshi,player_points,,Brady Tkachuk,0.5,no,0.41,0.426933,0.3896103896103896,pinnacle,,,loss,Brady Tkachuk 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|alex debrincat|0.5|no,DET@FLA,kalshi,player_points,,Alex DeBrincat,0.5,no,0.41,0.426933,0.3887399463806971,pinnacle,,,loss,Alex DeBrincat 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|total||5.5|no,COL@CHI,kalshi,total,,,5.5,no,0.41,0.426933,,,0.41925,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|anton frondell|0.5|yes,COL@CHI,kalshi,player_points,,Anton Frondell,0.5,yes,0.42,0.437052,0.4248366013071895,pinnacle,,,loss,Anton Frondell 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|CGY|2.5|no,CGY@SJS,kalshi,team_total,CGY,,2.5,no,0.42,0.437052,,,0.3901,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|DET@FLA|total||6.5|yes,DET@FLA,kalshi,total,,,6.5,yes,0.42,0.437052,,,0.38275,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|total||5.5|no,CGY@SJS,kalshi,total,,,5.5,no,0.42,0.437052,,,0.38625,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|sam reinhart|0.5|no,DET@FLA,kalshi,player_points,,Sam Reinhart,0.5,no,0.42,0.437052,0.3887399463806971,pinnacle,,,loss,Sam Reinhart 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|VGK|3.5|yes,VGK@BOS,kalshi,team_total,VGK,,3.5,yes,0.42,0.437052,,,0.3528,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|jaden schwartz|0.5|yes,COL@CHI,kalshi,player_points,,Jaden Schwartz,0.5,yes,0.42,0.437052,0.4059040590405904,pinnacle,,,win,Jaden Schwartz 2 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|mikael backlund|0.5|yes,CGY@SJS,kalshi,player_points,,Mikael Backlund,0.5,yes,0.42,0.437052,0.4013049629009441,pinnacle,,,loss,Mikael Backlund 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|p1_total||1.5|no,VGK@BOS,kalshi,p1_total,,,1.5,no,0.43,0.4471569999999999,0.4342832531763693,pinnacle,0.4519499999999999,,win,1P 0-1,,,,,2026-11-02,1.0
+kalshi|COL@CHI|p1_result|COL|nan|yes,COL@CHI,kalshi,p1_result,COL,,,yes,0.43,0.4471569999999999,,,0.3707,,loss,1P COL 2-2 CHI,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||5.5|no,VGK@BOS,kalshi,total,,,5.5,no,0.43,0.4471569999999999,,,0.4425,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|tyler bertuzzi|0.5|yes,COL@CHI,kalshi,player_points,,Tyler Bertuzzi,0.5,yes,0.44,0.457248,0.4304635761589404,pinnacle,,,loss,Tyler Bertuzzi 0 points,0.4148934804922928,0.425,0.41,0.44,2026-11-02,0.0
+kalshi|COL@CHI|p1_total||1.5|no,COL@CHI,kalshi,p1_total,,,1.5,no,0.44,0.457248,0.4398152407942437,pinnacle,0.4520499999999999,,loss,1P 2-2,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|p1_total||1.5|no,CGY@SJS,kalshi,p1_total,,,1.5,no,0.44,0.457248,0.4299754299754299,pinnacle,0.43555,,win,1P 1-0,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|carter verhaeghe|0.5|no,DET@FLA,kalshi,player_points,,Carter Verhaeghe,0.5,no,0.44,0.457248,0.4424778761061947,pinnacle,,,loss,Carter Verhaeghe 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|SJS|3.5|yes,CGY@SJS,kalshi,team_total,SJS,,3.5,yes,0.44,0.457248,,,0.4495,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|nathan mackinnon|0.5|yes,COL@CHI,kalshi,player_goals,,Nathan MacKinnon,0.5,yes,0.44,0.457248,,,,,loss,Nathan MacKinnon 0 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|artturi lehkonen|0.5|no,COL@CHI,kalshi,player_points,,Artturi Lehkonen,0.5,no,0.45,0.467325,0.4347452530286108,pinnacle,,,win,Artturi Lehkonen 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|dmitry orlov|0.5|yes,CGY@SJS,kalshi,player_points,,Dmitry Orlov,0.5,yes,0.45,0.467325,0.4312167075336096,pinnacle,,,loss,Dmitry Orlov 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|gabriel landeskog|0.5|yes,COL@CHI,kalshi,player_points,,Gabriel Landeskog,0.5,yes,0.45,0.467325,0.4697958197414522,pinnacle,,,win,Gabriel Landeskog 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|seth jones|0.5|no,DET@FLA,kalshi,player_points,,Seth Jones,0.5,no,0.45,0.467325,0.4470395036949184,pinnacle,,,win,Seth Jones 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|COL|3.5|no,COL@CHI,kalshi,team_total,COL,,3.5,no,0.45,0.467325,,,0.5642,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|COL@CHI|spread|COL|1.5|yes,COL@CHI,kalshi,spread,COL,,1.5,yes,0.45,0.467325,0.4583062946138871,pinnacle,0.3249,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|DET@FLA|p1_total||1.5|no,DET@FLA,kalshi,p1_total,,,1.5,no,0.46,0.477388,0.4589371980676329,pinnacle,0.5035499999999999,,loss,1P 1-1,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|trevor connelly|0.5|yes,VGK@BOS,kalshi,player_points,,Trevor Connelly,0.5,yes,0.46,0.477388,0.4898785425101215,pinnacle,,,win,Trevor Connelly 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|ivan barbashev|0.5|yes,VGK@BOS,kalshi,player_points,,Ivan Barbashev,0.5,yes,0.46,0.477388,0.4581151832460733,pinnacle,,,loss,Ivan Barbashev 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||6.5|yes,VGK@BOS,kalshi,total,,,6.5,yes,0.46,0.477388,0.4609266949326403,consensus,0.445,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|anton lundell|0.5|yes,DET@FLA,kalshi,player_points,,Anton Lundell,0.5,yes,0.46,0.477388,0.4561503960301555,pinnacle,,,loss,Anton Lundell 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|devon toews|0.5|yes,COL@CHI,kalshi,player_points,,Devon Toews,0.5,yes,0.46,0.477388,0.4408015861775952,pinnacle,,,win,Devon Toews 2 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|will smith|0.5|no,CGY@SJS,kalshi,player_points,,Will Smith,0.5,no,0.46,0.477388,0.4132485328908961,pinnacle,,,win,Will Smith 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|lucas raymond|0.5|no,DET@FLA,kalshi,player_points,,Lucas Raymond,0.5,no,0.46,0.477388,0.4389815627743635,pinnacle,,,loss,Lucas Raymond 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|nathan mackinnon|1.5|yes,COL@CHI,kalshi,player_points,,Nathan MacKinnon,1.5,yes,0.47,0.4874369999999999,0.4522679077448533,pinnacle,,,loss,Nathan MacKinnon 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|nazem kadri|0.5|no,COL@CHI,kalshi,player_points,,Nazem Kadri,0.5,no,0.47,0.4874369999999999,0.451543083180953,pinnacle,,,loss,Nazem Kadri 2 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|joel farabee|0.5|no,CGY@SJS,kalshi,player_points,,Joel Farabee,0.5,no,0.47,0.4874369999999999,0.4329742261011864,pinnacle,,,win,Joel Farabee 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||6.5|yes,COL@CHI,kalshi,total,,,6.5,yes,0.47,0.4874369999999999,0.4672982690133868,consensus,0.4699,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|DET@FLA|team_total|FLA|3.5|yes,DET@FLA,kalshi,team_total,FLA,,3.5,yes,0.47,0.4874369999999999,,,0.3518,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|matt coronato|0.5|no,CGY@SJS,kalshi,player_points,,Matt Coronato,0.5,no,0.47,0.4874369999999999,0.4542013626040877,pinnacle,,,win,Matt Coronato 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|total||6.5|yes,CGY@SJS,kalshi,total,,,6.5,yes,0.48,0.4974719999999999,0.4762060152917056,consensus,0.5038,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||5.5|no,DET@FLA,kalshi,total,,,5.5,no,0.48,0.4974719999999999,0.4596017422620088,consensus,0.51145,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|jj peterka|0.5|yes,VGK@BOS,kalshi,player_points,,JJ Peterka,0.5,yes,0.48,0.4974719999999999,0.4852941176470587,pinnacle,,,loss,JJ Peterka 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|pavel zacha|0.5|no,VGK@BOS,kalshi,player_points,,Pavel Zacha,0.5,no,0.48,0.4974719999999999,0.4424778761061947,pinnacle,,,loss,Pavel Zacha 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|ml|CGY|nan|yes,CGY@SJS,kalshi,ml,CGY,,,yes,0.48,0.4974719999999999,0.4672897196261682,pinnacle,0.454,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|tyler toffoli|0.5|yes,CGY@SJS,kalshi,player_points,,Tyler Toffoli,0.5,yes,0.48,0.4974719999999999,0.4835468841001747,consensus,,,loss,Tyler Toffoli 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|tomas hertl|0.5|yes,VGK@BOS,kalshi,player_points,,Tomas Hertl,0.5,yes,0.48,0.4974719999999999,0.4653465346534653,pinnacle,,,win,Tomas Hertl 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|roman kantserov|0.5|yes,COL@CHI,kalshi,player_points,,Roman Kantserov,0.5,yes,0.49,0.507493,0.4753937007874017,pinnacle,,,win,Roman Kantserov 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|emmitt finnie|0.5|yes,DET@FLA,kalshi,player_points,,Emmitt Finnie,0.5,yes,0.49,0.507493,0.4753937007874017,pinnacle,,,win,Emmitt Finnie 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|ml|VGK|nan|no,VGK@BOS,kalshi,ml,VGK,,,no,0.49,0.507493,0.4883720930232558,pinnacle,0.538,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|brock nelson|0.5|yes,COL@CHI,kalshi,player_points,,Brock Nelson,0.5,yes,0.49,0.507493,0.4837800575807955,pinnacle,,,loss,Brock Nelson 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|ml|SJS|nan|no,CGY@SJS,kalshi,ml,SJS,,,no,0.49,0.507493,0.4672897196261683,pinnacle,0.4539999999999999,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|CHI|2.5|yes,COL@CHI,kalshi,team_total,CHI,,2.5,yes,0.49,0.507493,,,0.56925,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|patrick kane|0.5|no,COL@CHI,kalshi,player_points,,Patrick Kane,0.5,no,0.49,0.507493,0.4898785425101214,pinnacle,,,win,Patrick Kane 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|ml|BOS|nan|yes,VGK@BOS,kalshi,ml,BOS,,,yes,0.5,0.5175,0.4883720930232558,pinnacle,0.538,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|mason marchment|0.5|yes,CGY@SJS,kalshi,player_points,,Mason Marchment,0.5,yes,0.5,0.5175,0.4898785425101215,pinnacle,,,loss,Mason Marchment 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|DET|2.5|yes,DET@FLA,kalshi,team_total,DET,,2.5,yes,0.5,0.5175,,,0.5374,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|matvei gridin|0.5|no,CGY@SJS,kalshi,player_points,,Matvei Gridin,0.5,no,0.5,0.5175,0.4898785425101214,pinnacle,,,win,Matvei Gridin 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|ivar stenberg|0.5|yes,CGY@SJS,kalshi,player_points,,Ivar Stenberg,0.5,yes,0.5,0.5175,0.4919057833178194,pinnacle,,,loss,Ivar Stenberg 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|moritz seider|0.5|yes,DET@FLA,kalshi,player_points,,Moritz Seider,0.5,yes,0.5,0.5175,0.4852941176470587,pinnacle,,,win,Moritz Seider 2 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|sam bennett|0.5|yes,DET@FLA,kalshi,player_points,,Sam Bennett,0.5,yes,0.5,0.5175,0.5121511604358217,pinnacle,,,win,Sam Bennett 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|elias lindholm|0.5|no,VGK@BOS,kalshi,player_points,,Elias Lindholm,0.5,no,0.5,0.5175,0.4898785425101214,pinnacle,,,loss,Elias Lindholm 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|morgan geekie|0.5|yes,VGK@BOS,kalshi,player_points,,Morgan Geekie,0.5,yes,0.5,0.5175,0.5101214574898786,pinnacle,,,win,Morgan Geekie 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|matvei gridin|0.5|yes,CGY@SJS,kalshi,player_points,,Matvei Gridin,0.5,yes,0.51,0.527493,0.5101214574898786,pinnacle,,,loss,Matvei Gridin 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|elias lindholm|0.5|yes,VGK@BOS,kalshi,player_points,,Elias Lindholm,0.5,yes,0.51,0.527493,0.5101214574898786,pinnacle,,,win,Elias Lindholm 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|morgan frost|0.5|no,CGY@SJS,kalshi,player_points,,Morgan Frost,0.5,no,0.51,0.527493,0.4919057833178194,pinnacle,,,win,Morgan Frost 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|ml|BOS|nan|no,VGK@BOS,kalshi,ml,BOS,,,no,0.51,0.527493,0.5116279069767442,pinnacle,0.4619999999999999,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|morgan frost|0.5|yes,CGY@SJS,kalshi,player_points,,Morgan Frost,0.5,yes,0.51,0.527493,0.5080942166821806,pinnacle,,,loss,Morgan Frost 0 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|viktor arvidsson|0.5|no,DET@FLA,kalshi,player_points,,Viktor Arvidsson,0.5,no,0.51,0.527493,0.4939310568053083,pinnacle,,,loss,Viktor Arvidsson 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|CHI|2.5|no,COL@CHI,kalshi,team_total,CHI,,2.5,no,0.52,0.5374720000000001,,,0.4307499999999999,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|DET@FLA|team_total|DET|2.5|no,DET@FLA,kalshi,team_total,DET,,2.5,no,0.52,0.5374720000000001,,,0.4626,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|ml|VGK|nan|yes,VGK@BOS,kalshi,ml,VGK,,,yes,0.52,0.5374720000000001,0.5116279069767442,pinnacle,0.462,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|CGY@SJS|ml|SJS|nan|yes,CGY@SJS,kalshi,ml,SJS,,,yes,0.52,0.5374720000000001,0.5327102803738317,pinnacle,0.546,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|charlie mcavoy|0.5|yes,VGK@BOS,kalshi,player_points,,Charlie McAvoy,0.5,yes,0.52,0.5374720000000001,0.5048923679060665,pinnacle,,,loss,Charlie McAvoy 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|charlie mcavoy|0.5|no,VGK@BOS,kalshi,player_points,,Charlie McAvoy,0.5,no,0.52,0.5374720000000001,0.4951076320939335,pinnacle,,,win,Charlie McAvoy 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|moritz seider|0.5|no,DET@FLA,kalshi,player_points,,Moritz Seider,0.5,no,0.53,0.5474370000000001,0.5147058823529412,pinnacle,,,loss,Moritz Seider 2 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|emmitt finnie|0.5|no,DET@FLA,kalshi,player_points,,Emmitt Finnie,0.5,no,0.53,0.5474370000000001,0.5246062992125984,pinnacle,,,loss,Emmitt Finnie 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|ml|CGY|nan|no,CGY@SJS,kalshi,ml,CGY,,,no,0.53,0.5474370000000001,0.5327102803738317,pinnacle,0.546,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|viktor arvidsson|0.5|yes,DET@FLA,kalshi,player_points,,Viktor Arvidsson,0.5,yes,0.53,0.5474370000000001,0.5060689431946916,pinnacle,,,win,Viktor Arvidsson 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|sam bennett|0.5|no,DET@FLA,kalshi,player_points,,Sam Bennett,0.5,no,0.53,0.5474370000000001,0.4878488395641783,pinnacle,,,loss,Sam Bennett 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||5.5|yes,DET@FLA,kalshi,total,,,5.5,yes,0.53,0.5474370000000001,0.5403982577379912,consensus,0.48855,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|morgan geekie|0.5|no,VGK@BOS,kalshi,player_points,,Morgan Geekie,0.5,no,0.53,0.5474370000000001,0.4898785425101214,pinnacle,,,loss,Morgan Geekie 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|patrick kane|0.5|yes,COL@CHI,kalshi,player_points,,Patrick Kane,0.5,yes,0.53,0.5474370000000001,0.5101214574898786,pinnacle,,,loss,Patrick Kane 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|tomas hertl|0.5|no,VGK@BOS,kalshi,player_points,,Tomas Hertl,0.5,no,0.53,0.5474370000000001,0.5346534653465347,pinnacle,,,loss,Tomas Hertl 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|total||6.5|no,CGY@SJS,kalshi,total,,,6.5,no,0.54,0.557388,0.5237939847082944,consensus,0.4962,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|brock nelson|0.5|no,COL@CHI,kalshi,player_points,,Brock Nelson,0.5,no,0.54,0.557388,0.5162199424192044,pinnacle,,,win,Brock Nelson 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|jj peterka|0.5|no,VGK@BOS,kalshi,player_points,,JJ Peterka,0.5,no,0.54,0.557388,0.5147058823529412,pinnacle,,,win,JJ Peterka 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|joel farabee|0.5|yes,CGY@SJS,kalshi,player_points,,Joel Farabee,0.5,yes,0.54,0.557388,0.5670257738988136,pinnacle,,,loss,Joel Farabee 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|roman kantserov|0.5|no,COL@CHI,kalshi,player_points,,Roman Kantserov,0.5,no,0.54,0.557388,0.5246062992125984,pinnacle,,,loss,Roman Kantserov 1 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|total||6.5|no,COL@CHI,kalshi,total,,,6.5,no,0.54,0.557388,0.5327017309866131,consensus,0.5301,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|mason marchment|0.5|no,CGY@SJS,kalshi,player_points,,Mason Marchment,0.5,no,0.55,0.5673250000000001,0.5101214574898785,pinnacle,,,win,Mason Marchment 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|nathan mackinnon|1.5|no,COL@CHI,kalshi,player_points,,Nathan MacKinnon,1.5,no,0.55,0.5673250000000001,0.5477320922551467,pinnacle,,,win,Nathan MacKinnon 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|ivar stenberg|0.5|no,CGY@SJS,kalshi,player_points,,Ivar Stenberg,0.5,no,0.55,0.5673250000000001,0.5080942166821806,pinnacle,,,win,Ivar Stenberg 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|total||6.5|no,VGK@BOS,kalshi,total,,,6.5,no,0.55,0.5673250000000001,0.5390733050673597,consensus,0.5549999999999999,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|pavel zacha|0.5|yes,VGK@BOS,kalshi,player_points,,Pavel Zacha,0.5,yes,0.55,0.5673250000000001,0.5575221238938053,pinnacle,,,win,Pavel Zacha 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|trevor connelly|0.5|no,VGK@BOS,kalshi,player_points,,Trevor Connelly,0.5,no,0.55,0.5673250000000001,0.5101214574898785,pinnacle,,,loss,Trevor Connelly 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|FLA|3.5|no,DET@FLA,kalshi,team_total,FLA,,3.5,no,0.55,0.5673250000000001,,,0.6482,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|nazem kadri|0.5|yes,COL@CHI,kalshi,player_points,,Nazem Kadri,0.5,yes,0.55,0.5673250000000001,0.548456916819047,pinnacle,,,win,Nazem Kadri 2 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|spread|COL|1.5|no,COL@CHI,kalshi,spread,COL,,1.5,no,0.56,0.5772480000000001,0.5416937053861128,pinnacle,0.6751,,loss,COL 5-2 CHI,0.5370677059188032,0.555,0.55,0.56,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|tyler toffoli|0.5|no,CGY@SJS,kalshi,player_points,,Tyler Toffoli,0.5,no,0.56,0.5772480000000001,0.5164531158998253,consensus,,,win,Tyler Toffoli 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|gabriel landeskog|0.5|no,COL@CHI,kalshi,player_points,,Gabriel Landeskog,0.5,no,0.56,0.5772480000000001,0.5302041802585478,pinnacle,,,loss,Gabriel Landeskog 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|p1_total||1.5|yes,DET@FLA,kalshi,p1_total,,,1.5,yes,0.56,0.5772480000000001,0.5410628019323671,pinnacle,0.49645,,win,1P 1-1,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|dmitry orlov|0.5|no,CGY@SJS,kalshi,player_points,,Dmitry Orlov,0.5,no,0.56,0.5772480000000001,0.5687832924663905,pinnacle,,,win,Dmitry Orlov 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|ivan barbashev|0.5|no,VGK@BOS,kalshi,player_points,,Ivan Barbashev,0.5,no,0.56,0.5772480000000001,0.5418848167539267,pinnacle,,,win,Ivan Barbashev 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|seth jones|0.5|yes,DET@FLA,kalshi,player_points,,Seth Jones,0.5,yes,0.56,0.5772480000000001,0.5529604963050816,pinnacle,,,loss,Seth Jones 0 points,,,,,2026-11-02,0.0
+underdog|CGY@SJS|player_sog|jacob trouba|1.5|no,CGY@SJS,underdog,player_sog,,Jacob Trouba,1.5,no,0.5780590717299579,0.5780590717299579,0.467741935483871,pinnacle,,0.5639807994432585,loss,Jacob Trouba 6 sog,,,,,2026-11-02,0.0
+underdog|CGY@SJS|player_sog|jacob trouba|1.5|yes,CGY@SJS,underdog,player_sog,,Jacob Trouba,1.5,yes,0.5780590717299579,0.5780590717299579,0.532258064516129,pinnacle,,0.4360192005567415,win,Jacob Trouba 6 sog,,,,,2026-11-02,1.0
+underdog|CGY@SJS|player_points|morgan frost|0.5|no,CGY@SJS,underdog,player_points,,Morgan Frost,0.5,no,0.5780590717299579,0.5780590717299579,0.4919057833178194,pinnacle,,,win,Morgan Frost 0 points,,,,,2026-11-02,1.0
+underdog|CGY@SJS|player_points|morgan frost|0.5|yes,CGY@SJS,underdog,player_points,,Morgan Frost,0.5,yes,0.5780590717299579,0.5780590717299579,0.5080942166821806,pinnacle,,,loss,Morgan Frost 0 points,,,,,2026-11-02,0.0
+underdog|CGY@SJS|player_points|ivar stenberg|0.5|no,CGY@SJS,underdog,player_points,,Ivar Stenberg,0.5,no,0.5780590717299579,0.5780590717299579,0.5080942166821806,pinnacle,,,win,Ivar Stenberg 0 points,,,,,2026-11-02,1.0
+underdog|CGY@SJS|player_points|ivar stenberg|0.5|yes,CGY@SJS,underdog,player_points,,Ivar Stenberg,0.5,yes,0.5780590717299579,0.5780590717299579,0.4919057833178194,pinnacle,,,loss,Ivar Stenberg 0 points,,,,,2026-11-02,0.0
+underdog|CGY@SJS|player_points|matvei gridin|0.5|no,CGY@SJS,underdog,player_points,,Matvei Gridin,0.5,no,0.5780590717299579,0.5780590717299579,0.4898785425101214,pinnacle,,,win,Matvei Gridin 0 points,,,,,2026-11-02,1.0
+underdog|CGY@SJS|player_points|matvei gridin|0.5|yes,CGY@SJS,underdog,player_points,,Matvei Gridin,0.5,yes,0.5780590717299579,0.5780590717299579,0.5101214574898786,pinnacle,,,loss,Matvei Gridin 0 points,,,,,2026-11-02,0.0
+underdog|CGY@SJS|player_sog|darnell nurse|1.5|no,CGY@SJS,underdog,player_sog,,Darnell Nurse,1.5,no,0.5780590717299579,0.5780590717299579,0.4959548561951378,pinnacle,,0.4941772140368416,win,Darnell Nurse 0 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_sog|will smith|2.5|no,CGY@SJS,prizepicks,player_sog,,Will Smith,2.5,no,0.5780590717299579,0.5780590717299579,0.5,pinnacle,,0.5287355836835236,win,Will Smith 2 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_sog|will smith|2.5|yes,CGY@SJS,prizepicks,player_sog,,Will Smith,2.5,yes,0.5780590717299579,0.5780590717299579,0.5,pinnacle,,0.4712644163164764,loss,Will Smith 2 sog,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_sog|macklin celebrini|3.5|no,CGY@SJS,prizepicks,player_sog,,Macklin Celebrini,3.5,no,0.5780590717299579,0.5780590717299579,0.4689776639180211,pinnacle,,0.5345932179595165,win,Macklin Celebrini 2 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_sog|macklin celebrini|3.5|yes,CGY@SJS,prizepicks,player_sog,,Macklin Celebrini,3.5,yes,0.5780590717299579,0.5780590717299579,0.5310223360819789,pinnacle,,0.4654067820404834,loss,Macklin Celebrini 2 sog,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_points|tyler toffoli|0.5|no,CGY@SJS,prizepicks,player_points,,Tyler Toffoli,0.5,no,0.5780590717299579,0.5780590717299579,0.5164531158998253,consensus,,,win,Tyler Toffoli 0 points,,,,,2026-11-02,1.0
+prizepicks|COL@CHI|player_sog|cale makar|2.5|yes,COL@CHI,prizepicks,player_sog,,Cale Makar,2.5,yes,0.5780590717299579,0.5780590717299579,0.5,pinnacle,,0.4314722588377871,loss,Cale Makar 2 sog,,,,,2026-11-02,0.0
+prizepicks|COL@CHI|player_points|patrick kane|0.5|no,COL@CHI,prizepicks,player_points,,Patrick Kane,0.5,no,0.5780590717299579,0.5780590717299579,0.4898785425101214,pinnacle,,,win,Patrick Kane 0 points,,,,,2026-11-02,1.0
+prizepicks|COL@CHI|player_points|patrick kane|0.5|yes,COL@CHI,prizepicks,player_points,,Patrick Kane,0.5,yes,0.5780590717299579,0.5780590717299579,0.5101214574898786,pinnacle,,,loss,Patrick Kane 0 points,,,,,2026-11-02,0.0
+prizepicks|COL@CHI|player_points|brock nelson|0.5|no,COL@CHI,prizepicks,player_points,,Brock Nelson,0.5,no,0.5780590717299579,0.5780590717299579,0.5162199424192044,pinnacle,,,win,Brock Nelson 0 points,,,,,2026-11-02,1.0
+prizepicks|COL@CHI|player_points|brock nelson|0.5|yes,COL@CHI,prizepicks,player_points,,Brock Nelson,0.5,yes,0.5780590717299579,0.5780590717299579,0.4837800575807955,pinnacle,,,loss,Brock Nelson 0 points,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_points|matvei gridin|0.5|no,CGY@SJS,prizepicks,player_points,,Matvei Gridin,0.5,no,0.5780590717299579,0.5780590717299579,0.4898785425101214,pinnacle,,,win,Matvei Gridin 0 points,,,,,2026-11-02,1.0
+underdog|CGY@SJS|player_points|mason marchment|0.5|no,CGY@SJS,underdog,player_points,,Mason Marchment,0.5,no,0.5780590717299579,0.5780590717299579,0.5101214574898785,pinnacle,,,win,Mason Marchment 0 points,,,,,2026-11-02,1.0
+underdog|CGY@SJS|player_points|mason marchment|0.5|yes,CGY@SJS,underdog,player_points,,Mason Marchment,0.5,yes,0.5780590717299579,0.5780590717299579,0.4898785425101215,pinnacle,,,loss,Mason Marchment 0 points,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_sog|jacob trouba|1.5|no,CGY@SJS,prizepicks,player_sog,,Jacob Trouba,1.5,no,0.5780590717299579,0.5780590717299579,0.467741935483871,pinnacle,,0.5639807994432585,loss,Jacob Trouba 6 sog,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_sog|jacob trouba|1.5|yes,CGY@SJS,prizepicks,player_sog,,Jacob Trouba,1.5,yes,0.5780590717299579,0.5780590717299579,0.532258064516129,pinnacle,,0.4360192005567415,win,Jacob Trouba 6 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_sog|michael kesselring|1.5|no,CGY@SJS,prizepicks,player_sog,,Michael Kesselring,1.5,no,0.5780590717299579,0.5780590717299579,,,,0.6226601395855222,win,Michael Kesselring 1 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_sog|michael kesselring|1.5|yes,CGY@SJS,prizepicks,player_sog,,Michael Kesselring,1.5,yes,0.5780590717299579,0.5780590717299579,,,,0.3773398604144777,loss,Michael Kesselring 1 sog,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_sog|ivar stenberg|1.5|no,CGY@SJS,prizepicks,player_sog,,Ivar Stenberg,1.5,no,0.5780590717299579,0.5780590717299579,0.521186440677966,pinnacle,,0.508071236571973,loss,Ivar Stenberg 2 sog,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_sog|ivar stenberg|1.5|yes,CGY@SJS,prizepicks,player_sog,,Ivar Stenberg,1.5,yes,0.5780590717299579,0.5780590717299579,0.4788135593220339,pinnacle,,0.491928763428027,win,Ivar Stenberg 2 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_points|matvei gridin|0.5|yes,CGY@SJS,prizepicks,player_points,,Matvei Gridin,0.5,yes,0.5780590717299579,0.5780590717299579,0.5101214574898786,pinnacle,,,loss,Matvei Gridin 0 points,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_points|ivar stenberg|0.5|no,CGY@SJS,prizepicks,player_points,,Ivar Stenberg,0.5,no,0.5780590717299579,0.5780590717299579,0.5080942166821806,pinnacle,,,win,Ivar Stenberg 0 points,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_points|ivar stenberg|0.5|yes,CGY@SJS,prizepicks,player_points,,Ivar Stenberg,0.5,yes,0.5780590717299579,0.5780590717299579,0.4919057833178194,pinnacle,,,loss,Ivar Stenberg 0 points,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_points|mason marchment|0.5|no,CGY@SJS,prizepicks,player_points,,Mason Marchment,0.5,no,0.5780590717299579,0.5780590717299579,0.5101214574898785,pinnacle,,,win,Mason Marchment 0 points,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_points|mason marchment|0.5|yes,CGY@SJS,prizepicks,player_points,,Mason Marchment,0.5,yes,0.5780590717299579,0.5780590717299579,0.4898785425101215,pinnacle,,,loss,Mason Marchment 0 points,,,,,2026-11-02,0.0
+underdog|COL@CHI|player_sog|sam malinski|1.5|no,COL@CHI,underdog,player_sog,,Sam Malinski,1.5,no,0.5780590717299579,0.5780590717299579,0.4656926428557152,pinnacle,,0.6326569884533866,loss,Sam Malinski 2 sog,0.4620746575872202,,,,2026-11-02,0.0
+underdog|COL@CHI|player_sog|sam malinski|1.5|yes,COL@CHI,underdog,player_sog,,Sam Malinski,1.5,yes,0.5780590717299579,0.5780590717299579,0.5343073571442848,pinnacle,,0.3673430115466134,win,Sam Malinski 2 sog,,,,,2026-11-02,1.0
+underdog|COL@CHI|player_sog|roman kantserov|1.5|no,COL@CHI,underdog,player_sog,,Roman Kantserov,1.5,no,0.5780590717299579,0.5780590717299579,0.4753937007874015,pinnacle,,0.4371907197783218,win,Roman Kantserov 1 sog,,,,,2026-11-02,1.0
+underdog|COL@CHI|player_sog|roman kantserov|1.5|yes,COL@CHI,underdog,player_sog,,Roman Kantserov,1.5,yes,0.5780590717299579,0.5780590717299579,0.5246062992125985,pinnacle,,0.5628092802216782,loss,Roman Kantserov 1 sog,,,,,2026-11-02,0.0
+underdog|COL@CHI|player_sog|jaden schwartz|1.5|no,COL@CHI,underdog,player_sog,,Jaden Schwartz,1.5,no,0.5780590717299579,0.5780590717299579,0.5092157184967896,consensus,,0.4789354820722397,loss,Jaden Schwartz 4 sog,,,,,2026-11-02,0.0
+prizepicks|DET@FLA|player_sog|sam reinhart|2.5|no,DET@FLA,prizepicks,player_sog,,Sam Reinhart,2.5,no,0.5780590717299579,0.5780590717299579,0.5384615384615385,pinnacle,,0.5356989241359301,loss,Sam Reinhart 3 sog,,,,,2026-11-02,0.0
+prizepicks|DET@FLA|player_sog|viktor arvidsson|2.5|yes,DET@FLA,prizepicks,player_sog,,Viktor Arvidsson,2.5,yes,0.5780590717299579,0.5780590717299579,0.4581151832460733,pinnacle,,0.4224172163584898,win,Viktor Arvidsson 5 sog,,,,,2026-11-02,1.0
+prizepicks|COL@CHI|player_sog|jaden schwartz|1.5|no,COL@CHI,prizepicks,player_sog,,Jaden Schwartz,1.5,no,0.5780590717299579,0.5780590717299579,0.5092157184967896,consensus,,0.4789354820722397,loss,Jaden Schwartz 4 sog,,,,,2026-11-02,0.0
+prizepicks|DET@FLA|player_points|emmitt finnie|0.5|yes,DET@FLA,prizepicks,player_points,,Emmitt Finnie,0.5,yes,0.5780590717299579,0.5780590717299579,0.4753937007874017,pinnacle,,,win,Emmitt Finnie 1 points,,,,,2026-11-02,1.0
+prizepicks|DET@FLA|player_sog|sam reinhart|2.5|yes,DET@FLA,prizepicks,player_sog,,Sam Reinhart,2.5,yes,0.5780590717299579,0.5780590717299579,0.4615384615384614,pinnacle,,0.4643010758640699,win,Sam Reinhart 3 sog,,,,,2026-11-02,1.0
+prizepicks|DET@FLA|player_points|emmitt finnie|0.5|no,DET@FLA,prizepicks,player_points,,Emmitt Finnie,0.5,no,0.5780590717299579,0.5780590717299579,0.5246062992125984,pinnacle,,,loss,Emmitt Finnie 1 points,,,,,2026-11-02,0.0
+prizepicks|COL@CHI|player_sog|jaden schwartz|1.5|yes,COL@CHI,prizepicks,player_sog,,Jaden Schwartz,1.5,yes,0.5780590717299579,0.5780590717299579,0.4907842815032103,consensus,,0.5210645179277603,win,Jaden Schwartz 4 sog,,,,,2026-11-02,1.0
+prizepicks|COL@CHI|player_sog|devon toews|1.5|no,COL@CHI,prizepicks,player_sog,,Devon Toews,1.5,no,0.5780590717299579,0.5780590717299579,0.5020223264843877,pinnacle,,0.5409344626452894,loss,Devon Toews 2 sog,,,,,2026-11-02,0.0
+prizepicks|COL@CHI|player_sog|roman kantserov|1.5|yes,COL@CHI,prizepicks,player_sog,,Roman Kantserov,1.5,yes,0.5780590717299579,0.5780590717299579,0.5246062992125985,pinnacle,,0.5628092802216782,loss,Roman Kantserov 1 sog,,,,,2026-11-02,0.0
+prizepicks|COL@CHI|player_sog|roman kantserov|1.5|no,COL@CHI,prizepicks,player_sog,,Roman Kantserov,1.5,no,0.5780590717299579,0.5780590717299579,0.4753937007874015,pinnacle,,0.4371907197783218,win,Roman Kantserov 1 sog,,,,,2026-11-02,1.0
+underdog|VGK@BOS|player_sog|jack eichel|2.5|yes,VGK@BOS,underdog,player_sog,,Jack Eichel,2.5,yes,0.5780590717299579,0.5780590717299579,0.5281576830249397,pinnacle,,0.4254833200756668,loss,Jack Eichel 1 sog,,,,,2026-11-02,0.0
+prizepicks|COL@CHI|player_sog|gabriel landeskog|1.5|no,COL@CHI,prizepicks,player_sog,,Gabriel Landeskog,1.5,no,0.5780590717299579,0.5780590717299579,0.4909529553679131,pinnacle,,0.5389421750433309,win,Gabriel Landeskog 0 sog,,,,,2026-11-02,1.0
+prizepicks|COL@CHI|player_sog|cale makar|2.5|no,COL@CHI,prizepicks,player_sog,,Cale Makar,2.5,no,0.5780590717299579,0.5780590717299579,0.5,pinnacle,,0.5685277411622128,win,Cale Makar 2 sog,,,,,2026-11-02,1.0
+prizepicks|COL@CHI|player_sog|devon toews|1.5|yes,COL@CHI,prizepicks,player_sog,,Devon Toews,1.5,yes,0.5780590717299579,0.5780590717299579,0.4979776735156123,pinnacle,,0.4590655373547105,win,Devon Toews 2 sog,,,,,2026-11-02,1.0
+prizepicks|COL@CHI|player_sog|frank nazar|1.5|no,COL@CHI,prizepicks,player_sog,,Frank Nazar,1.5,no,0.5780590717299579,0.5780590717299579,0.5302041802585478,pinnacle,,0.4885348924853933,loss,Frank Nazar 3 sog,,,,,2026-11-02,0.0
+prizepicks|COL@CHI|player_sog|gabriel landeskog|1.5|yes,COL@CHI,prizepicks,player_sog,,Gabriel Landeskog,1.5,yes,0.5780590717299579,0.5780590717299579,0.5090470446320868,pinnacle,,0.4610578249566691,loss,Gabriel Landeskog 0 sog,,,,,2026-11-02,0.0
+prizepicks|COL@CHI|player_sog|frank nazar|1.5|yes,COL@CHI,prizepicks,player_sog,,Frank Nazar,1.5,yes,0.5780590717299579,0.5780590717299579,0.4697958197414522,pinnacle,,0.5114651075146067,win,Frank Nazar 3 sog,,,,,2026-11-02,1.0
+underdog|DET@FLA|player_points|sam bennett|0.5|yes,DET@FLA,underdog,player_points,,Sam Bennett,0.5,yes,0.5780590717299579,0.5780590717299579,0.5121511604358217,pinnacle,,,win,Sam Bennett 1 points,,,,,2026-11-02,1.0
+underdog|DET@FLA|player_points|viktor arvidsson|0.5|yes,DET@FLA,underdog,player_points,,Viktor Arvidsson,0.5,yes,0.5780590717299579,0.5780590717299579,0.5060689431946916,pinnacle,,,win,Viktor Arvidsson 1 points,,,,,2026-11-02,1.0
+underdog|DET@FLA|player_points|viktor arvidsson|0.5|no,DET@FLA,underdog,player_points,,Viktor Arvidsson,0.5,no,0.5780590717299579,0.5780590717299579,0.4939310568053083,pinnacle,,,loss,Viktor Arvidsson 1 points,,,,,2026-11-02,0.0
+underdog|DET@FLA|player_sog|michael brandsegg nygard|1.5|yes,DET@FLA,underdog,player_sog,,Michael Brandsegg-Nygard,1.5,yes,0.5780590717299579,0.5780590717299579,0.4959548561951377,pinnacle,,,win,Michael Brandsegg-Nygård 2 sog,,,,,2026-11-02,1.0
+underdog|DET@FLA|player_sog|michael brandsegg nygard|1.5|no,DET@FLA,underdog,player_sog,,Michael Brandsegg-Nygard,1.5,no,0.5780590717299579,0.5780590717299579,0.5040451438048623,pinnacle,,,loss,Michael Brandsegg-Nygård 2 sog,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_sog|ivan barbashev|1.5|yes,VGK@BOS,underdog,player_sog,,Ivan Barbashev,1.5,yes,0.5780590717299579,0.5780590717299579,0.4767751837789805,pinnacle,,0.474639866988216,loss,Ivan Barbashev 1 sog,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_sog|ivan barbashev|1.5|no,VGK@BOS,underdog,player_sog,,Ivan Barbashev,1.5,no,0.5780590717299579,0.5780590717299579,0.5232248162210196,pinnacle,,0.525360133011784,win,Ivan Barbashev 1 sog,,,,,2026-11-02,1.0
+underdog|VGK@BOS|player_sog|fraser minten|1.5|yes,VGK@BOS,underdog,player_sog,,Fraser Minten,1.5,yes,0.5780590717299579,0.5780590717299579,0.4776709426253408,consensus,,0.5626635243421616,loss,Fraser Minten 1 sog,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_sog|fraser minten|1.5|no,VGK@BOS,underdog,player_sog,,Fraser Minten,1.5,no,0.5780590717299579,0.5780590717299579,0.5223290573746592,consensus,,0.4373364756578384,win,Fraser Minten 1 sog,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_points|morgan geekie|0.5|yes,VGK@BOS,prizepicks,player_points,,Morgan Geekie,0.5,yes,0.5780590717299579,0.5780590717299579,0.5101214574898786,pinnacle,,,win,Morgan Geekie 1 points,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_points|elias lindholm|0.5|yes,VGK@BOS,prizepicks,player_points,,Elias Lindholm,0.5,yes,0.5780590717299579,0.5780590717299579,0.5101214574898786,pinnacle,,,win,Elias Lindholm 1 points,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_points|jj peterka|0.5|no,VGK@BOS,prizepicks,player_points,,JJ Peterka,0.5,no,0.5780590717299579,0.5780590717299579,0.5147058823529412,pinnacle,,,win,JJ Peterka 0 points,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_points|charlie mcavoy|0.5|yes,VGK@BOS,prizepicks,player_points,,Charlie McAvoy,0.5,yes,0.5780590717299579,0.5780590717299579,0.5048923679060665,pinnacle,,,loss,Charlie McAvoy 0 points,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_sog|morgan geekie|1.5|no,VGK@BOS,underdog,player_sog,,Morgan Geekie,1.5,no,0.5780590717299579,0.5780590717299579,0.4951076320939335,pinnacle,,0.5637518329259226,loss,Morgan Geekie 2 sog,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_points|morgan geekie|0.5|no,VGK@BOS,prizepicks,player_points,,Morgan Geekie,0.5,no,0.5780590717299579,0.5780590717299579,0.4898785425101214,pinnacle,,,loss,Morgan Geekie 1 points,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_sog|elias lindholm|1.5|yes,VGK@BOS,prizepicks,player_sog,,Elias Lindholm,1.5,yes,0.5780590717299579,0.5780590717299579,0.4939310568053083,pinnacle,,0.5044340567037838,loss,Elias Lindholm 0 sog,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_points|elias lindholm|0.5|no,VGK@BOS,prizepicks,player_points,,Elias Lindholm,0.5,no,0.5780590717299579,0.5780590717299579,0.4898785425101214,pinnacle,,,loss,Elias Lindholm 1 points,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_sog|charlie mcavoy|1.5|no,VGK@BOS,prizepicks,player_sog,,Charlie McAvoy,1.5,no,0.5780590717299579,0.5780590717299579,0.5147058823529412,pinnacle,,0.4939905914906342,win,Charlie McAvoy 1 sog,,,,,2026-11-02,1.0
+underdog|DET@FLA|player_points|sam bennett|0.5|no,DET@FLA,underdog,player_points,,Sam Bennett,0.5,no,0.5780590717299579,0.5780590717299579,0.4878488395641783,pinnacle,,,loss,Sam Bennett 1 points,,,,,2026-11-02,0.0
+underdog|DET@FLA|player_points|moritz seider|0.5|yes,DET@FLA,underdog,player_points,,Moritz Seider,0.5,yes,0.5780590717299579,0.5780590717299579,0.4852941176470587,pinnacle,,,win,Moritz Seider 2 points,,,,,2026-11-02,1.0
+underdog|DET@FLA|player_points|moritz seider|0.5|no,DET@FLA,underdog,player_points,,Moritz Seider,0.5,no,0.5780590717299579,0.5780590717299579,0.5147058823529412,pinnacle,,,loss,Moritz Seider 2 points,,,,,2026-11-02,0.0
+prizepicks|DET@FLA|player_points|moritz seider|0.5|no,DET@FLA,prizepicks,player_points,,Moritz Seider,0.5,no,0.5780590717299579,0.5780590717299579,0.5147058823529412,pinnacle,,,loss,Moritz Seider 2 points,,,,,2026-11-02,0.0
+prizepicks|DET@FLA|player_sog|viktor arvidsson|2.5|no,DET@FLA,prizepicks,player_sog,,Viktor Arvidsson,2.5,no,0.5780590717299579,0.5780590717299579,0.5418848167539267,pinnacle,,0.5775827836415102,loss,Viktor Arvidsson 5 sog,,,,,2026-11-02,0.0
+prizepicks|DET@FLA|player_sog|michael brandsegg nygard|1.5|yes,DET@FLA,prizepicks,player_sog,,Michael Brandsegg-Nygard,1.5,yes,0.5780590717299579,0.5780590717299579,0.4959548561951377,pinnacle,,,win,Michael Brandsegg-Nygård 2 sog,,,,,2026-11-02,1.0
+prizepicks|DET@FLA|player_sog|michael brandsegg nygard|1.5|no,DET@FLA,prizepicks,player_sog,,Michael Brandsegg-Nygard,1.5,no,0.5780590717299579,0.5780590717299579,0.5040451438048623,pinnacle,,,loss,Michael Brandsegg-Nygård 2 sog,,,,,2026-11-02,0.0
+prizepicks|DET@FLA|player_points|moritz seider|0.5|yes,DET@FLA,prizepicks,player_points,,Moritz Seider,0.5,yes,0.5780590717299579,0.5780590717299579,0.4852941176470587,pinnacle,,,win,Moritz Seider 2 points,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_sog|william karlsson|1.5|yes,VGK@BOS,prizepicks,player_sog,,William Karlsson,1.5,yes,0.5780590717299579,0.5780590717299579,0.5246062992125985,pinnacle,,0.5138313767747167,loss,William Karlsson 1 sog,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_sog|ivan barbashev|1.5|no,VGK@BOS,prizepicks,player_sog,,Ivan Barbashev,1.5,no,0.5780590717299579,0.5780590717299579,0.5232248162210196,pinnacle,,0.525360133011784,win,Ivan Barbashev 1 sog,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_sog|fraser minten|1.5|yes,VGK@BOS,prizepicks,player_sog,,Fraser Minten,1.5,yes,0.5780590717299579,0.5780590717299579,0.4776709426253408,consensus,,0.5626635243421616,loss,Fraser Minten 1 sog,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_sog|william karlsson|1.5|no,VGK@BOS,prizepicks,player_sog,,William Karlsson,1.5,no,0.5780590717299579,0.5780590717299579,0.4753937007874015,pinnacle,,0.4861686232252833,win,William Karlsson 1 sog,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_sog|ivan barbashev|1.5|yes,VGK@BOS,prizepicks,player_sog,,Ivan Barbashev,1.5,yes,0.5780590717299579,0.5780590717299579,0.4767751837789805,pinnacle,,0.474639866988216,loss,Ivan Barbashev 1 sog,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_sog|charlie mcavoy|1.5|yes,VGK@BOS,underdog,player_sog,,Charlie McAvoy,1.5,yes,0.5780590717299579,0.5780590717299579,0.4852941176470587,pinnacle,,0.5060094085093658,loss,Charlie McAvoy 1 sog,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_sog|charlie mcavoy|1.5|no,VGK@BOS,underdog,player_sog,,Charlie McAvoy,1.5,no,0.5780590717299579,0.5780590717299579,0.5147058823529412,pinnacle,,0.4939905914906342,win,Charlie McAvoy 1 sog,,,,,2026-11-02,1.0
+prizepicks|DET@FLA|player_points|sam bennett|0.5|yes,DET@FLA,prizepicks,player_points,,Sam Bennett,0.5,yes,0.5780590717299579,0.5780590717299579,0.5121511604358217,pinnacle,,,win,Sam Bennett 1 points,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_points|tomas hertl|0.5|no,VGK@BOS,prizepicks,player_points,,Tomas Hertl,0.5,no,0.5780590717299579,0.5780590717299579,0.5346534653465347,pinnacle,,,loss,Tomas Hertl 1 points,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_sog|elias lindholm|1.5|yes,VGK@BOS,underdog,player_sog,,Elias Lindholm,1.5,yes,0.5780590717299579,0.5780590717299579,0.4939310568053083,pinnacle,,0.5044340567037838,loss,Elias Lindholm 0 sog,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_sog|elias lindholm|1.5|no,VGK@BOS,underdog,player_sog,,Elias Lindholm,1.5,no,0.5780590717299579,0.5780590717299579,0.5060689431946916,pinnacle,,0.4955659432962161,win,Elias Lindholm 0 sog,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_points|tomas hertl|0.5|yes,VGK@BOS,prizepicks,player_points,,Tomas Hertl,0.5,yes,0.5780590717299579,0.5780590717299579,0.4653465346534653,pinnacle,,,win,Tomas Hertl 1 points,,,,,2026-11-02,1.0
+prizepicks|DET@FLA|player_points|sam bennett|0.5|no,DET@FLA,prizepicks,player_points,,Sam Bennett,0.5,no,0.5780590717299579,0.5780590717299579,0.4878488395641783,pinnacle,,,loss,Sam Bennett 1 points,,,,,2026-11-02,0.0
+prizepicks|DET@FLA|player_points|viktor arvidsson|0.5|yes,DET@FLA,prizepicks,player_points,,Viktor Arvidsson,0.5,yes,0.5780590717299579,0.5780590717299579,0.5060689431946916,pinnacle,,,win,Viktor Arvidsson 1 points,,,,,2026-11-02,1.0
+prizepicks|DET@FLA|player_points|viktor arvidsson|0.5|no,DET@FLA,prizepicks,player_points,,Viktor Arvidsson,0.5,no,0.5780590717299579,0.5780590717299579,0.4939310568053083,pinnacle,,,loss,Viktor Arvidsson 1 points,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_points|jj peterka|0.5|yes,VGK@BOS,prizepicks,player_points,,JJ Peterka,0.5,yes,0.5780590717299579,0.5780590717299579,0.4852941176470587,pinnacle,,,loss,JJ Peterka 0 points,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_points|charlie mcavoy|0.5|no,VGK@BOS,prizepicks,player_points,,Charlie McAvoy,0.5,no,0.5780590717299579,0.5780590717299579,0.4951076320939335,pinnacle,,,win,Charlie McAvoy 0 points,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_sog|charlie mcavoy|1.5|yes,VGK@BOS,prizepicks,player_sog,,Charlie McAvoy,1.5,yes,0.5780590717299579,0.5780590717299579,0.4852941176470587,pinnacle,,0.5060094085093658,loss,Charlie McAvoy 1 sog,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_sog|elias lindholm|1.5|no,VGK@BOS,prizepicks,player_sog,,Elias Lindholm,1.5,no,0.5780590717299579,0.5780590717299579,0.5060689431946916,pinnacle,,0.4955659432962161,win,Elias Lindholm 0 sog,,,,,2026-11-02,1.0
+underdog|VGK@BOS|player_sog|jack eichel|2.5|no,VGK@BOS,underdog,player_sog,,Jack Eichel,2.5,no,0.5780590717299579,0.5780590717299579,0.4718423169750603,pinnacle,,0.5745166799243332,win,Jack Eichel 1 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_sog|yegor sharangovich|1.5|yes,CGY@SJS,prizepicks,player_sog,,Yegor Sharangovich,1.5,yes,0.5780590717299579,0.5780590717299579,0.5020223264843877,pinnacle,,0.5306326339063667,win,Yegor Sharangovich 2 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_sog|yegor sharangovich|1.5|no,CGY@SJS,prizepicks,player_sog,,Yegor Sharangovich,1.5,no,0.5780590717299579,0.5780590717299579,0.4979776735156123,pinnacle,,0.4693673660936333,loss,Yegor Sharangovich 2 sog,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_points|tyler toffoli|0.5|yes,CGY@SJS,prizepicks,player_points,,Tyler Toffoli,0.5,yes,0.5780590717299579,0.5780590717299579,0.4835468841001747,consensus,,,loss,Tyler Toffoli 0 points,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_sog|collin graf|1.5|no,CGY@SJS,prizepicks,player_sog,,Collin Graf,1.5,no,0.5780590717299579,0.5780590717299579,0.5457986373959122,pinnacle,,0.5306575013840505,win,Collin Graf 0 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_sog|darnell nurse|1.5|yes,CGY@SJS,prizepicks,player_sog,,Darnell Nurse,1.5,yes,0.5780590717299579,0.5780590717299579,0.5040451438048622,pinnacle,,0.5058227859631583,loss,Darnell Nurse 0 sog,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_sog|darnell nurse|1.5|no,CGY@SJS,prizepicks,player_sog,,Darnell Nurse,1.5,no,0.5780590717299579,0.5780590717299579,0.4959548561951378,pinnacle,,0.4941772140368416,win,Darnell Nurse 0 sog,,,,,2026-11-02,1.0
+underdog|COL@CHI|player_points|nazem kadri|0.5|yes,COL@CHI,underdog,player_points,,Nazem Kadri,0.5,yes,0.5780590717299579,0.5780590717299579,0.548456916819047,pinnacle,,,win,Nazem Kadri 2 points,,,,,2026-11-02,1.0
+underdog|COL@CHI|player_points|nazem kadri|0.5|no,COL@CHI,underdog,player_points,,Nazem Kadri,0.5,no,0.5780590717299579,0.5780590717299579,0.451543083180953,pinnacle,,,loss,Nazem Kadri 2 points,,,,,2026-11-02,0.0
+underdog|COL@CHI|player_sog|cale makar|2.5|yes,COL@CHI,underdog,player_sog,,Cale Makar,2.5,yes,0.5780590717299579,0.5780590717299579,0.5,pinnacle,,0.4314722588377871,loss,Cale Makar 2 sog,,,,,2026-11-02,0.0
+underdog|COL@CHI|player_sog|cale makar|2.5|no,COL@CHI,underdog,player_sog,,Cale Makar,2.5,no,0.5780590717299579,0.5780590717299579,0.5,pinnacle,,0.5685277411622128,win,Cale Makar 2 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_sog|collin graf|1.5|yes,CGY@SJS,prizepicks,player_sog,,Collin Graf,1.5,yes,0.5780590717299579,0.5780590717299579,0.4542013626040878,pinnacle,,0.4693424986159494,loss,Collin Graf 0 sog,,,,,2026-11-02,0.0
+underdog|COL@CHI|player_sog|jaden schwartz|1.5|yes,COL@CHI,underdog,player_sog,,Jaden Schwartz,1.5,yes,0.5780590717299579,0.5780590717299579,0.4907842815032103,consensus,,0.5210645179277603,win,Jaden Schwartz 4 sog,,,,,2026-11-02,1.0
+underdog|CGY@SJS|player_sog|darnell nurse|1.5|yes,CGY@SJS,underdog,player_sog,,Darnell Nurse,1.5,yes,0.5780590717299579,0.5780590717299579,0.5040451438048622,pinnacle,,0.5058227859631583,loss,Darnell Nurse 0 sog,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_sog|pavel zacha|1.5|no,VGK@BOS,prizepicks,player_sog,,Pavel Zacha,1.5,no,0.5780590717299579,0.5780590717299579,0.5191532258064516,pinnacle,,0.4705123757017068,win,Pavel Zacha 1 sog,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_sog|pavel zacha|1.5|yes,VGK@BOS,prizepicks,player_sog,,Pavel Zacha,1.5,yes,0.5780590717299579,0.5780590717299579,0.4808467741935484,pinnacle,,0.5294876242982932,loss,Pavel Zacha 1 sog,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_sog|morgan geekie|1.5|yes,VGK@BOS,prizepicks,player_sog,,Morgan Geekie,1.5,yes,0.5780590717299579,0.5780590717299579,0.5048923679060665,pinnacle,,0.4362481670740774,win,Morgan Geekie 2 sog,,,,,2026-11-02,1.0
+prizepicks|VGK@BOS|player_sog|morgan geekie|1.5|no,VGK@BOS,prizepicks,player_sog,,Morgan Geekie,1.5,no,0.5780590717299579,0.5780590717299579,0.4951076320939335,pinnacle,,0.5637518329259226,loss,Morgan Geekie 2 sog,,,,,2026-11-02,0.0
+prizepicks|VGK@BOS|player_sog|fraser minten|1.5|no,VGK@BOS,prizepicks,player_sog,,Fraser Minten,1.5,no,0.5780590717299579,0.5780590717299579,0.5223290573746592,consensus,,0.4373364756578384,win,Fraser Minten 1 sog,,,,,2026-11-02,1.0
+underdog|VGK@BOS|player_points|morgan geekie|0.5|yes,VGK@BOS,underdog,player_points,,Morgan Geekie,0.5,yes,0.5780590717299579,0.5780590717299579,0.5101214574898786,pinnacle,,,win,Morgan Geekie 1 points,,,,,2026-11-02,1.0
+underdog|VGK@BOS|player_points|morgan geekie|0.5|no,VGK@BOS,underdog,player_points,,Morgan Geekie,0.5,no,0.5780590717299579,0.5780590717299579,0.4898785425101214,pinnacle,,,loss,Morgan Geekie 1 points,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_points|charlie mcavoy|0.5|yes,VGK@BOS,underdog,player_points,,Charlie McAvoy,0.5,yes,0.5780590717299579,0.5780590717299579,0.5048923679060665,pinnacle,,,loss,Charlie McAvoy 0 points,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_points|charlie mcavoy|0.5|no,VGK@BOS,underdog,player_points,,Charlie McAvoy,0.5,no,0.5780590717299579,0.5780590717299579,0.4951076320939335,pinnacle,,,win,Charlie McAvoy 0 points,,,,,2026-11-02,1.0
+underdog|VGK@BOS|player_points|elias lindholm|0.5|yes,VGK@BOS,underdog,player_points,,Elias Lindholm,0.5,yes,0.5780590717299579,0.5780590717299579,0.5101214574898786,pinnacle,,,win,Elias Lindholm 1 points,,,,,2026-11-02,1.0
+underdog|VGK@BOS|player_points|elias lindholm|0.5|no,VGK@BOS,underdog,player_points,,Elias Lindholm,0.5,no,0.5780590717299579,0.5780590717299579,0.4898785425101214,pinnacle,,,loss,Elias Lindholm 1 points,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_points|jj peterka|0.5|yes,VGK@BOS,underdog,player_points,,JJ Peterka,0.5,yes,0.5780590717299579,0.5780590717299579,0.4852941176470587,pinnacle,,,loss,JJ Peterka 0 points,,,,,2026-11-02,0.0
+underdog|VGK@BOS|player_points|jj peterka|0.5|no,VGK@BOS,underdog,player_points,,JJ Peterka,0.5,no,0.5780590717299579,0.5780590717299579,0.5147058823529412,pinnacle,,,win,JJ Peterka 0 points,,,,,2026-11-02,1.0
+underdog|VGK@BOS|player_sog|morgan geekie|1.5|yes,VGK@BOS,underdog,player_sog,,Morgan Geekie,1.5,yes,0.5780590717299579,0.5780590717299579,0.5048923679060665,pinnacle,,0.4362481670740774,win,Morgan Geekie 2 sog,,,,,2026-11-02,1.0
+underdog|CGY@SJS|player_sog|yegor sharangovich|1.5|no,CGY@SJS,underdog,player_sog,,Yegor Sharangovich,1.5,no,0.5780590717299579,0.5780590717299579,0.4979776735156123,pinnacle,,0.4693673660936333,loss,Yegor Sharangovich 2 sog,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_points|morgan frost|0.5|no,CGY@SJS,prizepicks,player_points,,Morgan Frost,0.5,no,0.5780590717299579,0.5780590717299579,0.4919057833178194,pinnacle,,,win,Morgan Frost 0 points,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_points|dmitry orlov|0.5|no,CGY@SJS,prizepicks,player_points,,Dmitry Orlov,0.5,no,0.5780590717299579,0.5780590717299579,0.5687832924663905,pinnacle,,,win,Dmitry Orlov 0 points,,,,,2026-11-02,1.0
+underdog|CGY@SJS|player_sog|yegor sharangovich|1.5|yes,CGY@SJS,underdog,player_sog,,Yegor Sharangovich,1.5,yes,0.5780590717299579,0.5780590717299579,0.5020223264843877,pinnacle,,0.5306326339063667,win,Yegor Sharangovich 2 sog,,,,,2026-11-02,1.0
+prizepicks|CGY@SJS|player_points|morgan frost|0.5|yes,CGY@SJS,prizepicks,player_points,,Morgan Frost,0.5,yes,0.5780590717299579,0.5780590717299579,0.5080942166821806,pinnacle,,,loss,Morgan Frost 0 points,,,,,2026-11-02,0.0
+prizepicks|CGY@SJS|player_points|dmitry orlov|0.5|yes,CGY@SJS,prizepicks,player_points,,Dmitry Orlov,0.5,yes,0.5780590717299579,0.5780590717299579,0.4312167075336096,pinnacle,,,loss,Dmitry Orlov 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|nathan mackinnon|0.5|no,COL@CHI,kalshi,player_goals,,Nathan MacKinnon,0.5,no,0.57,0.5871569999999999,,,,,win,Nathan MacKinnon 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|artturi lehkonen|0.5|yes,COL@CHI,kalshi,player_points,,Artturi Lehkonen,0.5,yes,0.57,0.5871569999999999,0.5652547469713892,pinnacle,,,loss,Artturi Lehkonen 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|p1_total||1.5|yes,COL@CHI,kalshi,p1_total,,,1.5,yes,0.57,0.5871569999999999,0.5601847592057563,pinnacle,0.54795,,win,1P 2-2,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|matt coronato|0.5|yes,CGY@SJS,kalshi,player_points,,Matt Coronato,0.5,yes,0.57,0.5871569999999999,0.5457986373959123,pinnacle,,,loss,Matt Coronato 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|p1_total||1.5|yes,CGY@SJS,kalshi,p1_total,,,1.5,yes,0.57,0.5871569999999999,0.5700245700245701,pinnacle,0.56445,,loss,1P 1-0,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|COL|3.5|yes,COL@CHI,kalshi,team_total,COL,,3.5,yes,0.57,0.5871569999999999,,,0.4358,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|anton lundell|0.5|no,DET@FLA,kalshi,player_points,,Anton Lundell,0.5,no,0.57,0.5871569999999999,0.5438496039698444,pinnacle,,,win,Anton Lundell 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|p1_total||1.5|yes,VGK@BOS,kalshi,p1_total,,,1.5,yes,0.58,0.5970519999999999,0.5657167468236307,pinnacle,0.54805,,loss,1P 0-1,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|devon toews|0.5|no,COL@CHI,kalshi,player_points,,Devon Toews,0.5,no,0.58,0.5970519999999999,0.5591984138224048,pinnacle,,,loss,Devon Toews 2 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|p1_result|COL|nan|no,COL@CHI,kalshi,p1_result,COL,,,no,0.58,0.5970519999999999,,,0.6293,,win,1P COL 2-2 CHI,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|tyler bertuzzi|0.5|no,COL@CHI,kalshi,player_points,,Tyler Bertuzzi,0.5,no,0.58,0.5970519999999999,0.5695364238410596,pinnacle,,,win,Tyler Bertuzzi 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|total||5.5|yes,VGK@BOS,kalshi,total,,,5.5,yes,0.58,0.5970519999999999,,,0.5575,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|carter verhaeghe|0.5|yes,DET@FLA,kalshi,player_points,,Carter Verhaeghe,0.5,yes,0.58,0.5970519999999999,0.5575221238938053,pinnacle,,,win,Carter Verhaeghe 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|team_total|SJS|3.5|no,CGY@SJS,kalshi,team_total,SJS,,3.5,no,0.58,0.5970519999999999,,,0.5505,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|lucas raymond|0.5|yes,DET@FLA,kalshi,player_points,,Lucas Raymond,0.5,yes,0.58,0.5970519999999999,0.5610184372256365,pinnacle,,,win,Lucas Raymond 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|total||5.5|yes,CGY@SJS,kalshi,total,,,5.5,yes,0.59,0.606933,,,0.61375,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|VGK|3.5|no,VGK@BOS,kalshi,team_total,VGK,,3.5,no,0.59,0.606933,,,0.6472,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|anton frondell|0.5|no,COL@CHI,kalshi,player_points,,Anton Frondell,0.5,no,0.59,0.606933,0.5751633986928105,pinnacle,,,win,Anton Frondell 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|total||6.5|no,DET@FLA,kalshi,total,,,6.5,no,0.59,0.606933,,,0.6172500000000001,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|COL@CHI|total||5.5|yes,COL@CHI,kalshi,total,,,5.5,yes,0.6,0.6168,,,0.58075,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|will smith|0.5|yes,CGY@SJS,kalshi,player_points,,Will Smith,0.5,yes,0.6,0.6168,0.5867514671091039,pinnacle,,,loss,Will Smith 0 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|zayne parekh|0.5|no,CGY@SJS,kalshi,player_points,,Zayne Parekh,0.5,no,0.6,0.6168,0.5676500508646998,pinnacle,,,win,Zayne Parekh 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|jaden schwartz|0.5|no,COL@CHI,kalshi,player_points,,Jaden Schwartz,0.5,no,0.6,0.6168,0.5940959409594095,pinnacle,,,loss,Jaden Schwartz 2 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|michael brandsegg nygard|0.5|no,DET@FLA,kalshi,player_points,,Michael Brandsegg-Nygård,0.5,no,0.61,0.626653,0.5829675153643548,pinnacle,,,loss,Michael Brandsegg-Nygård 2 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|sam reinhart|0.5|yes,DET@FLA,kalshi,player_points,,Sam Reinhart,0.5,yes,0.61,0.626653,0.6112600536193029,pinnacle,,,win,Sam Reinhart 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|macklin celebrini|0.5|no,CGY@SJS,kalshi,player_goals,,Macklin Celebrini,0.5,no,0.61,0.626653,,,,,win,Macklin Celebrini 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|brady tkachuk|0.5|yes,DET@FLA,kalshi,player_points,,Brady Tkachuk,0.5,yes,0.61,0.626653,0.6103896103896104,pinnacle,,,win,Brady Tkachuk 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|alex debrincat|0.5|yes,DET@FLA,kalshi,player_points,,Alex DeBrincat,0.5,yes,0.61,0.626653,0.6112600536193029,pinnacle,,,win,Alex DeBrincat 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|ml|FLA|nan|yes,DET@FLA,kalshi,ml,FLA,,,yes,0.62,0.636492,0.6191482263983098,pinnacle,0.53185,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|kiefer sherwood|0.5|no,CGY@SJS,kalshi,player_points,,Kiefer Sherwood,0.5,no,0.62,0.636492,0.591517991229651,pinnacle,,,loss,Kiefer Sherwood 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|james hagens|0.5|no,VGK@BOS,kalshi,player_points,,James Hagens,0.5,no,0.62,0.636492,,,,,loss,James Hagens 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|spread|FLA|1.5|no,DET@FLA,kalshi,spread,FLA,,1.5,no,0.62,0.636492,0.6070582348526101,pinnacle,0.72,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|mikael backlund|0.5|no,CGY@SJS,kalshi,player_points,,Mikael Backlund,0.5,no,0.62,0.636492,0.5986950370990559,pinnacle,,,win,Mikael Backlund 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|william karlsson|0.5|no,VGK@BOS,kalshi,player_points,,William Karlsson,0.5,no,0.62,0.636492,0.6182465221611129,pinnacle,,,win,William Karlsson 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|team_total|CGY|2.5|yes,CGY@SJS,kalshi,team_total,CGY,,2.5,yes,0.62,0.636492,,,0.6099,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|CGY|3.5|no,CGY@SJS,kalshi,team_total,CGY,,3.5,no,0.62,0.636492,,,0.6124499999999999,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|team_total|BOS|2.5|yes,VGK@BOS,kalshi,team_total,BOS,,2.5,yes,0.62,0.636492,,,0.63045,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|VGK@BOS|team_total|BOS|3.5|no,VGK@BOS,kalshi,team_total,BOS,,3.5,no,0.62,0.636492,,,0.5964499999999999,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|brady tkachuk|0.5|no,DET@FLA,kalshi,player_goals,,Brady Tkachuk,0.5,no,0.62,0.636492,,,,,win,Brady Tkachuk 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|mark stone|0.5|yes,VGK@BOS,kalshi,player_points,,Mark Stone,0.5,yes,0.62,0.636492,0.6017069701280228,pinnacle,,,win,Mark Stone 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|ml|DET|nan|no,DET@FLA,kalshi,ml,DET,,,no,0.62,0.636492,0.6191482263983098,pinnacle,0.5318499999999999,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|michael misa|0.5|no,CGY@SJS,kalshi,player_points,,Michael Misa,0.5,no,0.63,0.646317,0.5965417867435159,pinnacle,,,win,Michael Misa 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|t j hughes|0.5|no,COL@CHI,kalshi,player_points,,T.J. Hughes,0.5,no,0.63,0.646317,0.6040291767974991,pinnacle,,,loss,T.J. Hughes 2 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|david pastrnak|0.5|no,VGK@BOS,kalshi,player_goals,,David Pastrnak,0.5,no,0.63,0.646317,,,,,win,David Pastrnak 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|sam reinhart|0.5|no,DET@FLA,kalshi,player_goals,,Sam Reinhart,0.5,no,0.63,0.646317,,,,,loss,Sam Reinhart 1 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|shea theodore|0.5|no,VGK@BOS,kalshi,player_points,,Shea Theodore,0.5,no,0.63,0.646317,0.6182465221611129,pinnacle,,,win,Shea Theodore 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|p1_result|FLA|nan|no,DET@FLA,kalshi,p1_result,FLA,,,no,0.63,0.646317,,,0.6608,,win,1P DET 1-1 FLA,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|team_total|VGK|2.5|yes,VGK@BOS,kalshi,team_total,VGK,,2.5,yes,0.63,0.646317,,,0.5731,,loss,VGK 2-3 BOS (SO),,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|andrew copp|0.5|no,DET@FLA,kalshi,player_points,,Andrew Copp,0.5,no,0.64,0.656128,0.6186549858283947,pinnacle,,,loss,Andrew Copp 2 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|matthew tkachuk|0.5|yes,DET@FLA,kalshi,player_points,,Matthew Tkachuk,0.5,yes,0.64,0.656128,0.6666666666666667,pinnacle,,,win,Matthew Tkachuk 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|connor bedard|0.5|yes,COL@CHI,kalshi,player_points,,Connor Bedard,0.5,yes,0.64,0.656128,0.6269113149847094,pinnacle,,,win,Connor Bedard 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|p1_result|SJS|nan|no,CGY@SJS,kalshi,p1_result,SJS,,,no,0.64,0.656128,,,0.62955,,win,1P CGY 1-0 SJS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|cale makar|0.5|yes,COL@CHI,kalshi,player_points,,Cale Makar,0.5,yes,0.64,0.656128,0.6269113149847094,pinnacle,,,win,Cale Makar 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|frank nazar|0.5|no,COL@CHI,kalshi,player_points,,Frank Nazar,0.5,no,0.65,0.665925,0.6182465221611129,pinnacle,,,win,Frank Nazar 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|david pastrnak|1.5|no,VGK@BOS,kalshi,player_points,,David Pastrnak,1.5,no,0.65,0.665925,0.6467889908256881,consensus,,,win,David Pastrnak 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|fraser minten|0.5|no,VGK@BOS,kalshi,player_points,,Fraser Minten,0.5,no,0.65,0.665925,0.6133682830930538,pinnacle,,,win,Fraser Minten 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|yegor sharangovich|0.5|no,CGY@SJS,kalshi,player_points,,Yegor Sharangovich,0.5,no,0.65,0.665925,0.614753287890208,consensus,,,win,Yegor Sharangovich 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|team_total|SJS|2.5|yes,CGY@SJS,kalshi,team_total,SJS,,2.5,yes,0.65,0.665925,,,0.66775,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|macklin celebrini|1.5|no,CGY@SJS,kalshi,player_points,,Macklin Celebrini,1.5,no,0.65,0.665925,0.6182465221611129,pinnacle,,,win,Macklin Celebrini 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|jacob trouba|0.5|no,CGY@SJS,kalshi,player_points,,Jacob Trouba,0.5,no,0.66,0.675708,0.6261566933991363,pinnacle,,,loss,Jacob Trouba 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|mitch marner|0.5|yes,VGK@BOS,kalshi,player_points,,Mitch Marner,0.5,yes,0.66,0.675708,0.6418104851839792,pinnacle,,,win,Mitch Marner 2 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|eetu luostarinen|0.5|no,DET@FLA,kalshi,player_points,,Eetu Luostarinen,0.5,no,0.66,0.675708,,,,,win,Eetu Luostarinen 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|artturi lehkonen|0.5|no,COL@CHI,kalshi,player_goals,,Artturi Lehkonen,0.5,no,0.66,0.675708,,,,,win,Artturi Lehkonen 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|alex debrincat|0.5|no,DET@FLA,kalshi,player_goals,,Alex DeBrincat,0.5,no,0.66,0.675708,,,,,loss,Alex DeBrincat 1 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|lars eller|0.5|no,DET@FLA,kalshi,player_points,,Lars Eller,0.5,no,0.66,0.675708,0.6074802439035587,consensus,,,loss,Lars Eller 1 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|casey mittelstadt|0.5|no,VGK@BOS,kalshi,player_points,,Casey Mittelstadt,0.5,no,0.66,0.675708,0.6406823973260085,consensus,,,win,Casey Mittelstadt 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|collin graf|0.5|no,CGY@SJS,kalshi,player_points,,Collin Graf,0.5,no,0.67,0.685477,0.591517991229651,pinnacle,,,win,Collin Graf 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|ml|CHI|nan|no,COL@CHI,kalshi,ml,CHI,,,no,0.67,0.685477,0.6686953451176703,pinnacle,0.55935,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|aaron ekblad|0.5|no,DET@FLA,kalshi,player_points,,Aaron Ekblad,0.5,no,0.67,0.685477,0.6231155778894473,pinnacle,,,loss,Aaron Ekblad 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|simon nemec|0.5|no,CGY@SJS,kalshi,player_points,,Simon Nemec,0.5,no,0.67,0.685477,0.6362199416557223,pinnacle,,,win,Simon Nemec 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|ml|COL|nan|yes,COL@CHI,kalshi,ml,COL,,,yes,0.67,0.685477,0.6686953451176703,pinnacle,0.55935,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|jack eichel|1.5|no,VGK@BOS,kalshi,player_points,,Jack Eichel,1.5,no,0.68,0.6952320000000001,0.6653734238603298,pinnacle,,,win,Jack Eichel 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|COL|4.5|no,COL@CHI,kalshi,team_total,COL,,4.5,no,0.68,0.6952320000000001,,,0.75225,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|p1_result|BOS|nan|no,VGK@BOS,kalshi,p1_result,BOS,,,no,0.68,0.6952320000000001,,,0.646,,loss,1P VGK 0-1 BOS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|p1_result|TIE|nan|no,DET@FLA,kalshi,p1_result,TIE,,,no,0.68,0.6952320000000001,,,0.65345,,loss,1P DET 1-1 FLA,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|FLA|2.5|yes,DET@FLA,kalshi,team_total,FLA,,2.5,yes,0.68,0.6952320000000001,,,0.58165,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|martin necas|0.5|no,COL@CHI,kalshi,player_goals,,Martin Necas,0.5,no,0.68,0.6952320000000001,,,,,win,Martin Necas 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|p1_result|VGK|nan|no,VGK@BOS,kalshi,p1_result,VGK,,,no,0.68,0.6952320000000001,,,0.68005,,win,1P VGK 0-1 BOS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|martin necas|0.5|yes,COL@CHI,kalshi,player_points,,Martin Necas,0.5,yes,0.68,0.6952320000000001,0.6684988949963167,pinnacle,,,loss,Martin Necas 0 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|martin necas|1.5|no,COL@CHI,kalshi,player_points,,Martin Necas,1.5,no,0.68,0.6952320000000001,,,,,win,Martin Necas 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|p1_result|TIE|nan|no,COL@CHI,kalshi,p1_result,TIE,,,no,0.69,0.704973,,,0.6729499999999999,,loss,1P COL 2-2 CHI,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|spread|SJS|1.5|no,CGY@SJS,kalshi,spread,SJS,,1.5,no,0.69,0.704973,0.6757394124005109,pinnacle,0.69005,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|p1_result|TIE|nan|no,CGY@SJS,kalshi,p1_result,TIE,,,no,0.69,0.704973,,,0.68085,,win,1P CGY 1-0 SJS,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|jack eichel|0.5|yes,VGK@BOS,kalshi,player_points,,Jack Eichel,0.5,yes,0.69,0.704973,0.6696267686556175,consensus,,,loss,Jack Eichel 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|p1_result|TIE|nan|no,VGK@BOS,kalshi,p1_result,TIE,,,no,0.69,0.704973,,,0.67395,,win,1P VGK 0-1 BOS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|spread|COL|2.5|no,COL@CHI,kalshi,spread,COL,,2.5,no,0.69,0.704973,,,0.8066,,loss,COL 5-2 CHI,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|braeden bowman|0.5|no,VGK@BOS,kalshi,player_points,,Braeden Bowman,0.5,no,0.7,0.7147,,,,,win,Braeden Bowman 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|jack eichel|0.5|no,VGK@BOS,kalshi,player_goals,,Jack Eichel,0.5,no,0.7,0.7147,,,,,win,Jack Eichel 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|will smith|0.5|no,CGY@SJS,kalshi,player_goals,,Will Smith,0.5,no,0.7,0.7147,,,,,win,Will Smith 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|connor bedard|0.5|no,COL@CHI,kalshi,player_goals,,Connor Bedard,0.5,no,0.7,0.7147,,,,,win,Connor Bedard 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|matthew tkachuk|1.5|no,DET@FLA,kalshi,player_points,,Matthew Tkachuk,1.5,no,0.7,0.7147,,,,,win,Matthew Tkachuk 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|sam malinski|0.5|no,COL@CHI,kalshi,player_points,,Sam Malinski,0.5,no,0.7,0.7147,0.6627947750961922,consensus,,,loss,Sam Malinski 1 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|matthew tkachuk|0.5|no,DET@FLA,kalshi,player_goals,,Matthew Tkachuk,0.5,no,0.7,0.7147,,,,,win,Matthew Tkachuk 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|p1_result|CGY|nan|no,CGY@SJS,kalshi,p1_result,CGY,,,no,0.7,0.7147,,,0.6896,,loss,1P CGY 1-0 SJS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|carter verhaeghe|0.5|no,DET@FLA,kalshi,player_goals,,Carter Verhaeghe,0.5,no,0.7,0.7147,,,,,win,Carter Verhaeghe 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|spread|VGK|1.5|no,VGK@BOS,kalshi,spread,VGK,,1.5,no,0.71,0.724413,0.7038403651017139,pinnacle,0.76645,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|justin faulk|0.5|no,DET@FLA,kalshi,player_points,,Justin Faulk,0.5,no,0.71,0.724413,0.6718280563901087,pinnacle,,,loss,Justin Faulk 2 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|david pastrnak|0.5|yes,VGK@BOS,kalshi,player_points,,David Pastrnak,0.5,yes,0.71,0.724413,0.7023591231287118,consensus,,,win,David Pastrnak 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|mark stone|0.5|no,VGK@BOS,kalshi,player_goals,,Mark Stone,0.5,no,0.71,0.724413,,,,,loss,Mark Stone 1 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|rasmus andersson|0.5|no,VGK@BOS,kalshi,player_points,,Rasmus Andersson,0.5,no,0.71,0.724413,,,,,win,Rasmus Andersson 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|gustav forsling|0.5|no,DET@FLA,kalshi,player_points,,Gustav Forsling,0.5,no,0.72,0.734112,0.7025652366209642,consensus,,,win,Gustav Forsling 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|matt coronato|0.5|no,CGY@SJS,kalshi,player_goals,,Matt Coronato,0.5,no,0.72,0.734112,,,,,win,Matt Coronato 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|cale makar|1.5|no,COL@CHI,kalshi,player_points,,Cale Makar,1.5,no,0.73,0.7437969999999999,0.7077208881971205,consensus,,,win,Cale Makar 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||7.5|no,COL@CHI,kalshi,total,,,7.5,no,0.73,0.7437969999999999,,,0.71895,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|nazem kadri|0.5|no,COL@CHI,kalshi,player_goals,,Nazem Kadri,0.5,no,0.73,0.7437969999999999,,,,,loss,Nazem Kadri 2 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|spread|BOS|1.5|no,VGK@BOS,kalshi,spread,BOS,,1.5,no,0.73,0.7437969999999999,,,0.70185,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|viktor arvidsson|0.5|no,DET@FLA,kalshi,player_goals,,Viktor Arvidsson,0.5,no,0.73,0.7437969999999999,,,,,win,Viktor Arvidsson 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|p1_total||2.5|no,CGY@SJS,kalshi,p1_total,,,2.5,no,0.73,0.7437969999999999,,,0.7011000000000001,,win,1P 1-0,,,,,2026-11-02,1.0
+kalshi|DET@FLA|team_total|DET|3.5|no,DET@FLA,kalshi,team_total,DET,,3.5,no,0.73,0.7437969999999999,,,0.6850499999999999,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|morgan geekie|0.5|no,VGK@BOS,kalshi,player_goals,,Morgan Geekie,0.5,no,0.73,0.7437969999999999,,,,,loss,Morgan Geekie 1 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|team_total|CHI|3.5|no,COL@CHI,kalshi,team_total,CHI,,3.5,no,0.73,0.7437969999999999,,,0.64365,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|CHI|1.5|yes,COL@CHI,kalshi,team_total,CHI,,1.5,yes,0.73,0.7437969999999999,,,0.789,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|total||7.5|no,CGY@SJS,kalshi,total,,,7.5,no,0.74,0.753468,,,0.68845,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|macklin celebrini|0.5|yes,CGY@SJS,kalshi,player_points,,Macklin Celebrini,0.5,yes,0.74,0.753468,,,,,loss,Macklin Celebrini 0 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|p1_total||2.5|no,VGK@BOS,kalshi,p1_total,,,2.5,no,0.74,0.753468,,,0.7226,,win,1P 0-1,,,,,2026-11-02,1.0
+kalshi|DET@FLA|spread|FLA|2.5|no,DET@FLA,kalshi,spread,FLA,,2.5,no,0.74,0.753468,,,0.84325,,win,DET 5-3 FLA,,0.735,0.73,0.74,2026-11-02,1.0
+kalshi|DET@FLA|p1_result|DET|nan|no,DET@FLA,kalshi,p1_result,DET,,,no,0.74,0.753468,,,0.6857500000000001,,win,1P DET 1-1 FLA,,,,,2026-11-02,1.0
+kalshi|DET@FLA|team_total|DET|1.5|yes,DET@FLA,kalshi,team_total,DET,,1.5,yes,0.75,0.763125,,,0.76705,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|sam bennett|0.5|no,DET@FLA,kalshi,player_goals,,Sam Bennett,0.5,no,0.75,0.763125,,,,,loss,Sam Bennett 1 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|p1_result|CHI|nan|no,COL@CHI,kalshi,p1_result,CHI,,,no,0.75,0.763125,,,0.69775,,win,1P COL 2-2 CHI,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|pavel zacha|0.5|no,VGK@BOS,kalshi,player_goals,,Pavel Zacha,0.5,no,0.75,0.763125,,,,,win,Pavel Zacha 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|p1_total||2.5|no,COL@CHI,kalshi,p1_total,,,2.5,no,0.75,0.763125,,,0.7162,,loss,1P 2-2,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|jj peterka|0.5|no,VGK@BOS,kalshi,player_goals,,JJ Peterka,0.5,no,0.75,0.763125,,,,,win,JJ Peterka 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|mitch marner|1.5|no,VGK@BOS,kalshi,player_points,,Mitch Marner,1.5,no,0.75,0.763125,,,,,loss,Mitch Marner 2 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|spread|CGY|1.5|no,CGY@SJS,kalshi,spread,CGY,,1.5,no,0.75,0.763125,,,0.76245,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|brady tkachuk|1.5|no,DET@FLA,kalshi,player_points,,Brady Tkachuk,1.5,no,0.75,0.763125,,,,,win,Brady Tkachuk 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|noah hanifin|0.5|no,VGK@BOS,kalshi,player_points,,Noah Hanifin,0.5,no,0.75,0.763125,,,,,loss,Noah Hanifin 1 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|joel farabee|0.5|no,CGY@SJS,kalshi,player_goals,,Joel Farabee,0.5,no,0.75,0.763125,,,,,win,Joel Farabee 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|total||7.5|no,VGK@BOS,kalshi,total,,,7.5,no,0.75,0.763125,,,0.74255,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|DET@FLA|team_total|FLA|4.5|no,DET@FLA,kalshi,team_total,FLA,,4.5,no,0.76,0.772768,,,0.819,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|COL|2.5|yes,COL@CHI,kalshi,team_total,COL,,2.5,yes,0.76,0.772768,,,0.65865,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|lucas raymond|0.5|no,DET@FLA,kalshi,player_goals,,Lucas Raymond,0.5,no,0.76,0.772768,,,,,win,Lucas Raymond 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|p1_total||2.5|no,DET@FLA,kalshi,p1_total,,,2.5,no,0.76,0.772768,,,0.76325,,win,1P 1-1,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|brock nelson|0.5|no,COL@CHI,kalshi,player_goals,,Brock Nelson,0.5,no,0.76,0.772768,,,,,win,Brock Nelson 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|matvei gridin|0.5|no,CGY@SJS,kalshi,player_goals,,Matvei Gridin,0.5,no,0.76,0.772768,,,,,win,Matvei Gridin 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|sam reinhart|1.5|no,DET@FLA,kalshi,player_points,,Sam Reinhart,1.5,no,0.76,0.772768,,,,,win,Sam Reinhart 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|mark stone|1.5|no,VGK@BOS,kalshi,player_points,,Mark Stone,1.5,no,0.76,0.772768,,,,,win,Mark Stone 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|roman kantserov|0.5|no,COL@CHI,kalshi,player_goals,,Roman Kantserov,0.5,no,0.77,0.782397,,,,,loss,Roman Kantserov 1 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||4.5|yes,DET@FLA,kalshi,total,,,4.5,yes,0.77,0.782397,,,0.71525,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|emmitt finnie|0.5|no,DET@FLA,kalshi,player_goals,,Emmitt Finnie,0.5,no,0.77,0.782397,,,,,loss,Emmitt Finnie 1 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|hampus lindholm|0.5|no,VGK@BOS,kalshi,player_points,,Hampus Lindholm,0.5,no,0.77,0.782397,0.713410750823182,pinnacle,,,win,Hampus Lindholm 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|tomas hertl|0.5|no,VGK@BOS,kalshi,player_goals,,Tomas Hertl,0.5,no,0.77,0.782397,,,,,win,Tomas Hertl 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|mitch marner|0.5|no,VGK@BOS,kalshi,player_goals,,Mitch Marner,0.5,no,0.77,0.782397,,,,,win,Mitch Marner 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|elias lindholm|0.5|no,VGK@BOS,kalshi,player_goals,,Elias Lindholm,0.5,no,0.77,0.782397,,,,,win,Elias Lindholm 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|nathan mackinnon|0.5|yes,COL@CHI,kalshi,player_points,,Nathan MacKinnon,0.5,yes,0.77,0.782397,,,,,win,Nathan MacKinnon 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|brayden mcnabb|0.5|no,VGK@BOS,kalshi,player_points,,Brayden McNabb,0.5,no,0.78,0.792012,,,,,win,Brayden McNabb 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|total||7.5|no,DET@FLA,kalshi,total,,,7.5,no,0.78,0.792012,,,0.79345,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|SJS|4.5|no,CGY@SJS,kalshi,team_total,SJS,,4.5,no,0.78,0.792012,,,0.7398,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|cale makar|0.5|no,COL@CHI,kalshi,player_goals,,Cale Makar,0.5,no,0.78,0.792012,,,,,win,Cale Makar 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|morgan frost|0.5|no,CGY@SJS,kalshi,player_goals,,Morgan Frost,0.5,no,0.78,0.792012,,,,,win,Morgan Frost 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|ivar stenberg|0.5|no,CGY@SJS,kalshi,player_goals,,Ivar Stenberg,0.5,no,0.78,0.792012,,,,,win,Ivar Stenberg 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|tyler toffoli|0.5|no,CGY@SJS,kalshi,player_goals,,Tyler Toffoli,0.5,no,0.78,0.792012,,,,,win,Tyler Toffoli 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|mason marchment|0.5|no,CGY@SJS,kalshi,player_goals,,Mason Marchment,0.5,no,0.79,0.801613,,,,,win,Mason Marchment 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|anton lundell|0.5|no,DET@FLA,kalshi,player_goals,,Anton Lundell,0.5,no,0.79,0.801613,,,,,win,Anton Lundell 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|gabriel landeskog|0.5|no,COL@CHI,kalshi,player_goals,,Gabriel Landeskog,0.5,no,0.79,0.801613,,,,,win,Gabriel Landeskog 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|will smith|1.5|no,CGY@SJS,kalshi,player_points,,Will Smith,1.5,no,0.79,0.801613,,,,,win,Will Smith 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|connor bedard|1.5|no,COL@CHI,kalshi,player_points,,Connor Bedard,1.5,no,0.79,0.801613,,,,,win,Connor Bedard 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|ivan barbashev|0.5|no,VGK@BOS,kalshi,player_goals,,Ivan Barbashev,0.5,no,0.79,0.801613,,,,,win,Ivan Barbashev 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|team_total|VGK|4.5|no,VGK@BOS,kalshi,team_total,VGK,,4.5,no,0.79,0.801613,,,0.8218,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|trevor connelly|0.5|no,VGK@BOS,kalshi,player_goals,,Trevor Connelly,0.5,no,0.8,0.8112,,,,,loss,Trevor Connelly 1 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||4.5|yes,VGK@BOS,kalshi,total,,,4.5,yes,0.8,0.8112,,,0.7709,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|kiefer sherwood|0.5|no,CGY@SJS,kalshi,player_goals,,Kiefer Sherwood,0.5,no,0.8,0.8112,,,,,win,Kiefer Sherwood 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|team_total|BOS|4.5|no,VGK@BOS,kalshi,team_total,BOS,,4.5,no,0.8,0.8112,,,0.7787999999999999,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|CGY@SJS|spread|SJS|2.5|no,CGY@SJS,kalshi,spread,SJS,,2.5,no,0.8,0.8112,,,0.81455,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|patrick kane|0.5|no,COL@CHI,kalshi,player_goals,,Patrick Kane,0.5,no,0.8,0.8112,,,,,win,Patrick Kane 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|spread|VGK|2.5|no,VGK@BOS,kalshi,spread,VGK,,2.5,no,0.81,0.8207730000000001,,,0.872,,win,VGK 2-3 BOS (SO),,0.805,0.8,0.81,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|t j hughes|0.5|no,COL@CHI,kalshi,player_goals,,T.J. Hughes,0.5,no,0.81,0.8207730000000001,,,,,win,T.J. Hughes 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|alex debrincat|1.5|no,DET@FLA,kalshi,player_points,,Alex DeBrincat,1.5,no,0.81,0.8207730000000001,,,,,win,Alex DeBrincat 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|total||8.5|no,CGY@SJS,kalshi,total,,,8.5,no,0.81,0.8207730000000001,,,0.77595,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|mikael backlund|0.5|no,CGY@SJS,kalshi,player_goals,,Mikael Backlund,0.5,no,0.81,0.8207730000000001,,,,,win,Mikael Backlund 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|lucas raymond|1.5|no,DET@FLA,kalshi,player_points,,Lucas Raymond,1.5,no,0.81,0.8207730000000001,,,,,win,Lucas Raymond 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||8.5|no,COL@CHI,kalshi,total,,,8.5,no,0.81,0.8207730000000001,,,0.7997,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|carter verhaeghe|1.5|no,DET@FLA,kalshi,player_points,,Carter Verhaeghe,1.5,no,0.81,0.8207730000000001,,,,,win,Carter Verhaeghe 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|tyler bertuzzi|0.5|no,COL@CHI,kalshi,player_goals,,Tyler Bertuzzi,0.5,no,0.81,0.8207730000000001,,,,,win,Tyler Bertuzzi 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||4.5|yes,COL@CHI,kalshi,total,,,4.5,yes,0.81,0.8207730000000001,,,0.7772,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|michael kesselring|0.5|no,CGY@SJS,kalshi,player_points,,Michael Kesselring,0.5,no,0.81,0.8207730000000001,,,,,win,Michael Kesselring 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|total||4.5|yes,CGY@SJS,kalshi,total,,,4.5,yes,0.81,0.8207730000000001,,,0.80645,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|total||8.5|no,VGK@BOS,kalshi,total,,,8.5,no,0.82,0.830332,,,0.81865,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|fraser minten|0.5|no,VGK@BOS,kalshi,player_goals,,Fraser Minten,0.5,no,0.82,0.830332,,,,,win,Fraser Minten 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|spread|DET|1.5|no,DET@FLA,kalshi,spread,DET,,1.5,no,0.82,0.830332,,,0.7669,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|team_total|CGY|4.5|no,CGY@SJS,kalshi,team_total,CGY,,4.5,no,0.82,0.830332,,,0.7926,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|artturi lehkonen|1.5|no,COL@CHI,kalshi,player_points,,Artturi Lehkonen,1.5,no,0.82,0.830332,,,,,win,Artturi Lehkonen 0 points,,0.785,0.77,0.8,2026-11-02,1.0
+kalshi|DET@FLA|p1_total||0.5|yes,DET@FLA,kalshi,p1_total,,,0.5,yes,0.82,0.830332,,,0.80905,,win,1P 1-1,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|pavel zacha|1.5|no,VGK@BOS,kalshi,player_points,,Pavel Zacha,1.5,no,0.82,0.830332,,,,,win,Pavel Zacha 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|william karlsson|0.5|no,VGK@BOS,kalshi,player_goals,,William Karlsson,0.5,no,0.82,0.830332,,,,,win,William Karlsson 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|anton frondell|0.5|no,COL@CHI,kalshi,player_goals,,Anton Frondell,0.5,no,0.82,0.830332,,,,,win,Anton Frondell 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|seth jones|1.5|no,DET@FLA,kalshi,player_points,,Seth Jones,1.5,no,0.83,0.839877,,,,,win,Seth Jones 0 points,,0.81,0.8,0.82,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|joel farabee|1.5|no,CGY@SJS,kalshi,player_points,,Joel Farabee,1.5,no,0.83,0.839877,,,,,win,Joel Farabee 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|team_total|BOS|1.5|yes,VGK@BOS,kalshi,team_total,BOS,,1.5,yes,0.83,0.839877,,,0.82995,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|CGY@SJS|team_total|CGY|1.5|yes,CGY@SJS,kalshi,team_total,CGY,,1.5,yes,0.83,0.839877,,,0.81595,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|ryan strome|0.5|no,CGY@SJS,kalshi,player_goals,,Ryan Strome,0.5,no,0.83,0.839877,,,,,win,Ryan Strome 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|spread|BOS|2.5|no,VGK@BOS,kalshi,spread,BOS,,2.5,no,0.83,0.839877,,,0.8242,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|brett howden|0.5|no,VGK@BOS,kalshi,player_goals,,Brett Howden,0.5,no,0.83,0.839877,,,,,win,Brett Howden 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|james hagens|0.5|no,VGK@BOS,kalshi,player_goals,,James Hagens,0.5,no,0.83,0.839877,,,,,loss,James Hagens 1 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|team_total|VGK|1.5|yes,VGK@BOS,kalshi,team_total,VGK,,1.5,yes,0.84,0.8494079999999999,,,0.7964,,win,VGK 2-3 BOS (SO),,0.825,0.81,0.84,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|michael misa|0.5|no,CGY@SJS,kalshi,player_goals,,Michael Misa,0.5,no,0.84,0.8494079999999999,,,,,win,Michael Misa 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|zach whitecloud|0.5|no,CGY@SJS,kalshi,player_points,,Zach Whitecloud,0.5,no,0.84,0.8494079999999999,,,,,win,Zach Whitecloud 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|collin graf|0.5|no,CGY@SJS,kalshi,player_goals,,Collin Graf,0.5,no,0.84,0.8494079999999999,,,,,win,Collin Graf 0 goals,,0.825,0.82,0.83,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|aydar suniev|0.5|no,CGY@SJS,kalshi,player_goals,,Aydar Suniev,0.5,no,0.84,0.8494079999999999,,,,,win,Aydar Suniev 0 goals,,0.805,0.8,0.81,2026-11-02,1.0
+kalshi|CGY@SJS|spread|CGY|2.5|no,CGY@SJS,kalshi,spread,CGY,,2.5,no,0.84,0.8494079999999999,,,0.87025,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|yegor sharangovich|0.5|no,CGY@SJS,kalshi,player_goals,,Yegor Sharangovich,0.5,no,0.84,0.8494079999999999,,,,,win,Yegor Sharangovich 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|michael brandsegg nygard|0.5|no,DET@FLA,kalshi,player_goals,,Michael Brandsegg-Nygård,0.5,no,0.85,0.8589249999999999,,,,,loss,Michael Brandsegg-Nygård 1 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|p1_total||0.5|yes,CGY@SJS,kalshi,p1_total,,,0.5,yes,0.85,0.8589249999999999,,,0.84885,,win,1P 1-0,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|charlie mcavoy|1.5|no,VGK@BOS,kalshi,player_points,,Charlie McAvoy,1.5,no,0.85,0.8589249999999999,,,,,win,Charlie McAvoy 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|spread|CHI|1.5|no,COL@CHI,kalshi,spread,CHI,,1.5,no,0.85,0.8589249999999999,,,0.7817000000000001,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|kevin bahl|0.5|no,CGY@SJS,kalshi,player_points,,Kevin Bahl,0.5,no,0.85,0.8589249999999999,,,,,win,Kevin Bahl 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|ryan donato|0.5|no,COL@CHI,kalshi,player_goals,,Ryan Donato,0.5,no,0.85,0.8589249999999999,,,,,win,Ryan Donato 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|frank nazar|0.5|no,COL@CHI,kalshi,player_goals,,Frank Nazar,0.5,no,0.85,0.8589249999999999,,,,,win,Frank Nazar 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|morgan geekie|1.5|no,VGK@BOS,kalshi,player_points,,Morgan Geekie,1.5,no,0.85,0.8589249999999999,,,,,win,Morgan Geekie 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|team_total|SJS|1.5|yes,CGY@SJS,kalshi,team_total,SJS,,1.5,yes,0.85,0.8589249999999999,,,0.8557,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||8.5|no,DET@FLA,kalshi,total,,,8.5,no,0.85,0.8589249999999999,,,0.86095,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|COL@CHI|p1_total||0.5|yes,COL@CHI,kalshi,p1_total,,,0.5,yes,0.85,0.8589249999999999,,,0.83925,,win,1P 2-2,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|p1_total||0.5|yes,VGK@BOS,kalshi,p1_total,,,0.5,yes,0.85,0.8589249999999999,,,0.83945,,win,1P 0-1,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|viktor arvidsson|1.5|no,DET@FLA,kalshi,player_points,,Viktor Arvidsson,1.5,no,0.86,0.868428,,,,,win,Viktor Arvidsson 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|eetu luostarinen|0.5|no,DET@FLA,kalshi,player_goals,,Eetu Luostarinen,0.5,no,0.86,0.868428,,,,,win,Eetu Luostarinen 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|matvei gridin|1.5|no,CGY@SJS,kalshi,player_points,,Matvei Gridin,1.5,no,0.86,0.868428,,,,,win,Matvei Gridin 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|COL|5.5|no,COL@CHI,kalshi,team_total,COL,,5.5,no,0.86,0.868428,,,0.8799,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|matt coronato|1.5|no,CGY@SJS,kalshi,player_points,,Matt Coronato,1.5,no,0.86,0.868428,,,,,win,Matt Coronato 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|elias lindholm|1.5|no,VGK@BOS,kalshi,player_points,,Elias Lindholm,1.5,no,0.86,0.868428,,,,,win,Elias Lindholm 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|jaden schwartz|0.5|no,COL@CHI,kalshi,player_goals,,Jaden Schwartz,0.5,no,0.86,0.868428,,,,,loss,Jaden Schwartz 2 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|total||3.5|yes,DET@FLA,kalshi,total,,,3.5,yes,0.86,0.868428,,,0.80935,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|casey mittelstadt|0.5|no,VGK@BOS,kalshi,player_goals,,Casey Mittelstadt,0.5,no,0.86,0.868428,,,,,win,Casey Mittelstadt 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|andrew copp|0.5|no,DET@FLA,kalshi,player_goals,,Andrew Copp,0.5,no,0.87,0.877917,,,,,win,Andrew Copp 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|moritz seider|1.5|no,DET@FLA,kalshi,player_points,,Moritz Seider,1.5,no,0.87,0.877917,,,,,loss,Moritz Seider 2 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|mason marchment|1.5|no,CGY@SJS,kalshi,player_points,,Mason Marchment,1.5,no,0.87,0.877917,,,,,win,Mason Marchment 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|sam bennett|1.5|no,DET@FLA,kalshi,player_points,,Sam Bennett,1.5,no,0.87,0.877917,,,,,win,Sam Bennett 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|ivar stenberg|1.5|no,CGY@SJS,kalshi,player_points,,Ivar Stenberg,1.5,no,0.87,0.877917,,,,,win,Ivar Stenberg 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|brock nelson|1.5|no,COL@CHI,kalshi,player_points,,Brock Nelson,1.5,no,0.87,0.877917,,,,,win,Brock Nelson 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|braeden bowman|0.5|no,VGK@BOS,kalshi,player_goals,,Braeden Bowman,0.5,no,0.87,0.877917,,,,,win,Braeden Bowman 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|tomas hertl|1.5|no,VGK@BOS,kalshi,player_points,,Tomas Hertl,1.5,no,0.87,0.877917,,,,,win,Tomas Hertl 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|ivan barbashev|1.5|no,VGK@BOS,kalshi,player_points,,Ivan Barbashev,1.5,no,0.88,0.887392,,,,,win,Ivan Barbashev 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|team_total|FLA|1.5|yes,DET@FLA,kalshi,team_total,FLA,,1.5,yes,0.88,0.887392,,,0.8003,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|jj peterka|1.5|no,VGK@BOS,kalshi,player_points,,JJ Peterka,1.5,no,0.88,0.887392,,,,,win,JJ Peterka 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|patrick kane|1.5|no,COL@CHI,kalshi,player_points,,Patrick Kane,1.5,no,0.88,0.887392,,,,,win,Patrick Kane 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|roman kantserov|1.5|no,COL@CHI,kalshi,player_points,,Roman Kantserov,1.5,no,0.88,0.887392,,,,,win,Roman Kantserov 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|david pastrnak|2.5|no,VGK@BOS,kalshi,player_points,,David Pastrnak,2.5,no,0.88,0.887392,,,,,win,David Pastrnak 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|total||3.5|yes,VGK@BOS,kalshi,total,,,3.5,yes,0.88,0.887392,,,0.8536,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|CGY@SJS|total||3.5|yes,CGY@SJS,kalshi,total,,,3.5,yes,0.88,0.887392,,,0.8774,,loss,CGY 2-1 SJS,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|dmitry orlov|1.5|no,CGY@SJS,kalshi,player_points,,Dmitry Orlov,1.5,no,0.88,0.887392,,,,,win,Dmitry Orlov 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|emmitt finnie|1.5|no,DET@FLA,kalshi,player_points,,Emmitt Finnie,1.5,no,0.88,0.887392,,,,,win,Emmitt Finnie 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|marat khusnutdinov|0.5|no,VGK@BOS,kalshi,player_goals,,Marat Khusnutdinov,0.5,no,0.88,0.887392,,,,,win,Marat Khusnutdinov 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|seth jones|0.5|no,DET@FLA,kalshi,player_goals,,Seth Jones,0.5,no,0.88,0.887392,,,,,win,Seth Jones 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|zayne parekh|0.5|no,CGY@SJS,kalshi,player_goals,,Zayne Parekh,0.5,no,0.89,0.896853,,,,,win,Zayne Parekh 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|CHI|4.5|no,COL@CHI,kalshi,team_total,CHI,,4.5,no,0.89,0.896853,,,0.81715,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|trevor connelly|1.5|no,VGK@BOS,kalshi,player_points,,Trevor Connelly,1.5,no,0.89,0.896853,,,,,win,Trevor Connelly 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|morgan frost|1.5|no,CGY@SJS,kalshi,player_points,,Morgan Frost,1.5,no,0.89,0.896853,,,,,win,Morgan Frost 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|spread|DET|2.5|no,DET@FLA,kalshi,spread,DET,,2.5,no,0.89,0.896853,,,0.87525,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|martin pospisil|0.5|no,CGY@SJS,kalshi,player_goals,,Martin Pospisil,0.5,no,0.89,0.896853,,,,,win,Martin Pospisil 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|adam klapka|0.5|no,CGY@SJS,kalshi,player_goals,,Adam Klapka,0.5,no,0.89,0.896853,,,,,loss,Adam Klapka 1 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|lars eller|0.5|no,DET@FLA,kalshi,player_goals,,Lars Eller,0.5,no,0.89,0.896853,,,,,win,Lars Eller 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|michael rasmussen|0.5|no,DET@FLA,kalshi,player_goals,,Michael Rasmussen,0.5,no,0.89,0.896853,,,,,win,Michael Rasmussen 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|oliver moore|0.5|no,COL@CHI,kalshi,player_goals,,Oliver Moore,0.5,no,0.89,0.896853,,,,,win,Oliver Moore 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|jack eichel|2.5|no,VGK@BOS,kalshi,player_points,,Jack Eichel,2.5,no,0.89,0.896853,,,,,win,Jack Eichel 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|team_total|DET|4.5|no,DET@FLA,kalshi,team_total,DET,,4.5,no,0.89,0.896853,,,0.8493999999999999,,loss,DET 5-3 FLA,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|charlie mcavoy|0.5|no,VGK@BOS,kalshi,player_goals,,Charlie McAvoy,0.5,no,0.89,0.896853,,,,,win,Charlie McAvoy 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|moritz seider|0.5|no,DET@FLA,kalshi,player_goals,,Moritz Seider,0.5,no,0.89,0.896853,,,,,win,Moritz Seider 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|devon toews|1.5|no,COL@CHI,kalshi,player_points,,Devon Toews,1.5,no,0.9,0.9063,,,,,loss,Devon Toews 2 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|team_total|FLA|5.5|no,DET@FLA,kalshi,team_total,FLA,,5.5,no,0.9,0.9063,,,0.9202,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|anton lundell|1.5|no,DET@FLA,kalshi,player_points,,Anton Lundell,1.5,no,0.9,0.9063,,,,,win,Anton Lundell 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|nathan mackinnon|2.5|no,COL@CHI,kalshi,player_points,,Nathan MacKinnon,2.5,no,0.9,0.9063,,,,,win,Nathan MacKinnon 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|matthew tkachuk|2.5|no,DET@FLA,kalshi,player_points,,Matthew Tkachuk,2.5,no,0.9,0.9063,,,,,win,Matthew Tkachuk 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|tyler toffoli|1.5|no,CGY@SJS,kalshi,player_points,,Tyler Toffoli,1.5,no,0.9,0.9063,,,,,win,Tyler Toffoli 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|ryan greene|0.5|no,COL@CHI,kalshi,player_goals,,Ryan Greene,0.5,no,0.9,0.9063,,,,,win,Ryan Greene 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||3.5|yes,COL@CHI,kalshi,total,,,3.5,yes,0.9,0.9063,,,0.85745,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|teuvo teravainen|0.5|no,COL@CHI,kalshi,player_goals,,Teuvo Teravainen,0.5,no,0.9,0.9063,,,,,win,Teuvo Teravainen 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|nazem kadri|1.5|no,COL@CHI,kalshi,player_points,,Nazem Kadri,1.5,no,0.9,0.9063,,,,,loss,Nazem Kadri 2 points,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|j t compher|0.5|no,DET@FLA,kalshi,player_goals,,J.T. Compher,0.5,no,0.9,0.9063,,,,,win,J.T. Compher 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|shea theodore|0.5|no,VGK@BOS,kalshi,player_goals,,Shea Theodore,0.5,no,0.9,0.9063,,,,,win,Shea Theodore 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|macklin celebrini|2.5|no,CGY@SJS,kalshi,player_points,,Macklin Celebrini,2.5,no,0.91,0.915733,,,,,win,Macklin Celebrini 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|james hagens|1.5|no,VGK@BOS,kalshi,player_points,,James Hagens,1.5,no,0.91,0.915733,,,,,win,James Hagens 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|parker kelly|0.5|no,COL@CHI,kalshi,player_goals,,Parker Kelly,0.5,no,0.91,0.915733,,,,,win,Parker Kelly 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|zayne parekh|1.5|no,CGY@SJS,kalshi,player_points,,Zayne Parekh,1.5,no,0.91,0.915733,,,,,win,Zayne Parekh 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|jonathan castagna|0.5|no,CGY@SJS,kalshi,player_goals,,Jonathan Castagna,0.5,no,0.91,0.915733,,,,,win,Jonathan Castagna 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|simon nemec|0.5|no,CGY@SJS,kalshi,player_goals,,Simon Nemec,0.5,no,0.91,0.915733,,,,,win,Simon Nemec 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|team_total|SJS|5.5|no,CGY@SJS,kalshi,team_total,SJS,,5.5,no,0.91,0.915733,,,0.87235,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|connor bedard|2.5|no,COL@CHI,kalshi,player_points,,Connor Bedard,2.5,no,0.92,0.925152,,,,,win,Connor Bedard 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|matthew poitras|0.5|no,VGK@BOS,kalshi,player_goals,,Matthew Poitras,0.5,no,0.92,0.925152,,,,,win,Matthew Poitras 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|COL|1.5|yes,COL@CHI,kalshi,team_total,COL,,1.5,yes,0.92,0.925152,,,0.847,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|mark kastelic|0.5|no,VGK@BOS,kalshi,player_goals,,Mark Kastelic,0.5,no,0.92,0.925152,,,,,win,Mark Kastelic 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|david pastrnak|1.5|no,VGK@BOS,kalshi,player_goals,,David Pastrnak,1.5,no,0.92,0.925152,,,,,win,David Pastrnak 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|andrew mangiapane|0.5|no,COL@CHI,kalshi,player_goals,,Andrew Mangiapane,0.5,no,0.92,0.925152,,,,,win,Andrew Mangiapane 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|rasmus andersson|0.5|no,VGK@BOS,kalshi,player_goals,,Rasmus Andersson,0.5,no,0.92,0.925152,,,,,win,Rasmus Andersson 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|mitch marner|2.5|no,VGK@BOS,kalshi,player_points,,Mitch Marner,2.5,no,0.92,0.925152,,,,,win,Mitch Marner 2 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|mark stone|2.5|no,VGK@BOS,kalshi,player_points,,Mark Stone,2.5,no,0.92,0.925152,,,,,win,Mark Stone 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|team_total|BOS|5.5|no,VGK@BOS,kalshi,team_total,BOS,,5.5,no,0.92,0.925152,,,0.89605,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|COL@CHI|spread|CHI|2.5|no,COL@CHI,kalshi,spread,CHI,,2.5,no,0.92,0.925152,,,0.87965,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|dmitry orlov|0.5|no,CGY@SJS,kalshi,player_goals,,Dmitry Orlov,0.5,no,0.92,0.925152,,,,,win,Dmitry Orlov 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|sam reinhart|2.5|no,DET@FLA,kalshi,player_points,,Sam Reinhart,2.5,no,0.92,0.925152,,,,,win,Sam Reinhart 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|barclay goodrow|0.5|no,CGY@SJS,kalshi,player_goals,,Barclay Goodrow,0.5,no,0.92,0.925152,,,,,win,Barclay Goodrow 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||9.5|no,COL@CHI,kalshi,total,,,9.5,no,0.92,0.925152,,,0.90475,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|total||9.5|no,CGY@SJS,kalshi,total,,,9.5,no,0.92,0.925152,,,0.8875500000000001,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|mikael backlund|1.5|no,CGY@SJS,kalshi,player_points,,Mikael Backlund,1.5,no,0.92,0.925152,,,,,win,Mikael Backlund 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|devon toews|0.5|no,COL@CHI,kalshi,player_goals,,Devon Toews,0.5,no,0.92,0.925152,,,,,loss,Devon Toews 1 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_points|brady tkachuk|2.5|no,DET@FLA,kalshi,player_points,,Brady Tkachuk,2.5,no,0.93,0.934557,,,,,win,Brady Tkachuk 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|team_total|CGY|5.5|no,CGY@SJS,kalshi,team_total,CGY,,5.5,no,0.93,0.934557,,,0.9051,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|total||9.5|no,VGK@BOS,kalshi,total,,,9.5,no,0.93,0.934557,,,0.9161,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|fraser minten|1.5|no,VGK@BOS,kalshi,player_points,,Fraser Minten,1.5,no,0.93,0.934557,,,,,win,Fraser Minten 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|frank nazar|1.5|no,COL@CHI,kalshi,player_points,,Frank Nazar,1.5,no,0.93,0.934557,,,,,win,Frank Nazar 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|team_total|VGK|5.5|no,VGK@BOS,kalshi,team_total,VGK,,5.5,no,0.93,0.934557,,,0.91935,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|shea theodore|1.5|no,VGK@BOS,kalshi,player_points,,Shea Theodore,1.5,no,0.93,0.934557,,,,,win,Shea Theodore 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|anton frondell|1.5|no,COL@CHI,kalshi,player_points,,Anton Frondell,1.5,no,0.93,0.934557,,,,,win,Anton Frondell 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|macklin celebrini|1.5|no,CGY@SJS,kalshi,player_goals,,Macklin Celebrini,1.5,no,0.93,0.934557,,,,,win,Macklin Celebrini 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|lars eller|1.5|no,DET@FLA,kalshi,player_points,,Lars Eller,1.5,no,0.93,0.934557,,,,,win,Lars Eller 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|eetu luostarinen|1.5|no,DET@FLA,kalshi,player_points,,Eetu Luostarinen,1.5,no,0.93,0.934557,,,,,win,Eetu Luostarinen 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|marc gatcomb|0.5|no,VGK@BOS,kalshi,player_goals,,Marc Gatcomb,0.5,no,0.93,0.934557,,,,,win,Marc Gatcomb 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|nic dowd|0.5|no,VGK@BOS,kalshi,player_goals,,Nic Dowd,0.5,no,0.93,0.934557,,,,,win,Nic Dowd 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|justin faulk|0.5|no,DET@FLA,kalshi,player_goals,,Justin Faulk,0.5,no,0.93,0.934557,,,,,loss,Justin Faulk 1 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|tanner jeannot|0.5|no,VGK@BOS,kalshi,player_goals,,Tanner Jeannot,0.5,no,0.93,0.934557,,,,,win,Tanner Jeannot 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|aaron ekblad|0.5|no,DET@FLA,kalshi,player_goals,,Aaron Ekblad,0.5,no,0.93,0.934557,,,,,loss,Aaron Ekblad 1 goals,,,,,2026-11-02,0.0
+kalshi|DET@FLA|player_goals|brady tkachuk|1.5|no,DET@FLA,kalshi,player_goals,,Brady Tkachuk,1.5,no,0.93,0.934557,,,,,win,Brady Tkachuk 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|fedor svechkov|0.5|no,COL@CHI,kalshi,player_goals,,Fedor Svechkov,0.5,no,0.93,0.934557,,,,,win,Fedor Svechkov 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|nicolas roy|0.5|no,COL@CHI,kalshi,player_goals,,Nicolas Roy,0.5,no,0.93,0.934557,,,,,win,Nicolas Roy 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|jacob trouba|1.5|no,CGY@SJS,kalshi,player_points,,Jacob Trouba,1.5,no,0.94,0.943948,,,,,win,Jacob Trouba 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|nathan mackinnon|1.5|no,COL@CHI,kalshi,player_goals,,Nathan MacKinnon,1.5,no,0.94,0.943948,,,,,win,Nathan MacKinnon 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|mason lohrei|0.5|no,VGK@BOS,kalshi,player_goals,,Mason Lohrei,0.5,no,0.94,0.943948,,,,,win,Mason Lohrei 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|cole schwindt|0.5|no,DET@FLA,kalshi,player_goals,,Cole Schwindt,0.5,no,0.94,0.943948,,,,,win,Cole Schwindt 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|jonas rondbjerg|0.5|no,VGK@BOS,kalshi,player_goals,,Jonas Rondbjerg,0.5,no,0.94,0.943948,,,,,win,Jonas Rondbjerg 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|casey mittelstadt|1.5|no,VGK@BOS,kalshi,player_points,,Casey Mittelstadt,1.5,no,0.94,0.943948,,,,,win,Casey Mittelstadt 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|aaron ekblad|1.5|no,DET@FLA,kalshi,player_points,,Aaron Ekblad,1.5,no,0.94,0.943948,,,,,win,Aaron Ekblad 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|kiefer sherwood|1.5|no,CGY@SJS,kalshi,player_points,,Kiefer Sherwood,1.5,no,0.94,0.943948,,,,,win,Kiefer Sherwood 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|william karlsson|1.5|no,VGK@BOS,kalshi,player_points,,William Karlsson,1.5,no,0.94,0.943948,,,,,win,William Karlsson 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|ty dellandrea|0.5|no,CGY@SJS,kalshi,player_goals,,Ty Dellandrea,0.5,no,0.94,0.943948,,,,,error,Ty Dellandrea not matched to boxscore,,,,,2026-11-02,
+kalshi|CGY@SJS|player_goals|zack ostapchuk|0.5|no,CGY@SJS,kalshi,player_goals,,Zack Ostapchuk,0.5,no,0.94,0.943948,,,,,win,Zack Ostapchuk 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|gabriel landeskog|1.5|no,COL@CHI,kalshi,player_points,,Gabriel Landeskog,1.5,no,0.94,0.943948,,,,,win,Gabriel Landeskog 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|tyler bertuzzi|1.5|no,COL@CHI,kalshi,player_points,,Tyler Bertuzzi,1.5,no,0.94,0.943948,,,,,win,Tyler Bertuzzi 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|alex debrincat|2.5|no,DET@FLA,kalshi,player_points,,Alex DeBrincat,2.5,no,0.94,0.943948,,,,,win,Alex DeBrincat 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|bokondji imama|0.5|no,DET@FLA,kalshi,player_goals,,Bokondji Imama,0.5,no,0.94,0.943948,,,,,win,Bokondji Imama 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|garnet hathaway|0.5|no,DET@FLA,kalshi,player_goals,,Garnet Hathaway,0.5,no,0.94,0.943948,,,,,win,Garnet Hathaway 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|gustav forsling|0.5|no,DET@FLA,kalshi,player_goals,,Gustav Forsling,0.5,no,0.94,0.943948,,,,,win,Gustav Forsling 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|braeden bowman|1.5|no,VGK@BOS,kalshi,player_points,,Braeden Bowman,1.5,no,0.95,0.953325,,,,,win,Braeden Bowman 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|brent burns|0.5|no,COL@CHI,kalshi,player_goals,,Brent Burns,0.5,no,0.95,0.953325,,,,,win,Brent Burns 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|martin necas|1.5|no,COL@CHI,kalshi,player_goals,,Martin Necas,1.5,no,0.95,0.953325,,,,,win,Martin Necas 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|total||9.5|no,DET@FLA,kalshi,total,,,9.5,no,0.95,0.953325,,,0.9399,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|martin necas|2.5|no,COL@CHI,kalshi,player_points,,Martin Necas,2.5,no,0.95,0.953325,,,,,win,Martin Necas 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|jacob trouba|0.5|no,CGY@SJS,kalshi,player_goals,,Jacob Trouba,0.5,no,0.95,0.953325,,,,,win,Jacob Trouba 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|carter verhaeghe|2.5|no,DET@FLA,kalshi,player_points,,Carter Verhaeghe,2.5,no,0.95,0.953325,,,,,win,Carter Verhaeghe 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|michael brandsegg nygard|1.5|no,DET@FLA,kalshi,player_points,,Michael Brandsegg-Nygård,1.5,no,0.95,0.953325,,,,,loss,Michael Brandsegg-Nygård 2 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|dylan coghlan|0.5|no,VGK@BOS,kalshi,player_goals,,Dylan Coghlan,0.5,no,0.95,0.953325,,,,,win,Dylan Coghlan 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|yegor sharangovich|1.5|no,CGY@SJS,kalshi,player_points,,Yegor Sharangovich,1.5,no,0.95,0.953325,,,,,win,Yegor Sharangovich 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|matthew tkachuk|1.5|no,DET@FLA,kalshi,player_goals,,Matthew Tkachuk,1.5,no,0.95,0.953325,,,,,win,Matthew Tkachuk 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|sam reinhart|1.5|no,DET@FLA,kalshi,player_goals,,Sam Reinhart,1.5,no,0.95,0.953325,,,,,win,Sam Reinhart 1 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|cole smith|0.5|no,COL@CHI,kalshi,player_goals,,Cole Smith,0.5,no,0.95,0.953325,,,,,win,Cole Smith 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|noah hanifin|0.5|no,VGK@BOS,kalshi,player_goals,,Noah Hanifin,0.5,no,0.95,0.953325,,,,,win,Noah Hanifin 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|jack eichel|1.5|no,VGK@BOS,kalshi,player_goals,,Jack Eichel,1.5,no,0.95,0.953325,,,,,win,Jack Eichel 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|mark stone|1.5|no,VGK@BOS,kalshi,player_goals,,Mark Stone,1.5,no,0.95,0.953325,,,,,win,Mark Stone 1 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|artyom levshunov|0.5|no,COL@CHI,kalshi,player_goals,,Artyom Levshunov,0.5,no,0.95,0.953325,,,,,win,Artyom Levshunov 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|michael misa|1.5|no,CGY@SJS,kalshi,player_points,,Michael Misa,1.5,no,0.95,0.953325,,,,,win,Michael Misa 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|william borgen|0.5|no,VGK@BOS,kalshi,player_goals,,William Borgen,0.5,no,0.96,0.962688,,,,,win,Will Borgen 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|keegan kolesar|0.5|no,DET@FLA,kalshi,player_goals,,Keegan Kolesar,0.5,no,0.96,0.962688,,,,,win,Keegan Kolesar 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|jeremy lauzon|0.5|no,VGK@BOS,kalshi,player_goals,,Jeremy Lauzon,0.5,no,0.96,0.962688,,,,,win,Jeremy Lauzon 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|cale makar|2.5|no,COL@CHI,kalshi,player_points,,Cale Makar,2.5,no,0.96,0.962688,,,,,win,Cale Makar 1 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|pavel zacha|2.5|no,VGK@BOS,kalshi,player_points,,Pavel Zacha,2.5,no,0.96,0.962688,,,,,win,Pavel Zacha 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|alex debrincat|1.5|no,DET@FLA,kalshi,player_goals,,Alex DeBrincat,1.5,no,0.96,0.962688,,,,,win,Alex DeBrincat 1 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|andrew copp|1.5|no,DET@FLA,kalshi,player_points,,Andrew Copp,1.5,no,0.96,0.962688,,,,,loss,Andrew Copp 2 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|jaden schwartz|1.5|no,COL@CHI,kalshi,player_points,,Jaden Schwartz,1.5,no,0.96,0.962688,,,,,loss,Jaden Schwartz 2 points,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_points|t j hughes|1.5|no,COL@CHI,kalshi,player_points,,T.J. Hughes,1.5,no,0.96,0.962688,,,,,loss,T.J. Hughes 2 points,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_points|simon nemec|1.5|no,CGY@SJS,kalshi,player_points,,Simon Nemec,1.5,no,0.96,0.962688,,,,,win,Simon Nemec 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|justin faulk|1.5|no,DET@FLA,kalshi,player_points,,Justin Faulk,1.5,no,0.96,0.962688,,,,,loss,Justin Faulk 2 points,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|morgan geekie|1.5|no,VGK@BOS,kalshi,player_goals,,Morgan Geekie,1.5,no,0.96,0.962688,,,,,win,Morgan Geekie 1 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|michael kesselring|1.5|no,CGY@SJS,kalshi,player_points,,Michael Kesselring,1.5,no,0.96,0.962688,,,,,win,Michael Kesselring 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|noah hanifin|1.5|no,VGK@BOS,kalshi,player_points,,Noah Hanifin,1.5,no,0.96,0.962688,,,,,win,Noah Hanifin 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|carter verhaeghe|1.5|no,DET@FLA,kalshi,player_goals,,Carter Verhaeghe,1.5,no,0.96,0.962688,,,,,win,Carter Verhaeghe 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|niko mikkola|0.5|no,DET@FLA,kalshi,player_goals,,Niko Mikkola,0.5,no,0.96,0.962688,,,,,win,Niko Mikkola 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|nathan mackinnon|3.5|no,COL@CHI,kalshi,player_points,,Nathan MacKinnon,3.5,no,0.97,0.972037,,,,,win,Nathan MacKinnon 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|matt coronato|1.5|no,CGY@SJS,kalshi,player_goals,,Matt Coronato,1.5,no,0.97,0.972037,,,,,win,Matt Coronato 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|sam malinski|0.5|no,COL@CHI,kalshi,player_goals,,Sam Malinski,0.5,no,0.97,0.972037,,,,,win,Sam Malinski 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|brock nelson|1.5|no,COL@CHI,kalshi,player_goals,,Brock Nelson,1.5,no,0.97,0.972037,,,,,win,Brock Nelson 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|lucas raymond|2.5|no,DET@FLA,kalshi,player_points,,Lucas Raymond,2.5,no,0.97,0.972037,,,,,win,Lucas Raymond 1 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|seth jones|2.5|no,DET@FLA,kalshi,player_points,,Seth Jones,2.5,no,0.97,0.972037,,,,,win,Seth Jones 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|artturi lehkonen|2.5|no,COL@CHI,kalshi,player_points,,Artturi Lehkonen,2.5,no,0.97,0.972037,,,,,win,Artturi Lehkonen 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|team_total|DET|5.5|no,DET@FLA,kalshi,team_total,DET,,5.5,no,0.97,0.972037,,,0.93835,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|COL@CHI|team_total|CHI|5.5|no,COL@CHI,kalshi,team_total,CHI,,5.5,no,0.97,0.972037,,,0.9195,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|collin graf|1.5|no,CGY@SJS,kalshi,player_points,,Collin Graf,1.5,no,0.97,0.972037,,,,,win,Collin Graf 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|matvei gridin|1.5|no,CGY@SJS,kalshi,player_goals,,Matvei Gridin,1.5,no,0.97,0.972037,,,,,win,Matvei Gridin 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|nikita zadorov|0.5|no,VGK@BOS,kalshi,player_goals,,Nikita Zadorov,0.5,no,0.97,0.972037,,,,,win,Nikita Zadorov 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|sam bennett|1.5|no,DET@FLA,kalshi,player_goals,,Sam Bennett,1.5,no,0.97,0.972037,,,,,win,Sam Bennett 1 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|hampus lindholm|0.5|no,VGK@BOS,kalshi,player_goals,,Hampus Lindholm,0.5,no,0.97,0.972037,,,,,win,Hampus Lindholm 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|artturi lehkonen|1.5|no,COL@CHI,kalshi,player_goals,,Artturi Lehkonen,1.5,no,0.97,0.972037,,,,,win,Artturi Lehkonen 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|viktor arvidsson|1.5|no,DET@FLA,kalshi,player_goals,,Viktor Arvidsson,1.5,no,0.97,0.972037,,,,,win,Viktor Arvidsson 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|sheldon dries|0.5|no,DET@FLA,kalshi,player_goals,,Sheldon Dries,0.5,no,0.97,0.972037,,,,,win,Sheldon Dries 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|rasmus andersson|1.5|no,VGK@BOS,kalshi,player_points,,Rasmus Andersson,1.5,no,0.97,0.972037,,,,,win,Rasmus Andersson 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|mitch marner|1.5|no,VGK@BOS,kalshi,player_goals,,Mitch Marner,1.5,no,0.97,0.972037,,,,,win,Mitch Marner 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|alex vlasic|0.5|no,COL@CHI,kalshi,player_goals,,Alex Vlasic,0.5,no,0.97,0.972037,,,,,win,Alex Vlasic 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_points|sam malinski|1.5|no,COL@CHI,kalshi,player_points,,Sam Malinski,1.5,no,0.97,0.972037,,,,,win,Sam Malinski 1 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|connor bedard|1.5|no,COL@CHI,kalshi,player_goals,,Connor Bedard,1.5,no,0.97,0.972037,,,,,win,Connor Bedard 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|sam rinzel|0.5|no,COL@CHI,kalshi,player_goals,,Sam Rinzel,0.5,no,0.97,0.972037,,,,,win,Sam Rinzel 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|tomas hertl|1.5|no,VGK@BOS,kalshi,player_goals,,Tomas Hertl,1.5,no,0.97,0.972037,,,,,win,Tomas Hertl 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|elias lindholm|1.5|no,VGK@BOS,kalshi,player_goals,,Elias Lindholm,1.5,no,0.97,0.972037,,,,,win,Elias Lindholm 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|brayden mcnabb|0.5|no,VGK@BOS,kalshi,player_goals,,Brayden McNabb,0.5,no,0.97,0.972037,,,,,win,Brayden McNabb 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|carter mazur|0.5|no,DET@FLA,kalshi,player_goals,,Carter Mazur,0.5,no,0.97,0.972037,,,,,loss,Carter Mazur 1 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|player_goals|darnell nurse|0.5|no,CGY@SJS,kalshi,player_goals,,Darnell Nurse,0.5,no,0.97,0.972037,,,,,win,Darnell Nurse 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|ivar stenberg|1.5|no,CGY@SJS,kalshi,player_goals,,Ivar Stenberg,1.5,no,0.98,0.981372,,,,,win,Ivar Stenberg 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|radko gudas|0.5|no,DET@FLA,kalshi,player_goals,,Radko Gudas,0.5,no,0.98,0.981372,,,,,win,Radko Gudas 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|wyatt kaiser|0.5|no,COL@CHI,kalshi,player_goals,,Wyatt Kaiser,0.5,no,0.98,0.981372,,,,,loss,Wyatt Kaiser 1 goals,,,,,2026-11-02,0.0
+kalshi|COL@CHI|player_goals|tyler bertuzzi|1.5|no,COL@CHI,kalshi,player_goals,,Tyler Bertuzzi,1.5,no,0.98,0.981372,,,,,win,Tyler Bertuzzi 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|macklin celebrini|3.5|no,CGY@SJS,kalshi,player_points,,Macklin Celebrini,3.5,no,0.98,0.981372,,,,,win,Macklin Celebrini 0 points,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|ivan barbashev|1.5|no,VGK@BOS,kalshi,player_goals,,Ivan Barbashev,1.5,no,0.98,0.981372,,,,,win,Ivan Barbashev 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|pavel zacha|1.5|no,VGK@BOS,kalshi,player_goals,,Pavel Zacha,1.5,no,0.98,0.981372,,,,,win,Pavel Zacha 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|ethan del mastro|0.5|no,COL@CHI,kalshi,player_goals,,Ethan Del Mastro,0.5,no,0.98,0.981372,,,,,win,Ethan Del Mastro 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|ian cole|0.5|no,COL@CHI,kalshi,player_goals,,Ian Cole,0.5,no,0.98,0.981372,,,,,win,Ian Cole 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|will smith|2.5|no,CGY@SJS,kalshi,player_points,,Will Smith,2.5,no,0.98,0.981372,,,,,win,Will Smith 0 points,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|roman kantserov|1.5|no,COL@CHI,kalshi,player_goals,,Roman Kantserov,1.5,no,0.98,0.981372,,,,,win,Roman Kantserov 1 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_points|gustav forsling|1.5|no,DET@FLA,kalshi,player_points,,Gustav Forsling,1.5,no,0.98,0.981372,,,,,win,Gustav Forsling 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|matt coronato|2.5|no,CGY@SJS,kalshi,player_points,,Matt Coronato,2.5,no,0.98,0.981372,,,,,win,Matt Coronato 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|jake middleton|0.5|no,CGY@SJS,kalshi,player_goals,,Jake Middleton,0.5,no,0.98,0.981372,,,,,win,Jake Middleton 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|brett kulak|0.5|no,COL@CHI,kalshi,player_goals,,Brett Kulak,0.5,no,0.98,0.981372,,,,,win,Brett Kulak 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|kevin bahl|0.5|no,CGY@SJS,kalshi,player_goals,,Kevin Bahl,0.5,no,0.98,0.981372,,,,,win,Kevin Bahl 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_points|joel farabee|2.5|no,CGY@SJS,kalshi,player_points,,Joel Farabee,2.5,no,0.98,0.981372,,,,,win,Joel Farabee 0 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|yan kuznetsov|0.5|no,CGY@SJS,kalshi,player_goals,,Yan Kuznetsov,0.5,no,0.98,0.981372,,,,,win,Yan Kuznetsov 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|total||2.5|yes,DET@FLA,kalshi,total,,,2.5,yes,0.98,0.981372,,,0.9481,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|sam dickinson|0.5|no,CGY@SJS,kalshi,player_goals,,Sam Dickinson,0.5,no,0.98,0.981372,,,,,loss,Sam Dickinson 1 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_points|david pastrnak|3.5|no,VGK@BOS,kalshi,player_points,,David Pastrnak,3.5,no,0.98,0.981372,,,,,win,David Pastrnak 1 points,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|will smith|1.5|no,CGY@SJS,kalshi,player_goals,,Will Smith,1.5,no,0.98,0.981372,,,,,win,Will Smith 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|michael kesselring|0.5|no,CGY@SJS,kalshi,player_goals,,Michael Kesselring,0.5,no,0.98,0.981372,,,,,win,Michael Kesselring 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|nolan allan|0.5|no,CGY@SJS,kalshi,player_goals,,Nolan Allan,0.5,no,0.98,0.981372,,,,,win,Nolan Allan 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|mason marchment|1.5|no,CGY@SJS,kalshi,player_goals,,Mason Marchment,1.5,no,0.98,0.981372,,,,,win,Mason Marchment 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|gabriel landeskog|1.5|no,COL@CHI,kalshi,player_goals,,Gabriel Landeskog,1.5,no,0.98,0.981372,,,,,win,Gabriel Landeskog 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|cale makar|1.5|no,COL@CHI,kalshi,player_goals,,Cale Makar,1.5,no,0.98,0.981372,,,,,win,Cale Makar 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|noah juulsen|0.5|no,COL@CHI,kalshi,player_goals,,Noah Juulsen,0.5,no,0.98,0.981372,,,,,win,Noah Juulsen 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|joel farabee|1.5|no,CGY@SJS,kalshi,player_goals,,Joel Farabee,1.5,no,0.98,0.981372,,,,,win,Joel Farabee 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|t j hughes|1.5|no,COL@CHI,kalshi,player_goals,,T.J. Hughes,1.5,no,0.98,0.981372,,,,,win,T.J. Hughes 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|nazem kadri|1.5|no,COL@CHI,kalshi,player_goals,,Nazem Kadri,1.5,no,0.98,0.981372,,,,,loss,Nazem Kadri 2 goals,,,,,2026-11-02,0.0
+kalshi|VGK@BOS|player_goals|fraser minten|1.5|no,VGK@BOS,kalshi,player_goals,,Fraser Minten,1.5,no,0.98,0.981372,,,,,win,Fraser Minten 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|ben chiarot|0.5|no,DET@FLA,kalshi,player_goals,,Ben Chiarot,0.5,no,0.98,0.981372,,,,,win,Ben Chiarot 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|jj peterka|1.5|no,VGK@BOS,kalshi,player_goals,,JJ Peterka,1.5,no,0.98,0.981372,,,,,win,JJ Peterka 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|anton lundell|1.5|no,DET@FLA,kalshi,player_goals,,Anton Lundell,1.5,no,0.98,0.981372,,,,,win,Anton Lundell 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|anton johansson|0.5|no,DET@FLA,kalshi,player_goals,,Anton Johansson,0.5,no,0.98,0.981372,,,,,win,Anton Johansson 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|trevor connelly|1.5|no,VGK@BOS,kalshi,player_goals,,Trevor Connelly,1.5,no,0.98,0.981372,,,,,win,Trevor Connelly 1 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|emmitt finnie|1.5|no,DET@FLA,kalshi,player_goals,,Emmitt Finnie,1.5,no,0.98,0.981372,,,,,win,Emmitt Finnie 1 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|lucas raymond|1.5|no,DET@FLA,kalshi,player_goals,,Lucas Raymond,1.5,no,0.98,0.981372,,,,,win,Lucas Raymond 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|tyler toffoli|1.5|no,CGY@SJS,kalshi,player_goals,,Tyler Toffoli,1.5,no,0.99,0.990693,,,,,win,Tyler Toffoli 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|total||1.5|yes,VGK@BOS,kalshi,total,,,1.5,yes,0.99,0.990693,,,0.98165,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_points|hampus lindholm|1.5|no,VGK@BOS,kalshi,player_points,,Hampus Lindholm,1.5,no,0.99,0.990693,,,,,win,Hampus Lindholm 0 points,,,,,2026-11-02,1.0
+kalshi|DET@FLA|total||1.5|yes,DET@FLA,kalshi,total,,,1.5,yes,0.99,0.990693,,,0.9763,,win,DET 5-3 FLA,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|total||2.5|yes,VGK@BOS,kalshi,total,,,2.5,yes,0.99,0.990693,,,0.96165,,win,VGK 2-3 BOS (SO),,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|morgan frost|1.5|no,CGY@SJS,kalshi,player_goals,,Morgan Frost,1.5,no,0.99,0.990693,,,,,win,Morgan Frost 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|total||2.5|yes,CGY@SJS,kalshi,total,,,2.5,yes,0.99,0.990693,,,0.9709,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||2.5|yes,COL@CHI,kalshi,total,,,2.5,yes,0.99,0.990693,,,0.9635,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|jaden schwartz|1.5|no,COL@CHI,kalshi,player_goals,,Jaden Schwartz,1.5,no,0.99,0.990693,,,,,loss,Jaden Schwartz 2 goals,,,,,2026-11-02,0.0
+kalshi|CGY@SJS|total||1.5|yes,CGY@SJS,kalshi,total,,,1.5,yes,0.99,0.990693,,,0.98845,,win,CGY 2-1 SJS,,,,,2026-11-02,1.0
+kalshi|COL@CHI|total||1.5|yes,COL@CHI,kalshi,total,,,1.5,yes,0.99,0.990693,,,0.98405,,win,COL 5-2 CHI,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|zach whitecloud|0.5|no,CGY@SJS,kalshi,player_goals,,Zach Whitecloud,0.5,no,0.99,0.990693,,,,,win,Zach Whitecloud 0 goals,,,,,2026-11-02,1.0
+kalshi|CGY@SJS|player_goals|yegor sharangovich|1.5|no,CGY@SJS,kalshi,player_goals,,Yegor Sharangovich,1.5,no,0.99,0.990693,,,,,win,Yegor Sharangovich 0 goals,,,,,2026-11-02,1.0
+kalshi|DET@FLA|player_goals|andreas englund|0.5|no,DET@FLA,kalshi,player_goals,,Andreas Englund,0.5,no,0.99,0.990693,,,,,win,Andreas Englund 0 goals,,,,,2026-11-02,1.0
+kalshi|COL@CHI|player_goals|anton frondell|1.5|no,COL@CHI,kalshi,player_goals,,Anton Frondell,1.5,no,0.99,0.990693,,,,,win,Anton Frondell 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|william karlsson|1.5|no,VGK@BOS,kalshi,player_goals,,William Karlsson,1.5,no,0.99,0.990693,,,,,win,William Karlsson 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|brett howden|1.5|no,VGK@BOS,kalshi,player_goals,,Brett Howden,1.5,no,0.99,0.990693,,,,,win,Brett Howden 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|james hagens|1.5|no,VGK@BOS,kalshi,player_goals,,James Hagens,1.5,no,0.99,0.990693,,,,,win,James Hagens 1 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|jonathan aspirot|0.5|no,VGK@BOS,kalshi,player_goals,,Jonathan Aspirot,0.5,no,0.99,0.990693,,,,,win,Jonathan Aspirot 0 goals,,,,,2026-11-02,1.0
+kalshi|VGK@BOS|player_goals|david pastrnak|2.5|no,VGK@BOS,kalshi,player_goals,,David Pastrnak,2.5,no,0.99,0.990693,,,,,win,David Pastrnak 0 goals,,,,,2026-11-02,1.0

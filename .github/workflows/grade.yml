@@ -37,6 +37,7 @@ jobs:
       - name: Grade
         run: |
           python -m nhlpipe.grade ${{ github.event.inputs.day }}
+          python -m nhlpipe.shadow || echo "shadow grading failed (non-fatal)"
           python -m nhlpipe.diagnostics || echo "diagnostics failed (non-fatal)"
       - name: Commit data
         run: |
