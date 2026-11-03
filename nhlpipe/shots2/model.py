@@ -10,10 +10,6 @@ import math
 import numpy as np
 import pandas as pd
 from scipy import stats
-from sklearn.ensemble import HistGradientBoostingRegressor
-from sklearn.linear_model import PoissonRegressor
-from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import StandardScaler
 
 FEATURES = [
     "log_mu_base", "F", "ev_toi", "pp_toi", "sh_toi", "toi_jump", "pp_jump", "on_net", "ev_att60", "pp_att60",
@@ -41,6 +37,11 @@ def design(s: pd.DataFrame, fill: dict | None = None) -> pd.DataFrame:
 
 class ShotsModel:
     def __init__(self, kind: str = "glm"):
+        # sklearn is only needed to fit (offline); the live pipeline uses frozen parameters
+        from sklearn.ensemble import HistGradientBoostingRegressor
+        from sklearn.linear_model import PoissonRegressor
+        from sklearn.pipeline import make_pipeline
+        from sklearn.preprocessing import StandardScaler
         self.kind = kind
         if kind == "glm":
             self.m = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1e-3, max_iter=1000))
