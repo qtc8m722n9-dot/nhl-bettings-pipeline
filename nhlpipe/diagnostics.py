@@ -122,10 +122,13 @@ def build() -> None:
     md[4:4] = (["## Flags to investigate", ""] + ([f"- {x}" for x in all_flags] or ["- none yet (needs at least "
                 f"{MIN_N} bets in a slice)"]) + [""])
     sdf = pd.DataFrame(sel).sort_values("clv_lo", ascending=False)
-    md += ["## Narrowing to one model", "",
-           f"Pre-registered rule: on {RULE_DATE} or once every live method has {RULE_MIN_BETS} settled singles, drop every method "
-           "whose CLV 95% interval is entirely below 0; of the rest, keep the one with the highest lower CLV bound, "
-           "using ROI only to break ties.", "",
+    md += ["## Toward one model", "",
+           "Goal: one final model that uses what every method has learned. The combined model takes each method's "
+           "signal (game model, shots model, goalie news, sharp price, pick'em prices) plus the fair price as inputs, "
+           "trained on the shadow board (every priced line, data/shadow/). It replaces the strongest single method only "
+           f"if it beats it out of sample on CLV and log loss. Review point: {RULE_DATE}, or once each live method has "
+           f"{RULE_MIN_BETS} settled singles. Single methods whose CLV interval is entirely below 0 add no value as bets, "
+           "but their signals can still help the combined model.", "",
            "| Method | Bets | Avg CLV pp (95% CI) | ROI (95% CI) | Status |", "|---|--:|--:|--:|---|"]
     for r in sdf.to_dict("records"):
         status = "losing to the close" if pd.notna(r["clv_hi"]) and r["clv_hi"] < 0 else (

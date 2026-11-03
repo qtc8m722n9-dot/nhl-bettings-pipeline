@@ -24,11 +24,13 @@ Judged on closing line value (CLV) first, profit second. No real money until a m
 under `data/backtest/` and never repeated; Odds API credits are logged in `data/backtest/odds/ledger.csv`.
 Actions → "Backtest (manual)": task `pull` / `run` with `START END`, then `report`.
 
-## Narrowing to one model
+## Toward one model
 `data/diagnostics.md` (rebuilt every morning) shows, per method, where it loses: calibration, market, venue,
-side, price and edge bands, flagged slices and the most confident misses. Pre-registered rule: on 2026-12-31,
-or once every live method has 300 settled singles, drop every method whose CLV 95% interval is entirely below 0;
-of the rest keep the one with the highest lower CLV bound (ROI only breaks ties).
+side, price and edge bands, flagged slices and the most confident misses. `data/shadow/<date>.csv` grades
+every priced line (not only bets) with each model's probability, fair price, close and result.
+Plan: one combined model that takes every method's signal plus the fair price as inputs, trained on the
+shadow board; it replaces the strongest single method only if it beats it out of sample on CLV and log
+loss. Review on 2026-12-31 or once each live method has 300 settled singles. See `docs/STATUS.md`.
 
 ## Scoreboard
 Open [data/scoreboard.md](data/scoreboard.md) on GitHub. Per method, singles and parlays/entries separate, last 7 days and season:
