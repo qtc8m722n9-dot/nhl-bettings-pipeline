@@ -35,6 +35,6 @@ Last updated: 2026-11-03. Paper bets only. Owner: Evan (Montreal, Quebec).
 ## Next steps (in order)
 1. Let the shadow board accumulate (every priced line graded nightly from 2026-11-04).
 2. Build the combined model: inputs = fair price, M3 raw/blend, M6 mu/probability, sog_prob, backup-goalie flag, venue, market, line moves; train on shadow board + 2025-26 backtest tables (`data/shots2/lines.csv`, `data/backtest/m3eng/blend_rows.csv`); judge strictly out of sample vs the strongest single method on CLV and log loss. Review 2026-12-31.
-3. M3: totals still biased low vs market (predicted overs 43% vs 51% actual in 2025-26) - investigate scoring level / goalie term.
+3. M3 totals bias - DONE 2026-11-03 (`data/backtest/m3eng/totals_report.md`): gap 0.27 goals/game = pull scale ~0.13 (PULL_SCALE 0.93 does not preserve the mean as intended) + goalie term ~0.06 + 2025-26 scoring above to-date average ~0.09. Fixing it gives no totals edge (blend weight on M3 still negative) -> no-totals rule stays. Pending Evan: adopt mean-preserving scale (`m3totals.mean_scale`) at next test-period boundary; effect on puck line/OT log loss is negligible.
 4. Kalshi: paper-test resting limit orders at fair value (fill rate + CLV on filled orders only).
 5. Keep weekly flaw reviews; never change pre-registered rules without Evan's approval.
