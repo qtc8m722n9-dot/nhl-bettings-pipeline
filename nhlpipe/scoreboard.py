@@ -37,9 +37,10 @@ def stats(d: pd.DataFrame) -> dict:
     s = d[d["result"].isin(SETTLED)]
     wins = int((s["result"] == "win").sum())
     bets = len(s)
-    units = float(s["profit"].sum()) if bets else 0.0
-    staked = float(s["stake"].sum()) if bets else 0.0
-    clv_rows = d[d["result"].isin(SETTLED | {"void"})]  # CLV is pre-game: voids still count
+    money = d[d["result"].isin(SETTLED | {"fair"})]  # Kalshi fair-price settlements count for units, not W-L
+    units = float(money["profit"].sum()) if len(money) else 0.0
+    staked = float(money["stake"].sum()) if len(money) else 0.0
+    clv_rows = d[d["result"].isin(SETTLED | {"void", "fair"})]  # CLV is pre-game: voids still count
     fair = clv_rows["fair_clv"].dropna()
     kal = clv_rows["kalshi_clv"].dropna()
     beat = clv_rows["beat_close"].dropna().astype(str).str.lower().map({"true": 1.0, "false": 0.0}).dropna()

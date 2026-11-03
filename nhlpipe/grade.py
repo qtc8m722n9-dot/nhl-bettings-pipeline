@@ -20,6 +20,8 @@ Settlement rules (paper, flat 1 unit per pick / parlay / entry):
   2-pick entries both hit -> +2 (3x payout); any miss -> -1; any void leg ->
                  whole entry refunded (both apps refund a 2-pick that loses a leg)
   postponed / cancelled game -> void
+  Kalshi exception (since 2026-11-03): Kalshi never voids; a DNP / postponed bet settles at the
+                 last fair price, graded as result 'fair' at the Kalshi mid at listed start
 CLV per pick:
   fair CLV   = close_fair - cost   (parlays/entries: product of leg closes - cost)
   Kalshi CLV = close_mid  - price  (Kalshi only; parlays only if every leg is Kalshi)
@@ -237,6 +239,12 @@ def grade_day(day: date, backfill: bool = True) -> pd.DataFrame | None:
             if r["venue"] == "kalshi":
                 rec["close_mid"] = cl(cid, "close_mid")
                 rec["kalshi_clv"] = None if rec["close_mid"] is None or price is None else rec["close_mid"] - price
+                # Kalshi never voids: a player who doesn't play, or a game cancelled/postponed >48h,
+                # settles at Kalshi's "last fair price". Proxy: the Kalshi mid at listed start.
+                if result == "void" and rec["close_mid"] is not None and cost:
+                    result = "fair"
+                    profit = stake * (rec["close_mid"] / cost - 1)
+                    rec["detail"] = f"{rec['detail']}; Kalshi settles at last fair price ~{rec['close_mid']:.2f}"
         rec["result"], rec["profit"] = result, profit
         fc, kc = rec.get("fair_clv"), rec.get("kalshi_clv")
         rec["beat_close"] = (fc > 0) if fc is not None else ((kc > 0) if kc is not None else None)

@@ -29,9 +29,16 @@ def _codes(abbrev: str) -> set[str]:
     return ALIASES.get(abbrev, {abbrev})
 
 
-def kalshi_fee(p: float) -> float:
-    """Kalshi taker fee per contract ~ 0.07 * p * (1 - p) (rounded up per order)."""
-    return 0.07 * p * (1 - p)
+PAPER_KALSHI_ORDER_USD = 100.0  # nominal paper order size, used for the fee round-up
+
+
+def kalshi_fee(p: float, order_usd: float = PAPER_KALSHI_ORDER_USD) -> float:
+    """Kalshi taker fee per contract: 0.07 * C * p * (1 - p), rounded UP to the cent per order
+    (since 2026-11-03; the round-up was ignored before). Matters for small orders and cheap
+    contracts. Resting (maker) orders pay 0.0175 * C * p * (1 - p) on NHL game markets."""
+    import math
+    c = max(1, math.floor(order_usd / p))
+    return math.ceil(round(0.07 * c * p * (1 - p) * 100, 6)) / 100 / c
 
 
 def _match_game(event_ticker: str, games: list[tuple[str, str]], day_code: str):

@@ -10,6 +10,15 @@ before the trial period started, to collect data faster:
   - M5: up to 6 two-pick pick'em entries
   - never both sides of the same market
   - minimum edge: 2.5% on game markets, 4% on player props
+
+Amendments 2026-11-03 (pricing / rule fixes, applied from that slate on):
+  - fair prices de-vigged with the power method (was multiplicative)
+  - Underdog picks priced at its real payout (3.5x standard 2-pick x the pick's
+    multiplier); PrizePicks at 3x; PrizePicks demons/goblins skipped
+  - M5: Underdog only, and an entry's two picks come from different games
+  - Kalshi fee rounded up per (nominal $100) order; Kalshi DNP/postponed bets
+    graded at Kalshi's fair-price settlement instead of void
+  - new method M6 shots model v2 (nhlpipe/shots2/live.py)
 """
 import random
 import re
@@ -117,7 +126,9 @@ def m4_shots(c: pd.DataFrame, day) -> pd.DataFrame:
 
 def m5_entries(c: pd.DataFrame, day) -> pd.DataFrame:
     """Up to 6 two-pick entries from the best pick'em legs (sharp price or shots model)."""
-    d = c[c["venue"].isin(["underdog", "prizepicks"])].copy()
+    # Amended 2026-11-03: Underdog only (PrizePicks left Canada on 2026-04-03; Underdog
+    # reprices same-game picks), and the two picks of an entry come from different games.
+    d = c[c["venue"] == "underdog"].copy()
     d["est_prob"] = d["fair_prob"].fillna(d["sog_prob"])
     d["est_source"] = d["fair_source"].where(d["fair_prob"].notna(), "sog_model")
     d = d[d["est_prob"].notna()]
@@ -134,9 +145,16 @@ def m5_entries(c: pd.DataFrame, day) -> pd.DataFrame:
         seen_players.add(r["player_key"])
         if len(legs) == MAX_ENTRIES * 2:
             break
-    entries = []
-    for i in range(0, len(legs) - 1, 2):
-        a, b = legs[i], legs[i + 1]
+    entries, pairs, used = [], [], set()
+    for i, a in enumerate(legs):  # best remaining leg + best remaining leg from another game
+        if i in used:
+            continue
+        j = next((j for j in range(i + 1, len(legs)) if j not in used and legs[j]["game_key"] != a["game_key"]), None)
+        if j is None:
+            continue
+        used |= {i, j}
+        pairs.append((a, legs[j]))
+    for a, b in pairs:
         p = a["est_prob"] * b["est_prob"]
         payout = (1 / a["cost"]) * (1 / b["cost"])  # Underdog: product of pick multipliers; PrizePicks: 3x
         entries.append(
