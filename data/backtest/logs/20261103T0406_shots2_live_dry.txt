@@ -1,0 +1,13 @@
+20262027: 0/8 day-reports (2026-11-01)
+20262027: done, 8 day-reports pulled
+mp teams rows 58230 seasons [np.int64(2022), np.int64(2023), np.int64(2024), np.int64(2025), np.int64(2026)]
+shots v2: 69 skaters projected, 584 priced offers, 8 book bets, 0 pick'em bets
+     method      venue game_key                               selection  american     cost  est_prob     edge
+M6_shots_v2    espnbet  CGY@SJS            Zayne Parekh Under 1.5 shots       125 0.444444  0.515745 0.071300
+M6_shots_v2 draftkings  DET@FLA          Matthew Tkachuk Over 2.5 shots       130 0.434783  0.495295 0.060513
+M6_shots_v2    espnbet  CGY@SJS            Joel Farabee Under 2.5 shots      -160 0.615385  0.675392 0.060007
+M6_shots_v2    espnbet  CGY@SJS           Matt Coronato Under 2.5 shots      -115 0.534884  0.575045 0.040161
+M6_shots_v2 draftkings  COL@CHI             Patrick Kane Over 1.5 shots      -135 0.574468  0.614535 0.040067
+M6_shots_v2    espnbet  DET@FLA Michael Brandsegg-Nygard Over 1.5 shots       115 0.465116  0.498160 0.033044
+M6_shots_v2 draftkings  COL@CHI             Devon Toews Under 1.5 shots       100 0.500000  0.532310 0.032310
+M6_shots_v2 draftkings  DET@FLA           Lucas Raymond Under 2.5 shots      -125 0.555556  0.586302 0.030747
