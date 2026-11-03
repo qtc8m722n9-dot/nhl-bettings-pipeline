@@ -1,6 +1,6 @@
 # NHL paper-betting scoreboard
 
-Updated 2026-11-02 12:15 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
+Updated 2026-11-02 23:12 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
 
 ## Last 7 days (Oct 26 – Nov 01)
 
@@ -8,11 +8,11 @@ Updated 2026-11-02 12:15 ET · paper only, flat 1 unit per pick / parlay / entry
 
 | Method | Bets | W-L | Win % | Units | ROI | Avg fair CLV, pp (n) | Avg Kalshi CLV, pp (n) | Beat close (n) | Void |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| B0_random | 15 | 8-7 | 53% | -1.69 | -11.3% | -5.4 (4) | -2.3 (13) | 0% (15) | 0 |
+| B0_random | 15 | 8-7 | 53% | -1.41 | -9.4% | -3.2 (4) | -2.3 (13) | 0% (15) | 0 |
 | C1_chalk | 15 | 12-3 | 80% | -0.87 | -5.8% | – | -1.1 (15) | 7% (15) | 0 |
 | M2_goalie_news | 3 | 1-2 | 33% | -1.21 | -40.2% | – | -0.8 (3) | 33% (3) | 0 |
 | M3_xg_model | 13 | 6-7 | 46% | -4.18 | -32.2% | -1.3 (2) | -0.7 (13) | 23% (13) | 0 |
-| M4_shots_model | 7 | 3-4 | 43% | -1.81 | -25.9% | -8.2 (7) | – | 0% (7) | 0 |
+| M4_shots_model | 7 | 3-4 | 43% | -1.81 | -25.9% | -6.9 (7) | – | 0% (7) | 0 |
 
 ### Parlays (3-leg) & pick'em entries (2-pick)
 
@@ -29,11 +29,11 @@ Updated 2026-11-02 12:15 ET · paper only, flat 1 unit per pick / parlay / entry
 
 | Method | Bets | W-L | Win % | Units | ROI | Avg fair CLV, pp (n) | Avg Kalshi CLV, pp (n) | Beat close (n) | Void |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| B0_random | 15 | 8-7 | 53% | -1.69 | -11.3% | -5.4 (4) | -2.3 (13) | 0% (15) | 0 |
+| B0_random | 15 | 8-7 | 53% | -1.41 | -9.4% | -3.2 (4) | -2.3 (13) | 0% (15) | 0 |
 | C1_chalk | 15 | 12-3 | 80% | -0.87 | -5.8% | – | -1.1 (15) | 7% (15) | 0 |
 | M2_goalie_news | 3 | 1-2 | 33% | -1.21 | -40.2% | – | -0.8 (3) | 33% (3) | 0 |
 | M3_xg_model | 13 | 6-7 | 46% | -4.18 | -32.2% | -1.3 (2) | -0.7 (13) | 23% (13) | 0 |
-| M4_shots_model | 7 | 3-4 | 43% | -1.81 | -25.9% | -8.2 (7) | – | 0% (7) | 0 |
+| M4_shots_model | 7 | 3-4 | 43% | -1.81 | -25.9% | -6.9 (7) | – | 0% (7) | 0 |
 
 ### Parlays (3-leg) & pick'em entries (2-pick)
 

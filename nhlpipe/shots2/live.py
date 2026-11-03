@@ -10,7 +10,7 @@ Pre-registered 2026-11-02, frozen for the trial (do not refit mid-trial):
   bets      edge = blended P(side) - cost, 3% <= edge <= 12%; one bet per player
             (best price), up to 3 players per game, never both sides
   venues    M6_shots_v2         best sportsbook price (DK, FD, MGM, Caesars, BetRivers, ESPN BET)
-            M6_shots_v2_pickem  Underdog / PrizePicks at the 2-pick breakeven
+            M6_shots_v2_pickem  Underdog (3.5x standard 2-pick x the pick's multiplier) / PrizePicks (3x)
 """
 import json
 import math
@@ -21,6 +21,7 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
+from ..candidates import pickem_decimal
 from ..names import norm
 from . import features, model, pull
 
@@ -30,7 +31,6 @@ HIST_SEASONS = ["20222023", "20232024", "20242025", "20252026"]
 LIVE_CUTOFF = date(2026, 10, 1)  # league priors use games before the 2026-27 season
 BOOKS = {"draftkings", "fanduel", "betmgm", "williamhill_us", "betrivers", "espnbet"}
 PICKEM = {"underdog", "prizepicks"}
-PICKEM_COST = 1 / 1.73
 EDGE_MIN, EDGE_MAX, MAX_PER_GAME = 0.03, 0.12, 3
 
 
@@ -61,7 +61,7 @@ def freeze() -> dict:
         "alpha": m.alpha, "fill": m.fill,
         "blend": {"a_pinnacle": float(lr.coef_[0][0]), "b_model": float(lr.coef_[0][1]), "c": float(lr.intercept_[0]),
                   "fit_rows": int(len(J))},
-        "rules": {"edge_min": EDGE_MIN, "edge_max": EDGE_MAX, "max_per_game": MAX_PER_GAME, "pickem_cost": PICKEM_COST},
+        "rules": {"edge_min": EDGE_MIN, "edge_max": EDGE_MAX, "max_per_game": MAX_PER_GAME},
     }
     PARAMS.write_text(json.dumps(params, indent=1))
     print(json.dumps({k: v for k, v in params.items() if k in ("frozen_utc", "train_rows", "alpha", "blend")}, indent=1))
@@ -118,12 +118,18 @@ def tonight_rows(day: date, slate_games: list[dict], hist: pd.DataFrame, prop_ke
 
 
 def sog_offers(odds: pd.DataFrame) -> pd.DataFrame:
-    o = odds[(odds["market"] == "player_shots_on_goal") & odds["point"].notna() & odds["player"].notna()].copy()
+    o = odds[odds["market"].isin(["player_shots_on_goal", "player_shots_on_goal_alternate"])
+             & odds["point"].notna() & odds["player"].notna()].copy()
     o["game_key"] = o["away"] + "@" + o["home"]
     o["key"] = o["player"].map(norm)
     o["side"] = np.where(o["outcome"].str.lower() == "over", "yes", "no")
     o["prob"] = o["price_american"].map(lambda a: 100 / (a + 100) if a > 0 else -a / (-a + 100))
-    return o
+    if "multiplier" not in o:
+        o["multiplier"] = None
+    dec = [pickem_decimal(b, a, m) for b, a, m in zip(o["book"], o["price_american"], o["multiplier"])]
+    o["pk_cost"] = [1 / d if d else np.nan for d in dec]
+    o = o[~(o["book"].isin(PICKEM) & o["pk_cost"].isna())]  # PrizePicks demons/goblins: no real price
+    return o.sort_values("market").drop_duplicates(["book", "game_key", "key", "point", "side"])
 
 
 def pinnacle_fair(o: pd.DataFrame) -> pd.DataFrame:
@@ -169,7 +175,7 @@ def picks(day: date, slate: pd.DataFrame, odds: pd.DataFrame, refresh_data: bool
     o["p_model_over"] = fr.p_over(o["mu"].to_numpy(), o["point"].to_numpy())
     o["p_blend_over"] = fr.blend(o["pin_over"].to_numpy(), o["p_model_over"].to_numpy())
     o["est_prob"] = np.where(o["side"] == "yes", o["p_blend_over"], 1 - o["p_blend_over"])
-    o["cost"] = np.where(o["book"].isin(PICKEM), PICKEM_COST, o["prob"])
+    o["cost"] = np.where(o["book"].isin(PICKEM), o["pk_cost"], o["prob"])
     o["edge"] = o["est_prob"] - o["cost"]
     o["venue"] = o["book"]
     o["market"] = "player_sog"

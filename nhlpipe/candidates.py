@@ -119,16 +119,39 @@ def kalshi(km: pd.DataFrame, slate: pd.DataFrame, day) -> list[dict]:
 
 
 PICKEM_BOOKS = ("underdog", "prizepicks")
-PICKEM_MARKETS = {"player_shots_on_goal": "player_sog", "player_points": "player_points"}
+PICKEM_MARKETS = {"player_shots_on_goal": "player_sog", "player_points": "player_points",
+                  "player_shots_on_goal_alternate": "player_sog", "player_points_alternate": "player_points"}
+# Payout per pick, as decimal odds (fixed 2026-11-03; before that every pick was priced at -137 = 3x / 2-pick):
+#   Underdog: 2-pick Standard pays 3.5x since 2026-02-20, i.e. sqrt(3.5) = 1.871 per standard pick, times the
+#   pick's own multiplier (The Odds API 'multiplier', 1.0 = standard). The API's price is sqrt(3) x multiplier.
+#   PrizePicks: 2-pick Power Play pays 3x = sqrt(3) per pick; Demons/Goblins (placeholder prices) are skipped.
+UD_PICK_BASE = 3.5 ** 0.5
+PP_PICK_BASE = 3.0 ** 0.5
+OLD_PICK_DECIMAL = 1 + 100 / 137
+
+
+def pickem_decimal(book: str, price_american, multiplier) -> float | None:
+    if book == "underdog":
+        m = multiplier
+        if m is None or pd.isna(m):
+            a = float(price_american)
+            m = (1 + (a / 100 if a > 0 else 100 / -a)) / OLD_PICK_DECIMAL
+        return UD_PICK_BASE * float(m)
+    if book == "prizepicks":
+        return PP_PICK_BASE if int(price_american) == -137 else None
+    return None
 
 
 def pickem(odds: pd.DataFrame) -> list[dict]:
     o = odds[odds["book"].isin(PICKEM_BOOKS) & odds["market"].isin(PICKEM_MARKETS)]
     out = []
     for r in o.itertuples(index=False):
-        p = american_to_prob(r.price_american)
-        if p is None or pd.isna(r.point) or float(r.point).is_integer():
+        if pd.isna(r.point) or float(r.point).is_integer():
             continue  # whole-number lines can push; skip them
+        dec = pickem_decimal(r.book, r.price_american, getattr(r, "multiplier", None))
+        if dec is None:
+            continue
+        p = 1 / dec
         out.append(
             {
                 "game_key": f"{r.away}@{r.home}",
@@ -140,8 +163,9 @@ def pickem(odds: pd.DataFrame) -> list[dict]:
                 "line": r.point,
                 "side": "yes" if str(r.outcome).lower() == "over" else "no",
                 "price": p,
-                "cost": p,  # breakeven per pick at the 2-pick payout
-                "american": r.price_american,
+                "cost": p,  # breakeven per pick = 1 / per-pick payout
+                "american": round((dec - 1) * 100) if dec >= 2 else round(-100 / (dec - 1)),
+                "multiplier": getattr(r, "multiplier", None),
             }
         )
     return out

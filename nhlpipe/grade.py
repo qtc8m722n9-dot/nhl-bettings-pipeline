@@ -51,6 +51,22 @@ GRADED_COLS = [
 
 _rosters: dict[str, set[str]] = {}
 
+# Pick'em price fix (2026-11-03). Picks locked before then priced every Underdog pick at -137
+# (old 3x 2-pick); Underdog has paid 3.5x for a standard 2-pick since 2026-02-20 and the API's
+# multipliers weren't requested, so those were standard picks. Re-price them at what Underdog
+# actually paid; the selections themselves are unchanged. PrizePicks (3x Power) is unaffected.
+PRICE_FIX_BEFORE = date(2026, 11, 3)
+UD_STD_COST = 1 / 3.5 ** 0.5
+
+
+def _fixed_cost(venue, cost, day: date):
+    if day < PRICE_FIX_BEFORE and venue == "underdog" and cost is not None:
+        if abs(cost - 137 / 237) < 1e-3:
+            return UD_STD_COST
+        if abs(cost - 1 / 3) < 1e-3:  # 2-pick entry at 3x
+            return 1 / 3.5
+    return cost
+
 
 def _num(x):
     try:
@@ -164,14 +180,16 @@ def grade_day(day: date, backfill: bool = True) -> pd.DataFrame | None:
 
     def leg(cid: str) -> dict:
         if cid in cands.index:
-            return {"cand_id": cid, **cands.loc[cid].to_dict()}
+            d = {"cand_id": cid, **cands.loc[cid].to_dict()}
+            d["cost"] = _fixed_cost(d.get("venue"), _num(d.get("cost")), day)
+            return d
         return {"cand_id": cid, "market": "?"}
 
     out = []
     for r in picks.to_dict("records"):
         cid = r["cand_id"]
         stake = _num(r.get("stake")) or 1.0
-        cost, price = _num(r["cost"]), _num(r["price"])
+        cost, price = _fixed_cost(r.get("venue"), _num(r["cost"]), day), _num(r["price"])
         rec = {k: r.get(k) for k in ("date", "method", "pick_no", "venue", "game_key", "market", "selection", "cand_id")}
         rec.update(price=price, cost=cost, stake=stake)
         if cid.startswith(("parlay|", "entry|")):
@@ -196,7 +214,7 @@ def grade_day(day: date, backfill: bool = True) -> pd.DataFrame | None:
                 result = "win"
             if result == "win":
                 if entry:
-                    profit = stake * (PICKEM_2_PAYOUT - 1)
+                    profit = stake * (1 / cost - 1)
                 else:
                     eff = _prod([_num(lg.get("cost")) for lg, x in zip(legs, res_list) if x == "win"])
                     profit = stake * (1 / eff - 1) if eff else None

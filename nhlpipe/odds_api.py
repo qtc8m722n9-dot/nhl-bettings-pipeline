@@ -26,6 +26,9 @@ EVENT_MARKETS = [
     "player_total_saves",
     "player_points",
     "player_goal_scorer_anytime",
+    # Underdog lists non-standard-multiplier picks (and extra lines) only under *_alternate
+    "player_shots_on_goal_alternate",
+    "player_points_alternate",
 ]
 
 USAGE: dict = {}
@@ -45,7 +48,8 @@ def scrub(msg: str) -> str:
 
 
 def _call(path: str, params: dict) -> list | dict:
-    params = {**params, "apiKey": _key(), "oddsFormat": "american", "dateFormat": "iso"}
+    # includeMultipliers: Underdog per-pick payout multipliers (1.0 = standard pick); no extra credits
+    params = {**params, "apiKey": _key(), "oddsFormat": "american", "dateFormat": "iso", "includeMultipliers": "true"}
     try:
         r = get(f"{BASE}{path}", params=params)
     except requests.HTTPError as e:
@@ -114,6 +118,7 @@ def flatten(event: dict, snapshot: str) -> list[dict]:
                         "player": o.get("description"),
                         "point": o.get("point"),
                         "price_american": o.get("price"),
+                        "multiplier": o.get("multiplier"),
                     }
                 )
     return rows

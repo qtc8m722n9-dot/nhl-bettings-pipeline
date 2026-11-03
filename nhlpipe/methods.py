@@ -138,6 +138,7 @@ def m5_entries(c: pd.DataFrame, day) -> pd.DataFrame:
     for i in range(0, len(legs) - 1, 2):
         a, b = legs[i], legs[i + 1]
         p = a["est_prob"] * b["est_prob"]
+        payout = (1 / a["cost"]) * (1 / b["cost"])  # Underdog: product of pick multipliers; PrizePicks: 3x
         entries.append(
             {
                 "cand_id": f"entry|{a['cand_id']}||{b['cand_id']}",
@@ -150,12 +151,12 @@ def m5_entries(c: pd.DataFrame, day) -> pd.DataFrame:
                 "team": None,
                 "player": f"{a['player']} | {b['player']}",
                 "ticker": None,
-                "price": 1 / PICKEM_2_PAYOUT,
-                "cost": 1 / PICKEM_2_PAYOUT,
-                "american": 200,
+                "price": 1 / payout,
+                "cost": 1 / payout,
+                "american": round((payout - 1) * 100),
                 "est_prob": p,
                 "est_source": f"{a['est_source']}+{b['est_source']}",
-                "edge": p - 1 / PICKEM_2_PAYOUT,
+                "edge": p - 1 / payout,
                 "legs": f"{a['cand_id']}||{b['cand_id']}",
             }
         )
