@@ -1,419 +1,653 @@
 {
- "id": "8f768a5bd143ea549d68e5c1885023e6",
+ "id": "13ced29ffb36afa9ac1436ef60bda139",
  "sport_key": "icehockey_nhl",
  "sport_title": "NHL",
- "commence_time": "2026-11-03T02:12:04Z",
- "home_team": "San Jose Sharks",
- "away_team": "Calgary Flames",
+ "commence_time": "2026-11-04T00:10:00Z",
+ "home_team": "Columbus Blue Jackets",
+ "away_team": "Colorado Avalanche",
  "bookmakers": [
   {
-   "key": "pinnacle",
-   "title": "Pinnacle",
+   "key": "prizepicks",
+   "title": "PrizePicks",
    "markets": [
     {
      "key": "player_points",
-     "last_update": "2026-11-03T04:08:27Z",
+     "last_update": "2026-11-03T04:09:27Z",
      "outcomes": [
       {
        "name": "Over",
-       "description": "Collin Graf",
-       "price": 146,
+       "description": "Kent Johnson",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Under",
-       "description": "Collin Graf",
-       "price": -197,
+       "description": "Kent Johnson",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Over",
-       "description": "Dmitry Orlov",
-       "price": 128,
+       "description": "Matthew Knies",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Under",
-       "description": "Dmitry Orlov",
-       "price": -171,
+       "description": "Matthew Knies",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Over",
-       "description": "Ivar Stenberg",
-       "price": -111,
+       "description": "Nazem Kadri",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Under",
-       "description": "Ivar Stenberg",
-       "price": -119,
+       "description": "Nazem Kadri",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Over",
-       "description": "Joel Farabee",
-       "price": -154,
+       "description": "Charlie Coyle",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Under",
-       "description": "Joel Farabee",
-       "price": 116,
+       "description": "Charlie Coyle",
+       "price": -137,
        "point": 0.5
+      }
+     ]
+    },
+    {
+     "key": "player_points_alternate",
+     "last_update": "2026-11-03T04:09:27Z",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Kent Johnson",
+       "price": 100,
+       "point": 2.5
       },
       {
        "name": "Over",
-       "description": "Kiefer Sherwood",
-       "price": 129,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Kiefer Sherwood",
-       "price": -172,
-       "point": 0.5
+       "description": "Adam Fantilli",
+       "price": 100,
+       "point": 2.5
       },
       {
        "name": "Over",
-       "description": "Macklin Celebrini",
-       "price": 121,
+       "description": "Zach Werenski",
+       "price": 100,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Matthew Knies",
+       "price": 100,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Nathan MacKinnon",
+       "price": 100,
        "point": 1.5
       },
       {
-       "name": "Under",
-       "description": "Macklin Celebrini",
-       "price": -161,
+       "name": "Over",
+       "description": "Zach Werenski",
+       "price": 100,
        "point": 1.5
       },
       {
        "name": "Over",
-       "description": "Mason Marchment",
-       "price": -110,
-       "point": 0.5
+       "description": "Kent Johnson",
+       "price": 100,
+       "point": 1.5
       },
       {
-       "name": "Under",
-       "description": "Mason Marchment",
-       "price": -120,
+       "name": "Over",
+       "description": "Adam Fantilli",
+       "price": 100,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Matthew Knies",
+       "price": 100,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Valeri Nichushkin",
+       "price": 100,
        "point": 0.5
       },
       {
        "name": "Over",
-       "description": "Matt Coronato",
-       "price": -140,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Matt Coronato",
-       "price": 106,
+       "description": "Cale Makar",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Over",
-       "description": "Matvei Gridin",
-       "price": -120,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Matvei Gridin",
-       "price": -110,
+       "description": "Zach Werenski",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Over",
-       "description": "Michael Misa",
-       "price": 130,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Michael Misa",
-       "price": -180,
+       "description": "Martin Necas",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Over",
-       "description": "Morgan Frost",
-       "price": -119,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Morgan Frost",
-       "price": -111,
+       "description": "Adam Fantilli",
+       "price": -137,
        "point": 0.5
       },
       {
        "name": "Over",
-       "description": "Will Smith",
-       "price": -169,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Will Smith",
-       "price": 126,
-       "point": 0.5
-      },
-      {
-       "name": "Over",
-       "description": "Zayne Parekh",
-       "price": 116,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Zayne Parekh",
-       "price": -155,
-       "point": 0.5
-      },
-      {
-       "name": "Over",
-       "description": "Mikael Backlund",
-       "price": 133,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Mikael Backlund",
-       "price": -178,
-       "point": 0.5
-      },
-      {
-       "name": "Over",
-       "description": "Jacob Trouba",
-       "price": 147,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Jacob Trouba",
-       "price": -199,
-       "point": 0.5
-      },
-      {
-       "name": "Over",
-       "description": "Simon Nemec",
-       "price": 157,
-       "point": 0.5
-      },
-      {
-       "name": "Under",
-       "description": "Simon Nemec",
-       "price": -213,
+       "description": "Brock Nelson",
+       "price": 100,
        "point": 0.5
       }
      ]
     },
     {
      "key": "player_shots_on_goal",
-     "last_update": "2026-11-03T04:08:27Z",
+     "last_update": "2026-11-03T04:09:27Z",
      "outcomes": [
       {
        "name": "Over",
-       "description": "Ivar Stenberg",
-       "price": -105,
-       "point": 1.5
-      },
-      {
-       "name": "Under",
-       "description": "Ivar Stenberg",
-       "price": -125,
-       "point": 1.5
-      },
-      {
-       "name": "Over",
-       "description": "Jacob Trouba",
-       "price": -106,
-       "point": 1.5
-      },
-      {
-       "name": "Under",
-       "description": "Jacob Trouba",
-       "price": -125,
-       "point": 1.5
-      },
-      {
-       "name": "Over",
-       "description": "Joel Farabee",
-       "price": 149,
-       "point": 2.5
-      },
-      {
-       "name": "Under",
-       "description": "Joel Farabee",
-       "price": -201,
-       "point": 2.5
-      },
-      {
-       "name": "Over",
-       "description": "Kiefer Sherwood",
-       "price": -158,
-       "point": 1.5
-      },
-      {
-       "name": "Under",
-       "description": "Kiefer Sherwood",
-       "price": 119,
-       "point": 1.5
-      },
-      {
-       "name": "Over",
-       "description": "Macklin Celebrini",
-       "price": -127,
+       "description": "Nathan MacKinnon",
+       "price": -137,
        "point": 3.5
       },
       {
        "name": "Under",
-       "description": "Macklin Celebrini",
-       "price": -105,
+       "description": "Nathan MacKinnon",
+       "price": -137,
        "point": 3.5
       },
       {
        "name": "Over",
-       "description": "Mason Marchment",
-       "price": -160,
+       "description": "Adam Fantilli",
+       "price": -137,
+       "point": 2.5
+      },
+      {
+       "name": "Under",
+       "description": "Adam Fantilli",
+       "price": -137,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Cale Makar",
+       "price": -137,
+       "point": 2.5
+      },
+      {
+       "name": "Under",
+       "description": "Cale Makar",
+       "price": -137,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Matthew Knies",
+       "price": -137,
        "point": 1.5
       },
       {
        "name": "Under",
-       "description": "Mason Marchment",
-       "price": 120,
+       "description": "Matthew Knies",
+       "price": -137,
        "point": 1.5
       },
       {
        "name": "Over",
-       "description": "Matt Coronato",
+       "description": "Valeri Nichushkin",
+       "price": -137,
+       "point": 1.5
+      },
+      {
+       "name": "Under",
+       "description": "Valeri Nichushkin",
+       "price": -137,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Brock Nelson",
+       "price": -137,
+       "point": 1.5
+      },
+      {
+       "name": "Under",
+       "description": "Brock Nelson",
+       "price": -137,
+       "point": 1.5
+      }
+     ]
+    },
+    {
+     "key": "player_shots_on_goal_alternate",
+     "last_update": "2026-11-03T04:09:27Z",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Nazem Kadri",
        "price": 100,
        "point": 2.5
       },
       {
-       "name": "Under",
-       "description": "Matt Coronato",
-       "price": -135,
+       "name": "Over",
+       "description": "Nathan MacKinnon",
+       "price": -137,
        "point": 2.5
       },
       {
        "name": "Over",
-       "description": "Matvei Gridin",
-       "price": -185,
-       "point": 1.5
+       "description": "Martin Necas",
+       "price": 100,
+       "point": 2.5
       },
       {
-       "name": "Under",
-       "description": "Matvei Gridin",
-       "price": 138,
+       "name": "Over",
+       "description": "Kent Johnson",
+       "price": 100,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Zach Werenski",
+       "price": -137,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Matthew Knies",
+       "price": 100,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Charlie Coyle",
+       "price": 100,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Valeri Nichushkin",
+       "price": 100,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Martin Necas",
+       "price": -137,
        "point": 1.5
       },
       {
        "name": "Over",
-       "description": "Mikael Backlund",
+       "description": "Kent Johnson",
+       "price": -137,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Adam Fantilli",
+       "price": -137,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Cale Makar",
+       "price": -137,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Zach Werenski",
+       "price": -137,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Charlie Coyle",
+       "price": -137,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Nazem Kadri",
+       "price": -137,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Devon Toews",
+       "price": 100,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Charlie Coyle",
+       "price": -137,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Matthew Knies",
+       "price": -137,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Valeri Nichushkin",
+       "price": -137,
+       "point": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "underdog",
+   "title": "Underdog",
+   "markets": [
+    {
+     "key": "player_points",
+     "last_update": "2026-11-03T04:10:27Z",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Nazem Kadri",
+       "price": -137,
+       "point": 0.5
+      },
+      {
+       "name": "Under",
+       "description": "Nazem Kadri",
+       "price": -137,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Charlie Coyle",
+       "price": -137,
+       "point": 0.5
+      },
+      {
+       "name": "Under",
+       "description": "Charlie Coyle",
+       "price": -137,
+       "point": 0.5
+      }
+     ]
+    },
+    {
+     "key": "player_points_alternate",
+     "last_update": "2026-11-03T04:10:27Z",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Nathan MacKinnon",
        "price": 125,
-       "point": 2.5
-      },
-      {
-       "name": "Under",
-       "description": "Mikael Backlund",
-       "price": -170,
-       "point": 2.5
-      },
-      {
-       "name": "Over",
-       "description": "Tyler Toffoli",
-       "price": 115,
-       "point": 2.5
-      },
-      {
-       "name": "Under",
-       "description": "Tyler Toffoli",
-       "price": -153,
-       "point": 2.5
-      },
-      {
-       "name": "Over",
-       "description": "Will Smith",
-       "price": -116,
-       "point": 2.5
-      },
-      {
-       "name": "Under",
-       "description": "Will Smith",
-       "price": -114,
-       "point": 2.5
-      },
-      {
-       "name": "Over",
-       "description": "Zayne Parekh",
-       "price": -139,
        "point": 1.5
       },
       {
        "name": "Under",
-       "description": "Zayne Parekh",
-       "price": 105,
+       "description": "Nathan MacKinnon",
+       "price": -334,
        "point": 1.5
       },
       {
        "name": "Over",
-       "description": "Morgan Frost",
-       "price": -131,
-       "point": 1.5
-      },
-      {
-       "name": "Under",
-       "description": "Morgan Frost",
+       "description": "Valeri Nichushkin",
        "price": -101,
-       "point": 1.5
+       "point": 0.5
+      },
+      {
+       "name": "Under",
+       "description": "Valeri Nichushkin",
+       "price": -238,
+       "point": 0.5
       },
       {
        "name": "Over",
-       "description": "Collin Graf",
-       "price": 114,
+       "description": "Cale Makar",
+       "price": -248,
+       "point": 0.5
+      },
+      {
+       "name": "Under",
+       "description": "Cale Makar",
+       "price": -103,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Martin Necas",
+       "price": -259,
+       "point": 0.5
+      },
+      {
+       "name": "Under",
+       "description": "Martin Necas",
+       "price": 103,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Zach Werenski",
+       "price": -471,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Matthew Knies",
+       "price": -191,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Adam Fantilli",
+       "price": -272,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Kent Johnson",
+       "price": -185,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Devon Toews",
+       "price": 108,
+       "point": 0.5
+      },
+      {
+       "name": "Under",
+       "description": "Devon Toews",
+       "price": -285,
+       "point": 0.5
+      },
+      {
+       "name": "Over",
+       "description": "Brock Nelson",
+       "price": -104,
+       "point": 0.5
+      },
+      {
+       "name": "Under",
+       "description": "Brock Nelson",
+       "price": -229,
+       "point": 0.5
+      }
+     ]
+    },
+    {
+     "key": "player_shots_on_goal",
+     "last_update": "2026-11-03T04:10:27Z",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Valeri Nichushkin",
+       "price": -137,
        "point": 1.5
       },
       {
        "name": "Under",
-       "description": "Collin Graf",
-       "price": -152,
+       "description": "Valeri Nichushkin",
+       "price": -137,
        "point": 1.5
       },
       {
        "name": "Over",
-       "description": "Yegor Sharangovich",
-       "price": -116,
+       "description": "Cale Makar",
+       "price": -137,
+       "point": 2.5
+      },
+      {
+       "name": "Under",
+       "description": "Cale Makar",
+       "price": -137,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Matthew Knies",
+       "price": -137,
        "point": 1.5
       },
       {
        "name": "Under",
-       "description": "Yegor Sharangovich",
-       "price": -114,
+       "description": "Matthew Knies",
+       "price": -137,
        "point": 1.5
       },
       {
        "name": "Over",
-       "description": "Darnell Nurse",
-       "price": -112,
+       "description": "Brock Nelson",
+       "price": -137,
        "point": 1.5
       },
       {
        "name": "Under",
-       "description": "Darnell Nurse",
-       "price": -118,
+       "description": "Brock Nelson",
+       "price": -137,
+       "point": 1.5
+      }
+     ]
+    },
+    {
+     "key": "player_shots_on_goal_alternate",
+     "last_update": "2026-11-03T04:10:27Z",
+     "outcomes": [
+      {
+       "name": "Over",
+       "description": "Nathan MacKinnon",
+       "price": -122,
+       "point": 3.5
+      },
+      {
+       "name": "Under",
+       "description": "Nathan MacKinnon",
+       "price": -174,
+       "point": 3.5
+      },
+      {
+       "name": "Over",
+       "description": "Nazem Kadri",
+       "price": -101,
+       "point": 2.5
+      },
+      {
+       "name": "Under",
+       "description": "Nazem Kadri",
+       "price": -238,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Martin Necas",
+       "price": -101,
+       "point": 2.5
+      },
+      {
+       "name": "Under",
+       "description": "Martin Necas",
+       "price": -238,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Zach Werenski",
+       "price": -248,
+       "point": 2.5
+      },
+      {
+       "name": "Under",
+       "description": "Zach Werenski",
+       "price": 103,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Charlie Coyle",
+       "price": -191,
+       "point": 1.5
+      },
+      {
+       "name": "Under",
+       "description": "Charlie Coyle",
+       "price": -113,
        "point": 1.5
       },
       {
        "name": "Over",
-       "description": "Michael Misa",
-       "price": 119,
+       "description": "Adam Fantilli",
+       "price": -204,
+       "point": 2.5
+      },
+      {
+       "name": "Under",
+       "description": "Adam Fantilli",
+       "price": -108,
+       "point": 2.5
+      },
+      {
+       "name": "Over",
+       "description": "Kent Johnson",
+       "price": -238,
        "point": 1.5
       },
       {
        "name": "Under",
-       "description": "Michael Misa",
-       "price": -159,
+       "description": "Kent Johnson",
+       "price": 101,
+       "point": 1.5
+      },
+      {
+       "name": "Over",
+       "description": "Devon Toews",
+       "price": -108,
+       "point": 1.5
+      },
+      {
+       "name": "Under",
+       "description": "Devon Toews",
+       "price": -220,
        "point": 1.5
       }
      ]
