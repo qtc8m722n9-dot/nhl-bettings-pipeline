@@ -10,6 +10,9 @@ Judged on closing line value (CLV) first, profit second. No real money until a m
 - [x] Step 4 – closing prices + grading + scoreboard
   - "Closing prices" sleeps until ~10 min before each picked game and snapshots it once (sharp fair close via The Odds API, Kalshi quote)
   - "Grade & scoreboard" (each morning) grades every past slate from NHL API boxscores, replaces Kalshi closes with the exact 1-minute candle at listed start, and rewrites **[data/scoreboard.md](data/scoreboard.md)** (+ `data/scoreboard.csv`)
+- [x] Shots model v2 (M6) – `nhlpipe/shots2/`, pre-registered 2026-11-02, live from the 2026-11-03 pick lock
+  - `M6_shots_v2`: SOG props at the best sportsbook price; `M6_shots_v2_pickem`: Underdog/PrizePicks at the 2-pick breakeven
+  - frozen parameters in `data/shots2/model_v2.json`; backtest in `data/shots2/report.md`
 - [ ] Step 5 – weekly summary, dashboard
 - [~] Backtest 2025-26 (M1, M3, M4) – `nhlpipe/backtest/`, run from Actions → "Backtest (manual)"; results in `data/backtest/report.md`
 

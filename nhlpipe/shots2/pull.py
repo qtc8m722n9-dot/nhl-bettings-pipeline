@@ -39,9 +39,9 @@ def _rw(path: Path, obj=None):
     return obj
 
 
-def schedule(season: str) -> list[dict]:
+def schedule(season: str, refresh: bool = True) -> list[dict]:
     path = ROOT / "schedule" / f"{season}.json.gz"
-    done = path.exists() and _rw(path).get("complete")
+    done = path.exists() and (_rw(path).get("complete") or not refresh)
     if done:
         return _rw(path)["games"]
     y = int(season[:4])

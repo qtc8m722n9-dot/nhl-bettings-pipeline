@@ -113,6 +113,19 @@ def run(day: date, force: bool = False) -> pd.DataFrame:
         res["method"] = name
         res["pick_no"] = range(1, len(res) + 1)
         frames.append(res)
+    # M6 shots model v2 (pre-registered 2026-11-02): sportsbook + pick'em SOG props, own data refresh.
+    # Never allowed to block the other methods' lock.
+    try:
+        from .shots2 import live as shots_v2
+        pk6, cand6 = shots_v2.picks(day, slate, odds)
+        if len(pk6):
+            frames.append(pk6)
+        if len(cand6):
+            c = pd.concat([c, cand6[~cand6["cand_id"].isin(c["cand_id"])]], ignore_index=True)
+    except Exception as e:  # noqa: BLE001
+        import traceback
+        print(f"M6 shots v2 skipped: {type(e).__name__}: {e}")
+        traceback.print_exc()
     picks = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=PICK_COLS)
     picks["date"] = day.isoformat()
     picks["created_et"] = now
@@ -127,7 +140,7 @@ def run(day: date, force: bool = False) -> pd.DataFrame:
     pd.DataFrame(game_rows).to_csv(out_dir / f"{day.isoformat()}_games.csv", index=False)
 
     print(f"{len(c)} candidates, backup-goalie games: {sorted(bgames) or 'none'}")
-    for m in methods.METHODS:
+    for m in list(methods.METHODS) + ["M6_shots_v2", "M6_shots_v2_pickem"]:
         sub = picks[picks["method"] == m]
         print(f"\n{m}: {len(sub)} pick(s)")
         for r in sub.itertuples():

@@ -155,6 +155,14 @@ def main(argv: list[str]) -> None:
         for season in args:
             s2.pull_stats(season)
         s2.pull_mp_teams()
+    elif task == "shots2_live_dry":
+        import glob
+        from datetime import date as _d
+        from ..shots2 import live
+        day = _d.fromisoformat(args[0])
+        od = sorted(glob.glob(str(ROOT / "odds" / day.isoformat() / "*" / "odds_long.csv")))[-1]
+        pk, cand = live.picks(day, pd.read_csv(ROOT / "slates" / f"{day}.csv"), pd.read_csv(od))
+        print(pk[["method", "venue", "game_key", "selection", "american", "cost", "est_prob", "edge"]].to_string(index=False))
     elif task == "probe3":
         import time as _t
         for url in ["https://moneypuck.com/moneypuck/playerData/careers/gameByGame/all_skaters.csv",
