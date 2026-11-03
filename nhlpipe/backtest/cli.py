@@ -166,7 +166,8 @@ def main(argv: list[str]) -> None:
     elif task == "probe_ud":
         from .. import odds_api
         evs = odds_api.events()
-        ev = sorted(evs, key=lambda e: e["commence_time"])[0]
+        soon = datetime.now(timezone.utc) + timedelta(hours=2)
+        ev = sorted([e for e in evs if e["commence_time"] > soon.strftime("%Y-%m-%dT%H:%M:%SZ")], key=lambda e: e["commence_time"])[0]
         out = AUDIT.parent / "probe_ud"
         mk = "player_shots_on_goal,player_points,player_shots_on_goal_alternate,player_points_alternate"
         for name, extra in (("plain", {}), ("mult", {"includeMultipliers": "true"})):
