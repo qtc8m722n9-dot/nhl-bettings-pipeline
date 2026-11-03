@@ -163,6 +163,24 @@ def main(argv: list[str]) -> None:
         od = sorted(glob.glob(str(ROOT / "odds" / day.isoformat() / "*" / "odds_long.csv")))[-1]
         pk, cand = live.picks(day, pd.read_csv(ROOT / "slates" / f"{day}.csv"), pd.read_csv(od))
         print(pk[["method", "venue", "game_key", "selection", "american", "cost", "est_prob", "edge"]].to_string(index=False))
+    elif task == "probe_ud":
+        from .. import odds_api
+        evs = odds_api.events()
+        ev = sorted(evs, key=lambda e: e["commence_time"])[0]
+        out = AUDIT.parent / "probe_ud"
+        mk = "player_shots_on_goal,player_points,player_shots_on_goal_alternate,player_points_alternate"
+        for name, extra in (("plain", {}), ("mult", {"includeMultipliers": "true"})):
+            try:
+                d = odds_api._call(f"/events/{ev['id']}/odds", {"markets": mk, "bookmakers": "underdog,prizepicks,pinnacle", **extra})
+            except Exception as e:  # noqa: BLE001
+                d = {"error": str(e)[:300]}
+            _save(out / f"{name}.json", d)
+            bk = {b["key"]: {m["key"]: len(m["outcomes"]) for m in b.get("markets", [])} for b in d.get("bookmakers", [])} if isinstance(d, dict) else {}
+            print(name, ev["away_team"], "@", ev["home_team"], bk, odds_api.USAGE)
+            for b in d.get("bookmakers", []) if isinstance(d, dict) else []:
+                if b["key"] in ("underdog", "prizepicks"):
+                    for m in b["markets"][:2]:
+                        print("  ", b["key"], m["key"], m["outcomes"][:4])
     elif task == "probe3":
         import time as _t
         for url in ["https://moneypuck.com/moneypuck/playerData/careers/gameByGame/all_skaters.csv",
