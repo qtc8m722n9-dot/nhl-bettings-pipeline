@@ -155,6 +155,9 @@ def main(argv: list[str]) -> None:
         for season in args:
             s2.pull_stats(season)
         s2.pull_mp_teams()
+    elif task == "m1multi":
+        from . import m1multi
+        m1multi.run(*args)
     elif task == "shots2_live_dry":
         import glob
         from datetime import date as _d
