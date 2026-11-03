@@ -227,3 +227,65 @@ def market_test() -> None:
     with open(OUT / "report.md", "a") as f:
         f.write("\n".join(md) + "\n")
     print("\n".join(md))
+
+
+def blend_fit() -> None:
+    """Fit models.BLEND on 2025-26: every Pinnacle ml / -1.5 / main total at 1:50 PM, live M3 code."""
+    import gzip, json
+    from sklearn.linear_model import LogisticRegression
+    from .. import fair
+    from . import nhldata, mpdata, oddshist
+    from . import pipeline as P
+    recs = nhldata.load_range(nhldata.SEASON_START, nhldata.SEASON_END)
+    S = Season(recs, pd.read_csv(mpdata.ROOT / f"teams_{mpdata.SEASON}.csv.gz"),
+               pd.read_csv(mpdata.ROOT / f"goalies_{mpdata.SEASON}.csv.gz"))
+    rows = []
+    for ds, rec in sorted(recs.items()):
+        d = date.fromisoformat(ds)
+        if d < date(2025, 10, 15):
+            continue
+        t = P.pick_dt(d)
+        sched = [g for g in rec["games"] if P._utc(g["start_utc"]) > t and g["state"] in ("OFF", "FINAL")]
+        cp = oddshist._path("featured", P._iso(t), f"/historical/sports/{oddshist.SPORT}/odds|" + json.dumps(
+            {"bookmakers": oddshist.BOOKS, "date": P._iso(t), "markets": ",".join(oddshist.FEATURED)}, sort_keys=True))
+        if not sched or not cp.exists():
+            continue
+        od = P.odds_frame([json.loads(gzip.decompress(cp.read_bytes()))], P.TMAP)
+        table = fair.lookup_table(fair.devig(od[od["book"] == "pinnacle"]))
+        slate, mp_t, _ = S.slate(d, sched)
+        if mp_t.empty or mp_t[mp_t["situation"] == "all"]["games_played"].min() < 3:
+            continue
+        lp = models.league_params(mp_t)
+        for i, (g, srow) in enumerate(zip(sched, slate.to_dict("records"))):
+            lh, la = models.team_lambdas(pd.Series(srow), lp)
+            sm = models.simulate(lh, la, seed=i)
+            gk = f"{g['away']}@{g['home']}"
+            hs, as_ = g["home_score"], g["away_score"]
+            cands = [({"market": "ml", "team": g["home"], "side": "yes", "line": None, "game_key": gk}, int(hs > as_))]
+            for team, opp_s, own_s in ((g["home"], as_, hs), (g["away"], hs, as_)):
+                cands.append(({"market": "spread", "team": team, "side": "yes", "line": 1.5, "game_key": gk}, int(own_s - opp_s >= 2)))
+            for (k_gk, k_m, k_t, k_l) in table:
+                if k_gk == gk and k_m == "total" and k_l is not None and not float(k_l).is_integer():
+                    cands.append(({"market": "total", "team": None, "side": "yes", "line": k_l, "game_key": gk}, int(hs + as_ > k_l)))
+            for c, y in cands:
+                fp, src = fair.fair_prob(c, table)
+                mp_ = models.game_prob(c, sm, g["home"], g["away"])
+                if fp is None or mp_ is None:
+                    continue
+                rows.append({"date": ds, "market": c["market"], "pin": fp, "m3": mp_, "y": y})
+    df = pd.DataFrame(rows)
+    lg = lambda x: np.log(np.clip(x, 1e-4, 1 - 1e-4) / (1 - np.clip(x, 1e-4, 1 - 1e-4)))  # noqa: E731
+    out, md = {}, ["", "## Blend weights (2025-26 Pinnacle lines at 1:50 PM, M3 with goalie pull)", "",
+                   "| Market | n | weight Pinnacle | weight M3 | log loss Pinnacle | M3 | blend (in-sample) |", "|---|--:|--:|--:|--:|--:|--:|"]
+    for mk, g in df.groupby("market"):
+        X = np.column_stack([lg(g["pin"]), lg(g["m3"])])
+        lr = LogisticRegression(C=1e6, fit_intercept=False, max_iter=1000).fit(X, g["y"])
+        a, b = float(lr.coef_[0][0]), float(lr.coef_[0][1])
+        pb = 1 / (1 + np.exp(-(a * X[:, 0] + b * X[:, 1])))
+        out[mk] = {"a": a, "b": b, "n": int(len(g))}
+        md.append(f"| {mk} | {len(g)} | {a:.3f} | {b:.3f} | {_ll(g['pin'], g['y']):.4f} | {_ll(g['m3'], g['y']):.4f} | {_ll(pb, g['y']):.4f} |")
+    (OUT / "blend.json").write_text(json.dumps(out, indent=1))
+    df.to_csv(OUT / "blend_rows.csv", index=False)
+    with open(OUT / "report.md", "a") as f:
+        f.write("\n".join(md) + "\n")
+    print("\n".join(md))

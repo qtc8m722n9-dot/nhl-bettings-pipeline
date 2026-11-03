@@ -19,6 +19,9 @@ Amendments 2026-11-03 (pricing / rule fixes, applied from that slate on):
   - Kalshi fee rounded up per (nominal $100) order; Kalshi DNP/postponed bets
     graded at Kalshi's fair-price settlement instead of void
   - new method M6 shots model v2 (nhlpipe/shots2/live.py)
+  - M3 v2 game model: late-game goalie pull + blend with the fair price per market
+    (models.BLEND: moneyline and +/-1.5 only; no fair price -> no bet). Also feeds M2.
+  - M4 retired (backtest ROI -4.9%, CLV -2.2 pp; live CLV about -8 pp); replaced by M6
 """
 import random
 import re
@@ -221,6 +224,8 @@ def parlays(singles: pd.DataFrame) -> pd.DataFrame:
         )
     return pd.DataFrame(out)
 
+
+RETIRED = {"M4_shots_model"}  # kept for history; no new picks from 2026-11-04
 
 METHODS = {
     "B0_random": b0_random,

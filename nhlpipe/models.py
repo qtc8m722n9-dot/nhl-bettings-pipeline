@@ -19,6 +19,11 @@ B2B_FACTOR = 0.97        # team on 2nd night of back-to-back: own scoring x0.97,
 P1_SHARE = 0.30          # share of regulation goals scored in the 1st period
 OT_HOME_WIN = 0.52       # P(home wins OT/shootout | tied after regulation)
 N_SIMS = 20000
+# Late-game goalie pull (added 2026-11-03; fit on 2023-24, better on 2024-25 out of sample,
+# see data/backtest/m3eng/report.md). One-goal game: leader scores into the empty net (P1E)
+# or trailer ties (P1T). Two-goal game: empty-netter (P2E) or trailer cuts it to one (P2C).
+# Regulation scoring is scaled by PULL_SCALE so the mean total still matches.
+P1E, P1T, P2E, P2C, PULL_SCALE = 0.40, 0.14, 0.40, 0.12, 0.93
 SKATER_PRIOR_MIN = 200   # shrink a skater's shot rate toward position mean (minutes)
 OPP_FACTOR_WEIGHT = 0.5  # how much of the opponent shots-allowed factor to apply
 
@@ -75,8 +80,16 @@ def team_lambdas(g: pd.Series, lp: dict) -> tuple[float, float]:
 
 def simulate(lh: float, la: float, seed: int = 0) -> dict:
     rng = np.random.default_rng(seed)
-    h = rng.poisson(lh, N_SIMS)
-    a = rng.poisson(la, N_SIMS)
+    h = rng.poisson(lh * PULL_SCALE, N_SIMS)
+    a = rng.poisson(la * PULL_SCALE, N_SIMS)
+    m = h - a
+    u = rng.random(N_SIMS)
+    lead_h = m > 0
+    one, two = np.abs(m) == 1, np.abs(m) == 2
+    lead_goal = (one & (u < P1E)) | (two & (u < P2E))
+    trail_goal = (one & (u >= P1E) & (u < P1E + P1T)) | (two & (u >= P2E) & (u < P2E + P2C))
+    h = h + (lead_goal & lead_h) + (trail_goal & ~lead_h)
+    a = a + (lead_goal & ~lead_h) + (trail_goal & lead_h)
     tie = h == a
     ot_home = rng.random(N_SIMS) < OT_HOME_WIN
     hf = h + (tie & ot_home)
@@ -84,6 +97,28 @@ def simulate(lh: float, la: float, seed: int = 0) -> dict:
     h1 = rng.poisson(lh * P1_SHARE, N_SIMS)
     a1 = rng.poisson(la * P1_SHARE, N_SIMS)
     return {"h": h, "a": a, "hf": hf, "af": af, "h1": h1, "a1": a1}
+
+
+# Market blend (added 2026-11-03): M3 no longer bets against the market on its own.
+# P(yes) = sigmoid(a*logit(fair) + b*logit(model)), fit per market on every 2025-26
+# Pinnacle line at 1:50 PM (data/backtest/m3eng/blend.json). No fair price -> no bet.
+def _load_blend() -> dict:
+    import json
+    from pathlib import Path
+    p = Path(__file__).resolve().parent.parent / "data" / "backtest" / "m3eng" / "blend.json"
+    return json.loads(p.read_text()) if p.exists() else {}
+
+
+BLEND = _load_blend()
+
+
+def blend(market: str, fair_p, model_p):
+    w = BLEND.get(market)
+    if w is None or fair_p is None or model_p is None or not (0 < fair_p < 1) or not (0 < model_p < 1):
+        return None
+    lg = lambda x: math.log(x / (1 - x))  # noqa: E731
+    z = w["a"] * lg(fair_p) + w["b"] * lg(min(max(model_p, 1e-4), 1 - 1e-4))
+    return 1 / (1 + math.exp(-z))
 
 
 def game_prob(c: dict, sim: dict, home: str, away: str) -> float | None:

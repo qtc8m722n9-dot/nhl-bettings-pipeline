@@ -194,7 +194,8 @@ def picks(day: date, slate: pd.DataFrame, odds: pd.DataFrame, refresh_data: bool
                  "player_key", "selection", "cand_id", "fair_prob", "fair_source", "est_prob", "edge", "mu"]
 
     out = []
-    for name, venues in (("M6_shots_v2", BOOKS), ("M6_shots_v2_pickem", PICKEM)):
+    # pick'em side: Underdog only (PrizePicks left Canada on 2026-04-03)
+    for name, venues in (("M6_shots_v2", BOOKS), ("M6_shots_v2_pickem", {"underdog"})):
         d = o[o["venue"].isin(venues) & (o["edge"] >= EDGE_MIN) & (o["edge"] <= EDGE_MAX)]
         d = d.sort_values(["edge", "cand_id"], ascending=[False, True]).drop_duplicates(["game_key", "key"])
         d = d.groupby("game_key", sort=False).head(MAX_PER_GAME).copy()

@@ -33,3 +33,11 @@ Note: puck-line outcomes use regulation goals; OT/shootout games are one-goal ga
 - puck line -1.5, new: weight on Pinnacle 1.08, on M3 0.37 (M3 adds information only if clearly > 0)
 - totals, old: weight on Pinnacle 1.92, on M3 0.41 (M3 adds information only if clearly > 0)
 - totals, new: weight on Pinnacle 1.94, on M3 0.37 (M3 adds information only if clearly > 0)
+
+## Blend weights (2025-26 Pinnacle lines at 1:50 PM, M3 with goalie pull)
+
+| Market | n | weight Pinnacle | weight M3 | log loss Pinnacle | M3 | blend (in-sample) |
+|---|--:|--:|--:|--:|--:|--:|
+| ml | 1208 | 0.480 | 0.460 | 0.6834 | 0.6830 | 0.6810 |
+| spread | 1205 | 0.973 | 0.267 | 0.6212 | 0.6236 | 0.6181 |
+| total | 608 | 3.386 | -0.249 | 0.6881 | 0.7011 | 0.6831 |

@@ -95,6 +95,14 @@ def run(day: date, force: bool = False) -> pd.DataFrame:
         )
         for r in c.to_dict("records")
     ]
+    # M3 v2 (2026-11-03): blend with the fair price; markets without a fair price or a fitted
+    # blend (totals, team totals, alt lines, 1st period) are no longer bet by M3 / M2.
+    c["model_raw"] = c["model_prob"]
+    c["model_prob"] = [
+        models.blend(r["market"], r["fair_prob"] if pd.notna(r["fair_prob"]) else None,
+                     r["model_raw"] if pd.notna(r["model_raw"]) else None)
+        for r in c.to_dict("records")
+    ]
 
     # M4 shots model
     sk = models.skater_table(mp_s, mp_t, lp)
@@ -104,6 +112,8 @@ def run(day: date, force: bool = False) -> pd.DataFrame:
     now = datetime.now(ET).isoformat(timespec="seconds")
     frames = []
     for name, fn in methods.METHODS.items():
+        if name in methods.RETIRED:
+            continue
         res = fn(c, day, bgames) if name == "M2_goalie_news" else fn(c, day)
         if res is None or res.empty:
             continue
