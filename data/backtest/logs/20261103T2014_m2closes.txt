@@ -1,0 +1,15 @@
+50 slots {'credits': 1320, 'calls': 44, 'cached': 6}
+100 slots {'credits': 2070, 'calls': 69, 'cached': 31}
+150 slots {'credits': 3060, 'calls': 102, 'cached': 48}
+200 slots {'credits': 4170, 'calls': 139, 'cached': 61}
+250 slots {'credits': 5340, 'calls': 178, 'cached': 72}
+300 slots {'credits': 6450, 'calls': 215, 'cached': 85}
+350 slots {'credits': 7440, 'calls': 248, 'cached': 102}
+400 slots {'credits': 8340, 'calls': 278, 'cached': 122}
+450 slots {'credits': 9540, 'calls': 318, 'cached': 132}
+500 slots {'credits': 10020, 'calls': 334, 'cached': 166}
+550 slots {'credits': 11160, 'calls': 372, 'cached': 178}
+600 slots {'credits': 12210, 'calls': 407, 'cached': 193}
+650 slots {'credits': 13020, 'calls': 434, 'cached': 216}
+credit cap 14000 reached (spent 13980)
+done 696 slots {'credits': 13980, 'calls': 466, 'cached': 230} {'x-requests-remaining': '82175', 'x-requests-used': '17825', 'x-requests-last': '30'}
