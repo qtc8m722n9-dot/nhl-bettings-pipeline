@@ -155,6 +155,25 @@ def main(argv: list[str]) -> None:
         for season in args:
             s2.pull_stats(season)
         s2.pull_mp_teams()
+    elif task == "m2closes":
+        # Pinnacle (and books) ~2 min before every 2025-26 game: one featured snapshot per start slot
+        from . import nhldata
+        from . import pipeline as P
+        recs = nhldata.load_range(nhldata.SEASON_START, nhldata.SEASON_END)
+        slots = sorted({g["start_utc"] for r in recs.values() for g in r["games"] if g["state"] in ("OFF", "FINAL")})
+        n = 0
+        for st in slots:
+            if st < "2025-10-15":
+                continue
+            try:
+                oddshist.featured(P._iso(P._utc(st) - P.CLOSE_LEAD))
+            except oddshist.BudgetExceeded as e:
+                print(e)
+                break
+            n += 1
+            if n % 50 == 0:
+                print(n, "slots", oddshist.SPENT, flush=True)
+        print("done", n, "slots", oddshist.SPENT, oddshist.LAST_HEADERS)
     elif task == "m1multi":
         from . import m1multi
         m1multi.run(*args)
