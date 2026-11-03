@@ -3,8 +3,8 @@
   "side": "home",
   "team_name": "Pittsburgh Penguins",
   "goalie": "Arturs Silovs",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T16:09:38.727Z"
  },
  {
   "side": "away",
@@ -30,37 +30,37 @@
  {
   "side": "home",
   "team_name": "Philadelphia Flyers",
-  "goalie": "Joseph Woll",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "goalie": "Dan Vladar",
+  "status": "Confirmed",
+  "updated": "2026-11-03T15:31:55.250Z"
  },
  {
   "side": "away",
   "team_name": "Minnesota Wild",
   "goalie": "Jesper Wallstedt",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T16:25:27.124Z"
  },
  {
   "side": "home",
   "team_name": "Montreal Canadiens",
   "goalie": "Jacob Fowler",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T15:44:54.387Z"
  },
  {
   "side": "away",
   "team_name": "Winnipeg Jets",
-  "goalie": "Nico Daws",
+  "goalie": "Stuart Skinner",
   "status": "Unconfirmed",
   "updated": "2026-11-03"
  },
  {
   "side": "home",
   "team_name": "Columbus Blue Jackets",
-  "goalie": "Jet Greaves",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "goalie": "Cam Talbot",
+  "status": "Confirmed",
+  "updated": "2026-11-03T16:33:55.400Z"
  },
  {
   "side": "away",
@@ -73,29 +73,29 @@
   "side": "home",
   "team_name": "New York Rangers",
   "goalie": "Dylan Garand",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T15:37:00.536Z"
  },
  {
   "side": "away",
   "team_name": "St Louis Blues",
   "goalie": "Joel Hofer",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T17:04:14.211Z"
  },
  {
   "side": "home",
   "team_name": "Washington Capitals",
   "goalie": "Logan Thompson",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T15:35:59.491Z"
  },
  {
   "side": "away",
   "team_name": "Dallas Stars",
   "goalie": "Jake Oettinger",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T16:53:46.735Z"
  },
  {
   "side": "home",
@@ -108,29 +108,29 @@
   "side": "away",
   "team_name": "Utah Mammoth",
   "goalie": "Sebastian Cossa",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Likely",
+  "updated": "2026-11-03T17:03:22.864Z"
  },
  {
   "side": "home",
   "team_name": "New Jersey Devils",
   "goalie": "Connor Hellebuyck",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T16:28:47.517Z"
  },
  {
   "side": "away",
   "team_name": "Edmonton Oilers",
   "goalie": "Tristan Jarry",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T17:14:44.859Z"
  },
  {
   "side": "home",
   "team_name": "Nashville Predators",
   "goalie": "Juuse Saros",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Confirmed",
+  "updated": "2026-11-03T16:36:54.969Z"
  },
  {
   "side": "away",
@@ -143,8 +143,8 @@
   "side": "home",
   "team_name": "Vancouver Canucks",
   "goalie": "Kevin Lankinen",
-  "status": "Unconfirmed",
-  "updated": "2026-11-03"
+  "status": "Likely",
+  "updated": "2026-11-03T17:30:43.572Z"
  },
  {
   "side": "away",

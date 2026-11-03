@@ -41,14 +41,6 @@
  },
  {
   "team_name": "Buffalo Sabres",
-  "player": "Zach Benson",
-  "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-02T17:29Z"
- },
- {
-  "team_name": "Buffalo Sabres",
   "player": "Konsta Helenius",
   "position": "C",
   "status": "Out",
@@ -161,19 +153,19 @@
  },
  {
   "team_name": "Chicago Blackhawks",
+  "player": "Bowen Byram",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Byram (upper body) was placed on injured reserve Tuesday.",
+  "date": "2026-11-03T17:31Z"
+ },
+ {
+  "team_name": "Chicago Blackhawks",
   "player": "Patrick Kane",
   "position": "RW",
   "status": "Out",
   "detail": "Head coach Jeff Blashill said after Monday's 5-2 loss to the Avalanche that Kane has an upper-body injury and will miss at least the next couple of games, Ben Pope of the Chicago Sun-Times reports.",
   "date": "2026-11-03T05:19Z"
- },
- {
-  "team_name": "Chicago Blackhawks",
-  "player": "Bowen Byram",
-  "position": "D",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-02T17:40Z"
  },
  {
   "team_name": "Colorado Avalanche",
@@ -563,9 +555,9 @@
   "team_name": "New York Rangers",
   "player": "Sean Durzi",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-02T14:13Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-03T17:37Z"
  },
  {
   "team_name": "New York Rangers",
@@ -659,17 +651,9 @@
   "team_name": "Pittsburgh Penguins",
   "player": "Evgeni Malkin",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-02T15:57Z"
- },
- {
-  "team_name": "Pittsburgh Penguins",
-  "player": "Kaedan Korczak",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-02T15:52Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-03T16:56Z"
  },
  {
   "team_name": "Pittsburgh Penguins",
@@ -769,27 +753,19 @@
  },
  {
   "team_name": "St. Louis Blues",
+  "player": "Colton Parayko",
+  "position": "D",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-03T17:49Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
   "player": "Logan Mailloux",
   "position": "D",
   "status": "Injured Reserve",
   "detail": "The Blues assigned Mailloux (hand) to AHL Springfield for a conditioning assignment Monday.",
   "date": "2026-11-02T21:36Z"
- },
- {
-  "team_name": "St. Louis Blues",
-  "player": "Colton Parayko",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-01T13:42Z"
- },
- {
-  "team_name": "St. Louis Blues",
-  "player": "Ross Johnston",
-  "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-19T02:33Z"
  },
  {
   "team_name": "St. Louis Blues",
@@ -825,19 +801,19 @@
  },
  {
   "team_name": "Tampa Bay Lightning",
-  "player": "Erik Cernak",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-01T13:42Z"
- },
- {
-  "team_name": "Tampa Bay Lightning",
   "player": "Yanni Gourde",
   "position": "C",
   "status": "Injured Reserve",
   "detail": "Gourde (hip) was placed on the injured non-roster list Monday.",
   "date": "2026-09-28T19:18Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "John Tavares",
+  "position": "C",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-03T16:09Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
@@ -870,14 +846,6 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-10-23T02:22Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "John Tavares",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-17T20:19Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
@@ -998,14 +966,6 @@
   "status": "Injured Reserve",
   "detail": "ir-nr",
   "date": "2026-09-29T17:07Z"
- },
- {
-  "team_name": "Winnipeg Jets",
-  "player": "Dawson Mercer",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-02T18:22Z"
  },
  {
   "team_name": "Winnipeg Jets",
