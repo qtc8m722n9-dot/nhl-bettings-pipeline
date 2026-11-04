@@ -1,0 +1,58 @@
+[
+ {
+  "side": "home",
+  "team_name": "Buffalo Sabres",
+  "goalie": "Colten Ellis",
+  "status": "Unconfirmed",
+  "updated": "2026-11-04"
+ },
+ {
+  "side": "away",
+  "team_name": "Ottawa Senators",
+  "goalie": "Samuel Ersson",
+  "status": "Unconfirmed",
+  "updated": "2026-11-04"
+ },
+ {
+  "side": "home",
+  "team_name": "Florida Panthers",
+  "goalie": "Jacob Markstrom",
+  "status": "Unconfirmed",
+  "updated": "2026-11-04"
+ },
+ {
+  "side": "away",
+  "team_name": "Chicago Blackhawks",
+  "goalie": "Spencer Knight",
+  "status": "Unconfirmed",
+  "updated": "2026-11-04"
+ },
+ {
+  "side": "home",
+  "team_name": "Seattle Kraken",
+  "goalie": "Joey Daccord",
+  "status": "Unconfirmed",
+  "updated": "2026-11-04"
+ },
+ {
+  "side": "away",
+  "team_name": "Calgary Flames",
+  "goalie": "Dustin Wolf",
+  "status": "Unconfirmed",
+  "updated": "2026-11-04"
+ },
+ {
+  "side": "home",
+  "team_name": "Los Angeles Kings",
+  "goalie": "Darcy Kuemper",
+  "status": "Unconfirmed",
+  "updated": "2026-11-04"
+ },
+ {
+  "side": "away",
+  "team_name": "San Jose Sharks",
+  "goalie": "Yaroslav Askarov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-04"
+ }
+]
