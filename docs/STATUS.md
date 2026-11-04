@@ -19,6 +19,7 @@ Last updated: 2026-11-03. Paper bets only. Owner: Evan (Montreal, Quebec).
 - M3 v2 xG game model: goalie-pull/empty-net phase (fit 2023-24, better on 2024-25 out of sample) + blend with fair price per market (`data/backtest/m3eng/blend.json`): moneyline and +/-1.5 only; no totals (model weight negative).
 - M4: retired 2026-11-04 (replaced by M6).
 - M5 pick'em entries: Underdog only, picks from different games, payout = product of pick payouts.
+- Bullseye (research component, not a betting method; `nhlpipe/bullseye.py`, `data/bullseye/report.md`): game-winner model on 12 factors (xG strength, finishing, goalie, home, rest/b2b/3-in-4, travel, lineup). Public-model quality (log loss 0.660 on 2024-25 OOS) but no edge on Pinnacle alone in 2025-26 (blend weight 0.20, CI includes 0). Leads: away back-to-back under-priced (home 60.6% vs Pinnacle 56.3%, n=254), market leans on goals over xG.
 - M6 shots model v2 (`nhlpipe/shots2/`): NB GLM on role/usage/opponent/schedule features, frozen params `data/shots2/model_v2.json`, blended with Pinnacle; edge 3-12%, up to 3 players/game. `M6_shots_v2` = sportsbook prices (paper benchmark only, not usable from Quebec), `M6_shots_v2_pickem` = Underdog.
 
 ## Pricing facts (verified)
@@ -34,7 +35,7 @@ Last updated: 2026-11-03. Paper bets only. Owner: Evan (Montreal, Quebec).
 
 ## Next steps (in order)
 1. Let the shadow board accumulate (every priced line graded nightly from 2026-11-04).
-2. Build the combined model: inputs = fair price, M3 raw/blend, M6 mu/probability, sog_prob, backup-goalie flag, venue, market, line moves; train on shadow board + 2025-26 backtest tables (`data/shots2/lines.csv`, `data/backtest/m3eng/blend_rows.csv`); judge strictly out of sample vs the strongest single method on CLV and log loss. Review 2026-12-31.
+2. Build the combined model: inputs = fair price, M3 raw/blend, M6 mu/probability, sog_prob, backup-goalie flag, venue, market, line moves; train on shadow board + 2025-26 backtest tables (`data/shots2/lines.csv`, `data/backtest/m3eng/blend_rows.csv`); judge strictly out of sample vs the strongest single method on CLV and log loss. Add Bullseye inputs (prob, a_b2b, ev_xgd, fin; rebuildable from cached data via `bullseye_bt`). Pending Evan: pre-register the away-b2b hypothesis (home side vs fair price when only the away team is on a b2b) for the shadow board. Review 2026-12-31.
 3. M3 totals bias - DONE 2026-11-03 (`data/backtest/m3eng/totals_report.md`): gap 0.27 goals/game = pull scale ~0.13 (PULL_SCALE 0.93 does not preserve the mean as intended) + goalie term ~0.06 + 2025-26 scoring above to-date average ~0.09. Fixing it gives no totals edge (blend weight on M3 still negative) -> no-totals rule stays. Pending Evan: adopt mean-preserving scale (`m3totals.mean_scale`) at next test-period boundary; effect on puck line/OT log loss is negligible.
 4. Kalshi: paper-test resting limit orders at fair value (fill rate + CLV on filled orders only).
 5. Keep weekly flaw reviews; never change pre-registered rules without Evan's approval.
