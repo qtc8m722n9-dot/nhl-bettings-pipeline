@@ -41,14 +41,6 @@
  },
  {
   "team_name": "Buffalo Sabres",
-  "player": "Jiri Kulich",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "Kulich (concussion) participated in Tuesday's practice and is close to being ready to return, according to Rachel Lenzi of The Buffalo News.",
-  "date": "2026-11-03T18:06Z"
- },
- {
-  "team_name": "Buffalo Sabres",
   "player": "Konsta Helenius",
   "position": "C",
   "status": "Out",
@@ -99,9 +91,9 @@
   "team_name": "Calgary Flames",
   "player": "Brennan Othmann",
   "position": "LW",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-03T01:53Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:22Z"
  },
  {
   "team_name": "Calgary Flames",
@@ -139,9 +131,9 @@
   "team_name": "Carolina Hurricanes",
   "player": "Taylor Hall",
   "position": "LW",
-  "status": "Out",
-  "detail": "Hall (upper body) isn't expected to play against Nashville on Tuesday, per Walt Ruff of the Hurricanes' official site.",
-  "date": "2026-11-03T19:03Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
  },
  {
   "team_name": "Carolina Hurricanes",
@@ -233,19 +225,19 @@
  },
  {
   "team_name": "Detroit Red Wings",
+  "player": "Albert Johansson",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
   "player": "John Gibson",
   "position": "G",
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-04T01:07Z"
- },
- {
-  "team_name": "Detroit Red Wings",
-  "player": "Albert Johansson",
-  "position": "D",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-02T19:31Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -459,9 +451,9 @@
   "team_name": "Montreal Canadiens",
   "player": "Kirby Dach",
   "position": "C",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-03T19:06Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
  },
  {
   "team_name": "Montreal Canadiens",
@@ -512,12 +504,28 @@
   "date": "2026-09-29T16:38Z"
  },
  {
+  "team_name": "Nashville Predators",
+  "player": "Jonathan Marchessault",
+  "position": "RW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
+ },
+ {
   "team_name": "New Jersey Devils",
   "player": "Seamus Casey",
   "position": "D",
   "status": "Injured Reserve",
   "detail": "Casey will be out of action for 6-8 weeks after undergoing a knee procedure, Kristy Flannery of The Hockey News reports Friday.",
   "date": "2026-10-02T17:31Z"
+ },
+ {
+  "team_name": "New York Islanders",
+  "player": "Mathew Barzal",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Barzal (knee) practiced Wednesday, but he wore a no-contact jersey, and there's still no timetable for his return, per Stefen Rosner of NHL.com.",
+  "date": "2026-11-04T17:34Z"
  },
  {
   "team_name": "New York Islanders",
@@ -552,20 +560,20 @@
   "date": "2026-10-19T13:56Z"
  },
  {
-  "team_name": "New York Islanders",
-  "player": "Mathew Barzal",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Barzal (knee) will not join the Islanders for their two-game road trip, Andrew Gross of Newsday reports Thursday.",
-  "date": "2026-10-15T16:57Z"
- },
- {
   "team_name": "New York Rangers",
   "player": "Sean Durzi",
   "position": "D",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-03T17:37Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Joonas Korpisalo",
+  "position": "G",
+  "status": "Injured Reserve",
+  "detail": "Korpisalo (foot) was reassigned to AHL Hartford on Wednesday for a conditioning stint, Mollie Walker of the New York Post.",
+  "date": "2026-11-04T15:18Z"
  },
  {
   "team_name": "New York Rangers",
@@ -585,14 +593,6 @@
  },
  {
   "team_name": "New York Rangers",
-  "player": "Joonas Korpisalo",
-  "position": "G",
-  "status": "Injured Reserve",
-  "detail": "Korpisalo (lower body) will miss at least four more weeks, per Elliotte Friedman of Sportsnet on Saturday.",
-  "date": "2026-10-10T17:11Z"
- },
- {
-  "team_name": "New York Rangers",
   "player": "Aidan Thompson",
   "position": "C",
   "status": "Injured Reserve",
@@ -606,6 +606,14 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-09-29T01:35Z"
+ },
+ {
+  "team_name": "Ottawa Senators",
+  "player": "Tyler Kleven",
+  "position": "D",
+  "status": "Out",
+  "detail": "Kleven (illness) won't play Wednesday in Buffalo, per Jackson Starr of the Senators' official site.",
+  "date": "2026-11-04T16:56Z"
  },
  {
   "team_name": "Ottawa Senators",
@@ -659,9 +667,9 @@
   "team_name": "Pittsburgh Penguins",
   "player": "Evgeni Malkin",
   "position": "C",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-03T16:56Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
  },
  {
   "team_name": "Pittsburgh Penguins",
@@ -771,9 +779,9 @@
   "team_name": "St. Louis Blues",
   "player": "Colton Parayko",
   "position": "D",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-03T17:49Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
  },
  {
   "team_name": "St. Louis Blues",
@@ -809,27 +817,27 @@
  },
  {
   "team_name": "Tampa Bay Lightning",
-  "player": "Zemgus Girgensons",
-  "position": "C",
-  "status": "Out",
-  "detail": "Girgensons (lower body) won't play against Detroit on Tuesday, per Lightning reporter Gabby Shirley.",
-  "date": "2026-11-02T17:13Z"
- },
- {
-  "team_name": "Tampa Bay Lightning",
   "player": "Yanni Gourde",
   "position": "C",
   "status": "Injured Reserve",
-  "detail": "Gourde (hip) was placed on the injured non-roster list Monday.",
-  "date": "2026-09-28T19:18Z"
+  "detail": "Gourde (hip) will miss Thursday's game against Chicago, but he might be available at some point during the upcoming four-game road trip, per Benjamin Pierce of the Lightning's official site.",
+  "date": "2026-11-04T17:51Z"
+ },
+ {
+  "team_name": "Tampa Bay Lightning",
+  "player": "Zemgus Girgensons",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
   "player": "John Tavares",
   "position": "C",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-03T16:09Z"
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-04T15:21Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
@@ -899,9 +907,9 @@
   "team_name": "Utah Mammoth",
   "player": "Kailer Yamamoto",
   "position": "RW",
-  "status": "Out",
-  "detail": "Yamamoto (upper body) won't play against Toronto on Tuesday.",
-  "date": "2026-11-03T23:37Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
  },
  {
   "team_name": "Utah Mammoth",
@@ -923,9 +931,9 @@
   "team_name": "Vancouver Canucks",
   "player": "Tom Willander",
   "position": "D",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-04T01:49Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-04T15:21Z"
  },
  {
   "team_name": "Vancouver Canucks",
