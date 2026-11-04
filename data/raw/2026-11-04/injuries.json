@@ -188,8 +188,8 @@
   "player": "Miro Heiskanen",
   "position": "D",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-04T01:52Z"
+  "detail": "The Stars announced Wednesday that Heiskanen (upper body) is considered day-to-day, Mike Heika of the Stars' official site reports.",
+  "date": "2026-11-04T18:14Z"
  },
  {
   "team_name": "Dallas Stars",
@@ -449,6 +449,14 @@
  },
  {
   "team_name": "Montreal Canadiens",
+  "player": "Nick Suzuki",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "Suzuki (hand) is questionable for Thursday's game against Utah, per Stu Cowan of The Montreal Gazette.",
+  "date": "2026-11-04T18:16Z"
+ },
+ {
+  "team_name": "Montreal Canadiens",
   "player": "Kirby Dach",
   "position": "C",
   "status": "Day-To-Day",
@@ -470,14 +478,6 @@
   "status": "Injured Reserve",
   "detail": "Montembeault (lower body) is considered day-to-day, according to Renaud Lavoie of TVA Sports on Saturday.",
   "date": "2026-10-31T15:25Z"
- },
- {
-  "team_name": "Montreal Canadiens",
-  "player": "Nick Suzuki",
-  "position": "C",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-10-22T15:30Z"
  },
  {
   "team_name": "Montreal Canadiens",
