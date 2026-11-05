@@ -22,6 +22,9 @@ Amendments 2026-11-03 (pricing / rule fixes, applied from that slate on):
   - M3 v2 game model: late-game goalie pull + blend with the fair price per market
     (models.BLEND: moneyline and +/-1.5 only; no fair price -> no bet). Also feeds M2.
   - M4 retired (backtest ROI -4.9%, CLV -2.2 pp; live CLV about -8 pp); replaced by M6
+Amendment 2026-11-05 (Evan approved, from the 2026-11-06 slate on):
+  - M3/M2 simulation uses the mean-preserving goalie-pull scale (models.mean_scale)
+    instead of the fixed 0.93 (data/backtest/m3eng/totals_report.md)
 """
 import random
 import re

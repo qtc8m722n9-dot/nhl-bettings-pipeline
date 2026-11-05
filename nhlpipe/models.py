@@ -22,7 +22,11 @@ N_SIMS = 20000
 # Late-game goalie pull (added 2026-11-03; fit on 2023-24, better on 2024-25 out of sample,
 # see data/backtest/m3eng/report.md). One-goal game: leader scores into the empty net (P1E)
 # or trailer ties (P1T). Two-goal game: empty-netter (P2E) or trailer cuts it to one (P2C).
-# Regulation scoring is scaled by PULL_SCALE so the mean total still matches.
+# Regulation scoring is scaled so the mean total still matches.
+# Amended 2026-11-05 (Evan approved; from the 2026-11-06 slate): the fixed PULL_SCALE 0.93
+# lowered the mean total ~0.13 goals/game in every season (data/backtest/m3eng/totals_report.md).
+# simulate() now solves the scale per game (mean_scale) so regulation goals including the
+# pull phase average lh + la. PULL_SCALE is kept only to reproduce older backtests.
 P1E, P1T, P2E, P2C, PULL_SCALE = 0.40, 0.14, 0.40, 0.12, 0.93
 SKATER_PRIOR_MIN = 200   # shrink a skater's shot rate toward position mean (minutes)
 OPP_FACTOR_WEIGHT = 0.5  # how much of the opponent shots-allowed factor to apply
@@ -78,10 +82,31 @@ def team_lambdas(g: pd.Series, lp: dict) -> tuple[float, float]:
     return lam["home"], lam["away"]
 
 
-def simulate(lh: float, la: float, seed: int = 0) -> dict:
+_K = np.arange(25)
+
+
+def _pull_added(lh: float, la: float, s: float) -> float:
+    """Expected goals the pull phase adds, given regulation Poisson(lh*s), Poisson(la*s)."""
+    from scipy.stats import poisson
+    j = np.outer(poisson.pmf(_K, lh * s), poisson.pmf(_K, la * s))
+    m = np.abs(_K[:, None] - _K[None, :])
+    return float(j[m == 1].sum() * (P1E + P1T) + j[m == 2].sum() * (P2E + P2C))
+
+
+def mean_scale(lh: float, la: float) -> float:
+    """Scale s so regulation goals incl. the pull phase average lh + la (fixed-point, converges in a few steps)."""
+    s = 1.0
+    for _ in range(6):
+        s = 1 - _pull_added(lh, la, s) / (lh + la)
+    return s
+
+
+def simulate(lh: float, la: float, seed: int = 0, scale: float | None = None) -> dict:
+    """scale=None -> mean-preserving scale (live since 2026-11-06); pass PULL_SCALE to reproduce older runs."""
     rng = np.random.default_rng(seed)
-    h = rng.poisson(lh * PULL_SCALE, N_SIMS)
-    a = rng.poisson(la * PULL_SCALE, N_SIMS)
+    s = mean_scale(lh, la) if scale is None else scale
+    h = rng.poisson(lh * s, N_SIMS)
+    a = rng.poisson(la * s, N_SIMS)
     m = h - a
     u = rng.random(N_SIMS)
     lead_h = m > 0

@@ -1,6 +1,6 @@
 # Status and next steps (read this first in a new session)
 
-Last updated: 2026-11-03. Paper bets only. Owner: Evan (Montreal, Quebec).
+Last updated: 2026-11-05. Paper bets only. Owner: Evan (Montreal, Quebec).
 
 ## What runs by itself (GitHub Actions)
 | Workflow | When (ET) | Does |
@@ -8,7 +8,7 @@ Last updated: 2026-11-03. Paper bets only. Owner: Evan (Montreal, Quebec).
 | Daily data pull | 9:30 AM, 12:30 PM | schedule, standings, MoneyPuck, DailyFaceoff goalies, ESPN injuries |
 | Pick lock | weekdays 12:50 PM, weekends 10:30 AM | odds snapshot + every method's picks -> `data/picks/<date>.csv` |
 | Closing prices | ~28 min before each start slot | live closes (often late/skipped by GitHub; backfilled next morning) |
-| Grade & scoreboard | 7:17 AM (+ 11:17 AM retry) | exact closes (Kalshi candles + Odds API archive), grades, `data/scoreboard.md`, `data/shadow/`, `data/diagnostics.md` |
+| Grade & scoreboard | 7:17 AM (+ 11:17 AM retry) | exact closes (Kalshi candles + Odds API archive), grades, `data/scoreboard.md`, `data/shadow/`, `data/diagnostics.md`, `data/hypotheses.md` |
 | Backtest (manual) | on demand | `nhlpipe/backtest/cli.py` tasks; every pull cached in `data/backtest/` |
 | Weekly flaw review | Mondays 3:37 PM (Claude scheduled task) | reads diagnostics, tests suspected flaws, fixes bugs, reports to Evan |
 
@@ -35,7 +35,7 @@ Last updated: 2026-11-03. Paper bets only. Owner: Evan (Montreal, Quebec).
 
 ## Next steps (in order)
 1. Let the shadow board accumulate (every priced line graded nightly from 2026-11-04).
-2. Build the combined model: inputs = fair price, M3 raw/blend, M6 mu/probability, sog_prob, backup-goalie flag, venue, market, line moves; train on shadow board + 2025-26 backtest tables (`data/shots2/lines.csv`, `data/backtest/m3eng/blend_rows.csv`); judge strictly out of sample vs the strongest single method on CLV and log loss. Add Bullseye inputs (prob, a_b2b, ev_xgd, fin; rebuildable from cached data via `bullseye_bt`). Pending Evan: pre-register the away-b2b hypothesis (home side vs fair price when only the away team is on a b2b) for the shadow board. Review 2026-12-31.
-3. M3 totals bias - DONE 2026-11-03 (`data/backtest/m3eng/totals_report.md`): gap 0.27 goals/game = pull scale ~0.13 (PULL_SCALE 0.93 does not preserve the mean as intended) + goalie term ~0.06 + 2025-26 scoring above to-date average ~0.09. Fixing it gives no totals edge (blend weight on M3 still negative) -> no-totals rule stays. Pending Evan: adopt mean-preserving scale (`m3totals.mean_scale`) at next test-period boundary; effect on puck line/OT log loss is negligible.
+2. Build the combined model: inputs = fair price, M3 raw/blend, M6 mu/probability, sog_prob, backup-goalie flag, venue, market, line moves; train on shadow board + 2025-26 backtest tables (`data/shots2/lines.csv`, `data/backtest/m3eng/blend_rows.csv`); judge strictly out of sample vs the strongest single method on CLV and log loss. Add Bullseye inputs (prob, a_b2b, ev_xgd, fin; rebuildable from cached data via `bullseye_bt`). Away-b2b hypothesis H1 pre-registered 2026-11-05 (Evan approved; spec in `nhlpipe/hypotheses.py`, graded nightly into `data/hypotheses.md`, games from the 2026-11-05 slate on). 2026-12-31 is an interim look; a verdict needs ~400 games. Review 2026-12-31.
+3. M3 totals bias - DONE 2026-11-03 (`data/backtest/m3eng/totals_report.md`): gap 0.27 goals/game = pull scale ~0.13 (PULL_SCALE 0.93 does not preserve the mean as intended) + goalie term ~0.06 + 2025-26 scoring above to-date average ~0.09. Fixing it gives no totals edge (blend weight on M3 still negative) -> no-totals rule stays. Mean-preserving scale adopted 2026-11-05 (Evan approved), live from the 2026-11-06 slate: `models.simulate` now solves the scale per game (`models.mean_scale`); `PULL_SCALE` kept only to reproduce older backtests (`simulate(..., scale=PULL_SCALE)`). Blend weights in `blend.json` were fit on the old scale; the report shows puck line/OT log loss moves < 0.001, so they were not refit.
 4. Kalshi: paper-test resting limit orders at fair value (fill rate + CLV on filled orders only).
 5. Keep weekly flaw reviews; never change pre-registered rules without Evan's approval.
