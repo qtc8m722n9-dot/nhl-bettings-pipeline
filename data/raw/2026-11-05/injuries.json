@@ -179,9 +179,17 @@
   "team_name": "Dallas Stars",
   "player": "Miro Heiskanen",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "The Stars announced Wednesday that Heiskanen (upper body) is considered day-to-day, Mike Heika of the Stars' official site reports.",
-  "date": "2026-11-04T18:14Z"
+  "status": "Out",
+  "detail": "Heiskanen (upper body) will not play in Thursday's road clash against the Blue Jackets, per Mike Heika of the Stars' official site.",
+  "date": "2026-11-05T17:36Z"
+ },
+ {
+  "team_name": "Dallas Stars",
+  "player": "Sam Steel",
+  "position": "C",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-05T17:36Z"
  },
  {
   "team_name": "Dallas Stars",
@@ -217,19 +225,35 @@
  },
  {
   "team_name": "Detroit Red Wings",
+  "player": "Marco Kasper",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Head coach Todd McLellan said Thursday that he expects Kasper (upper body) to return at some point during the Red Wings' upcoming four-game road trip, Max Bultman of The Athletic reports.",
+  "date": "2026-11-05T16:57Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
+  "player": "Mason Appleton",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Head coach Todd McLellan stated that Appleton (undisclosed) is expected to return to the lineup during the Red Wings' upcoming four-game road trip, per Max Bultman of The Athletic.",
+  "date": "2026-11-05T16:56Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
   "player": "Albert Johansson",
   "position": "D",
   "status": "Injured Reserve",
-  "detail": "The Red Wings placed Johansson (undisclosed) on injured reserve Wednesday, retroactive to Oct. 24.",
-  "date": "2026-11-04T22:16Z"
+  "detail": "Head coach Todd McLellan stated Thursday that Johansson (undisclosed) is expected to be sidelined through the team's upcoming four-game road trip, per Max Bultman of The Athletic.",
+  "date": "2026-11-05T16:49Z"
  },
  {
   "team_name": "Detroit Red Wings",
   "player": "John Gibson",
   "position": "G",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-04T01:07Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-05T16:34Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -238,22 +262,6 @@
   "status": "Injured Reserve",
   "detail": "ir-nr",
   "date": "2026-10-31T17:03Z"
- },
- {
-  "team_name": "Detroit Red Wings",
-  "player": "Mason Appleton",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Head coach Todd McLellan said Friday that Appleton (undisclosed) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
-  "date": "2026-10-30T16:12Z"
- },
- {
-  "team_name": "Detroit Red Wings",
-  "player": "Marco Kasper",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Head coach Todd McLellan said Friday that Kasper (upper body) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
-  "date": "2026-10-30T16:10Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -441,22 +449,6 @@
  },
  {
   "team_name": "Montreal Canadiens",
-  "player": "Nick Suzuki",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "Suzuki (hand) is questionable for Thursday's game against Utah, per Stu Cowan of The Montreal Gazette.",
-  "date": "2026-11-04T18:16Z"
- },
- {
-  "team_name": "Montreal Canadiens",
-  "player": "Kirby Dach",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-04T15:21Z"
- },
- {
-  "team_name": "Montreal Canadiens",
   "player": "Mike Matheson",
   "position": "D",
   "status": "Out",
@@ -547,9 +539,9 @@
   "team_name": "New York Rangers",
   "player": "Sean Durzi",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-04T15:21Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-05T17:15Z"
  },
  {
   "team_name": "New York Rangers",
@@ -657,14 +649,6 @@
  },
  {
   "team_name": "Pittsburgh Penguins",
-  "player": "Evgeni Malkin",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "Malkin (lower body) took contact during Wednesday's practice, and he might be good to play Thursday versus Boston, per Wes Crosby of NHL.com.",
-  "date": "2026-11-04T18:52Z"
- },
- {
-  "team_name": "Pittsburgh Penguins",
   "player": "Elmer Soderblom",
   "position": "LW",
   "status": "Injured Reserve",
@@ -766,14 +750,6 @@
   "status": "Injured Reserve",
   "detail": "O'Brien (lower body) was placed on non-roster injured reserve Wednesday.",
   "date": "2026-10-01T00:06Z"
- },
- {
-  "team_name": "St. Louis Blues",
-  "player": "Colton Parayko",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-04T15:21Z"
  },
  {
   "team_name": "St. Louis Blues",
