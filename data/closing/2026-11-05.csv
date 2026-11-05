@@ -1,0 +1,47 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|CHI@TBL|ml|CHI|nan|yes,CHI@TBL,2026-11-05T18:50:00-05:00,10.0,0.18,0.19,0.185,live,0.19009341850538386,pinnacle
+kalshi|BOS@PIT|p1_total||2.5|yes,BOS@PIT,2026-11-05T18:50:00-05:00,10.0,0.29,0.3,0.295,live,,
+kalshi|CAR@NYI|ml|NYI|nan|yes,CAR@NYI,2026-11-05T18:50:00-05:00,10.0,0.35,0.36,0.355,live,0.34339111346481,pinnacle
+kalshi|VGK@DET|ml|VGK|nan|no,VGK@DET,2026-11-05T18:50:00-05:00,10.0,0.42,0.43,0.425,live,0.4196114361604165,pinnacle
+underdog|PHI@NYR|player_points|j t miller|0.5|no,PHI@NYR,2026-11-05T18:50:00-05:00,10.0,,,,,0.4565136318718984,pinnacle
+underdog|DAL@CBJ|player_sog|valeri nichushkin|1.5|yes,DAL@CBJ,2026-11-05T18:50:00-05:00,10.0,,,,,0.4720475482776714,pinnacle
+underdog|STL@NJD|player_sog|connor brown|1.5|yes,STL@NJD,2026-11-05T18:50:00-05:00,10.0,,,,,,
+underdog|UTA@MTL|player_sog|josh anderson|1.5|yes,UTA@MTL,2026-11-05T18:50:00-05:00,10.0,,,,,,
+underdog|UTA@MTL|player_sog|lane hutson|1.5|no,UTA@MTL,2026-11-05T18:50:00-05:00,10.0,,,,,0.5312123494364491,pinnacle
+prizepicks|DAL@CBJ|player_points|jason robertson|0.5|yes,DAL@CBJ,2026-11-05T18:50:00-05:00,10.0,,,,,0.6477993690080283,pinnacle
+prizepicks|VAN@WPG|player_sog|gabriel vilardi|1.5|yes,VAN@WPG,2026-11-05T18:50:00-05:00,10.0,,,,,0.6281574221865397,consensus
+prizepicks|BOS@PIT|player_sog|yegor chinakhov|1.5|yes,BOS@PIT,2026-11-05T18:50:00-05:00,10.0,,,,,0.6889259051944674,pinnacle
+prizepicks|CAR@NYI|player_points|andrei svechnikov|0.5|yes,CAR@NYI,2026-11-05T18:50:00-05:00,10.0,,,,,0.5643478932442502,pinnacle
+prizepicks|VGK@DET|player_points|jack eichel|0.5|yes,VGK@DET,2026-11-05T18:50:00-05:00,10.0,,,,,0.6571773183654644,pinnacle
+prizepicks|STL@NJD|player_sog|dylan holloway|1.5|yes,STL@NJD,2026-11-05T18:50:00-05:00,10.0,,,,,0.6281574221865397,consensus
+prizepicks|UTA@MTL|player_points|clayton keller|0.5|yes,UTA@MTL,2026-11-05T18:50:00-05:00,10.0,,,,,0.654156902739532,pinnacle
+prizepicks|VAN@WPG|player_points|filip hronek|0.5|no,VAN@WPG,2026-11-05T18:50:00-05:00,10.0,,,,,0.5074931646384468,consensus
+prizepicks|PHI@NYR|player_sog|owen tippett|1.5|yes,PHI@NYR,2026-11-05T18:50:00-05:00,10.0,,,,,0.6273985554751733,pinnacle
+prizepicks|CHI@TBL|player_points|brandon hagel|0.5|yes,CHI@TBL,2026-11-05T18:50:00-05:00,10.0,,,,,0.6958622361360545,pinnacle
+prizepicks|UTA@MTL|player_sog|nick schmaltz|1.5|yes,UTA@MTL,2026-11-05T18:50:00-05:00,10.0,,,,,,
+underdog|CHI@TBL|player_sog|j j moser|1.5|no,CHI@TBL,2026-11-05T18:50:00-05:00,10.0,,,,,,
+kalshi|CHI@TBL|player_points|anton frondell|0.5|no,CHI@TBL,2026-11-05T18:50:00-05:00,10.0,0.57,0.6,0.585,live,0.5769468328997737,pinnacle
+underdog|VGK@DET|player_points|shea theodore|0.5|no,VGK@DET,2026-11-05T18:50:00-05:00,10.0,,,,,0.5937646677129587,pinnacle
+kalshi|DAL@CBJ|p1_result|TIE|nan|no,DAL@CBJ,2026-11-05T18:50:00-05:00,10.0,0.66,0.68,0.67,live,,
+kalshi|DAL@CBJ|spread|DAL|1.5|no,DAL@CBJ,2026-11-05T18:50:00-05:00,10.0,0.68,0.69,0.685,live,0.6901044199163758,pinnacle
+kalshi|BOS@PIT|player_points|rickard rakell|1.5|no,BOS@PIT,2026-11-05T18:50:00-05:00,10.0,0.77,0.86,0.815,live,,
+kalshi|VAN@WPG|spread|VAN|1.5|no,VAN@WPG,2026-11-05T18:50:00-05:00,10.0,0.82,0.83,0.825,live,,
+kalshi|DAL@CBJ|team_total|DAL|1.5|yes,DAL@CBJ,2026-11-05T18:50:00-05:00,10.0,0.82,0.84,0.83,live,,
+kalshi|CHI@TBL|player_goals|conor geekie|0.5|no,CHI@TBL,2026-11-05T18:50:00-05:00,10.0,0.83,0.84,0.835,live,,
+kalshi|PHI@NYR|p1_total||0.5|yes,PHI@NYR,2026-11-05T18:50:00-05:00,10.0,0.82,0.83,0.825,live,,
+kalshi|VGK@DET|total||8.5|no,VGK@DET,2026-11-05T18:50:00-05:00,10.0,0.82,0.84,0.83,live,,
+kalshi|CAR@NYI|total||8.5|no,CAR@NYI,2026-11-05T18:50:00-05:00,10.0,0.82,0.83,0.825,live,,
+kalshi|STL@NJD|p1_total||0.5|yes,STL@NJD,2026-11-05T18:50:00-05:00,10.0,0.82,0.84,0.83,live,,
+kalshi|UTA@MTL|team_total|MTL|1.5|yes,UTA@MTL,2026-11-05T18:50:00-05:00,10.0,0.82,0.85,0.835,live,,
+espnbet|STL@NJD|player_sog|robert thomas|1.5|yes,STL@NJD,2026-11-05T18:50:00-05:00,10.0,,,,,0.42305316710022633,pinnacle
+draftkings|VGK@DET|player_sog|jack eichel|2.5|yes,VGK@DET,2026-11-05T18:50:00-05:00,10.0,,,,,0.49327872882454105,pinnacle
+betmgm|UTA@MTL|player_sog|lane hutson|1.5|no,UTA@MTL,2026-11-05T18:50:00-05:00,10.0,,,,,0.5312123494364491,pinnacle
+espnbet|PHI@NYR|player_sog|trevor zegras|1.5|yes,PHI@NYR,2026-11-05T18:50:00-05:00,10.0,,,,,0.5723111177340592,pinnacle
+betmgm|PHI@NYR|player_sog|jamie drysdale|1.5|no,PHI@NYR,2026-11-05T18:50:00-05:00,10.0,,,,,0.6037270828267988,pinnacle
+espnbet|PHI@NYR|player_sog|porter martone|1.5|yes,PHI@NYR,2026-11-05T18:50:00-05:00,10.0,,,,,0.4720475482776714,pinnacle
+espnbet|CAR@NYI|player_sog|shayne gostisbehere|1.5|yes,CAR@NYI,2026-11-05T18:50:00-05:00,10.0,,,,,0.4720475482776714,pinnacle
+betmgm|CHI@TBL|player_sog|charle edouard d astous|1.5|no,CHI@TBL,2026-11-05T18:50:00-05:00,10.0,,,,,0.4854699261617631,consensus
+espnbet|CHI@TBL|player_sog|jake guentzel|2.5|no,CHI@TBL,2026-11-05T18:50:00-05:00,10.0,,,,,0.46862100608319524,consensus
+betmgm|CAR@NYI|player_sog|emil heineman|1.5|no,CAR@NYI,2026-11-05T18:50:00-05:00,10.0,,,,,0.5954775535118486,pinnacle
+draftkings|DAL@CBJ|player_sog|valeri nichushkin|1.5|yes,DAL@CBJ,2026-11-05T18:50:00-05:00,10.0,,,,,0.4720475482776714,pinnacle
+betrivers|UTA@MTL|player_sog|clayton keller|2.5|yes,UTA@MTL,2026-11-05T18:50:00-05:00,10.0,,,,,0.42305316710022633,pinnacle
