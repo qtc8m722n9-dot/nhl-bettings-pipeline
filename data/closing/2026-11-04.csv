@@ -1,0 +1,9 @@
+cand_id,game_key,captured_et,min_before_start,close_fair,close_fair_source,close_bid,close_ask,close_mid,kalshi_close_source
+underdog|SJS@LAK|player_sog|michael kesselring|1.5|yes,SJS@LAK,2026-11-04T21:50:00-05:00,10.0,0.41432564439503705,consensus,,,,
+underdog|CGY@SEA|player_points|chandler stephenson|0.5|yes,CGY@SEA,2026-11-04T21:50:00-05:00,10.0,0.49327872882454105,pinnacle,,,,
+prizepicks|SJS@LAK|player_points|adrian kempe|0.5|yes,SJS@LAK,2026-11-04T21:50:00-05:00,10.0,0.6316353369580919,pinnacle,,,,
+kalshi|CGY@SEA|player_points|matty beniers|1.5|no,CGY@SEA,2026-11-04T21:50:00-05:00,10.0,,,0.81,0.84,0.825,live
+kalshi|SJS@LAK|player_goals|kiefer sherwood|0.5|no,SJS@LAK,2026-11-04T21:50:00-05:00,10.0,,,0.83,0.84,0.835,live
+draftkings|CGY@SEA|player_sog|zayne parekh|1.5|no,CGY@SEA,2026-11-04T21:50:00-05:00,10.0,0.4843104039087943,pinnacle,,,,
+espnbet|CGY@SEA|player_sog|matty beniers|1.5|no,CGY@SEA,2026-11-04T21:50:00-05:00,10.0,0.46878765056355076,pinnacle,,,,
+draftkings|CGY@SEA|player_sog|brandon montour|2.5|yes,CGY@SEA,2026-11-04T21:50:00-05:00,10.0,0.40623533228704134,pinnacle,,,,
