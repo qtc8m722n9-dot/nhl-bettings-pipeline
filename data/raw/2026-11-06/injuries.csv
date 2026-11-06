@@ -10,9 +10,9 @@ Buffalo Sabres,Justin Danforth,RW,Injured Reserve,"Danforth (upper body) was pla
 Buffalo Sabres,Alex Lyon,G,Injured Reserve,"Lyon (upper body) had a setback in his recovery and is without a timeline to return, the team announced Thursday.",2026-10-15T17:59Z,BUF,True
 Buffalo Sabres,Matt Grzelcyk,D,Injured Reserve,"Grzelcyk (lower body) suffered a ""flare-up"" and could be out for at least ""a few days,"" head coach Lindy Ruff told Rachel Lenzi of The Buffalo News on Tuesday.",2026-10-13T20:51Z,BUF,True
 Buffalo Sabres,Jack Rathbone,D,Injured Reserve,ir-nr,2026-09-28T20:52Z,BUF,True
-Calgary Flames,Brennan Othmann,LW,Day-To-Day,day-to-day,2026-11-05T13:59Z,CGY,False
+Calgary Flames,Jonathan Huberdeau,LW,Injured Reserve,"Huberdeau (hip) took the ice in a regular jersey Friday, Pat Steinberg of QR Calgary 770 AM reports.",2026-11-06T16:42Z,CGY,True
+Calgary Flames,Brennan Othmann,LW,Out,"Othmann (upper body) is not expected to be back in the lineup versus the Ducks on Friday, Pat Steinberg of QR Calgary 770 AM reports.",2026-11-06T16:39Z,CGY,True
 Calgary Flames,Connor Zary,C,Out,out,2026-10-30T16:44Z,CGY,True
-Calgary Flames,Jonathan Huberdeau,LW,Injured Reserve,"Huberdeau (hip) skated with his teammates Saturday, but he isn't close to returning, Pat Steinberg of QR Calgary 770 AM reports.",2026-10-24T18:14Z,CGY,True
 Calgary Flames,Samuel Honzek,LW,Injured Reserve,ir,2026-10-20T03:51Z,CGY,True
 Carolina Hurricanes,Alexander Nikishin,D,Day-To-Day,day-to-day,2026-11-06T14:11Z,CAR,False
 Carolina Hurricanes,Jordan Staal,C,Injured Reserve,ir,2026-10-15T21:54Z,CAR,True
@@ -26,10 +26,10 @@ Dallas Stars,Kyle Capobianco,D,Injured Reserve,ir,2026-10-31T16:54Z,DAL,True
 Dallas Stars,Oskar Back,C,Injured Reserve,Back was placed on long-term injured reserve on Saturday.,2026-10-24T18:32Z,DAL,True
 Dallas Stars,Matt Duchene,C,Injured Reserve,"Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",2026-10-12T16:46Z,DAL,True
 Dallas Stars,Luke Krys,D,Injured Reserve,ir-nr,2026-09-29T16:18Z,DAL,True
-Detroit Red Wings,John Gibson,G,Day-To-Day,day-to-day,2026-11-06T14:10Z,DET,False
+Detroit Red Wings,Albert Johansson,D,Injured Reserve,"Johansson (undisclosed) will be with the Red Wings for their upcoming four-game road trip, Ansar Khan of MLive.com reports Friday.",2026-11-06T17:30Z,DET,True
+Detroit Red Wings,John Gibson,G,Day-To-Day,"Gibson (lower body) participated in Friday's practice session, Helene St. James of the Detroit Free Press reports.",2026-11-06T16:27Z,DET,False
 Detroit Red Wings,Marco Kasper,C,Injured Reserve,"Head coach Todd McLellan said Thursday that he expects Kasper (upper body) to return at some point during the Red Wings' upcoming four-game road trip, Max Bultman of The Athletic reports.",2026-11-05T16:57Z,DET,True
 Detroit Red Wings,Mason Appleton,C,Injured Reserve,"Head coach Todd McLellan stated that Appleton (undisclosed) is expected to return to the lineup during the Red Wings' upcoming four-game road trip, per Max Bultman of The Athletic.",2026-11-05T16:56Z,DET,True
-Detroit Red Wings,Albert Johansson,D,Injured Reserve,"Head coach Todd McLellan stated Thursday that Johansson (undisclosed) is expected to be sidelined through the team's upcoming four-game road trip, per Max Bultman of The Athletic.",2026-11-05T16:49Z,DET,True
 Detroit Red Wings,Dylan Larkin,C,Injured Reserve,ir-nr,2026-10-31T17:03Z,DET,True
 Detroit Red Wings,Simon Edvinsson,D,Injured Reserve,"Edvinsson (contract dispute) is on the Red Wings' injured, non-roster list, per the NHL media site Wednesday.",2026-10-14T15:15Z,DET,True
 Edmonton Oilers,Tristan Jarry,G,Day-To-Day,day-to-day,2026-11-06T14:10Z,EDM,False
@@ -41,17 +41,17 @@ Edmonton Oilers,Matt Savoie,C,Injured Reserve,Savoie (lower body) was shifted to
 Edmonton Oilers,Frederik Andersen,G,Injured Reserve,"Andersen (knee) isn't expected back until ""maybe"" December, head coach Mike Babcock told NHL.com on Tuesday.",2026-09-29T17:53Z,EDM,True
 Edmonton Oilers,Mattias Janmark,C,Injured Reserve,Janmark (undisclosed) does not have a timetable for his return from injury.,2026-09-29T17:52Z,EDM,True
 Edmonton Oilers,Atro Leppanen,D,Injured Reserve,ir-nr,2026-09-29T16:22Z,EDM,True
-Florida Panthers,Brad Marchand,LW,Injured Reserve,"Marchand (leg) has started skating and is tentatively three weeks away from returning, per George Richards.",2026-10-29T16:22Z,FLA,True
-Florida Panthers,Aleksander Barkov,C,Injured Reserve,"Barkov (lower body) resumed skating Wednesday, George Richards of Florida Hockey Now reports.",2026-10-29T16:13Z,FLA,True
+Florida Panthers,Brad Marchand,LW,Injured Reserve,"Head coach Paul Maurice said Friday that Marchand (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",2026-11-06T16:34Z,FLA,True
+Florida Panthers,Aleksander Barkov,C,Injured Reserve,"Head coach Paul Maurice said Friday that Barkov (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",2026-11-06T16:30Z,FLA,True
 Florida Panthers,Jonah Gadjovich,LW,Injured Reserve,"Gadjovich (upper body) is out indefinitely, the team announced Thursday.",2026-09-17T20:53Z,FLA,True
 Los Angeles Kings,Mats Zuccarello,RW,Injured Reserve,"Zuccarello (upper body) is regarded as week-to-week, Zach Dooley of the Kings' official site reports Thursday.",2026-10-29T18:43Z,LAK,True
 Los Angeles Kings,Kevin Fiala,LW,Injured Reserve,"Head coach Peter Laviolette said Thursday that Fiala (lower leg) remains on a week-to-week timeline, Zach Dooley of the Kings' official site reports.",2026-10-29T18:42Z,LAK,True
 Los Angeles Kings,Alex Turcotte,C,Injured Reserve,ir,2026-10-10T18:09Z,LAK,True
 Los Angeles Kings,Jakub Dvorak,D,Injured Reserve,ir-nr,2026-09-24T19:49Z,LAK,True
 Los Angeles Kings,Jan Jenik,C,Injured Reserve,"Jenik (undisclosed) was placed on non-roster injured reserve by Los Angeles on Thursday, per Zach Dooley of LA Kings Insider.",2026-09-24T19:45Z,LAK,True
+Minnesota Wild,Nick Foligno,LW,Injured Reserve,"Foligno (upper body) might be available to face the Lightning on Saturday, Michael Russo of The Athletic reports.",2026-11-06T16:45Z,MIN,True
+Minnesota Wild,Marcus Foligno,LW,Injured Reserve,"Foligno (lower body) has been ruled out for Friday's game against the Sharks but could play in Saturday's matchup against the Lightning, Michael Russo of The Athletic reports.",2026-11-06T16:43Z,MIN,True
 Minnesota Wild,Filip Gustavsson,G,Injured Reserve,"Gustavsson (hip) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",2026-11-05T18:51Z,MIN,True
-Minnesota Wild,Marcus Foligno,LW,Injured Reserve,"Foligno (upper body) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",2026-11-05T18:36Z,MIN,True
-Minnesota Wild,Nick Foligno,LW,Injured Reserve,"Foligno (upper body) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",2026-11-05T18:32Z,MIN,True
 Minnesota Wild,Jared Spurgeon,D,Injured Reserve,"Spurgeon (lower body) is expected to travel with the team for its upcoming three-game road trip starting Tuesday against Montreal, Joe Smith of The Athletic reports.",2026-11-05T18:12Z,MIN,True
 Minnesota Wild,Brock Faber,D,Injured Reserve,"Faber (skull) skated with his teammates for the first time Thursday, Joe Smith of The Athletic reports.",2026-11-05T18:09Z,MIN,True
 Montreal Canadiens,Ivan Demidov,RW,Injured Reserve,"Demidov (foot) skated Tuesday and could resume training with the team next week, Patrick Friolet of RDS reports.",2026-11-04T21:04Z,MTL,True
@@ -72,11 +72,10 @@ New York Rangers,Igor Shesterkin,G,Injured Reserve,"Shesterkin will require surg
 New York Rangers,Joe Veleno,C,Injured Reserve,"Veleno (lower body) was placed on long-term injured reserve Saturday, Vince Z. Mercogliano of The Athletic reports.",2026-10-10T17:18Z,NYR,True
 New York Rangers,Aidan Thompson,C,Injured Reserve,ir-nr,2026-09-29T16:39Z,NYR,True
 New York Rangers,Adam Sykora,LW,Injured Reserve,ir,2026-09-29T01:35Z,NYR,True
-Ottawa Senators,Tyler Kleven,D,Day-To-Day,day-to-day,2026-11-05T13:59Z,OTT,False
-Ottawa Senators,Ridly Greig,C,Day-To-Day,day-to-day,2026-11-05T04:02Z,OTT,False
+Ottawa Senators,Ridly Greig,C,Out,"Greig (lower body) won't play in Saturday's game against the Mammoth, TSN 1200 Ottawa reports.",2026-11-06T17:21Z,OTT,True
+Ottawa Senators,Linus Ullmark,G,Injured Reserve,"Ullmark (lower body) is not expected back for Saturday's clash with Utah, TSN 1200 Ottawa reports.",2026-11-06T17:20Z,OTT,True
 Ottawa Senators,Andre Burakovsky,LW,Injured Reserve,ir,2026-10-31T21:35Z,OTT,True
 Ottawa Senators,Warren Foegele,LW,Injured Reserve,"Foegele (knee) will miss 3-4 weeks, Jackson Starr of the Senators' official site reports Saturday.",2026-10-31T18:30Z,OTT,True
-Ottawa Senators,Linus Ullmark,G,Injured Reserve,"Ullmark (lower body) is expected to miss the next 1-2 weeks, Claire Hanna of TSN reports Thursday.",2026-10-22T21:03Z,OTT,True
 Ottawa Senators,William Eklund,LW,Injured Reserve,"Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday.",2026-10-15T15:24Z,OTT,True
 Philadelphia Flyers,Rasmus Ristolainen,D,Injured Reserve,"Ristolainen (hand) was placed on injured reserve, retroactive to Oct. 24, on Tuesday.",2026-10-27T14:26Z,PHI,True
 Philadelphia Flyers,Nikita Grebenkin,RW,Injured Reserve,Grebenkin (back) underwent successful surgery and is expected to miss at least four months.,2026-10-10T16:58Z,PHI,True
