@@ -1,0 +1,35 @@
+[
+ {
+  "game_id": 2026020262,
+  "start_utc": "2026-11-07T00:00:00Z",
+  "game_state": "FUT",
+  "home": "BUF",
+  "away": "CBJ",
+  "home_name": "Buffalo Sabres",
+  "away_name": "Columbus Blue Jackets",
+  "home_b2b": false,
+  "away_b2b": true
+ },
+ {
+  "game_id": 2026020263,
+  "start_utc": "2026-11-07T01:00:00Z",
+  "game_state": "FUT",
+  "home": "MIN",
+  "away": "SJS",
+  "home_name": "Minnesota Wild",
+  "away_name": "San Jose Sharks",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020264,
+  "start_utc": "2026-11-07T01:00:00Z",
+  "game_state": "FUT",
+  "home": "CGY",
+  "away": "ANA",
+  "home_name": "Calgary Flames",
+  "away_name": "Anaheim Ducks",
+  "home_b2b": false,
+  "away_b2b": true
+ }
+]

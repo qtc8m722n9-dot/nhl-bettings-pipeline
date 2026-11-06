@@ -1,0 +1,44 @@
+[
+ {
+  "side": "home",
+  "team_name": "Buffalo Sabres",
+  "goalie": "Ukko-Pekka Luukkonen",
+  "status": "Unconfirmed",
+  "updated": "2026-11-06"
+ },
+ {
+  "side": "away",
+  "team_name": "Columbus Blue Jackets",
+  "goalie": "Jet Greaves",
+  "status": "Unconfirmed",
+  "updated": "2026-11-06"
+ },
+ {
+  "side": "home",
+  "team_name": "Minnesota Wild",
+  "goalie": "Jesper Wallstedt",
+  "status": "Unconfirmed",
+  "updated": "2026-11-06"
+ },
+ {
+  "side": "away",
+  "team_name": "San Jose Sharks",
+  "goalie": "Yaroslav Askarov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-06"
+ },
+ {
+  "side": "home",
+  "team_name": "Calgary Flames",
+  "goalie": "Dustin Wolf",
+  "status": "Unconfirmed",
+  "updated": "2026-11-06"
+ },
+ {
+  "side": "away",
+  "team_name": "Anaheim Ducks",
+  "goalie": "Lukas Dostal",
+  "status": "Unconfirmed",
+  "updated": "2026-11-06"
+ }
+]
