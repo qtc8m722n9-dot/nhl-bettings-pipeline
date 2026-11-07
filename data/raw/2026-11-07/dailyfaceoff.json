@@ -1,0 +1,170 @@
+[
+ {
+  "side": "home",
+  "team_name": "Washington Capitals",
+  "goalie": "Logan Thompson",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "Florida Panthers",
+  "goalie": "Akira Schmid",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Nashville Predators",
+  "goalie": "Juuse Saros",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "St Louis Blues",
+  "goalie": "Joel Hofer",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Seattle Kraken",
+  "goalie": "Joey Daccord",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "New York Rangers",
+  "goalie": "Dylan Garand",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Toronto Maple Leafs",
+  "goalie": "Sergei Bobrovsky",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "Montreal Canadiens",
+  "goalie": "Jacob Fowler",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "New York Islanders",
+  "goalie": "Ilya Sorokin",
+  "status": "Likely",
+  "updated": "2026-11-06T17:33:08.316Z"
+ },
+ {
+  "side": "away",
+  "team_name": "New Jersey Devils",
+  "goalie": "Jake Allen",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Ottawa Senators",
+  "goalie": "Linus Ullmark",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "Utah Mammoth",
+  "goalie": "Karel Vejmelka",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Carolina Hurricanes",
+  "goalie": "Pyotr Kochetkov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "Chicago Blackhawks",
+  "goalie": "Spencer Knight",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Minnesota Wild",
+  "goalie": "Calvin Pickard",
+  "status": "Confirmed",
+  "updated": "2026-11-06T16:40:49.828Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Tampa Bay Lightning",
+  "goalie": "Andrei Vasilevskiy",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Dallas Stars",
+  "goalie": "Jake Oettinger",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "San Jose Sharks",
+  "goalie": "Alex Nedeljkovic",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Los Angeles Kings",
+  "goalie": "Darcy Kuemper",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "Pittsburgh Penguins",
+  "goalie": "Sergei Murashov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Colorado Avalanche",
+  "goalie": "Mackenzie Blackwood",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "Detroit Red Wings",
+  "goalie": "Daniil Tarasov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "home",
+  "team_name": "Edmonton Oilers",
+  "goalie": "Tristan Jarry",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ },
+ {
+  "side": "away",
+  "team_name": "Vancouver Canucks",
+  "goalie": "Kevin Lankinen",
+  "status": "Unconfirmed",
+  "updated": "2026-11-07"
+ }
+]
