@@ -1,0 +1,5 @@
+cand_id,game_key,captured_et,min_before_start,close_fair,close_fair_source,close_bid,close_ask,close_mid,kalshi_close_source
+prizepicks|STL@NSH|player_points|filip forsberg|0.5|yes,STL@NSH,2026-11-07T12:50:00-05:00,10.0,0.6632189307421554,pinnacle,,,,
+kalshi|STL@NSH|spread|STL|1.5|no,STL@NSH,2026-11-07T12:50:00-05:00,10.0,0.7091582988842162,pinnacle,0.7,0.71,0.705,live
+kalshi|STL@NSH|player_points|ryan o reilly|1.5|no,STL@NSH,2026-11-07T12:50:00-05:00,10.0,,,0.76,0.79,0.775,live
+kalshi|STL@NSH|player_points|jimmy snuggerud|1.5|no,STL@NSH,2026-11-07T12:50:00-05:00,10.0,,,0.79,0.83,0.81,live
