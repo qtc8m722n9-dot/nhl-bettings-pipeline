@@ -1,0 +1,13 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|SJS@MIN|player_points|jonas brodin|0.5|yes,SJS@MIN,2026-11-06T19:50:00-05:00,10.0,0.37,0.4,0.385,live,0.3857159409132978,consensus
+underdog|SJS@MIN|player_sog|kiefer sherwood|1.5|yes,SJS@MIN,2026-11-06T19:50:00-05:00,10.0,,,,,0.5156895960912057,pinnacle
+prizepicks|SJS@MIN|player_points|macklin celebrini|0.5|yes,SJS@MIN,2026-11-06T19:50:00-05:00,10.0,,,,,0.6571773183654644,pinnacle
+prizepicks|ANA@CGY|player_sog|mikael backlund|1.5|yes,ANA@CGY,2026-11-06T19:50:00-05:00,10.0,,,,,,
+underdog|SJS@MIN|player_sog|jonas brodin|1.5|no,SJS@MIN,2026-11-06T19:50:00-05:00,10.0,,,,,,
+kalshi|ANA@CGY|team_total|ANA|4.5|no,ANA@CGY,2026-11-06T19:50:00-05:00,10.0,0.78,0.79,0.785,live,,
+kalshi|SJS@MIN|team_total|MIN|5.5|no,SJS@MIN,2026-11-06T19:50:00-05:00,10.0,0.79,0.8,0.795,live,,
+betmgm|ANA@CGY|player_sog|matvei gridin|2.5|no,ANA@CGY,2026-11-06T19:50:00-05:00,10.0,,,,,0.5894793920709112,pinnacle
+betmgm|ANA@CGY|player_sog|zayne parekh|1.5|no,ANA@CGY,2026-11-06T19:50:00-05:00,10.0,,,,,0.5156895960912056,pinnacle
+espnbet|ANA@CGY|player_sog|yegor sharangovich|1.5|no,ANA@CGY,2026-11-06T19:50:00-05:00,10.0,,,,,0.46133839485396366,pinnacle
+betmgm|SJS@MIN|player_sog|mason marchment|1.5|yes,SJS@MIN,2026-11-06T19:50:00-05:00,10.0,,,,,0.502240234583242,pinnacle
+espnbet|SJS@MIN|player_sog|kiefer sherwood|1.5|yes,SJS@MIN,2026-11-06T19:50:00-05:00,10.0,,,,,0.5156895960912057,pinnacle
