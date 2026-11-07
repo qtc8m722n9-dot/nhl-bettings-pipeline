@@ -36,8 +36,8 @@
   "player": "James Hagens",
   "position": "C",
   "status": "Injured Reserve",
-  "detail": "Hagens (back) was put on injured reserve Saturday.",
-  "date": "2026-11-07T15:15Z"
+  "detail": "Head coach Marco Sturm announced Saturday that Hagens (back) is expected to miss multiple weeks, per Jack Studley of Boston Hockey Now.",
+  "date": "2026-11-07T17:30Z"
  },
  {
   "team_name": "Boston Bruins",
@@ -118,14 +118,6 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-10-20T03:51Z"
- },
- {
-  "team_name": "Carolina Hurricanes",
-  "player": "Alexander Nikishin",
-  "position": "D",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-07T14:58Z"
  },
  {
   "team_name": "Carolina Hurricanes",
@@ -809,14 +801,6 @@
  },
  {
   "team_name": "Toronto Maple Leafs",
-  "player": "John Tavares",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-04T15:21Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
   "player": "Kirill Marchenko",
   "position": "RW",
   "status": "Injured Reserve",
@@ -982,6 +966,14 @@
   "status": "Injured Reserve",
   "detail": "ir-nr",
   "date": "2026-09-29T17:07Z"
+ },
+ {
+  "team_name": "Winnipeg Jets",
+  "player": "Elias Salomonsson",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-07T16:41Z"
  },
  {
   "team_name": "Winnipeg Jets",

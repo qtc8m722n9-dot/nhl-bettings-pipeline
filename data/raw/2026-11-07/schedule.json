@@ -2,7 +2,7 @@
  {
   "game_id": 2026020265,
   "start_utc": "2026-11-07T17:30:00Z",
-  "game_state": "FUT",
+  "game_state": "LIVE",
   "home": "WSH",
   "away": "FLA",
   "home_name": "Washington Capitals",
@@ -13,7 +13,7 @@
  {
   "game_id": 2026020266,
   "start_utc": "2026-11-07T18:00:00Z",
-  "game_state": "FUT",
+  "game_state": "PRE",
   "home": "NSH",
   "away": "STL",
   "home_name": "Nashville Predators",
