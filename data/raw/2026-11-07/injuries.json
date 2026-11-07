@@ -33,19 +33,19 @@
  },
  {
   "team_name": "Boston Bruins",
+  "player": "James Hagens",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Hagens (back) was put on injured reserve Saturday.",
+  "date": "2026-11-07T15:15Z"
+ },
+ {
+  "team_name": "Boston Bruins",
   "player": "Matthew Poitras",
   "position": "C",
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-06T14:10Z"
- },
- {
-  "team_name": "Boston Bruins",
-  "player": "James Hagens",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-06T03:01Z"
  },
  {
   "team_name": "Buffalo Sabres",
@@ -350,6 +350,14 @@
   "status": "Injured Reserve",
   "detail": "ir-nr",
   "date": "2026-09-29T16:22Z"
+ },
+ {
+  "team_name": "Florida Panthers",
+  "player": "Anton Lundell",
+  "position": "C",
+  "status": "Out",
+  "detail": "Lundell (undisclosed) won't play against Washington on Saturday, Rob Darragh of the Panthers' official site reports.",
+  "date": "2026-11-07T15:33Z"
  },
  {
   "team_name": "Florida Panthers",

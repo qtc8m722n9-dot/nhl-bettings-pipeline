@@ -3,15 +3,15 @@
   "side": "home",
   "team_name": "Washington Capitals",
   "goalie": "Logan Thompson",
-  "status": "Unconfirmed",
-  "updated": "2026-11-07"
+  "status": "Confirmed",
+  "updated": "2026-11-07T15:20:36.756Z"
  },
  {
   "side": "away",
   "team_name": "Florida Panthers",
   "goalie": "Akira Schmid",
-  "status": "Unconfirmed",
-  "updated": "2026-11-07"
+  "status": "Confirmed",
+  "updated": "2026-11-07T15:21:07.263Z"
  },
  {
   "side": "home",
@@ -45,8 +45,8 @@
   "side": "home",
   "team_name": "Toronto Maple Leafs",
   "goalie": "Sergei Bobrovsky",
-  "status": "Unconfirmed",
-  "updated": "2026-11-07"
+  "status": "Likely",
+  "updated": "2026-11-07T15:29:19.526Z"
  },
  {
   "side": "away",
@@ -72,7 +72,7 @@
  {
   "side": "home",
   "team_name": "Ottawa Senators",
-  "goalie": "Linus Ullmark",
+  "goalie": "Samuel Ersson",
   "status": "Unconfirmed",
   "updated": "2026-11-07"
  },
@@ -87,15 +87,15 @@
   "side": "home",
   "team_name": "Carolina Hurricanes",
   "goalie": "Pyotr Kochetkov",
-  "status": "Unconfirmed",
-  "updated": "2026-11-07"
+  "status": "Likely",
+  "updated": "2026-11-07T15:35:42.218Z"
  },
  {
   "side": "away",
   "team_name": "Chicago Blackhawks",
   "goalie": "Spencer Knight",
-  "status": "Unconfirmed",
-  "updated": "2026-11-07"
+  "status": "Likely",
+  "updated": "2026-11-07T15:58:18.745Z"
  },
  {
   "side": "home",
