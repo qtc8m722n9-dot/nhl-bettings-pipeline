@@ -1,0 +1,86 @@
+[
+ {
+  "side": "home",
+  "team_name": "Boston Bruins",
+  "goalie": "Jeremy Swayman",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "away",
+  "team_name": "Florida Panthers",
+  "goalie": "Jacob Markstrom",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "home",
+  "team_name": "Buffalo Sabres",
+  "goalie": "Ukko-Pekka Luukkonen",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "away",
+  "team_name": "Vegas Golden Knights",
+  "goalie": "Adin Hill",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "home",
+  "team_name": "Winnipeg Jets",
+  "goalie": "Stuart Skinner",
+  "status": "Likely",
+  "updated": "2026-11-08T14:33:56.756Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Tampa Bay Lightning",
+  "goalie": "Andrei Vasilevskiy",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "home",
+  "team_name": "Calgary Flames",
+  "goalie": "Devin Cooley",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "away",
+  "team_name": "Philadelphia Flyers",
+  "goalie": "Dan Vladar",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "home",
+  "team_name": "Toronto Maple Leafs",
+  "goalie": "Anthony Stolarz",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "away",
+  "team_name": "New Jersey Devils",
+  "goalie": "Connor Hellebuyck",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "home",
+  "team_name": "Anaheim Ducks",
+  "goalie": "Ville Husso",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ },
+ {
+  "side": "away",
+  "team_name": "Pittsburgh Penguins",
+  "goalie": "Arturs Silovs",
+  "status": "Unconfirmed",
+  "updated": "2026-11-08"
+ }
+]
