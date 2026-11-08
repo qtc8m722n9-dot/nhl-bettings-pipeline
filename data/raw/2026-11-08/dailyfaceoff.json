@@ -10,8 +10,8 @@
   "side": "away",
   "team_name": "Florida Panthers",
   "goalie": "Jacob Markstrom",
-  "status": "Unconfirmed",
-  "updated": "2026-11-08"
+  "status": "Confirmed",
+  "updated": "2026-11-08T15:57:29.166Z"
  },
  {
   "side": "home",
@@ -45,22 +45,22 @@
   "side": "home",
   "team_name": "Calgary Flames",
   "goalie": "Devin Cooley",
-  "status": "Unconfirmed",
-  "updated": "2026-11-08"
+  "status": "Confirmed",
+  "updated": "2026-11-08T15:24:28.414Z"
  },
  {
   "side": "away",
   "team_name": "Philadelphia Flyers",
   "goalie": "Dan Vladar",
-  "status": "Unconfirmed",
-  "updated": "2026-11-08"
+  "status": "Likely",
+  "updated": "2026-11-08T16:04:48.216Z"
  },
  {
   "side": "home",
   "team_name": "Toronto Maple Leafs",
   "goalie": "Anthony Stolarz",
-  "status": "Unconfirmed",
-  "updated": "2026-11-08"
+  "status": "Likely",
+  "updated": "2026-11-08T15:26:06.510Z"
  },
  {
   "side": "away",
