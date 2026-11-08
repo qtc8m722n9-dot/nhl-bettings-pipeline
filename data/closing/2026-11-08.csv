@@ -2,3 +2,13 @@ cand_id,game_key,captured_et,min_before_start,close_fair,close_fair_source,close
 underdog|VGK@BUF|player_sog|tomas hertl|1.5|no,VGK@BUF,2026-11-08T15:20:00-05:00,10.0,0.3719100323442158,pinnacle,,,,
 prizepicks|VGK@BUF|player_points|jack eichel|0.5|yes,VGK@BUF,2026-11-08T15:20:00-05:00,10.0,0.6746595422218774,pinnacle,,,,
 kalshi|VGK@BUF|team_total|BUF|1.5|yes,VGK@BUF,2026-11-08T15:20:00-05:00,10.0,,,0.82,0.83,0.825,live
+prizepicks|PHI@CGY|player_sog|matvei gridin|1.5|yes,PHI@CGY,2026-11-08T18:50:00-05:00,10.0,0.6199256829564079,consensus,,,,
+prizepicks|NJD@TOR|player_points|auston matthews|0.5|yes,NJD@TOR,2026-11-08T18:50:00-05:00,10.0,0.6660914166606167,pinnacle,,,,
+prizepicks|NJD@TOR|player_sog|darren raddysh|1.5|yes,NJD@TOR,2026-11-08T18:50:00-05:00,10.0,,,,,,
+underdog|PHI@CGY|player_points|yegor sharangovich|0.5|no,PHI@CGY,2026-11-08T18:50:00-05:00,10.0,0.6316353369580918,pinnacle,,,,
+kalshi|PHI@CGY|spread|PHI|1.5|no,PHI@CGY,2026-11-08T18:50:00-05:00,10.0,0.6978259754419938,pinnacle,0.69,0.7,0.695,live
+kalshi|NJD@TOR|player_goals|luke evangelista|0.5|no,NJD@TOR,2026-11-08T18:50:00-05:00,10.0,,,0.8,0.82,0.81,live
+kalshi|PHI@CGY|spread|CGY|2.5|no,PHI@CGY,2026-11-08T18:50:00-05:00,10.0,,,0.82,0.83,0.825,live
+fanduel|PHI@CGY|player_sog|yegor sharangovich|1.5|no,PHI@CGY,2026-11-08T18:50:00-05:00,10.0,0.47326111009711924,pinnacle,,,,
+espnbet|NJD@TOR|player_sog|nico hischier|2.5|yes,NJD@TOR,2026-11-08T18:50:00-05:00,10.0,0.39704378186544864,pinnacle,,,,
+draftkings|NJD@TOR|player_sog|dougie hamilton|2.5|yes,NJD@TOR,2026-11-08T18:50:00-05:00,10.0,0.39226830509262817,pinnacle,,,,
