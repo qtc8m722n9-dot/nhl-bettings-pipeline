@@ -40,14 +40,6 @@
   "date": "2026-11-07T17:30Z"
  },
  {
-  "team_name": "Boston Bruins",
-  "player": "Matthew Poitras",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-06T14:10Z"
- },
- {
   "team_name": "Buffalo Sabres",
   "player": "Konsta Helenius",
   "position": "C",
@@ -84,8 +76,8 @@
   "player": "Kevin Bahl",
   "position": "D",
   "status": "Injured Reserve",
-  "detail": "Bahl (lower body) was placed on injured reserve Sunday, according to Pat Steinberg of QR Calgary 770 AM.",
-  "date": "2026-11-08T15:43Z"
+  "detail": "Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday.",
+  "date": "2026-11-08T16:17Z"
  },
  {
   "team_name": "Calgary Flames",
@@ -166,14 +158,6 @@
   "status": "Injured Reserve",
   "detail": "ir-lt",
   "date": "2026-10-23T21:39Z"
- },
- {
-  "team_name": "Columbus Blue Jackets",
-  "player": "Sean Monahan",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-07T09:12Z"
  },
  {
   "team_name": "Columbus Blue Jackets",
@@ -326,14 +310,6 @@
   "status": "Injured Reserve",
   "detail": "Janmark (undisclosed) does not have a timetable for his return from injury.",
   "date": "2026-09-29T17:52Z"
- },
- {
-  "team_name": "Florida Panthers",
-  "player": "Anton Lundell",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-08T13:39Z"
  },
  {
   "team_name": "Florida Panthers",
@@ -590,14 +566,6 @@
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-08T13:39Z"
- },
- {
-  "team_name": "Ottawa Senators",
-  "player": "Linus Ullmark",
-  "position": "G",
-  "status": "Injured Reserve",
-  "detail": "Ullmark (lower body) is not expected back for Saturday's clash with Utah, TSN 1200 Ottawa reports.",
-  "date": "2026-11-06T17:20Z"
  },
  {
   "team_name": "Ottawa Senators",
