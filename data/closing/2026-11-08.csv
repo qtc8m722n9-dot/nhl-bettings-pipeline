@@ -1,0 +1,4 @@
+cand_id,game_key,captured_et,min_before_start,close_fair,close_fair_source,close_bid,close_ask,close_mid,kalshi_close_source
+underdog|VGK@BUF|player_sog|tomas hertl|1.5|no,VGK@BUF,2026-11-08T15:20:00-05:00,10.0,0.3719100323442158,pinnacle,,,,
+prizepicks|VGK@BUF|player_points|jack eichel|0.5|yes,VGK@BUF,2026-11-08T15:20:00-05:00,10.0,0.6746595422218774,pinnacle,,,,
+kalshi|VGK@BUF|team_total|BUF|1.5|yes,VGK@BUF,2026-11-08T15:20:00-05:00,10.0,,,0.82,0.83,0.825,live
