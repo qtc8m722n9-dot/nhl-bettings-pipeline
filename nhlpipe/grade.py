@@ -282,6 +282,8 @@ def grade_day(day: date, backfill: bool = True) -> pd.DataFrame | None:
                     profit = stake * (rec["close_mid"] / cost - 1)
                     rec["detail"] = f"{rec['detail']}; Kalshi settles at last fair price ~{rec['close_mid']:.2f}"
         rec["result"], rec["profit"] = result, profit
+        if GOBLIN_DETAIL in str(rec.get("detail")):
+            rec["fair_clv"] = rec["kalshi_clv"] = None  # the price paid was never real: no CLV
         fc, kc = rec.get("fair_clv"), rec.get("kalshi_clv")
         rec["beat_close"] = (fc > 0) if fc is not None else ((kc > 0) if kc is not None else None)
         out.append(rec)
