@@ -1,0 +1,35 @@
+[
+ {
+  "game_id": 2026020283,
+  "start_utc": "2026-11-10T01:00:00Z",
+  "game_state": "FUT",
+  "home": "EDM",
+  "away": "NYR",
+  "home_name": "Edmonton Oilers",
+  "away_name": "New York Rangers",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020284,
+  "start_utc": "2026-11-10T02:30:00Z",
+  "game_state": "FUT",
+  "home": "VAN",
+  "away": "PHI",
+  "home_name": "Vancouver Canucks",
+  "away_name": "Philadelphia Flyers",
+  "home_b2b": false,
+  "away_b2b": true
+ },
+ {
+  "game_id": 2026020285,
+  "start_utc": "2026-11-10T03:00:00Z",
+  "game_state": "FUT",
+  "home": "SJS",
+  "away": "NYI",
+  "home_name": "San Jose Sharks",
+  "away_name": "New York Islanders",
+  "home_b2b": false,
+  "away_b2b": false
+ }
+]

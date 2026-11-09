@@ -1,0 +1,44 @@
+[
+ {
+  "side": "home",
+  "team_name": "Edmonton Oilers",
+  "goalie": "Devon Levi",
+  "status": "Unconfirmed",
+  "updated": "2026-11-09"
+ },
+ {
+  "side": "away",
+  "team_name": "New York Rangers",
+  "goalie": "Dylan Garand",
+  "status": "Unconfirmed",
+  "updated": "2026-11-09"
+ },
+ {
+  "side": "home",
+  "team_name": "Vancouver Canucks",
+  "goalie": "Kevin Lankinen",
+  "status": "Unconfirmed",
+  "updated": "2026-11-09"
+ },
+ {
+  "side": "away",
+  "team_name": "Philadelphia Flyers",
+  "goalie": "Joseph Woll",
+  "status": "Likely",
+  "updated": "2026-11-09T14:32:36.811Z"
+ },
+ {
+  "side": "home",
+  "team_name": "San Jose Sharks",
+  "goalie": "Yaroslav Askarov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-09"
+ },
+ {
+  "side": "away",
+  "team_name": "New York Islanders",
+  "goalie": "Ilya Sorokin",
+  "status": "Unconfirmed",
+  "updated": "2026-11-09"
+ }
+]
