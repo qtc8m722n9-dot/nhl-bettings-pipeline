@@ -304,7 +304,16 @@ def _needs_grading(day: date) -> bool:
     if not path.exists():
         return True
     g = pd.read_csv(path)
-    return g["result"].isin(["pending", "error"]).any()
+    if g["result"].isin(["pending", "error"]).any():
+        return True
+    # one-off: slates graded before the 2026-11-09 goblin fix still count goblin picks
+    cp = DATA / "picks" / f"{day.isoformat()}_candidates.csv.gz"
+    if (g["venue"] == "prizepicks").any() and cp.exists():
+        gob = pp_goblins(pd.read_csv(cp))
+        legs = g["cand_id"].astype(str).str.replace(r"^(parlay|entry)\|", "", regex=True).str.split(r"\|\|")
+        hit = legs.map(lambda xs: any(x in gob for x in xs))
+        return bool((hit & (g["detail"].astype(str).str.find("goblin") < 0)).any())
+    return False
 
 
 def pick_dates() -> list[date]:
