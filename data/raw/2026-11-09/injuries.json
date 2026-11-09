@@ -251,17 +251,9 @@
   "team_name": "Edmonton Oilers",
   "player": "Colton Dach",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-08T15:14Z"
- },
- {
-  "team_name": "Edmonton Oilers",
-  "player": "Ryan Nugent-Hopkins",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "Nugent-Hopkins took a puck to the side of the head in Saturday's game versus the Canucks, Derek Van Diest of NHL.com reports. Per the Sportsnet broadcast, the forward will not finish the game.",
-  "date": "2026-11-08T05:22Z"
+  "status": "Out",
+  "detail": "Dach (illness) won't play against the Rangers on Monday.",
+  "date": "2026-11-09T17:48Z"
  },
  {
   "team_name": "Edmonton Oilers",
@@ -372,8 +364,8 @@
   "player": "Michael McCarron",
   "position": "C",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-08T13:39Z"
+  "detail": "McCarron (upper body) could be an option versus the Canadiens on Tuesday, Joe Smith of The Athletic reports.",
+  "date": "2026-11-09T16:36Z"
  },
  {
   "team_name": "Minnesota Wild",
@@ -515,9 +507,9 @@
   "team_name": "New York Rangers",
   "player": "Alberts Smits",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-08T13:39Z"
+  "status": "Out",
+  "detail": "Smits (upper body) is week-to-week, according to Peter Baugh of The Athletic on Monday.",
+  "date": "2026-11-09T17:10Z"
  },
  {
   "team_name": "New York Rangers",
@@ -558,14 +550,6 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-09-29T01:35Z"
- },
- {
-  "team_name": "Ottawa Senators",
-  "player": "Ridly Greig",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-08T13:39Z"
  },
  {
   "team_name": "Ottawa Senators",
@@ -726,14 +710,6 @@
   "status": "Injured Reserve",
   "detail": "O'Brien (lower body) was placed on non-roster injured reserve Wednesday.",
   "date": "2026-10-01T00:06Z"
- },
- {
-  "team_name": "St. Louis Blues",
-  "player": "Logan Mailloux",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "Mailloux (hand) has completed his conditioning assignment with AHL Springfield and rejoined the Blues, the team announced Friday.",
-  "date": "2026-11-06T19:09Z"
  },
  {
   "team_name": "St. Louis Blues",
@@ -937,19 +913,19 @@
  },
  {
   "team_name": "Washington Capitals",
+  "player": "Rasmus Sandin",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Sandin (knee) will be with the Capitals for their two-game road trip, Tarik El-Bashir of Monumental Sports Network reports Monday.",
+  "date": "2026-11-09T17:28Z"
+ },
+ {
+  "team_name": "Washington Capitals",
   "player": "Vincent Desharnais",
   "position": "D",
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-10-23T20:39Z"
- },
- {
-  "team_name": "Washington Capitals",
-  "player": "Rasmus Sandin",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "Sandin (knee) was placed on long-term injured reserve Monday.",
-  "date": "2026-10-12T14:27Z"
  },
  {
   "team_name": "Washington Capitals",
