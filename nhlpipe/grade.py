@@ -38,7 +38,7 @@ import pandas as pd
 
 from . import closing, results, scoreboard
 from .methods import PICKEM_2_PAYOUT, split_legs
-from .names import norm
+from .names import first_key, norm
 
 ET = ZoneInfo("America/New_York")
 DATA = Path(__file__).resolve().parent.parent / "data"
@@ -78,21 +78,33 @@ def _num(x):
     return None if math.isnan(x) else x
 
 
+AMBIGUOUS = {"ambiguous": True}
+
+
 def _find_player(name: str, g: dict) -> dict | None:
+    """Boxscore line for `name`; None if absent; AMBIGUOUS if two dressed skaters share the name."""
     players = g["players"]
-    n = norm(name)
-    if n in players:
-        return players[n]
+    m = re.search(r"\(#(\d+)\)", name)
+    num = int(m.group(1)) if m else None
+    n = norm(re.sub(r"\(#\d+\)", "", name))
+    same = [p for k, p in players.items() if k == n or (k.startswith(n + " ") and k[len(n) + 1:].isdigit())]
+    if num is not None:
+        same = [p for p in same if p.get("num") in (None, num)]
+    if len(same) == 1:
+        return same[0]
+    if len(same) > 1:
+        return AMBIGUOUS
     parts = n.split(" ")
     if len(parts) < 2:
         return None
     first, last = parts[0], " ".join(parts[1:])
-    hits = [p for k, p in players.items() if k.endswith(" " + last) and k[:1] == first[:1]]
+    hits = [p for k, p in players.items() if k.endswith(" " + last)
+            and (k[:1] == first[:1] or first_key(k.split(" ")[0]) == first_key(first))]
     return hits[0] if len(hits) == 1 else None
 
 
 def _on_roster(name: str, g: dict) -> bool:
-    n = norm(name)
+    n = norm(re.sub(r"\(#\d+\)", "", name))
     for t in (g["home"], g["away"]):
         if t not in _rosters:
             _rosters[t] = results.roster_names(t)
@@ -132,6 +144,8 @@ def grade_leg(c: dict, res: dict) -> tuple[str, str]:
     elif m in STAT:
         name = c.get("player")
         p = _find_player(str(name), g)
+        if p is AMBIGUOUS:
+            return "error", f"{name} is ambiguous (two skaters with this name dressed)"
         if p is None:
             if _on_roster(str(name), g):
                 return "void", f"{name} did not dress"
@@ -151,6 +165,24 @@ def grade_leg(c: dict, res: dict) -> tuple[str, str]:
         happened = val > line
     won = happened if c["side"] == "yes" else not happened
     return ("win" if won else "loss"), detail
+
+
+GOBLIN_DETAIL = "PrizePicks goblin (alternate, Over-only line) mispriced as a standard 3x pick; not bettable at that price"
+
+
+def pp_goblins(cands: pd.DataFrame) -> set[str]:
+    """PrizePicks candidates from the *_alternate markets (goblins at -137, demons at +100).
+
+    Standard PrizePicks projections are offered Over and Under; goblins/demons are Over only.
+    Before the 2026-11-09 fix, alternate-market goblins slipped into the candidates priced as
+    standard 3x picks (their real payout is lower). Graded as void so they don't count.
+    """
+    c = cands.reset_index() if "cand_id" not in cands.columns else cands
+    pp = c[c["venue"] == "prizepicks"]
+    if pp.empty:
+        return set()
+    sides = pp.groupby(["game_key", "market", "player", "line"])["side"].transform("nunique")
+    return set(pp.loc[sides < 2, "cand_id"])
 
 
 def _prod(xs):
@@ -176,6 +208,10 @@ def grade_day(day: date, backfill: bool = True) -> pd.DataFrame | None:
             print(f"Kalshi backfill failed: {e}")
     cp = DATA / "closing" / f"{day.isoformat()}.csv"
     close = pd.read_csv(cp).set_index("cand_id") if cp.exists() else pd.DataFrame()
+    goblins = pp_goblins(cands)
+
+    def gl(c: dict) -> tuple[str, str]:
+        return ("void", GOBLIN_DETAIL) if c.get("cand_id") in goblins else grade_leg(c, res)
 
     def cl(cid: str, col: str):
         return _num(close.at[cid, col]) if (len(close) and cid in close.index and col in close) else None
@@ -196,7 +232,7 @@ def grade_day(day: date, backfill: bool = True) -> pd.DataFrame | None:
         rec.update(price=price, cost=cost, stake=stake)
         if cid.startswith(("parlay|", "entry|")):
             legs = [leg(x) for x in split_legs(r["legs"])]
-            graded = [grade_leg(lg, res) for lg in legs]
+            graded = [gl(lg) for lg in legs]
             res_list = [x[0] for x in graded]
             rec["bucket"] = "parlay"
             rec["legs_result"] = ",".join({"win": "W", "loss": "L", "void": "V", "pending": "P", "error": "E"}[x] for x in res_list)
@@ -232,7 +268,7 @@ def grade_day(day: date, backfill: bool = True) -> pd.DataFrame | None:
                 rec["kalshi_clv"] = None if mid is None or px is None else mid - px
         else:
             rec["bucket"] = "single"
-            result, rec["detail"] = grade_leg(r, res)
+            result, rec["detail"] = gl(r)
             profit = {"win": stake * (1 / cost - 1) if cost else None, "loss": -stake, "void": 0.0}.get(result)
             rec["close_fair"] = cl(cid, "close_fair")
             rec["fair_clv"] = None if rec["close_fair"] is None or cost is None else rec["close_fair"] - cost

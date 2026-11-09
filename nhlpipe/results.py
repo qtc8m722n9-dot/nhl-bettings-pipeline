@@ -57,12 +57,24 @@ def _game(g: dict) -> dict:
         r["playerId"]: (f"{r['firstName']['default']} {r['lastName']['default']}", team_ids.get(r.get("teamId")))
         for r in pbp.get("rosterSpots", [])
     }
+    seen: dict[str, int] = {}
+    for side, team in (("homeTeam", home), ("awayTeam", away)):
+        for grp in ("forwards", "defense"):
+            for p in box["playerByGameStats"][side].get(grp, []):
+                n = norm(full.get(p["playerId"], (p["name"]["default"], team))[0])
+                seen[n] = seen.get(n, 0) + 1
     for side, team in (("homeTeam", home), ("awayTeam", away)):
         for grp in ("forwards", "defense"):
             for p in box["playerByGameStats"][side].get(grp, []):
                 name = full.get(p["playerId"], (p["name"]["default"], team))[0]
-                rec["players"][norm(name)] = {
+                num = p.get("sweaterNumber")
+                # Two skaters with the same name in one game (VAN's two Elias Petterssons, CAR/NYI's
+                # Sebastian Ahos): key both by number so neither overwrites the other; a bare-name
+                # bet on them is then ambiguous and graded as an error, never on the wrong player.
+                key = norm(name) if seen[norm(name)] == 1 else f"{norm(name)} {num}"
+                rec["players"][key] = {
                     "name": name,
+                    "num": num,
                     "team": team,
                     "goals": p.get("goals", 0),
                     "assists": p.get("assists", 0),

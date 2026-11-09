@@ -15,5 +15,17 @@ def norm(s: str | None) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+# First-name transliterations whose first letter differs between sources
+# (e.g. The Odds API 'Yegor Chinakhov' vs NHL API 'Egor Chinakhov').
+_FIRST_VARIANTS = {"yegor": "egor", "yevgeni": "evgeni", "yevgeny": "evgeni", "evgeny": "evgeni",
+                   "evgenii": "evgeni", "yaroslav": "jaroslav", "iaroslav": "jaroslav", "yakov": "jakob",
+                   "jakov": "jakob", "ilia": "ilya"}
+
+
+def first_key(first: str) -> str:
+    """Canonical first name for fuzzy player matching."""
+    return _FIRST_VARIANTS.get(first, first)
+
+
 def mp_team(abbrev: str) -> str:
     return MONEYPUCK_ABBREV.get(abbrev, abbrev)

@@ -131,7 +131,9 @@ PICKEM_MARKETS = {"player_shots_on_goal": "player_sog", "player_points": "player
 # Payout per pick, as decimal odds (fixed 2026-11-03; before that every pick was priced at -137 = 3x / 2-pick):
 #   Underdog: 2-pick Standard pays 3.5x since 2026-02-20, i.e. sqrt(3.5) = 1.871 per standard pick, times the
 #   pick's own multiplier (The Odds API 'multiplier', 1.0 = standard). The API's price is sqrt(3) x multiplier.
-#   PrizePicks: 2-pick Power Play pays 3x = sqrt(3) per pick; Demons/Goblins (placeholder prices) are skipped.
+#   PrizePicks: 2-pick Power Play pays 3x = sqrt(3) per pick. Standard projections are in the main markets
+#   (Over and Under); Goblins (-137) and Demons (+100) are in *_alternate (Over only) and are skipped
+#   (goblins slipped through as standard 3x picks until the 2026-11-09 fix).
 UD_PICK_BASE = 3.5 ** 0.5
 PP_PICK_BASE = 3.0 ** 0.5
 OLD_PICK_DECIMAL = 1 + 100 / 137
@@ -155,6 +157,8 @@ def pickem(odds: pd.DataFrame) -> list[dict]:
     for r in o.itertuples(index=False):
         if pd.isna(r.point) or float(r.point).is_integer():
             continue  # whole-number lines can push; skip them
+        if r.book == "prizepicks" and str(r.market).endswith("_alternate"):
+            continue  # PrizePicks goblins (-137) / demons (+100): Over-only, lower payouts; not standard 3x
         dec = pickem_decimal(r.book, r.price_american, getattr(r, "multiplier", None))
         if dec is None:
             continue

@@ -32,6 +32,7 @@ def build_day(day: date) -> pd.DataFrame | None:
         return None
     c = pd.read_csv(cp)
     c = c[[k for k in KEEP if k in c.columns]].drop_duplicates("cand_id")
+    c = c[~c["cand_id"].isin(grade.pp_goblins(c))]  # mispriced PrizePicks goblins (pre-2026-11-09 slates)
     out = [grade.grade_leg(r, res) for r in c.to_dict("records")]
     c["result"] = [x[0] for x in out]
     c["detail"] = [x[1] for x in out]

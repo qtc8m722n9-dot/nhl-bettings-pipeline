@@ -1,6 +1,6 @@
 # Status and next steps (read this first in a new session)
 
-Last updated: 2026-11-05. Paper bets only. Owner: Evan (Montreal, Quebec).
+Last updated: 2026-11-09. Paper bets only. Owner: Evan (Montreal, Quebec).
 
 ## What runs by itself (GitHub Actions)
 | Workflow | When (ET) | Does |
@@ -24,7 +24,7 @@ Last updated: 2026-11-05. Paper bets only. Owner: Evan (Montreal, Quebec).
 
 ## Pricing facts (verified)
 - Underdog: 3.5x standard 2-pick since 2026-02-20 -> 1.871 per standard pick x the API's per-pick `multiplier` (Evan confirmed 1.87x in the app, 2026-11-03). Alternate markets pulled for non-standard picks.
-- PrizePicks: left Canada 2026-04-03; paper only, 3x 2-pick; demons/goblins skipped.
+- PrizePicks: left Canada 2026-04-03; paper only, 3x 2-pick; demons/goblins skipped. Goblins = The Odds API `*_alternate` markets at -137 (Over only, line below the standard projection). Until 2026-11-09 they slipped into candidates as standard 3x picks: every M1 bet to date (and some B0/M4/M6-pickem picks) was a goblin, so M1's +8 pt CLV was a pricing artifact. Fixed in `candidates.pickem`; past goblin picks graded void (`grade.pp_goblins`).
 - Kalshi: taker fee 0.07*C*p*(1-p) rounded up per order (maker 0.0175); never voids (DNP/postponed settle at fair price). Evan says Kalshi works for him from Quebec.
 - Odds API: 100,000 credits/month (reset ~1 month after the 2026-10-31 upgrade). ~82k left on 2026-11-03. Live use ~4k/month + shadow closes ~15-20k/month.
 
@@ -32,6 +32,11 @@ Last updated: 2026-11-05. Paper bets only. Owner: Evan (Montreal, Quebec).
 - 2025-26 backtest (`data/backtest/report.md`): no original method beat Pinnacle's close; M1 8 bets all +CLV.
 - Shots v2 backtest (`data/shots2/report.md`): beats old M4 and slightly beats Pinnacle on log loss; encompassing weight on model 0.65 (0.50-0.80); bets +3% ROI, CI includes 0.
 - Live grades independently verified vs ESPN box scores and Kalshi settlements (10-30, 10-31).
+
+## Weekly flaw review 2026-11-09
+- Bug: PrizePicks goblins priced as standard picks (above). All graded slates + shadow board regraded.
+- Bug: 'Yegor' vs NHL 'Egor' Chinakhov not matched (first-name variants in `names.first_key`).
+- Bug: two skaters with the same name in one game (VAN's Elias Petterssons; CAR/NYI Sebastian Aho) overwrote each other in `results`; now keyed by sweater number, bare-name bets on them graded 'error' (ambiguous). Results for 10-31, 11-03, 11-05, 11-07 refetched.
 
 ## Next steps (in order)
 1. Let the shadow board accumulate (every priced line graded nightly from 2026-11-04).
