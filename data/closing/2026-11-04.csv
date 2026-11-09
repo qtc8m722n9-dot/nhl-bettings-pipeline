@@ -158,7 +158,6 @@ kalshi|CGY@SEA|player_points|simon nemec|0.5|no,CGY@SEA,,,0.6690423037984915,pin
 underdog|CGY@SEA|player_points|aydar suniev|0.5|no,CGY@SEA,,,0.6283992968977234,consensus,,,,,,archive,2026-11-05T02:55:36Z,4.4
 underdog|CGY@SEA|player_points|frederick gaudreau|0.5|no,CGY@SEA,,,0.686377875193017,consensus,,,,,,archive,2026-11-05T02:55:36Z,4.4
 underdog|CGY@SEA|player_points|simon nemec|0.5|no,CGY@SEA,,,0.6690423037984915,pinnacle,,,,,,archive,2026-11-05T02:55:36Z,4.4
-kalshi|CGY@SEA|player_points|matty beniers|1.5|no,CGY@SEA,2026-11-04T21:50:00-05:00,10.0,,,0.81,0.84,0.825,candle,1.0,none,2026-11-05T02:55:36Z,4.4
 draftkings|CGY@SEA|player_sog|jordan eberle|2.5|yes,CGY@SEA,,,0.3986931458475813,pinnacle,,,,,,archive,2026-11-05T02:55:36Z,4.4
 draftkings|CGY@SEA|player_sog|jordan eberle|2.5|no,CGY@SEA,,,0.6013068541524187,pinnacle,,,,,,archive,2026-11-05T02:55:36Z,4.4
 draftkings|CGY@SEA|player_sog|vince dunn|1.5|yes,CGY@SEA,,,0.6006183598342163,pinnacle,,,,,,archive,2026-11-05T02:55:36Z,4.4
@@ -614,7 +613,6 @@ kalshi|OTT@BUF|spread|BUF|1.5|no,OTT@BUF,,,0.6734434203394428,pinnacle,0.67,0.68
 kalshi|OTT@BUF|player_points|tim stutzle|1.5|no,OTT@BUF,,,0.6894304740223381,pinnacle,0.65,0.71,0.6799999999999999,candle,10.0,archive,2026-11-05T00:25:36Z,4.4
 kalshi|OTT@BUF|player_points|tim stutzle|0.5|yes,OTT@BUF,,,0.6836734370288182,consensus,0.71,0.72,0.715,candle,0.0,archive,2026-11-05T00:25:36Z,4.4
 underdog|OTT@BUF|player_points|tage thompson|0.5|yes,OTT@BUF,,,0.6632189307421554,pinnacle,,,,,,archive,2026-11-05T00:25:36Z,4.4
-kalshi|OTT@BUF|total||4.5|yes,OTT@BUF,,,,,0.84,0.85,0.845,candle,0.0,none,2026-11-05T00:25:36Z,4.4
 espnbet|OTT@BUF|player_sog|tim stutzle|2.5|no,OTT@BUF,,,0.5868918088955871,pinnacle,,,,,,archive,2026-11-05T00:25:36Z,4.4
 espnbet|OTT@BUF|player_sog|tim stutzle|2.5|yes,OTT@BUF,,,0.4131081911044129,pinnacle,,,,,,archive,2026-11-05T00:25:36Z,4.4
 espnbet|OTT@BUF|player_sog|claude giroux|1.5|yes,OTT@BUF,,,0.4296034724745067,pinnacle,,,,,,archive,2026-11-05T00:25:36Z,4.4
@@ -938,3 +936,5 @@ betmgm|SJS@LAK|player_sog|artemi panarin|2.5|yes,SJS@LAK,,,0.6398938792244564,pi
 fanduel|SJS@LAK|player_sog|mason marchment|1.5|yes,SJS@LAK,,,0.5495039019869298,pinnacle,,,,,,archive,2026-11-05T02:55:36Z,4.4
 fanduel|SJS@LAK|player_sog|brandt clarke|1.5|yes,SJS@LAK,,,0.5607420039050215,pinnacle,,,,,,archive,2026-11-05T02:55:36Z,4.4
 fanduel|SJS@LAK|player_sog|kiefer sherwood|1.5|yes,SJS@LAK,,,0.5420932924427202,pinnacle,,,,,,archive,2026-11-05T02:55:36Z,4.4
+kalshi|CGY@SEA|player_points|matty beniers|1.5|no,CGY@SEA,2026-11-04T21:50:00-05:00,10.0,,,0.81,0.84,0.825,candle,1.0,none,2026-11-05T02:55:36Z,4.4
+kalshi|OTT@BUF|total||4.5|yes,OTT@BUF,,,,,0.84,0.85,0.845,candle,0.0,none,2026-11-05T00:25:36Z,4.4
