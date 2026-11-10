@@ -1,0 +1,79 @@
+[
+ {
+  "game_id": 2026020286,
+  "start_utc": "2026-11-11T00:00:00Z",
+  "game_state": "FUT",
+  "home": "TOR",
+  "away": "COL",
+  "home_name": "Toronto Maple Leafs",
+  "away_name": "Colorado Avalanche",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020287,
+  "start_utc": "2026-11-11T00:00:00Z",
+  "game_state": "FUT",
+  "home": "MTL",
+  "away": "MIN",
+  "home_name": "Montr\u00e9al Canadiens",
+  "away_name": "Minnesota Wild",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020288,
+  "start_utc": "2026-11-11T00:00:00Z",
+  "game_state": "FUT",
+  "home": "OTT",
+  "away": "WSH",
+  "home_name": "Ottawa Senators",
+  "away_name": "Washington Capitals",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020291,
+  "start_utc": "2026-11-11T00:00:00Z",
+  "game_state": "FUT",
+  "home": "WPG",
+  "away": "NJD",
+  "home_name": "Winnipeg Jets",
+  "away_name": "New Jersey Devils",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020289,
+  "start_utc": "2026-11-11T00:30:00Z",
+  "game_state": "FUT",
+  "home": "CBJ",
+  "away": "FLA",
+  "home_name": "Columbus Blue Jackets",
+  "away_name": "Florida Panthers",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020290,
+  "start_utc": "2026-11-11T01:00:00Z",
+  "game_state": "FUT",
+  "home": "STL",
+  "away": "DET",
+  "home_name": "St. Louis Blues",
+  "away_name": "Detroit Red Wings",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020292,
+  "start_utc": "2026-11-11T03:00:00Z",
+  "game_state": "FUT",
+  "home": "LAK",
+  "away": "NSH",
+  "home_name": "Los Angeles Kings",
+  "away_name": "Nashville Predators",
+  "home_b2b": false,
+  "away_b2b": false
+ }
+]
