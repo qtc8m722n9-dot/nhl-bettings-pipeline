@@ -1,0 +1,46 @@
+{
+ "snapshot_et": "2026-11-10T13:28:02-05:00",
+ "mode": "full",
+ "standings": "ok",
+ "odds_main": "ok",
+ "games_today": 7,
+ "event_54a0d86217b79fbc969d6fca0e1564e8": "ok",
+ "event_18d63193c9a696acd715bc27d9fb65f6": "ok",
+ "event_11f3c6f0f406c5ffb575dbcd671cf964": "ok",
+ "event_0e5af7e0f9734ecda4b3c3013712deb6": "ok",
+ "event_d85899eb0ddff2e6e18a63b0c83bc7b8": "ok",
+ "event_9600ca13a787cb4772bf21e6e61bdf07": "ok",
+ "event_e71ce66a01d66fc935632b206d2dedbd": "ok",
+ "odds_api_usage": {
+  "x-requests-remaining": "76947",
+  "x-requests-used": "23053",
+  "x-requests-last": "7"
+ },
+ "odds_rows": 9583,
+ "books_seen": [
+  "betmgm",
+  "betrivers",
+  "draftkings",
+  "espnbet",
+  "fanduel",
+  "kalshi",
+  "pinnacle",
+  "prizepicks",
+  "underdog",
+  "williamhill_us"
+ ],
+ "markets_seen": [
+  "h2h",
+  "h2h_p1",
+  "player_goal_scorer_anytime",
+  "player_points",
+  "player_points_alternate",
+  "player_shots_on_goal",
+  "player_shots_on_goal_alternate",
+  "player_total_saves",
+  "spreads",
+  "totals",
+  "totals_p1"
+ ],
+ "kalshi_markets": 1867
+}
