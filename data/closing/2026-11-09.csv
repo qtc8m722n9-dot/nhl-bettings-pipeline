@@ -1,0 +1,7 @@
+cand_id,game_key,captured_et,min_before_start,close_fair,close_fair_source,close_bid,close_ask,close_mid,kalshi_close_source
+underdog|NYR@EDM|player_sog|gabe perreault|1.5|no,NYR@EDM,2026-11-09T19:50:00-05:00,10.0,0.4285644140918865,pinnacle,,,,
+prizepicks|NYR@EDM|player_points|evan bouchard|0.5|yes,NYR@EDM,2026-11-09T19:50:00-05:00,10.0,0.6649772909535844,pinnacle,,,,
+kalshi|NYR@EDM|spread|EDM|1.5|no,NYR@EDM,2026-11-09T19:50:00-05:00,10.0,0.6216223601854362,pinnacle,0.61,0.62,0.615,live
+underdog|NYR@EDM|player_sog|ryan nugent hopkins|2.5|no,NYR@EDM,2026-11-09T19:50:00-05:00,10.0,0.6649772909535842,pinnacle,,,,
+kalshi|NYR@EDM|player_points|j t miller|1.5|no,NYR@EDM,2026-11-09T19:50:00-05:00,10.0,,,0.81,0.84,0.825,live
+draftkings|NYR@EDM|player_sog|ryan nugent hopkins|2.5|no,NYR@EDM,2026-11-09T19:50:00-05:00,10.0,0.6649772909535842,pinnacle,,,,
