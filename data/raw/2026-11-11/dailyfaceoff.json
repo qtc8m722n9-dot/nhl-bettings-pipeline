@@ -3,29 +3,29 @@
   "side": "home",
   "team_name": "Buffalo Sabres",
   "goalie": "Ukko-Pekka Luukkonen",
-  "status": "Unconfirmed",
-  "updated": "2026-11-11"
+  "status": "Likely",
+  "updated": "2026-11-11T15:32:04.119Z"
  },
  {
   "side": "away",
   "team_name": "Tampa Bay Lightning",
   "goalie": "Andrei Vasilevskiy",
-  "status": "Unconfirmed",
-  "updated": "2026-11-11"
+  "status": "Likely",
+  "updated": "2026-11-11T17:20:45.005Z"
  },
  {
   "side": "home",
   "team_name": "Calgary Flames",
   "goalie": "Devin Cooley",
-  "status": "Unconfirmed",
-  "updated": "2026-11-11"
+  "status": "Confirmed",
+  "updated": "2026-11-11T16:34:52.512Z"
  },
  {
   "side": "away",
   "team_name": "New York Rangers",
   "goalie": "Joonas Korpisalo",
-  "status": "Unconfirmed",
-  "updated": "2026-11-11"
+  "status": "Likely",
+  "updated": "2026-11-11T16:58:15.500Z"
  },
  {
   "side": "home",
@@ -38,8 +38,8 @@
   "side": "away",
   "team_name": "Philadelphia Flyers",
   "goalie": "Dan Vladar",
-  "status": "Unconfirmed",
-  "updated": "2026-11-11"
+  "status": "Likely",
+  "updated": "2026-11-11T17:38:16.301Z"
  },
  {
   "side": "home",
