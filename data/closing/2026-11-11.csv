@@ -1,0 +1,5 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|TBL@BUF|player_points|josh doan|0.5|yes,TBL@BUF,2026-11-11T18:50:00-05:00,10.0,0.36,0.38,0.37,live,0.34282268163453583,pinnacle
+kalshi|TBL@BUF|spread|TBL|1.5|no,TBL@BUF,2026-11-11T18:50:00-05:00,10.0,0.66,0.67,0.665,live,0.6723546721383054,pinnacle
+kalshi|TBL@BUF|total||4.5|yes,TBL@BUF,2026-11-11T18:50:00-05:00,10.0,0.82,0.84,0.83,live,,
+betmgm|TBL@BUF|player_sog|charle edouard d astous|1.5|no,TBL@BUF,2026-11-11T18:50:00-05:00,10.0,,,,,0.5723111177340591,pinnacle
