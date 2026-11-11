@@ -1,0 +1,86 @@
+[
+ {
+  "side": "home",
+  "team_name": "Buffalo Sabres",
+  "goalie": "Ukko-Pekka Luukkonen",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "away",
+  "team_name": "Tampa Bay Lightning",
+  "goalie": "Andrei Vasilevskiy",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "home",
+  "team_name": "Calgary Flames",
+  "goalie": "Devin Cooley",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "away",
+  "team_name": "New York Rangers",
+  "goalie": "Joonas Korpisalo",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "home",
+  "team_name": "Edmonton Oilers",
+  "goalie": "Tristan Jarry",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "away",
+  "team_name": "Philadelphia Flyers",
+  "goalie": "Dan Vladar",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "home",
+  "team_name": "Vegas Golden Knights",
+  "goalie": "Carter Hart",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "away",
+  "team_name": "Utah Mammoth",
+  "goalie": "Sebastian Cossa",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "home",
+  "team_name": "Anaheim Ducks",
+  "goalie": "Laurent Brossoit",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "away",
+  "team_name": "Nashville Predators",
+  "goalie": "Justus Annunen",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "home",
+  "team_name": "San Jose Sharks",
+  "goalie": "Yaroslav Askarov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ },
+ {
+  "side": "away",
+  "team_name": "Pittsburgh Penguins",
+  "goalie": "Sergei Murashov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-11"
+ }
+]

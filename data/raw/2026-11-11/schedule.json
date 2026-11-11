@@ -1,0 +1,68 @@
+[
+ {
+  "game_id": 2026020293,
+  "start_utc": "2026-11-12T00:00:00Z",
+  "game_state": "FUT",
+  "home": "BUF",
+  "away": "TBL",
+  "home_name": "Buffalo Sabres",
+  "away_name": "Tampa Bay Lightning",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020294,
+  "start_utc": "2026-11-12T00:30:00Z",
+  "game_state": "FUT",
+  "home": "CGY",
+  "away": "NYR",
+  "home_name": "Calgary Flames",
+  "away_name": "New York Rangers",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020295,
+  "start_utc": "2026-11-12T02:00:00Z",
+  "game_state": "FUT",
+  "home": "EDM",
+  "away": "PHI",
+  "home_name": "Edmonton Oilers",
+  "away_name": "Philadelphia Flyers",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020296,
+  "start_utc": "2026-11-12T02:30:00Z",
+  "game_state": "FUT",
+  "home": "VGK",
+  "away": "UTA",
+  "home_name": "Vegas Golden Knights",
+  "away_name": "Utah Mammoth",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020297,
+  "start_utc": "2026-11-12T03:00:00Z",
+  "game_state": "FUT",
+  "home": "ANA",
+  "away": "NSH",
+  "home_name": "Anaheim Ducks",
+  "away_name": "Nashville Predators",
+  "home_b2b": false,
+  "away_b2b": true
+ },
+ {
+  "game_id": 2026020298,
+  "start_utc": "2026-11-12T03:00:00Z",
+  "game_state": "FUT",
+  "home": "SJS",
+  "away": "PIT",
+  "home_name": "San Jose Sharks",
+  "away_name": "Pittsburgh Penguins",
+  "home_b2b": false,
+  "away_b2b": false
+ }
+]
