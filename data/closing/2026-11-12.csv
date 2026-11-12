@@ -1,0 +1,19 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|TBL@CBJ|player_goals|anthony cirelli|0.5|yes,TBL@CBJ,2026-11-12T18:50:00-05:00,10.0,0.2,0.22,0.21000000000000002,live,,
+kalshi|COL@OTT|team_total|COL|3.5|yes,COL@OTT,2026-11-12T18:50:00-05:00,10.0,0.4,0.41,0.405,live,,
+kalshi|WSH@NJD|player_points|jakob chychrun|0.5|yes,WSH@NJD,2026-11-12T18:50:00-05:00,10.0,0.48,0.5,0.49,live,0.5,pinnacle
+kalshi|MTL@BOS|spread|BOS|1.5|no,MTL@BOS,2026-11-12T18:50:00-05:00,10.0,0.67,0.68,0.675,live,0.6885852077067401,pinnacle
+kalshi|TBL@CBJ|spread|TBL|1.5|no,TBL@CBJ,2026-11-12T18:50:00-05:00,10.0,0.72,0.73,0.725,live,,
+kalshi|MTL@BOS|player_goals|nick suzuki|0.5|no,MTL@BOS,2026-11-12T18:50:00-05:00,10.0,0.7,0.71,0.705,live,,
+kalshi|MIN@TOR|player_points|quinn hughes|0.5|yes,MIN@TOR,2026-11-12T18:50:00-05:00,10.0,0.72,0.73,0.725,live,0.7306954444649163,consensus
+kalshi|MTL@BOS|player_goals|alex newhook|0.5|no,MTL@BOS,2026-11-12T18:50:00-05:00,10.0,0.83,0.84,0.835,live,,
+kalshi|MIN@TOR|player_goals|gavin mckenna|0.5|no,MIN@TOR,2026-11-12T18:50:00-05:00,10.0,0.83,0.84,0.835,live,,
+kalshi|COL@OTT|team_total|COL|1.5|yes,COL@OTT,2026-11-12T18:50:00-05:00,10.0,0.82,0.84,0.83,live,,
+kalshi|WSH@NJD|player_goals|luke hughes|0.5|no,WSH@NJD,2026-11-12T18:50:00-05:00,10.0,0.83,0.85,0.84,live,,
+kalshi|TBL@CBJ|player_points|charlie coyle|1.5|no,TBL@CBJ,2026-11-12T18:50:00-05:00,10.0,0.83,0.86,0.845,live,,
+espnbet|TBL@CBJ|player_sog|kent johnson|2.5|no,TBL@CBJ,2026-11-12T18:50:00-05:00,10.0,,,,,0.6344472303062099,pinnacle
+espnbet|TBL@CBJ|player_sog|charle edouard d astous|1.5|no,TBL@CBJ,2026-11-12T18:50:00-05:00,10.0,,,,,0.5894793920709112,pinnacle
+betmgm|TBL@CBJ|player_sog|ivan provorov|1.5|no,TBL@CBJ,2026-11-12T18:50:00-05:00,10.0,,,,,0.46878765056355076,pinnacle
+betmgm|WSH@NJD|player_sog|dougie hamilton|2.5|yes,WSH@NJD,2026-11-12T18:50:00-05:00,10.0,,,,,0.4054361189217932,pinnacle
+espnbet|WSH@NJD|player_sog|connor brown|1.5|yes,WSH@NJD,2026-11-12T18:50:00-05:00,10.0,,,,,0.4787708928615623,pinnacle
+betmgm|WSH@NJD|player_sog|arseny gritsyuk|2.5|yes,WSH@NJD,2026-11-12T18:50:00-05:00,10.0,,,,,0.39627291717320123,pinnacle
