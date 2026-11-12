@@ -1,95 +1,89 @@
 # NHL paper-betting scoreboard
 
-Updated 2026-11-11 12:07 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
+Updated 2026-11-12 08:22 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
 
-## Last 7 days (Nov 04 – Nov 10)
+## Last 7 days (Nov 05 – Nov 11)
 
 ### Singles
 
 | Method | Bets | W-L | Win % | Units | ROI | Avg fair CLV, pp (n) | Avg Kalshi CLV, pp (n) | Beat close (n) | Void |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| B0_random | 38 | 18-20 | 47% | -3.88 | -10.2% | -4.5 (31) | -1.7 (15) | 3% (38) | 8 |
-| C1_chalk | 45 | 39-6 | 87% | +1.01 | 2.2% | – | -0.6 (46) | 28% (46) | 0 |
-| M1_sharp_price | 0 | 0-0 | – | +0.00 | – | – | – | – | 34 |
+| B0_random | 40 | 19-21 | 48% | -2.38 | -6.0% | -4.3 (31) | -1.4 (18) | 2% (40) | 8 |
+| C1_chalk | 47 | 41-6 | 87% | +1.36 | 2.8% | – | -0.5 (48) | 29% (48) | 0 |
+| M1_sharp_price | 0 | 0-0 | – | +0.00 | – | – | – | – | 31 |
 | M2_goalie_news | 7 | 3-4 | 43% | -2.68 | -38.3% | -1.9 (7) | -0.5 (7) | 14% (7) | 0 |
-| M3_xg_model | 16 | 8-8 | 50% | -4.40 | -27.5% | -1.7 (16) | -0.6 (16) | 6% (16) | 0 |
-| M6_shots_v2 | 49 | 28-21 | 57% | +6.87 | 14.0% | -0.0 (49) | – | 57% (49) | 0 |
-| M6_shots_v2_pickem | 13 | 4-9 | 31% | -5.78 | -44.5% | -2.2 (13) | – | 8% (13) | 0 |
+| M3_xg_model | 18 | 8-10 | 44% | -6.40 | -35.5% | -1.6 (18) | -0.4 (18) | 6% (18) | 0 |
+| M6_shots_v2 | 51 | 29-22 | 57% | +5.61 | 11.0% | -0.1 (51) | – | 55% (51) | 0 |
+| M6_shots_v2_pickem | 14 | 4-10 | 29% | -6.78 | -48.4% | -1.9 (14) | – | 14% (14) | 0 |
 
 ### Parlays (3-leg) & pick'em entries (2-pick)
 
 | Method | Bets | W-L | Win % | Units | ROI | Avg fair CLV, pp (n) | Avg Kalshi CLV, pp (n) | Beat close (n) | Void |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| B0_random | 10 | 1-9 | 10% | -7.81 | -78.1% | -3.8 (5) | – | 0% (5) | 1 |
-| C1_chalk | 11 | 7-4 | 64% | +0.44 | 4.0% | – | -1.5 (11) | 27% (11) | 0 |
-| M1_sharp_price | 0 | 0-0 | – | +0.00 | – | – | – | – | 7 |
+| B0_random | 11 | 1-10 | 9% | -8.81 | -80.1% | -3.5 (5) | -0.7 (1) | 0% (6) | 1 |
+| C1_chalk | 12 | 8-4 | 67% | +1.07 | 8.9% | – | -1.3 (12) | 33% (12) | 0 |
+| M1_sharp_price | 0 | 0-0 | – | +0.00 | – | – | – | – | 6 |
 | M2_goalie_news | 1 | 0-1 | 0% | -1.00 | -100.0% | -1.9 (1) | -0.3 (1) | 0% (1) | 0 |
 | M3_xg_model | 4 | 0-4 | 0% | -4.00 | -100.0% | -1.5 (4) | -0.5 (4) | 0% (4) | 0 |
 | M5_pickem_entries | 3 | 0-3 | 0% | -3.00 | -100.0% | -0.1 (1) | – | 0% (1) | 0 |
 
-## Season (Oct 31 – Nov 10, 11 slates)
+## Season (Oct 31 – Nov 11, 12 slates)
 
 ### Singles
 
 | Method | Bets | W-L | Win % | Units | ROI | Avg fair CLV, pp (n) | Avg Kalshi CLV, pp (n) | Beat close (n) | Void |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| B0_random | 67 | 31-36 | 46% | -7.07 | -10.6% | -4.3 (40) | -1.9 (40) | 1% (67) | 9 |
-| C1_chalk | 75 | 63-12 | 84% | -0.66 | -0.9% | – | -0.7 (76) | 24% (76) | 0 |
+| B0_random | 73 | 34-39 | 47% | -5.61 | -7.7% | -4.3 (44) | -1.8 (44) | 1% (73) | 9 |
+| C1_chalk | 81 | 68-13 | 84% | -0.77 | -0.9% | – | -0.7 (82) | 24% (82) | 0 |
 | M1_sharp_price | 0 | 0-0 | – | +0.00 | – | – | – | – | 45 |
 | M2_goalie_news | 14 | 8-6 | 57% | -2.01 | -14.4% | -1.8 (8) | -0.6 (14) | 14% (14) | 0 |
-| M3_xg_model | 42 | 24-18 | 57% | -8.20 | -19.5% | -1.7 (21) | -0.6 (42) | 12% (42) | 0 |
+| M3_xg_model | 44 | 24-20 | 55% | -10.20 | -23.2% | -1.6 (23) | -0.6 (44) | 11% (44) | 0 |
 | M4_shots_model | 11 | 6-5 | 55% | -0.73 | -6.7% | -5.8 (10) | – | 0% (10) | 9 |
-| M6_shots_v2 | 56 | 33-23 | 59% | +8.94 | 16.0% | -0.0 (56) | – | 55% (56) | 0 |
-| M6_shots_v2_pickem | 15 | 6-9 | 40% | -4.15 | -27.7% | -1.8 (15) | – | 13% (15) | 6 |
+| M6_shots_v2 | 63 | 38-25 | 60% | +10.84 | 17.2% | -0.1 (63) | – | 51% (63) | 0 |
+| M6_shots_v2_pickem | 16 | 6-10 | 38% | -5.15 | -32.2% | -1.5 (16) | – | 19% (16) | 6 |
 
 ### Parlays (3-leg) & pick'em entries (2-pick)
 
 | Method | Bets | W-L | Win % | Units | ROI | Avg fair CLV, pp (n) | Avg Kalshi CLV, pp (n) | Beat close (n) | Void |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| B0_random | 16 | 1-15 | 6% | -13.81 | -86.3% | -3.8 (5) | -1.2 (4) | 0% (9) | 1 |
-| C1_chalk | 17 | 10-7 | 59% | -0.65 | -3.8% | – | -1.8 (17) | 24% (17) | 0 |
+| B0_random | 18 | 1-17 | 6% | -15.81 | -87.9% | -3.6 (6) | -1.1 (5) | 0% (11) | 1 |
+| C1_chalk | 19 | 11-8 | 58% | -1.01 | -5.3% | – | -1.6 (19) | 26% (19) | 0 |
 | M1_sharp_price | 0 | 0-0 | – | +0.00 | – | – | – | – | 9 |
 | M2_goalie_news | 2 | 1-1 | 50% | +1.23 | 61.4% | -1.9 (1) | -0.7 (2) | 0% (2) | 0 |
 | M3_xg_model | 10 | 2-8 | 20% | -4.40 | -44.0% | -1.5 (4) | -0.8 (10) | 0% (10) | 0 |
 | M4_shots_model | 2 | 1-1 | 50% | +0.76 | 38.2% | -6.9 (1) | – | 0% (1) | 1 |
 | M5_pickem_entries | 4 | 1-3 | 25% | -0.65 | -16.3% | -0.1 (1) | – | 0% (1) | 0 |
 
-## Latest slate: Tue Nov 10
+## Latest slate: Wed Nov 11
 
 | Method | Pick | Cost | Result | Units | Fair CLV | Kalshi CLV | Detail |
 |---|---|--:|---|--:|--:|--:|---|
-| B0_random | Drake Batherson Over 1.5 points | 0.253 | loss | -1.00 | – | -2.0 | Drake Batherson 0 points |
-| B0_random | Robert Thomas Over 0.5 goals | 0.284 | loss | -1.00 | – | -2.0 | Robert Thomas 0 goals |
-| B0_random | Filip Forsberg Over 2.5 shots | 0.629 | win | +0.59 | -4.1 | – | Filip Forsberg 3 sog |
-| B0_random | Dougie Hamilton Under 2.5 shots | 0.660 | win | +0.52 | -4.7 | – | Dougie Hamilton 1 sog |
-| B0_random | Cole Sillinger Under 1.5 shots | 0.535 | loss | -1.00 | -0.1 | – | Cole Sillinger 3 sog |
-| B0_random | William Nylander Under 0.5 points | 0.366 | win | +1.73 | -4.9 | -1.0 | William Nylander 0 points |
-| B0_random | MIN NOT to win | 0.487 | loss | -1.00 | -2.9 | -0.5 | MIN 2-1 MTL (OT) |
-| B0_random | Drake Batherson Over 1.5 points  +  Robert Thomas Over 0.5 goals  +  Filip Forsberg Over 2.5 shots | 0.045 | loss (L,L,W) | -1.00 | – | – | Drake Batherson 0 points | Robert Thomas 0 goals | Filip Forsberg 3 sog |
-| B0_random | Dougie Hamilton Under 2.5 shots  +  Cole Sillinger Under 1.5 shots  +  William Nylander Under 0.5 points | 0.129 | loss (W,L,W) | -1.00 | -2.5 | – | Dougie Hamilton 1 sog | Cole Sillinger 3 sog | William Nylander 0 points |
-| C1_chalk | Game Under 8.5 | 0.849 | win | +0.18 | – | -0.5 | FLA 4-1 CBJ |
-| C1_chalk | Jakob Chychrun Under 1.5 points | 0.849 | win | +0.18 | – | -2.0 | Jakob Chychrun 1 points |
-| C1_chalk | Game Over 4.5 | 0.849 | win | +0.18 | – | +1.5 | COL 6-3 TOR |
-| C1_chalk | Josh Morrissey Under 1.5 points | 0.849 | win | +0.18 | – | +0.5 | Josh Morrissey 0 points |
-| C1_chalk | Game Under 8.5 | 0.849 | win | +0.18 | – | +0.5 | DET 2-3 STL |
-| C1_chalk | Roman Josi Under 0.5 goals | 0.849 | win | +0.18 | – | +1.5 | Roman Josi 0 goals |
-| C1_chalk | Chris Kreider Under 0.5 goals | 0.849 | win | +0.18 | – | -1.5 | Chris Kreider 0 goals |
-| C1_chalk | Game Under 8.5  +  Jakob Chychrun Under 1.5 points  +  Game Over 4.5 | 0.613 | win (W,W,W) | +0.63 | – | -0.7 | FLA 4-1 CBJ | Jakob Chychrun 1 points | COL 6-3 TOR |
-| C1_chalk | Josh Morrissey Under 1.5 points  +  Game Under 8.5  +  Roman Josi Under 0.5 goals | 0.613 | win (W,W,W) | +0.63 | – | +1.8 | Josh Morrissey 0 points | DET 2-3 STL | Roman Josi 0 goals |
-| M3_xg_model | MIN not to win by 2+ | 0.695 | win | +0.44 | -0.8 | -0.5 | MIN 2-1 MTL (OT) |
-| M3_xg_model | TOR to win | 0.407 | loss | -1.00 | -2.5 | -1.5 | COL 6-3 TOR |
-| M3_xg_model | STL not to win by 2+ | 0.666 | win | +0.50 | -0.0 | +0.5 | DET 2-3 STL |
-| M3_xg_model | MIN not to win by 2+  +  TOR to win  +  STL not to win by 2+ | 0.188 | loss (W,L,W) | -1.00 | -1.4 | -0.7 | MIN 2-1 MTL (OT) | COL 6-3 TOR | DET 2-3 STL |
-| M6_shots_v2 | Josh Morrissey Under 1.5 shots | 0.426 | loss | -1.00 | -0.9 | – | Josh Morrissey 4 sog |
-| M6_shots_v2 | Sam Bennett Over 2.5 shots | 0.400 | win | +1.50 | +3.2 | – | Sam Bennett 4 sog |
-| M6_shots_v2 | Ivan Provorov Under 1.5 shots | 0.500 | loss | -1.00 | +4.9 | – | Ivan Provorov 6 sog |
-| M6_shots_v2 | Noah Dobson Under 2.5 shots | 0.655 | loss | -1.00 | +0.2 | – | Noah Dobson 3 sog |
-| M6_shots_v2 | Valeri Nichushkin Over 1.5 shots | 0.500 | win | +1.00 | -0.9 | – | Valeri Nichushkin 4 sog |
-| M6_shots_v2 | Lucas Raymond Under 2.5 shots | 0.524 | win | +0.91 | +0.7 | – | Lucas Raymond 2 sog |
-| M6_shots_v2 | Mason McTavish Under 2.5 shots | 0.600 | win | +0.67 | +0.2 | – | Mason McTavish 1 sog |
-| M6_shots_v2_pickem | Josh Morrissey Under 1.5 shots | 0.469 | loss | -1.00 | -5.2 | – | Josh Morrissey 4 sog |
-| M6_shots_v2_pickem | Blake Coleman Over 1.5 shots | 0.594 | loss | -1.00 | -0.9 | – | Blake Coleman 1 sog |
-| M6_shots_v2_pickem | Cole Sillinger Under 1.5 shots | 0.535 | loss | -1.00 | -0.1 | – | Cole Sillinger 3 sog |
+| B0_random | William Karlsson Under 0.5 goals | 0.821 | win | +0.22 | – | +0.0 | William Karlsson 0 goals |
+| B0_random | Mikael Granlund Over 0.5 goals | 0.273 | win | +2.66 | – | -1.5 | Mikael Granlund 1 goals |
+| B0_random | Zayne Parekh Over 0.5 points | 0.447 | loss | -1.00 | -2.5 | -1.0 | Zayne Parekh 0 points |
+| B0_random | Josh Doan Over 0.5 points | 0.386 | win | +1.59 | -4.4 | -0.5 | Josh Doan 1 points |
+| B0_random | Trevor Zegras Over 0.5 points | 0.577 | loss | -1.00 | -6.6 | – | Trevor Zegras 0 points |
+| B0_random | Mason Marchment Under 1.5 shots | 0.509 | loss | -1.00 | -3.7 | – | Mason Marchment 2 sog |
+| B0_random | William Karlsson Under 0.5 goals  +  Mikael Granlund Over 0.5 goals  +  Zayne Parekh Over 0.5 points | 0.100 | loss (W,W,L) | -1.00 | – | -0.7 | William Karlsson 0 goals | Mikael Granlund 1 goals | Zayne Parekh 0 points |
+| B0_random | Josh Doan Over 0.5 points  +  Trevor Zegras Over 0.5 points  +  Mason Marchment Under 1.5 shots | 0.114 | loss (W,L,L) | -1.00 | -3.1 | – | Josh Doan 1 points | Trevor Zegras 0 points | Mason Marchment 2 sog |
+| C1_chalk | Ben Kindel Under 1.5 points | 0.849 | win | +0.18 | – | +0.0 | Ben Kindel 1 points |
+| C1_chalk | Game Over 4.5 | 0.849 | win | +0.18 | – | -0.5 | TBL 8-3 BUF |
+| C1_chalk | Aydar Suniev Under 0.5 goals | 0.849 | win | +0.18 | – | +0.5 | Aydar Suniev 0 goals |
+| C1_chalk | Ivan Barbashev Under 0.5 goals | 0.849 | loss | -1.00 | – | +0.0 | Ivan Barbashev 2 goals |
+| C1_chalk | Connor McDavid Over 0.5 points | 0.849 | win | +0.18 | – | +0.0 | Connor McDavid 1 points |
+| C1_chalk | NSH Over 1.5 | 0.849 | win | +0.18 | – | +0.5 | NSH 4-2 ANA |
+| C1_chalk | Ben Kindel Under 1.5 points  +  Game Over 4.5  +  Aydar Suniev Under 0.5 goals | 0.613 | win (W,W,W) | +0.63 | – | -0.0 | Ben Kindel 1 points | TBL 8-3 BUF | Aydar Suniev 0 goals |
+| C1_chalk | Ivan Barbashev Under 0.5 goals  +  Connor McDavid Over 0.5 points  +  NSH Over 1.5 | 0.613 | loss (L,W,W) | -1.00 | – | +0.4 | Ivan Barbashev 2 goals | Connor McDavid 1 points | NSH 4-2 ANA |
+| M3_xg_model | TBL not to win by 2+ | 0.686 | loss | -1.00 | -1.1 | -0.5 | TBL 8-3 BUF |
+| M3_xg_model | PHI to win | 0.366 | loss | -1.00 | -0.4 | +1.5 | PHI 2-3 EDM (OT) |
+| M6_shots_v2 | Troy Terry Over 2.5 shots | 0.377 | loss | -1.00 | -4.1 | – | Troy Terry 0 sog |
+| M6_shots_v2 | Jack Eichel Over 2.5 shots | 0.488 | loss | -1.00 | +2.7 | – | Jack Eichel 1 sog |
+| M6_shots_v2 | Mika Zibanejad Over 1.5 shots | 0.630 | win | +0.59 | -0.5 | – | Mika Zibanejad 2 sog |
+| M6_shots_v2 | Charle-Edouard D'Astous Under 1.5 shots | 0.583 | win | +0.71 | -1.1 | – | Charle-Edouard D'Astous 1 sog |
+| M6_shots_v2 | Erik Karlsson Over 1.5 shots | 0.636 | win | +0.57 | -1.0 | – | Erik Karlsson 5 sog |
+| M6_shots_v2 | Jamie Drysdale Under 1.5 shots | 0.615 | win | +0.62 | -1.3 | – | Jamie Drysdale 1 sog |
+| M6_shots_v2 | Mavrik Bourque Under 1.5 shots | 0.417 | win | +1.40 | -1.6 | – | Mavrik Bourque 1 sog |
+| M6_shots_v2_pickem | Jack Eichel Over 2.5 shots | 0.495 | loss | -1.00 | +2.0 | – | Jack Eichel 1 sog |
 
 ## Notes
 - **Bets / W-L / Win % / Units / ROI** count settled bets only; voids (scratched player, push, postponed game) return the stake.
