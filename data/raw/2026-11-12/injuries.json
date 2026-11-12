@@ -100,8 +100,8 @@
   "player": "Patrick Kane",
   "position": "RW",
   "status": "Injured Reserve",
-  "detail": "Kane (upper body) was placed on injured reserve Sunday.",
-  "date": "2026-11-09T01:39Z"
+  "detail": "Kane (upper body) will likely be in the lineup versus Buffalo on Thursday, Mark Lazerus of The Athletic reports.",
+  "date": "2026-11-12T16:48Z"
  },
  {
   "team_name": "Chicago Blackhawks",
@@ -225,14 +225,6 @@
  },
  {
   "team_name": "Florida Panthers",
-  "player": "Sandis Vilmanis",
-  "position": "LW",
-  "status": "Out",
-  "detail": "Vilmanis (undisclosed) will probably miss a few games, according to George Richards of Florida Hockey Now on Saturday.",
-  "date": "2026-11-07T21:02Z"
- },
- {
-  "team_name": "Florida Panthers",
   "player": "Brad Marchand",
   "position": "LW",
   "status": "Injured Reserve",
@@ -305,14 +297,6 @@
  },
  {
   "team_name": "Montreal Canadiens",
-  "player": "Mike Matheson",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-11T17:55Z"
- },
- {
-  "team_name": "Montreal Canadiens",
   "player": "Ivan Demidov",
   "position": "RW",
   "status": "Injured Reserve",
@@ -347,9 +331,25 @@
   "team_name": "Nashville Predators",
   "player": "Jonathan Marchessault",
   "position": "RW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-12T17:02Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
+  "player": "Johnathan Kovacevic",
+  "position": "D",
   "status": "Out",
-  "detail": "out",
-  "date": "2026-11-12T02:37Z"
+  "detail": "Kovacevic (undisclosed) is undergoing imaging Thursday and won't play in the Devils' home matchup against the Capitals, Kristy Flannery of The Hockey News reports.",
+  "date": "2026-11-12T16:52Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
+  "player": "Brett Pesce",
+  "position": "D",
+  "status": "Out",
+  "detail": "Pesce has been ruled out for Thursday's game against Washington due to an illness, Kristy Flannery of The Hockey News reports.",
+  "date": "2026-11-12T16:48Z"
  },
  {
   "team_name": "New Jersey Devils",
@@ -358,14 +358,6 @@
   "status": "Injured Reserve",
   "detail": "Mantha (throat) was placed on long-term injured reserve by the Devils on Wednesday, retroactive to Nov. 7.",
   "date": "2026-11-11T22:42Z"
- },
- {
-  "team_name": "New Jersey Devils",
-  "player": "Johnathan Kovacevic",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-11T03:12Z"
  },
  {
   "team_name": "New Jersey Devils",
@@ -470,14 +462,6 @@
   "status": "Out",
   "detail": "out",
   "date": "2026-11-11T17:15Z"
- },
- {
-  "team_name": "Ottawa Senators",
-  "player": "Linus Ullmark",
-  "position": "G",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-11T14:56Z"
  },
  {
   "team_name": "Ottawa Senators",
@@ -668,8 +652,16 @@
   "player": "Zack MacEwen",
   "position": "C",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-11T16:47Z"
+  "detail": "MacEwen (wrist) is a game-time decision for Thursday's home clash against the Wild, per Andre Leal of The Hockey News.",
+  "date": "2026-11-12T16:46Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Colton Sissons",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-12T15:24Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
@@ -678,14 +670,6 @@
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-11T14:56Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Colton Sissons",
-  "position": "C",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-10T15:34Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
