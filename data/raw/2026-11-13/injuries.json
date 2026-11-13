@@ -57,19 +57,19 @@
  },
  {
   "team_name": "Calgary Flames",
+  "player": "Jonathan Huberdeau",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Huberdeau (hip) won't travel with the Flames during their upcoming three-game road trip, Pat Steinberg of QR Calgary 770 AM reports Friday.",
+  "date": "2026-11-13T17:38Z"
+ },
+ {
+  "team_name": "Calgary Flames",
   "player": "Kevin Bahl",
   "position": "D",
   "status": "Injured Reserve",
   "detail": "Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday.",
   "date": "2026-11-08T16:17Z"
- },
- {
-  "team_name": "Calgary Flames",
-  "player": "Jonathan Huberdeau",
-  "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "Huberdeau (hip) took the ice in a regular jersey Friday, Pat Steinberg of QR Calgary 770 AM reports.",
-  "date": "2026-11-06T16:42Z"
  },
  {
   "team_name": "Calgary Flames",
@@ -137,19 +137,19 @@
  },
  {
   "team_name": "Dallas Stars",
-  "player": "Miro Heiskanen",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-13T13:57Z"
- },
- {
-  "team_name": "Dallas Stars",
   "player": "Lian Bichsel",
   "position": "D",
   "status": "Out",
-  "detail": "Bichsel (lower body) is expected to miss at least two games after getting injured Thursday versus the Jets, Robert Tiffin of NHL.com reports.",
-  "date": "2026-11-13T04:21Z"
+  "detail": "Head coach Glen Gulutzan said Friday that Bichsel (lower body) will be out for \"a couple weeks,\" Stars TV host Brien Rea reports.",
+  "date": "2026-11-13T17:41Z"
+ },
+ {
+  "team_name": "Dallas Stars",
+  "player": "Miro Heiskanen",
+  "position": "D",
+  "status": "Out",
+  "detail": "Heiskanen (upper body) has been ruled out against the Sabres on Saturday, Stars TV host Brien Rea reports.",
+  "date": "2026-11-13T17:41Z"
  },
  {
   "team_name": "Dallas Stars",
@@ -848,20 +848,12 @@
   "date": "2026-10-23T20:39Z"
  },
  {
-  "team_name": "Washington Capitals",
-  "player": "Patrick Thomas",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "ir-nr",
-  "date": "2026-09-29T17:07Z"
- },
- {
   "team_name": "Winnipeg Jets",
   "player": "Dylan DeMelo",
   "position": "D",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-13T04:29Z"
+  "status": "Injured Reserve",
+  "detail": "DeMelo (lower body) was placed on injured reserve Friday.",
+  "date": "2026-11-13T16:33Z"
  },
  {
   "team_name": "Winnipeg Jets",
