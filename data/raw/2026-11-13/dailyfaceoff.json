@@ -1,0 +1,30 @@
+[
+ {
+  "side": "home",
+  "team_name": "Vancouver Canucks",
+  "goalie": "Leevi Merilainen",
+  "status": "Unconfirmed",
+  "updated": "2026-11-13"
+ },
+ {
+  "side": "away",
+  "team_name": "New York Rangers",
+  "goalie": "Dylan Garand",
+  "status": "Unconfirmed",
+  "updated": "2026-11-13"
+ },
+ {
+  "side": "home",
+  "team_name": "Vegas Golden Knights",
+  "goalie": "Adin Hill",
+  "status": "Unconfirmed",
+  "updated": "2026-11-13"
+ },
+ {
+  "side": "away",
+  "team_name": "Nashville Predators",
+  "goalie": "Juuse Saros",
+  "status": "Unconfirmed",
+  "updated": "2026-11-13"
+ }
+]
