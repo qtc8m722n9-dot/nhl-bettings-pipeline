@@ -1,6 +1,5 @@
 cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source,kalshi_close_min_before,fair_close_from,fair_close_snapshot,fair_close_min_before
 kalshi|NYR@VAN|team_total|VAN|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,0.25,0.26,0.255,candle,,,2.0,,,
-underdog|NSH@VGK|player_points|roman josi|1.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,,,,,,,,none,2026-11-14T02:55:36Z,4.4
 kalshi|NSH@VGK|player_points|shane wright|0.5|yes,NSH@VGK,,,0.31,0.32,0.315,candle,0.30045837585630214,consensus,0.0,archive,2026-11-14T02:55:36Z,4.4
 underdog|NSH@VGK|player_points|shane wright|0.5|yes,NSH@VGK,,,,,,,0.30045837585630214,consensus,,archive,2026-11-14T02:55:36Z,4.4
 kalshi|NSH@VGK|player_points|brett howden|0.5|yes,NSH@VGK,,,0.32,0.33,0.325,candle,0.305110704095653,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
@@ -113,7 +112,6 @@ kalshi|NSH@VGK|player_points|shane wright|0.5|no,NSH@VGK,,,0.68,0.69,0.685,candl
 underdog|NSH@VGK|player_points|mitch marner|0.5|yes,NSH@VGK,,,,,,,0.6632189307421554,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
 underdog|NSH@VGK|player_points|brett howden|0.5|no,NSH@VGK,,,,,,,0.694889295904347,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
 underdog|NSH@VGK|player_points|shane wright|0.5|no,NSH@VGK,,,,,,,0.6995416241436978,consensus,,archive,2026-11-14T02:55:36Z,4.4
-kalshi|NSH@VGK|p1_total||0.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,0.84,0.86,0.85,candle,,,1.0,none,2026-11-14T02:55:36Z,4.4
 fanduel|NSH@VGK|player_sog|tomas hertl|2.5|yes,NSH@VGK,,,,,,,0.39627291717320123,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
 fanduel|NSH@VGK|player_sog|tomas hertl|2.5|no,NSH@VGK,,,,,,,0.6037270828267988,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
 fanduel|NSH@VGK|player_sog|mitch marner|2.5|yes,NSH@VGK,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
@@ -359,7 +357,6 @@ underdog|NYR@VAN|player_points|noah laba|0.5|no,NYR@VAN,,,,,,,0.681358172752843,
 kalshi|NYR@VAN|player_points|zeev buium|0.5|no,NYR@VAN,,,0.7,0.72,0.71,candle,0.735667227714019,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
 underdog|NYR@VAN|player_points|vladislav gavrikov|0.5|no,NYR@VAN,,,,,,,0.6934190352105651,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
 underdog|NYR@VAN|player_points|zeev buium|0.5|no,NYR@VAN,,,,,,,0.735667227714019,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
-kalshi|NYR@VAN|spread|VAN|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,0.82,0.83,0.825,candle,,,0.0,none,2026-11-14T01:55:36Z,4.4
 draftkings|NYR@VAN|player_sog|pavel dorofeyev|2.5|yes,NYR@VAN,,,,,,,0.6109147511387446,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
 espnbet|NYR@VAN|player_sog|tye kartye|2.5|yes,NYR@VAN,,,,,,,0.34278943385330146,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
 espnbet|NYR@VAN|player_sog|adam fox|1.5|yes,NYR@VAN,,,,,,,0.5334519735443304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
@@ -462,3 +459,6 @@ betrivers|NYR@VAN|player_sog|jake debrusk|2.5|yes,NYR@VAN,,,,,,,0.41669493857595
 fanduel|NYR@VAN|player_sog|mika zibanejad|1.5|yes,NYR@VAN,,,,,,,0.6330469057696423,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
 fanduel|NYR@VAN|player_sog|filip hronek|1.5|yes,NYR@VAN,,,,,,,0.44839121913796026,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
 fanduel|NYR@VAN|player_sog|elias pettersson|1.5|yes,NYR@VAN,,,,,,,0.4514472515969499,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NSH@VGK|player_points|roman josi|1.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,,,,,,,,none,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|p1_total||0.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,0.84,0.86,0.85,candle,,,1.0,none,2026-11-14T02:55:36Z,4.4
+kalshi|NYR@VAN|spread|VAN|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,0.82,0.83,0.825,candle,,,0.0,none,2026-11-14T01:55:36Z,4.4
