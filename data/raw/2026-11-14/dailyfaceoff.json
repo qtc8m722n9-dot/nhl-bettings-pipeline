@@ -30,9 +30,9 @@
  {
   "side": "home",
   "team_name": "Montreal Canadiens",
-  "goalie": "Jacob Fowler",
-  "status": "Unconfirmed",
-  "updated": "2026-11-14"
+  "goalie": "Jakub Dobes",
+  "status": "Confirmed",
+  "updated": "2026-11-14T15:50:17.121Z"
  },
  {
   "side": "away",
@@ -44,9 +44,9 @@
  {
   "side": "home",
   "team_name": "Toronto Maple Leafs",
-  "goalie": "Sergei Bobrovsky",
-  "status": "Unconfirmed",
-  "updated": "2026-11-14"
+  "goalie": "Anthony Stolarz",
+  "status": "Likely",
+  "updated": "2026-11-14T15:33:04.455Z"
  },
  {
   "side": "away",
@@ -73,8 +73,8 @@
   "side": "home",
   "team_name": "Tampa Bay Lightning",
   "goalie": "Andrei Vasilevskiy",
-  "status": "Unconfirmed",
-  "updated": "2026-11-14"
+  "status": "Likely",
+  "updated": "2026-11-14T15:47:18.995Z"
  },
  {
   "side": "away",
@@ -101,8 +101,8 @@
   "side": "home",
   "team_name": "Boston Bruins",
   "goalie": "Jeremy Swayman",
-  "status": "Unconfirmed",
-  "updated": "2026-11-14"
+  "status": "Confirmed",
+  "updated": "2026-11-14T15:33:31.362Z"
  },
  {
   "side": "away",
@@ -115,8 +115,8 @@
   "side": "home",
   "team_name": "Pittsburgh Penguins",
   "goalie": "Sergei Murashov",
-  "status": "Unconfirmed",
-  "updated": "2026-11-14"
+  "status": "Confirmed",
+  "updated": "2026-11-14T16:01:44.385Z"
  },
  {
   "side": "away",

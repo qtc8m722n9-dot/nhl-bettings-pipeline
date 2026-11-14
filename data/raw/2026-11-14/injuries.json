@@ -121,11 +121,19 @@
  },
  {
   "team_name": "Dallas Stars",
+  "player": "Kyle Capobianco",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Capobianco (leg) was moved to long-term injured reserve Saturday.",
+  "date": "2026-11-14T15:14Z"
+ },
+ {
+  "team_name": "Dallas Stars",
   "player": "Lian Bichsel",
   "position": "D",
   "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-14T15:08Z"
+  "detail": "Bichsel (lower body) was placed on injured reserve Saturday.",
+  "date": "2026-11-14T15:10Z"
  },
  {
   "team_name": "Dallas Stars",
@@ -134,14 +142,6 @@
   "status": "Out",
   "detail": "Heiskanen (upper body) has been ruled out against the Sabres on Saturday, Stars TV host Brien Rea reports.",
   "date": "2026-11-13T17:41Z"
- },
- {
-  "team_name": "Dallas Stars",
-  "player": "Kyle Capobianco",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-31T16:54Z"
  },
  {
   "team_name": "Dallas Stars",
@@ -291,9 +291,9 @@
   "team_name": "Montreal Canadiens",
   "player": "Chris Kreider",
   "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-13T03:37Z"
+  "status": "Out",
+  "detail": "Kreider (lower body) will be out for approximately 6-8 weeks, the Canadiens announced Saturday.",
+  "date": "2026-11-14T15:55Z"
  },
  {
   "team_name": "Montreal Canadiens",
