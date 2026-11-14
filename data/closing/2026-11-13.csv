@@ -1,0 +1,5 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|NYR@VAN|team_total|VAN|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,0.25,0.26,0.255,live,,
+underdog|NYR@VAN|player_sog|tye kartye|2.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,,,,,0.6572105661466985,pinnacle
+kalshi|NYR@VAN|spread|VAN|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,0.82,0.83,0.825,live,,
+betmgm|NYR@VAN|player_sog|elias pettersson|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,,,,,0.5485527484030501,pinnacle
