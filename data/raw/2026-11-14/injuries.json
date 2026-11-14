@@ -91,17 +91,17 @@
   "team_name": "Colorado Avalanche",
   "player": "Cale Makar",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-13T02:10Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-14T17:37Z"
  },
  {
   "team_name": "Colorado Avalanche",
   "player": "Nathan MacKinnon",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-13T02:06Z"
+  "status": "Out",
+  "detail": "MacKinnon (lower body) will miss at least one month, per Corey Masisak of The Denver Post on Saturday.",
+  "date": "2026-11-14T17:30Z"
  },
  {
   "team_name": "Colorado Avalanche",
@@ -265,27 +265,19 @@
  },
  {
   "team_name": "Minnesota Wild",
-  "player": "Joel Eriksson Ek",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-13T03:12Z"
- },
- {
-  "team_name": "Minnesota Wild",
-  "player": "Brock Faber",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "Faber (skull) has told the Wild that he's ready to play and expects to return for Saturday's game against the Bruins, Michael Russo of The Athletic reports Wednesday.",
-  "date": "2026-11-11T15:34Z"
- },
- {
-  "team_name": "Minnesota Wild",
   "player": "Filip Gustavsson",
   "position": "G",
   "status": "Injured Reserve",
   "detail": "Gustavsson (hip) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",
   "date": "2026-11-05T18:51Z"
+ },
+ {
+  "team_name": "Montreal Canadiens",
+  "player": "Mike Matheson",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "Matheson (undisclosed) is considered a game-time decision for Saturday's home clash against the Avalanche, per Renaud Lavoie of TVA Sports.",
+  "date": "2026-11-14T17:10Z"
  },
  {
   "team_name": "Montreal Canadiens",
