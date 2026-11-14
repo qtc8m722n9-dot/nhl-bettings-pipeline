@@ -1,9 +1,464 @@
-cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
-kalshi|NYR@VAN|team_total|VAN|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,0.25,0.26,0.255,live,,
-underdog|NYR@VAN|player_sog|tye kartye|2.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,,,,,0.6572105661466985,pinnacle
-kalshi|NYR@VAN|spread|VAN|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,0.82,0.83,0.825,live,,
-betmgm|NYR@VAN|player_sog|elias pettersson|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,,,,,0.5485527484030501,pinnacle
-underdog|NSH@VGK|player_points|roman josi|1.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,,,,,,
-kalshi|NSH@VGK|p1_total||0.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,0.84,0.86,0.85,live,,
-draftkings|NSH@VGK|player_sog|ross colton|1.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,,,,,0.476531314912484,pinnacle
-espnbet|NSH@VGK|player_sog|william karlsson|1.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,,,,,0.5506638564937638,pinnacle
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source,kalshi_close_min_before,fair_close_from,fair_close_snapshot,fair_close_min_before
+kalshi|NYR@VAN|team_total|VAN|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,0.25,0.26,0.255,candle,,,2.0,,,
+underdog|NSH@VGK|player_points|roman josi|1.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,,,,,,,,none,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|shane wright|0.5|yes,NSH@VGK,,,0.31,0.32,0.315,candle,0.30045837585630214,consensus,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|shane wright|0.5|yes,NSH@VGK,,,,,,,0.30045837585630214,consensus,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|brett howden|0.5|yes,NSH@VGK,,,0.32,0.33,0.325,candle,0.305110704095653,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|nils hoglander|0.5|yes,NSH@VGK,,,0.31,0.34,0.325,candle,0.29564597605230675,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|brett howden|0.5|yes,NSH@VGK,,,,,,,0.305110704095653,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|mitch marner|0.5|no,NSH@VGK,,,0.32,0.34,0.33,candle,0.33678106925784457,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|jack eichel|1.5|yes,NSH@VGK,,,0.35,0.37,0.36,candle,0.33972015196293404,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|mitch marner|0.5|no,NSH@VGK,,,,,,,0.33678106925784457,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|spread|VGK|1.5|yes,NSH@VGK,,,0.37,0.38,0.375,candle,0.3835663265450183,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|mark stone|0.5|no,NSH@VGK,,,0.36,0.38,0.37,candle,0.37629629861721525,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|shea theodore|0.5|yes,NSH@VGK,,,0.38,0.4,0.39,candle,0.3690446653593863,pinnacle,21.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|jack eichel|1.5|yes,NSH@VGK,,,,,,,0.33972015196293404,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|william karlsson|0.5|yes,NSH@VGK,,,0.4,0.42,0.41000000000000003,candle,0.3938803038608257,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|mavrik bourque|0.5|yes,NSH@VGK,,,0.41,0.44,0.425,candle,0.41669493857595097,pinnacle,4.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|ml|NSH|nan|yes,NSH@VGK,,,0.4,0.41,0.405,candle,0.3928552558097273,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|mark stone|0.5|no,NSH@VGK,,,,,,,0.37629629861721525,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|ml|VGK|nan|no,NSH@VGK,,,0.4,0.41,0.405,candle,0.39285525580972713,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|roman josi|0.5|no,NSH@VGK,,,0.4,0.42,0.41000000000000003,candle,0.39550619600676973,pinnacle,4.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|trevor connelly|0.5|yes,NSH@VGK,,,0.43,0.44,0.435,candle,0.4493361435062362,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|filip forsberg|0.5|no,NSH@VGK,,,0.39,0.41,0.4,candle,0.39550619600676973,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|shea theodore|0.5|yes,NSH@VGK,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|trevor connelly|0.5|yes,NSH@VGK,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|ivan barbashev|1.5|yes,NSH@VGK,,,,,,,0.40703897442843867,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|ryan o reilly|0.5|no,NSH@VGK,,,0.42,0.44,0.43,candle,0.4193565719137823,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|steven stamkos|0.5|no,NSH@VGK,,,0.42,0.43,0.425,candle,0.4097069317564286,pinnacle,39.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|william karlsson|0.5|yes,NSH@VGK,,,,,,,0.3938803038608257,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|ivan barbashev|0.5|yes,NSH@VGK,,,0.43,0.45,0.44,candle,0.4296034724745067,pinnacle,2.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|total||6.5|yes,NSH@VGK,,,0.45,0.46,0.455,candle,0.45018111917409614,consensus,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|mark stone|2.5|yes,NSH@VGK,,,,,,,0.3522006309919721,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|trevor connelly|1.5|no,NSH@VGK,,,,,,,0.4003568625763464,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|filip forsberg|0.5|no,NSH@VGK,,,,,,,0.39550619600676973,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|victor olofsson|2.5|yes,NSH@VGK,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|ivan barbashev|0.5|yes,NSH@VGK,,,,,,,0.4296034724745067,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|mavrik bourque|0.5|yes,NSH@VGK,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|tomas hertl|2.5|yes,NSH@VGK,,,,,,,0.39627291717320123,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|roman josi|2.5|yes,NSH@VGK,,,,,,,0.4131081911044129,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|steven stamkos|0.5|no,NSH@VGK,,,,,,,0.4097069317564286,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|ryan o reilly|0.5|no,NSH@VGK,,,,,,,0.4193565719137823,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|ross colton|1.5|yes,NSH@VGK,,,,,,,0.476531314912484,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|shea theodore|1.5|no,NSH@VGK,,,,,,,0.4193565719137823,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|p1_total||1.5|no,NSH@VGK,,,0.43,0.44,0.435,candle,0.44125361686594344,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|ryan o reilly|1.5|no,NSH@VGK,,,,,,,0.5044806110005342,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|mitch marner|2.5|yes,NSH@VGK,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|jack eichel|2.5|no,NSH@VGK,,,,,,,0.4567019794890117,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|victor olofsson|0.5|yes,NSH@VGK,,,0.46,0.49,0.475,candle,0.46430627616618364,pinnacle,3.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|tomas hertl|0.5|no,NSH@VGK,,,0.46,0.48,0.47,candle,0.4724269137319089,pinnacle,5.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|william karlsson|1.5|no,NSH@VGK,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|victor olofsson|0.5|yes,NSH@VGK,,,,,,,0.46430627616618364,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|filip forsberg|2.5|no,NSH@VGK,,,,,,,0.47326111009711924,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|steven stamkos|2.5|yes,NSH@VGK,,,,,,,0.40517389555810623,consensus,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|tomas hertl|0.5|no,NSH@VGK,,,,,,,0.4724269137319089,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|brett howden|1.5|yes,NSH@VGK,,,,,,,0.42768888226594093,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|victor olofsson|0.5|no,NSH@VGK,,,0.51,0.54,0.525,candle,0.5356937238338164,pinnacle,3.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|p1_total||1.5|yes,NSH@VGK,,,0.56,0.57,0.565,candle,0.5587463831340566,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|tomas hertl|0.5|yes,NSH@VGK,,,0.52,0.54,0.53,candle,0.5275730862680911,pinnacle,5.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|tomas hertl|0.5|yes,NSH@VGK,,,,,,,0.5275730862680911,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|brett howden|1.5|no,NSH@VGK,,,,,,,0.5723111177340591,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|total||6.5|no,NSH@VGK,,,0.54,0.55,0.545,candle,0.5498188808259039,consensus,0.0,archive,2026-11-14T02:55:36Z,4.4
+prizepicks|NSH@VGK|player_sog|ryan o reilly|1.5|yes,NSH@VGK,,,,,,,0.49551938899946574,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+prizepicks|NSH@VGK|player_sog|brett howden|1.5|no,NSH@VGK,,,,,,,0.5723111177340591,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+prizepicks|NSH@VGK|player_sog|filip forsberg|2.5|yes,NSH@VGK,,,,,,,0.5267388899028808,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+prizepicks|NSH@VGK|player_sog|ryan o reilly|1.5|no,NSH@VGK,,,,,,,0.5044806110005342,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+prizepicks|NSH@VGK|player_sog|brett howden|1.5|yes,NSH@VGK,,,,,,,0.42768888226594093,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+prizepicks|NSH@VGK|player_points|tomas hertl|0.5|yes,NSH@VGK,,,,,,,0.5275730862680911,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+prizepicks|NSH@VGK|player_points|tomas hertl|0.5|no,NSH@VGK,,,,,,,0.4724269137319089,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+prizepicks|NSH@VGK|player_sog|filip forsberg|2.5|no,NSH@VGK,,,,,,,0.47326111009711924,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|ivan barbashev|0.5|no,NSH@VGK,,,0.55,0.57,0.56,candle,0.5703965275254933,pinnacle,2.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|steven stamkos|0.5|yes,NSH@VGK,,,0.57,0.58,0.575,candle,0.5902930682435714,pinnacle,39.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|ryan o reilly|0.5|yes,NSH@VGK,,,0.56,0.58,0.5700000000000001,candle,0.5806434280862177,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|victor olofsson|0.5|no,NSH@VGK,,,,,,,0.5356937238338164,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|filip forsberg|2.5|yes,NSH@VGK,,,,,,,0.5267388899028808,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|william karlsson|1.5|yes,NSH@VGK,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|steven stamkos|2.5|no,NSH@VGK,,,,,,,0.5948261044418938,consensus,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|ryan o reilly|1.5|yes,NSH@VGK,,,,,,,0.49551938899946574,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|mitch marner|2.5|no,NSH@VGK,,,,,,,0.5937646677129587,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|ml|VGK|nan|yes,NSH@VGK,,,0.59,0.6,0.595,candle,0.6071447441902729,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|roman josi|0.5|yes,NSH@VGK,,,0.58,0.6,0.59,candle,0.6044938039932303,pinnacle,4.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|mavrik bourque|0.5|no,NSH@VGK,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|jack eichel|2.5|yes,NSH@VGK,,,,,,,0.5432980205109883,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|ross colton|1.5|no,NSH@VGK,,,,,,,0.523468685087516,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|mavrik bourque|0.5|no,NSH@VGK,,,0.56,0.59,0.575,candle,0.583305061424049,pinnacle,4.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|trevor connelly|0.5|no,NSH@VGK,,,0.56,0.57,0.565,candle,0.5506638564937638,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|filip forsberg|0.5|yes,NSH@VGK,,,0.59,0.61,0.6,candle,0.6044938039932303,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|ml|NSH|nan|no,NSH@VGK,,,0.59,0.6,0.595,candle,0.6071447441902726,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|tomas hertl|2.5|no,NSH@VGK,,,,,,,0.6037270828267988,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|shea theodore|0.5|no,NSH@VGK,,,0.6,0.62,0.61,candle,0.6309553346406137,pinnacle,21.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|william karlsson|0.5|no,NSH@VGK,,,0.58,0.6,0.59,candle,0.6061196961391744,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|steven stamkos|0.5|yes,NSH@VGK,,,,,,,0.5902930682435714,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|ryan o reilly|0.5|yes,NSH@VGK,,,,,,,0.5806434280862177,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|roman josi|2.5|no,NSH@VGK,,,,,,,0.5868918088955871,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|shea theodore|1.5|yes,NSH@VGK,,,,,,,0.5806434280862177,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|victor olofsson|2.5|no,NSH@VGK,,,,,,,0.6309553346406137,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|ivan barbashev|0.5|no,NSH@VGK,,,,,,,0.5703965275254933,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|filip forsberg|0.5|yes,NSH@VGK,,,,,,,0.6044938039932303,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|mark stone|0.5|yes,NSH@VGK,,,0.62,0.64,0.63,candle,0.6237037013827847,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|spread|VGK|1.5|no,NSH@VGK,,,0.62,0.63,0.625,candle,0.6164336734549817,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|mark stone|2.5|no,NSH@VGK,,,,,,,0.6477993690080279,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|trevor connelly|1.5|yes,NSH@VGK,,,,,,,0.5996431374236536,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|trevor connelly|0.5|no,NSH@VGK,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_sog|ivan barbashev|1.5|no,NSH@VGK,,,,,,,0.5929610255715614,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|william karlsson|0.5|no,NSH@VGK,,,,,,,0.6061196961391744,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|jack eichel|1.5|no,NSH@VGK,,,0.63,0.65,0.64,candle,0.660279848037066,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|shea theodore|0.5|no,NSH@VGK,,,,,,,0.6309553346406137,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|mitch marner|0.5|yes,NSH@VGK,,,0.66,0.68,0.67,candle,0.6632189307421554,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|mark stone|0.5|yes,NSH@VGK,,,,,,,0.6237037013827847,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|brett howden|0.5|no,NSH@VGK,,,0.67,0.68,0.675,candle,0.694889295904347,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|nils hoglander|0.5|no,NSH@VGK,,,0.66,0.69,0.675,candle,0.7043540239476933,pinnacle,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|jack eichel|1.5|no,NSH@VGK,,,,,,,0.660279848037066,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|player_points|shane wright|0.5|no,NSH@VGK,,,0.68,0.69,0.685,candle,0.6995416241436978,consensus,0.0,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|mitch marner|0.5|yes,NSH@VGK,,,,,,,0.6632189307421554,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|brett howden|0.5|no,NSH@VGK,,,,,,,0.694889295904347,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+underdog|NSH@VGK|player_points|shane wright|0.5|no,NSH@VGK,,,,,,,0.6995416241436978,consensus,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NSH@VGK|p1_total||0.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,0.84,0.86,0.85,candle,,,1.0,none,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|tomas hertl|2.5|yes,NSH@VGK,,,,,,,0.39627291717320123,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|tomas hertl|2.5|no,NSH@VGK,,,,,,,0.6037270828267988,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|mitch marner|2.5|yes,NSH@VGK,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|mitch marner|2.5|no,NSH@VGK,,,,,,,0.5937646677129587,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|filip forsberg|2.5|yes,NSH@VGK,,,,,,,0.5267388899028808,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|filip forsberg|2.5|no,NSH@VGK,,,,,,,0.47326111009711924,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|steven stamkos|2.5|yes,NSH@VGK,,,,,,,0.40517389555810623,consensus,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|steven stamkos|2.5|no,NSH@VGK,,,,,,,0.5948261044418938,consensus,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|mark stone|2.5|yes,NSH@VGK,,,,,,,0.3522006309919721,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|mark stone|2.5|no,NSH@VGK,,,,,,,0.6477993690080279,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|jack eichel|2.5|yes,NSH@VGK,,,,,,,0.5432980205109883,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|jack eichel|2.5|no,NSH@VGK,,,,,,,0.4567019794890117,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|roman josi|2.5|no,NSH@VGK,,,,,,,0.5868918088955871,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|roman josi|2.5|yes,NSH@VGK,,,,,,,0.4131081911044129,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|ryan o reilly|1.5|no,NSH@VGK,,,,,,,0.5044806110005342,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|steven stamkos|2.5|yes,NSH@VGK,,,,,,,0.40517389555810623,consensus,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|steven stamkos|2.5|no,NSH@VGK,,,,,,,0.5948261044418938,consensus,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|ivan barbashev|1.5|no,NSH@VGK,,,,,,,0.5929610255715614,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|ivan barbashev|1.5|yes,NSH@VGK,,,,,,,0.40703897442843867,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|ross colton|1.5|no,NSH@VGK,,,,,,,0.523468685087516,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|ross colton|1.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,,,,,0.476531314912484,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|brett howden|1.5|no,NSH@VGK,,,,,,,0.5723111177340591,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|brett howden|1.5|yes,NSH@VGK,,,,,,,0.42768888226594093,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|william karlsson|1.5|no,NSH@VGK,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|william karlsson|1.5|yes,NSH@VGK,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|ryan o reilly|1.5|yes,NSH@VGK,,,,,,,0.49551938899946574,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|ryan o reilly|1.5|no,NSH@VGK,,,,,,,0.5044806110005342,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|shea theodore|1.5|no,NSH@VGK,,,,,,,0.4193565719137823,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|shea theodore|1.5|yes,NSH@VGK,,,,,,,0.5806434280862177,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|trevor connelly|1.5|no,NSH@VGK,,,,,,,0.4003568625763464,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|trevor connelly|1.5|yes,NSH@VGK,,,,,,,0.5996431374236536,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|mark stone|2.5|no,NSH@VGK,,,,,,,0.6477993690080279,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|mark stone|2.5|yes,NSH@VGK,,,,,,,0.3522006309919721,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|victor olofsson|2.5|no,NSH@VGK,,,,,,,0.6309553346406137,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|victor olofsson|2.5|yes,NSH@VGK,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|steven stamkos|2.5|no,NSH@VGK,,,,,,,0.5948261044418938,consensus,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|ryan o reilly|1.5|yes,NSH@VGK,,,,,,,0.49551938899946574,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|ross colton|1.5|no,NSH@VGK,,,,,,,0.523468685087516,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|ross colton|1.5|yes,NSH@VGK,,,,,,,0.476531314912484,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|roman josi|2.5|no,NSH@VGK,,,,,,,0.5868918088955871,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|jack eichel|2.5|yes,NSH@VGK,,,,,,,0.5432980205109883,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|jack eichel|2.5|no,NSH@VGK,,,,,,,0.4567019794890117,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|brett howden|1.5|yes,NSH@VGK,,,,,,,0.42768888226594093,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|brett howden|1.5|no,NSH@VGK,,,,,,,0.5723111177340591,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|ivan barbashev|1.5|yes,NSH@VGK,,,,,,,0.40703897442843867,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|ivan barbashev|1.5|no,NSH@VGK,,,,,,,0.5929610255715614,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|mitch marner|2.5|yes,NSH@VGK,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|mitch marner|2.5|no,NSH@VGK,,,,,,,0.5937646677129587,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|shea theodore|1.5|yes,NSH@VGK,,,,,,,0.5806434280862177,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|shea theodore|1.5|no,NSH@VGK,,,,,,,0.4193565719137823,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|tomas hertl|2.5|yes,NSH@VGK,,,,,,,0.39627291717320123,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|tomas hertl|2.5|no,NSH@VGK,,,,,,,0.6037270828267988,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|trevor connelly|1.5|yes,NSH@VGK,,,,,,,0.5996431374236536,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|trevor connelly|1.5|no,NSH@VGK,,,,,,,0.4003568625763464,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|william karlsson|1.5|yes,NSH@VGK,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|william karlsson|1.5|no,NSH@VGK,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|filip forsberg|2.5|yes,NSH@VGK,,,,,,,0.5267388899028808,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|filip forsberg|2.5|no,NSH@VGK,,,,,,,0.47326111009711924,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|mavrik bourque|1.5|yes,NSH@VGK,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|mavrik bourque|1.5|no,NSH@VGK,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|roman josi|2.5|yes,NSH@VGK,,,,,,,0.4131081911044129,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|steven stamkos|2.5|yes,NSH@VGK,,,,,,,0.40517389555810623,consensus,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|tomas hertl|2.5|no,NSH@VGK,,,,,,,0.6037270828267988,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|tomas hertl|2.5|yes,NSH@VGK,,,,,,,0.39627291717320123,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|roman josi|2.5|no,NSH@VGK,,,,,,,0.5868918088955871,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|roman josi|2.5|yes,NSH@VGK,,,,,,,0.4131081911044129,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|mitch marner|2.5|no,NSH@VGK,,,,,,,0.5937646677129587,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|mitch marner|2.5|yes,NSH@VGK,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|filip forsberg|2.5|no,NSH@VGK,,,,,,,0.47326111009711924,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|filip forsberg|2.5|yes,NSH@VGK,,,,,,,0.5267388899028808,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|jack eichel|2.5|no,NSH@VGK,,,,,,,0.4567019794890117,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|jack eichel|2.5|yes,NSH@VGK,,,,,,,0.5432980205109883,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|shea theodore|1.5|no,NSH@VGK,,,,,,,0.4193565719137823,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|ryan o reilly|1.5|yes,NSH@VGK,,,,,,,0.49551938899946574,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|ryan o reilly|1.5|no,NSH@VGK,,,,,,,0.5044806110005342,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|william karlsson|1.5|yes,NSH@VGK,2026-11-13T21:50:00-05:00,10.0,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|william karlsson|1.5|no,NSH@VGK,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|steven stamkos|2.5|yes,NSH@VGK,,,,,,,0.40517389555810623,consensus,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|steven stamkos|2.5|no,NSH@VGK,,,,,,,0.5948261044418938,consensus,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|mitch marner|2.5|yes,NSH@VGK,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|mitch marner|2.5|no,NSH@VGK,,,,,,,0.5937646677129587,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|victor olofsson|2.5|yes,NSH@VGK,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|victor olofsson|2.5|no,NSH@VGK,,,,,,,0.6309553346406137,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|tomas hertl|2.5|yes,NSH@VGK,,,,,,,0.39627291717320123,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|tomas hertl|2.5|no,NSH@VGK,,,,,,,0.6037270828267988,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|jack eichel|2.5|yes,NSH@VGK,,,,,,,0.5432980205109883,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|jack eichel|2.5|no,NSH@VGK,,,,,,,0.4567019794890117,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|roman josi|2.5|yes,NSH@VGK,,,,,,,0.4131081911044129,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|mavrik bourque|1.5|yes,NSH@VGK,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|mavrik bourque|1.5|no,NSH@VGK,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|trevor connelly|1.5|yes,NSH@VGK,,,,,,,0.5996431374236536,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|trevor connelly|1.5|no,NSH@VGK,,,,,,,0.4003568625763464,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|shea theodore|1.5|yes,NSH@VGK,,,,,,,0.5806434280862177,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|roman josi|2.5|no,NSH@VGK,,,,,,,0.5868918088955871,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|ross colton|1.5|yes,NSH@VGK,,,,,,,0.476531314912484,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|ross colton|1.5|no,NSH@VGK,,,,,,,0.523468685087516,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|brett howden|1.5|yes,NSH@VGK,,,,,,,0.42768888226594093,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|filip forsberg|2.5|no,NSH@VGK,,,,,,,0.47326111009711924,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|brett howden|1.5|no,NSH@VGK,,,,,,,0.5723111177340591,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|ivan barbashev|1.5|yes,NSH@VGK,,,,,,,0.40703897442843867,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|ivan barbashev|1.5|no,NSH@VGK,,,,,,,0.5929610255715614,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+espnbet|NSH@VGK|player_sog|filip forsberg|2.5|yes,NSH@VGK,,,,,,,0.5267388899028808,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betmgm|NSH@VGK|player_sog|mark stone|2.5|yes,NSH@VGK,,,,,,,0.3522006309919721,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|victor olofsson|2.5|yes,NSH@VGK,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|shea theodore|1.5|yes,NSH@VGK,,,,,,,0.5806434280862177,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|tomas hertl|2.5|yes,NSH@VGK,,,,,,,0.39627291717320123,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|ross colton|1.5|yes,NSH@VGK,,,,,,,0.476531314912484,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|trevor connelly|1.5|yes,NSH@VGK,,,,,,,0.5996431374236536,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|roman josi|2.5|yes,NSH@VGK,,,,,,,0.4131081911044129,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|ryan o reilly|1.5|yes,NSH@VGK,,,,,,,0.49551938899946574,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|ivan barbashev|1.5|yes,NSH@VGK,,,,,,,0.40703897442843867,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|jack eichel|2.5|yes,NSH@VGK,,,,,,,0.5432980205109883,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|steven stamkos|2.5|yes,NSH@VGK,,,,,,,0.40517389555810623,consensus,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|mitch marner|2.5|yes,NSH@VGK,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|mavrik bourque|1.5|yes,NSH@VGK,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|brett howden|1.5|yes,NSH@VGK,,,,,,,0.42768888226594093,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|filip forsberg|2.5|yes,NSH@VGK,,,,,,,0.5267388899028808,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|william karlsson|1.5|yes,NSH@VGK,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|ryan o reilly|1.5|yes,NSH@VGK,,,,,,,0.49551938899946574,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|trevor connelly|1.5|yes,NSH@VGK,,,,,,,0.5996431374236536,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+fanduel|NSH@VGK|player_sog|mavrik bourque|1.5|yes,NSH@VGK,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+betrivers|NSH@VGK|player_sog|victor olofsson|2.5|yes,NSH@VGK,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+draftkings|NSH@VGK|player_sog|mavrik bourque|1.5|yes,NSH@VGK,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T02:55:36Z,4.4
+kalshi|NYR@VAN|player_points|zeev buium|0.5|yes,NYR@VAN,,,0.28,0.3,0.29000000000000004,candle,0.26433277228598095,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|adam fox|1.5|yes,NYR@VAN,,,0.3,0.34,0.32,candle,0.31362212480698304,consensus,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|zeev buium|0.5|yes,NYR@VAN,,,,,,,0.26433277228598095,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|adam fox|0.5|no,NYR@VAN,,,0.32,0.33,0.325,candle,0.30806482599221163,pinnacle,9.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|noah laba|0.5|yes,NYR@VAN,,,0.29,0.34,0.315,candle,0.31864182724715695,consensus,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|ml|VAN|nan|yes,NYR@VAN,,,0.35,0.36,0.355,candle,0.3339889849447925,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|vladislav gavrikov|0.5|yes,NYR@VAN,,,0.33,0.34,0.335,candle,0.3065809647894348,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|mika zibanejad|0.5|no,NYR@VAN,,,0.33,0.35,0.33999999999999997,candle,0.33678106925784457,pinnacle,5.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|ml|NYR|nan|no,NYR@VAN,,,0.34,0.35,0.345,candle,0.33398898494479246,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|vladislav gavrikov|0.5|yes,NYR@VAN,,,,,,,0.3065809647894348,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|noah laba|0.5|yes,NYR@VAN,,,,,,,0.31864182724715695,consensus,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|mika zibanejad|0.5|no,NYR@VAN,,,,,,,0.33678106925784457,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|adam fox|1.5|yes,NYR@VAN,,,,,,,0.31362212480698304,consensus,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|oliver bjorkstrand|0.5|yes,NYR@VAN,,,0.38,0.41,0.395,candle,0.381770906432062,consensus,1.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|j t miller|0.5|no,NYR@VAN,,,0.38,0.41,0.395,candle,0.4078470894747359,pinnacle,7.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|alexis lafreniere|0.5|no,NYR@VAN,,,0.39,0.42,0.405,candle,0.4045224464881515,pinnacle,1.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|pavel dorofeyev|0.5|no,NYR@VAN,,,0.4,0.42,0.41000000000000003,candle,0.41669493857595097,pinnacle,3.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|mika zibanejad|1.5|no,NYR@VAN,,,,,,,0.3669530942303577,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|alexis lafreniere|2.5|yes,NYR@VAN,,,,,,,0.38677383725000497,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|filip chytil|0.5|yes,NYR@VAN,,,,,,,0.3781450898031476,consensus,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|will cuylle|0.5|yes,NYR@VAN,,,0.41,0.43,0.42,candle,0.4148934804922928,pinnacle,8.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|p1_total||1.5|no,NYR@VAN,,,0.41,0.43,0.42,candle,0.41868245641638047,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|spread|NYR|1.5|yes,NYR@VAN,,,0.44,0.45,0.445,candle,0.44923280802847304,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|tye kartye|2.5|yes,NYR@VAN,,,,,,,0.34278943385330146,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|gabe perreault|1.5|no,NYR@VAN,,,,,,,0.45357916385292485,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|oliver bjorkstrand|0.5|yes,NYR@VAN,,,,,,,0.381770906432062,consensus,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|elias pettersson|0.5|no,NYR@VAN,,,,,,,0.4078470894747359,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|j t miller|0.5|no,NYR@VAN,,,,,,,0.4078470894747359,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|j t miller|1.5|no,NYR@VAN,,,,,,,0.423053167100226,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|jake debrusk|2.5|yes,NYR@VAN,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|will cuylle|1.5|no,NYR@VAN,,,,,,,0.4087720613950304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|will cuylle|0.5|yes,NYR@VAN,,,,,,,0.4148934804922928,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|filip chytil|1.5|no,NYR@VAN,,,,,,,0.3989979632151286,consensus,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|pavel dorofeyev|0.5|no,NYR@VAN,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|jonathan lekkerimaki|0.5|yes,NYR@VAN,,,0.45,0.47,0.45999999999999996,candle,0.4820661866548397,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|brock boeser|0.5|no,NYR@VAN,,,0.44,0.45,0.445,candle,0.45144725159694976,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|alexis lafreniere|0.5|no,NYR@VAN,,,,,,,0.4045224464881515,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|jonathan lekkerimaki|0.5|yes,NYR@VAN,,,,,,,0.4820661866548397,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|pavel dorofeyev|2.5|no,NYR@VAN,,,,,,,0.3890852488612554,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|jake debrusk|0.5|yes,NYR@VAN,,,0.47,0.48,0.475,candle,0.476531314912484,pinnacle,15.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|gabe perreault|0.5|no,NYR@VAN,,,0.47,0.49,0.48,candle,0.49103764278916706,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|brock boeser|1.5|no,NYR@VAN,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|oliver bjorkstrand|1.5|yes,NYR@VAN,,,,,,,0.46386915387447347,consensus,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|elias pettersson|1.5|yes,NYR@VAN,,,,,,,0.4514472515969499,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|total||6.5|yes,NYR@VAN,,,0.47,0.48,0.475,candle,0.48215055238369864,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|tye kartye|0.5|yes,NYR@VAN,,,,,,,0.5089623572108329,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|filip hronek|0.5|yes,NYR@VAN,,,0.49,0.51,0.5,candle,0.48347295800639944,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|tye kartye|0.5|yes,NYR@VAN,,,0.48,0.5,0.49,candle,0.5089623572108329,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|filip hronek|0.5|no,NYR@VAN,,,,,,,0.5165270419936006,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|filip hronek|1.5|no,NYR@VAN,,,,,,,0.5516087808620398,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|filip hronek|1.5|yes,NYR@VAN,,,,,,,0.44839121913796026,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|yes,NYR@VAN,,,,,,,0.5189908730106139,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|no,NYR@VAN,,,,,,,0.48100912698938614,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|adam fox|1.5|no,NYR@VAN,,,,,,,0.4665480264556696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|jake debrusk|0.5|yes,NYR@VAN,,,,,,,0.476531314912484,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|filip hronek|0.5|yes,NYR@VAN,,,,,,,0.48347295800639944,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|adam fox|1.5|yes,NYR@VAN,,,,,,,0.5334519735443304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|gabe perreault|0.5|no,NYR@VAN,,,,,,,0.49103764278916706,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|jake debrusk|0.5|no,NYR@VAN,,,,,,,0.523468685087516,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|gabe perreault|0.5|yes,NYR@VAN,,,,,,,0.5089623572108329,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|filip hronek|0.5|no,NYR@VAN,,,0.49,0.51,0.5,candle,0.5165270419936006,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|tye kartye|0.5|no,NYR@VAN,,,0.5,0.52,0.51,candle,0.49103764278916706,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|total||6.5|no,NYR@VAN,,,0.52,0.53,0.525,candle,0.5178494476163014,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|jake debrusk|0.5|no,NYR@VAN,,,0.52,0.53,0.525,candle,0.523468685087516,pinnacle,15.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|gabe perreault|0.5|yes,NYR@VAN,,,0.51,0.53,0.52,candle,0.5089623572108329,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|brock boeser|0.5|yes,NYR@VAN,,,0.55,0.56,0.555,candle,0.5485527484030502,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|jonathan lekkerimaki|0.5|no,NYR@VAN,,,0.53,0.55,0.54,candle,0.5179338133451603,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|tye kartye|0.5|no,NYR@VAN,,,,,,,0.49103764278916706,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|no,NYR@VAN,,,,,,,0.48100912698938614,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|yes,NYR@VAN,,,,,,,0.5189908730106139,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_points|jake debrusk|0.5|yes,NYR@VAN,,,,,,,0.476531314912484,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_sog|adam fox|1.5|no,NYR@VAN,,,,,,,0.4665480264556696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_sog|adam fox|1.5|yes,NYR@VAN,,,,,,,0.5334519735443304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_sog|oliver bjorkstrand|1.5|no,NYR@VAN,,,,,,,0.5361308461255265,consensus,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_points|gabe perreault|0.5|yes,NYR@VAN,,,,,,,0.5089623572108329,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_sog|oliver bjorkstrand|1.5|yes,NYR@VAN,,,,,,,0.46386915387447347,consensus,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_points|jake debrusk|0.5|no,NYR@VAN,,,,,,,0.523468685087516,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_points|filip hronek|0.5|yes,NYR@VAN,,,,,,,0.48347295800639944,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_points|gabe perreault|0.5|no,NYR@VAN,,,,,,,0.49103764278916706,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_points|filip hronek|0.5|no,NYR@VAN,,,,,,,0.5165270419936006,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_points|tye kartye|0.5|yes,NYR@VAN,,,,,,,0.5089623572108329,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+prizepicks|NYR@VAN|player_points|tye kartye|0.5|no,NYR@VAN,,,,,,,0.49103764278916706,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|p1_total||1.5|yes,NYR@VAN,,,0.57,0.59,0.58,candle,0.5813175435836195,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|spread|NYR|1.5|no,NYR@VAN,,,0.55,0.56,0.555,candle,0.5507671919715269,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|brock boeser|1.5|yes,NYR@VAN,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|elias pettersson|1.5|no,NYR@VAN,,,,,,,0.5485527484030501,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|oliver bjorkstrand|1.5|no,NYR@VAN,,,,,,,0.5361308461255265,consensus,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|will cuylle|0.5|no,NYR@VAN,,,0.57,0.59,0.58,candle,0.5851065195077072,pinnacle,8.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|pavel dorofeyev|2.5|yes,NYR@VAN,,,,,,,0.6109147511387446,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|jonathan lekkerimaki|0.5|no,NYR@VAN,,,,,,,0.5179338133451603,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|alexis lafreniere|0.5|yes,NYR@VAN,,,0.58,0.61,0.595,candle,0.5954775535118485,pinnacle,1.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|oliver bjorkstrand|0.5|no,NYR@VAN,,,0.59,0.62,0.605,candle,0.618229093567938,consensus,1.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|pavel dorofeyev|0.5|yes,NYR@VAN,,,0.58,0.6,0.59,candle,0.583305061424049,pinnacle,3.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|alexis lafreniere|0.5|yes,NYR@VAN,,,,,,,0.5954775535118485,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|pavel dorofeyev|0.5|yes,NYR@VAN,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|filip chytil|1.5|yes,NYR@VAN,,,,,,,0.6010020367848714,consensus,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|will cuylle|0.5|no,NYR@VAN,,,,,,,0.5851065195077072,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|j t miller|0.5|yes,NYR@VAN,,,0.59,0.62,0.605,candle,0.5921529105252641,pinnacle,7.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|jake debrusk|2.5|no,NYR@VAN,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|j t miller|1.5|yes,NYR@VAN,,,,,,,0.576946832899774,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|will cuylle|1.5|yes,NYR@VAN,,,,,,,0.5912279386049696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|elias pettersson|0.5|yes,NYR@VAN,,,,,,,0.5921529105252641,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|j t miller|0.5|yes,NYR@VAN,,,,,,,0.5921529105252641,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|oliver bjorkstrand|0.5|no,NYR@VAN,,,,,,,0.618229093567938,consensus,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|tye kartye|2.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,,,,,0.6572105661466985,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|gabe perreault|1.5|yes,NYR@VAN,,,,,,,0.5464208361470752,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|ml|NYR|nan|yes,NYR@VAN,,,0.65,0.66,0.655,candle,0.6660110150552075,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|mika zibanejad|0.5|yes,NYR@VAN,,,0.65,0.67,0.66,candle,0.6632189307421554,pinnacle,5.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|mika zibanejad|1.5|yes,NYR@VAN,,,,,,,0.6330469057696423,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_sog|alexis lafreniere|2.5|no,NYR@VAN,,,,,,,0.6132261627499951,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|filip chytil|0.5|no,NYR@VAN,,,,,,,0.6218549101968525,consensus,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|ml|VAN|nan|no,NYR@VAN,,,0.64,0.65,0.645,candle,0.6660110150552074,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|vladislav gavrikov|0.5|no,NYR@VAN,,,0.66,0.67,0.665,candle,0.6934190352105651,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|adam fox|0.5|yes,NYR@VAN,,,0.67,0.68,0.675,candle,0.6919351740077884,pinnacle,9.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|adam fox|1.5|no,NYR@VAN,,,0.66,0.7,0.6799999999999999,candle,0.686377875193017,consensus,0.0,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|noah laba|0.5|no,NYR@VAN,,,0.66,0.71,0.685,candle,0.681358172752843,consensus,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|mika zibanejad|0.5|yes,NYR@VAN,,,,,,,0.6632189307421554,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|adam fox|1.5|no,NYR@VAN,,,,,,,0.686377875193017,consensus,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|noah laba|0.5|no,NYR@VAN,,,,,,,0.681358172752843,consensus,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|player_points|zeev buium|0.5|no,NYR@VAN,,,0.7,0.72,0.71,candle,0.735667227714019,pinnacle,0.0,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|vladislav gavrikov|0.5|no,NYR@VAN,,,,,,,0.6934190352105651,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+underdog|NYR@VAN|player_points|zeev buium|0.5|no,NYR@VAN,,,,,,,0.735667227714019,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+kalshi|NYR@VAN|spread|VAN|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,0.82,0.83,0.825,candle,,,0.0,none,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|pavel dorofeyev|2.5|yes,NYR@VAN,,,,,,,0.6109147511387446,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|tye kartye|2.5|yes,NYR@VAN,,,,,,,0.34278943385330146,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|adam fox|1.5|yes,NYR@VAN,,,,,,,0.5334519735443304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|j t miller|1.5|no,NYR@VAN,,,,,,,0.423053167100226,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|j t miller|1.5|yes,NYR@VAN,,,,,,,0.576946832899774,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|adam fox|1.5|no,NYR@VAN,,,,,,,0.4665480264556696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|tye kartye|2.5|no,NYR@VAN,,,,,,,0.6572105661466985,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|brock boeser|1.5|no,NYR@VAN,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|brock boeser|1.5|yes,NYR@VAN,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|mika zibanejad|1.5|no,NYR@VAN,,,,,,,0.3669530942303577,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|mika zibanejad|1.5|yes,NYR@VAN,,,,,,,0.6330469057696423,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|no,NYR@VAN,,,,,,,0.48100912698938614,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|yes,NYR@VAN,,,,,,,0.5189908730106139,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|will cuylle|1.5|no,NYR@VAN,,,,,,,0.4087720613950304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|will cuylle|1.5|yes,NYR@VAN,,,,,,,0.5912279386049696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|alexis lafreniere|2.5|no,NYR@VAN,,,,,,,0.6132261627499951,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|alexis lafreniere|2.5|yes,NYR@VAN,,,,,,,0.38677383725000497,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|jake debrusk|2.5|no,NYR@VAN,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|jake debrusk|2.5|yes,NYR@VAN,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|alexis lafreniere|2.5|no,NYR@VAN,,,,,,,0.6132261627499951,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|alexis lafreniere|2.5|yes,NYR@VAN,,,,,,,0.38677383725000497,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|pavel dorofeyev|2.5|no,NYR@VAN,,,,,,,0.3890852488612554,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|pavel dorofeyev|2.5|yes,NYR@VAN,,,,,,,0.6109147511387446,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|adam fox|1.5|no,NYR@VAN,,,,,,,0.4665480264556696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|adam fox|1.5|yes,NYR@VAN,,,,,,,0.5334519735443304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|j t miller|1.5|no,NYR@VAN,,,,,,,0.423053167100226,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|j t miller|1.5|yes,NYR@VAN,,,,,,,0.576946832899774,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|gabe perreault|1.5|no,NYR@VAN,,,,,,,0.45357916385292485,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|gabe perreault|1.5|yes,NYR@VAN,,,,,,,0.5464208361470752,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|pavel dorofeyev|2.5|no,NYR@VAN,,,,,,,0.3890852488612554,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|pavel dorofeyev|2.5|yes,NYR@VAN,,,,,,,0.6109147511387446,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|gabe perreault|1.5|yes,NYR@VAN,,,,,,,0.5464208361470752,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|gabe perreault|1.5|no,NYR@VAN,,,,,,,0.45357916385292485,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|filip hronek|1.5|no,NYR@VAN,,,,,,,0.5516087808620398,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|filip hronek|1.5|yes,NYR@VAN,,,,,,,0.44839121913796026,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|elias pettersson|1.5|no,NYR@VAN,,,,,,,0.5485527484030501,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+espnbet|NYR@VAN|player_sog|elias pettersson|1.5|yes,NYR@VAN,,,,,,,0.4514472515969499,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|no,NYR@VAN,,,,,,,0.48100912698938614,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|yes,NYR@VAN,,,,,,,0.5189908730106139,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|will cuylle|1.5|yes,NYR@VAN,,,,,,,0.5912279386049696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|pavel dorofeyev|2.5|no,NYR@VAN,,,,,,,0.3890852488612554,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|pavel dorofeyev|2.5|yes,NYR@VAN,,,,,,,0.6109147511387446,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|gabe perreault|1.5|no,NYR@VAN,,,,,,,0.45357916385292485,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|gabe perreault|1.5|yes,NYR@VAN,,,,,,,0.5464208361470752,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|adam fox|1.5|no,NYR@VAN,,,,,,,0.4665480264556696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|adam fox|1.5|yes,NYR@VAN,,,,,,,0.5334519735443304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|j t miller|1.5|no,NYR@VAN,,,,,,,0.423053167100226,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|j t miller|1.5|yes,NYR@VAN,,,,,,,0.576946832899774,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|will cuylle|1.5|no,NYR@VAN,,,,,,,0.4087720613950304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|yes,NYR@VAN,,,,,,,0.5189908730106139,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|no,NYR@VAN,,,,,,,0.48100912698938614,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|jake debrusk|2.5|yes,NYR@VAN,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|brock boeser|1.5|no,NYR@VAN,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|brock boeser|1.5|yes,NYR@VAN,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|elias pettersson|1.5|no,NYR@VAN,2026-11-13T20:52:07-05:00,7.9,,,,,0.5485527484030501,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|elias pettersson|1.5|yes,NYR@VAN,,,,,,,0.4514472515969499,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|jake debrusk|2.5|no,NYR@VAN,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|yes,NYR@VAN,,,,,,,0.5189908730106139,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|adam fox|1.5|no,NYR@VAN,,,,,,,0.4665480264556696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|adam fox|1.5|yes,NYR@VAN,,,,,,,0.5334519735443304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|brock boeser|1.5|no,NYR@VAN,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|brock boeser|1.5|yes,NYR@VAN,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|j t miller|1.5|no,NYR@VAN,,,,,,,0.423053167100226,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|j t miller|1.5|yes,NYR@VAN,,,,,,,0.576946832899774,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|gabe perreault|1.5|no,NYR@VAN,,,,,,,0.45357916385292485,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|no,NYR@VAN,,,,,,,0.48100912698938614,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|gabe perreault|1.5|yes,NYR@VAN,,,,,,,0.5464208361470752,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|will cuylle|1.5|yes,NYR@VAN,,,,,,,0.5912279386049696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|mika zibanejad|1.5|no,NYR@VAN,,,,,,,0.3669530942303577,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|mika zibanejad|1.5|yes,NYR@VAN,,,,,,,0.6330469057696423,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|alexis lafreniere|2.5|no,NYR@VAN,,,,,,,0.6132261627499951,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|alexis lafreniere|2.5|yes,NYR@VAN,,,,,,,0.38677383725000497,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|jake debrusk|2.5|no,NYR@VAN,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|jake debrusk|2.5|yes,NYR@VAN,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|pavel dorofeyev|2.5|no,NYR@VAN,,,,,,,0.3890852488612554,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|will cuylle|1.5|no,NYR@VAN,,,,,,,0.4087720613950304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|filip hronek|1.5|yes,NYR@VAN,,,,,,,0.44839121913796026,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|filip hronek|1.5|no,NYR@VAN,,,,,,,0.5516087808620398,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|elias pettersson|1.5|no,NYR@VAN,,,,,,,0.5485527484030501,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|elias pettersson|1.5|yes,NYR@VAN,,,,,,,0.4514472515969499,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|jake debrusk|2.5|no,NYR@VAN,,,,,,,0.583305061424049,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|jake debrusk|2.5|yes,NYR@VAN,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|brock boeser|1.5|no,NYR@VAN,,,,,,,0.4493361435062362,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|brock boeser|1.5|yes,NYR@VAN,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|tye kartye|2.5|yes,NYR@VAN,,,,,,,0.34278943385330146,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|mika zibanejad|1.5|yes,NYR@VAN,,,,,,,0.6330469057696423,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betmgm|NYR@VAN|player_sog|alexis lafreniere|2.5|yes,NYR@VAN,,,,,,,0.38677383725000497,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|jonathan lekkerimaki|1.5|yes,NYR@VAN,,,,,,,0.5189908730106139,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|j t miller|1.5|yes,NYR@VAN,,,,,,,0.576946832899774,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|pavel dorofeyev|2.5|yes,NYR@VAN,,,,,,,0.6109147511387446,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|adam fox|1.5|yes,NYR@VAN,,,,,,,0.5334519735443304,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|alexis lafreniere|2.5|yes,NYR@VAN,,,,,,,0.38677383725000497,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|filip hronek|1.5|yes,NYR@VAN,,,,,,,0.44839121913796026,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|will cuylle|1.5|yes,NYR@VAN,,,,,,,0.5912279386049696,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|elias pettersson|1.5|yes,NYR@VAN,,,,,,,0.4514472515969499,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+draftkings|NYR@VAN|player_sog|tye kartye|2.5|yes,NYR@VAN,,,,,,,0.34278943385330146,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|brock boeser|1.5|yes,NYR@VAN,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|gabe perreault|1.5|yes,NYR@VAN,,,,,,,0.5464208361470752,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+betrivers|NYR@VAN|player_sog|jake debrusk|2.5|yes,NYR@VAN,,,,,,,0.41669493857595097,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|mika zibanejad|1.5|yes,NYR@VAN,,,,,,,0.6330469057696423,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|filip hronek|1.5|yes,NYR@VAN,,,,,,,0.44839121913796026,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
+fanduel|NYR@VAN|player_sog|elias pettersson|1.5|yes,NYR@VAN,,,,,,,0.4514472515969499,pinnacle,,archive,2026-11-14T01:55:36Z,4.4
