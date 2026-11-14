@@ -1,0 +1,5 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|SEA@CAR|player_points|logan stankoven|0.5|no,SEA@CAR,2026-11-14T12:50:00-05:00,10.0,0.43,0.44,0.435,live,0.4472455217130181,pinnacle
+kalshi|SEA@CAR|player_goals|mackie samoskevich|0.5|no,SEA@CAR,2026-11-14T12:50:00-05:00,10.0,0.83,0.84,0.835,live,,
+betmgm|SEA@CAR|player_sog|nikolaj ehlers|2.5|yes,SEA@CAR,2026-11-14T12:50:00-05:00,10.0,,,,,0.4724269137319091,pinnacle
+draftkings|SEA@CAR|player_sog|kaapo kakko|1.5|no,SEA@CAR,2026-11-14T12:50:00-05:00,10.0,,,,,0.6661473075298531,pinnacle
