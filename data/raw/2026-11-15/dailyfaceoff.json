@@ -15,20 +15,6 @@
  },
  {
   "side": "home",
-  "team_name": "Anaheim Ducks",
-  "goalie": "Ville Husso",
-  "status": "Unconfirmed",
-  "updated": "2026-11-15"
- },
- {
-  "side": "away",
-  "team_name": "Calgary Flames",
-  "goalie": "Devin Cooley",
-  "status": "Unconfirmed",
-  "updated": "2026-11-15"
- },
- {
-  "side": "home",
   "team_name": "Dallas Stars",
   "goalie": "Casey DeSmith",
   "status": "Unconfirmed",
@@ -38,6 +24,20 @@
   "side": "away",
   "team_name": "Florida Panthers",
   "goalie": "Akira Schmid",
+  "status": "Unconfirmed",
+  "updated": "2026-11-15"
+ },
+ {
+  "side": "home",
+  "team_name": "Anaheim Ducks",
+  "goalie": "Ville Husso",
+  "status": "Unconfirmed",
+  "updated": "2026-11-15"
+ },
+ {
+  "side": "away",
+  "team_name": "Calgary Flames",
+  "goalie": "Devin Cooley",
   "status": "Unconfirmed",
   "updated": "2026-11-15"
  },
