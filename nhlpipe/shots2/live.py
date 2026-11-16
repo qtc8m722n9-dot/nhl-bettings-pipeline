@@ -166,6 +166,13 @@ def picks(day: date, slate: pd.DataFrame, odds: pd.DataFrame, refresh_data: bool
     s["mu"] = fr.mean(s)
     s["key"] = s["skaterFullName"].map(norm)
     s["game_key"] = s["opp"].where(s["home"] == 1, s["teamAbbrev"]) + "@" + s["teamAbbrev"].where(s["home"] == 1, s["opp"])
+    # Two skaters with the same name in one game (VAN's Elias Petterssons; CAR/NYI Sebastian Aho):
+    # a prop offer can't say which one it is, and the merge below would pair it with BOTH
+    # projections and then keep whichever gives the bigger edge. Skip them (fix 2026-11-16).
+    dup = s.duplicated(["game_key", "key"], keep=False)
+    if dup.any():
+        print(f"shots v2: skipping same-name skaters {sorted(set(s.loc[dup, 'skaterFullName']))}")
+        s = s[~dup]
 
     o = o.merge(s[["game_key", "key", "mu", "teamAbbrev"]], on=["game_key", "key"], how="inner")
     o = o.merge(pinnacle_fair(o), on=["game_key", "key", "point"], how="left")
