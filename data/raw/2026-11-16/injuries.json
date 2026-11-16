@@ -123,9 +123,9 @@
   "team_name": "Columbus Blue Jackets",
   "player": "Sean Monahan",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-15T14:13Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-16T17:42Z"
  },
  {
   "team_name": "Dallas Stars",
@@ -166,6 +166,14 @@
   "status": "Injured Reserve",
   "detail": "Back was placed on long-term injured reserve on Saturday.",
   "date": "2026-10-24T18:32Z"
+ },
+ {
+  "team_name": "Dallas Stars",
+  "player": "Matt Duchene",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+  "date": "2026-10-12T16:46Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -289,6 +297,14 @@
  },
  {
   "team_name": "Minnesota Wild",
+  "player": "Olli Maatta",
+  "position": "D",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-16T17:52Z"
+ },
+ {
+  "team_name": "Minnesota Wild",
   "player": "Filip Gustavsson",
   "position": "G",
   "status": "Injured Reserve",
@@ -401,6 +417,14 @@
  },
  {
   "team_name": "New York Islanders",
+  "player": "Logan Stanley",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "Stanley (lower body) is considered day-to-day ahead of Tuesday's clash with the Blue Jackets, Andrew Gross of Newsday reports.",
+  "date": "2026-11-16T17:00Z"
+ },
+ {
+  "team_name": "New York Islanders",
   "player": "Jean-Gabriel Pageau",
   "position": "C",
   "status": "Day-To-Day",
@@ -414,14 +438,6 @@
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-15T06:01Z"
- },
- {
-  "team_name": "New York Islanders",
-  "player": "Logan Stanley",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "Stanley (lower body) won't return to Saturday's game versus the Ducks.",
-  "date": "2026-11-15T05:17Z"
  },
  {
   "team_name": "New York Islanders",
@@ -491,9 +507,17 @@
   "team_name": "Ottawa Senators",
   "player": "Hayden Hodgson",
   "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "Hodgson sustained a groin injury versus the Penguins on Saturday, Bruce Garrioch of Postmedia reports.",
-  "date": "2026-11-15T03:25Z"
+  "status": "Out",
+  "detail": "Hodgson (groin) isn't expected to play against Winnipeg on Tuesday, per TSN 1200 Ottawa.",
+  "date": "2026-11-16T16:55Z"
+ },
+ {
+  "team_name": "Ottawa Senators",
+  "player": "Warren Foegele",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Head coach Travis Green said Monday that Foegele (knee) hasn't yet resumed skating, Bruce Garrioch of Postmedia reports.",
+  "date": "2026-11-16T16:53Z"
  },
  {
   "team_name": "Ottawa Senators",
@@ -510,14 +534,6 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-10-31T21:35Z"
- },
- {
-  "team_name": "Ottawa Senators",
-  "player": "Warren Foegele",
-  "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "Foegele (knee) will miss 3-4 weeks, Jackson Starr of the Senators' official site reports Saturday.",
-  "date": "2026-10-31T18:30Z"
  },
  {
   "team_name": "Ottawa Senators",
