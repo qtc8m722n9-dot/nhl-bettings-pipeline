@@ -1,0 +1,10 @@
+cand_id,game_key,captured_et,min_before_start,close_fair,close_fair_source,close_bid,close_ask,close_mid,kalshi_close_source
+underdog|CGY@ANA|player_sog|leo carlsson|2.5|yes,CGY@ANA,2026-11-15T19:50:22-05:00,9.6,0.4493361435062362,pinnacle,,,,
+underdog|FLA@DAL|player_sog|wyatt johnston|2.5|no,FLA@DAL,2026-11-15T19:50:22-05:00,9.6,0.5089623572108327,pinnacle,,,,
+underdog|FLA@DAL|player_sog|arttu hyry|1.5|yes,FLA@DAL,2026-11-15T19:50:22-05:00,9.6,0.5490156993191739,consensus,,,,
+kalshi|FLA@DAL|player_points|carter verhaeghe|1.5|no,FLA@DAL,2026-11-15T19:50:22-05:00,9.6,,,0.84,0.85,0.845,live
+kalshi|CGY@ANA|player_goals|mikael backlund|0.5|no,CGY@ANA,2026-11-15T19:50:22-05:00,9.6,,,0.82,0.84,0.83,live
+fanduel|FLA@DAL|player_sog|thomas harley|2.5|no,FLA@DAL,2026-11-15T19:50:22-05:00,9.6,0.6077316949073719,pinnacle,,,,
+draftkings|FLA@DAL|player_sog|jamie benn|1.5|no,FLA@DAL,2026-11-15T19:50:22-05:00,9.6,0.5788035910743503,pinnacle,,,,
+espnbet|CGY@ANA|player_sog|beckett sennecke|2.5|no,CGY@ANA,2026-11-15T19:50:22-05:00,9.6,0.44630677582075406,pinnacle,,,,
+draftkings|CGY@ANA|player_sog|matvei gridin|2.5|no,CGY@ANA,2026-11-15T19:50:22-05:00,9.6,0.6013068541524187,pinnacle,,,,
