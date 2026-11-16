@@ -1,0 +1,24 @@
+[
+ {
+  "game_id": 2026020331,
+  "start_utc": "2026-11-17T00:30:00Z",
+  "game_state": "FUT",
+  "home": "NYR",
+  "away": "MTL",
+  "home_name": "New York Rangers",
+  "away_name": "Montr\u00e9al Canadiens",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020332,
+  "start_utc": "2026-11-17T02:30:00Z",
+  "game_state": "FUT",
+  "home": "UTA",
+  "away": "VAN",
+  "home_name": "Utah Mammoth",
+  "away_name": "Vancouver Canucks",
+  "home_b2b": false,
+  "away_b2b": true
+ }
+]

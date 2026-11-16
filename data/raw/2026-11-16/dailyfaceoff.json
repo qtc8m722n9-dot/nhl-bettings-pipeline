@@ -1,0 +1,30 @@
+[
+ {
+  "side": "home",
+  "team_name": "New York Rangers",
+  "goalie": "Joonas Korpisalo",
+  "status": "Confirmed",
+  "updated": "2026-11-16T15:49:57.406Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Montreal Canadiens",
+  "goalie": "Jacob Fowler",
+  "status": "Unconfirmed",
+  "updated": "2026-11-16"
+ },
+ {
+  "side": "home",
+  "team_name": "Utah Mammoth",
+  "goalie": "Sebastian Cossa",
+  "status": "Unconfirmed",
+  "updated": "2026-11-16"
+ },
+ {
+  "side": "away",
+  "team_name": "Vancouver Canucks",
+  "goalie": "Nikita Tolopilo",
+  "status": "Unconfirmed",
+  "updated": "2026-11-16"
+ }
+]
