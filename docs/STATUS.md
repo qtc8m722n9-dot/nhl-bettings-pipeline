@@ -1,6 +1,6 @@
 # Status and next steps (read this first in a new session)
 
-Last updated: 2026-11-09. Paper bets only. Owner: Evan (Montreal, Quebec).
+Last updated: 2026-11-16. Paper bets only. Owner: Evan (Montreal, Quebec).
 
 ## What runs by itself (GitHub Actions)
 | Workflow | When (ET) | Does |
@@ -37,6 +37,12 @@ Last updated: 2026-11-09. Paper bets only. Owner: Evan (Montreal, Quebec).
 - Bug: PrizePicks goblins priced as standard picks (above). All graded slates + shadow board regraded.
 - Bug: 'Yegor' vs NHL 'Egor' Chinakhov not matched (first-name variants in `names.first_key`).
 - Bug: two skaters with the same name in one game (VAN's Elias Petterssons; CAR/NYI Sebastian Aho) overwrote each other in `results`; now keyed by sweater number, bare-name bets on them graded 'error' (ambiguous). Results for 10-31, 11-03, 11-05, 11-07 refetched.
+
+## Weekly flaw review 2026-11-16
+- Bug: M6 paired a prop on a same-name skater (VAN's Elias Petterssons) with BOTH projections and kept the bigger edge (the 11-13 "Pettersson Under 1.5", edge 11.8%). `shots2/live.picks` now skips same-name skaters in a game; replaying 11-13 removes only that pick.
+- No other grading/pricing bugs found. Live M6 projections are identical to a full-history rebuild (max diff 0.4%), so no live leak or pipeline drift. H1 control (home teams 39% vs 54% fair) checked against box scores: real (away teams went 12-2 on 11-14).
+- Finding: for every method, closing drift (close minus pick-time fair) is ~0, so CLV = pick-time fair minus price paid: it measures price shopping, not the model. For SOG props the Pinnacle close is no sharper than the pick-time price (live LL 0.6863 vs 0.6860; backtest 0.6823 vs 0.6820), so CLV can't judge M6.
+- Finding: on 1,168 live Pinnacle SOG lines (11-03..11-15) the M6 blend is slightly worse than Pinnacle (LL 0.6874 vs 0.6860); raw model worse on 11 of 13 days; outcome slope on (blend - Pinnacle) 0.05 (95% -0.45, 0.69; 1.0 = blend right). Model under-projects shots for lined players (2.18 vs 2.27). Backtest Oct 2025 was also the model's weakest month. Proposed (not adopted): judge M6 on blend-vs-Pinnacle log loss on the shadow board, not CLV.
 
 ## Next steps (in order)
 1. Let the shadow board accumulate (every priced line graded nightly from 2026-11-04).
