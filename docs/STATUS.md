@@ -50,6 +50,12 @@ Last updated: 2026-11-17. Paper bets only. Owner: Evan (Montreal, Quebec).
 - Held up out of sample: the shots model's disagreement with Pinnacle (trend z +3.6 discovery, +5.2 holdout) but only from December on (Oct/Nov z 0.7/1.5; live Nov 0.2). M6's flat November fits this.
 - Consistent but too small to beat the margin: defencemen points Over 0.5 hit 2.6-4.7 pts above Pinnacle in all three samples; best US book still -2% ROI. Candidate for Kalshi resting (maker) orders.
 
+## Hypotheses H2-H5 (pre-registered 2026-11-17, `docs/hypotheses_2026-11-17.md`; results `data/patterns/hypotheses_h2_h5.md`)
+- H2 rink scorer effect on SOG props: does not pass (holdout z 0.01); rink-adjusting M6 doesn't help. Factors range ~0.94 (CHI) to ~1.05 (COL).
+- H3 morning line promotions: DailyFaceoff line combos now saved every pull (`nhlpipe/lines.py` -> `data/raw/<date>/df_lines.csv`, verified 32 teams 2026-11-17). First look at 150 promoted lines.
+- H4 fav -1.5 + over: does not pass (holdout +0.9 pts, p 0.32). Lead only (not pre-registered): strong favourites (60%+) +2.7 to +4.0 pts. Kalshi pair costs ~1.6 pts above fair -> -9% ROI.
+- H5 Kalshi popular-team premium (interim, 38 markets): none; Kalshi mid sits within ~0.1 pt of Pinnacle for every team. The cost of Kalshi is the ~2 pt spread + fee, not bias.
+
 ## Next steps (in order)
 1. Let the shadow board accumulate (every priced line graded nightly from 2026-11-04).
 2. Build the combined model: inputs = fair price, M3 raw/blend, M6 mu/probability, sog_prob, backup-goalie flag, venue, market, line moves; train on shadow board + 2025-26 backtest tables (`data/shots2/lines.csv`, `data/backtest/m3eng/blend_rows.csv`); judge strictly out of sample vs the strongest single method on CLV and log loss. Add Bullseye inputs (prob, a_b2b, ev_xgd, fin; rebuildable from cached data via `bullseye_bt`). Away-b2b hypothesis H1 pre-registered 2026-11-05 (Evan approved; spec in `nhlpipe/hypotheses.py`, graded nightly into `data/hypotheses.md`, games from the 2026-11-05 slate on). 2026-12-31 is an interim look; a verdict needs ~400 games. Review 2026-12-31.
