@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
-from . import goalies, injuries, moneypuck, nhl_api
+from . import goalies, injuries, lines, moneypuck, nhl_api
 from .names import norm
 
 ET = ZoneInfo("America/New_York")
@@ -47,6 +47,14 @@ def run(day: date) -> pd.DataFrame:
     mp_s = _try(status, "moneypuck_skaters", lambda: moneypuck.skaters(day))
     df_res = _try(status, "dailyfaceoff_goalies", lambda: goalies.starters(day))
     inj = _try(status, "espn_injuries", injuries.injuries) or []
+    df_lines = _try(status, "dailyfaceoff_lines", lines.all_lines)  # H3 (docs/hypotheses_2026-11-17.md)
+    if df_lines:
+        ln, failed = df_lines
+        if len(ln):
+            ln.to_csv(raw / "df_lines.csv", index=False)
+        if failed:
+            (raw / "df_lines_failed.json").write_text(json.dumps(failed)[:2_000_000])
+        status["dailyfaceoff_lines"] = f"ok: {ln['team'].nunique() if len(ln) else 0} teams, {len(ln)} slots, {len(failed)} failed"
 
     # --- raw snapshots -------------------------------------------------------
     (raw / "schedule.json").write_text(json.dumps(games, indent=1))
