@@ -1,6 +1,6 @@
 # Status and next steps (read this first in a new session)
 
-Last updated: 2026-11-16. Paper bets only. Owner: Evan (Montreal, Quebec).
+Last updated: 2026-11-17. Paper bets only. Owner: Evan (Montreal, Quebec).
 
 ## What runs by itself (GitHub Actions)
 | Workflow | When (ET) | Does |
@@ -43,6 +43,12 @@ Last updated: 2026-11-16. Paper bets only. Owner: Evan (Montreal, Quebec).
 - No other grading/pricing bugs found. Live M6 projections are identical to a full-history rebuild (max diff 0.4%), so no live leak or pipeline drift. H1 control (home teams 39% vs 54% fair) checked against box scores: real (away teams went 12-2 on 11-14).
 - Finding: for every method, closing drift (close minus pick-time fair) is ~0, so CLV = pick-time fair minus price paid: it measures price shopping, not the model. For SOG props the Pinnacle close is no sharper than the pick-time price (live LL 0.6863 vs 0.6860; backtest 0.6823 vs 0.6820), so CLV can't judge M6.
 - Finding: on 1,168 live Pinnacle SOG lines (11-03..11-15) the M6 blend is slightly worse than Pinnacle (LL 0.6874 vs 0.6860); raw model worse on 11 of 13 days; outcome slope on (blend - Pinnacle) 0.05 (95% -0.45, 0.69; 1.0 = blend right). Model under-projects shots for lined players (2.18 vs 2.27). Backtest Oct 2025 was also the model's weakest month. Proposed (not adopted): judge M6 on blend-vs-Pinnacle log loss on the shadow board, not CLV.
+
+## Pattern scan 2026-11-17 (`nhlpipe/patterns/`, report `data/patterns/report.md`)
+- Observed vs expected (Pinnacle no-vig at pick time) on 1,326 games, 17k SOG lines, 20k points lines; discovery Oct-Jan 2025-26, untouched holdout Feb-Apr 2026, live 2026-27. 712 discovery tests, 0 survive BH (q 0.10); z-scores look like noise overall (KS p 0.84). No API credits used; leak spot checks passed.
+- Evan's under rule (both D top third + both goalies GSAx >= 0, pre-specified): 67 games 2025-26, under 50.7% vs 50.1% priced, close didn't move -> no edge. Game totals: nothing.
+- Held up out of sample: the shots model's disagreement with Pinnacle (trend z +3.6 discovery, +5.2 holdout) but only from December on (Oct/Nov z 0.7/1.5; live Nov 0.2). M6's flat November fits this.
+- Consistent but too small to beat the margin: defencemen points Over 0.5 hit 2.6-4.7 pts above Pinnacle in all three samples; best US book still -2% ROI. Candidate for Kalshi resting (maker) orders.
 
 ## Next steps (in order)
 1. Let the shadow board accumulate (every priced line graded nightly from 2026-11-04).
