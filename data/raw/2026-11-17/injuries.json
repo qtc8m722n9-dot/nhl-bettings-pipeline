@@ -52,8 +52,8 @@
   "player": "Jonathan Huberdeau",
   "position": "LW",
   "status": "Injured Reserve",
-  "detail": "Huberdeau (hip) won't travel with the Flames during their upcoming three-game road trip, Pat Steinberg of QR Calgary 770 AM reports Friday.",
-  "date": "2026-11-13T17:38Z"
+  "detail": "Huberdeau (hip) was assigned to AHL Calgary on Tuesday on a conditioning loan.",
+  "date": "2026-11-17T17:10Z"
  },
  {
   "team_name": "Calgary Flames",
@@ -72,12 +72,20 @@
   "date": "2026-10-30T16:44Z"
  },
  {
+  "team_name": "Carolina Hurricanes",
+  "player": "Pyotr Kochetkov",
+  "position": "G",
+  "status": "Day-To-Day",
+  "detail": "Kochetkov (illness) did not practice on Tuesday, per Walt Ruff of the Hurricanes' official site.",
+  "date": "2026-11-17T17:31Z"
+ },
+ {
   "team_name": "Chicago Blackhawks",
   "player": "Bowen Byram",
   "position": "D",
   "status": "Injured Reserve",
-  "detail": "Byram (upper body) has been ruled out for Tuesday's game against the Maple Leafs, CHGO Blackhawks reports.",
-  "date": "2026-11-16T18:59Z"
+  "detail": "Byram (upper body) will not play in the Blackhawks' next two games, per CHGO Blackhawks.",
+  "date": "2026-11-17T15:51Z"
  },
  {
   "team_name": "Colorado Avalanche",
@@ -160,12 +168,12 @@
   "date": "2026-10-24T18:32Z"
  },
  {
-  "team_name": "Dallas Stars",
-  "player": "Matt Duchene",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
-  "date": "2026-10-12T16:46Z"
+  "team_name": "Detroit Red Wings",
+  "player": "William Wallinder",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "Wallinder (upper body) is day-to-day, per Ansar Khan of MLive.com on Tuesday.",
+  "date": "2026-11-17T17:40Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -195,9 +203,9 @@
   "team_name": "Edmonton Oilers",
   "player": "Ryan Nugent-Hopkins",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-16T14:05Z"
+  "status": "Out",
+  "detail": "Nugent-Hopkins (undisclosed) isn't expected to play against Florida on Tuesday, per Oilers play-by-play announcer Jack Michaels.",
+  "date": "2026-11-17T17:11Z"
  },
  {
   "team_name": "Edmonton Oilers",
@@ -262,14 +270,6 @@
   "status": "Out",
   "detail": "out",
   "date": "2026-11-16T20:36Z"
- },
- {
-  "team_name": "Los Angeles Kings",
-  "player": "Erik Gustafsson",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-15T14:13Z"
  },
  {
   "team_name": "Los Angeles Kings",
@@ -352,28 +352,20 @@
   "date": "2026-09-29T16:38Z"
  },
  {
-  "team_name": "Nashville Predators",
-  "player": "Jonathan Marchessault",
+  "team_name": "New Jersey Devils",
+  "player": "Anthony Mantha",
   "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-16T14:05Z"
+  "status": "Injured Reserve",
+  "detail": "Mantha (neck) is expected to miss about one month after undergoing surgery, per Kristy Flannery of The Hockey News.",
+  "date": "2026-11-17T18:07Z"
  },
  {
   "team_name": "New Jersey Devils",
-  "player": "Brett Pesce",
+  "player": "Johnathan Kovacevic",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-15T14:13Z"
- },
- {
-  "team_name": "New Jersey Devils",
-  "player": "Vladislav Kolyachonok",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-15T14:13Z"
+  "status": "Injured Reserve",
+  "detail": "Kovacevic (ankle) is expected to be sidelined for 4-6 weeks, per Kristy Flannery of The Hockey News.",
+  "date": "2026-11-17T17:39Z"
  },
  {
   "team_name": "New Jersey Devils",
@@ -384,20 +376,12 @@
   "date": "2026-11-13T23:49Z"
  },
  {
-  "team_name": "New Jersey Devils",
-  "player": "Johnathan Kovacevic",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "The Devils placed Kovacevic (ankle) on injured reserve Friday, retroactive to Nov. 10.",
-  "date": "2026-11-13T18:44Z"
- },
- {
-  "team_name": "New Jersey Devils",
-  "player": "Anthony Mantha",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "Mantha (throat) was placed on long-term injured reserve by the Devils on Wednesday, retroactive to Nov. 7.",
-  "date": "2026-11-11T22:42Z"
+  "team_name": "New York Islanders",
+  "player": "Jean-Gabriel Pageau",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "Pageau (lower body) will be a game-time decision ahead of Tuesday's matchup with Columbus, Stefen Rosner of NHL.com reports.",
+  "date": "2026-11-17T15:46Z"
  },
  {
   "team_name": "New York Islanders",
@@ -406,14 +390,6 @@
   "status": "Day-To-Day",
   "detail": "Stanley (lower body) is considered day-to-day ahead of Tuesday's clash with the Blue Jackets, Andrew Gross of Newsday reports.",
   "date": "2026-11-16T17:00Z"
- },
- {
-  "team_name": "New York Islanders",
-  "player": "Jean-Gabriel Pageau",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-15T14:13Z"
  },
  {
   "team_name": "New York Islanders",
@@ -526,14 +502,6 @@
   "status": "Injured Reserve",
   "detail": "Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday.",
   "date": "2026-10-15T15:24Z"
- },
- {
-  "team_name": "Philadelphia Flyers",
-  "player": "Denver Barkey",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-16T14:05Z"
  },
  {
   "team_name": "Philadelphia Flyers",
@@ -651,9 +619,9 @@
   "team_name": "St. Louis Blues",
   "player": "Ross Johnston",
   "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "Johnston didn't practice Monday due to personal reasons, and his status for Tuesday's game against the Ducks is uncertain, Lou Korac of NHL.com reports.",
-  "date": "2026-11-16T18:51Z"
+  "status": "Out",
+  "detail": "Johnston (upper body) won't play against Anaheim on Tuesday, Lou Korac of NHL.com reports.",
+  "date": "2026-11-17T17:49Z"
  },
  {
   "team_name": "St. Louis Blues",
@@ -699,22 +667,6 @@
   "team_name": "Tampa Bay Lightning",
   "player": "Anthony Cirelli",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-15T14:13Z"
- },
- {
-  "team_name": "Tampa Bay Lightning",
-  "player": "Brayden Point",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-10T15:30Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Morgan Rielly",
-  "position": "D",
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-15T14:13Z"
@@ -883,9 +835,9 @@
   "team_name": "Winnipeg Jets",
   "player": "Isak Rosen",
   "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-15T14:13Z"
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-17T15:15Z"
  },
  {
   "team_name": "Winnipeg Jets",

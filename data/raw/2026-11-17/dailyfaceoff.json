@@ -2,79 +2,79 @@
  {
   "side": "home",
   "team_name": "Boston Bruins",
-  "goalie": "Jeremy Swayman",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "goalie": "Michael DiPietro",
+  "status": "Confirmed",
+  "updated": "2026-11-17T16:18:46.777Z"
  },
  {
   "side": "away",
   "team_name": "Los Angeles Kings",
-  "goalie": "Anton Forsberg",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "goalie": "Darcy Kuemper",
+  "status": "Likely",
+  "updated": "2026-11-17T18:05:51.883Z"
  },
  {
   "side": "home",
   "team_name": "Philadelphia Flyers",
   "goalie": "Joseph Woll",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Confirmed",
+  "updated": "2026-11-17T16:03:19.468Z"
  },
  {
   "side": "away",
   "team_name": "Buffalo Sabres",
   "goalie": "Alex Lyon",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Likely",
+  "updated": "2026-11-17T16:32:28.890Z"
  },
  {
   "side": "home",
   "team_name": "New York Islanders",
   "goalie": "Ilya Sorokin",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Confirmed",
+  "updated": "2026-11-17T15:46:01.987Z"
  },
  {
   "side": "away",
   "team_name": "Columbus Blue Jackets",
   "goalie": "Cam Talbot",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Confirmed",
+  "updated": "2026-11-17T15:44:12.153Z"
  },
  {
   "side": "home",
   "team_name": "Florida Panthers",
   "goalie": "Jacob Markstrom",
-  "status": "Likely",
-  "updated": "2026-11-17T15:22:10.474Z"
+  "status": "Confirmed",
+  "updated": "2026-11-17T15:58:22.308Z"
  },
  {
   "side": "away",
   "team_name": "Edmonton Oilers",
   "goalie": "Devon Levi",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Confirmed",
+  "updated": "2026-11-17T16:33:09.327Z"
  },
  {
   "side": "home",
   "team_name": "Winnipeg Jets",
-  "goalie": "Nico Daws",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "goalie": "Stuart Skinner",
+  "status": "Confirmed",
+  "updated": "2026-11-17T15:45:09.902Z"
  },
  {
   "side": "away",
   "team_name": "Ottawa Senators",
   "goalie": "Linus Ullmark",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Confirmed",
+  "updated": "2026-11-17T16:40:38.051Z"
  },
  {
   "side": "home",
   "team_name": "Tampa Bay Lightning",
   "goalie": "Andrei Vasilevskiy",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Likely",
+  "updated": "2026-11-17T15:41:47.105Z"
  },
  {
   "side": "away",
@@ -87,22 +87,22 @@
   "side": "home",
   "team_name": "Chicago Blackhawks",
   "goalie": "Spencer Knight",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Confirmed",
+  "updated": "2026-11-17T17:33:39.774Z"
  },
  {
   "side": "away",
   "team_name": "Toronto Maple Leafs",
   "goalie": "Sergei Bobrovsky",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Confirmed",
+  "updated": "2026-11-17T17:14:10.242Z"
  },
  {
   "side": "home",
   "team_name": "Minnesota Wild",
   "goalie": "Jesper Wallstedt",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Confirmed",
+  "updated": "2026-11-17T16:01:13.252Z"
  },
  {
   "side": "away",
@@ -115,8 +115,8 @@
   "side": "home",
   "team_name": "St Louis Blues",
   "goalie": "Jordan Binnington",
-  "status": "Unconfirmed",
-  "updated": "2026-11-17"
+  "status": "Confirmed",
+  "updated": "2026-11-17T16:34:21.102Z"
  },
  {
   "side": "away",
