@@ -234,6 +234,9 @@ def main(argv: list[str]) -> None:
     elif task == "spot":
         from .audit_check import fetch_spot
         fetch_spot(*map(int, args))
+    elif task == "props2425":  # H10-H18: 2024-25 pick-time SOG props + game lines
+        from ..patterns import pull2425
+        pull2425.pull(*args)
     elif task in ("pull", "run", "report"):
         from . import pipeline
         getattr(pipeline, task)(*args)
