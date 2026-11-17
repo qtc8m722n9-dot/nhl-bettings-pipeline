@@ -51,3 +51,32 @@ Common rules (same as `nhlpipe/patterns/scan.py`):
 - Prediction: popular teams' YES trades above fair by more than other teams'.
 - Secondary: ROI of buying the popular team's NO side at the Kalshi ask (paper).
 - Interim look now (small sample); verdict once 300 popular-team markets are logged.
+
+# H7-H9 (registered 2026-11-17, later the same day, before any test below was run)
+
+Drawn from outside research (`reports/NHL market inefficiencies for props.md`) plus what the scan found. Same common
+rules and splits as above. Each has ONE primary metric; everything else is secondary.
+
+## H7 Trailing coach's goalie-pull aggressiveness -> favourite -1.5
+- Pull proxy for a team on date D = empty-net goals it conceded per regulation loss, previous season + current season
+  before D (NHL per-game skater stats `emptyNetGoals` of the opponent; regulation losses from MoneyPuck team logs),
+  shrunk with 20 losses at the league rate.
+- Population: games with a Pinnacle -1.5 price. The underdog's pull proxy is the feature.
+- Primary metric: trend of (favourite covered -1.5 - Pinnacle fair) on the underdog's pull proxy. Prediction: positive
+  (earlier pulls -> more empty-net goals -> more 2-goal wins than priced). Secondary: the over.
+- Passes if discovery z > 0 and holdout one-sided p < 0.05.
+
+## H8 Power-play role change -> player points and SOG overs
+- PP share = player PP time / team 5-on-4 + 5-on-3 time, per game. Shift = mean share over the player's last 3 games
+  minus his mean share over the 17 games before those (needs >= 8 of them). Only games before D.
+- Primary metric: trend of (points over hit - Pinnacle fair) on the shift. Prediction: positive (books price
+  season usage, not the new role). Secondary: the same for SOG overs; defencemen only.
+- Passes if discovery z > 0 and holdout one-sided p < 0.05.
+
+## H9 Shooting-luck regression in points props
+- Finishing luck = (season-to-date goals - season-to-date shots x expected shooting %) per game, where expected
+  shooting % = the player's previous-season shooting % shrunk to the position league rate with 223 shots
+  (half-signal point from the research). Only games before D.
+- Primary metric: trend of (points over hit - Pinnacle fair) on finishing luck. Prediction: negative (hot finishers'
+  points are overpriced).
+- Passes if discovery z < 0 and holdout one-sided p < 0.05 (in that direction).
