@@ -80,3 +80,32 @@ rules and splits as above. Each has ONE primary metric; everything else is secon
 - Primary metric: trend of (points over hit - Pinnacle fair) on finishing luck. Prediction: negative (hot finishers'
   points are overpriced).
 - Passes if discovery z < 0 and holdout one-sided p < 0.05 (in that direction).
+
+# H10-H18: shots model patterns and shot factors (registered 2026-11-17, before the 2024-25 data was pulled)
+
+Evan approved buying 2024-25 Pinnacle SOG props and game lines (pick time 13:50 ET) as a fresh, never-seen season.
+All tests are on Pinnacle SOG overs: residual = over hit - Pinnacle no-vig fair at pick time.
+
+Common rules
+- PRIMARY sample = 2024-25 (fresh). Supporting = 2025-26 and 2026-27 live (partly seen for H12-H13; reported, not used to decide).
+  H11 needs closing prices, which 2024-25 won't have: its primary sample is 2025-26 (this question was never looked at there).
+- Shots model for 2024-25 = the v2 GLM refit on 2022-23 + 2023-24 only (out of sample for 2024-25).
+  dm = logit(model P(over)) - logit(Pinnacle fair).
+- Multiple testing: Benjamini-Hochberg at q = 0.10 over the 9 primary p-values (one-sided, in the predicted direction).
+  A hypothesis passes if it survives BH AND 2025-26 has the same sign. Passing = worth a paper method, not proof.
+- Player features use only games before the pick date.
+
+| ID | Factor | Feature (primary) | Prediction |
+|---|---|---|---|
+| H10 | Model sharpens with games played | interaction dm x log(1 + player's games this season) in logistic y ~ offset(logit fair) + a + b1 dm + b2 dm x log(1+gp) | b2 > 0 |
+| H11 | Model beats quiet lines | interaction dm x quiet, quiet = Pinnacle fair moved < 0.5 pts pick -> close (2025-26) | interaction > 0 |
+| H12 | Tired opponent | opponent played yesterday (flag) | over residual > 0 |
+| H13 | Game script | player's team Pinnacle moneyline fair (trend) | negative (underdogs' players shoot more than priced) |
+| H14 | Returning from absence (early exit / limited minutes risk) | player missed his team's previous game (flag) | over residual < 0 |
+| H15 | Opponent shot blocking | opponent's blocked shots per game, season to date (prev season before 10 games) (trend) | negative |
+| H16 | Overtime chance | closeness = 1 - abs(2 x team win fair - 1), among players in the top third of projected EV ice time (trend) | positive |
+| H17 | Blowout benching | team win fair >= 0.67 AND top-third EV ice time (flag) | over residual < 0 |
+| H18 | Power-play opportunities | opponent penalties taken per game, among players in the top third of PP time (trend) | positive |
+
+Not testable yet: line changes / linemates (collecting since 2026-11-17); referee crews (no data); teammates out
+(already in the model as missing_toi; the scan found nothing).
