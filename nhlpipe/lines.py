@@ -60,8 +60,9 @@ def team_lines(team: str) -> tuple[list[dict], dict]:
     for k in ("updatedAt", "lastUpdated", "date"):
         c = pp.get("combinations", {}) if isinstance(pp.get("combinations"), dict) else {}
         updated = updated or c.get(k) or pp.get(k)
-    for r in rows:
-        r["page_updated"] = updated
+    keep = ("team", "playerId", "name", "jerseyNumber", "positionIdentifier", "groupIdentifier", "categoryIdentifier",
+            "injuryStatus", "gameTimeDecision")
+    rows = [{**{k: r.get(k) for k in keep}, "page_updated": updated} for r in rows]
     return rows, pp
 
 
