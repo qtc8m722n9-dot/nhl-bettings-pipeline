@@ -168,20 +168,28 @@
   "date": "2026-10-24T18:32Z"
  },
  {
-  "team_name": "Detroit Red Wings",
-  "player": "William Wallinder",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "Wallinder (upper body) is day-to-day, per Ansar Khan of MLive.com on Tuesday.",
-  "date": "2026-11-17T17:40Z"
+  "team_name": "Dallas Stars",
+  "player": "Matt Duchene",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+  "date": "2026-10-12T16:46Z"
  },
  {
   "team_name": "Detroit Red Wings",
   "player": "Albert Johansson",
   "position": "D",
   "status": "Injured Reserve",
-  "detail": "Johansson (undisclosed) will be with the Red Wings for their upcoming four-game road trip, Ansar Khan of MLive.com reports Friday.",
-  "date": "2026-11-06T17:30Z"
+  "detail": "Johansson (undisclosed) is expected to return to the lineup either Wednesday or Saturday, per Ansar Khan of MLive.com.",
+  "date": "2026-11-17T17:59Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
+  "player": "William Wallinder",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "Wallinder (upper body) is day-to-day, per Ansar Khan of MLive.com on Tuesday.",
+  "date": "2026-11-17T17:40Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -654,6 +662,14 @@
   "status": "Injured Reserve",
   "detail": "Tucker had arthroscopic knee surgery and will be re-assessed in six weeks, the team announced Wednesday.",
   "date": "2026-09-30T19:39Z"
+ },
+ {
+  "team_name": "Tampa Bay Lightning",
+  "player": "Conor Geekie",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-17T18:19Z"
  },
  {
   "team_name": "Tampa Bay Lightning",
