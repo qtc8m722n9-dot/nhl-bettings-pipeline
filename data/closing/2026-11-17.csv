@@ -1,0 +1,19 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|EDM@FLA|player_points|matthew tkachuk|0.5|no,EDM@FLA,2026-11-17T18:50:00-05:00,10.0,0.32,0.33,0.325,live,0.3409709868221742,pinnacle
+kalshi|LAK@BOS|ml|BOS|nan|no,LAK@BOS,2026-11-17T18:50:00-05:00,10.0,0.39,0.4,0.395,live,0.4049662588110021,pinnacle
+underdog|BUF@PHI|player_sog|denver barkey|1.5|no,BUF@PHI,2026-11-17T18:50:00-05:00,10.0,,,,,,
+kalshi|OTT@WPG|player_points|mark scheifele|0.5|yes,OTT@WPG,2026-11-17T18:50:00-05:00,10.0,0.66,0.67,0.665,live,0.6853327522586231,consensus
+kalshi|CBJ@NYI|player_goals|kyle palmieri|0.5|no,CBJ@NYI,2026-11-17T18:50:00-05:00,10.0,0.78,0.79,0.785,live,,
+kalshi|BUF@PHI|player_goals|christian dvorak|0.5|no,BUF@PHI,2026-11-17T18:50:00-05:00,10.0,0.82,0.84,0.83,live,,
+kalshi|OTT@WPG|total||8.5|no,OTT@WPG,2026-11-17T18:50:00-05:00,10.0,0.84,0.85,0.845,live,,
+kalshi|BUF@PHI|player_goals|jason zucker|0.5|no,BUF@PHI,2026-11-17T18:50:00-05:00,10.0,0.83,0.84,0.835,live,,
+kalshi|LAK@BOS|total||8.5|no,LAK@BOS,2026-11-17T18:50:00-05:00,10.0,0.83,0.84,0.835,live,,
+kalshi|EDM@FLA|player_points|leon draisaitl|2.5|no,EDM@FLA,2026-11-17T18:50:00-05:00,10.0,0.83,0.84,0.835,live,,
+kalshi|CBJ@NYI|p1_total||0.5|yes,CBJ@NYI,2026-11-17T18:50:00-05:00,10.0,0.81,0.84,0.825,live,,
+fanduel|EDM@FLA|player_sog|leon draisaitl|3.5|no,EDM@FLA,2026-11-17T18:50:00-05:00,10.0,,,,,0.5740469779410876,pinnacle
+espnbet|CBJ@NYI|player_sog|matias maccelli|1.5|no,CBJ@NYI,2026-11-17T18:50:00-05:00,10.0,,,,,0.5566845205396993,pinnacle
+draftkings|OTT@WPG|player_sog|fabian zetterlund|1.5|no,OTT@WPG,2026-11-17T18:50:00-05:00,10.0,,,,,0.3986931458475811,pinnacle
+draftkings|LAK@BOS|player_sog|mats zuccarello|1.5|yes,LAK@BOS,2026-11-17T18:50:00-05:00,10.0,,,,,0.476531314912484,pinnacle
+draftkings|LAK@BOS|player_sog|kevin fiala|2.5|yes,LAK@BOS,2026-11-17T18:50:00-05:00,10.0,,,,,0.45888292799354513,pinnacle
+betrivers|LAK@BOS|player_sog|brandt clarke|1.5|yes,LAK@BOS,2026-11-17T18:50:00-05:00,10.0,,,,,0.5212291071384377,pinnacle
+fanduel|BUF@PHI|player_sog|matvei michkov|2.5|yes,BUF@PHI,2026-11-17T18:50:00-05:00,10.0,,,,,0.3883408046304786,pinnacle
