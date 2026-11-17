@@ -1,0 +1,44 @@
+[
+ {
+  "side": "home",
+  "team_name": "Detroit Red Wings",
+  "goalie": "Daniil Tarasov",
+  "status": "Confirmed",
+  "updated": "2026-11-17T17:25:37.564Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Boston Bruins",
+  "goalie": "Jeremy Swayman",
+  "status": "Unconfirmed",
+  "updated": "2026-11-18"
+ },
+ {
+  "side": "home",
+  "team_name": "New Jersey Devils",
+  "goalie": "Connor Hellebuyck",
+  "status": "Unconfirmed",
+  "updated": "2026-11-18"
+ },
+ {
+  "side": "away",
+  "team_name": "Montreal Canadiens",
+  "goalie": "Jacob Fowler",
+  "status": "Unconfirmed",
+  "updated": "2026-11-18"
+ },
+ {
+  "side": "home",
+  "team_name": "Utah Mammoth",
+  "goalie": "Karel Vejmelka",
+  "status": "Unconfirmed",
+  "updated": "2026-11-18"
+ },
+ {
+  "side": "away",
+  "team_name": "Colorado Avalanche",
+  "goalie": "Mackenzie Blackwood",
+  "status": "Unconfirmed",
+  "updated": "2026-11-18"
+ }
+]

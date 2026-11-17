@@ -1,0 +1,35 @@
+[
+ {
+  "game_id": 2026020344,
+  "start_utc": "2026-11-19T00:30:00Z",
+  "game_state": "FUT",
+  "home": "DET",
+  "away": "BOS",
+  "home_name": "Detroit Red Wings",
+  "away_name": "Boston Bruins",
+  "home_b2b": false,
+  "away_b2b": true
+ },
+ {
+  "game_id": 2026020345,
+  "start_utc": "2026-11-19T00:30:00Z",
+  "game_state": "FUT",
+  "home": "NJD",
+  "away": "MTL",
+  "home_name": "New Jersey Devils",
+  "away_name": "Montr\u00e9al Canadiens",
+  "home_b2b": false,
+  "away_b2b": false
+ },
+ {
+  "game_id": 2026020346,
+  "start_utc": "2026-11-19T03:00:00Z",
+  "game_state": "FUT",
+  "home": "UTA",
+  "away": "COL",
+  "home_name": "Utah Mammoth",
+  "away_name": "Colorado Avalanche",
+  "home_b2b": false,
+  "away_b2b": false
+ }
+]
