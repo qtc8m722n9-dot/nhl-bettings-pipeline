@@ -17,15 +17,15 @@
   "side": "home",
   "team_name": "New Jersey Devils",
   "goalie": "Connor Hellebuyck",
-  "status": "Unconfirmed",
-  "updated": "2026-11-18"
+  "status": "Confirmed",
+  "updated": "2026-11-18T16:03:53.467Z"
  },
  {
   "side": "away",
   "team_name": "Montreal Canadiens",
   "goalie": "Jacob Fowler",
-  "status": "Unconfirmed",
-  "updated": "2026-11-18"
+  "status": "Confirmed",
+  "updated": "2026-11-18T16:59:29.200Z"
  },
  {
   "side": "home",

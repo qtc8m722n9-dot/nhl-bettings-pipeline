@@ -80,20 +80,12 @@
   "date": "2026-10-30T16:44Z"
  },
  {
-  "team_name": "Carolina Hurricanes",
-  "player": "Pyotr Kochetkov",
-  "position": "G",
-  "status": "Day-To-Day",
-  "detail": "Kochetkov (illness) did not practice on Tuesday, per Walt Ruff of the Hurricanes' official site.",
-  "date": "2026-11-17T17:31Z"
- },
- {
   "team_name": "Chicago Blackhawks",
   "player": "Connor Bedard",
   "position": "C",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-18T03:41Z"
+  "detail": "Bedard is being evaluated for a shoulder injury, Emily Kaplan of ESPN reports Wednesday.",
+  "date": "2026-11-18T16:42Z"
  },
  {
   "team_name": "Chicago Blackhawks",
@@ -184,20 +176,28 @@
   "date": "2026-10-24T18:32Z"
  },
  {
-  "team_name": "Detroit Red Wings",
-  "player": "Albert Johansson",
-  "position": "D",
+  "team_name": "Dallas Stars",
+  "player": "Matt Duchene",
+  "position": "C",
   "status": "Injured Reserve",
-  "detail": "Johansson (undisclosed) is expected to return to the lineup either Wednesday or Saturday, per Ansar Khan of MLive.com.",
-  "date": "2026-11-17T17:59Z"
+  "detail": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+  "date": "2026-10-12T16:46Z"
  },
  {
   "team_name": "Detroit Red Wings",
   "player": "William Wallinder",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "Wallinder (upper body) is day-to-day, per Ansar Khan of MLive.com on Tuesday.",
-  "date": "2026-11-17T17:40Z"
+  "status": "Out",
+  "detail": "Wallinder (upper body) will not be in the lineup versus Boston on Wednesday, Ansar Khan of MLive.com reports.",
+  "date": "2026-11-18T16:15Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
+  "player": "Albert Johansson",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Johansson (undisclosed) has been ruled out for Wednesday's game against the Bruins, Ansar Khan of MLive.com reports.",
+  "date": "2026-11-18T16:14Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -374,6 +374,14 @@
   "status": "Injured Reserve",
   "detail": "ir-nr",
   "date": "2026-09-29T16:38Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
+  "player": "Jonas Siegenthaler",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "Siegenthaler is dealing with an illness that could put his availability against the Habs on Wednesday in doubt, Amanda Stein of the Devils' official site reports.",
+  "date": "2026-11-18T17:02Z"
  },
  {
   "team_name": "New Jersey Devils",
