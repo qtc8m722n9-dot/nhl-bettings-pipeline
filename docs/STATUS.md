@@ -61,6 +61,12 @@ Last updated: 2026-11-17. Paper bets only. Owner: Evan (Montreal, Quebec).
 - Strong-favourite -1.5 + over lead: dropped (`data/patterns/lead_fav_over.md`). Fixed-line correlation is a lurking variable (scoring environment) that moving totals remove; Kalshi pair ROI -5% to -13%.
 - H7 (dog coach pull aggressiveness -> fav -1.5): fails (discovery wrong sign; holdout z +1.9). H8 (PP role change -> points overs): fails (SOG secondary holdout z +2.4). H9 (shooting-luck regression, points): passes narrowly (holdout z -1.74, p 0.041; discovery -0.81; live +0.66) -> watch, not a bet. Results `data/patterns/hypotheses_h7_h9.md`.
 
+## H10-H18 on a fresh season (2026-11-18; `data/patterns/hypotheses_h10_h18.md`)
+- Bought 2024-25 Pinnacle SOG props + game lines at pick time: 16,050 credits (57,603 left after). Cached in data/backtest/odds.
+- None of the 9 pass (BH q 0.10). Closest: stars on heavy favourites -> SOG under (z -1.42 fresh, -0.64, -0.98).
+- Shots model on 2024-25 (refit on 2022-24 only): alone slightly worse than Pinnacle (LL 0.6818 vs 0.6814) but adds information on top of it (trend z +5.3). No "December" effect in 2024-25 (Dec z 0.0, Oct/Nov ~2) -> the season-phase story from 2025-26 was noise.
+- Exploratory lead (cut chosen after registration): model says UNDER by 5+ pts on players with < 20 games: +8.2 pts (z 5.3) 2024-25, +5.3 (z 2.5) 2025-26, -0.5 live (n 184).
+
 ## Next steps (in order)
 1. Let the shadow board accumulate (every priced line graded nightly from 2026-11-04).
 2. Build the combined model: inputs = fair price, M3 raw/blend, M6 mu/probability, sog_prob, backup-goalie flag, venue, market, line moves; train on shadow board + 2025-26 backtest tables (`data/shots2/lines.csv`, `data/backtest/m3eng/blend_rows.csv`); judge strictly out of sample vs the strongest single method on CLV and log loss. Add Bullseye inputs (prob, a_b2b, ev_xgd, fin; rebuildable from cached data via `bullseye_bt`). Away-b2b hypothesis H1 pre-registered 2026-11-05 (Evan approved; spec in `nhlpipe/hypotheses.py`, graded nightly into `data/hypotheses.md`, games from the 2026-11-05 slate on). 2026-12-31 is an interim look; a verdict needs ~400 games. Review 2026-12-31.
