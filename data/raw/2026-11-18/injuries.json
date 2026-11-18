@@ -425,14 +425,6 @@
  },
  {
   "team_name": "New York Islanders",
-  "player": "Calum Ritchie",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-26T17:28Z"
- },
- {
-  "team_name": "New York Islanders",
   "player": "Alexander Romanov",
   "position": "D",
   "status": "Injured Reserve",
@@ -684,16 +676,16 @@
   "player": "Brandon Hagel",
   "position": "LW",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-18T14:37Z"
+  "detail": "Hagel is considered day-to-day due to his lower-body injury, Eduardo A. Encina of the Tampa Bay Times reports Wednesday.",
+  "date": "2026-11-18T18:12Z"
  },
  {
   "team_name": "Tampa Bay Lightning",
   "player": "Zemgus Girgensons",
   "position": "C",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-18T02:22Z"
+  "detail": "Girgensons is considered day-to-day due to an upper-body injury, Lightning reporter Gabby Shirley reports Wednesday.",
+  "date": "2026-11-18T18:08Z"
  },
  {
   "team_name": "Tampa Bay Lightning",
