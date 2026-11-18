@@ -136,6 +136,16 @@ def run(day: date, force: bool = False) -> pd.DataFrame:
         import traceback
         print(f"M6 shots v2 skipped: {type(e).__name__}: {e}")
         traceback.print_exc()
+    # M8 / M9 goalscorer models (H21, pre-registered 2026-11-18): Kalshi "player scores" YES. Never blocks the lock.
+    try:
+        from . import scorer_live
+        pk8 = scorer_live.picks(day, slate, odds, c)
+        if len(pk8):
+            frames.append(pk8)
+    except Exception as e:  # noqa: BLE001
+        import traceback
+        print(f"M8/M9 goalscorers skipped: {type(e).__name__}: {e}")
+        traceback.print_exc()
     picks = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=PICK_COLS)
     picks["date"] = day.isoformat()
     picks["created_et"] = now
@@ -150,7 +160,7 @@ def run(day: date, force: bool = False) -> pd.DataFrame:
     pd.DataFrame(game_rows).to_csv(out_dir / f"{day.isoformat()}_games.csv", index=False)
 
     print(f"{len(c)} candidates, backup-goalie games: {sorted(bgames) or 'none'}")
-    for m in list(methods.METHODS) + ["M6_shots_v2", "M6_shots_v2_pickem", "M7_shots_under_early"]:
+    for m in list(methods.METHODS) + ["M6_shots_v2", "M6_shots_v2_pickem", "M7_shots_under_early", "M8_scorer_price", "M9_scorer_blind"]:
         sub = picks[picks["method"] == m]
         print(f"\n{m}: {len(sub)} pick(s)")
         for r in sub.itertuples():
