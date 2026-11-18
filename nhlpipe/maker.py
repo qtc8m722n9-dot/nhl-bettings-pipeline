@@ -16,6 +16,7 @@ Writes data/maker/<date>.csv and data/maker.md. Run by the morning grading job (
 """
 import math
 import sys
+import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -28,6 +29,7 @@ DATA = Path(__file__).resolve().parent.parent / "data"
 OUT = DATA / "maker"
 START = date(2026, 10, 31)
 ORDER_USD = 100.0
+TIME_BUDGET_S = 12 * 60  # never hold up the grading job; a long backfill finishes over several runs
 
 
 def maker_fee(p: float) -> float:
@@ -147,7 +149,11 @@ def main(argv: list[str]) -> None:
     else:
         days = sorted(date.fromisoformat(p.stem) for p in (DATA / "shadow").glob("*.csv"))
         days = [x for x in days if x >= START and not (OUT / f"{x.isoformat()}.csv").exists()]
+    t_start = time.time()
     for d in days:
+        if time.time() - t_start > TIME_BUDGET_S:
+            print(f"time budget reached; {d} and later left for the next run")
+            break
         r = day_rows(d)
         if r is None or r.empty:
             print(f"{d}: nothing")
