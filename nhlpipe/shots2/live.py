@@ -32,6 +32,7 @@ LIVE_CUTOFF = date(2026, 10, 1)  # league priors use games before the 2026-27 se
 BOOKS = {"draftkings", "fanduel", "betmgm", "williamhill_us", "betrivers", "espnbet"}
 PICKEM = {"underdog", "prizepicks"}
 EDGE_MIN, EDGE_MAX, MAX_PER_GAME = 0.03, 0.12, 3
+M7_GAP, M7_MAX_GP = 0.05, 20  # M7_shots_under_early (H19)
 
 
 def season_of(d: date) -> str:
@@ -174,7 +175,11 @@ def picks(day: date, slate: pd.DataFrame, odds: pd.DataFrame, refresh_data: bool
         print(f"shots v2: skipping same-name skaters {sorted(set(s.loc[dup, 'skaterFullName']))}")
         s = s[~dup]
 
-    o = o.merge(s[["game_key", "key", "mu", "teamAbbrev"]], on=["game_key", "key"], how="inner")
+    # games this season before today, per skater (for M7, H19)
+    yr = int(season_of(day)[:4])
+    gp = hist[(hist["gameId"] // 1_000_000) == yr].groupby("playerId")["gameId"].nunique()
+    s["gp_season"] = s["playerId"].map(gp).fillna(0)
+    o = o.merge(s[["game_key", "key", "mu", "teamAbbrev", "gp_season"]], on=["game_key", "key"], how="inner")
     o = o.merge(pinnacle_fair(o), on=["game_key", "key", "point"], how="left")
     o = o[o["pin_over"].notna()].copy()
     if o.empty:
@@ -209,10 +214,24 @@ def picks(day: date, slate: pd.DataFrame, odds: pd.DataFrame, refresh_data: bool
         d["method"] = name
         d["pick_no"] = range(1, len(d) + 1)
         out.append(d)
+    # M7 (H19, pre-registered 2026-11-17, Evan approved): the raw model says UNDER by >= 5 pts vs Pinnacle
+    # on a skater with < 20 games this season -> Under at the best sportsbook price (paper benchmark).
+    gap = o["pin_over"] - o["p_model_over"]
+    d = o[o["venue"].isin(BOOKS) & (o["side"] == "no") & (gap >= M7_GAP) & (o["gp_season"] < M7_MAX_GP)].copy()
+    d["m7_gap"] = gap[d.index]
+    d = d.sort_values(["cost", "cand_id"]).drop_duplicates(["game_key", "key"])  # best (cheapest) price per player
+    d = d.sort_values(["m7_gap", "cand_id"], ascending=[False, True]).groupby("game_key", sort=False).head(MAX_PER_GAME).copy()
+    d["method"] = "M7_shots_under_early"
+    d["est_prob"] = 1 - d["p_model_over"]
+    d["est_source"] = "shots_v2_raw_model"
+    d["edge"] = d["est_prob"] - d["cost"]
+    d["pick_no"] = range(1, len(d) + 1)
+    out.append(d)
     pk = pd.concat(out, ignore_index=True)
     cand = o[o["venue"].isin(BOOKS)][cand_cols].drop_duplicates("cand_id")  # pick'em rows are already in the candidates
     print(f"shots v2: {len(s)} skaters projected, {len(o)} priced offers, "
-          f"{(pk['method'] == 'M6_shots_v2').sum()} book bets, {(pk['method'] == 'M6_shots_v2_pickem').sum()} pick'em bets")
+          f"{(pk['method'] == 'M6_shots_v2').sum()} book bets, {(pk['method'] == 'M6_shots_v2_pickem').sum()} pick'em bets, "
+          f"{(pk['method'] == 'M7_shots_under_early').sum()} M7 unders")
     return pk, cand
 
 

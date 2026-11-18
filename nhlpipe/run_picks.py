@@ -150,7 +150,7 @@ def run(day: date, force: bool = False) -> pd.DataFrame:
     pd.DataFrame(game_rows).to_csv(out_dir / f"{day.isoformat()}_games.csv", index=False)
 
     print(f"{len(c)} candidates, backup-goalie games: {sorted(bgames) or 'none'}")
-    for m in list(methods.METHODS) + ["M6_shots_v2", "M6_shots_v2_pickem"]:
+    for m in list(methods.METHODS) + ["M6_shots_v2", "M6_shots_v2_pickem", "M7_shots_under_early"]:
         sub = picks[picks["method"] == m]
         print(f"\n{m}: {len(sub)} pick(s)")
         for r in sub.itertuples():
