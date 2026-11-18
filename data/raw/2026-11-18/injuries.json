@@ -1,6 +1,14 @@
 [
  {
   "team_name": "Anaheim Ducks",
+  "player": "Beckett Sennecke",
+  "position": "RW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T14:37Z"
+ },
+ {
+  "team_name": "Anaheim Ducks",
   "player": "Ryan Poehling",
   "position": "C",
   "status": "Injured Reserve",
@@ -81,6 +89,14 @@
  },
  {
   "team_name": "Chicago Blackhawks",
+  "player": "Connor Bedard",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T03:41Z"
+ },
+ {
+  "team_name": "Chicago Blackhawks",
   "player": "Bowen Byram",
   "position": "D",
   "status": "Injured Reserve",
@@ -141,15 +157,7 @@
   "position": "D",
   "status": "Day-To-Day",
   "detail": "day-to-day",
-  "date": "2026-11-16T14:05Z"
- },
- {
-  "team_name": "Dallas Stars",
-  "player": "Miro Heiskanen",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-16T14:05Z"
+  "date": "2026-11-18T14:37Z"
  },
  {
   "team_name": "Dallas Stars",
@@ -211,9 +219,9 @@
   "team_name": "Edmonton Oilers",
   "player": "Ryan Nugent-Hopkins",
   "position": "C",
-  "status": "Out",
-  "detail": "Nugent-Hopkins (undisclosed) isn't expected to play against Florida on Tuesday, per Oilers play-by-play announcer Jack Michaels.",
-  "date": "2026-11-17T17:11Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T14:37Z"
  },
  {
   "team_name": "Edmonton Oilers",
@@ -275,9 +283,9 @@
   "team_name": "Los Angeles Kings",
   "player": "Artemi Panarin",
   "position": "LW",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-16T20:36Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T14:37Z"
  },
  {
   "team_name": "Los Angeles Kings",
@@ -289,19 +297,19 @@
  },
  {
   "team_name": "Minnesota Wild",
+  "player": "Filip Gustavsson",
+  "position": "G",
+  "status": "Injured Reserve",
+  "detail": "Gustavsson (hip) could rejoin the Wild on Monday ahead of their game versus the Sharks, Michael Russo of The Athletic reports.",
+  "date": "2026-11-18T04:51Z"
+ },
+ {
+  "team_name": "Minnesota Wild",
   "player": "Olli Maatta",
   "position": "D",
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-11-16T21:33Z"
- },
- {
-  "team_name": "Minnesota Wild",
-  "player": "Filip Gustavsson",
-  "position": "G",
-  "status": "Injured Reserve",
-  "detail": "Gustavsson (hip) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",
-  "date": "2026-11-05T18:51Z"
  },
  {
   "team_name": "Montreal Canadiens",
@@ -393,19 +401,19 @@
  },
  {
   "team_name": "New York Islanders",
-  "player": "Logan Stanley",
-  "position": "D",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-17T19:05Z"
- },
- {
-  "team_name": "New York Islanders",
   "player": "Jean-Gabriel Pageau",
   "position": "C",
   "status": "Day-To-Day",
-  "detail": "Pageau (lower body) will be a game-time decision ahead of Tuesday's matchup with Columbus, Stefen Rosner of NHL.com reports.",
-  "date": "2026-11-17T15:46Z"
+  "detail": "day-to-day",
+  "date": "2026-11-18T14:37Z"
+ },
+ {
+  "team_name": "New York Islanders",
+  "player": "Logan Stanley",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T14:37Z"
  },
  {
   "team_name": "New York Islanders",
@@ -481,11 +489,27 @@
  },
  {
   "team_name": "Ottawa Senators",
+  "player": "Nick Cousins",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T14:37Z"
+ },
+ {
+  "team_name": "Ottawa Senators",
   "player": "Hayden Hodgson",
   "position": "RW",
-  "status": "Out",
-  "detail": "Hodgson (groin) isn't expected to play against Winnipeg on Tuesday, per TSN 1200 Ottawa.",
-  "date": "2026-11-16T16:55Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T14:37Z"
+ },
+ {
+  "team_name": "Ottawa Senators",
+  "player": "Thomas Chabot",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T03:35Z"
  },
  {
   "team_name": "Ottawa Senators",
@@ -494,14 +518,6 @@
   "status": "Injured Reserve",
   "detail": "Head coach Travis Green said Monday that Foegele (knee) hasn't yet resumed skating, Bruce Garrioch of Postmedia reports.",
   "date": "2026-11-16T16:53Z"
- },
- {
-  "team_name": "Ottawa Senators",
-  "player": "Nick Cousins",
-  "position": "C",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-11T17:15Z"
  },
  {
   "team_name": "Ottawa Senators",
@@ -558,14 +574,6 @@
   "status": "Out",
   "detail": "out",
   "date": "2026-11-17T19:39Z"
- },
- {
-  "team_name": "San Jose Sharks",
-  "player": "Alexander Wennberg",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-16T14:05Z"
  },
  {
   "team_name": "San Jose Sharks",
@@ -635,9 +643,9 @@
   "team_name": "St. Louis Blues",
   "player": "Ross Johnston",
   "position": "LW",
-  "status": "Out",
-  "detail": "Johnston (upper body) won't play against Anaheim on Tuesday, Lou Korac of NHL.com reports.",
-  "date": "2026-11-17T17:49Z"
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T14:37Z"
  },
  {
   "team_name": "St. Louis Blues",
@@ -665,27 +673,27 @@
  },
  {
   "team_name": "Tampa Bay Lightning",
+  "player": "Brandon Hagel",
+  "position": "LW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T14:37Z"
+ },
+ {
+  "team_name": "Tampa Bay Lightning",
+  "player": "Zemgus Girgensons",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-18T02:22Z"
+ },
+ {
+  "team_name": "Tampa Bay Lightning",
   "player": "Conor Geekie",
   "position": "C",
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-11-17T18:19Z"
- },
- {
-  "team_name": "Tampa Bay Lightning",
-  "player": "Erik Cernak",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-15T14:13Z"
- },
- {
-  "team_name": "Tampa Bay Lightning",
-  "player": "Anthony Cirelli",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-15T14:13Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
@@ -763,9 +771,9 @@
   "team_name": "Utah Mammoth",
   "player": "Nick Schmaltz",
   "position": "C",
-  "status": "Out",
-  "detail": "Schmaltz (lower body) isn't expected to play against San Jose on Saturday, and it's unclear when he will be ready to return, Brogan Houston of the Deseret News reports.",
-  "date": "2026-11-14T18:48Z"
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-17T22:14Z"
  },
  {
   "team_name": "Utah Mammoth",
