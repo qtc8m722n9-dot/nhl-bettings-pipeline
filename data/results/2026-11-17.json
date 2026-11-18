@@ -1,0 +1,4131 @@
+{
+ "date": "2026-11-17",
+ "all_final": true,
+ "games": {
+  "LAK@BOS": {
+   "game_id": 2026020333,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T00:00:00Z",
+   "last_period": "REG",
+   "home": "BOS",
+   "away": "LAK",
+   "home_score": 0,
+   "away_score": 3,
+   "p1_home": 0,
+   "p1_away": 1,
+   "players": {
+    "jj peterka": {
+     "name": "JJ Peterka",
+     "num": 10,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1056
+    },
+    "casey mittelstadt": {
+     "name": "Casey Mittelstadt",
+     "num": 11,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 949
+    },
+    "pavel zacha": {
+     "name": "Pavel Zacha",
+     "num": 18,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1115
+    },
+    "elias lindholm": {
+     "name": "Elias Lindholm",
+     "num": 28,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1017
+    },
+    "morgan geekie": {
+     "name": "Morgan Geekie",
+     "num": 39,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1086
+    },
+    "mark kastelic": {
+     "name": "Mark Kastelic",
+     "num": 47,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 734
+    },
+    "sean kuraly": {
+     "name": "Sean Kuraly",
+     "num": 52,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 733
+    },
+    "michael eyssimont": {
+     "name": "Michael Eyssimont",
+     "num": 81,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 529
+    },
+    "tanner jeannot": {
+     "name": "Tanner Jeannot",
+     "num": 84,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 779
+    },
+    "david pastrnak": {
+     "name": "David Pastrnak",
+     "num": 88,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 4,
+     "toi_sec": 1156
+    },
+    "marat khusnutdinov": {
+     "name": "Marat Khusnutdinov",
+     "num": 92,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 752
+    },
+    "fraser minten": {
+     "name": "Fraser Minten",
+     "num": 93,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 4,
+     "toi_sec": 925
+    },
+    "mason lohrei": {
+     "name": "Mason Lohrei",
+     "num": 6,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1105
+    },
+    "will borgen": {
+     "name": "Will Borgen",
+     "num": 17,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1085
+    },
+    "hampus lindholm": {
+     "name": "Hampus Lindholm",
+     "num": 27,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1152
+    },
+    "charlie mcavoy": {
+     "name": "Charlie McAvoy",
+     "num": 73,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 4,
+     "toi_sec": 1435
+    },
+    "connor clifton": {
+     "name": "Connor Clifton",
+     "num": 75,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 4,
+     "toi_sec": 1107
+    },
+    "nikita zadorov": {
+     "name": "Nikita Zadorov",
+     "num": 91,
+     "team": "BOS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1081
+    },
+    "adrian kempe": {
+     "name": "Adrian Kempe",
+     "num": 9,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1046
+    },
+    "trevor moore": {
+     "name": "Trevor Moore",
+     "num": 12,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 993
+    },
+    "alex laferriere": {
+     "name": "Alex Laferriere",
+     "num": 14,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1188
+    },
+    "alex turcotte": {
+     "name": "Alex Turcotte",
+     "num": 15,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 789
+    },
+    "scott laughton": {
+     "name": "Scott Laughton",
+     "num": 21,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 802
+    },
+    "kevin fiala": {
+     "name": "Kevin Fiala",
+     "num": 22,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 932
+    },
+    "mats zuccarello": {
+     "name": "Mats Zuccarello",
+     "num": 36,
+     "team": "LAK",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 791
+    },
+    "joel armia": {
+     "name": "Joel Armia",
+     "num": 40,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 792
+    },
+    "andre lee": {
+     "name": "Andre Lee",
+     "num": 47,
+     "team": "LAK",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 766
+    },
+    "quinton byfield": {
+     "name": "Quinton Byfield",
+     "num": 55,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 4,
+     "toi_sec": 1095
+    },
+    "erik haula": {
+     "name": "Erik Haula",
+     "num": 56,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 905
+    },
+    "corey perry": {
+     "name": "Corey Perry",
+     "num": 90,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 658
+    },
+    "brian dumoulin": {
+     "name": "Brian Dumoulin",
+     "num": 2,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1047
+    },
+    "joel edmundson": {
+     "name": "Joel Edmundson",
+     "num": 6,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1217
+    },
+    "drew doughty": {
+     "name": "Drew Doughty",
+     "num": 8,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1286
+    },
+    "mikey anderson": {
+     "name": "Mikey Anderson",
+     "num": 44,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1163
+    },
+    "erik gustafsson": {
+     "name": "Erik Gustafsson",
+     "num": 64,
+     "team": "LAK",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 1249
+    },
+    "brandt clarke": {
+     "name": "Brandt Clarke",
+     "num": 92,
+     "team": "LAK",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1066
+    }
+   }
+  },
+  "EDM@FLA": {
+   "game_id": 2026020335,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T00:00:00Z",
+   "last_period": "REG",
+   "home": "FLA",
+   "away": "EDM",
+   "home_score": 2,
+   "away_score": 5,
+   "p1_home": 0,
+   "p1_away": 2,
+   "players": {
+    "brady tkachuk": {
+     "name": "Brady Tkachuk",
+     "num": 8,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1018
+    },
+    "sam bennett": {
+     "name": "Sam Bennett",
+     "num": 9,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 950
+    },
+    "sam reinhart": {
+     "name": "Sam Reinhart",
+     "num": 13,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1152
+    },
+    "bokondji imama": {
+     "name": "Bokondji Imama",
+     "num": 14,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 640
+    },
+    "anton lundell": {
+     "name": "Anton Lundell",
+     "num": 15,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1064
+    },
+    "matthew tkachuk": {
+     "name": "Matthew Tkachuk",
+     "num": 19,
+     "team": "FLA",
+     "goals": 2,
+     "assists": 0,
+     "points": 2,
+     "sog": 4,
+     "toi_sec": 1058
+    },
+    "lars eller": {
+     "name": "Lars Eller",
+     "num": 20,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 991
+    },
+    "garnet hathaway": {
+     "name": "Garnet Hathaway",
+     "num": 21,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 653
+    },
+    "carter verhaeghe": {
+     "name": "Carter Verhaeghe",
+     "num": 23,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1028
+    },
+    "eetu luostarinen": {
+     "name": "Eetu Luostarinen",
+     "num": 27,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 934
+    },
+    "cole schwindt": {
+     "name": "Cole Schwindt",
+     "num": 79,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 663
+    },
+    "sandis vilmanis": {
+     "name": "Sandis Vilmanis",
+     "num": 95,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 779
+    },
+    "seth jones": {
+     "name": "Seth Jones",
+     "num": 3,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1467
+    },
+    "aaron ekblad": {
+     "name": "Aaron Ekblad",
+     "num": 5,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1371
+    },
+    "dmitry kulikov": {
+     "name": "Dmitry Kulikov",
+     "num": 7,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 811
+    },
+    "uvis balinskis": {
+     "name": "Uvis Balinskis",
+     "num": 26,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 831
+    },
+    "gustav forsling": {
+     "name": "Gustav Forsling",
+     "num": 42,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1218
+    },
+    "niko mikkola": {
+     "name": "Niko Mikkola",
+     "num": 77,
+     "team": "FLA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1138
+    },
+    "trent frederic": {
+     "name": "Trent Frederic",
+     "num": 10,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 597
+    },
+    "jason dickinson": {
+     "name": "Jason Dickinson",
+     "num": 16,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 812
+    },
+    "zach hyman": {
+     "name": "Zach Hyman",
+     "num": 18,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1119
+    },
+    "filip hallander": {
+     "name": "Filip Hallander",
+     "num": 19,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 594
+    },
+    "mathieu joseph": {
+     "name": "Mathieu Joseph",
+     "num": 21,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 732
+    },
+    "alex formenton": {
+     "name": "Alex Formenton",
+     "num": 26,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 673
+    },
+    "leon draisaitl": {
+     "name": "Leon Draisaitl",
+     "num": 29,
+     "team": "EDM",
+     "goals": 1,
+     "assists": 2,
+     "points": 3,
+     "sog": 2,
+     "toi_sec": 1253
+    },
+    "colton dach": {
+     "name": "Colton Dach",
+     "num": 34,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 953
+    },
+    "kasperi kapanen": {
+     "name": "Kasperi Kapanen",
+     "num": 42,
+     "team": "EDM",
+     "goals": 1,
+     "assists": 2,
+     "points": 3,
+     "sog": 1,
+     "toi_sec": 1090
+    },
+    "owen michaels": {
+     "name": "Owen Michaels",
+     "num": 43,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 559
+    },
+    "vasily podkolzin": {
+     "name": "Vasily Podkolzin",
+     "num": 92,
+     "team": "EDM",
+     "goals": 2,
+     "assists": 1,
+     "points": 3,
+     "sog": 2,
+     "toi_sec": 1125
+    },
+    "connor mcdavid": {
+     "name": "Connor McDavid",
+     "num": 97,
+     "team": "EDM",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 1289
+    },
+    "evan bouchard": {
+     "name": "Evan Bouchard",
+     "num": 2,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 4,
+     "toi_sec": 1476
+    },
+    "connor murphy": {
+     "name": "Connor Murphy",
+     "num": 5,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1128
+    },
+    "ryan shea": {
+     "name": "Ryan Shea",
+     "num": 6,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1131
+    },
+    "mattias ekholm": {
+     "name": "Mattias Ekholm",
+     "num": 14,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1350
+    },
+    "ty emberson": {
+     "name": "Ty Emberson",
+     "num": 49,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 881
+    },
+    "shakir mukhamadullin": {
+     "name": "Shakir Mukhamadullin",
+     "num": 85,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 998
+    }
+   }
+  },
+  "CBJ@NYI": {
+   "game_id": 2026020336,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T00:00:00Z",
+   "last_period": "REG",
+   "home": "NYI",
+   "away": "CBJ",
+   "home_score": 5,
+   "away_score": 1,
+   "p1_home": 1,
+   "p1_away": 0,
+   "players": {
+    "brayden schenn": {
+     "name": "Brayden Schenn",
+     "num": 10,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1018
+    },
+    "anthony duclair": {
+     "name": "Anthony Duclair",
+     "num": 11,
+     "team": "NYI",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 858
+    },
+    "mathew barzal": {
+     "name": "Mathew Barzal",
+     "num": 13,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 949
+    },
+    "bo horvat": {
+     "name": "Bo Horvat",
+     "num": 14,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 4,
+     "toi_sec": 1069
+    },
+    "kyle palmieri": {
+     "name": "Kyle Palmieri",
+     "num": 21,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 886
+    },
+    "mitchell chaffee": {
+     "name": "Mitchell Chaffee",
+     "num": 26,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 765
+    },
+    "victor eklund": {
+     "name": "Victor Eklund",
+     "num": 38,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 980
+    },
+    "emil heineman": {
+     "name": "Emil Heineman",
+     "num": 51,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 869
+    },
+    "casey cizikas": {
+     "name": "Casey Cizikas",
+     "num": 53,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 749
+    },
+    "matias maccelli": {
+     "name": "Matias Maccelli",
+     "num": 63,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1102
+    },
+    "ondrej palat": {
+     "name": "Ondrej Palat",
+     "num": 81,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 865
+    },
+    "simon holmstrom": {
+     "name": "Simon Holmstrom",
+     "num": 92,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 885
+    },
+    "adam pelech": {
+     "name": "Adam Pelech",
+     "num": 3,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1106
+    },
+    "matthew kessel": {
+     "name": "Matthew Kessel",
+     "num": 4,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1129
+    },
+    "ryan pulock": {
+     "name": "Ryan Pulock",
+     "num": 6,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1082
+    },
+    "matthew schaefer": {
+     "name": "Matthew Schaefer",
+     "num": 48,
+     "team": "NYI",
+     "goals": 3,
+     "assists": 0,
+     "points": 3,
+     "sog": 9,
+     "toi_sec": 1403
+    },
+    "ben hutton": {
+     "name": "Ben Hutton",
+     "num": 71,
+     "team": "NYI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1104
+    },
+    "tony deangelo": {
+     "name": "Tony DeAngelo",
+     "num": 77,
+     "team": "NYI",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 1181
+    },
+    "charlie coyle": {
+     "name": "Charlie Coyle",
+     "num": 3,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1208
+    },
+    "cole sillinger": {
+     "name": "Cole Sillinger",
+     "num": 4,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1057
+    },
+    "dmitri voronkov": {
+     "name": "Dmitri Voronkov",
+     "num": 10,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 414
+    },
+    "steven lorentz": {
+     "name": "Steven Lorentz",
+     "num": 18,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 704
+    },
+    "adam fantilli": {
+     "name": "Adam Fantilli",
+     "num": 19,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 779
+    },
+    "mathieu olivier": {
+     "name": "Mathieu Olivier",
+     "num": 24,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1036
+    },
+    "valeri nichushkin": {
+     "name": "Valeri Nichushkin",
+     "num": 43,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1160
+    },
+    "matthew knies": {
+     "name": "Matthew Knies",
+     "num": 89,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1245
+    },
+    "kent johnson": {
+     "name": "Kent Johnson",
+     "num": 91,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1214
+    },
+    "jack williams": {
+     "name": "Jack Williams",
+     "num": 92,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 744
+    },
+    "luca del bel belluz": {
+     "name": "Luca Del Bel Belluz",
+     "num": 93,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1038
+    },
+    "jake christiansen": {
+     "name": "Jake Christiansen",
+     "num": 2,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 5,
+     "toi_sec": 1179
+    },
+    "denton mateychuk": {
+     "name": "Denton Mateychuk",
+     "num": 5,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1110
+    },
+    "zach werenski": {
+     "name": "Zach Werenski",
+     "num": 8,
+     "team": "CBJ",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1171
+    },
+    "ivan provorov": {
+     "name": "Ivan Provorov",
+     "num": 9,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1272
+    },
+    "dante fabbro": {
+     "name": "Dante Fabbro",
+     "num": 15,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 753
+    },
+    "erik gudbranson": {
+     "name": "Erik Gudbranson",
+     "num": 44,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 723
+    },
+    "damon severson": {
+     "name": "Damon Severson",
+     "num": 78,
+     "team": "CBJ",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1002
+    }
+   }
+  },
+  "BUF@PHI": {
+   "game_id": 2026020337,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T00:00:00Z",
+   "last_period": "REG",
+   "home": "PHI",
+   "away": "BUF",
+   "home_score": 4,
+   "away_score": 3,
+   "p1_home": 0,
+   "p1_away": 1,
+   "players": {
+    "travis konecny": {
+     "name": "Travis Konecny",
+     "num": 11,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 863
+    },
+    "sean couturier": {
+     "name": "Sean Couturier",
+     "num": 14,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 988
+    },
+    "christian dvorak": {
+     "name": "Christian Dvorak",
+     "num": 22,
+     "team": "PHI",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 4,
+     "toi_sec": 997
+    },
+    "noah cates": {
+     "name": "Noah Cates",
+     "num": 27,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 780
+    },
+    "matvei michkov": {
+     "name": "Matvei Michkov",
+     "num": 39,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 1,
+     "toi_sec": 979
+    },
+    "trevor zegras": {
+     "name": "Trevor Zegras",
+     "num": 46,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 924
+    },
+    "noel acciari": {
+     "name": "Noel Acciari",
+     "num": 52,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 974
+    },
+    "cole knuble": {
+     "name": "Cole Knuble",
+     "num": 54,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 750
+    },
+    "tyson foerster": {
+     "name": "Tyson Foerster",
+     "num": 71,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 890
+    },
+    "owen tippett": {
+     "name": "Owen Tippett",
+     "num": 74,
+     "team": "PHI",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 4,
+     "toi_sec": 889
+    },
+    "denver barkey": {
+     "name": "Denver Barkey",
+     "num": 86,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 859
+    },
+    "porter martone": {
+     "name": "Porter Martone",
+     "num": 94,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 4,
+     "toi_sec": 880
+    },
+    "travis sanheim": {
+     "name": "Travis Sanheim",
+     "num": 6,
+     "team": "PHI",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1536
+    },
+    "cam york": {
+     "name": "Cam York",
+     "num": 8,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1031
+    },
+    "jamie drysdale": {
+     "name": "Jamie Drysdale",
+     "num": 9,
+     "team": "PHI",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 1370
+    },
+    "nick seeler": {
+     "name": "Nick Seeler",
+     "num": 24,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 906
+    },
+    "rasmus ristolainen": {
+     "name": "Rasmus Ristolainen",
+     "num": 55,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1129
+    },
+    "oliver bonk": {
+     "name": "Oliver Bonk",
+     "num": 59,
+     "team": "PHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1015
+    },
+    "zach benson": {
+     "name": "Zach Benson",
+     "num": 6,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1250
+    },
+    "josh norris": {
+     "name": "Josh Norris",
+     "num": 9,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1008
+    },
+    "jason zucker": {
+     "name": "Jason Zucker",
+     "num": 17,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 462
+    },
+    "peyton krebs": {
+     "name": "Peyton Krebs",
+     "num": 19,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 910
+    },
+    "jiri kulich": {
+     "name": "Jiri Kulich",
+     "num": 20,
+     "team": "BUF",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 895
+    },
+    "jack quinn": {
+     "name": "Jack Quinn",
+     "num": 22,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 5,
+     "toi_sec": 1077
+    },
+    "beck malenstyn": {
+     "name": "Beck Malenstyn",
+     "num": 29,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 596
+    },
+    "tyson kozak": {
+     "name": "Tyson Kozak",
+     "num": 48,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 554
+    },
+    "ryan mcleod": {
+     "name": "Ryan McLeod",
+     "num": 71,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 951
+    },
+    "tage thompson": {
+     "name": "Tage Thompson",
+     "num": 72,
+     "team": "BUF",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 6,
+     "toi_sec": 1212
+    },
+    "noah ostlund": {
+     "name": "Noah Ostlund",
+     "num": 86,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 797
+    },
+    "josh doan": {
+     "name": "Josh Doan",
+     "num": 91,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1014
+    },
+    "olen zellweger": {
+     "name": "Olen Zellweger",
+     "num": 8,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 916
+    },
+    "conor timmins": {
+     "name": "Conor Timmins",
+     "num": 21,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1058
+    },
+    "mattias samuelsson": {
+     "name": "Mattias Samuelsson",
+     "num": 23,
+     "team": "BUF",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1319
+    },
+    "owen power": {
+     "name": "Owen Power",
+     "num": 25,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1300
+    },
+    "rasmus dahlin": {
+     "name": "Rasmus Dahlin",
+     "num": 26,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1576
+    },
+    "zach metsa": {
+     "name": "Zach Metsa",
+     "num": 73,
+     "team": "BUF",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 878
+    }
+   }
+  },
+  "OTT@WPG": {
+   "game_id": 2026020341,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T00:00:00Z",
+   "last_period": "REG",
+   "home": "WPG",
+   "away": "OTT",
+   "home_score": 1,
+   "away_score": 2,
+   "p1_home": 0,
+   "p1_away": 0,
+   "players": {
+    "alex iafallo": {
+     "name": "Alex Iafallo",
+     "num": 9,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 859
+    },
+    "gabriel vilardi": {
+     "name": "Gabriel Vilardi",
+     "num": 13,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1174
+    },
+    "adam lowry": {
+     "name": "Adam Lowry",
+     "num": 17,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 942
+    },
+    "dawson mercer": {
+     "name": "Dawson Mercer",
+     "num": 19,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1055
+    },
+    "brayden yager": {
+     "name": "Brayden Yager",
+     "num": 29,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 628
+    },
+    "morgan barron": {
+     "name": "Morgan Barron",
+     "num": 36,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 718
+    },
+    "cole koepke": {
+     "name": "Cole Koepke",
+     "num": 45,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 397
+    },
+    "danil zhilkin": {
+     "name": "Danil Zhilkin",
+     "num": 53,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 280
+    },
+    "mark scheifele": {
+     "name": "Mark Scheifele",
+     "num": 55,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1354
+    },
+    "viggo bjorck": {
+     "name": "Viggo Bj\u00f6rck",
+     "num": 61,
+     "team": "WPG",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 897
+    },
+    "kyle connor": {
+     "name": "Kyle Connor",
+     "num": 81,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 8,
+     "toi_sec": 1358
+    },
+    "cole perfetti": {
+     "name": "Cole Perfetti",
+     "num": 91,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1030
+    },
+    "neal pionk": {
+     "name": "Neal Pionk",
+     "num": 4,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1477
+    },
+    "henry thrun": {
+     "name": "Henry Thrun",
+     "num": 8,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 808
+    },
+    "mario ferraro": {
+     "name": "Mario Ferraro",
+     "num": 38,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1346
+    },
+    "josh morrissey": {
+     "name": "Josh Morrissey",
+     "num": 44,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1555
+    },
+    "dylan samberg": {
+     "name": "Dylan Samberg",
+     "num": 54,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1348
+    },
+    "tyrel bauer": {
+     "name": "Tyrel Bauer",
+     "num": 77,
+     "team": "WPG",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 629
+    },
+    "shane pinto": {
+     "name": "Shane Pinto",
+     "num": 12,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1197
+    },
+    "tim stutzle": {
+     "name": "Tim St\u00fctzle",
+     "num": 18,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1265
+    },
+    "drake batherson": {
+     "name": "Drake Batherson",
+     "num": 19,
+     "team": "OTT",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1030
+    },
+    "fabian zetterlund": {
+     "name": "Fabian Zetterlund",
+     "num": 20,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 956
+    },
+    "michael amadio": {
+     "name": "Michael Amadio",
+     "num": 22,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 968
+    },
+    "dylan cozens": {
+     "name": "Dylan Cozens",
+     "num": 24,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1039
+    },
+    "claude giroux": {
+     "name": "Claude Giroux",
+     "num": 28,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1156
+    },
+    "stephen halliday": {
+     "name": "Stephen Halliday",
+     "num": 34,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 662
+    },
+    "tyler boucher": {
+     "name": "Tyler Boucher",
+     "num": 54,
+     "team": "OTT",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 373
+    },
+    "philip tomasino": {
+     "name": "Philip Tomasino",
+     "num": 62,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 618
+    },
+    "ridly greig": {
+     "name": "Ridly Greig",
+     "num": 71,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 5,
+     "toi_sec": 1159
+    },
+    "sammy blais": {
+     "name": "Sammy Blais",
+     "num": 79,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 490
+    },
+    "artem zub": {
+     "name": "Artem Zub",
+     "num": 2,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1268
+    },
+    "jordan spence": {
+     "name": "Jordan Spence",
+     "num": 10,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1239
+    },
+    "nikolas matinpalo": {
+     "name": "Nikolas Matinpalo",
+     "num": 33,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 901
+    },
+    "tyler kleven": {
+     "name": "Tyler Kleven",
+     "num": 43,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 967
+    },
+    "thomas chabot": {
+     "name": "Thomas Chabot",
+     "num": 72,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1186
+    },
+    "jake sanderson": {
+     "name": "Jake Sanderson",
+     "num": 85,
+     "team": "OTT",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1479
+    }
+   }
+  },
+  "WSH@TBL": {
+   "game_id": 2026020334,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T00:30:00Z",
+   "last_period": "REG",
+   "home": "TBL",
+   "away": "WSH",
+   "home_score": 5,
+   "away_score": 2,
+   "p1_home": 3,
+   "p1_away": 1,
+   "players": {
+    "brayden point": {
+     "name": "Brayden Point",
+     "num": 21,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1188
+    },
+    "sam o reilly": {
+     "name": "Sam O'Reilly",
+     "num": 23,
+     "team": "TBL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 803
+    },
+    "jeffrey viel": {
+     "name": "Jeffrey Viel",
+     "num": 25,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 4,
+     "toi_sec": 701
+    },
+    "zemgus girgensons": {
+     "name": "Zemgus Girgensons",
+     "num": 28,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 257
+    },
+    "pontus holmberg": {
+     "name": "Pontus Holmberg",
+     "num": 29,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1022
+    },
+    "yanni gourde": {
+     "name": "Yanni Gourde",
+     "num": 37,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 961
+    },
+    "scott sabourin": {
+     "name": "Scott Sabourin",
+     "num": 49,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 625
+    },
+    "jake guentzel": {
+     "name": "Jake Guentzel",
+     "num": 59,
+     "team": "TBL",
+     "goals": 2,
+     "assists": 0,
+     "points": 2,
+     "sog": 4,
+     "toi_sec": 1320
+    },
+    "anthony cirelli": {
+     "name": "Anthony Cirelli",
+     "num": 71,
+     "team": "TBL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 972
+    },
+    "nikita kucherov": {
+     "name": "Nikita Kucherov",
+     "num": 86,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 3,
+     "toi_sec": 1046
+    },
+    "gage goncalves": {
+     "name": "Gage Goncalves",
+     "num": 93,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 930
+    },
+    "ilya mikheyev": {
+     "name": "Ilya Mikheyev",
+     "num": 95,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 957
+    },
+    "ryan mcdonagh": {
+     "name": "Ryan McDonagh",
+     "num": 27,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1113
+    },
+    "charle edouard d astous": {
+     "name": "Charle-Edouard D'Astous",
+     "num": 51,
+     "team": "TBL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1148
+    },
+    "john carlson": {
+     "name": "John Carlson",
+     "num": 74,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 3,
+     "points": 3,
+     "sog": 1,
+     "toi_sec": 1173
+    },
+    "victor hedman": {
+     "name": "Victor Hedman",
+     "num": 77,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1263
+    },
+    "erik cernak": {
+     "name": "Erik Cernak",
+     "num": 81,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1024
+    },
+    "j j moser": {
+     "name": "J.J. Moser",
+     "num": 90,
+     "team": "TBL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1377
+    },
+    "alex ovechkin": {
+     "name": "Alex Ovechkin",
+     "num": 8,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 853
+    },
+    "ryan leonard": {
+     "name": "Ryan Leonard",
+     "num": 9,
+     "team": "WSH",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 804
+    },
+    "dylan strome": {
+     "name": "Dylan Strome",
+     "num": 17,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 929
+    },
+    "aliaksei protas": {
+     "name": "Aliaksei Protas",
+     "num": 21,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 4,
+     "toi_sec": 952
+    },
+    "boone jenner": {
+     "name": "Boone Jenner",
+     "num": 22,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 728
+    },
+    "jordan kyrou": {
+     "name": "Jordan Kyrou",
+     "num": 25,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 797
+    },
+    "justin sourdif": {
+     "name": "Justin Sourdif",
+     "num": 34,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1181
+    },
+    "tom wilson": {
+     "name": "Tom Wilson",
+     "num": 43,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 862
+    },
+    "ilya protas": {
+     "name": "Ilya Protas",
+     "num": 62,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1038
+    },
+    "anthony beauvillier": {
+     "name": "Anthony Beauvillier",
+     "num": 72,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 713
+    },
+    "pierre luc dubois": {
+     "name": "Pierre-Luc Dubois",
+     "num": 80,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 974
+    },
+    "alex tuch": {
+     "name": "Alex Tuch",
+     "num": 89,
+     "team": "WSH",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 990
+    },
+    "matt roy": {
+     "name": "Matt Roy",
+     "num": 3,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1238
+    },
+    "jakob chychrun": {
+     "name": "Jakob Chychrun",
+     "num": 6,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 4,
+     "toi_sec": 1306
+    },
+    "timothy liljegren": {
+     "name": "Timothy Liljegren",
+     "num": 27,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 999
+    },
+    "jack st ivany": {
+     "name": "Jack St. Ivany",
+     "num": 29,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1196
+    },
+    "martin fehervary": {
+     "name": "Martin Feh\u00e9rv\u00e1ry",
+     "num": 42,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1050
+    },
+    "cole hutson": {
+     "name": "Cole Hutson",
+     "num": 44,
+     "team": "WSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1288
+    }
+   }
+  },
+  "TOR@CHI": {
+   "game_id": 2026020338,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T00:30:00Z",
+   "last_period": "REG",
+   "home": "CHI",
+   "away": "TOR",
+   "home_score": 6,
+   "away_score": 3,
+   "p1_home": 0,
+   "p1_away": 1,
+   "players": {
+    "ryan donato": {
+     "name": "Ryan Donato",
+     "num": 8,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 575
+    },
+    "oliver moore": {
+     "name": "Oliver Moore",
+     "num": 11,
+     "team": "CHI",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 723
+    },
+    "anton frondell": {
+     "name": "Anton Frondell",
+     "num": 16,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 842
+    },
+    "ryan greene": {
+     "name": "Ryan Greene",
+     "num": 20,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 972
+    },
+    "cole smith": {
+     "name": "Cole Smith",
+     "num": 22,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1109
+    },
+    "andrew mangiapane": {
+     "name": "Andrew Mangiapane",
+     "num": 26,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 687
+    },
+    "tyler bertuzzi": {
+     "name": "Tyler Bertuzzi",
+     "num": 59,
+     "team": "CHI",
+     "goals": 2,
+     "assists": 1,
+     "points": 3,
+     "sog": 3,
+     "toi_sec": 934
+    },
+    "roman kantserov": {
+     "name": "Roman Kantserov",
+     "num": 80,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1022
+    },
+    "teuvo teravainen": {
+     "name": "Teuvo Teravainen",
+     "num": 86,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 857
+    },
+    "patrick kane": {
+     "name": "Patrick Kane",
+     "num": 88,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1056
+    },
+    "frank nazar": {
+     "name": "Frank Nazar",
+     "num": 91,
+     "team": "CHI",
+     "goals": 2,
+     "assists": 0,
+     "points": 2,
+     "sog": 3,
+     "toi_sec": 1216
+    },
+    "connor bedard": {
+     "name": "Connor Bedard",
+     "num": 98,
+     "team": "CHI",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 721
+    },
+    "sam rinzel": {
+     "name": "Sam Rinzel",
+     "num": 6,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 3,
+     "points": 3,
+     "sog": 1,
+     "toi_sec": 1309
+    },
+    "ian cole": {
+     "name": "Ian Cole",
+     "num": 28,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1277
+    },
+    "ethan del mastro": {
+     "name": "Ethan Del Mastro",
+     "num": 38,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 793
+    },
+    "wyatt kaiser": {
+     "name": "Wyatt Kaiser",
+     "num": 44,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1081
+    },
+    "artyom levshunov": {
+     "name": "Artyom Levshunov",
+     "num": 55,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1162
+    },
+    "alex vlasic": {
+     "name": "Alex Vlasic",
+     "num": 72,
+     "team": "CHI",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1304
+    },
+    "zack macewen": {
+     "name": "Zack MacEwen",
+     "num": 19,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 571
+    },
+    "nick paul": {
+     "name": "Nick Paul",
+     "num": 20,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 981
+    },
+    "brandon duhaime": {
+     "name": "Brandon Duhaime",
+     "num": 24,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 653
+    },
+    "auston matthews": {
+     "name": "Auston Matthews",
+     "num": 34,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 6,
+     "toi_sec": 1312
+    },
+    "easton cowan": {
+     "name": "Easton Cowan",
+     "num": 53,
+     "team": "TOR",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1229
+    },
+    "teddy blueger": {
+     "name": "Teddy Blueger",
+     "num": 73,
+     "team": "TOR",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 683
+    },
+    "ryan tverberg": {
+     "name": "Ryan Tverberg",
+     "num": 77,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 612
+    },
+    "dakota joshua": {
+     "name": "Dakota Joshua",
+     "num": 81,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 645
+    },
+    "william nylander": {
+     "name": "William Nylander",
+     "num": 88,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1067
+    },
+    "john tavares": {
+     "name": "John Tavares",
+     "num": 91,
+     "team": "TOR",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 5,
+     "toi_sec": 932
+    },
+    "gavin mckenna": {
+     "name": "Gavin McKenna",
+     "num": 92,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 845
+    },
+    "jack roslovic": {
+     "name": "Jack Roslovic",
+     "num": 96,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1175
+    },
+    "chris tanev": {
+     "name": "Chris Tanev",
+     "num": 8,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1080
+    },
+    "jake mccabe": {
+     "name": "Jake McCabe",
+     "num": 22,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1199
+    },
+    "troy stecher": {
+     "name": "Troy Stecher",
+     "num": 28,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1162
+    },
+    "darren raddysh": {
+     "name": "Darren Raddysh",
+     "num": 43,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1183
+    },
+    "morgan rielly": {
+     "name": "Morgan Rielly",
+     "num": 44,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1292
+    },
+    "oliver ekman larsson": {
+     "name": "Oliver Ekman-Larsson",
+     "num": 95,
+     "team": "TOR",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1078
+    }
+   }
+  },
+  "ANA@STL": {
+   "game_id": 2026020339,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T01:00:00Z",
+   "last_period": "REG",
+   "home": "STL",
+   "away": "ANA",
+   "home_score": 8,
+   "away_score": 6,
+   "p1_home": 2,
+   "p1_away": 1,
+   "players": {
+    "alexey toropchenko": {
+     "name": "Alexey Toropchenko",
+     "num": 13,
+     "team": "STL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 735
+    },
+    "dalibor dvorsky": {
+     "name": "Dalibor Dvorsky",
+     "num": 15,
+     "team": "STL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 631
+    },
+    "robert thomas": {
+     "name": "Robert Thomas",
+     "num": 18,
+     "team": "STL",
+     "goals": 1,
+     "assists": 2,
+     "points": 3,
+     "sog": 2,
+     "toi_sec": 1015
+    },
+    "jimmy snuggerud": {
+     "name": "Jimmy Snuggerud",
+     "num": 21,
+     "team": "STL",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 906
+    },
+    "pius suter": {
+     "name": "Pius Suter",
+     "num": 22,
+     "team": "STL",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 786
+    },
+    "jonatan berggren": {
+     "name": "Jonatan Berggren",
+     "num": 29,
+     "team": "STL",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 870
+    },
+    "aleksanteri kaskimaki": {
+     "name": "Aleksanteri Kaskimaki",
+     "num": 41,
+     "team": "STL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 852
+    },
+    "jake neighbours": {
+     "name": "Jake Neighbours",
+     "num": 63,
+     "team": "STL",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 5,
+     "toi_sec": 867
+    },
+    "connor mcmichael": {
+     "name": "Connor McMichael",
+     "num": 77,
+     "team": "STL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 5,
+     "toi_sec": 922
+    },
+    "dylan holloway": {
+     "name": "Dylan Holloway",
+     "num": 81,
+     "team": "STL",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1069
+    },
+    "mason mctavish": {
+     "name": "Mason McTavish",
+     "num": 83,
+     "team": "STL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1053
+    },
+    "pavel buchnevich": {
+     "name": "Pavel Buchnevich",
+     "num": 89,
+     "team": "STL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1021
+    },
+    "philip broberg": {
+     "name": "Philip Broberg",
+     "num": 6,
+     "team": "STL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1513
+    },
+    "cam fowler": {
+     "name": "Cam Fowler",
+     "num": 17,
+     "team": "STL",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1116
+    },
+    "logan mailloux": {
+     "name": "Logan Mailloux",
+     "num": 23,
+     "team": "STL",
+     "goals": 1,
+     "assists": 2,
+     "points": 3,
+     "sog": 3,
+     "toi_sec": 1148
+    },
+    "brandon carlo": {
+     "name": "Brandon Carlo",
+     "num": 25,
+     "team": "STL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1230
+    },
+    "colton parayko": {
+     "name": "Colton Parayko",
+     "num": 55,
+     "team": "STL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1063
+    },
+    "justin barron": {
+     "name": "Justin Barron",
+     "num": 72,
+     "team": "STL",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 0,
+     "toi_sec": 901
+    },
+    "sam colangelo": {
+     "name": "Sam Colangelo",
+     "num": 12,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 666
+    },
+    "nikita nesterenko": {
+     "name": "Nikita Nesterenko",
+     "num": 13,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 760
+    },
+    "alex killorn": {
+     "name": "Alex Killorn",
+     "num": 17,
+     "team": "ANA",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 661
+    },
+    "troy terry": {
+     "name": "Troy Terry",
+     "num": 19,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 884
+    },
+    "judd caulfield": {
+     "name": "Judd Caulfield",
+     "num": 28,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1311
+    },
+    "jeff malott": {
+     "name": "Jeff Malott",
+     "num": 39,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 799
+    },
+    "tim washe": {
+     "name": "Tim Washe",
+     "num": 42,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 616
+    },
+    "cutter gauthier": {
+     "name": "Cutter Gauthier",
+     "num": 61,
+     "team": "ANA",
+     "goals": 3,
+     "assists": 1,
+     "points": 4,
+     "sog": 8,
+     "toi_sec": 1434
+    },
+    "mikael granlund": {
+     "name": "Mikael Granlund",
+     "num": 64,
+     "team": "ANA",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 3,
+     "toi_sec": 1508
+    },
+    "leo carlsson": {
+     "name": "Leo Carlsson",
+     "num": 91,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1576
+    },
+    "roger mcqueen": {
+     "name": "Roger McQueen",
+     "num": 95,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 790
+    },
+    "jackson lacombe": {
+     "name": "Jackson LaCombe",
+     "num": 2,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 3,
+     "points": 3,
+     "sog": 2,
+     "toi_sec": 1511
+    },
+    "ian moore": {
+     "name": "Ian Moore",
+     "num": 3,
+     "team": "ANA",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 999
+    },
+    "drew helleson": {
+     "name": "Drew Helleson",
+     "num": 14,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 792
+    },
+    "noah warren": {
+     "name": "Noah Warren",
+     "num": 47,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 577
+    },
+    "tyson hinds": {
+     "name": "Tyson Hinds",
+     "num": 55,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 683
+    },
+    "tristan luneau": {
+     "name": "Tristan Luneau",
+     "num": 67,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1141
+    },
+    "pavel mintyukov": {
+     "name": "Pavel Mintyukov",
+     "num": 98,
+     "team": "ANA",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1153
+    }
+   }
+  },
+  "NSH@MIN": {
+   "game_id": 2026020340,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T01:00:00Z",
+   "last_period": "REG",
+   "home": "MIN",
+   "away": "NSH",
+   "home_score": 7,
+   "away_score": 3,
+   "p1_home": 4,
+   "p1_away": 0,
+   "players": {
+    "bobby brink": {
+     "name": "Bobby Brink",
+     "num": 10,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 921
+    },
+    "matt boldy": {
+     "name": "Matt Boldy",
+     "num": 12,
+     "team": "MIN",
+     "goals": 2,
+     "assists": 1,
+     "points": 3,
+     "sog": 3,
+     "toi_sec": 1163
+    },
+    "yakov trenin": {
+     "name": "Yakov Trenin",
+     "num": 13,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 726
+    },
+    "joel eriksson ek": {
+     "name": "Joel Eriksson Ek",
+     "num": 14,
+     "team": "MIN",
+     "goals": 1,
+     "assists": 3,
+     "points": 4,
+     "sog": 5,
+     "toi_sec": 972
+    },
+    "marcus foligno": {
+     "name": "Marcus Foligno",
+     "num": 17,
+     "team": "MIN",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 755
+    },
+    "blake coleman": {
+     "name": "Blake Coleman",
+     "num": 20,
+     "team": "MIN",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1011
+    },
+    "danila yurov": {
+     "name": "Danila Yurov",
+     "num": 22,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 777
+    },
+    "ryan hartman": {
+     "name": "Ryan Hartman",
+     "num": 38,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 816
+    },
+    "michael mccarron": {
+     "name": "Michael McCarron",
+     "num": 47,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1047
+    },
+    "maxim shabanov": {
+     "name": "Maxim Shabanov",
+     "num": 49,
+     "team": "MIN",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 822
+    },
+    "nick foligno": {
+     "name": "Nick Foligno",
+     "num": 71,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 767
+    },
+    "kirill kaprizov": {
+     "name": "Kirill Kaprizov",
+     "num": 97,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 3,
+     "points": 3,
+     "sog": 3,
+     "toi_sec": 1092
+    },
+    "brock faber": {
+     "name": "Brock Faber",
+     "num": 7,
+     "team": "MIN",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1391
+    },
+    "zach bogosian": {
+     "name": "Zach Bogosian",
+     "num": 24,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 797
+    },
+    "jonas brodin": {
+     "name": "Jonas Brodin",
+     "num": 25,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1186
+    },
+    "matt kiersted": {
+     "name": "Matt Kiersted",
+     "num": 26,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 848
+    },
+    "quinn hughes": {
+     "name": "Quinn Hughes",
+     "num": 43,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 1590
+    },
+    "jared spurgeon": {
+     "name": "Jared Spurgeon",
+     "num": 46,
+     "team": "MIN",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 1079
+    },
+    "filip forsberg": {
+     "name": "Filip Forsberg",
+     "num": 9,
+     "team": "NSH",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1061
+    },
+    "alexander kerfoot": {
+     "name": "Alexander Kerfoot",
+     "num": 14,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1021
+    },
+    "shane wright": {
+     "name": "Shane Wright",
+     "num": 15,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 804
+    },
+    "jack drury": {
+     "name": "Jack Drury",
+     "num": 18,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 966
+    },
+    "nils hoglander": {
+     "name": "Nils Hoglander",
+     "num": 21,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 782
+    },
+    "mavrik bourque": {
+     "name": "Mavrik Bourque",
+     "num": 22,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 661
+    },
+    "reid schaefer": {
+     "name": "Reid Schaefer",
+     "num": 49,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 799
+    },
+    "ross colton": {
+     "name": "Ross Colton",
+     "num": 79,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 700
+    },
+    "jonathan marchessault": {
+     "name": "Jonathan Marchessault",
+     "num": 81,
+     "team": "NSH",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1027
+    },
+    "adam edstrom": {
+     "name": "Adam Edstrom",
+     "num": 84,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 849
+    },
+    "ryan o reilly": {
+     "name": "Ryan O'Reilly",
+     "num": 90,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1108
+    },
+    "steven stamkos": {
+     "name": "Steven Stamkos",
+     "num": 91,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 889
+    },
+    "adam wilsby": {
+     "name": "Adam Wilsby",
+     "num": 2,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1076
+    },
+    "jayden struble": {
+     "name": "Jayden Struble",
+     "num": 3,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1126
+    },
+    "nicolas hague": {
+     "name": "Nicolas Hague",
+     "num": 41,
+     "team": "NSH",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 1,
+     "toi_sec": 1048
+    },
+    "nick perbix": {
+     "name": "Nick Perbix",
+     "num": 48,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1222
+    },
+    "roman josi": {
+     "name": "Roman Josi",
+     "num": 59,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1227
+    },
+    "brady skjei": {
+     "name": "Brady Skjei",
+     "num": 76,
+     "team": "NSH",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1304
+    }
+   }
+  },
+  "DAL@VGK": {
+   "game_id": 2026020342,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T03:00:00Z",
+   "last_period": "OT",
+   "home": "VGK",
+   "away": "DAL",
+   "home_score": 3,
+   "away_score": 4,
+   "p1_home": 0,
+   "p1_away": 0,
+   "players": {
+    "jack eichel": {
+     "name": "Jack Eichel",
+     "num": 9,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1476
+    },
+    "brett howden": {
+     "name": "Brett Howden",
+     "num": 21,
+     "team": "VGK",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 924
+    },
+    "trevor connelly": {
+     "name": "Trevor Connelly",
+     "num": 24,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 6,
+     "toi_sec": 1008
+    },
+    "nic dowd": {
+     "name": "Nic Dowd",
+     "num": 26,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 493
+    },
+    "raphael lavoie": {
+     "name": "Raphael Lavoie",
+     "num": 36,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 443
+    },
+    "braeden bowman": {
+     "name": "Braeden Bowman",
+     "num": 42,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 706
+    },
+    "tomas hertl": {
+     "name": "Tomas Hertl",
+     "num": 48,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1008
+    },
+    "ivan barbashev": {
+     "name": "Ivan Barbashev",
+     "num": 49,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 874
+    },
+    "mark stone": {
+     "name": "Mark Stone",
+     "num": 61,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1411
+    },
+    "william karlsson": {
+     "name": "William Karlsson",
+     "num": 71,
+     "team": "VGK",
+     "goals": 2,
+     "assists": 0,
+     "points": 2,
+     "sog": 4,
+     "toi_sec": 1158
+    },
+    "mitch marner": {
+     "name": "Mitch Marner",
+     "num": 93,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 1366
+    },
+    "victor olofsson": {
+     "name": "Victor Olofsson",
+     "num": 95,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1051
+    },
+    "brayden mcnabb": {
+     "name": "Brayden McNabb",
+     "num": 3,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1221
+    },
+    "rasmus andersson": {
+     "name": "Rasmus Andersson",
+     "num": 4,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 5,
+     "toi_sec": 1283
+    },
+    "jeremy lauzon": {
+     "name": "Jeremy Lauzon",
+     "num": 5,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1069
+    },
+    "shea theodore": {
+     "name": "Shea Theodore",
+     "num": 27,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1324
+    },
+    "parker wotherspoon": {
+     "name": "Parker Wotherspoon",
+     "num": 29,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 968
+    },
+    "dylan coghlan": {
+     "name": "Dylan Coghlan",
+     "num": 52,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 628
+    },
+    "radek faksa": {
+     "name": "Radek Faksa",
+     "num": 12,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 842
+    },
+    "jamie benn": {
+     "name": "Jamie Benn",
+     "num": 14,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 623
+    },
+    "colin blackwell": {
+     "name": "Colin Blackwell",
+     "num": 15,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 687
+    },
+    "david perron": {
+     "name": "David Perron",
+     "num": 16,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 559
+    },
+    "sam steel": {
+     "name": "Sam Steel",
+     "num": 18,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 914
+    },
+    "jason robertson": {
+     "name": "Jason Robertson",
+     "num": 21,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 3,
+     "toi_sec": 1423
+    },
+    "roope hintz": {
+     "name": "Roope Hintz",
+     "num": 24,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 0,
+     "toi_sec": 964
+    },
+    "arttu hyry": {
+     "name": "Arttu Hyry",
+     "num": 25,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 747
+    },
+    "justin hryckowian": {
+     "name": "Justin Hryckowian",
+     "num": 49,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 863
+    },
+    "wyatt johnston": {
+     "name": "Wyatt Johnston",
+     "num": 53,
+     "team": "DAL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1240
+    },
+    "tyler seguin": {
+     "name": "Tyler Seguin",
+     "num": 91,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 826
+    },
+    "mikko rantanen": {
+     "name": "Mikko Rantanen",
+     "num": 96,
+     "team": "DAL",
+     "goals": 1,
+     "assists": 3,
+     "points": 4,
+     "sog": 5,
+     "toi_sec": 1464
+    },
+    "miro heiskanen": {
+     "name": "Miro Heiskanen",
+     "num": 4,
+     "team": "DAL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1604
+    },
+    "nils lundkvist": {
+     "name": "Nils Lundkvist",
+     "num": 5,
+     "team": "DAL",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1039
+    },
+    "esa lindell": {
+     "name": "Esa Lindell",
+     "num": 23,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1454
+    },
+    "trey taylor": {
+     "name": "Trey Taylor",
+     "num": 27,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 653
+    },
+    "kyle burroughs": {
+     "name": "Kyle Burroughs",
+     "num": 28,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 708
+    },
+    "thomas harley": {
+     "name": "Thomas Harley",
+     "num": 55,
+     "team": "DAL",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1578
+    }
+   }
+  },
+  "CGY@SJS": {
+   "game_id": 2026020343,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-18T03:00:00Z",
+   "last_period": "REG",
+   "home": "SJS",
+   "away": "CGY",
+   "home_score": 2,
+   "away_score": 5,
+   "p1_home": 1,
+   "p1_away": 2,
+   "players": {
+    "will smith": {
+     "name": "Will Smith",
+     "num": 2,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1101
+    },
+    "ty dellandrea": {
+     "name": "Ty Dellandrea",
+     "num": 10,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 656
+    },
+    "alexander wennberg": {
+     "name": "Alexander Wennberg",
+     "num": 21,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1274
+    },
+    "barclay goodrow": {
+     "name": "Barclay Goodrow",
+     "num": 23,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 640
+    },
+    "mason marchment": {
+     "name": "Mason Marchment",
+     "num": 27,
+     "team": "SJS",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 2,
+     "toi_sec": 1219
+    },
+    "ivar stenberg": {
+     "name": "Ivar Stenberg",
+     "num": 41,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1187
+    },
+    "collin graf": {
+     "name": "Collin Graf",
+     "num": 51,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 888
+    },
+    "zack ostapchuk": {
+     "name": "Zack Ostapchuk",
+     "num": 63,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 569
+    },
+    "macklin celebrini": {
+     "name": "Macklin Celebrini",
+     "num": 71,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 5,
+     "toi_sec": 1390
+    },
+    "tyler toffoli": {
+     "name": "Tyler Toffoli",
+     "num": 73,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 700
+    },
+    "michael misa": {
+     "name": "Michael Misa",
+     "num": 77,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1034
+    },
+    "adam gaudette": {
+     "name": "Adam Gaudette",
+     "num": 81,
+     "team": "SJS",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 535
+    },
+    "sam dickinson": {
+     "name": "Sam Dickinson",
+     "num": 6,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1097
+    },
+    "michael kesselring": {
+     "name": "Michael Kesselring",
+     "num": 7,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1040
+    },
+    "dmitry orlov": {
+     "name": "Dmitry Orlov",
+     "num": 9,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1248
+    },
+    "darnell nurse": {
+     "name": "Darnell Nurse",
+     "num": 25,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1270
+    },
+    "eric pohlkamp": {
+     "name": "Eric Pohlkamp",
+     "num": 48,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 893
+    },
+    "jacob trouba": {
+     "name": "Jacob Trouba",
+     "num": 65,
+     "team": "SJS",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1106
+    },
+    "mikael backlund": {
+     "name": "Mikael Backlund",
+     "num": 11,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1344
+    },
+    "morgan frost": {
+     "name": "Morgan Frost",
+     "num": 16,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 727
+    },
+    "yegor sharangovich": {
+     "name": "Yegor Sharangovich",
+     "num": 17,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 3,
+     "toi_sec": 987
+    },
+    "ryan strome": {
+     "name": "Ryan Strome",
+     "num": 22,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 0,
+     "toi_sec": 858
+    },
+    "matt coronato": {
+     "name": "Matt Coronato",
+     "num": 27,
+     "team": "CGY",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 1078
+    },
+    "jonathan castagna": {
+     "name": "Jonathan Castagna",
+     "num": 38,
+     "team": "CGY",
+     "goals": 2,
+     "assists": 0,
+     "points": 2,
+     "sog": 3,
+     "toi_sec": 813
+    },
+    "adam klapka": {
+     "name": "Adam Klapka",
+     "num": 43,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 694
+    },
+    "aydar suniev": {
+     "name": "Aydar Suniev",
+     "num": 61,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 3,
+     "toi_sec": 568
+    },
+    "maxim tsyplakov": {
+     "name": "Maxim Tsyplakov",
+     "num": 72,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 530
+    },
+    "martin pospisil": {
+     "name": "Martin Pospisil",
+     "num": 76,
+     "team": "CGY",
+     "goals": 1,
+     "assists": 1,
+     "points": 2,
+     "sog": 5,
+     "toi_sec": 761
+    },
+    "joel farabee": {
+     "name": "Joel Farabee",
+     "num": 86,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1252
+    },
+    "matvei gridin": {
+     "name": "Matvei Gridin",
+     "num": 92,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 926
+    },
+    "zayne parekh": {
+     "name": "Zayne Parekh",
+     "num": 19,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1080
+    },
+    "zach whitecloud": {
+     "name": "Zach Whitecloud",
+     "num": 28,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 1328
+    },
+    "yan kuznetsov": {
+     "name": "Yan Kuznetsov",
+     "num": 37,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1104
+    },
+    "joel hanley": {
+     "name": "Joel Hanley",
+     "num": 44,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 989
+    },
+    "jake middleton": {
+     "name": "Jake Middleton",
+     "num": 55,
+     "team": "CGY",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1422
+    },
+    "simon nemec": {
+     "name": "Simon Nemec",
+     "num": 71,
+     "team": "CGY",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1064
+    }
+   }
+  }
+ }
+}
