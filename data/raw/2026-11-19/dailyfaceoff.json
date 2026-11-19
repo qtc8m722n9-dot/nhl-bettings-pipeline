@@ -2,16 +2,16 @@
  {
   "side": "home",
   "team_name": "Ottawa Senators",
-  "goalie": "Linus Ullmark",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "goalie": "Samuel Ersson",
+  "status": "Confirmed",
+  "updated": "2026-11-19T16:23:28.048Z"
  },
  {
   "side": "away",
   "team_name": "Philadelphia Flyers",
-  "goalie": "Dan Vladar",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "goalie": "Joseph Woll",
+  "status": "Confirmed",
+  "updated": "2026-11-19T16:36:01.527Z"
  },
  {
   "side": "home",
@@ -31,8 +31,8 @@
   "side": "home",
   "team_name": "Washington Capitals",
   "goalie": "Logan Thompson",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "status": "Confirmed",
+  "updated": "2026-11-19T15:50:55.092Z"
  },
  {
   "side": "away",
@@ -45,22 +45,22 @@
   "side": "home",
   "team_name": "Pittsburgh Penguins",
   "goalie": "Arturs Silovs",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "status": "Confirmed",
+  "updated": "2026-11-19T16:22:26.211Z"
  },
  {
   "side": "away",
   "team_name": "St Louis Blues",
   "goalie": "Joel Hofer",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "status": "Confirmed",
+  "updated": "2026-11-19T17:06:58.003Z"
  },
  {
   "side": "home",
   "team_name": "Toronto Maple Leafs",
   "goalie": "Anthony Stolarz",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "status": "Confirmed",
+  "updated": "2026-11-19T15:38:14.586Z"
  },
  {
   "side": "away",
@@ -79,9 +79,9 @@
  {
   "side": "away",
   "team_name": "New York Islanders",
-  "goalie": "Ilya Sorokin",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "goalie": "Semyon Varlamov",
+  "status": "Likely",
+  "updated": "2026-11-19T16:34:03.439Z"
  },
  {
   "side": "home",
@@ -94,8 +94,8 @@
   "side": "away",
   "team_name": "Edmonton Oilers",
   "goalie": "Devon Levi",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "status": "Confirmed",
+  "updated": "2026-11-19T17:07:50.740Z"
  },
  {
   "side": "home",
@@ -108,27 +108,27 @@
   "side": "away",
   "team_name": "Columbus Blue Jackets",
   "goalie": "Cam Talbot",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "status": "Confirmed",
+  "updated": "2026-11-19T18:13:04.436Z"
  },
  {
   "side": "home",
   "team_name": "Calgary Flames",
   "goalie": "Dustin Wolf",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "status": "Confirmed",
+  "updated": "2026-11-19T16:21:33.393Z"
  },
  {
   "side": "away",
   "team_name": "Minnesota Wild",
   "goalie": "Jesper Wallstedt",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "status": "Confirmed",
+  "updated": "2026-11-19T17:41:21.009Z"
  },
  {
   "side": "home",
   "team_name": "Colorado Avalanche",
-  "goalie": "Mackenzie Blackwood",
+  "goalie": "Scott Wedgewood",
   "status": "Unconfirmed",
   "updated": "2026-11-19"
  },
@@ -143,8 +143,8 @@
   "side": "home",
   "team_name": "Seattle Kraken",
   "goalie": "Philipp Grubauer",
-  "status": "Unconfirmed",
-  "updated": "2026-11-19"
+  "status": "Likely",
+  "updated": "2026-11-19T17:44:40.883Z"
  },
  {
   "side": "away",

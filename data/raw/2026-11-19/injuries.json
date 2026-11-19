@@ -33,6 +33,14 @@
  },
  {
   "team_name": "Buffalo Sabres",
+  "player": "Mattias Samuelsson",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "Samuelsson (undisclosed) is considered a game-time decision for Thursday's road clash against the Capitals, per Paul Hamilton of WGR Sports Radio 550.",
+  "date": "2026-11-19T16:37Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
   "player": "Konsta Helenius",
   "position": "C",
   "status": "Injured Reserve",
@@ -83,9 +91,9 @@
   "team_name": "Chicago Blackhawks",
   "player": "Connor Bedard",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "Bedard is being evaluated for a shoulder injury, Emily Kaplan of ESPN reports Wednesday.",
-  "date": "2026-11-18T16:42Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-19T16:45Z"
  },
  {
   "team_name": "Chicago Blackhawks",
@@ -188,8 +196,8 @@
   "player": "William Wallinder",
   "position": "D",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-19T14:06Z"
+  "detail": "Head coach Todd McLellan said Thursday that Wallinder (upper body) is questionable for Saturday's game against the Islanders, Helene St. James of the Detroit Free Press reports.",
+  "date": "2026-11-19T17:54Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -257,6 +265,14 @@
  },
  {
   "team_name": "Florida Panthers",
+  "player": "Jonah Gadjovich",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports.",
+  "date": "2026-11-19T16:20Z"
+ },
+ {
+  "team_name": "Florida Panthers",
   "player": "Brad Marchand",
   "position": "LW",
   "status": "Injured Reserve",
@@ -272,20 +288,20 @@
   "date": "2026-11-06T16:30Z"
  },
  {
-  "team_name": "Florida Panthers",
-  "player": "Jonah Gadjovich",
+  "team_name": "Los Angeles Kings",
+  "player": "Trevor Moore",
   "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "Gadjovich (upper body) is out indefinitely, the team announced Thursday.",
-  "date": "2026-09-17T20:53Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-19T17:25Z"
  },
  {
   "team_name": "Los Angeles Kings",
   "player": "Artemi Panarin",
   "position": "LW",
   "status": "Out",
-  "detail": "out",
-  "date": "2026-11-19T13:02Z"
+  "detail": "Panarin (personal), who has been ruled out for Thursday's game against the Maple Leafs, is expected to return Saturday against the Senators, John Hoven of SiriusXM NHL Network Radio reports.",
+  "date": "2026-11-19T16:23Z"
  },
  {
   "team_name": "Los Angeles Kings",
@@ -294,6 +310,14 @@
   "status": "Injured Reserve",
   "detail": "ir-nr",
   "date": "2026-09-24T19:49Z"
+ },
+ {
+  "team_name": "Minnesota Wild",
+  "player": "Yakov Trenin",
+  "position": "C",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-19T17:45Z"
  },
  {
   "team_name": "Minnesota Wild",
@@ -315,9 +339,9 @@
   "team_name": "Montreal Canadiens",
   "player": "Zack Bolduc",
   "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "Bolduc sustained an upper-body injury Wednesday versus the Devils, and the severity remains unknown, Eric Engels of Sportsnet reports.",
-  "date": "2026-11-19T05:26Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-19T17:59Z"
  },
  {
   "team_name": "Montreal Canadiens",
@@ -404,8 +428,8 @@
   "player": "Jean-Gabriel Pageau",
   "position": "C",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-18T14:37Z"
+  "detail": "Pageau (lower body) will be a game-time call against the Jets on Thursday, Andrew Gross of Newsday reports.",
+  "date": "2026-11-19T17:04Z"
  },
  {
   "team_name": "New York Islanders",
@@ -534,6 +558,14 @@
   "status": "Injured Reserve",
   "detail": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
   "date": "2026-10-10T16:58Z"
+ },
+ {
+  "team_name": "Pittsburgh Penguins",
+  "player": "Nick Robertson",
+  "position": "LW",
+  "status": "Day-To-Day",
+  "detail": "Robertson left Thursday's morning skate early, raising doubts regarding his availability against St. Louis, Seth Rorabaugh of Tribune-Review Sports reports.",
+  "date": "2026-11-19T16:36Z"
  },
  {
   "team_name": "Pittsburgh Penguins",
@@ -667,9 +699,9 @@
   "team_name": "Tampa Bay Lightning",
   "player": "Brandon Hagel",
   "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "Hagel is considered day-to-day due to his lower-body injury, Eduardo A. Encina of the Tampa Bay Times reports Wednesday.",
-  "date": "2026-11-18T18:12Z"
+  "status": "Injured Reserve",
+  "detail": "Hagel (lower body) was placed on injured reserve by the Lightning on Thursday, retroactive to Nov. 15, Eduardo A. Encina of the Tampa Bay Times reports.",
+  "date": "2026-11-19T15:54Z"
  },
  {
   "team_name": "Tampa Bay Lightning",
@@ -849,19 +881,19 @@
  },
  {
   "team_name": "Winnipeg Jets",
+  "player": "Dylan DeMelo",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "DeMelo (lower body) is expected to be out of action for 4-6 weeks, Mitchell Clinton of the Jets' official site reports Thursday.",
+  "date": "2026-11-19T16:39Z"
+ },
+ {
+  "team_name": "Winnipeg Jets",
   "player": "Isak Rosen",
   "position": "RW",
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-11-17T15:15Z"
- },
- {
-  "team_name": "Winnipeg Jets",
-  "player": "Dylan DeMelo",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "DeMelo (lower body) was placed on injured reserve Friday.",
-  "date": "2026-11-13T16:33Z"
  },
  {
   "team_name": "Winnipeg Jets",
