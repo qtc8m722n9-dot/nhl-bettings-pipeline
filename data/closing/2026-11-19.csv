@@ -1,0 +1,41 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|MTL@CAR|player_goals|brett berard|0.5|yes,MTL@CAR,2026-11-19T18:50:00-05:00,10.0,0.06,0.08,0.07,live,,
+kalshi|MTL@CAR|player_goals|sean walker|0.5|yes,MTL@CAR,2026-11-19T18:50:00-05:00,10.0,0.08,0.09,0.08499999999999999,live,,
+kalshi|NYI@WPG|player_goals|casey cizikas|0.5|yes,NYI@WPG,2026-11-19T18:50:00-05:00,10.0,0.09,0.1,0.095,live,,
+kalshi|LAK@TOR|player_goals|teddy blueger|0.5|yes,LAK@TOR,2026-11-19T18:50:00-05:00,10.0,0.1,0.11,0.10500000000000001,live,,
+kalshi|PHI@OTT|player_goals|noel acciari|0.5|yes,PHI@OTT,2026-11-19T18:50:00-05:00,10.0,0.09,0.11,0.1,live,,
+kalshi|STL@PIT|player_goals|aleksanteri kaskimaki|0.5|yes,STL@PIT,2026-11-19T18:50:00-05:00,10.0,0.09,0.11,0.1,live,,
+kalshi|LAK@TOR|player_goals|joel armia|0.5|yes,LAK@TOR,2026-11-19T18:50:00-05:00,10.0,0.1,0.13,0.115,live,,
+kalshi|STL@PIT|player_goals|jonatan berggren|0.5|yes,STL@PIT,2026-11-19T18:50:00-05:00,10.0,0.11,0.13,0.12,live,,
+kalshi|PHI@OTT|player_goals|cole knuble|0.5|yes,PHI@OTT,2026-11-19T18:50:00-05:00,10.0,0.1,0.12,0.11,live,,
+kalshi|LAK@TOR|player_goals|darren raddysh|0.5|yes,LAK@TOR,2026-11-19T18:50:00-05:00,10.0,0.13,0.14,0.135,live,,
+kalshi|NYI@WPG|player_goals|morgan barron|0.5|yes,NYI@WPG,2026-11-19T18:50:00-05:00,10.0,0.13,0.14,0.135,live,,
+kalshi|BUF@WSH|player_goals|jiri kulich|0.5|yes,BUF@WSH,2026-11-19T18:50:00-05:00,10.0,0.16,0.17,0.165,live,,
+kalshi|BUF@WSH|player_goals|jason zucker|0.5|yes,BUF@WSH,2026-11-19T18:50:00-05:00,10.0,0.16,0.18,0.16999999999999998,live,,
+kalshi|BUF@WSH|player_goals|pierre luc dubois|0.5|yes,BUF@WSH,2026-11-19T18:50:00-05:00,10.0,0.21,0.22,0.215,live,,
+kalshi|STL@PIT|player_goals|sidney crosby|0.5|yes,STL@PIT,2026-11-19T18:50:00-05:00,10.0,0.27,0.28,0.275,live,,
+kalshi|NYI@WPG|player_goals|mark scheifele|0.5|yes,NYI@WPG,2026-11-19T18:50:00-05:00,10.0,0.33,0.34,0.335,live,,
+kalshi|MTL@CAR|player_goals|cole caufield|0.5|yes,MTL@CAR,2026-11-19T18:50:00-05:00,10.0,0.32,0.33,0.325,live,,
+underdog|LAK@TOR|player_points|john tavares|0.5|no,LAK@TOR,2026-11-19T18:50:00-05:00,10.0,,,,,0.4504960980130702,pinnacle
+underdog|PHI@OTT|player_sog|thomas chabot|1.5|yes,PHI@OTT,2026-11-19T18:50:00-05:00,10.0,,,,,0.5089623572108329,pinnacle
+underdog|NYI@WPG|player_sog|simon holmstrom|1.5|yes,NYI@WPG,2026-11-19T18:50:00-05:00,10.0,,,,,0.4787708928615623,pinnacle
+kalshi|STL@PIT|player_points|ben kindel|0.5|no,STL@PIT,2026-11-19T18:50:00-05:00,10.0,0.51,0.53,0.52,live,0.5112040114787566,pinnacle
+underdog|PHI@OTT|player_sog|thomas chabot|1.5|no,PHI@OTT,2026-11-19T18:50:00-05:00,10.0,,,,,0.49103764278916706,pinnacle
+kalshi|STL@PIT|spread|PIT|1.5|no,STL@PIT,2026-11-19T18:50:00-05:00,10.0,0.71,0.72,0.715,live,0.7134512219101921,consensus
+kalshi|MTL@CAR|player_goals|alex newhook|0.5|no,MTL@CAR,2026-11-19T18:50:00-05:00,10.0,0.83,0.84,0.835,live,,
+kalshi|BUF@WSH|team_total|BUF|1.5|yes,BUF@WSH,2026-11-19T18:50:00-05:00,10.0,0.82,0.84,0.83,live,,
+kalshi|LAK@TOR|player_points|darren raddysh|1.5|no,LAK@TOR,2026-11-19T18:50:00-05:00,10.0,0.82,0.85,0.835,live,,
+kalshi|STL@PIT|player_points|mason mctavish|1.5|no,STL@PIT,2026-11-19T18:50:00-05:00,10.0,0.81,0.86,0.835,live,,
+kalshi|PHI@OTT|player_points|travis konecny|1.5|no,PHI@OTT,2026-11-19T18:50:00-05:00,10.0,0.83,0.86,0.845,live,,
+kalshi|NYI@WPG|spread|NYI|2.5|no,NYI@WPG,2026-11-19T18:50:00-05:00,10.0,0.82,0.84,0.83,live,,
+betmgm|STL@PIT|player_sog|nick robertson|1.5|no,STL@PIT,2026-11-19T18:50:00-05:00,10.0,,,,,0.5386616051460362,pinnacle
+draftkings|PHI@OTT|player_sog|owen tippett|1.5|yes,PHI@OTT,2026-11-19T18:50:00-05:00,10.0,,,,,0.6020824329411065,pinnacle
+fanduel|NYI@WPG|player_sog|josh morrissey|1.5|no,NYI@WPG,2026-11-19T18:50:00-05:00,10.0,,,,,0.3728311768098628,pinnacle
+espnbet|STL@PIT|player_sog|mason mctavish|2.5|no,STL@PIT,2026-11-19T18:50:00-05:00,10.0,,,,,0.6161476645300307,pinnacle
+betmgm|MTL@CAR|player_sog|shayne gostisbehere|1.5|yes,MTL@CAR,2026-11-19T18:50:00-05:00,10.0,,,,,0.5616515264217609,pinnacle
+fanduel|MTL@CAR|player_sog|seth jarvis|2.5|yes,MTL@CAR,2026-11-19T18:50:00-05:00,10.0,,,,,0.40385080525541167,pinnacle
+espnbet|LAK@TOR|player_sog|gavin mckenna|1.5|no,LAK@TOR,2026-11-19T18:50:00-05:00,10.0,,,,,0.5334519735443304,pinnacle
+draftkings|BUF@WSH|player_sog|tom wilson|1.5|no,BUF@WSH,2026-11-19T18:50:00-05:00,10.0,,,,,0.4003568625763464,pinnacle
+espnbet|BUF@WSH|player_sog|ryan leonard|2.5|no,BUF@WSH,2026-11-19T18:50:00-05:00,10.0,,,,,0.5334519735443304,pinnacle
+betmgm|BUF@WSH|player_sog|jakob chychrun|2.5|no,BUF@WSH,2026-11-19T18:50:00-05:00,10.0,,,,,0.4887959885212432,pinnacle
+betrivers|MTL@CAR|player_sog|sean walker|1.5|yes,MTL@CAR,2026-11-19T18:50:00-05:00,10.0,,,,,0.5044806110005343,pinnacle
