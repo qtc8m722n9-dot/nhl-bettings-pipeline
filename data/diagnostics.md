@@ -1,17 +1,17 @@
 # Diagnostics: where the methods miss
 
-Trial period 2026-10-31 – 2026-11-17. Singles only. CLV = closing fair (or Kalshi mid) minus price paid, in percentage points; it measures the price, independent of luck. Rule of thumb: bad results with good CLV = variance; bad results with bad CLV = a real flaw. Kalshi CLV is against the mid, so buying at the ask starts about half a spread behind.
+Trial period 2026-10-31 – 2026-11-18. Singles only. CLV = closing fair (or Kalshi mid) minus price paid, in percentage points; it measures the price, independent of luck. Rule of thumb: bad results with good CLV = variance; bad results with bad CLV = a real flaw. Kalshi CLV is against the mid, so buying at the ask starts about half a spread behind.
 
 ## Flags to investigate
 
-- B0_random: market = player_points: 48 bets, CLV -3.7 pp, units +2.87
+- B0_random: market = player_points: 50 bets, CLV -3.6 pp, units +2.23
 - B0_random: market = player_sog: 24 bets, CLV -5.2 pp, units -4.24
-- B0_random: venue = underdog: 39 bets, CLV -4.6 pp, units +0.10
+- B0_random: venue = underdog: 40 bets, CLV -4.7 pp, units +0.47
 - B0_random: side_label = over: 58 bets, CLV -3.2 pp, units -0.60
-- B0_random: side_label = under: 51 bets, CLV -2.7 pp, units +3.81
+- B0_random: side_label = under: 53 bets, CLV -2.7 pp, units +3.17
 - B0_random: price_band = 45-55%: 31 bets, CLV -3.8 pp, units -5.21
 - B0_random: price_band = 55-65%: 19 bets, CLV -4.6 pp, units +1.02
-- B0_random: price_band = 65-75%: 19 bets, CLV -3.1 pp, units -3.18
+- B0_random: price_band = 65-75%: 21 bets, CLV -3.3 pp, units -2.45
 - M3_xg_model: predicted 73% in (0.7, 0.8] but hit 63% (19 bets)
 - M6_shots_v2_pickem: predicted 55% in (0.5, 0.6] but hit 28% (18 bets)
 
@@ -25,26 +25,26 @@ By market:
 | p1_result | 2 | 50.0% | 67.6% | -0.48 | -2.0 |
 | p1_total | 5 | 60.0% | 46.6% | +1.75 | -1.3 |
 | player_goals | 20 | 60.0% | 56.7% | +5.14 | -0.8 |
-| player_points | 48 | 54.2% | 50.5% | +2.87 | -3.7 |
+| player_points | 50 | 54.0% | 51.5% | +2.23 | -3.6 |
 | player_sog | 24 | 45.8% | 55.5% | -4.24 | -5.2 |
-| spread | 1 | 0.0% | 73.4% | -1.00 | -4.0 |
+| spread | 2 | 50.0% | 73.4% | -0.64 | -2.7 |
 | team_total | 12 | 33.3% | 44.6% | -2.32 | -0.6 |
 
 By venue:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| kalshi | 73 | 47.9% | 51.1% | -1.28 | -1.9 |
+| kalshi | 75 | 48.0% | 51.8% | -1.92 | -1.8 |
 | prizepicks | 4 | 75.0% | 57.7% | +1.20 | -7.3 |
-| underdog | 39 | 51.3% | 53.9% | +0.10 | -4.6 |
+| underdog | 40 | 52.5% | 54.4% | +0.47 | -4.7 |
 
 By side:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| no / dog side | 7 | 28.6% | 58.1% | -3.19 | -2.7 |
+| no / dog side | 8 | 37.5% | 60.0% | -2.83 | -2.6 |
 | over | 58 | 41.4% | 44.6% | -0.60 | -3.2 |
-| under | 51 | 62.7% | 60.2% | +3.81 | -2.7 |
+| under | 53 | 62.3% | 60.8% | +3.17 | -2.7 |
 
 By price paid:
 
@@ -54,14 +54,14 @@ By price paid:
 | 35-45% | 12 | 50.0% | 41.1% | +2.66 | -2.6 |
 | 45-55% | 31 | 41.9% | 49.8% | -5.21 | -3.8 |
 | 55-65% | 19 | 63.2% | 60.4% | +1.02 | -4.6 |
-| 65-75% | 19 | 57.9% | 69.8% | -3.18 | -3.1 |
-| >75% | 12 | 66.7% | 81.0% | -2.07 | -0.8 |
+| 65-75% | 21 | 61.9% | 70.2% | -2.45 | -3.3 |
+| >75% | 13 | 61.5% | 80.9% | -3.07 | -0.4 |
 
 By stated edge:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| nan | 116 | 50.0% | 52.3% | +0.02 | -3.0 |
+| nan | 119 | 50.4% | 52.8% | -0.26 | -2.9 |
 
 ## C1_chalk
 
@@ -69,9 +69,9 @@ By market:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| p1_total | 9 | 100.0% | 84.9% | +1.60 | -0.7 |
+| p1_total | 10 | 100.0% | 84.9% | +1.77 | -0.6 |
 | player_goals | 44 | 79.5% | 84.9% | -2.79 | -0.3 |
-| player_points | 29 | 93.1% | 84.7% | +2.87 | +0.3 |
+| player_points | 31 | 93.5% | 84.8% | +3.22 | +0.2 |
 | spread | 11 | 81.8% | 84.6% | -0.36 | -1.0 |
 | team_total | 13 | 69.2% | 84.6% | -2.38 | -1.7 |
 | total | 18 | 88.9% | 84.8% | +0.86 | -0.3 |
@@ -80,27 +80,27 @@ By venue:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| kalshi | 124 | 84.7% | 84.8% | -0.21 | -0.4 |
+| kalshi | 127 | 85.0% | 84.8% | +0.32 | -0.4 |
 
 By side:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
 | no / dog side | 11 | 81.8% | 84.6% | -0.36 | -1.0 |
-| over | 22 | 86.4% | 84.9% | +0.38 | -0.6 |
-| under | 91 | 84.6% | 84.8% | -0.23 | -0.3 |
+| over | 23 | 87.0% | 84.9% | +0.56 | -0.5 |
+| under | 93 | 84.9% | 84.8% | +0.13 | -0.3 |
 
 By price paid:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| >75% | 124 | 84.7% | 84.8% | -0.21 | -0.4 |
+| >75% | 127 | 85.0% | 84.8% | +0.32 | -0.4 |
 
 By stated edge:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| nan | 124 | 84.7% | 84.8% | -0.21 | -0.4 |
+| nan | 127 | 85.0% | 84.8% | +0.32 | -0.4 |
 
 ## M1_sharp_price
 
@@ -297,24 +297,24 @@ Calibration (does the stated probability come true?):
 
 | Predicted | n | Avg predicted | Actual |
 |---|--:|--:|--:|
-| (0.4, 0.5] | 26 | 46.2% | 46.2% |
-| (0.5, 0.6] | 51 | 54.4% | 52.9% |
-| (0.6, 0.7] | 43 | 65.2% | 67.4% |
+| (0.4, 0.5] | 27 | 46.2% | 44.4% |
+| (0.5, 0.6] | 52 | 54.5% | 51.9% |
+| (0.6, 0.7] | 44 | 65.2% | 68.2% |
 | (0.7, 0.8] | 2 | 72.2% | 50.0% |
 
 By market:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| player_sog | 122 | 56.6% | 52.5% | +9.57 | -0.1 |
+| player_sog | 125 | 56.0% | 52.5% | +8.19 | -0.1 |
 
 By venue:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| betmgm | 26 | 46.2% | 52.2% | -3.64 | -0.1 |
+| betmgm | 28 | 46.4% | 52.6% | -4.01 | -0.0 |
 | betrivers | 7 | 57.1% | 50.2% | +0.92 | +0.5 |
-| draftkings | 47 | 66.0% | 54.0% | +9.75 | -0.2 |
+| draftkings | 48 | 64.6% | 53.8% | +8.75 | -0.2 |
 | espnbet | 30 | 50.0% | 51.0% | +0.67 | +0.2 |
 | fanduel | 12 | 58.3% | 52.4% | +1.86 | -1.0 |
 
@@ -322,24 +322,24 @@ By side:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| over | 45 | 53.3% | 48.5% | +3.54 | +0.4 |
-| under | 77 | 58.4% | 54.9% | +6.03 | -0.4 |
+| over | 46 | 52.2% | 48.6% | +2.54 | +0.3 |
+| under | 79 | 58.2% | 54.8% | +5.65 | -0.4 |
 
 By price paid:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| 35-45% | 22 | 40.9% | 41.2% | -0.42 | -0.3 |
-| 45-55% | 52 | 53.8% | 49.8% | +5.00 | +0.1 |
-| 55-65% | 43 | 69.8% | 60.1% | +6.95 | -0.1 |
+| 35-45% | 23 | 39.1% | 41.3% | -1.42 | -0.5 |
+| 45-55% | 53 | 52.8% | 49.9% | +4.00 | +0.1 |
+| 55-65% | 44 | 70.5% | 60.1% | +7.58 | -0.1 |
 | 65-75% | 5 | 40.0% | 65.6% | -1.96 | -0.6 |
 
 By stated edge:
 
 | Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
 |---|--:|--:|--:|--:|--:|
-| 3-5% | 98 | 59.2% | 52.5% | +12.45 | -0.2 |
-| 5-8% | 21 | 47.6% | 52.4% | -1.57 | +0.4 |
+| 3-5% | 100 | 58.0% | 52.4% | +10.45 | -0.2 |
+| 5-8% | 22 | 50.0% | 52.8% | -0.94 | +0.4 |
 | >8% | 3 | 33.3% | 53.1% | -1.31 | -1.6 |
 
 Most confident misses:
@@ -406,17 +406,97 @@ Most confident misses:
 | 2026-11-17 | Jack Roslovic Under 2.5 shots | 58.1% | 53.5% | Jack Roslovic 3 sog |
 | 2026-11-06 | Kiefer Sherwood Over 1.5 shots | 57.3% | 53.5% | Kiefer Sherwood 1 sog |
 
+## M7_shots_under_early
+
+By market:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| player_sog | 1 | 100.0% | 51.2% | +0.95 | -4.0 |
+
+By venue:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| espnbet | 1 | 100.0% | 51.2% | +0.95 | -4.0 |
+
+By side:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| under | 1 | 100.0% | 51.2% | +0.95 | -4.0 |
+
+By price paid:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| 45-55% | 1 | 100.0% | 51.2% | +0.95 | -4.0 |
+
+By stated edge:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| <3% | 1 | 100.0% | 51.2% | +0.95 | -4.0 |
+
+## M8_scorer_price
+
+Calibration (does the stated probability come true?):
+
+| Predicted | n | Avg predicted | Actual |
+|---|--:|--:|--:|
+| (0.0, 0.4] | 5 | 13.8% | 40.0% |
+
+By market:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| player_goals | 5 | 40.0% | 10.2% | +16.97 | -0.7 |
+
+By venue:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| kalshi | 5 | 40.0% | 10.2% | +16.97 | -0.7 |
+
+By side:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| over | 5 | 40.0% | 10.2% | +16.97 | -0.7 |
+
+By price paid:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| <35% | 5 | 40.0% | 10.2% | +16.97 | -0.7 |
+
+By stated edge:
+
+| Slice | Bets | Win % | Breakeven | Units | Avg CLV pp |
+|---|--:|--:|--:|--:|--:|
+| 3-5% | 5 | 40.0% | 10.2% | +16.97 | -0.7 |
+
+Most confident misses:
+
+| Date | Pick | Stated P | Price | Detail |
+|---|---|--:|--:|---|
+| 2026-11-18 | Cody Glass Over 0.5 goals | 16.0% | 12.7% | Cody Glass 0 goals |
+| 2026-11-18 | Carter Mazur Over 0.5 goals | 13.9% | 9.6% | Carter Mazur 0 goals |
+| 2026-11-18 | Sheldon Dries Over 0.5 goals | 13.3% | 9.6% | Sheldon Dries 0 goals |
+
 ## Toward one model
 
 Goal: one final model that uses what every method has learned. The combined model takes each method's signal (game model, shots model, goalie news, sharp price, pick'em prices) plus the fair price as inputs, trained on the shadow board (every priced line, data/shadow/). It replaces the strongest single method only if it beats it out of sample on CLV and log loss. Review point: 2026-12-31, or once each live method has 300 settled singles. Single methods whose CLV interval is entirely below 0 add no value as bets, but their signals can still help the combined model.
 
 | Method | Bets | Avg CLV pp (95% CI) | ROI (95% CI) | Status |
 |---|--:|--:|--:|---|
-| M6_shots_v2 | 122 | -0.10 (-0.5, +0.3) | 7.8% (-4.3%, 21.5%) | undecided |
-| C1_chalk | 124 | -0.38 (-0.8, +0.0) | -0.2% (-8.1%, 6.4%) | undecided |
+| M6_shots_v2 | 125 | -0.12 (-0.5, +0.2) | 6.6% (-5.5%, 20.5%) | undecided |
+| C1_chalk | 127 | -0.38 (-0.8, +0.0) | 0.3% (-7.5%, 6.6%) | undecided |
 | M3_xg_model | 52 | -1.10 (-1.4, -0.8) | -15.5% (-42.1%, 10.1%) | losing to the close |
 | M2_goalie_news | 19 | -1.17 (-1.7, -0.3) | 1.1% (-43.1%, 44.8%) | losing to the close |
 | M6_shots_v2_pickem | 27 | -1.18 (-2.1, -0.1) | -26.6% (-58.7%, 10.1%) | losing to the close |
-| B0_random | 116 | -2.98 (-3.7, -2.5) | 0.0% (-13.5%, 12.6%) | losing to the close |
+| B0_random | 119 | -2.94 (-3.6, -2.4) | -0.2% (-12.2%, 12.7%) | losing to the close |
 | M4_shots_model | 11 | -5.82 (-8.4, -3.1) | -6.7% (-58.1%, 38.5%) | losing to the close |
 | M1_sharp_price | 0 | – (–, –) | – (–, –) | undecided |
+| M7_shots_under_early | 1 | -4.01 (–, –) | 95.2% (–, –) | undecided |
+| M8_scorer_price | 5 | -0.70 (–, –) | 339.4% (–, –) | undecided |
