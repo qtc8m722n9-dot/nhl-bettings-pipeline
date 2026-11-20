@@ -185,14 +185,6 @@
  },
  {
   "team_name": "Detroit Red Wings",
-  "player": "Albert Johansson",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "Johansson (undisclosed) has been ruled out for Wednesday's game against the Bruins, Ansar Khan of MLive.com reports.",
-  "date": "2026-11-18T16:14Z"
- },
- {
-  "team_name": "Detroit Red Wings",
   "player": "Dylan Larkin",
   "position": "C",
   "status": "Injured Reserve",
@@ -441,6 +433,22 @@
  },
  {
   "team_name": "New York Rangers",
+  "player": "Joe Veleno",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Veleno (lower body) skated on his own before Friday's practice session, Colin Stephenson of Newsday reports.",
+  "date": "2026-11-20T16:23Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Oliver Bjorkstrand",
+  "position": "RW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-20T16:21Z"
+ },
+ {
+  "team_name": "New York Rangers",
   "player": "Pavel Dorofeyev",
   "position": "RW",
   "status": "Day-To-Day",
@@ -473,14 +481,6 @@
  },
  {
   "team_name": "New York Rangers",
-  "player": "Joe Veleno",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Veleno (lower body) was placed on long-term injured reserve Saturday, Vince Z. Mercogliano of The Athletic reports.",
-  "date": "2026-10-10T17:18Z"
- },
- {
-  "team_name": "New York Rangers",
   "player": "Aidan Thompson",
   "position": "C",
   "status": "Injured Reserve",
@@ -494,6 +494,14 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-09-29T01:35Z"
+ },
+ {
+  "team_name": "Ottawa Senators",
+  "player": "Andre Burakovsky",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Burakovsky (lower body) was on the ice Friday doing some individual drills, Bruce Garrioch of Postmedia reports.",
+  "date": "2026-11-20T17:06Z"
  },
  {
   "team_name": "Ottawa Senators",
@@ -521,14 +529,6 @@
  },
  {
   "team_name": "Ottawa Senators",
-  "player": "Andre Burakovsky",
-  "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-31T21:35Z"
- },
- {
-  "team_name": "Ottawa Senators",
   "player": "William Eklund",
   "position": "LW",
   "status": "Injured Reserve",
@@ -545,11 +545,27 @@
  },
  {
   "team_name": "Pittsburgh Penguins",
+  "player": "Bryan Rust",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Rust (lower body) is skating in a non-contact sweater Friday, Seth Rorabaugh of Tribune-Review Sports reports.",
+  "date": "2026-11-20T16:56Z"
+ },
+ {
+  "team_name": "Pittsburgh Penguins",
+  "player": "Evgeni Malkin",
+  "position": "C",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-20T16:16Z"
+ },
+ {
+  "team_name": "Pittsburgh Penguins",
   "player": "Nick Robertson",
   "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-20T14:41Z"
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-20T16:08Z"
  },
  {
   "team_name": "Pittsburgh Penguins",
@@ -558,14 +574,6 @@
   "status": "Injured Reserve",
   "detail": "Soderblom (upper body) is week-to-week, per Penguins PR on Monday.",
   "date": "2026-11-02T15:52Z"
- },
- {
-  "team_name": "Pittsburgh Penguins",
-  "player": "Bryan Rust",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "Rust (lower body) will be re-evaluated in six weeks, Michelle Crechiolo of the Penguins' official site reports Thursday.",
-  "date": "2026-10-22T15:54Z"
  },
  {
   "team_name": "Pittsburgh Penguins",
@@ -641,6 +649,14 @@
  },
  {
   "team_name": "St. Louis Blues",
+  "player": "Connor McMichael",
+  "position": "LW",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-20T18:15Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
   "player": "Ross Johnston",
   "position": "LW",
   "status": "Day-To-Day",
@@ -697,19 +713,19 @@
  },
  {
   "team_name": "Toronto Maple Leafs",
+  "player": "Kirill Marchenko",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Marchenko (lower body) was on the ice with his teammates for Friday's optional skate, Lance Hornby of The Toronto Sun reports.",
+  "date": "2026-11-20T17:49Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
   "player": "Colton Sissons",
   "position": "C",
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-11-12T15:24Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Kirill Marchenko",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-29T17:28Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
@@ -849,19 +865,19 @@
  },
  {
   "team_name": "Washington Capitals",
+  "player": "Vincent Desharnais",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Desharnais (abdomen) has been cleared for contact, Sammi Silber of The District Standard reports Friday.",
+  "date": "2026-11-20T16:03Z"
+ },
+ {
+  "team_name": "Washington Capitals",
   "player": "Rasmus Sandin",
   "position": "D",
   "status": "Injured Reserve",
   "detail": "Sandin (knee) will be with the Capitals for their two-game road trip, Tarik El-Bashir of Monumental Sports Network reports Monday.",
   "date": "2026-11-09T17:28Z"
- },
- {
-  "team_name": "Washington Capitals",
-  "player": "Vincent Desharnais",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-10-23T20:39Z"
  },
  {
   "team_name": "Winnipeg Jets",
