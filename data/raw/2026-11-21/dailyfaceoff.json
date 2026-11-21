@@ -45,15 +45,15 @@
   "side": "home",
   "team_name": "Florida Panthers",
   "goalie": "Jacob Markstrom",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Confirmed",
+  "updated": "2026-11-21T15:29:19.216Z"
  },
  {
   "side": "away",
   "team_name": "Buffalo Sabres",
   "goalie": "Alex Lyon",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Likely",
+  "updated": "2026-11-21T15:32:01.251Z"
  },
  {
   "side": "home",
@@ -86,9 +86,9 @@
  {
   "side": "home",
   "team_name": "Toronto Maple Leafs",
-  "goalie": "Sergei Bobrovsky",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "goalie": "Anthony Stolarz",
+  "status": "Likely",
+  "updated": "2026-11-21T15:27:28.581Z"
  },
  {
   "side": "away",
@@ -115,8 +115,8 @@
   "side": "home",
   "team_name": "Ottawa Senators",
   "goalie": "Linus Ullmark",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Confirmed",
+  "updated": "2026-11-21T16:15:56.060Z"
  },
  {
   "side": "away",
@@ -129,8 +129,8 @@
   "side": "home",
   "team_name": "Winnipeg Jets",
   "goalie": "Stuart Skinner",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Likely",
+  "updated": "2026-11-21T15:23:48.341Z"
  },
  {
   "side": "away",
@@ -143,8 +143,8 @@
   "side": "home",
   "team_name": "Montreal Canadiens",
   "goalie": "Jacob Fowler",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Confirmed",
+  "updated": "2026-11-21T15:57:16.864Z"
  },
  {
   "side": "away",

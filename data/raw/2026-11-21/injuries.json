@@ -249,27 +249,27 @@
  },
  {
   "team_name": "Florida Panthers",
-  "player": "Jonah Gadjovich",
-  "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports.",
-  "date": "2026-11-19T16:20Z"
- },
- {
-  "team_name": "Florida Panthers",
   "player": "Brad Marchand",
   "position": "LW",
   "status": "Injured Reserve",
-  "detail": "Head coach Paul Maurice said Friday that Marchand (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
-  "date": "2026-11-06T16:34Z"
+  "detail": "Marchand (knee) is close to returning to the lineup, but he won't play against Buffalo on Saturday, per Jameson Olive of the Panthers' official site.",
+  "date": "2026-11-21T16:06Z"
  },
  {
   "team_name": "Florida Panthers",
   "player": "Aleksander Barkov",
   "position": "C",
   "status": "Injured Reserve",
-  "detail": "Head coach Paul Maurice said Friday that Barkov (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
-  "date": "2026-11-06T16:30Z"
+  "detail": "Barkov (knee) won't play against Buffalo on Saturday, but he could return within Florida's next three games, Jameson Olive of the Panthers' official site reports.",
+  "date": "2026-11-21T15:57Z"
+ },
+ {
+  "team_name": "Florida Panthers",
+  "player": "Jonah Gadjovich",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports.",
+  "date": "2026-11-19T16:20Z"
  },
  {
   "team_name": "Los Angeles Kings",
@@ -441,6 +441,14 @@
  },
  {
   "team_name": "New York Rangers",
+  "player": "Pavel Dorofeyev",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-21T16:11Z"
+ },
+ {
+  "team_name": "New York Rangers",
   "player": "Oliver Bjorkstrand",
   "position": "RW",
   "status": "Injured Reserve",
@@ -462,14 +470,6 @@
   "status": "Injured Reserve",
   "detail": "Veleno (lower body) skated on his own before Friday's practice session, Colin Stephenson of Newsday reports.",
   "date": "2026-11-20T16:23Z"
- },
- {
-  "team_name": "New York Rangers",
-  "player": "Pavel Dorofeyev",
-  "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-17T14:23Z"
  },
  {
   "team_name": "New York Rangers",
@@ -713,19 +713,27 @@
  },
  {
   "team_name": "Toronto Maple Leafs",
-  "player": "Cole McWard",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-20T19:42Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
   "player": "Kirill Marchenko",
   "position": "RW",
   "status": "Injured Reserve",
-  "detail": "Marchenko (lower body) was on the ice with his teammates for Friday's optional skate, Lance Hornby of The Toronto Sun reports.",
-  "date": "2026-11-20T17:49Z"
+  "detail": "Marchenko (lower body) is day-to-day, according to David Alter of The Hockey News on Saturday.",
+  "date": "2026-11-21T15:14Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Cole McWard",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "McWard (lower body) is considered day-to-day, per David Alter of The Hockey News on Saturday.",
+  "date": "2026-11-21T15:10Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Nick Blankenburg",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday.",
+  "date": "2026-11-21T15:07Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
@@ -742,14 +750,6 @@
   "status": "Injured Reserve",
   "detail": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",
   "date": "2026-10-29T00:11Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Nick Blankenburg",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "Blankenburg (undisclosed) was placed on injured reserve by the Maple Leafs on Friday, David Alter of The Hockey News reports.",
-  "date": "2026-10-23T15:29Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
