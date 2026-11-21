@@ -176,14 +176,6 @@
   "date": "2026-11-14T15:10Z"
  },
  {
-  "team_name": "Dallas Stars",
-  "player": "Matt Duchene",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
-  "date": "2026-10-12T16:46Z"
- },
- {
   "team_name": "Detroit Red Wings",
   "player": "William Wallinder",
   "position": "D",
@@ -211,9 +203,9 @@
   "team_name": "Edmonton Oilers",
   "player": "Ryan Nugent-Hopkins",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-20T14:41Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-21T17:40Z"
  },
  {
   "team_name": "Edmonton Oilers",
@@ -329,14 +321,6 @@
  },
  {
   "team_name": "Montreal Canadiens",
-  "player": "Zack Bolduc",
-  "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-20T14:41Z"
- },
- {
-  "team_name": "Montreal Canadiens",
   "player": "Mike Matheson",
   "position": "D",
   "status": "Out",
@@ -417,19 +401,19 @@
  },
  {
   "team_name": "New York Islanders",
+  "player": "Ryan Pulock",
+  "position": "D",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-21T17:06Z"
+ },
+ {
+  "team_name": "New York Islanders",
   "player": "Logan Stanley",
   "position": "D",
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-20T14:41Z"
- },
- {
-  "team_name": "New York Islanders",
-  "player": "Ryan Pulock",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-20T02:53Z"
  },
  {
   "team_name": "New York Islanders",
@@ -441,19 +425,27 @@
  },
  {
   "team_name": "New York Rangers",
+  "player": "Oliver Bjorkstrand",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Bjorkstrand (upper body) is expected to be sidelined for 2-3 months, Peter Baugh of The Athletic reports Saturday.",
+  "date": "2026-11-21T16:33Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Alberts Smits",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Smits (upper body) is expected to miss 2-3 months, Peter Baugh of The Athletic reported Saturday.",
+  "date": "2026-11-21T16:18Z"
+ },
+ {
+  "team_name": "New York Rangers",
   "player": "Pavel Dorofeyev",
   "position": "RW",
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-11-21T16:11Z"
- },
- {
-  "team_name": "New York Rangers",
-  "player": "Oliver Bjorkstrand",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-21T00:13Z"
  },
  {
   "team_name": "New York Rangers",
@@ -470,14 +462,6 @@
   "status": "Injured Reserve",
   "detail": "Veleno (lower body) skated on his own before Friday's practice session, Colin Stephenson of Newsday reports.",
   "date": "2026-11-20T16:23Z"
- },
- {
-  "team_name": "New York Rangers",
-  "player": "Alberts Smits",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-10T22:13Z"
  },
  {
   "team_name": "New York Rangers",
@@ -510,14 +494,6 @@
   "status": "Injured Reserve",
   "detail": "Burakovsky (lower body) was on the ice Friday doing some individual drills, Bruce Garrioch of Postmedia reports.",
   "date": "2026-11-20T17:06Z"
- },
- {
-  "team_name": "Ottawa Senators",
-  "player": "Nick Cousins",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-20T14:41Z"
  },
  {
   "team_name": "Ottawa Senators",
@@ -654,14 +630,6 @@
   "status": "Out",
   "detail": "out",
   "date": "2026-11-20T18:15Z"
- },
- {
-  "team_name": "St. Louis Blues",
-  "player": "Ross Johnston",
-  "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-20T14:41Z"
  },
  {
   "team_name": "St. Louis Blues",
@@ -833,11 +801,19 @@
  },
  {
   "team_name": "Vancouver Canucks",
+  "player": "Elias Pettersson",
+  "position": "C",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-21T17:58Z"
+ },
+ {
+  "team_name": "Vancouver Canucks",
   "player": "Brendan Gallagher",
   "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "Gallagher (lower body) won't return to Thursday's game versus the Kraken.",
-  "date": "2026-11-20T05:02Z"
+  "status": "Injured Reserve",
+  "detail": "Gallagher (lower body) was placed on injured reserve Saturday.",
+  "date": "2026-11-21T17:13Z"
  },
  {
   "team_name": "Vancouver Canucks",
@@ -894,14 +870,6 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-11-17T15:15Z"
- },
- {
-  "team_name": "Winnipeg Jets",
-  "player": "Elias Salomonsson",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "ir-nr",
-  "date": "2026-11-08T00:05Z"
  },
  {
   "team_name": "Winnipeg Jets",

@@ -3,15 +3,15 @@
   "side": "home",
   "team_name": "Carolina Hurricanes",
   "goalie": "Pyotr Kochetkov",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Confirmed",
+  "updated": "2026-11-21T17:30:07.231Z"
  },
  {
   "side": "away",
   "team_name": "Edmonton Oilers",
-  "goalie": "Tristan Jarry",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "goalie": "Devon Levi",
+  "status": "Confirmed",
+  "updated": "2026-11-21T17:30:22.455Z"
  },
  {
   "side": "home",
@@ -57,6 +57,20 @@
  },
  {
   "side": "home",
+  "team_name": "Ottawa Senators",
+  "goalie": "Linus Ullmark",
+  "status": "Confirmed",
+  "updated": "2026-11-21T16:15:56.060Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Los Angeles Kings",
+  "goalie": "Anton Forsberg",
+  "status": "Unconfirmed",
+  "updated": "2026-11-21"
+ },
+ {
+  "side": "home",
   "team_name": "St Louis Blues",
   "goalie": "Joel Hofer",
   "status": "Unconfirmed",
@@ -66,8 +80,8 @@
   "side": "away",
   "team_name": "New Jersey Devils",
   "goalie": "Connor Hellebuyck",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Likely",
+  "updated": "2026-11-21T16:37:14.497Z"
  },
  {
   "side": "home",
@@ -80,22 +94,22 @@
   "side": "away",
   "team_name": "New York Islanders",
   "goalie": "Ilya Sorokin",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Likely",
+  "updated": "2026-11-21T16:53:57.245Z"
  },
  {
   "side": "home",
   "team_name": "Toronto Maple Leafs",
   "goalie": "Anthony Stolarz",
-  "status": "Likely",
-  "updated": "2026-11-21T15:27:28.581Z"
+  "status": "Confirmed",
+  "updated": "2026-11-21T16:36:35.947Z"
  },
  {
   "side": "away",
   "team_name": "Columbus Blue Jackets",
   "goalie": "Cam Talbot",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Confirmed",
+  "updated": "2026-11-21T16:56:37.786Z"
  },
  {
   "side": "home",
@@ -107,23 +121,9 @@
  {
   "side": "away",
   "team_name": "Washington Capitals",
-  "goalie": "Logan Thompson",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
- },
- {
-  "side": "home",
-  "team_name": "Ottawa Senators",
-  "goalie": "Linus Ullmark",
+  "goalie": "Charlie Lindgren",
   "status": "Confirmed",
-  "updated": "2026-11-21T16:15:56.060Z"
- },
- {
-  "side": "away",
-  "team_name": "Los Angeles Kings",
-  "goalie": "Anton Forsberg",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "updated": "2026-11-21T17:09:31.197Z"
  },
  {
   "side": "home",
@@ -150,15 +150,15 @@
   "side": "away",
   "team_name": "Philadelphia Flyers",
   "goalie": "Dan Vladar",
-  "status": "Likely",
-  "updated": "2026-11-21T14:22:53.416Z"
+  "status": "Confirmed",
+  "updated": "2026-11-21T17:31:09.762Z"
  },
  {
   "side": "home",
   "team_name": "Utah Mammoth",
   "goalie": "Sebastian Cossa",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Likely",
+  "updated": "2026-11-21T17:46:58.752Z"
  },
  {
   "side": "away",
@@ -185,8 +185,8 @@
   "side": "home",
   "team_name": "Vancouver Canucks",
   "goalie": "Leevi Merilainen",
-  "status": "Unconfirmed",
-  "updated": "2026-11-21"
+  "status": "Likely",
+  "updated": "2026-11-21T17:26:31.829Z"
  },
  {
   "side": "away",
