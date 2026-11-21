@@ -1,0 +1,9 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|EDM@CAR|player_goals|logan stankoven|0.5|yes,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,0.27,0.28,0.275,live,,
+underdog|EDM@CAR|player_sog|connor mcdavid|2.5|yes,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,,,,,0.5485527484030502,pinnacle
+kalshi|EDM@CAR|spread|CAR|1.5|no,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,0.56,0.57,0.565,live,0.565616705214588,pinnacle
+kalshi|EDM@CAR|player_points|evan bouchard|0.5|yes,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,0.6,0.61,0.605,live,0.6222928210344938,pinnacle
+underdog|EDM@CAR|player_points|jordan staal|0.5|no,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,,,,,0.6085019617712935,consensus
+kalshi|EDM@CAR|player_goals|jordan staal|0.5|no,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,0.83,0.85,0.84,live,,
+betmgm|EDM@CAR|player_sog|seth jarvis|1.5|yes,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,,,,,0.6044938039932303,pinnacle
+draftkings|EDM@CAR|player_sog|logan stankoven|2.5|no,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,,,,,0.5740469779410876,pinnacle
