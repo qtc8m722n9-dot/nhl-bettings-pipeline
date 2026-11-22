@@ -100,8 +100,8 @@
   "player": "Connor Bedard",
   "position": "C",
   "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-22T15:05Z"
+  "detail": "Bedard (shoulder) was placed on injured reserve Sunday.",
+  "date": "2026-11-22T15:10Z"
  },
  {
   "team_name": "Chicago Blackhawks",
@@ -198,6 +198,14 @@
   "status": "Injured Reserve",
   "detail": "Bichsel (lower body) was placed on injured reserve Saturday.",
   "date": "2026-11-14T15:10Z"
+ },
+ {
+  "team_name": "Dallas Stars",
+  "player": "Matt Duchene",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+  "date": "2026-10-12T16:46Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -470,14 +478,6 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-11-21T16:11Z"
- },
- {
-  "team_name": "New York Rangers",
-  "player": "Sean Durzi",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "Durzi (lower body) will likely be a game-time decision for Sunday's matchup against the Hurricanes, Jim Cerny of NHL.com reports.",
-  "date": "2026-11-20T19:51Z"
  },
  {
   "team_name": "New York Rangers",
