@@ -7,3 +7,24 @@ underdog|EDM@CAR|player_points|jordan staal|0.5|no,EDM@CAR,2026-11-21T12:50:00-0
 kalshi|EDM@CAR|player_goals|jordan staal|0.5|no,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,0.83,0.85,0.84,live,,
 betmgm|EDM@CAR|player_sog|seth jarvis|1.5|yes,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,,,,,0.6044938039932303,pinnacle
 draftkings|EDM@CAR|player_sog|logan stankoven|2.5|no,EDM@CAR,2026-11-21T12:50:00-05:00,10.0,,,,,0.5740469779410876,pinnacle
+kalshi|ANA@UTA|player_goals|liam o brien|0.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,0.04,0.07,0.05500000000000001,live,,
+underdog|ANA@UTA|player_points|cutter gauthier|0.5|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.35157371123335734,pinnacle
+underdog|ANA@UTA|player_sog|mikael granlund|1.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.5165270419936007,pinnacle
+kalshi|ANA@UTA|player_points|anders lee|0.5|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,0.55,0.56,0.555,live,0.5740469779410876,pinnacle
+kalshi|ANA@UTA|ml|ANA|nan|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,0.56,0.58,0.5700000000000001,live,0.5803885638395835,pinnacle
+kalshi|ANA@UTA|player_points|vincent trocheck|0.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,0.59,0.62,0.605,live,0.616147664530031,pinnacle
+underdog|ANA@UTA|player_sog|mackenzie weegar|1.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,,
+kalshi|ANA@UTA|p1_total||1.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,0.62,0.63,0.625,live,0.6072875688291516,consensus
+kalshi|ANA@UTA|player_points|michael carcone|0.5|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,0.6,0.61,0.605,live,0.6044938039932303,pinnacle
+kalshi|ANA@UTA|spread|UTA|1.5|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,0.63,0.64,0.635,live,0.6245090139884955,pinnacle
+kalshi|ANA@UTA|team_total|ANA|1.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,0.81,0.84,0.825,live,,
+betmgm|ANA@UTA|player_sog|troy terry|1.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.5245047626385024,pinnacle
+espnbet|ANA@UTA|player_sog|beckett sennecke|2.5|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.56434789324425,pinnacle
+espnbet|ANA@UTA|player_sog|vincent trocheck|2.5|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.5920365770215089,pinnacle
+draftkings|ANA@UTA|player_sog|kailer yamamoto|1.5|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.4504960980130702,pinnacle
+betmgm|ANA@UTA|player_sog|anders lee|1.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.6185720174166577,pinnacle
+betmgm|ANA@UTA|player_sog|barrett hayton|1.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.5902930682435714,pinnacle
+fanduel|ANA@UTA|player_sog|mikael granlund|1.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.5165270419936007,pinnacle
+draftkings|ANA@UTA|player_sog|mikhail sergachev|2.5|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.583305061424049,pinnacle
+draftkings|ANA@UTA|player_sog|michael carcone|1.5|no,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.39550619600676973,pinnacle
+betrivers|ANA@UTA|player_sog|michael carcone|1.5|yes,ANA@UTA,2026-11-21T20:58:33-05:00,1.4,,,,,0.6044938039932303,pinnacle
