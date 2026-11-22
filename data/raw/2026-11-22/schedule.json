@@ -1,0 +1,57 @@
+[
+ {
+  "game_id": 2026020373,
+  "start_utc": "2026-11-22T17:30:00Z",
+  "game_state": "FUT",
+  "home": "NYR",
+  "away": "CAR",
+  "home_name": "New York Rangers",
+  "away_name": "Carolina Hurricanes",
+  "home_b2b": false,
+  "away_b2b": true
+ },
+ {
+  "game_id": 2026020374,
+  "start_utc": "2026-11-22T22:00:00Z",
+  "game_state": "FUT",
+  "home": "TBL",
+  "away": "BUF",
+  "home_name": "Tampa Bay Lightning",
+  "away_name": "Buffalo Sabres",
+  "home_b2b": false,
+  "away_b2b": true
+ },
+ {
+  "game_id": 2026020375,
+  "start_utc": "2026-11-23T00:00:00Z",
+  "game_state": "FUT",
+  "home": "STL",
+  "away": "EDM",
+  "home_name": "St. Louis Blues",
+  "away_name": "Edmonton Oilers",
+  "home_b2b": true,
+  "away_b2b": true
+ },
+ {
+  "game_id": 2026020376,
+  "start_utc": "2026-11-23T00:00:00Z",
+  "game_state": "FUT",
+  "home": "DAL",
+  "away": "PIT",
+  "home_name": "Dallas Stars",
+  "away_name": "Pittsburgh Penguins",
+  "home_b2b": false,
+  "away_b2b": true
+ },
+ {
+  "game_id": 2026020377,
+  "start_utc": "2026-11-23T01:00:00Z",
+  "game_state": "FUT",
+  "home": "VAN",
+  "away": "CHI",
+  "home_name": "Vancouver Canucks",
+  "away_name": "Chicago Blackhawks",
+  "home_b2b": true,
+  "away_b2b": true
+ }
+]

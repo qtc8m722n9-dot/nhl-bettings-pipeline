@@ -1,0 +1,72 @@
+[
+ {
+  "side": "home",
+  "team_name": "New York Rangers",
+  "goalie": "Dylan Garand",
+  "status": "Unconfirmed",
+  "updated": "2026-11-22"
+ },
+ {
+  "side": "away",
+  "team_name": "Carolina Hurricanes",
+  "goalie": "Brandon Bussi",
+  "status": "Unconfirmed",
+  "updated": "2026-11-22"
+ },
+ {
+  "side": "home",
+  "team_name": "Tampa Bay Lightning",
+  "goalie": "Andrei Vasilevskiy",
+  "status": "Unconfirmed",
+  "updated": "2026-11-22"
+ },
+ {
+  "side": "away",
+  "team_name": "Buffalo Sabres",
+  "goalie": "Ukko-Pekka Luukkonen",
+  "status": "Unconfirmed",
+  "updated": "2026-11-22"
+ },
+ {
+  "side": "home",
+  "team_name": "Dallas Stars",
+  "goalie": "Jake Oettinger",
+  "status": "Unconfirmed",
+  "updated": "2026-11-22"
+ },
+ {
+  "side": "away",
+  "team_name": "Pittsburgh Penguins",
+  "goalie": "Arturs Silovs",
+  "status": "Unconfirmed",
+  "updated": "2026-11-22"
+ },
+ {
+  "side": "home",
+  "team_name": "St Louis Blues",
+  "goalie": "Joel Hofer",
+  "status": "Confirmed",
+  "updated": "2026-11-22T12:59:59.117Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Edmonton Oilers",
+  "goalie": "Tristan Jarry",
+  "status": "Unconfirmed",
+  "updated": "2026-11-22"
+ },
+ {
+  "side": "home",
+  "team_name": "Vancouver Canucks",
+  "goalie": "Nikita Tolopilo",
+  "status": "Likely",
+  "updated": "2026-11-21T20:46:12.554Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Chicago Blackhawks",
+  "goalie": "Drew Commesso",
+  "status": "Likely",
+  "updated": "2026-11-21T20:45:41.198Z"
+ }
+]
