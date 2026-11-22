@@ -697,6 +697,22 @@
  },
  {
   "team_name": "Toronto Maple Leafs",
+  "player": "Colton Sissons",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday.",
+  "date": "2026-11-22T17:19Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Jack Roslovic",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "Roslovic (upper body) is day-to-day, per David Alter of The Hockey News on Sunday.",
+  "date": "2026-11-22T17:15Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
   "player": "Kirill Marchenko",
   "position": "RW",
   "status": "Injured Reserve",
@@ -718,14 +734,6 @@
   "status": "Injured Reserve",
   "detail": "Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday.",
   "date": "2026-11-21T15:07Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Colton Sissons",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-12T15:24Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
