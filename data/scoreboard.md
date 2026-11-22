@@ -1,6 +1,6 @@
 # NHL paper-betting scoreboard
 
-Updated 2026-11-22 08:10 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
+Updated 2026-11-22 11:58 ET · paper only, flat 1 unit per pick / parlay / entry · judged on CLV first, profit second.
 
 ## Last 7 days (Nov 15 – Nov 21)
 

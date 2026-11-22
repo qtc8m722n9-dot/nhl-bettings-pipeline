@@ -1,6 +1,6 @@
 # Kalshi resting-order paper test (H20)
 
-Updated 2026-11-22 13:16 UTC. Bid = Pinnacle fair at the lock minus 1 cent; filled only if the market traded or was offered strictly through the bid before the start. ROI on 1 unit per bet.
+Updated 2026-11-22 16:58 UTC. Bid = Pinnacle fair at the lock minus 1 cent; filled only if the market traded or was offered strictly through the bid before the start. ROI on 1 unit per bet.
 
 | Market | Market sides | Fill rate | Fills: ROI at maker cost | Fills: avg CLV vs close, pts | Fills: fair drift lock->close, pts | Not filled: fair drift, pts | All sides bought at the ask (taker): ROI |
 |---|--:|--:|--:|--:|--:|--:|--:|
