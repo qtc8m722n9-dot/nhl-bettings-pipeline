@@ -1,0 +1,7 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|BUF@TBL|player_goals|scott sabourin|0.5|yes,BUF@TBL,2026-11-22T16:50:00-05:00,10.0,0.04,0.06,0.05,live,,
+kalshi|BUF@TBL|player_goals|jiri kulich|0.5|yes,BUF@TBL,2026-11-22T16:50:00-05:00,10.0,0.15,0.16,0.155,live,,
+kalshi|BUF@TBL|spread|TBL|2.5|yes,BUF@TBL,2026-11-22T16:50:00-05:00,10.0,0.3,0.31,0.305,live,,
+kalshi|BUF@TBL|player_goals|nikita kucherov|0.5|yes,BUF@TBL,2026-11-22T16:50:00-05:00,10.0,0.41,0.43,0.42,live,,
+kalshi|BUF@TBL|team_total|TBL|5.5|no,BUF@TBL,2026-11-22T16:50:00-05:00,10.0,0.83,0.84,0.835,live,,
+espnbet|BUF@TBL|player_sog|josh doan|1.5|no,BUF@TBL,2026-11-22T16:50:00-05:00,10.0,,,,,0.4944937749375119,pinnacle
