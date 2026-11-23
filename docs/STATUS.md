@@ -1,6 +1,6 @@
 # Status and next steps (read this first in a new session)
 
-Last updated: 2026-11-17. Paper bets only. Owner: Evan (Montreal, Quebec).
+Last updated: 2026-11-23. Paper bets only. Owner: Evan (Montreal, Quebec).
 
 ## What runs by itself (GitHub Actions)
 | Workflow | When (ET) | Does |
@@ -66,6 +66,14 @@ Last updated: 2026-11-17. Paper bets only. Owner: Evan (Montreal, Quebec).
 - None of the 9 pass (BH q 0.10). Closest: stars on heavy favourites -> SOG under (z -1.42 fresh, -0.64, -0.98).
 - Shots model on 2024-25 (refit on 2022-24 only): alone slightly worse than Pinnacle (LL 0.6818 vs 0.6814) but adds information on top of it (trend z +5.3). No "December" effect in 2024-25 (Dec z 0.0, Oct/Nov ~2) -> the season-phase story from 2025-26 was noise.
 - Exploratory lead (cut chosen after registration): model says UNDER by 5+ pts on players with < 20 games: +8.2 pts (z 5.3) 2024-25, +5.3 (z 2.5) 2025-26, -0.5 live (n 184).
+
+## Weekly flaw review 2026-11-23
+- Bug (ops): weekday pick lock runs ~1:35-1:45 PM ET (cron 12:50 + GitHub delay), so weekday 1 PM games are already live and drop out (Fri 11-27: 3 of 15 games; Mon 11-30: OTT@NSH). Fix: extra weekday lock at 10:30 AM EST that only goes ahead when a game starts before 2:30 PM ET (`nhlpipe/lock_gate.py`, `picks.yml`); a later run on an already-locked day stops before pulling odds. Betting rules unchanged.
+- Grading re-checked for every graded slate: all 495 settled player props and 135 game-market singles agree with the box-score detail; win payouts = stake x (1/cost - 1). No pricing or settlement bugs found. 11-20 had no NHL games (not a data gap).
+- H20 (Kalshi resting orders): 1,480 fills > 300, so the verdict is due. By its registered rule it passes (fills' CLV +0.32 pts, 95% +0.23/+0.40; ROI -7.5% vs -12.8% buying the same sides at the ask) but fills still lose money (ROI 95% -12.3%/-1.3%): filled sides hit 4.2 pts below Pinnacle's close (n 1,480), unfilled sides +1.2. Adverse selection that the Pinnacle close doesn't see; CLV is the wrong yardstick here.
+- M6 blend vs Pinnacle on the shadow board (1,818 SOG lines, 11-03..11-22): LL 0.6871 vs 0.6861; outcome slope on (blend - Pinnacle) 0.21 (95% -0.51, 0.94). Still no evidence the model adds to Pinnacle live. M6 pick'em 26% hit in the 50-60% band (23 bets) checked: sides/lines/settlement correct, CLV ~-1, looks like variance.
+- M7 (H19) will almost stop firing: most regulars pass 20 games this season by late November (2 picks on 11-23); 300 picks is out of reach this season.
+- M1 has had 0 bets since the goblin fix (11-09): no Kalshi/Underdog price is 4+ pts under Pinnacle fair (best 1.3-5.6 pts, almost all sportsbook SOG rows M1 doesn't bet).
 
 ## Next steps (in order)
 1. Let the shadow board accumulate (every priced line graded nightly from 2026-11-04).
