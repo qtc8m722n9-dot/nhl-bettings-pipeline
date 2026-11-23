@@ -316,8 +316,8 @@
   "player": "Trevor Moore",
   "position": "LW",
   "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-22T13:40Z"
+  "detail": "Moore (undisclosed) will be a game-time decision versus the Canadiens on Monday, Zach Dooley of the Kings' official site reports.",
+  "date": "2026-11-23T18:31Z"
  },
  {
   "team_name": "Los Angeles Kings",
@@ -697,19 +697,19 @@
  },
  {
   "team_name": "Toronto Maple Leafs",
+  "player": "Jack Roslovic",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "Roslovic (upper body) will be a game-time decision versus the Islanders on Monday after head coach Jim Hiller told reporters, \"You'll just see tonight. I don't want to get too deep into that right now,\" Mark Masters of TSN reports.",
+  "date": "2026-11-23T18:03Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
   "player": "Colton Sissons",
   "position": "C",
   "status": "Injured Reserve",
   "detail": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday.",
   "date": "2026-11-22T17:19Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Jack Roslovic",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "Roslovic (upper body) is day-to-day, per David Alter of The Hockey News on Sunday.",
-  "date": "2026-11-22T17:15Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
