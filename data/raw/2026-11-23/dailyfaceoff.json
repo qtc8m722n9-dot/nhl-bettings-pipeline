@@ -1,0 +1,100 @@
+[
+ {
+  "side": "home",
+  "team_name": "New Jersey Devils",
+  "goalie": "Connor Hellebuyck",
+  "status": "Confirmed",
+  "updated": "2026-11-23T16:48:50.519Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Columbus Blue Jackets",
+  "goalie": "Cam Talbot",
+  "status": "Confirmed",
+  "updated": "2026-11-23T17:04:56.154Z"
+ },
+ {
+  "side": "home",
+  "team_name": "Montreal Canadiens",
+  "goalie": "Jakub Dobes",
+  "status": "Confirmed",
+  "updated": "2026-11-23T16:01:34.835Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Los Angeles Kings",
+  "goalie": "Darcy Kuemper",
+  "status": "Unconfirmed",
+  "updated": "2026-11-23"
+ },
+ {
+  "side": "home",
+  "team_name": "Ottawa Senators",
+  "goalie": "Linus Ullmark",
+  "status": "Confirmed",
+  "updated": "2026-11-23T16:22:52.785Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Calgary Flames",
+  "goalie": "Devin Cooley",
+  "status": "Confirmed",
+  "updated": "2026-11-23T16:33:11.149Z"
+ },
+ {
+  "side": "home",
+  "team_name": "New York Islanders",
+  "goalie": "Ilya Sorokin",
+  "status": "Likely",
+  "updated": "2026-11-23T15:30:05.568Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Toronto Maple Leafs",
+  "goalie": "Anthony Stolarz",
+  "status": "Confirmed",
+  "updated": "2026-11-23T17:18:57.300Z"
+ },
+ {
+  "side": "home",
+  "team_name": "Winnipeg Jets",
+  "goalie": "Stuart Skinner",
+  "status": "Likely",
+  "updated": "2026-11-23T15:24:33.606Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Utah Mammoth",
+  "goalie": "Sebastian Cossa",
+  "status": "Confirmed",
+  "updated": "2026-11-23T17:48:17.810Z"
+ },
+ {
+  "side": "home",
+  "team_name": "Seattle Kraken",
+  "goalie": "Joey Daccord",
+  "status": "Likely",
+  "updated": "2026-11-23T17:50:52.579Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Anaheim Ducks",
+  "goalie": "Lukas Dostal",
+  "status": "Unconfirmed",
+  "updated": "2026-11-23"
+ },
+ {
+  "side": "home",
+  "team_name": "San Jose Sharks",
+  "goalie": "Yaroslav Askarov",
+  "status": "Unconfirmed",
+  "updated": "2026-11-23"
+ },
+ {
+  "side": "away",
+  "team_name": "Minnesota Wild",
+  "goalie": "Jesper Wallstedt",
+  "status": "Unconfirmed",
+  "updated": "2026-11-23"
+ }
+]

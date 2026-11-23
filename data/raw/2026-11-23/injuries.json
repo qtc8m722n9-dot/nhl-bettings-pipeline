@@ -67,9 +67,9 @@
   "team_name": "Calgary Flames",
   "player": "Martin Pospisil",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "Pospisil (upper body) left Saturday's game against Chicago and won't return, per Pat Steinberg of QR Calgary 770 AM.",
-  "date": "2026-11-21T22:54Z"
+  "status": "Out",
+  "detail": "Pospisil (upper body) didn't travel with his teammates for the start of Calgary's five-game road trip, per Eric Francis of Sportsnet on Monday.",
+  "date": "2026-11-23T16:46Z"
  },
  {
   "team_name": "Calgary Flames",
@@ -313,14 +313,6 @@
  },
  {
   "team_name": "Los Angeles Kings",
-  "player": "Artemi Panarin",
-  "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-22T13:40Z"
- },
- {
-  "team_name": "Los Angeles Kings",
   "player": "Trevor Moore",
   "position": "LW",
   "status": "Day-To-Day",
@@ -443,9 +435,9 @@
   "team_name": "New York Islanders",
   "player": "Ryan Pulock",
   "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-22T13:40Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-23T16:34Z"
  },
  {
   "team_name": "New York Islanders",
@@ -515,9 +507,9 @@
   "team_name": "Ottawa Senators",
   "player": "Hayden Hodgson",
   "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-22T13:40Z"
+  "status": "Out",
+  "detail": "Hodgson (groin) has no timeline in place for his return to the lineup, per Bruce Garrioch of Postmedia on Nov. 14.",
+  "date": "2026-11-23T15:48Z"
  },
  {
   "team_name": "Ottawa Senators",
@@ -603,9 +595,9 @@
   "team_name": "San Jose Sharks",
   "player": "Kiefer Sherwood",
   "position": "LW",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-17T19:39Z"
+  "status": "Injured Reserve",
+  "detail": "Sherwood (upper body) was placed on injured reserve Monday.",
+  "date": "2026-11-23T17:45Z"
  },
  {
   "team_name": "San Jose Sharks",
@@ -793,11 +785,19 @@
  },
  {
   "team_name": "Utah Mammoth",
-  "player": "Clayton Keller",
+  "player": "Michael Carcone",
+  "position": "LW",
+  "status": "Out",
+  "detail": "Carcone (upper body) will be out of action for 3-4 months, Catherine Bogart of the Mammoth's official site reports Monday.",
+  "date": "2026-11-23T17:53Z"
+ },
+ {
+  "team_name": "Utah Mammoth",
+  "player": "Dylan Guenther",
   "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-22T13:40Z"
+  "status": "Injured Reserve",
+  "detail": "Guenther (upper body) has been ruled out for Monday's game against the Jets, Ken Wiebe of The Winnipeg Free Press reports.",
+  "date": "2026-11-23T17:47Z"
  },
  {
   "team_name": "Utah Mammoth",
@@ -806,14 +806,6 @@
   "status": "Injured Reserve",
   "detail": "Marino (upper body) is day-to-day and close to returning, per Cole Bagley of KSL Sports on Friday.",
   "date": "2026-11-20T20:04Z"
- },
- {
-  "team_name": "Utah Mammoth",
-  "player": "Dylan Guenther",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "Guenther (upper body) was upgraded to day-to-day ahead of Saturday's matchup with Anaheim, Cole Bagley of KSL Sports reports.",
-  "date": "2026-11-20T19:59Z"
  },
  {
   "team_name": "Utah Mammoth",
@@ -878,6 +870,14 @@
   "status": "Injured Reserve",
   "detail": "Co-president of hockey operations Henrik Sedin said Monday that he hopes Demko (hip) will be ready to return before Christmas, Kevin Woodley of NHL.com reports.",
   "date": "2026-09-28T17:58Z"
+ },
+ {
+  "team_name": "Washington Capitals",
+  "player": "Jordan Kyrou",
+  "position": "RW",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-23T17:14Z"
  },
  {
   "team_name": "Washington Capitals",
