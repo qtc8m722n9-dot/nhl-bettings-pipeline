@@ -1,0 +1,24 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|CBJ@NJD|player_goals|mathieu olivier|0.5|yes,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.13,0.15,0.14,live,,
+kalshi|CBJ@NJD|player_goals|jack hughes|0.5|yes,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.4,0.41,0.405,live,,
+underdog|CBJ@NJD|player_points|luke evangelista|0.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.5607420039050213,pinnacle
+kalshi|CBJ@NJD|total||6.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.5,0.51,0.505,live,0.5,pinnacle
+kalshi|CBJ@NJD|player_points|jesper bratt|0.5|yes,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.57,0.58,0.575,live,0.5643478932442502,pinnacle
+kalshi|CBJ@NJD|player_points|dougie hamilton|0.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.55,0.58,0.565,live,0.5851065195077072,pinnacle
+kalshi|CBJ@NJD|player_points|evan rodrigues|0.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.58,0.6,0.59,live,0.5760873938292774,pinnacle
+kalshi|CBJ@NJD|spread|NJD|1.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.58,0.59,0.585,live,0.5749870942236264,pinnacle
+kalshi|CBJ@NJD|player_points|jack hughes|1.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.6,0.62,0.61,live,0.6163208639708131,pinnacle
+kalshi|CBJ@NJD|player_points|valeri nichushkin|0.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.61,0.62,0.615,live,0.6273985554751731,pinnacle
+kalshi|CBJ@NJD|ml|NJD|nan|yes,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.64,0.65,0.645,live,0.6486099753722196,pinnacle
+kalshi|CBJ@NJD|ml|CBJ|nan|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.64,0.65,0.645,live,0.6486099753722195,pinnacle
+underdog|CBJ@NJD|player_sog|luke hughes|1.5|yes,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.6261570146559209,consensus
+kalshi|CBJ@NJD|player_points|timo meier|1.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,0.81,0.84,0.825,live,,
+espnbet|CBJ@NJD|player_sog|charlie coyle|1.5|yes,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.5643478932442502,pinnacle
+espnbet|CBJ@NJD|player_sog|luke hughes|2.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.6309553346406137,pinnacle
+espnbet|CBJ@NJD|player_sog|arseny gritsyuk|2.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.5996431374236535,pinnacle
+espnbet|CBJ@NJD|player_sog|evan rodrigues|1.5|yes,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.5740469779410878,pinnacle
+draftkings|CBJ@NJD|player_sog|luke evangelista|2.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.6330469057696422,pinnacle
+draftkings|CBJ@NJD|player_sog|dougie hamilton|2.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.5411170720064549,pinnacle
+fanduel|CBJ@NJD|player_sog|jesper bratt|1.5|yes,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.5937646677129588,pinnacle
+betmgm|CBJ@NJD|player_sog|nico hischier|2.5|no,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.5937646677129587,pinnacle
+betrivers|CBJ@NJD|player_sog|zach werenski|2.5|yes,CBJ@NJD,2026-11-23T18:50:00-05:00,10.0,,,,,0.5996431374236536,pinnacle
