@@ -1,0 +1,13 @@
+{
+ "pulled_at_et": "2026-11-23T10:36:44-05:00",
+ "schedule": "ok",
+ "standings": "ok",
+ "moneypuck_teams": "ok",
+ "moneypuck_goalies": "ok",
+ "moneypuck_skaters": "ok",
+ "dailyfaceoff_goalies": "FAILED: HTTPError: 403 Client Error: Forbidden for url: https://www.dailyfaceoff.com/starting-goalies/2026-11-23",
+ "espn_injuries": "ok",
+ "dailyfaceoff_lines": "ok: 0 teams, 0 slots, 32 failed",
+ "games": 7,
+ "goalies_matched": 0
+}
