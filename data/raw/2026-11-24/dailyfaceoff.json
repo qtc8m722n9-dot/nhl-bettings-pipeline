@@ -1,0 +1,16 @@
+[
+ {
+  "side": "home",
+  "team_name": "Edmonton Oilers",
+  "goalie": "Devon Levi",
+  "status": "Unconfirmed",
+  "updated": "2026-11-24"
+ },
+ {
+  "side": "away",
+  "team_name": "Vegas Golden Knights",
+  "goalie": "Adin Hill",
+  "status": "Unconfirmed",
+  "updated": "2026-11-24"
+ }
+]
