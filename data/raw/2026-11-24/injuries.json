@@ -41,6 +41,14 @@
  },
  {
   "team_name": "Buffalo Sabres",
+  "player": "Tyson Kozak",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "Kozak (undisclosed) did not practice Tuesday and is considered day-to-day, per Paul Hamilton of WGR Sports Radio 550.",
+  "date": "2026-11-24T17:37Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
   "player": "Konsta Helenius",
   "position": "C",
   "status": "Injured Reserve",
@@ -99,9 +107,9 @@
   "team_name": "Carolina Hurricanes",
   "player": "Nikolaj Ehlers",
   "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-23T14:10Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-24T17:27Z"
  },
  {
   "team_name": "Chicago Blackhawks",
@@ -257,19 +265,11 @@
  },
  {
   "team_name": "Edmonton Oilers",
-  "player": "Ryan Nugent-Hopkins",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-23T14:10Z"
- },
- {
-  "team_name": "Edmonton Oilers",
   "player": "Zach Hyman",
   "position": "LW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-23T14:10Z"
+  "status": "Out",
+  "detail": "Hyman (migraine) won't play against Vegas on Tuesday, per Oilers play-by-play announcer Jack Michaels.",
+  "date": "2026-11-24T17:12Z"
  },
  {
   "team_name": "Edmonton Oilers",
@@ -433,16 +433,16 @@
  },
  {
   "team_name": "New York Islanders",
-  "player": "Kyle Palmieri",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-24T14:14Z"
+  "player": "Ryan Pulock",
+  "position": "D",
+  "status": "Out",
+  "detail": "Pulock (shoulder) is expected to miss 1-2 weeks, Andrew Gross of Newsday reports Tuesday.",
+  "date": "2026-11-24T17:11Z"
  },
  {
   "team_name": "New York Islanders",
-  "player": "Ryan Pulock",
-  "position": "D",
+  "player": "Kyle Palmieri",
+  "position": "C",
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-24T14:14Z"
@@ -689,19 +689,19 @@
  },
  {
   "team_name": "Tampa Bay Lightning",
+  "player": "Conor Geekie",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Geekie (shoulder) underwent surgery Monday and is expected to miss 4-5 months.",
+  "date": "2026-11-24T15:34Z"
+ },
+ {
+  "team_name": "Tampa Bay Lightning",
   "player": "Zemgus Girgensons",
   "position": "C",
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-23T14:10Z"
- },
- {
-  "team_name": "Tampa Bay Lightning",
-  "player": "Conor Geekie",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Geekie (upper body) is out indefinitely, according to Eduardo A. Encina of the Tampa Bay Times on Saturday.",
-  "date": "2026-11-21T20:20Z"
  },
  {
   "team_name": "Tampa Bay Lightning",
@@ -881,6 +881,14 @@
  },
  {
   "team_name": "Washington Capitals",
+  "player": "Vincent Desharnais",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Desharnais (appendectomy) was a full participant in Tuesday's practice and has been upgraded to day-to-day, Tarik El-Bashir of Monumental Sports Network reports.",
+  "date": "2026-11-24T17:30Z"
+ },
+ {
+  "team_name": "Washington Capitals",
   "player": "Rasmus Sandin",
   "position": "D",
   "status": "Injured Reserve",
@@ -894,14 +902,6 @@
   "status": "Out",
   "detail": "out",
   "date": "2026-11-23T17:14Z"
- },
- {
-  "team_name": "Washington Capitals",
-  "player": "Vincent Desharnais",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "Desharnais (abdomen) has been cleared for contact, Sammi Silber of The District Standard reports Friday.",
-  "date": "2026-11-20T16:03Z"
  },
  {
   "team_name": "Winnipeg Jets",
