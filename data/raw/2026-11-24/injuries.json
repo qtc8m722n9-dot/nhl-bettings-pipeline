@@ -145,6 +145,14 @@
  },
  {
   "team_name": "Colorado Avalanche",
+  "player": "Cale Makar",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Makar (lower body) was on the ice in a regular sweater ahead of Wednesday's clash with Montreal, Evan Rawal of the Denver Gazette reports.",
+  "date": "2026-11-24T18:19Z"
+ },
+ {
+  "team_name": "Colorado Avalanche",
   "player": "Gavin Brindley",
   "position": "C",
   "status": "Out",
@@ -158,14 +166,6 @@
   "status": "Out",
   "detail": "MacKinnon (lower body) has been evaluated by a specialist and is expected to miss the next 12 weeks, Aarif Deen of Colorado Hockey Now reports Saturday.",
   "date": "2026-11-21T20:30Z"
- },
- {
-  "team_name": "Colorado Avalanche",
-  "player": "Cale Makar",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-19T21:33Z"
  },
  {
   "team_name": "Colorado Avalanche",
@@ -230,14 +230,6 @@
   "status": "Injured Reserve",
   "detail": "Bichsel (lower body) was placed on injured reserve Saturday.",
   "date": "2026-11-14T15:10Z"
- },
- {
-  "team_name": "Dallas Stars",
-  "player": "Matt Duchene",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
-  "date": "2026-10-12T16:46Z"
  },
  {
   "team_name": "Detroit Red Wings",
@@ -457,6 +449,14 @@
  },
  {
   "team_name": "New York Rangers",
+  "player": "Pavel Dorofeyev",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Dorofeyev (lower body) will join the Rangers for their two-game road trip, Mollie Walker of the New York Post reports Tuesday.",
+  "date": "2026-11-24T18:03Z"
+ },
+ {
+  "team_name": "New York Rangers",
   "player": "Oliver Bjorkstrand",
   "position": "RW",
   "status": "Injured Reserve",
@@ -470,14 +470,6 @@
   "status": "Injured Reserve",
   "detail": "Smits (upper body) is expected to miss 2-3 months, Peter Baugh of The Athletic reported Saturday.",
   "date": "2026-11-21T16:18Z"
- },
- {
-  "team_name": "New York Rangers",
-  "player": "Pavel Dorofeyev",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-21T16:11Z"
  },
  {
   "team_name": "New York Rangers",
@@ -654,6 +646,22 @@
   "status": "Injured Reserve",
   "detail": "McCann (lower body) will be out for approximately 10 weeks, the team announced Sunday.",
   "date": "2026-10-25T17:08Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
+  "player": "Pavel Buchnevich",
+  "position": "LW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-24T18:33Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
+  "player": "Jimmy Snuggerud",
+  "position": "RW",
+  "status": "Day-To-Day",
+  "detail": "Snuggerud (undisclosed) is questionable for Wednesday's game against the Islanders, per Lou Korac of NHL.com.",
+  "date": "2026-11-24T18:31Z"
  },
  {
   "team_name": "St. Louis Blues",
