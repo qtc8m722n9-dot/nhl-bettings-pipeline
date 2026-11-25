@@ -1,0 +1,381 @@
+{
+ "date": "2026-11-24",
+ "all_final": true,
+ "games": {
+  "VGK@EDM": {
+   "game_id": 2026020385,
+   "state": "OFF",
+   "final": true,
+   "start_utc": "2026-11-25T01:00:00Z",
+   "last_period": "REG",
+   "home": "EDM",
+   "away": "VGK",
+   "home_score": 3,
+   "away_score": 5,
+   "p1_home": 0,
+   "p1_away": 2,
+   "players": {
+    "trent frederic": {
+     "name": "Trent Frederic",
+     "num": 10,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 410
+    },
+    "jason dickinson": {
+     "name": "Jason Dickinson",
+     "num": 16,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 735
+    },
+    "filip hallander": {
+     "name": "Filip Hallander",
+     "num": 19,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 186
+    },
+    "mathieu joseph": {
+     "name": "Mathieu Joseph",
+     "num": 21,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 922
+    },
+    "alex formenton": {
+     "name": "Alex Formenton",
+     "num": 26,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 708
+    },
+    "leon draisaitl": {
+     "name": "Leon Draisaitl",
+     "num": 29,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1433
+    },
+    "colton dach": {
+     "name": "Colton Dach",
+     "num": 34,
+     "team": "EDM",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 6,
+     "toi_sec": 761
+    },
+    "kasperi kapanen": {
+     "name": "Kasperi Kapanen",
+     "num": 42,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1243
+    },
+    "owen michaels": {
+     "name": "Owen Michaels",
+     "num": 43,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 494
+    },
+    "vasily podkolzin": {
+     "name": "Vasily Podkolzin",
+     "num": 92,
+     "team": "EDM",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1282
+    },
+    "ryan nugent hopkins": {
+     "name": "Ryan Nugent-Hopkins",
+     "num": 93,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1187
+    },
+    "connor mcdavid": {
+     "name": "Connor McDavid",
+     "num": 97,
+     "team": "EDM",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 4,
+     "toi_sec": 1394
+    },
+    "evan bouchard": {
+     "name": "Evan Bouchard",
+     "num": 2,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 3,
+     "toi_sec": 1725
+    },
+    "connor murphy": {
+     "name": "Connor Murphy",
+     "num": 5,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1156
+    },
+    "ryan shea": {
+     "name": "Ryan Shea",
+     "num": 6,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 1266
+    },
+    "mattias ekholm": {
+     "name": "Mattias Ekholm",
+     "num": 14,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1175
+    },
+    "shakir mukhamadullin": {
+     "name": "Shakir Mukhamadullin",
+     "num": 85,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 858
+    },
+    "jake walman": {
+     "name": "Jake Walman",
+     "num": 96,
+     "team": "EDM",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 920
+    },
+    "jack eichel": {
+     "name": "Jack Eichel",
+     "num": 9,
+     "team": "VGK",
+     "goals": 2,
+     "assists": 0,
+     "points": 2,
+     "sog": 4,
+     "toi_sec": 1188
+    },
+    "marc gatcomb": {
+     "name": "Marc Gatcomb",
+     "num": 17,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 2,
+     "toi_sec": 440
+    },
+    "brett howden": {
+     "name": "Brett Howden",
+     "num": 21,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1051
+    },
+    "trevor connelly": {
+     "name": "Trevor Connelly",
+     "num": 24,
+     "team": "VGK",
+     "goals": 2,
+     "assists": 1,
+     "points": 3,
+     "sog": 5,
+     "toi_sec": 1085
+    },
+    "nic dowd": {
+     "name": "Nic Dowd",
+     "num": 26,
+     "team": "VGK",
+     "goals": 1,
+     "assists": 0,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 614
+    },
+    "braeden bowman": {
+     "name": "Braeden Bowman",
+     "num": 42,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 681
+    },
+    "tomas hertl": {
+     "name": "Tomas Hertl",
+     "num": 48,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 671
+    },
+    "ivan barbashev": {
+     "name": "Ivan Barbashev",
+     "num": 49,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 822
+    },
+    "mark stone": {
+     "name": "Mark Stone",
+     "num": 61,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1097
+    },
+    "william karlsson": {
+     "name": "William Karlsson",
+     "num": 71,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 1312
+    },
+    "mitch marner": {
+     "name": "Mitch Marner",
+     "num": 93,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 2,
+     "points": 2,
+     "sog": 4,
+     "toi_sec": 1277
+    },
+    "victor olofsson": {
+     "name": "Victor Olofsson",
+     "num": 95,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 1,
+     "toi_sec": 778
+    },
+    "brayden mcnabb": {
+     "name": "Brayden McNabb",
+     "num": 3,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 2,
+     "toi_sec": 1531
+    },
+    "rasmus andersson": {
+     "name": "Rasmus Andersson",
+     "num": 4,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1161
+    },
+    "jeremy lauzon": {
+     "name": "Jeremy Lauzon",
+     "num": 5,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 1202
+    },
+    "shea theodore": {
+     "name": "Shea Theodore",
+     "num": 27,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 1,
+     "points": 1,
+     "sog": 0,
+     "toi_sec": 1432
+    },
+    "parker wotherspoon": {
+     "name": "Parker Wotherspoon",
+     "num": 29,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 0,
+     "toi_sec": 885
+    },
+    "dylan coghlan": {
+     "name": "Dylan Coghlan",
+     "num": 52,
+     "team": "VGK",
+     "goals": 0,
+     "assists": 0,
+     "points": 0,
+     "sog": 1,
+     "toi_sec": 657
+    }
+   }
+  }
+ }
+}
