@@ -94,8 +94,8 @@
   "side": "away",
   "team_name": "Winnipeg Jets",
   "goalie": "Nico Daws",
-  "status": "Likely",
-  "updated": "2026-11-25T16:30:14.036Z"
+  "status": "Confirmed",
+  "updated": "2026-11-25T18:12:39.175Z"
  },
  {
   "side": "home",
@@ -184,9 +184,9 @@
  {
   "side": "home",
   "team_name": "Anaheim Ducks",
-  "goalie": "Lukas Dostal",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "goalie": "Laurent Brossoit",
+  "status": "Likely",
+  "updated": "2026-11-25T18:13:45.053Z"
  },
  {
   "side": "away",
