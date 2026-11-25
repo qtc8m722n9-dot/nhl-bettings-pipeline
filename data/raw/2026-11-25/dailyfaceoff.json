@@ -3,8 +3,8 @@
   "side": "home",
   "team_name": "New York Islanders",
   "goalie": "Ilya Sorokin",
-  "status": "Likely",
-  "updated": "2026-11-25T01:23:29.070Z"
+  "status": "Confirmed",
+  "updated": "2026-11-25T15:38:57.096Z"
  },
  {
   "side": "away",
@@ -17,57 +17,57 @@
   "side": "home",
   "team_name": "Washington Capitals",
   "goalie": "Logan Thompson",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Confirmed",
+  "updated": "2026-11-25T15:38:30.012Z"
  },
  {
   "side": "away",
   "team_name": "Philadelphia Flyers",
-  "goalie": "Dan Vladar",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "goalie": "Joseph Woll",
+  "status": "Confirmed",
+  "updated": "2026-11-25T16:12:31.399Z"
  },
  {
   "side": "home",
   "team_name": "Columbus Blue Jackets",
   "goalie": "Cam Talbot",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Confirmed",
+  "updated": "2026-11-25T16:35:03.845Z"
  },
  {
   "side": "away",
   "team_name": "New Jersey Devils",
   "goalie": "Connor Hellebuyck",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Likely",
+  "updated": "2026-11-25T16:57:10.434Z"
  },
  {
   "side": "home",
   "team_name": "Florida Panthers",
   "goalie": "Jacob Markstrom",
-  "status": "Likely",
-  "updated": "2026-11-25T15:10:53.035Z"
+  "status": "Confirmed",
+  "updated": "2026-11-25T15:43:19.897Z"
  },
  {
   "side": "away",
   "team_name": "Ottawa Senators",
   "goalie": "Linus Ullmark",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Confirmed",
+  "updated": "2026-11-25T16:57:39.409Z"
  },
  {
   "side": "home",
   "team_name": "Pittsburgh Penguins",
   "goalie": "Arturs Silovs",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Confirmed",
+  "updated": "2026-11-25T16:17:21.174Z"
  },
  {
   "side": "away",
   "team_name": "Calgary Flames",
-  "goalie": "Devin Cooley",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "goalie": "Dustin Wolf",
+  "status": "Confirmed",
+  "updated": "2026-11-25T15:56:25.316Z"
  },
  {
   "side": "home",
@@ -79,37 +79,37 @@
  {
   "side": "away",
   "team_name": "Carolina Hurricanes",
-  "goalie": "Pyotr Kochetkov",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "goalie": "Brandon Bussi",
+  "status": "Likely",
+  "updated": "2026-11-25T16:36:44.672Z"
  },
  {
   "side": "home",
   "team_name": "Boston Bruins",
   "goalie": "Jeremy Swayman",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Confirmed",
+  "updated": "2026-11-25T16:12:00.750Z"
  },
  {
   "side": "away",
   "team_name": "Winnipeg Jets",
-  "goalie": "Stuart Skinner",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "goalie": "Nico Daws",
+  "status": "Likely",
+  "updated": "2026-11-25T16:30:14.036Z"
  },
  {
   "side": "home",
   "team_name": "Buffalo Sabres",
   "goalie": "Ukko-Pekka Luukkonen",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Likely",
+  "updated": "2026-11-25T15:50:26.993Z"
  },
  {
   "side": "away",
   "team_name": "New York Rangers",
   "goalie": "Joonas Korpisalo",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Confirmed",
+  "updated": "2026-11-25T16:33:58.032Z"
  },
  {
   "side": "home",
@@ -122,15 +122,15 @@
   "side": "away",
   "team_name": "Vancouver Canucks",
   "goalie": "Leevi Merilainen",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Likely",
+  "updated": "2026-11-25T16:53:37.872Z"
  },
  {
   "side": "home",
   "team_name": "Minnesota Wild",
   "goalie": "Jesper Wallstedt",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Confirmed",
+  "updated": "2026-11-25T16:53:05.249Z"
  },
  {
   "side": "away",
@@ -143,8 +143,8 @@
   "side": "home",
   "team_name": "Dallas Stars",
   "goalie": "Jake Oettinger",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Confirmed",
+  "updated": "2026-11-25T17:06:49.551Z"
  },
  {
   "side": "away",
@@ -157,8 +157,8 @@
   "side": "home",
   "team_name": "Colorado Avalanche",
   "goalie": "Mackenzie Blackwood",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Confirmed",
+  "updated": "2026-11-25T17:30:22.784Z"
  },
  {
   "side": "away",
@@ -171,8 +171,8 @@
   "side": "home",
   "team_name": "Seattle Kraken",
   "goalie": "Joey Daccord",
-  "status": "Unconfirmed",
-  "updated": "2026-11-25"
+  "status": "Likely",
+  "updated": "2026-11-25T17:47:05.741Z"
  },
  {
   "side": "away",

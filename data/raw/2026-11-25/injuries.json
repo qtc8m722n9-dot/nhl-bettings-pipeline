@@ -41,6 +41,14 @@
  },
  {
   "team_name": "Buffalo Sabres",
+  "player": "Mattias Samuelsson",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "Samuelsson (undisclosed) is considered a game-time decision for Wednesday's matchup against the Rangers, Paul Hamilton of WGR Sports Radio 550 reports.",
+  "date": "2026-11-25T15:54Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
   "player": "Tyson Kozak",
   "position": "C",
   "status": "Day-To-Day",
@@ -75,9 +83,9 @@
   "team_name": "Calgary Flames",
   "player": "Morgan Frost",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "Frost sustained an upper-body injury during Monday's 2-1 loss to the Senators, and head coach Ryan Huska did not have an update on the center's status after the game, Flames TV host Brendan Parker reports.",
-  "date": "2026-11-24T04:24Z"
+  "status": "Out",
+  "detail": "Frost (upper body) has been ruled out for Wednesday's game against the Penguins, Eric Francis of Sportsnet reports.",
+  "date": "2026-11-25T16:35Z"
  },
  {
   "team_name": "Calgary Flames",
@@ -102,6 +110,14 @@
   "status": "Injured Reserve",
   "detail": "Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday.",
   "date": "2026-11-08T16:17Z"
+ },
+ {
+  "team_name": "Carolina Hurricanes",
+  "player": "K'Andre Miller",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-25T17:25Z"
  },
  {
   "team_name": "Carolina Hurricanes",
@@ -190,22 +206,6 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-11-24T22:08Z"
- },
- {
-  "team_name": "Columbus Blue Jackets",
-  "player": "Sean Monahan",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-24T14:14Z"
- },
- {
-  "team_name": "Dallas Stars",
-  "player": "Tyler Myers",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "Myers (upper body) has a chance to return in Wednesday's home clash against the Predators, per Robert Tiffin of NHL.com.",
-  "date": "2026-11-24T18:29Z"
  },
  {
   "team_name": "Dallas Stars",
@@ -310,22 +310,6 @@
   "status": "Injured Reserve",
   "detail": "Janmark (undisclosed) does not have a timetable for his return from injury.",
   "date": "2026-09-29T17:52Z"
- },
- {
-  "team_name": "Florida Panthers",
-  "player": "Brad Marchand",
-  "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "Marchand (knee) is close to returning to the lineup, but he won't play against Buffalo on Saturday, per Jameson Olive of the Panthers' official site.",
-  "date": "2026-11-21T16:06Z"
- },
- {
-  "team_name": "Florida Panthers",
-  "player": "Aleksander Barkov",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Barkov (knee) won't play against Buffalo on Saturday, but he could return within Florida's next three games, Jameson Olive of the Panthers' official site reports.",
-  "date": "2026-11-21T15:57Z"
  },
  {
   "team_name": "Florida Panthers",
@@ -561,19 +545,11 @@
  },
  {
   "team_name": "Pittsburgh Penguins",
-  "player": "Evgeni Malkin",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-23T14:10Z"
- },
- {
-  "team_name": "Pittsburgh Penguins",
-  "player": "Declan Carlile",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-23T14:10Z"
+  "player": "Egor Chinakhov",
+  "position": "RW",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-25T16:25Z"
  },
  {
   "team_name": "Pittsburgh Penguins",
@@ -728,22 +704,6 @@
   "date": "2026-11-24T15:34Z"
  },
  {
-  "team_name": "Tampa Bay Lightning",
-  "player": "Zemgus Girgensons",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-23T14:10Z"
- },
- {
-  "team_name": "Tampa Bay Lightning",
-  "player": "Brandon Hagel",
-  "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "Hagel (lower body) was placed on injured reserve by the Lightning on Thursday, retroactive to Nov. 15, Eduardo A. Encina of the Tampa Bay Times reports.",
-  "date": "2026-11-19T15:54Z"
- },
- {
   "team_name": "Toronto Maple Leafs",
   "player": "Jack Roslovic",
   "position": "C",
@@ -875,9 +835,9 @@
   "team_name": "Vancouver Canucks",
   "player": "Elias Pettersson",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-23T14:10Z"
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-25T16:25Z"
  },
  {
   "team_name": "Vancouver Canucks",
@@ -924,8 +884,8 @@
   "player": "Vincent Desharnais",
   "position": "D",
   "status": "Injured Reserve",
-  "detail": "Desharnais (appendectomy) was a full participant in Tuesday's practice and has been upgraded to day-to-day, Tarik El-Bashir of Monumental Sports Network reports.",
-  "date": "2026-11-24T17:30Z"
+  "detail": "Desharnais (appendectomy) is slated to miss Wednesday's game against the Flyers, Tarik El-Bashir of Monumental Sports Network reports.",
+  "date": "2026-11-25T16:03Z"
  },
  {
   "team_name": "Washington Capitals",
