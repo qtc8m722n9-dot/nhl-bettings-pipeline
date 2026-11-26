@@ -192,14 +192,6 @@
   "date": "2026-11-26T03:21Z"
  },
  {
-  "team_name": "Columbus Blue Jackets",
-  "player": "Mathieu Olivier",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-24T22:08Z"
- },
- {
   "team_name": "Dallas Stars",
   "player": "Kyle Capobianco",
   "position": "D",
@@ -721,19 +713,19 @@
  },
  {
   "team_name": "Toronto Maple Leafs",
+  "player": "Jack Roslovic",
+  "position": "C",
+  "status": "Out",
+  "detail": "Roslovic (upper body) is expected to miss Friday's road clash against the Bruins, per Mark Masters of TSN.",
+  "date": "2026-11-26T16:56Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
   "player": "Kirill Marchenko",
   "position": "RW",
   "status": "Injured Reserve",
   "detail": "Marchenko (lower body) is expected back in the lineup against the Bruins on Friday after telling reporters, \"My leg feels perfect and I'm ready to go,\" Mark Masters of TSN reports.",
   "date": "2026-11-25T20:20Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Jack Roslovic",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-24T14:14Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
