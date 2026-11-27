@@ -104,14 +104,6 @@
   "date": "2026-11-26T14:08Z"
  },
  {
-  "team_name": "Carolina Hurricanes",
-  "player": "K'Andre Miller",
-  "position": "D",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-26T14:08Z"
- },
- {
   "team_name": "Chicago Blackhawks",
   "player": "Tyler Bertuzzi",
   "position": "LW",
@@ -369,6 +361,14 @@
  },
  {
   "team_name": "New Jersey Devils",
+  "player": "Declan Chisholm",
+  "position": "D",
+  "status": "Out",
+  "detail": "Chisholm (illness) is expected to miss Friday's game against Calgary, per Amanda Stein of the Devils' official site.",
+  "date": "2026-11-27T15:59Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
   "player": "Brenden Dillon",
   "position": "D",
   "status": "Suspension",
@@ -404,8 +404,8 @@
   "player": "Kyle Palmieri",
   "position": "C",
   "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-24T20:00Z"
+  "detail": "Palmieri is expected to miss the next 6-8 months with a torn ACL and meniscus in his right knee, the team announced Friday.",
+  "date": "2026-11-27T15:49Z"
  },
  {
   "team_name": "New York Islanders",
@@ -718,22 +718,6 @@
   "status": "Out",
   "detail": "Roslovic (upper body) is expected to miss Friday's road clash against the Bruins, per Mark Masters of TSN.",
   "date": "2026-11-26T16:56Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Kirill Marchenko",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "Marchenko (lower body) is expected back in the lineup against the Bruins on Friday after telling reporters, \"My leg feels perfect and I'm ready to go,\" Mark Masters of TSN reports.",
-  "date": "2026-11-25T20:20Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Colton Sissons",
-  "position": "C",
-  "status": "Injured Reserve",
-  "detail": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday.",
-  "date": "2026-11-22T17:19Z"
  },
  {
   "team_name": "Toronto Maple Leafs",

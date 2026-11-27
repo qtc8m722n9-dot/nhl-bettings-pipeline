@@ -12,7 +12,6 @@ Calgary Flames,Martin Pospisil,C,Out,"Pospisil (upper body) didn't travel with h
 Calgary Flames,Jonathan Huberdeau,LW,Injured Reserve,Huberdeau (hip) had three assists in AHL Calgary's 4-3 win over Coachella Valley on Wednesday.,2026-11-19T04:00Z,CGY,True
 Calgary Flames,Kevin Bahl,D,Injured Reserve,"Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday.",2026-11-08T16:17Z,CGY,True
 Carolina Hurricanes,Nikolaj Ehlers,LW,Day-To-Day,day-to-day,2026-11-26T14:08Z,CAR,False
-Carolina Hurricanes,K'Andre Miller,D,Day-To-Day,day-to-day,2026-11-26T14:08Z,CAR,False
 Chicago Blackhawks,Tyler Bertuzzi,LW,Day-To-Day,day-to-day,2026-11-26T14:08Z,CHI,False
 Chicago Blackhawks,Connor Bedard,C,Injured Reserve,"Bedard underwent successful shoulder surgery Monday and is expected to make a full recovery in approximately four months, the Blackhawks announced.",2026-11-24T02:56Z,CHI,True
 Chicago Blackhawks,Wyatt Kaiser,D,Suspension,Kaiser was suspended for three games by the NHL Department of Player Safety on Sunday for an illegal check to the head against Calgary's Martin Pospisil (upper body) on Saturday.,2026-11-22T18:51Z,CHI,False
@@ -45,11 +44,12 @@ Montreal Canadiens,Mike Matheson,D,Injured Reserve,"Matheson (lower body) was pl
 Montreal Canadiens,Josh Anderson,RW,Injured Reserve,"Anderson (lower body) will be out for approximately 3-4 weeks, per Renaud Lavoie of TVA Sports on Sunday.",2026-11-15T22:15Z,MTL,True
 Montreal Canadiens,Chris Kreider,LW,Injured Reserve,ir,2026-11-15T18:04Z,MTL,True
 Montreal Canadiens,Lucas Condotta,LW,Injured Reserve,ir-nr,2026-09-29T16:38Z,MTL,True
+New Jersey Devils,Declan Chisholm,D,Out,"Chisholm (illness) is expected to miss Friday's game against Calgary, per Amanda Stein of the Devils' official site.",2026-11-27T15:59Z,NJD,True
 New Jersey Devils,Brenden Dillon,D,Suspension,suspension,2026-11-26T19:20Z,NJD,False
 New Jersey Devils,Anthony Mantha,RW,Injured Reserve,"Mantha (neck) is expected to miss about one month after undergoing surgery, per Kristy Flannery of The Hockey News.",2026-11-17T18:07Z,NJD,True
 New Jersey Devils,Johnathan Kovacevic,D,Injured Reserve,"Kovacevic (ankle) is expected to be sidelined for 4-6 weeks, per Kristy Flannery of The Hockey News.",2026-11-17T17:39Z,NJD,True
 New Jersey Devils,Seamus Casey,D,Injured Reserve,"Casey (knee) was moved to long-term injured reserve on Friday, per PuckPedia.",2026-11-13T23:49Z,NJD,True
-New York Islanders,Kyle Palmieri,C,Injured Reserve,ir,2026-11-24T20:00Z,NYI,True
+New York Islanders,Kyle Palmieri,C,Injured Reserve,"Palmieri is expected to miss the next 6-8 months with a torn ACL and meniscus in his right knee, the team announced Friday.",2026-11-27T15:49Z,NYI,True
 New York Islanders,Ryan Pulock,D,Out,"Pulock (shoulder) is expected to miss 1-2 weeks, Andrew Gross of Newsday reports Tuesday.",2026-11-24T17:11Z,NYI,True
 New York Islanders,Alexander Romanov,D,Injured Reserve,ir,2026-10-19T13:56Z,NYI,True
 New York Rangers,Gabe Perreault,RW,Injured Reserve,"Perreault (lower body) was put on injured reserve Thursday, per Mollie Walker of the New York Post.",2026-11-26T19:38Z,NYR,True
@@ -89,8 +89,6 @@ Tampa Bay Lightning,Erik Cernak,D,Day-To-Day,day-to-day,2026-11-26T14:08Z,TBL,Fa
 Tampa Bay Lightning,Pontus Holmberg,RW,Out,out,2026-11-26T03:04Z,TBL,True
 Tampa Bay Lightning,Conor Geekie,C,Injured Reserve,Geekie (shoulder) underwent surgery Monday and is expected to miss 4-5 months.,2026-11-24T15:34Z,TBL,True
 Toronto Maple Leafs,Jack Roslovic,C,Out,"Roslovic (upper body) is expected to miss Friday's road clash against the Bruins, per Mark Masters of TSN.",2026-11-26T16:56Z,TOR,True
-Toronto Maple Leafs,Kirill Marchenko,RW,Injured Reserve,"Marchenko (lower body) is expected back in the lineup against the Bruins on Friday after telling reporters, ""My leg feels perfect and I'm ready to go,"" Mark Masters of TSN reports.",2026-11-25T20:20Z,TOR,True
-Toronto Maple Leafs,Colton Sissons,C,Injured Reserve,"Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday.",2026-11-22T17:19Z,TOR,True
 Toronto Maple Leafs,Cole McWard,D,Injured Reserve,"McWard (lower body) is considered day-to-day, per David Alter of The Hockey News on Saturday.",2026-11-21T15:10Z,TOR,True
 Toronto Maple Leafs,Nick Blankenburg,D,Injured Reserve,"Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday.",2026-11-21T15:07Z,TOR,True
 Toronto Maple Leafs,Miles Wood,LW,Injured Reserve,"Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",2026-10-29T00:11Z,TOR,True
