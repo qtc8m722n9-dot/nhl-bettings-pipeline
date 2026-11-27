@@ -3,9 +3,9 @@
   "team_name": "Anaheim Ducks",
   "player": "Leo Carlsson",
   "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-26T14:08Z"
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-27T17:05Z"
  },
  {
   "team_name": "Anaheim Ducks",
@@ -33,6 +33,22 @@
  },
  {
   "team_name": "Buffalo Sabres",
+  "player": "Noah Ostlund",
+  "position": "C",
+  "status": "Out",
+  "detail": "Ostlund (undisclosed) is expected to miss Friday's game against Pittsburgh, per Rachel Lenzi of The Buffalo News.",
+  "date": "2026-11-27T16:31Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
+  "player": "Zach Benson",
+  "position": "LW",
+  "status": "Out",
+  "detail": "Benson (upper body) will not play in Friday's home clash against the Penguins, per Rachel Lenzi of The Buffalo News.",
+  "date": "2026-11-27T16:30Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
   "player": "Tyson Kozak",
   "position": "C",
   "status": "Day-To-Day",
@@ -49,27 +65,11 @@
  },
  {
   "team_name": "Buffalo Sabres",
-  "player": "Justin Danforth",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "Danforth (upper body) was placed on injured reserve Thursday, per the NHL media site.",
-  "date": "2026-10-29T22:06Z"
- },
- {
-  "team_name": "Buffalo Sabres",
   "player": "Matt Grzelcyk",
   "position": "D",
   "status": "Injured Reserve",
   "detail": "Grzelcyk (lower body) suffered a \"flare-up\" and could be out for at least \"a few days,\" head coach Lindy Ruff told Rachel Lenzi of The Buffalo News on Tuesday.",
   "date": "2026-10-13T20:51Z"
- },
- {
-  "team_name": "Calgary Flames",
-  "player": "Morgan Frost",
-  "position": "C",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-26T14:08Z"
  },
  {
   "team_name": "Calgary Flames",
@@ -489,22 +489,6 @@
  },
  {
   "team_name": "Ottawa Senators",
-  "player": "Andre Burakovsky",
-  "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "Burakovsky (lower body) will be with the Senators for their four-game road trip and is expected to play at some point, Bruce Garrioch of Postmedia reports Wednesday.",
-  "date": "2026-11-25T13:03Z"
- },
- {
-  "team_name": "Ottawa Senators",
-  "player": "Hayden Hodgson",
-  "position": "RW",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-24T20:28Z"
- },
- {
-  "team_name": "Ottawa Senators",
   "player": "Warren Foegele",
   "position": "LW",
   "status": "Injured Reserve",
@@ -625,27 +609,19 @@
  },
  {
   "team_name": "St. Louis Blues",
+  "player": "Jimmy Snuggerud",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-27T17:51Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
   "player": "Pavel Buchnevich",
   "position": "LW",
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-26T14:08Z"
- },
- {
-  "team_name": "St. Louis Blues",
-  "player": "Jimmy Snuggerud",
-  "position": "RW",
-  "status": "Day-To-Day",
-  "detail": "day-to-day",
-  "date": "2026-11-26T14:08Z"
- },
- {
-  "team_name": "St. Louis Blues",
-  "player": "Connor McMichael",
-  "position": "LW",
-  "status": "Injured Reserve",
-  "detail": "ir",
-  "date": "2026-11-24T22:30Z"
  },
  {
   "team_name": "St. Louis Blues",
@@ -710,6 +686,14 @@
   "status": "Injured Reserve",
   "detail": "Geekie (shoulder) underwent surgery Monday and is expected to miss 4-5 months.",
   "date": "2026-11-24T15:34Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Dakota Joshua",
+  "position": "C",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-27T17:39Z"
  },
  {
   "team_name": "Toronto Maple Leafs",

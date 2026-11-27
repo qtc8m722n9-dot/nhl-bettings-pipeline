@@ -1,13 +1,13 @@
 team_name,player,position,status,detail,date,team,is_out
-Anaheim Ducks,Leo Carlsson,C,Day-To-Day,day-to-day,2026-11-26T14:08Z,ANA,False
+Anaheim Ducks,Leo Carlsson,C,Injured Reserve,ir,2026-11-27T17:05Z,ANA,True
 Anaheim Ducks,Ryan Poehling,C,Injured Reserve,"Poehling (knee) is expected back in the short term, with head coach Joel Quenneville telling reporters, ""He's close. Would love to see him in by the weekend. We'll see,"" Derek Lee of The Hockey News reports.",2026-11-25T19:08Z,ANA,True
 Anaheim Ducks,A.J. Greer,LW,Injured Reserve,Greer (upper body) was placed on injured reserve Monday.,2026-11-02T18:46Z,ANA,True
 Boston Bruins,James Hagens,C,Injured Reserve,"Hagens (back) is wearing a non-contact sweater ahead of Tuesday's practice, Steve Conroy of the Boston Herald reports.",2026-11-24T15:10Z,BOS,True
+Buffalo Sabres,Noah Ostlund,C,Out,"Ostlund (undisclosed) is expected to miss Friday's game against Pittsburgh, per Rachel Lenzi of The Buffalo News.",2026-11-27T16:31Z,BUF,True
+Buffalo Sabres,Zach Benson,LW,Out,"Benson (upper body) will not play in Friday's home clash against the Penguins, per Rachel Lenzi of The Buffalo News.",2026-11-27T16:30Z,BUF,True
 Buffalo Sabres,Tyson Kozak,C,Day-To-Day,day-to-day,2026-11-26T14:08Z,BUF,False
 Buffalo Sabres,Konsta Helenius,C,Injured Reserve,ir,2026-11-12T21:00Z,BUF,True
-Buffalo Sabres,Justin Danforth,RW,Injured Reserve,"Danforth (upper body) was placed on injured reserve Thursday, per the NHL media site.",2026-10-29T22:06Z,BUF,True
 Buffalo Sabres,Matt Grzelcyk,D,Injured Reserve,"Grzelcyk (lower body) suffered a ""flare-up"" and could be out for at least ""a few days,"" head coach Lindy Ruff told Rachel Lenzi of The Buffalo News on Tuesday.",2026-10-13T20:51Z,BUF,True
-Calgary Flames,Morgan Frost,C,Day-To-Day,day-to-day,2026-11-26T14:08Z,CGY,False
 Calgary Flames,Martin Pospisil,C,Out,"Pospisil (upper body) didn't travel with his teammates for the start of Calgary's five-game road trip, per Eric Francis of Sportsnet on Monday.",2026-11-23T16:46Z,CGY,True
 Calgary Flames,Jonathan Huberdeau,LW,Injured Reserve,Huberdeau (hip) had three assists in AHL Calgary's 4-3 win over Coachella Valley on Wednesday.,2026-11-19T04:00Z,CGY,True
 Calgary Flames,Kevin Bahl,D,Injured Reserve,"Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday.",2026-11-08T16:17Z,CGY,True
@@ -60,8 +60,6 @@ New York Rangers,Joe Veleno,C,Injured Reserve,"Veleno (lower body) skated on his
 New York Rangers,Igor Shesterkin,G,Injured Reserve,"Shesterkin will require surgery and a lengthy rehab process to address his season-ending right knee injury, Vince Z. Mercogliano of The Athletic reports Sunday.",2026-10-11T21:06Z,NYR,True
 New York Rangers,Aidan Thompson,C,Injured Reserve,ir-nr,2026-09-29T16:39Z,NYR,True
 New York Rangers,Adam Sykora,LW,Injured Reserve,ir,2026-09-29T01:35Z,NYR,True
-Ottawa Senators,Andre Burakovsky,LW,Injured Reserve,"Burakovsky (lower body) will be with the Senators for their four-game road trip and is expected to play at some point, Bruce Garrioch of Postmedia reports Wednesday.",2026-11-25T13:03Z,OTT,True
-Ottawa Senators,Hayden Hodgson,RW,Injured Reserve,ir,2026-11-24T20:28Z,OTT,True
 Ottawa Senators,Warren Foegele,LW,Injured Reserve,"Head coach Travis Green said Monday that Foegele (knee) hasn't yet resumed skating, Bruce Garrioch of Postmedia reports.",2026-11-16T16:53Z,OTT,True
 Ottawa Senators,William Eklund,LW,Injured Reserve,"Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday.",2026-10-15T15:24Z,OTT,True
 Philadelphia Flyers,Nikita Grebenkin,RW,Injured Reserve,Grebenkin (back) underwent successful surgery and is expected to miss at least four months.,2026-10-10T16:58Z,PHI,True
@@ -77,9 +75,8 @@ San Jose Sharks,Quentin Musty,LW,Injured Reserve,"Head coach Ryan Warsofsky said
 San Jose Sharks,Kyle Keyser,G,Injured Reserve,"Keyser (upper body) was placed on non-roster injured reserve by the Sharks on Monday, Curtis Pashelka of The San Jose Mercury News reports.",2026-09-28T22:10Z,SJS,True
 Seattle Kraken,Jake O'Brien,C,Injured Reserve,"The Kraken indicated Thursday that O'Brien (lower body) remains week-to-week, Mike Benton of the Kraken Audio Network reports.",2026-11-19T20:30Z,SEA,True
 Seattle Kraken,Jared McCann,LW,Injured Reserve,"McCann (lower body) will be out for approximately 10 weeks, the team announced Sunday.",2026-10-25T17:08Z,SEA,True
+St. Louis Blues,Jimmy Snuggerud,RW,Injured Reserve,ir,2026-11-27T17:51Z,STL,True
 St. Louis Blues,Pavel Buchnevich,LW,Day-To-Day,day-to-day,2026-11-26T14:08Z,STL,False
-St. Louis Blues,Jimmy Snuggerud,RW,Day-To-Day,day-to-day,2026-11-26T14:08Z,STL,False
-St. Louis Blues,Connor McMichael,LW,Injured Reserve,ir,2026-11-24T22:30Z,STL,True
 St. Louis Blues,Brandon Carlo,D,Injured Reserve,ir,2026-11-24T22:25Z,STL,True
 St. Louis Blues,Torey Krug,D,Injured Reserve,"Krug (ankle) was placed on long-term injured reserve by the Blues on Monday, per PuckPedia.",2026-10-13T01:42Z,STL,True
 St. Louis Blues,Dillon Dube,C,Injured Reserve,ir,2026-10-10T21:13Z,STL,True
@@ -88,6 +85,7 @@ Tampa Bay Lightning,Victor Hedman,D,Day-To-Day,day-to-day,2026-11-26T14:08Z,TBL,
 Tampa Bay Lightning,Erik Cernak,D,Day-To-Day,day-to-day,2026-11-26T14:08Z,TBL,False
 Tampa Bay Lightning,Pontus Holmberg,RW,Out,out,2026-11-26T03:04Z,TBL,True
 Tampa Bay Lightning,Conor Geekie,C,Injured Reserve,Geekie (shoulder) underwent surgery Monday and is expected to miss 4-5 months.,2026-11-24T15:34Z,TBL,True
+Toronto Maple Leafs,Dakota Joshua,C,Out,out,2026-11-27T17:39Z,TOR,True
 Toronto Maple Leafs,Jack Roslovic,C,Out,"Roslovic (upper body) is expected to miss Friday's road clash against the Bruins, per Mark Masters of TSN.",2026-11-26T16:56Z,TOR,True
 Toronto Maple Leafs,Cole McWard,D,Injured Reserve,"McWard (lower body) is considered day-to-day, per David Alter of The Hockey News on Saturday.",2026-11-21T15:10Z,TOR,True
 Toronto Maple Leafs,Nick Blankenburg,D,Injured Reserve,"Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday.",2026-11-21T15:07Z,TOR,True
