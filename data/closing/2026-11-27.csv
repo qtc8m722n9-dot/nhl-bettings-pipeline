@@ -1,0 +1,26 @@
+cand_id,game_key,captured_et,min_before_start,close_bid,close_ask,close_mid,kalshi_close_source,close_fair,close_fair_source
+kalshi|PIT@BUF|player_goals|mattias samuelsson|0.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.06,0.1,0.08,live,,
+kalshi|PIT@BUF|player_goals|jason zucker|0.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.21,0.22,0.215,live,,
+kalshi|SEA@EDM|player_goals|connor mcdavid|0.5|yes,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.42,0.43,0.425,live,,
+kalshi|SEA@EDM|player_points|vince dunn|0.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.55,0.57,0.56,live,0.5740469779410876,pinnacle
+kalshi|SEA@EDM|player_points|bobby mcmann|0.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.57,0.59,0.58,live,0.5929610255715614,pinnacle
+kalshi|PIT@BUF|player_points|owen power|0.5|no,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.58,0.6,0.59,live,0.5874272698833227,pinnacle
+kalshi|SEA@EDM|player_points|berkly catton|0.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.58,0.6,0.59,live,0.5877151682599033,pinnacle
+kalshi|PIT@BUF|player_points|sidney crosby|0.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.58,0.6,0.59,live,0.583305061424049,pinnacle
+kalshi|SEA@EDM|player_points|kaapo kakko|0.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.6,0.63,0.615,live,0.6170482512723725,pinnacle
+kalshi|PIT@BUF|player_points|rasmus dahlin|0.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.62,0.63,0.625,live,0.6412431630229632,pinnacle
+kalshi|PIT@BUF|spread|BUF|1.5|no,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.64,0.65,0.645,live,0.6430024662086765,pinnacle
+kalshi|SEA@EDM|player_points|evan bouchard|1.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.63,0.65,0.64,live,0.6477993690080279,pinnacle
+underdog|PIT@BUF|player_points|zach benson|0.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,,,,,0.6411928522372357,pinnacle
+kalshi|PIT@BUF|player_goals|jiri kulich|0.5|no,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.74,0.76,0.75,live,,
+kalshi|PIT@BUF|total||4.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.83,0.84,0.835,live,,
+kalshi|SEA@EDM|spread|SEA|1.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.82,0.83,0.825,live,,
+betmgm|SEA@EDM|player_sog|matty beniers|1.5|yes,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,,,,,0.5432980205109883,pinnacle
+espnbet|PIT@BUF|player_sog|ben kindel|1.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,,,,,0.564543788963951,pinnacle
+espnbet|SEA@EDM|player_sog|brandon montour|2.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,,,,,0.6044938039932303,pinnacle
+espnbet|SEA@EDM|player_sog|kasperi kapanen|1.5|yes,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,,,,,0.5289747037251118,pinnacle
+espnbet|SEA@EDM|player_sog|kaapo kakko|1.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,,,,,0.6207982851073041,pinnacle
+fanduel|SEA@EDM|player_sog|evan bouchard|2.5|yes,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,,,,,0.541117072006455,pinnacle
+betmgm|PIT@BUF|player_sog|owen power|1.5|no,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,,,,,0.6309553346406137,pinnacle
+draftkings|PIT@BUF|player_sog|sidney crosby|1.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,,,,,0.6309553346406138,pinnacle
+draftkings|PIT@BUF|player_sog|jiri kulich|1.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,,,,,0.6309553346406138,pinnacle
