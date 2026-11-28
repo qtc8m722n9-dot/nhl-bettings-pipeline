@@ -9,6 +9,6 @@ Home side vs fair price when only the away team played yesterday. Interim look 2
 | Group | Games | Home win | Fair | Edge, pts | 95% CI | Close move, pts (n) | Kalshi ROI (n) |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | Only away on b2b (H1) | 17 | 47.1% | 58.2% | -11.2 | -35.4 to +12.7 | +0.3 (17) | -19.1% (17) |
-| Neither on b2b (control) | 121 | 45.5% | 53.8% | -8.3 | -16.7 to +0.8 | -0.1 (121) | -20.1% (121) |
+| Neither on b2b (control) | 136 | 44.1% | 53.7% | -9.6 | -17.6 to -1.4 | -0.2 (136) | -21.4% (136) |
 
-Games with a fair moneyline since 2026-11-05: 148; dates 2026-11-05 – 2026-11-25.
+Games with a fair moneyline since 2026-11-05: 163; dates 2026-11-05 – 2026-11-27.
