@@ -1,0 +1,13 @@
+{
+ "pulled_at_et": "2026-11-28T10:17:22-05:00",
+ "schedule": "ok",
+ "standings": "ok",
+ "moneypuck_teams": "ok",
+ "moneypuck_goalies": "ok",
+ "moneypuck_skaters": "ok",
+ "dailyfaceoff_goalies": "ok",
+ "espn_injuries": "ok",
+ "dailyfaceoff_lines": "ok: 32 teams, 1325 slots, 0 failed",
+ "games": 13,
+ "goalies_matched": 26
+}

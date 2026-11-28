@@ -1,0 +1,938 @@
+[
+ {
+  "team_name": "Anaheim Ducks",
+  "player": "Leo Carlsson",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-27T17:05Z"
+ },
+ {
+  "team_name": "Anaheim Ducks",
+  "player": "Ryan Poehling",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Poehling (knee) is expected back in the short term, with head coach Joel Quenneville telling reporters, \"He's close. Would love to see him in by the weekend. We'll see,\" Derek Lee of The Hockey News reports.",
+  "date": "2026-11-25T19:08Z"
+ },
+ {
+  "team_name": "Anaheim Ducks",
+  "player": "A.J. Greer",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Greer (upper body) was placed on injured reserve Monday.",
+  "date": "2026-11-02T18:46Z"
+ },
+ {
+  "team_name": "Boston Bruins",
+  "player": "David Pastrnak",
+  "position": "RW",
+  "status": "Day-To-Day",
+  "detail": "Pastrnak sustained a lower-body injury and is unlikely to return to Friday's game against Toronto.",
+  "date": "2026-11-27T19:04Z"
+ },
+ {
+  "team_name": "Boston Bruins",
+  "player": "James Hagens",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Hagens (back) is wearing a non-contact sweater ahead of Tuesday's practice, Steve Conroy of the Boston Herald reports.",
+  "date": "2026-11-24T15:10Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
+  "player": "Zach Benson",
+  "position": "LW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
+  "player": "Noah Ostlund",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Ostlund (undisclosed) will miss at least one more and likely more time than that, Mike Harrington of The Buffalo News reports.",
+  "date": "2026-11-28T04:27Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
+  "player": "Tyson Kozak",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-27T19:25Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
+  "player": "Konsta Helenius",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-12T21:00Z"
+ },
+ {
+  "team_name": "Buffalo Sabres",
+  "player": "Matt Grzelcyk",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Grzelcyk (lower body) suffered a \"flare-up\" and could be out for at least \"a few days,\" head coach Lindy Ruff told Rachel Lenzi of The Buffalo News on Tuesday.",
+  "date": "2026-10-13T20:51Z"
+ },
+ {
+  "team_name": "Calgary Flames",
+  "player": "Martin Pospisil",
+  "position": "C",
+  "status": "Out",
+  "detail": "Pospisil (upper body) didn't travel with his teammates for the start of Calgary's five-game road trip, per Eric Francis of Sportsnet on Monday.",
+  "date": "2026-11-23T16:46Z"
+ },
+ {
+  "team_name": "Calgary Flames",
+  "player": "Jonathan Huberdeau",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Huberdeau (hip) had three assists in AHL Calgary's 4-3 win over Coachella Valley on Wednesday.",
+  "date": "2026-11-19T04:00Z"
+ },
+ {
+  "team_name": "Calgary Flames",
+  "player": "Kevin Bahl",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday.",
+  "date": "2026-11-08T16:17Z"
+ },
+ {
+  "team_name": "Carolina Hurricanes",
+  "player": "Nikolaj Ehlers",
+  "position": "LW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-26T14:08Z"
+ },
+ {
+  "team_name": "Chicago Blackhawks",
+  "player": "Tyler Bertuzzi",
+  "position": "LW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "Chicago Blackhawks",
+  "player": "Jordan Greenway",
+  "position": "LW",
+  "status": "Day-To-Day",
+  "detail": "Greenway missed Friday's game versus the Rangers due to an upper-body injury, Ben Pope of the Chicago Sun-Times reports.",
+  "date": "2026-11-28T01:44Z"
+ },
+ {
+  "team_name": "Chicago Blackhawks",
+  "player": "Patrick Kane",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Kane (foot) was placed on injured reserve Friday, per the NHL media site.",
+  "date": "2026-11-27T18:55Z"
+ },
+ {
+  "team_name": "Chicago Blackhawks",
+  "player": "Connor Bedard",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Bedard underwent successful shoulder surgery Monday and is expected to make a full recovery in approximately four months, the Blackhawks announced.",
+  "date": "2026-11-24T02:56Z"
+ },
+ {
+  "team_name": "Chicago Blackhawks",
+  "player": "Bowen Byram",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Byram (upper body) didn't accompany his teammates on Chicago's three-game road trip, per Mark Lazerus of The Athletic on Saturday.",
+  "date": "2026-11-21T19:21Z"
+ },
+ {
+  "team_name": "Colorado Avalanche",
+  "player": "Martin Necas",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "Colorado Avalanche",
+  "player": "Gavin Brindley",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-27T01:27Z"
+ },
+ {
+  "team_name": "Colorado Avalanche",
+  "player": "Nathan MacKinnon",
+  "position": "C",
+  "status": "Out",
+  "detail": "MacKinnon (lower body) has been evaluated by a specialist and is expected to miss the next 12 weeks, Aarif Deen of Colorado Hockey Now reports Saturday.",
+  "date": "2026-11-21T20:30Z"
+ },
+ {
+  "team_name": "Colorado Avalanche",
+  "player": "Josh Manson",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-09T22:18Z"
+ },
+ {
+  "team_name": "Colorado Avalanche",
+  "player": "Zachary L'Heureux",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "ir-lt",
+  "date": "2026-10-23T21:39Z"
+ },
+ {
+  "team_name": "Columbus Blue Jackets",
+  "player": "Denton Mateychuk",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "Dallas Stars",
+  "player": "Kyle Capobianco",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Capobianco (leg) was moved to long-term injured reserve Saturday.",
+  "date": "2026-11-14T15:14Z"
+ },
+ {
+  "team_name": "Dallas Stars",
+  "player": "Lian Bichsel",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Bichsel (lower body) was placed on injured reserve Saturday.",
+  "date": "2026-11-14T15:10Z"
+ },
+ {
+  "team_name": "Dallas Stars",
+  "player": "Matt Duchene",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+  "date": "2026-10-12T16:46Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
+  "player": "William Wallinder",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
+  "player": "Sam Montembeault",
+  "position": "G",
+  "status": "Injured Reserve",
+  "detail": "Montembeault (lower body), Kirby Dach, Michael Hage, a 2027 first-round pick, a 2029 first-round pick, a 2027 second-round pick and a 2028 fourth-round pick were traded to the Red Wings from the Canadiens on Sunday in exchange for Dylan Larkin, a 2028 second-round pick and a 2027 third-round pick.",
+  "date": "2026-11-23T02:02Z"
+ },
+ {
+  "team_name": "Detroit Red Wings",
+  "player": "Simon Edvinsson",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Edvinsson (contract dispute) is on the Red Wings' injured, non-roster list, per the NHL media site Wednesday.",
+  "date": "2026-10-14T15:15Z"
+ },
+ {
+  "team_name": "Edmonton Oilers",
+  "player": "Filip Hallander",
+  "position": "C",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-27T18:45Z"
+ },
+ {
+  "team_name": "Edmonton Oilers",
+  "player": "Zach Hyman",
+  "position": "LW",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-27T18:38Z"
+ },
+ {
+  "team_name": "Edmonton Oilers",
+  "player": "Alec Regula",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Regula (undisclosed) was designated for long-term injured reserve Thursday.",
+  "date": "2026-10-01T14:11Z"
+ },
+ {
+  "team_name": "Edmonton Oilers",
+  "player": "Matt Savoie",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Savoie (lower body) was shifted to long-term injured reserve Thursday.",
+  "date": "2026-10-01T14:05Z"
+ },
+ {
+  "team_name": "Edmonton Oilers",
+  "player": "Frederik Andersen",
+  "position": "G",
+  "status": "Injured Reserve",
+  "detail": "Andersen (knee) isn't expected back until \"maybe\" December, head coach Mike Babcock told NHL.com on Tuesday.",
+  "date": "2026-09-29T17:53Z"
+ },
+ {
+  "team_name": "Edmonton Oilers",
+  "player": "Mattias Janmark",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Janmark (undisclosed) does not have a timetable for his return from injury.",
+  "date": "2026-09-29T17:52Z"
+ },
+ {
+  "team_name": "Florida Panthers",
+  "player": "Garnet Hathaway",
+  "position": "RW",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-27T23:19Z"
+ },
+ {
+  "team_name": "Florida Panthers",
+  "player": "Jonah Gadjovich",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports.",
+  "date": "2026-11-19T16:20Z"
+ },
+ {
+  "team_name": "Los Angeles Kings",
+  "player": "Erik Gustafsson",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Gustafsson (upper body) was placed on injured reserve Monday, per the NHL media site.",
+  "date": "2026-11-23T22:00Z"
+ },
+ {
+  "team_name": "Los Angeles Kings",
+  "player": "Jakub Dvorak",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir-nr",
+  "date": "2026-09-24T19:49Z"
+ },
+ {
+  "team_name": "Minnesota Wild",
+  "player": "Quinn Hughes",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Hughes (upper body) is doubtful to play Friday versus the Avalanche but is expected to join the wild on their road trip, which begins Sunday in Chicago, Michael Russo of The Athletic reports.",
+  "date": "2026-11-26T04:22Z"
+ },
+ {
+  "team_name": "Minnesota Wild",
+  "player": "Olli Maatta",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-16T21:33Z"
+ },
+ {
+  "team_name": "Montreal Canadiens",
+  "player": "Kaiden Guhle",
+  "position": "D",
+  "status": "Out",
+  "detail": "Guhle (upper body) is considered day-to-day, the team announced Friday.",
+  "date": "2026-11-27T19:11Z"
+ },
+ {
+  "team_name": "Montreal Canadiens",
+  "player": "Ivan Demidov",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Demidov is expected to travel to Vegas and join the Canadiens for practice Friday, Eric Engels of Sportsnet reports.",
+  "date": "2026-11-26T03:33Z"
+ },
+ {
+  "team_name": "Montreal Canadiens",
+  "player": "Mike Matheson",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Matheson (lower body) was placed on long-term injured reserve Tuesday, Renaud Lavoie of TVA Sports reports.",
+  "date": "2026-11-24T14:59Z"
+ },
+ {
+  "team_name": "Montreal Canadiens",
+  "player": "Josh Anderson",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Anderson (lower body) will be out for approximately 3-4 weeks, per Renaud Lavoie of TVA Sports on Sunday.",
+  "date": "2026-11-15T22:15Z"
+ },
+ {
+  "team_name": "Montreal Canadiens",
+  "player": "Chris Kreider",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-15T18:04Z"
+ },
+ {
+  "team_name": "Montreal Canadiens",
+  "player": "Lucas Condotta",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "ir-nr",
+  "date": "2026-09-29T16:38Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
+  "player": "Declan Chisholm",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
+  "player": "Brenden Dillon",
+  "position": "D",
+  "status": "Suspension",
+  "detail": "suspension",
+  "date": "2026-11-26T19:20Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
+  "player": "Anthony Mantha",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Mantha (neck) is expected to miss about one month after undergoing surgery, per Kristy Flannery of The Hockey News.",
+  "date": "2026-11-17T18:07Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
+  "player": "Johnathan Kovacevic",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Kovacevic (ankle) is expected to be sidelined for 4-6 weeks, per Kristy Flannery of The Hockey News.",
+  "date": "2026-11-17T17:39Z"
+ },
+ {
+  "team_name": "New Jersey Devils",
+  "player": "Seamus Casey",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Casey (knee) was moved to long-term injured reserve on Friday, per PuckPedia.",
+  "date": "2026-11-13T23:49Z"
+ },
+ {
+  "team_name": "New York Islanders",
+  "player": "Kyle Palmieri",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Palmieri is expected to miss the next 6-8 months with a torn ACL and meniscus in his right knee, the team announced Friday.",
+  "date": "2026-11-27T15:49Z"
+ },
+ {
+  "team_name": "New York Islanders",
+  "player": "Ryan Pulock",
+  "position": "D",
+  "status": "Out",
+  "detail": "Pulock (shoulder) is expected to miss 1-2 weeks, Andrew Gross of Newsday reports Tuesday.",
+  "date": "2026-11-24T17:11Z"
+ },
+ {
+  "team_name": "New York Islanders",
+  "player": "Alexander Romanov",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-10-19T13:56Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Gabe Perreault",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Perreault (lower body) was put on injured reserve Thursday, per Mollie Walker of the New York Post.",
+  "date": "2026-11-26T19:38Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Pavel Dorofeyev",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Dorofeyev (lower body) will join the Rangers for their two-game road trip, Mollie Walker of the New York Post reports Tuesday.",
+  "date": "2026-11-24T18:03Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Oliver Bjorkstrand",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Bjorkstrand (upper body) is expected to be sidelined for 2-3 months, Peter Baugh of The Athletic reports Saturday.",
+  "date": "2026-11-21T16:33Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Alberts Smits",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Smits (upper body) is expected to miss 2-3 months, Peter Baugh of The Athletic reported Saturday.",
+  "date": "2026-11-21T16:18Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Joe Veleno",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Veleno (lower body) skated on his own before Friday's practice session, Colin Stephenson of Newsday reports.",
+  "date": "2026-11-20T16:23Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Igor Shesterkin",
+  "position": "G",
+  "status": "Injured Reserve",
+  "detail": "Shesterkin will require surgery and a lengthy rehab process to address his season-ending right knee injury, Vince Z. Mercogliano of The Athletic reports Sunday.",
+  "date": "2026-10-11T21:06Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Aidan Thompson",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir-nr",
+  "date": "2026-09-29T16:39Z"
+ },
+ {
+  "team_name": "New York Rangers",
+  "player": "Adam Sykora",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-09-29T01:35Z"
+ },
+ {
+  "team_name": "Ottawa Senators",
+  "player": "Warren Foegele",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Head coach Travis Green said Monday that Foegele (knee) hasn't yet resumed skating, Bruce Garrioch of Postmedia reports.",
+  "date": "2026-11-16T16:53Z"
+ },
+ {
+  "team_name": "Ottawa Senators",
+  "player": "William Eklund",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday.",
+  "date": "2026-10-15T15:24Z"
+ },
+ {
+  "team_name": "Philadelphia Flyers",
+  "player": "Owen Tippett",
+  "position": "RW",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "Philadelphia Flyers",
+  "player": "Nikita Grebenkin",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
+  "date": "2026-10-10T16:58Z"
+ },
+ {
+  "team_name": "Pittsburgh Penguins",
+  "player": "Egor Chinakhov",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-26T03:11Z"
+ },
+ {
+  "team_name": "Pittsburgh Penguins",
+  "player": "Bryan Rust",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Rust (lower body) is skating in a non-contact sweater Friday, Seth Rorabaugh of Tribune-Review Sports reports.",
+  "date": "2026-11-20T16:56Z"
+ },
+ {
+  "team_name": "Pittsburgh Penguins",
+  "player": "Nick Robertson",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-20T16:08Z"
+ },
+ {
+  "team_name": "Pittsburgh Penguins",
+  "player": "Elmer Soderblom",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Soderblom (upper body) is week-to-week, per Penguins PR on Monday.",
+  "date": "2026-11-02T15:52Z"
+ },
+ {
+  "team_name": "Pittsburgh Penguins",
+  "player": "Ryan Graves",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Graves (lower body) is out indefinitely and was placed on injured reserve Sunday.",
+  "date": "2026-09-27T15:21Z"
+ },
+ {
+  "team_name": "San Jose Sharks",
+  "player": "Jacob Trouba",
+  "position": "D",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-23T19:34Z"
+ },
+ {
+  "team_name": "San Jose Sharks",
+  "player": "Kiefer Sherwood",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Sherwood (upper body) was placed on injured reserve Monday.",
+  "date": "2026-11-23T17:45Z"
+ },
+ {
+  "team_name": "San Jose Sharks",
+  "player": "Igor Chernyshov",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Head coach Ryan Warsofsky said Sunday that Chernyshov (upper body) is not close to returning to game action, per Curtis Pashelka of The San Jose Mercury News.",
+  "date": "2026-11-15T23:51Z"
+ },
+ {
+  "team_name": "San Jose Sharks",
+  "player": "Quentin Musty",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Head coach Ryan Warsofsky said Sunday that Musty (upper body) isn't close to returning, Curtis Pashelka of The San Jose Mercury News reports.",
+  "date": "2026-11-15T23:51Z"
+ },
+ {
+  "team_name": "San Jose Sharks",
+  "player": "Kyle Keyser",
+  "position": "G",
+  "status": "Injured Reserve",
+  "detail": "Keyser (upper body) was placed on non-roster injured reserve by the Sharks on Monday, Curtis Pashelka of The San Jose Mercury News reports.",
+  "date": "2026-09-28T22:10Z"
+ },
+ {
+  "team_name": "Seattle Kraken",
+  "player": "Philipp Grubauer",
+  "position": "G",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T03:10Z"
+ },
+ {
+  "team_name": "Seattle Kraken",
+  "player": "Jake O'Brien",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "The Kraken indicated Thursday that O'Brien (lower body) remains week-to-week, Mike Benton of the Kraken Audio Network reports.",
+  "date": "2026-11-19T20:30Z"
+ },
+ {
+  "team_name": "Seattle Kraken",
+  "player": "Jared McCann",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "McCann (lower body) will be out for approximately 10 weeks, the team announced Sunday.",
+  "date": "2026-10-25T17:08Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
+  "player": "Jimmy Snuggerud",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-27T17:51Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
+  "player": "Brandon Carlo",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-24T22:25Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
+  "player": "Dillon Dube",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-10-10T21:13Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
+  "player": "Tyler Tucker",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Tucker had arthroscopic knee surgery and will be re-assessed in six weeks, the team announced Wednesday.",
+  "date": "2026-09-30T19:39Z"
+ },
+ {
+  "team_name": "Tampa Bay Lightning",
+  "player": "Erik Cernak",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "Tampa Bay Lightning",
+  "player": "Victor Hedman",
+  "position": "D",
+  "status": "Day-To-Day",
+  "detail": "Hedman (undisclosed) didn't finish Friday's game versus the Senators, Benjamin Pierce of the Lightning's official site reports.",
+  "date": "2026-11-27T23:15Z"
+ },
+ {
+  "team_name": "Tampa Bay Lightning",
+  "player": "Pontus Holmberg",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-27T19:34Z"
+ },
+ {
+  "team_name": "Tampa Bay Lightning",
+  "player": "Conor Geekie",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Geekie (shoulder) underwent surgery Monday and is expected to miss 4-5 months.",
+  "date": "2026-11-24T15:34Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Jack Roslovic",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Dakota Joshua",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-28T14:08Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Chris Tanev",
+  "position": "D",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-27T23:09Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Cole McWard",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "McWard (lower body) is considered day-to-day, per David Alter of The Hockey News on Saturday.",
+  "date": "2026-11-21T15:10Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Nick Blankenburg",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday.",
+  "date": "2026-11-21T15:07Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Miles Wood",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",
+  "date": "2026-10-29T00:11Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Marshall Rifai",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-10-23T02:22Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Max Domi",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Domi (back) was transferred from the non-roster list to long-term injured reserve Wednesday, per PuckPedia.",
+  "date": "2026-09-30T18:51Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Cade Webber",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir-nr",
+  "date": "2026-09-29T14:55Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "Elvis Merzlikins",
+  "position": "G",
+  "status": "Injured Reserve",
+  "detail": "Merzlikins is expected to miss 4-6 months to begin the 2026-27 regular season while recovering from a shoulder injury, per Luke Fox of Sportsnet.",
+  "date": "2026-09-29T14:24Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
+  "player": "William Villeneuve",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir-nr",
+  "date": "2026-09-29T04:30Z"
+ },
+ {
+  "team_name": "Utah Mammoth",
+  "player": "Michael Carcone",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-25T22:58Z"
+ },
+ {
+  "team_name": "Utah Mammoth",
+  "player": "John Marino",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Marino (upper body) likely won't return during Utah's four-game road trip, per Brogan Houston of the Deseret News on Monday.",
+  "date": "2026-11-23T18:57Z"
+ },
+ {
+  "team_name": "Utah Mammoth",
+  "player": "Nick Schmaltz",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-17T22:14Z"
+ },
+ {
+  "team_name": "Utah Mammoth",
+  "player": "Nate Schmidt",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "The Mammoth announced Thursday that Schmidt (upper body) is considered week-to-week, Cole Bagley of KSL Sports reports.",
+  "date": "2026-11-12T19:30Z"
+ },
+ {
+  "team_name": "Utah Mammoth",
+  "player": "Maveric Lamoureux",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-09-28T21:02Z"
+ },
+ {
+  "team_name": "Vancouver Canucks",
+  "player": "Filip Chytil",
+  "position": "C",
+  "status": "Day-To-Day",
+  "detail": "day-to-day",
+  "date": "2026-11-27T22:13Z"
+ },
+ {
+  "team_name": "Vancouver Canucks",
+  "player": "Elias Pettersson",
+  "position": "C",
+  "status": "Out",
+  "detail": "out",
+  "date": "2026-11-25T16:25Z"
+ },
+ {
+  "team_name": "Vancouver Canucks",
+  "player": "Brendan Gallagher",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Gallagher (lower body) was placed on injured reserve Saturday.",
+  "date": "2026-11-21T17:13Z"
+ },
+ {
+  "team_name": "Vancouver Canucks",
+  "player": "Guillaume Brisebois",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-13T22:59Z"
+ },
+ {
+  "team_name": "Vancouver Canucks",
+  "player": "Mackenzie MacEachern",
+  "position": "LW",
+  "status": "Injured Reserve",
+  "detail": "ir-nr",
+  "date": "2026-09-29T17:03Z"
+ },
+ {
+  "team_name": "Vancouver Canucks",
+  "player": "Thatcher Demko",
+  "position": "G",
+  "status": "Injured Reserve",
+  "detail": "Co-president of hockey operations Henrik Sedin said Monday that he hopes Demko (hip) will be ready to return before Christmas, Kevin Woodley of NHL.com reports.",
+  "date": "2026-09-28T17:58Z"
+ },
+ {
+  "team_name": "Washington Capitals",
+  "player": "Jordan Kyrou",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "Kyrou (upper body) was put on injured reserve Friday.",
+  "date": "2026-11-27T15:11Z"
+ },
+ {
+  "team_name": "Washington Capitals",
+  "player": "Rasmus Sandin",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Sandin (knee) has been cleared to start taking contact, Sammi Silber of The District Standard reports Tuesday.",
+  "date": "2026-11-24T15:28Z"
+ },
+ {
+  "team_name": "Winnipeg Jets",
+  "player": "Dylan DeMelo",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "DeMelo (lower body) is expected to be out of action for 4-6 weeks, Mitchell Clinton of the Jets' official site reports Thursday.",
+  "date": "2026-11-19T16:39Z"
+ },
+ {
+  "team_name": "Winnipeg Jets",
+  "player": "Isak Rosen",
+  "position": "RW",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-11-17T15:15Z"
+ },
+ {
+  "team_name": "Winnipeg Jets",
+  "player": "Vladislav Namestnikov",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "ir",
+  "date": "2026-10-23T18:11Z"
+ }
+]
