@@ -45,7 +45,6 @@ kalshi|WPG@NYI|player_goals|calum ritchie|0.5|no,WPG@NYI,,,0.83,0.84,0.835,candl
 kalshi|UTA@NSH|player_goals|roman josi|0.5|no,UTA@NSH,,,0.83,0.84,0.835,candle,,,0.0,,,
 kalshi|LAK@ANA|team_total|ANA|1.5|yes,LAK@ANA,,,0.81,0.84,0.825,candle,,,2.0,,,
 kalshi|NYR@CHI|player_goals|teuvo teravainen|0.5|no,NYR@CHI,,,0.83,0.85,0.84,candle,,,1.0,,,
-kalshi|CGY@NJD|player_points|luke hughes|1.5|yes,CGY@NJD,,,0.12,0.2,0.16,candle,,,0.0,none,2026-11-27T17:55:36Z,4.4
 kalshi|CGY@NJD|ml|NJD|nan|no,CGY@NJD,,,0.31,0.32,0.315,candle,0.3086770170409593,pinnacle,0.0,archive,2026-11-27T17:55:36Z,4.4
 kalshi|CGY@NJD|ml|CGY|nan|yes,CGY@NJD,,,0.31,0.32,0.315,candle,0.30867701704095935,pinnacle,0.0,archive,2026-11-27T17:55:36Z,4.4
 kalshi|CGY@NJD|player_points|simon nemec|0.5|yes,CGY@NJD,,,0.33,0.36,0.345,candle,0.3458430972604681,pinnacle,0.0,archive,2026-11-27T17:55:36Z,4.4
@@ -174,7 +173,6 @@ underdog|CGY@NJD|player_points|nico hischier|0.5|yes,CGY@NJD,,,,,,,0.63432169411
 underdog|CGY@NJD|player_points|jesper bratt|0.5|yes,CGY@NJD,,,,,,,0.654156902739532,pinnacle,,archive,2026-11-27T17:55:36Z,4.4
 kalshi|CGY@NJD|ml|CGY|nan|no,CGY@NJD,,,0.68,0.69,0.685,candle,0.6913229829590406,pinnacle,0.0,archive,2026-11-27T17:55:36Z,4.4
 kalshi|CGY@NJD|ml|NJD|nan|yes,CGY@NJD,,,0.68,0.69,0.685,candle,0.6913229829590407,pinnacle,0.0,archive,2026-11-27T17:55:36Z,4.4
-kalshi|CGY@NJD|player_points|timo meier|1.5|no,CGY@NJD,,,0.83,0.92,0.875,candle,,,0.0,none,2026-11-27T17:55:36Z,4.4
 espnbet|CGY@NJD|player_sog|evan rodrigues|1.5|yes,CGY@NJD,,,,,,,0.5740469779410878,pinnacle,,archive,2026-11-27T17:55:36Z,4.4
 espnbet|CGY@NJD|player_sog|evan rodrigues|1.5|no,CGY@NJD,,,,,,,0.42595302205891217,pinnacle,,archive,2026-11-27T17:55:36Z,4.4
 espnbet|CGY@NJD|player_sog|joel farabee|1.5|yes,CGY@NJD,,,,,,,0.6244782261680047,pinnacle,,archive,2026-11-27T17:55:36Z,4.4
@@ -414,7 +412,6 @@ kalshi|COL@MIN|player_points|matt boldy|0.5|yes,COL@MIN,,,0.66,0.67,0.665,candle
 kalshi|COL@MIN|player_points|matt boldy|1.5|no,COL@MIN,,,0.66,0.69,0.675,candle,0.6661473075298531,pinnacle,0.0,archive,2026-11-27T20:55:36Z,4.4
 kalshi|COL@MIN|spread|MIN|1.5|no,COL@MIN,,,0.68,0.7,0.69,candle,0.6935352159666803,pinnacle,0.0,archive,2026-11-27T20:55:36Z,4.4
 underdog|COL@MIN|player_points|matt boldy|1.5|no,COL@MIN,,,,,,,0.6661473075298531,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
-kalshi|COL@MIN|player_points|kirill kaprizov|2.5|no,COL@MIN,,,0.84,1.0,0.9199999999999999,candle,,,0.0,none,2026-11-27T20:55:36Z,4.4
 espnbet|COL@MIN|player_sog|artturi lehkonen|2.5|yes,COL@MIN,,,,,,,0.3490085948109166,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
 espnbet|COL@MIN|player_sog|artturi lehkonen|2.5|no,COL@MIN,,,,,,,0.6509914051890834,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
 espnbet|COL@MIN|player_sog|maxim shabanov|1.5|yes,COL@MIN,,,,,,,0.42768888226594093,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
@@ -634,7 +631,6 @@ kalshi|DAL@STL|spread|DAL|1.5|no,DAL@STL,,,0.68,0.69,0.685,candle,0.691079385262
 underdog|DAL@STL|player_points|jason robertson|0.5|yes,DAL@STL,,,,,,,0.6379213858088065,pinnacle,,archive,2026-11-27T18:55:36Z,4.4
 underdog|DAL@STL|player_points|robert thomas|0.5|yes,DAL@STL,,,,,,,0.6343216941131484,pinnacle,,archive,2026-11-27T18:55:36Z,4.4
 underdog|DAL@STL|player_points|mikko rantanen|0.5|yes,DAL@STL,,,,,,,0.6608291853202447,pinnacle,,archive,2026-11-27T18:55:36Z,4.4
-kalshi|DAL@STL|player_points|miro heiskanen|1.5|no,DAL@STL,,,0.82,0.86,0.84,candle,,,0.0,none,2026-11-27T18:55:36Z,4.4
 betmgm|DAL@STL|player_sog|jake neighbours|1.5|no,DAL@STL,,,,,,,0.5112040114787566,pinnacle,,archive,2026-11-27T18:55:36Z,4.4
 betmgm|DAL@STL|player_sog|wyatt johnston|2.5|yes,DAL@STL,,,,,,,0.48347295800639944,pinnacle,,archive,2026-11-27T18:55:36Z,4.4
 betmgm|DAL@STL|player_sog|wyatt johnston|2.5|no,DAL@STL,,,,,,,0.5165270419936006,pinnacle,,archive,2026-11-27T18:55:36Z,4.4
@@ -837,7 +833,6 @@ kalshi|DET@CBJ|player_points|zach werenski|0.5|yes,DET@CBJ,,,0.64,0.67,0.655,can
 kalshi|DET@CBJ|spread|CBJ|1.5|no,DET@CBJ,,,0.64,0.65,0.645,candle,0.6567847335310009,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 kalshi|DET@CBJ|player_points|zach werenski|1.5|no,DET@CBJ,,,0.7,0.72,0.71,candle,0.696969566653779,consensus,0.0,archive,2026-11-27T19:55:36Z,4.4
 underdog|DET@CBJ|player_points|zach werenski|0.5|yes,DET@CBJ,,,,,,,0.6773835932470632,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-kalshi|DET@CBJ|p1_total||0.5|yes,DET@CBJ,,,0.81,0.84,0.825,candle,,,0.0,none,2026-11-27T19:55:36Z,4.4
 fanduel|DET@CBJ|player_sog|viktor arvidsson|2.5|no,DET@CBJ,,,,,,,0.5055062250624879,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 fanduel|DET@CBJ|player_sog|lucas raymond|2.5|yes,DET@CBJ,,,,,,,0.39550619600676973,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 fanduel|DET@CBJ|player_sog|lucas raymond|2.5|no,DET@CBJ,,,,,,,0.6044938039932303,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -1518,7 +1513,6 @@ underdog|NYR@CHI|player_sog|j t miller|2.5|yes,NYR@CHI,,,,,,,0.38751383053299265
 underdog|NYR@CHI|player_sog|sam rinzel|1.5|no,NYR@CHI,,,,,,,0.4125727301166773,pinnacle,,archive,2026-11-27T22:25:36Z,4.4
 underdog|NYR@CHI|player_sog|will cuylle|2.5|yes,NYR@CHI,,,,,,,0.3814279825833423,pinnacle,,archive,2026-11-27T22:25:36Z,4.4
 kalshi|NYR@CHI|p1_total||1.5|no,NYR@CHI,,,0.43,0.44,0.435,candle,0.44526003056317853,pinnacle,0.0,archive,2026-11-27T22:25:36Z,4.4
-kalshi|NYR@CHI|total||6.5|yes,NYR@CHI,,,0.43,0.44,0.435,candle,,,0.0,none,2026-11-27T22:25:36Z,4.4
 underdog|NYR@CHI|player_sog|patrick kane|2.5|yes,NYR@CHI,,,,,,,0.39627291717320123,pinnacle,,archive,2026-11-27T22:25:36Z,4.4
 underdog|NYR@CHI|player_sog|frank nazar|2.5|yes,NYR@CHI,,,,,,,0.38751383053299265,pinnacle,,archive,2026-11-27T22:25:36Z,4.4
 underdog|NYR@CHI|player_sog|mika zibanejad|2.5|yes,NYR@CHI,,,,,,,0.44630677582075423,pinnacle,,archive,2026-11-27T22:25:36Z,4.4
@@ -1545,7 +1539,6 @@ kalshi|NYR@CHI|player_points|roman kantserov|0.5|yes,NYR@CHI,,,0.52,0.54,0.53,ca
 kalshi|NYR@CHI|player_points|sam rinzel|0.5|no,NYR@CHI,,,0.52,0.55,0.535,candle,0.5165270419936006,pinnacle,1.0,archive,2026-11-27T22:25:36Z,4.4
 kalshi|NYR@CHI|player_points|will cuylle|0.5|no,NYR@CHI,,,0.52,0.53,0.525,candle,0.5434863681281015,pinnacle,3.0,archive,2026-11-27T22:25:36Z,4.4
 underdog|NYR@CHI|player_points|roman kantserov|0.5|yes,NYR@CHI,,,,,,,0.5275730862680911,pinnacle,,archive,2026-11-27T22:25:36Z,4.4
-kalshi|NYR@CHI|total||6.5|no,NYR@CHI,,,0.56,0.57,0.565,candle,,,0.0,none,2026-11-27T22:25:36Z,4.4
 kalshi|NYR@CHI|player_points|frank nazar|0.5|yes,NYR@CHI,,,0.55,0.56,0.555,candle,0.5643478932442502,pinnacle,0.0,archive,2026-11-27T22:25:36Z,4.4
 kalshi|NYR@CHI|player_points|anton frondell|0.5|no,NYR@CHI,,,0.52,0.56,0.54,candle,0.5356937238338164,pinnacle,0.0,archive,2026-11-27T22:25:36Z,4.4
 prizepicks|NYR@CHI|player_points|sam rinzel|0.5|no,NYR@CHI,,,,,,,0.5165270419936006,pinnacle,,archive,2026-11-27T22:25:36Z,4.4
@@ -1707,7 +1700,6 @@ underdog|OTT@TBL|player_sog|tim stutzle|2.5|yes,OTT@TBL,,,,,,,0.4140649548636218
 underdog|OTT@TBL|player_points|claude giroux|0.5|yes,OTT@TBL,,,,,,,0.421699627813042,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|OTT@TBL|player_points|brayden point|0.5|no,OTT@TBL,,,,,,,0.4125727301166773,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 kalshi|OTT@TBL|p1_total||1.5|no,OTT@TBL,,,0.44,0.46,0.45,candle,0.45241489286086944,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
-kalshi|OTT@TBL|total||5.5|no,OTT@TBL,,,0.43,0.44,0.435,candle,,,0.0,none,2026-11-27T19:55:36Z,4.4
 underdog|OTT@TBL|player_sog|ridly greig|1.5|no,OTT@TBL,,,,,,,0.4579067075572798,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|OTT@TBL|player_points|anthony cirelli|0.5|yes,OTT@TBL,,,,,,,0.44582631543951334,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|OTT@TBL|player_sog|brandon hagel|2.5|no,OTT@TBL,,,,,,,0.4392579960949785,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -1735,7 +1727,6 @@ kalshi|OTT@TBL|player_points|shane pinto|0.5|no,OTT@TBL,,,0.51,0.54,0.525,candle
 kalshi|OTT@TBL|player_points|dylan cozens|0.5|no,OTT@TBL,,,0.54,0.59,0.565,candle,0.5495039019869298,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 underdog|OTT@TBL|player_points|shane pinto|0.5|no,OTT@TBL,,,,,,,0.527573086268091,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|OTT@TBL|player_sog|jake guentzel|2.5|no,OTT@TBL,,,,,,,0.5312123494364491,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-kalshi|OTT@TBL|total||5.5|yes,OTT@TBL,,,0.56,0.57,0.565,candle,,,0.0,none,2026-11-27T19:55:36Z,4.4
 kalshi|OTT@TBL|p1_total||1.5|yes,OTT@TBL,,,0.54,0.56,0.55,candle,0.5475851071391306,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 prizepicks|OTT@TBL|player_points|john carlson|0.5|no,OTT@TBL,,,,,,,0.5055062250624879,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 prizepicks|OTT@TBL|player_points|shane pinto|0.5|no,OTT@TBL,,,,,,,0.527573086268091,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -1968,7 +1959,6 @@ underdog|PIT@BUF|player_points|zach benson|0.5|yes,PIT@BUF,2026-11-27T19:50:14-0
 underdog|PIT@BUF|player_points|rasmus dahlin|0.5|yes,PIT@BUF,,,,,,,0.6412431630229632,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
 kalshi|PIT@BUF|player_points|tage thompson|0.5|yes,PIT@BUF,,,0.67,0.68,0.675,candle,0.6690423037984916,pinnacle,1.0,archive,2026-11-28T00:55:36Z,4.4
 underdog|PIT@BUF|player_points|tage thompson|0.5|yes,PIT@BUF,,,,,,,0.6690423037984916,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
-kalshi|PIT@BUF|total||4.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.83,0.84,0.835,candle,,,0.0,none,2026-11-28T00:55:36Z,4.4
 espnbet|PIT@BUF|player_sog|ben kindel|1.5|no,PIT@BUF,,,,,,,0.43545621103604903,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
 espnbet|PIT@BUF|player_sog|ben kindel|1.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,,,,,0.564543788963951,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
 espnbet|PIT@BUF|player_sog|tommy novak|1.5|no,PIT@BUF,,,,,,,0.44017298355747714,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
@@ -2154,7 +2144,6 @@ underdog|SEA@EDM|player_sog|ryan nugent hopkins|1.5|yes,SEA@EDM,,,,,,,0.61929135
 underdog|SEA@EDM|player_points|mackie samoskevich|0.5|no,SEA@EDM,,,,,,,0.6132261627499951,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
 kalshi|SEA@EDM|player_points|evan bouchard|1.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.63,0.66,0.645,candle,0.6477993690080279,pinnacle,0.0,archive,2026-11-28T00:55:36Z,4.4
 underdog|SEA@EDM|player_points|evan bouchard|1.5|no,SEA@EDM,,,,,,,0.6477993690080279,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
-kalshi|SEA@EDM|spread|SEA|1.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.82,0.83,0.825,candle,,,2.0,none,2026-11-28T00:55:36Z,4.4
 betmgm|SEA@EDM|player_sog|bobby mcmann|2.5|yes,SEA@EDM,,,,,,,0.4211964089256497,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
 betmgm|SEA@EDM|player_sog|mackie samoskevich|1.5|no,SEA@EDM,,,,,,,0.4038508052554115,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
 betmgm|SEA@EDM|player_sog|mackie samoskevich|1.5|yes,SEA@EDM,,,,,,,0.5961491947445885,pinnacle,,archive,2026-11-28T00:55:36Z,4.4
@@ -2373,7 +2362,6 @@ kalshi|TOR@BOS|player_points|auston matthews|0.5|yes,TOR@BOS,,,0.63,0.68,0.655,c
 underdog|TOR@BOS|player_points|auston matthews|0.5|yes,TOR@BOS,,,,,,,0.6690423037984916,pinnacle,,archive,2026-11-27T17:55:36Z,4.4
 kalshi|TOR@BOS|player_points|hampus lindholm|0.5|no,TOR@BOS,,,0.7,0.73,0.715,candle,0.7260022564407227,pinnacle,0.0,archive,2026-11-27T17:55:36Z,4.4
 underdog|TOR@BOS|player_points|hampus lindholm|0.5|no,TOR@BOS,,,,,,,0.7260022564407227,pinnacle,,archive,2026-11-27T17:55:36Z,4.4
-kalshi|TOR@BOS|player_points|jj peterka|1.5|no,TOR@BOS,,,0.8,0.84,0.8200000000000001,candle,,,1.0,none,2026-11-27T17:55:36Z,4.4
 betmgm|TOR@BOS|player_sog|charlie mcavoy|1.5|yes,TOR@BOS,,,,,,,0.5464208361470752,pinnacle,,archive,2026-11-27T17:55:36Z,4.4
 betmgm|TOR@BOS|player_sog|charlie mcavoy|1.5|no,TOR@BOS,,,,,,,0.45357916385292485,pinnacle,,archive,2026-11-27T17:55:36Z,4.4
 betmgm|TOR@BOS|player_sog|darren raddysh|2.5|yes,TOR@BOS,,,,,,,0.46430627616618364,pinnacle,,archive,2026-11-27T17:55:36Z,4.4
@@ -2720,13 +2708,11 @@ kalshi|VAN@PHI|ml|PHI|nan|no,VAN@PHI,,,0.32,0.33,0.325,candle,0.3171760285277460
 kalshi|VAN@PHI|player_points|travis sanheim|0.5|yes,VAN@PHI,,,0.33,0.37,0.35,candle,0.3458430972604681,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 kalshi|VAN@PHI|player_points|sean couturier|0.5|yes,VAN@PHI,,,0.34,0.38,0.36,candle,0.36212404499086875,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|travis sanheim|0.5|yes,VAN@PHI,,,,,,,0.3458430972604681,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-underdog|VAN@PHI|player_sog|matvei michkov|2.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|jake debrusk|1.5|no,VAN@PHI,,,,,,,0.3690446653593862,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|tyson foerster|2.5|yes,VAN@PHI,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|sean couturier|0.5|yes,VAN@PHI,,,,,,,0.36212404499086875,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|travis konecny|2.5|yes,VAN@PHI,,,,,,,0.39550619600676973,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 kalshi|VAN@PHI|player_points|marco rossi|0.5|yes,VAN@PHI,,,0.42,0.44,0.43,candle,0.421699627813042,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
-kalshi|VAN@PHI|player_points|matvei michkov|0.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 kalshi|VAN@PHI|player_points|travis konecny|0.5|no,VAN@PHI,,,0.4,0.47,0.435,candle,0.4140649548636217,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|trevor zegras|1.5|no,VAN@PHI,,,,,,,0.3867738372500048,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|denver barkey|1.5|yes,VAN@PHI,,,,,,,0.3883408046304786,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -2739,7 +2725,6 @@ underdog|VAN@PHI|player_sog|filip chytil|1.5|no,VAN@PHI,,,,,,,0.392268305092628,
 underdog|VAN@PHI|player_sog|jamie drysdale|1.5|yes,VAN@PHI,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 kalshi|VAN@PHI|player_points|brock boeser|0.5|no,VAN@PHI,,,0.44,0.45,0.445,candle,0.4276888822659408,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|filip chytil|0.5|yes,VAN@PHI,,,,,,,0.4125727301166773,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-underdog|VAN@PHI|player_points|matvei michkov|0.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|travis konecny|0.5|no,VAN@PHI,,,,,,,0.4140649548636217,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|sean couturier|1.5|yes,VAN@PHI,,,,,,,0.43565210675575,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|trevor zegras|0.5|no,VAN@PHI,,,,,,,0.43725817311721515,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -2811,14 +2796,12 @@ kalshi|VAN@PHI|player_points|marco rossi|0.5|no,VAN@PHI,,,0.56,0.58,0.5700000000
 kalshi|VAN@PHI|player_points|travis konecny|0.5|yes,VAN@PHI,,,0.53,0.6,0.565,candle,0.5859350451363783,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 kalshi|VAN@PHI|player_points|brock boeser|0.5|yes,VAN@PHI,,,0.55,0.56,0.555,candle,0.5723111177340592,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|filip hronek|0.5|no,VAN@PHI,,,,,,,0.5506638564937638,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-kalshi|VAN@PHI|player_points|matvei michkov|0.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|marco rossi|1.5|no,VAN@PHI,,,,,,,0.527573086268091,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|jonathan lekkerimaki|0.5|no,VAN@PHI,,,,,,,0.5495039019869298,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|marco rossi|0.5|no,VAN@PHI,,,,,,,0.578300372186958,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|travis konecny|0.5|yes,VAN@PHI,,,,,,,0.5859350451363783,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|sean couturier|1.5|no,VAN@PHI,,,,,,,0.56434789324425,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|trevor zegras|0.5|yes,VAN@PHI,,,,,,,0.5627418268827848,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-underdog|VAN@PHI|player_points|matvei michkov|0.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|filip chytil|0.5|no,VAN@PHI,,,,,,,0.5874272698833227,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|jamie drysdale|1.5|no,VAN@PHI,,,,,,,0.5937646677129587,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 kalshi|VAN@PHI|player_points|sean couturier|0.5|no,VAN@PHI,,,0.62,0.66,0.64,candle,0.6378759550091313,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
@@ -2827,7 +2810,6 @@ underdog|VAN@PHI|player_sog|porter martone|1.5|yes,VAN@PHI,,,,,,,0.5996431374236
 underdog|VAN@PHI|player_sog|filip chytil|1.5|yes,VAN@PHI,,,,,,,0.607731694907372,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|denver barkey|1.5|no,VAN@PHI,,,,,,,0.6116591953695214,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|trevor zegras|1.5|yes,VAN@PHI,,,,,,,0.6132261627499952,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-underdog|VAN@PHI|player_sog|matvei michkov|2.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|tyson foerster|2.5|no,VAN@PHI,,,,,,,0.6309553346406137,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_sog|jake debrusk|1.5|yes,VAN@PHI,,,,,,,0.6309553346406138,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 underdog|VAN@PHI|player_points|sean couturier|0.5|no,VAN@PHI,,,,,,,0.6378759550091313,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -2836,8 +2818,6 @@ underdog|VAN@PHI|player_points|travis sanheim|0.5|no,VAN@PHI,,,,,,,0.65415690273
 kalshi|VAN@PHI|ml|PHI|nan|yes,VAN@PHI,,,0.67,0.68,0.675,candle,0.6828239714722539,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 kalshi|VAN@PHI|ml|VAN|nan|no,VAN@PHI,,,0.67,0.68,0.675,candle,0.6828239714722537,pinnacle,0.0,archive,2026-11-27T19:55:36Z,4.4
 fanduel|VAN@PHI|player_sog|filip chytil|1.5|yes,VAN@PHI,,,,,,,0.607731694907372,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-fanduel|VAN@PHI|player_sog|matvei michkov|1.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
-fanduel|VAN@PHI|player_sog|matvei michkov|1.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 fanduel|VAN@PHI|player_sog|travis konecny|2.5|no,VAN@PHI,,,,,,,0.6044938039932303,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 fanduel|VAN@PHI|player_sog|travis konecny|2.5|yes,VAN@PHI,,,,,,,0.39550619600676973,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 fanduel|VAN@PHI|player_sog|brock boeser|1.5|no,VAN@PHI,,,,,,,0.4724269137319089,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -2866,8 +2846,6 @@ betmgm|VAN@PHI|player_sog|jamie drysdale|1.5|no,VAN@PHI,,,,,,,0.5937646677129587
 betmgm|VAN@PHI|player_sog|jamie drysdale|1.5|yes,VAN@PHI,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 betmgm|VAN@PHI|player_sog|christian dvorak|1.5|no,VAN@PHI,,,,,,,0.47877089286156227,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 betmgm|VAN@PHI|player_sog|christian dvorak|1.5|yes,VAN@PHI,,,,,,,0.5212291071384377,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-espnbet|VAN@PHI|player_sog|matvei michkov|1.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
-espnbet|VAN@PHI|player_sog|matvei michkov|1.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 espnbet|VAN@PHI|player_sog|tyson foerster|2.5|no,VAN@PHI,,,,,,,0.6309553346406137,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 espnbet|VAN@PHI|player_sog|tyson foerster|2.5|yes,VAN@PHI,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 espnbet|VAN@PHI|player_sog|jake debrusk|1.5|yes,VAN@PHI,,,,,,,0.6309553346406138,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -2935,7 +2913,6 @@ espnbet|VAN@PHI|player_sog|marco rossi|1.5|no,VAN@PHI,,,,,,,0.527573086268091,pi
 espnbet|VAN@PHI|player_sog|marco rossi|1.5|yes,VAN@PHI,,,,,,,0.4724269137319091,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 fanduel|VAN@PHI|player_sog|tyson foerster|2.5|yes,VAN@PHI,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 fanduel|VAN@PHI|player_sog|jake debrusk|1.5|yes,VAN@PHI,,,,,,,0.6309553346406138,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-draftkings|VAN@PHI|player_sog|matvei michkov|1.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 fanduel|VAN@PHI|player_sog|jamie drysdale|1.5|yes,VAN@PHI,,,,,,,0.40623533228704134,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 fanduel|VAN@PHI|player_sog|jonathan lekkerimaki|1.5|yes,VAN@PHI,,,,,,,0.5234686850875162,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 fanduel|VAN@PHI|player_sog|trevor zegras|1.5|yes,VAN@PHI,,,,,,,0.6132261627499952,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -2948,7 +2925,6 @@ betrivers|VAN@PHI|player_sog|christian dvorak|1.5|yes,VAN@PHI,,,,,,,0.5212291071
 betmgm|VAN@PHI|player_sog|tyson foerster|2.5|yes,VAN@PHI,,,,,,,0.3690446653593863,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 betmgm|VAN@PHI|player_sog|filip chytil|1.5|yes,VAN@PHI,,,,,,,0.607731694907372,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 betmgm|VAN@PHI|player_sog|travis konecny|2.5|yes,VAN@PHI,,,,,,,0.39550619600676973,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
-betmgm|VAN@PHI|player_sog|matvei michkov|1.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
 betrivers|VAN@PHI|player_sog|denver barkey|1.5|yes,VAN@PHI,,,,,,,0.3883408046304786,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 betrivers|VAN@PHI|player_sog|trevor zegras|1.5|yes,VAN@PHI,,,,,,,0.6132261627499952,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
 betrivers|VAN@PHI|player_sog|travis konecny|2.5|yes,VAN@PHI,,,,,,,0.39550619600676973,pinnacle,,archive,2026-11-27T19:55:36Z,4.4
@@ -3078,7 +3054,6 @@ kalshi|VGK@SJS|player_points|mitch marner|0.5|yes,VGK@SJS,,,0.67,0.68,0.675,cand
 underdog|VGK@SJS|player_points|mark stone|0.5|yes,VGK@SJS,,,,,,,0.6632189307421554,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
 underdog|VGK@SJS|player_points|macklin celebrini|1.5|no,VGK@SJS,,,,,,,0.665573769221226,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
 underdog|VGK@SJS|player_points|mitch marner|0.5|yes,VGK@SJS,,,,,,,0.6718391624513901,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
-kalshi|VGK@SJS|total||4.5|yes,VGK@SJS,,,0.82,0.84,0.83,candle,,,0.0,none,2026-11-27T20:55:36Z,4.4
 fanduel|VGK@SJS|player_sog|mitch marner|2.5|no,VGK@SJS,,,,,,,0.5432980205109882,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
 fanduel|VGK@SJS|player_sog|mitch marner|2.5|yes,VGK@SJS,,,,,,,0.4567019794890118,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
 fanduel|VGK@SJS|player_sog|macklin celebrini|3.5|no,VGK@SJS,,,,,,,0.5912279386049695,pinnacle,,archive,2026-11-27T20:55:36Z,4.4
@@ -3396,3 +3371,28 @@ betrivers|WPG@NYI|player_sog|brayden schenn|1.5|yes,WPG@NYI,,,,,,,0.468787650563
 betrivers|WPG@NYI|player_sog|victor eklund|1.5|yes,WPG@NYI,,,,,,,0.5386616051460363,pinnacle,,archive,2026-11-28T00:25:36Z,4.4
 betrivers|WPG@NYI|player_sog|kyle connor|3.5|yes,WPG@NYI,,,,,,,0.45573220514560503,pinnacle,,archive,2026-11-28T00:25:36Z,4.4
 betmgm|WPG@NYI|player_sog|cole perfetti|2.5|yes,WPG@NYI,,,,,,,0.38677383725000497,pinnacle,,archive,2026-11-28T00:25:36Z,4.4
+kalshi|CGY@NJD|player_points|luke hughes|1.5|yes,CGY@NJD,,,0.12,0.2,0.16,candle,,,0.0,none,2026-11-27T17:55:36Z,4.4
+kalshi|CGY@NJD|player_points|timo meier|1.5|no,CGY@NJD,,,0.83,0.92,0.875,candle,,,0.0,none,2026-11-27T17:55:36Z,4.4
+kalshi|COL@MIN|player_points|kirill kaprizov|2.5|no,COL@MIN,,,0.84,1.0,0.9199999999999999,candle,,,0.0,none,2026-11-27T20:55:36Z,4.4
+kalshi|DAL@STL|player_points|miro heiskanen|1.5|no,DAL@STL,,,0.82,0.86,0.84,candle,,,0.0,none,2026-11-27T18:55:36Z,4.4
+kalshi|DET@CBJ|p1_total||0.5|yes,DET@CBJ,,,0.81,0.84,0.825,candle,,,0.0,none,2026-11-27T19:55:36Z,4.4
+kalshi|NYR@CHI|total||6.5|yes,NYR@CHI,,,0.43,0.44,0.435,candle,,,0.0,none,2026-11-27T22:25:36Z,4.4
+kalshi|NYR@CHI|total||6.5|no,NYR@CHI,,,0.56,0.57,0.565,candle,,,0.0,none,2026-11-27T22:25:36Z,4.4
+kalshi|OTT@TBL|total||5.5|no,OTT@TBL,,,0.43,0.44,0.435,candle,,,0.0,none,2026-11-27T19:55:36Z,4.4
+kalshi|OTT@TBL|total||5.5|yes,OTT@TBL,,,0.56,0.57,0.565,candle,,,0.0,none,2026-11-27T19:55:36Z,4.4
+kalshi|PIT@BUF|total||4.5|yes,PIT@BUF,2026-11-27T19:50:14-05:00,9.8,0.83,0.84,0.835,candle,,,0.0,none,2026-11-28T00:55:36Z,4.4
+kalshi|SEA@EDM|spread|SEA|1.5|no,SEA@EDM,2026-11-27T19:50:14-05:00,9.8,0.82,0.83,0.825,candle,,,2.0,none,2026-11-28T00:55:36Z,4.4
+kalshi|TOR@BOS|player_points|jj peterka|1.5|no,TOR@BOS,,,0.8,0.84,0.8200000000000001,candle,,,1.0,none,2026-11-27T17:55:36Z,4.4
+underdog|VAN@PHI|player_sog|matvei michkov|2.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+kalshi|VAN@PHI|player_points|matvei michkov|0.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+underdog|VAN@PHI|player_points|matvei michkov|0.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+kalshi|VAN@PHI|player_points|matvei michkov|0.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+underdog|VAN@PHI|player_points|matvei michkov|0.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+underdog|VAN@PHI|player_sog|matvei michkov|2.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+fanduel|VAN@PHI|player_sog|matvei michkov|1.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+fanduel|VAN@PHI|player_sog|matvei michkov|1.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+espnbet|VAN@PHI|player_sog|matvei michkov|1.5|no,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+espnbet|VAN@PHI|player_sog|matvei michkov|1.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+draftkings|VAN@PHI|player_sog|matvei michkov|1.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+betmgm|VAN@PHI|player_sog|matvei michkov|1.5|yes,VAN@PHI,,,,,,,,,,none,2026-11-27T19:55:36Z,4.4
+kalshi|VGK@SJS|total||4.5|yes,VGK@SJS,,,0.82,0.84,0.83,candle,,,0.0,none,2026-11-27T20:55:36Z,4.4
