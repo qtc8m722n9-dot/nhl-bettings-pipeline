@@ -673,6 +673,14 @@
  },
  {
   "team_name": "St. Louis Blues",
+  "player": "Torey Krug",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Krug (ankle) was placed on long-term injured reserve by the Blues on Monday, per PuckPedia.",
+  "date": "2026-10-13T01:42Z"
+ },
+ {
+  "team_name": "St. Louis Blues",
   "player": "Dillon Dube",
   "position": "C",
   "status": "Injured Reserve",
@@ -721,6 +729,14 @@
  },
  {
   "team_name": "Toronto Maple Leafs",
+  "player": "Chris Tanev",
+  "position": "D",
+  "status": "Injured Reserve",
+  "detail": "Tanev (lower body) was placed on injured reserve Saturday, David Alter of The Hockey News reports.",
+  "date": "2026-11-28T15:52Z"
+ },
+ {
+  "team_name": "Toronto Maple Leafs",
   "player": "Jack Roslovic",
   "position": "C",
   "status": "Day-To-Day",
@@ -737,27 +753,11 @@
  },
  {
   "team_name": "Toronto Maple Leafs",
-  "player": "Chris Tanev",
-  "position": "D",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-27T23:09Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
   "player": "Cole McWard",
   "position": "D",
   "status": "Injured Reserve",
   "detail": "McWard (lower body) is considered day-to-day, per David Alter of The Hockey News on Saturday.",
   "date": "2026-11-21T15:10Z"
- },
- {
-  "team_name": "Toronto Maple Leafs",
-  "player": "Nick Blankenburg",
-  "position": "D",
-  "status": "Injured Reserve",
-  "detail": "Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday.",
-  "date": "2026-11-21T15:07Z"
  },
  {
   "team_name": "Toronto Maple Leafs",
@@ -849,19 +849,19 @@
  },
  {
   "team_name": "Vancouver Canucks",
+  "player": "Elias Pettersson",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Pettersson (upper body) was placed on injured reserve Saturday.",
+  "date": "2026-11-28T16:05Z"
+ },
+ {
+  "team_name": "Vancouver Canucks",
   "player": "Filip Chytil",
   "position": "C",
   "status": "Day-To-Day",
   "detail": "day-to-day",
   "date": "2026-11-27T22:13Z"
- },
- {
-  "team_name": "Vancouver Canucks",
-  "player": "Elias Pettersson",
-  "position": "C",
-  "status": "Out",
-  "detail": "out",
-  "date": "2026-11-25T16:25Z"
  },
  {
   "team_name": "Vancouver Canucks",
@@ -934,5 +934,13 @@
   "status": "Injured Reserve",
   "detail": "ir",
   "date": "2026-10-23T18:11Z"
+ },
+ {
+  "team_name": "Winnipeg Jets",
+  "player": "Nick Bjugstad",
+  "position": "C",
+  "status": "Injured Reserve",
+  "detail": "Bjugstad (pectoral), Dawson Mercer, Nico Daws, Alexander Command and a pair of draft picks were traded to the Jets from the Devils on Friday in exchange for Connor Hellebuyck.",
+  "date": "2026-10-23T16:48Z"
  }
 ]

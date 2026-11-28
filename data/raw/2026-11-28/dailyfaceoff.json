@@ -17,8 +17,8 @@
   "side": "home",
   "team_name": "Florida Panthers",
   "goalie": "Akira Schmid",
-  "status": "Unconfirmed",
-  "updated": "2026-11-28"
+  "status": "Likely",
+  "updated": "2026-11-28T15:29:22.207Z"
  },
  {
   "side": "away",
@@ -26,6 +26,20 @@
   "goalie": "Andrei Vasilevskiy",
   "status": "Unconfirmed",
   "updated": "2026-11-28"
+ },
+ {
+  "side": "home",
+  "team_name": "New Jersey Devils",
+  "goalie": "Connor Hellebuyck",
+  "status": "Confirmed",
+  "updated": "2026-11-27T15:57:48.305Z"
+ },
+ {
+  "side": "away",
+  "team_name": "Winnipeg Jets",
+  "goalie": "Nico Daws",
+  "status": "Confirmed",
+  "updated": "2026-11-28T15:32:21.554Z"
  },
  {
   "side": "home",
@@ -73,27 +87,13 @@
   "side": "home",
   "team_name": "Carolina Hurricanes",
   "goalie": "Pyotr Kochetkov",
-  "status": "Unconfirmed",
-  "updated": "2026-11-28"
+  "status": "Confirmed",
+  "updated": "2026-11-28T16:10:53.301Z"
  },
  {
   "side": "away",
   "team_name": "Ottawa Senators",
   "goalie": "Samuel Ersson",
-  "status": "Unconfirmed",
-  "updated": "2026-11-28"
- },
- {
-  "side": "home",
-  "team_name": "New Jersey Devils",
-  "goalie": "Connor Hellebuyck",
-  "status": "Confirmed",
-  "updated": "2026-11-27T15:57:48.305Z"
- },
- {
-  "side": "away",
-  "team_name": "Winnipeg Jets",
-  "goalie": "Nico Daws",
   "status": "Unconfirmed",
   "updated": "2026-11-28"
  },
@@ -115,8 +115,8 @@
   "side": "home",
   "team_name": "Philadelphia Flyers",
   "goalie": "Joseph Woll",
-  "status": "Unconfirmed",
-  "updated": "2026-11-28"
+  "status": "Confirmed",
+  "updated": "2026-11-28T15:48:23.702Z"
  },
  {
   "side": "away",
@@ -136,8 +136,8 @@
   "side": "away",
   "team_name": "Utah Mammoth",
   "goalie": "Sebastian Cossa",
-  "status": "Unconfirmed",
-  "updated": "2026-11-28"
+  "status": "Likely",
+  "updated": "2026-11-28T16:01:18.005Z"
  },
  {
   "side": "home",
